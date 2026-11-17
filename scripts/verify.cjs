@@ -59,15 +59,28 @@ app.on('ready', async () => {
     )
   }
 
-  /* 取当前句全部待敲字符 */
+  /* 标点：顺手打出句号不应前进，也不该算错 */
+  await press('.')
+  await wait(120)
+  const sp0 = await run(
+    `(() => { const s = window.__spellpal.getState(); return { typed: s.typed, wrong: s.wrongItemIds.length, tk: s.tokenIndex }; })()`,
+  )
+  check(
+    '打标点不算错也不前进',
+    sp0.typed === '' && sp0.wrong === 0 && sp0.tk === 0,
+    JSON.stringify(sp0),
+  )
+
+  /* 取当前句全部待敲字符（撇号、连字符、标点都不算） */
   const charsOfSentence = () =>
     run(`
       (() => {
         const s = window.__spellpal.getState();
         const sen = s.book.sentences.find(x => x.id === s.queue[s.index]);
+        const SKIP = new Set(["'", '\\u2019', '-', '.', ',', '?', '!', ';', ':', '"', '\\u201c', '\\u201d', '(', ')', '\\u2026']);
         const out = [];
         for (const t of sen.tokens) {
-          for (const c of [...t.en]) if (c !== "'" && c !== '\\u2019' && c !== '-') out.push(c);
+          for (const c of [...t.en]) if (!SKIP.has(c)) out.push(c);
         }
         return out;
       })()

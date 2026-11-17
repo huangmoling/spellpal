@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useApp } from '@/store/useApp'
 import { BottomBar, ProgressBar, StageFrame, TopBar } from '@/components/StageFrame'
 import SentenceBoard from '@/components/SentenceBoard'
-import { formatDuration } from '@/core/typing'
+import { formatDuration, isPunct } from '@/core/typing'
 import { sfx } from '@/utils/sound'
 import { speak, warmupSpeech } from '@/utils/speech'
 import { markMastered } from '@/utils/srs'
@@ -86,6 +86,9 @@ export default function Practice() {
       if (e.key.length !== 1) return
       e.preventDefault()
 
+      /* 标点不参与判定：孩子顺手打出句号/问号也不该算错，直接忽略 */
+      if (isPunct(e.key)) return
+
       const result = typeKey(e.key)
       if (result === 'bad') {
         sfx.bad()
@@ -118,8 +121,8 @@ export default function Practice() {
         label={kind === 'review' ? '已复习' : '已练句'}
       />
 
-      <main className="relative flex flex-1 items-center justify-center px-10">
-        <div className="w-full max-w-[1000px]">
+      <main className="relative flex min-h-0 flex-1 flex-col px-5 pb-1 pt-1">
+        <div className="flex min-h-0 w-full flex-1 flex-col">
           <SentenceBoard
             sentence={sentence}
             tokenIndex={tokenIndex}
@@ -129,10 +132,6 @@ export default function Practice() {
             reveal={reveal}
             onSpeak={doSpeak}
           />
-        </div>
-
-        <div className="pointer-events-none absolute bottom-2 left-1/2 -translate-x-1/2 text-center text-[11px] leading-relaxed text-muted/45">
-          照着中文意思和发音，把整句英文敲出来 · 打对一个词会自动跳到下一个词
         </div>
 
         {toast && (

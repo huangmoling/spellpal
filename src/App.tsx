@@ -8,6 +8,11 @@ import { BOOKS, DEFAULT_BOOK_ID } from '@/data/books'
 
 const BOOK_KEY = 'spellpal:book'
 
+/* 开发期调试接口：自动化截图脚本用它直接指定教材与单元 */
+if (typeof window !== 'undefined') {
+  ;(window as unknown as Record<string, unknown>).__spellpalBooks = BOOKS
+}
+
 export default function App() {
   const phase = useApp((s) => s.phase)
   const [bookId, setBookId] = useState<string>(() => {

@@ -1,0 +1,1071 @@
+{
+  "id": "starter-phonics",
+  "title": "自然拼读起步（小拼手启蒙）",
+  "shortTitle": "拼读起步",
+  "publisher": "小拼手自编",
+  "series": "启蒙路径",
+  "grade": 0,
+  "term": "up",
+  "edition": "L0 · 自然拼读",
+  "stage": "starter",
+  "wordCount": 26,
+  "sentenceCount": 24,
+  "updatedAt": "2026-11-17",
+  "units": [
+    {
+      "no": 1,
+      "title": "Unit 1",
+      "theme": "字母 a 的音 /æ/",
+      "wordIds": [
+        "starter-phonics-u1-01",
+        "starter-phonics-u1-02",
+        "starter-phonics-u1-03",
+        "starter-phonics-u1-04"
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Unit 2",
+      "theme": "字母 e 的音 /e/",
+      "wordIds": [
+        "starter-phonics-u2-01",
+        "starter-phonics-u2-02",
+        "starter-phonics-u2-03",
+        "starter-phonics-u2-04"
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Unit 3",
+      "theme": "字母 i 的音 /ɪ/",
+      "wordIds": [
+        "starter-phonics-u3-01",
+        "starter-phonics-u3-02",
+        "starter-phonics-u3-03",
+        "starter-phonics-u3-04"
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Unit 4",
+      "theme": "字母 o 的音 /ɒ/",
+      "wordIds": [
+        "starter-phonics-u4-01",
+        "starter-phonics-u4-02",
+        "starter-phonics-u4-03",
+        "starter-phonics-u4-04"
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Unit 5",
+      "theme": "字母 u 的音 /ʌ/",
+      "wordIds": [
+        "starter-phonics-u5-01",
+        "starter-phonics-u5-02",
+        "starter-phonics-u5-03",
+        "starter-phonics-u5-04"
+      ]
+    },
+    {
+      "no": 6,
+      "title": "Unit 6",
+      "theme": "最常用的六个小词",
+      "wordIds": [
+        "starter-phonics-u6-01",
+        "starter-phonics-u6-02",
+        "starter-phonics-u6-03",
+        "starter-phonics-u6-04",
+        "starter-phonics-u6-05",
+        "starter-phonics-u6-06"
+      ]
+    }
+  ],
+  "words": [
+    {
+      "id": "starter-phonics-u1-01",
+      "word": "cat",
+      "phoneticUK": "/kæt/",
+      "syllables": [
+        "cat"
+      ],
+      "senses": [
+        {
+          "cn": "猫",
+          "cnFull": "猫"
+        }
+      ],
+      "grade": 0,
+      "unit": 1
+    },
+    {
+      "id": "starter-phonics-u1-02",
+      "word": "hat",
+      "phoneticUK": "/hæt/",
+      "syllables": [
+        "hat"
+      ],
+      "senses": [
+        {
+          "cn": "帽子",
+          "cnFull": "帽子"
+        }
+      ],
+      "grade": 0,
+      "unit": 1
+    },
+    {
+      "id": "starter-phonics-u1-03",
+      "word": "bat",
+      "phoneticUK": "/bæt/",
+      "syllables": [
+        "bat"
+      ],
+      "senses": [
+        {
+          "cn": "蝙蝠",
+          "cnFull": "蝙蝠"
+        }
+      ],
+      "grade": 0,
+      "unit": 1
+    },
+    {
+      "id": "starter-phonics-u1-04",
+      "word": "map",
+      "phoneticUK": "/mæp/",
+      "syllables": [
+        "map"
+      ],
+      "senses": [
+        {
+          "cn": "地图",
+          "cnFull": "地图"
+        }
+      ],
+      "grade": 0,
+      "unit": 1
+    },
+    {
+      "id": "starter-phonics-u2-01",
+      "word": "bed",
+      "phoneticUK": "/bed/",
+      "syllables": [
+        "bed"
+      ],
+      "senses": [
+        {
+          "cn": "床",
+          "cnFull": "床"
+        }
+      ],
+      "grade": 0,
+      "unit": 2
+    },
+    {
+      "id": "starter-phonics-u2-02",
+      "word": "red",
+      "phoneticUK": "/red/",
+      "syllables": [
+        "red"
+      ],
+      "senses": [
+        {
+          "cn": "红色",
+          "cnFull": "红色"
+        }
+      ],
+      "grade": 0,
+      "unit": 2
+    },
+    {
+      "id": "starter-phonics-u2-03",
+      "word": "pen",
+      "phoneticUK": "/pen/",
+      "syllables": [
+        "pen"
+      ],
+      "senses": [
+        {
+          "cn": "钢笔",
+          "cnFull": "钢笔"
+        }
+      ],
+      "grade": 0,
+      "unit": 2
+    },
+    {
+      "id": "starter-phonics-u2-04",
+      "word": "ten",
+      "phoneticUK": "/ten/",
+      "syllables": [
+        "ten"
+      ],
+      "senses": [
+        {
+          "cn": "十",
+          "cnFull": "十"
+        }
+      ],
+      "grade": 0,
+      "unit": 2
+    },
+    {
+      "id": "starter-phonics-u3-01",
+      "word": "pig",
+      "phoneticUK": "/pɪɡ/",
+      "syllables": [
+        "pig"
+      ],
+      "senses": [
+        {
+          "cn": "猪",
+          "cnFull": "猪"
+        }
+      ],
+      "grade": 0,
+      "unit": 3
+    },
+    {
+      "id": "starter-phonics-u3-02",
+      "word": "big",
+      "phoneticUK": "/bɪɡ/",
+      "syllables": [
+        "big"
+      ],
+      "senses": [
+        {
+          "cn": "大的",
+          "cnFull": "大的"
+        }
+      ],
+      "grade": 0,
+      "unit": 3
+    },
+    {
+      "id": "starter-phonics-u3-03",
+      "word": "six",
+      "phoneticUK": "/sɪks/",
+      "syllables": [
+        "six"
+      ],
+      "senses": [
+        {
+          "cn": "六",
+          "cnFull": "六"
+        }
+      ],
+      "grade": 0,
+      "unit": 3
+    },
+    {
+      "id": "starter-phonics-u3-04",
+      "word": "sit",
+      "phoneticUK": "/sɪt/",
+      "syllables": [
+        "sit"
+      ],
+      "senses": [
+        {
+          "cn": "坐",
+          "cnFull": "坐"
+        }
+      ],
+      "grade": 0,
+      "unit": 3
+    },
+    {
+      "id": "starter-phonics-u4-01",
+      "word": "dog",
+      "phoneticUK": "/dɒɡ/",
+      "syllables": [
+        "dog"
+      ],
+      "senses": [
+        {
+          "cn": "狗",
+          "cnFull": "狗"
+        }
+      ],
+      "grade": 0,
+      "unit": 4
+    },
+    {
+      "id": "starter-phonics-u4-02",
+      "word": "box",
+      "phoneticUK": "/bɒks/",
+      "syllables": [
+        "box"
+      ],
+      "senses": [
+        {
+          "cn": "盒子",
+          "cnFull": "盒子"
+        }
+      ],
+      "grade": 0,
+      "unit": 4
+    },
+    {
+      "id": "starter-phonics-u4-03",
+      "word": "hot",
+      "phoneticUK": "/hɒt/",
+      "syllables": [
+        "hot"
+      ],
+      "senses": [
+        {
+          "cn": "热的",
+          "cnFull": "热的"
+        }
+      ],
+      "grade": 0,
+      "unit": 4
+    },
+    {
+      "id": "starter-phonics-u4-04",
+      "word": "fox",
+      "phoneticUK": "/fɒks/",
+      "syllables": [
+        "fox"
+      ],
+      "senses": [
+        {
+          "cn": "狐狸",
+          "cnFull": "狐狸"
+        }
+      ],
+      "grade": 0,
+      "unit": 4
+    },
+    {
+      "id": "starter-phonics-u5-01",
+      "word": "cup",
+      "phoneticUK": "/kʌp/",
+      "syllables": [
+        "cup"
+      ],
+      "senses": [
+        {
+          "cn": "杯子",
+          "cnFull": "杯子"
+        }
+      ],
+      "grade": 0,
+      "unit": 5
+    },
+    {
+      "id": "starter-phonics-u5-02",
+      "word": "bus",
+      "phoneticUK": "/bʌs/",
+      "syllables": [
+        "bus"
+      ],
+      "senses": [
+        {
+          "cn": "公交车",
+          "cnFull": "公交车"
+        }
+      ],
+      "grade": 0,
+      "unit": 5
+    },
+    {
+      "id": "starter-phonics-u5-03",
+      "word": "sun",
+      "phoneticUK": "/sʌn/",
+      "syllables": [
+        "sun"
+      ],
+      "senses": [
+        {
+          "cn": "太阳",
+          "cnFull": "太阳"
+        }
+      ],
+      "grade": 0,
+      "unit": 5
+    },
+    {
+      "id": "starter-phonics-u5-04",
+      "word": "run",
+      "phoneticUK": "/rʌn/",
+      "syllables": [
+        "run"
+      ],
+      "senses": [
+        {
+          "cn": "跑",
+          "cnFull": "跑"
+        }
+      ],
+      "grade": 0,
+      "unit": 5
+    },
+    {
+      "id": "starter-phonics-u6-01",
+      "word": "I",
+      "phoneticUK": "/aɪ/",
+      "syllables": [
+        "I"
+      ],
+      "senses": [
+        {
+          "cn": "我",
+          "cnFull": "我"
+        }
+      ],
+      "grade": 0,
+      "unit": 6
+    },
+    {
+      "id": "starter-phonics-u6-02",
+      "word": "a",
+      "phoneticUK": "/ə/",
+      "syllables": [
+        "a"
+      ],
+      "senses": [
+        {
+          "cn": "一个",
+          "cnFull": "一个"
+        }
+      ],
+      "grade": 0,
+      "unit": 6
+    },
+    {
+      "id": "starter-phonics-u6-03",
+      "word": "the",
+      "phoneticUK": "/ðə/",
+      "syllables": [
+        "the"
+      ],
+      "senses": [
+        {
+          "cn": "这个",
+          "cnFull": "这个"
+        }
+      ],
+      "grade": 0,
+      "unit": 6
+    },
+    {
+      "id": "starter-phonics-u6-04",
+      "word": "is",
+      "phoneticUK": "/ɪz/",
+      "syllables": [
+        "is"
+      ],
+      "senses": [
+        {
+          "cn": "是",
+          "cnFull": "是"
+        }
+      ],
+      "grade": 0,
+      "unit": 6
+    },
+    {
+      "id": "starter-phonics-u6-05",
+      "word": "my",
+      "phoneticUK": "/maɪ/",
+      "syllables": [
+        "my"
+      ],
+      "senses": [
+        {
+          "cn": "我的",
+          "cnFull": "我的"
+        }
+      ],
+      "grade": 0,
+      "unit": 6
+    },
+    {
+      "id": "starter-phonics-u6-06",
+      "word": "you",
+      "phoneticUK": "/juː/",
+      "syllables": [
+        "you"
+      ],
+      "senses": [
+        {
+          "cn": "你",
+          "cnFull": "你"
+        }
+      ],
+      "grade": 0,
+      "unit": 6
+    }
+  ],
+  "sentences": [
+    {
+      "id": "starter-phonics-u1-s01",
+      "unit": 1,
+      "cn": "一只猫。",
+      "en": "A cat.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "一只",
+          "pos": "冠词"
+        },
+        {
+          "en": "cat.",
+          "cn": "猫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u1-s02",
+      "unit": 1,
+      "cn": "我的帽子。",
+      "en": "My hat.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "hat.",
+          "cn": "帽子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u1-s03",
+      "unit": 1,
+      "cn": "一张地图。",
+      "en": "A map.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "一张",
+          "pos": "冠词"
+        },
+        {
+          "en": "map.",
+          "cn": "地图",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u1-s04",
+      "unit": 1,
+      "cn": "这是一只猫。",
+      "en": "It is a cat.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一只",
+          "pos": "冠词"
+        },
+        {
+          "en": "cat.",
+          "cn": "猫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u2-s01",
+      "unit": 2,
+      "cn": "一张红色的床。",
+      "en": "A red bed.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "一张",
+          "pos": "冠词"
+        },
+        {
+          "en": "red",
+          "cn": "红色的",
+          "pos": "形容词"
+        },
+        {
+          "en": "bed.",
+          "cn": "床",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u2-s02",
+      "unit": 2,
+      "cn": "十支钢笔。",
+      "en": "Ten pens.",
+      "tokens": [
+        {
+          "en": "Ten",
+          "cn": "十支",
+          "pos": "数词"
+        },
+        {
+          "en": "pens.",
+          "cn": "钢笔",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u2-s03",
+      "unit": 2,
+      "cn": "我的床是红色的。",
+      "en": "My bed is red.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "bed",
+          "cn": "床",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "red.",
+          "cn": "红色的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u2-s04",
+      "unit": 2,
+      "cn": "这是一支钢笔。",
+      "en": "It is a pen.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一支",
+          "pos": "冠词"
+        },
+        {
+          "en": "pen.",
+          "cn": "钢笔",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u3-s01",
+      "unit": 3,
+      "cn": "一只大猪。",
+      "en": "A big pig.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "一只",
+          "pos": "冠词"
+        },
+        {
+          "en": "big",
+          "cn": "大的",
+          "pos": "形容词"
+        },
+        {
+          "en": "pig.",
+          "cn": "猪",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u3-s02",
+      "unit": 3,
+      "cn": "六只猪。",
+      "en": "Six pigs.",
+      "tokens": [
+        {
+          "en": "Six",
+          "cn": "六只",
+          "pos": "数词"
+        },
+        {
+          "en": "pigs.",
+          "cn": "猪",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u3-s03",
+      "unit": 3,
+      "cn": "请坐下。",
+      "en": "Sit down please.",
+      "tokens": [
+        {
+          "en": "Sit",
+          "cn": "坐",
+          "pos": "动词"
+        },
+        {
+          "en": "down",
+          "cn": "下",
+          "pos": "副词"
+        },
+        {
+          "en": "please.",
+          "cn": "请",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u3-s04",
+      "unit": 3,
+      "cn": "那只猪很大。",
+      "en": "The pig is big.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "那只",
+          "pos": "冠词"
+        },
+        {
+          "en": "pig",
+          "cn": "猪",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "big.",
+          "cn": "大的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u4-s01",
+      "unit": 4,
+      "cn": "一个盒子。",
+      "en": "A box.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "box.",
+          "cn": "盒子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u4-s02",
+      "unit": 4,
+      "cn": "这只狗很热。",
+      "en": "The dog is hot.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这只",
+          "pos": "冠词"
+        },
+        {
+          "en": "dog",
+          "cn": "狗",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "hot.",
+          "cn": "热的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u4-s03",
+      "unit": 4,
+      "cn": "狐狸在盒子里。",
+      "en": "The fox is in the box.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "那只",
+          "pos": "冠词"
+        },
+        {
+          "en": "fox",
+          "cn": "狐狸",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "在",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "（里面）",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "那个",
+          "pos": "冠词"
+        },
+        {
+          "en": "box.",
+          "cn": "盒子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u4-s04",
+      "unit": 4,
+      "cn": "一只热狗。",
+      "en": "A hot dog.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "一只",
+          "pos": "冠词"
+        },
+        {
+          "en": "hot",
+          "cn": "热的",
+          "pos": "形容词"
+        },
+        {
+          "en": "dog.",
+          "cn": "狗",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u5-s01",
+      "unit": 5,
+      "cn": "一个杯子。",
+      "en": "A cup.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "cup.",
+          "cn": "杯子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u5-s02",
+      "unit": 5,
+      "cn": "一辆公交车。",
+      "en": "A bus.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "一辆",
+          "pos": "冠词"
+        },
+        {
+          "en": "bus.",
+          "cn": "公交车",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u5-s03",
+      "unit": 5,
+      "cn": "太阳升起来了。",
+      "en": "The sun is up.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "那个",
+          "pos": "冠词"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "up.",
+          "cn": "起来",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u5-s04",
+      "unit": 5,
+      "cn": "我跑。",
+      "en": "I run.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "run.",
+          "cn": "跑",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u6-s01",
+      "unit": 6,
+      "cn": "你是我的朋友。",
+      "en": "You are my friend.",
+      "tokens": [
+        {
+          "en": "You",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "friend.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u6-s02",
+      "unit": 6,
+      "cn": "这是我的杯子。",
+      "en": "This is my cup.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "cup.",
+          "cn": "杯子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u6-s03",
+      "unit": 6,
+      "cn": "我喜欢这个。",
+      "en": "I like this.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this.",
+          "cn": "这个",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u6-s04",
+      "unit": 6,
+      "cn": "那是你的帽子。",
+      "en": "That is your hat.",
+      "tokens": [
+        {
+          "en": "That",
+          "cn": "那",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "代词"
+        },
+        {
+          "en": "hat.",
+          "cn": "帽子",
+          "pos": "名词"
+        }
+      ]
+    }
+  ]
+}

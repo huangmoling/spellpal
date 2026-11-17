@@ -53,7 +53,10 @@ export interface Book {
   grade: number
   term: 'up' | 'down'
   edition: string
+  /** starter = 1–2 年级启蒙路径；primary = 小学同步教材 */
+  stage?: 'starter' | 'primary'
   wordCount: number
+  sentenceCount?: number
   updatedAt: string
   units: Unit[]
   words: Word[]

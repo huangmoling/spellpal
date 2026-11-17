@@ -128,13 +128,36 @@ function createWindow() {
 
         /* 2) 切册 + 进入会话 */
         if (action.startsWith('book')) {
-          const label = action.startsWith('book3b')
-            ? '三年级下册'
-            : action.startsWith('book4a')
-              ? '四年级上册'
-              : '三年级上册'
+          const LABELS = {
+            phonics: '拼读起步',
+            '1a': '一年级上册',
+            '1b': '一年级下册',
+            '3a': '三年级上册',
+            '3b': '三年级下册',
+            '4a': '四年级上册',
+            '4b': '四年级下册',
+            '5a': '五年级上册',
+            '6a': '六年级上册',
+          }
+          const key = action.replace(/^book/, '').split(/[-_]/)[0]
+          const label = LABELS[key] || '三年级上册'
           await clickText([label])
           await wait(400)
+          const unitNo = Number(process.env.SPELLPAL_UNIT || 0)
+          if (unitNo) {
+            const hit = await run(`
+              (() => {
+                const list = window.__spellpalBooks || [];
+                const st = window.__spellpal.getState();
+                const b = st.book || list.find((x) => x.shortTitle === ${JSON.stringify(label)});
+                if (!b) return 'no-book';
+                st.startUnit(b, ${unitNo});
+                return b.shortTitle + ' U' + ${unitNo};
+              })()
+            `)
+            log('startUnit -> ' + hit)
+            await wait(600)
+          }
         }
         if (action.startsWith('book') && !action.includes('-')) {
           // 只切册，停在书架

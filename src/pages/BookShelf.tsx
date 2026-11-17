@@ -85,33 +85,44 @@ export default function BookShelf({
 
       {/* 内容区 */}
       <div className="mx-auto flex w-full max-w-[940px] flex-1 flex-col overflow-y-auto px-8 pb-4">
-        {/* 教材切换 */}
+        {/* 教材切换：按学段分两行 */}
         {books.length > 1 && (
-          <div className="flex shrink-0 items-center gap-1.5">
-            {books.map((b) => {
-              const on = b.id === book.id
-              const done = b.units.filter((u) => progress[`${b.id}#${u.no}`]).length
-              return (
-                <button
-                  key={b.id}
-                  onClick={() => onPickBook(b.id)}
-                  className={clsx(
-                    'flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-[12px] transition',
-                    on
-                      ? 'bg-white/[0.08] text-ink ring-1 ring-white/10'
-                      : 'text-muted/60 hover:bg-white/[0.04] hover:text-ink/85',
-                  )}
-                >
-                  {b.shortTitle}
-                  <span className={clsx('tabnum text-[10px]', on ? 'text-brand/80' : 'text-muted/35')}>
-                    {done}/{b.units.length}
+          <div className="flex shrink-0 flex-col gap-1.5">
+            {[
+              { key: 'starter', label: '启蒙', list: books.filter((b) => b.stage === 'starter') },
+              { key: 'primary', label: '小学同步', list: books.filter((b) => b.stage !== 'starter') },
+            ]
+              .filter((g) => g.list.length > 0)
+              .map((g) => (
+                <div key={g.key} className="flex items-center gap-1.5">
+                  <span className="w-[52px] shrink-0 text-[10.5px] tracking-wide text-muted/40">
+                    {g.label}
                   </span>
-                </button>
-              )
-            })}
-            <span className="ml-auto text-[10.5px] text-muted/30">
-              更多册次陆续补上
-            </span>
+                  {g.list.map((b) => {
+                    const on = b.id === book.id
+                    const done = b.units.filter((u) => progress[`${b.id}#${u.no}`]).length
+                    return (
+                      <button
+                        key={b.id}
+                        onClick={() => onPickBook(b.id)}
+                        className={clsx(
+                          'flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-[11.5px] transition',
+                          on
+                            ? 'bg-white/[0.08] text-ink ring-1 ring-white/10'
+                            : 'text-muted/60 hover:bg-white/[0.04] hover:text-ink/85',
+                        )}
+                      >
+                        {b.shortTitle}
+                        <span
+                          className={clsx('tabnum text-[10px]', on ? 'text-brand/80' : 'text-muted/35')}
+                        >
+                          {done}/{b.units.length}
+                        </span>
+                      </button>
+                    )
+                  })}
+                </div>
+              ))}
           </div>
         )}
 
@@ -216,7 +227,7 @@ export default function BookShelf({
           <h2 className="text-[13px] font-medium text-ink/80">全部单元</h2>
           <span className="text-[11px] text-muted/45">
             <Layers size={10} strokeWidth={2.4} className="mr-1 inline" />
-            每单元 8 句 · 练完约 5 分钟
+            每单元约 {Math.max(1, Math.round(sentenceCount / Math.max(1, book.units.length)))} 句
           </span>
         </div>
 
