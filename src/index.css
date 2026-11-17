@@ -3,8 +3,39 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
+  /* 暗色（默认）：叠加层用白色 */
+  :root,
+  :root[data-theme='dark'] {
     color-scheme: dark;
+    --stage: 11 14 19;
+    --card: 22 28 38;
+    --panel: 31 39 51;
+    --ink: 242 245 249;
+    --muted: 139 148 166;
+    --veil: 255 255 255;
+    --brand: 124 92 255;
+    --ok: 52 211 153;
+    --err: 248 113 113;
+    --cursor: 251 191 36;
+    --glow: 0.09;
+    --hairline: 0.45;
+  }
+
+  /* 浅色：叠加层改用黑色，颜色整体压深以保证对比度 */
+  :root[data-theme='light'] {
+    color-scheme: light;
+    --stage: 245 247 251;
+    --card: 255 255 255;
+    --panel: 237 240 246;
+    --ink: 23 29 41;
+    --muted: 98 109 130;
+    --veil: 15 23 42;
+    --brand: 108 76 240;
+    --ok: 21 148 76;
+    --err: 214 40 40;
+    --cursor: 180 120 8;
+    --glow: 0.05;
+    --hairline: 0.32;
   }
 
   html,
@@ -15,23 +46,46 @@
   }
 
   body {
-    background: #0b0e13;
-    color: #f2f5f9;
+    background: rgb(var(--stage));
+    color: rgb(var(--ink));
     font-family: Inter, system-ui, 'Microsoft YaHei', 'PingFang SC', sans-serif;
     -webkit-font-smoothing: antialiased;
     overflow: hidden;
     user-select: none;
+    transition:
+      background-color 0.22s ease,
+      color 0.22s ease;
   }
 
-  /* 舞台背景的极淡径向光，避免纯黑发闷 */
+  /* 舞台背景的极淡径向光，避免纯色发闷 */
   #root::before {
     content: '';
     position: fixed;
     inset: 0;
     pointer-events: none;
     background:
-      radial-gradient(900px 520px at 50% 22%, rgba(124, 92, 255, 0.09), transparent 62%),
-      radial-gradient(700px 420px at 82% 96%, rgba(52, 211, 153, 0.05), transparent 60%);
+      radial-gradient(
+        900px 520px at 50% 22%,
+        rgba(124, 92, 255, var(--glow)),
+        transparent 62%
+      ),
+      radial-gradient(700px 420px at 82% 96%, rgba(52, 211, 153, var(--glow)), transparent 60%);
+  }
+
+  /* 滚动条跟着主题走，别让 Windows 默认的白/黑粗条破坏画面 */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(var(--veil) / 0.13);
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(var(--veil) / 0.24);
   }
 }
 
@@ -41,5 +95,9 @@
   }
   .tabnum {
     font-variant-numeric: tabular-nums;
+  }
+  /* 词块里「还没打出来的字母」那条下划线，两套主题各自一个对比度 */
+  .hairline {
+    border-color: rgb(var(--veil) / var(--hairline));
   }
 }

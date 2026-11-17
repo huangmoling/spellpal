@@ -3,13 +3,11 @@ import {
   Check,
   ChevronLeft,
   ChevronRight,
-  CreditCard,
   EyeOff,
-  Maximize2,
-  RotateCcw,
   Settings,
   SkipForward,
 } from 'lucide-react'
+import clsx from 'clsx'
 
 /* ---------- 顶栏 ---------- */
 
@@ -33,7 +31,7 @@ export function TopBar({
     >
       <button
         onClick={onBack}
-        className="no-drag flex h-8 w-8 items-center justify-center rounded-lg text-muted transition hover:bg-white/5 hover:text-ink"
+        className="no-drag flex h-8 w-8 items-center justify-center rounded-lg text-muted transition hover:bg-veil/5 hover:text-ink"
         aria-label="返回"
       >
         <ChevronLeft size={20} strokeWidth={2.2} />
@@ -50,23 +48,10 @@ export function TopBar({
 
       <div className="no-drag ml-auto flex items-center gap-0.5 pr-[118px]">
         {right}
-        {[
-          { icon: CreditCard, label: '词卡' },
-          { icon: RotateCcw, label: '重练' },
-          { icon: Maximize2, label: '全屏' },
-        ].map(({ icon: Icon, label }) => (
-          <button
-            key={label}
-            title={label}
-            className="flex h-8 w-8 items-center justify-center rounded-lg text-muted transition hover:bg-white/5 hover:text-ink"
-          >
-            <Icon size={16} strokeWidth={1.9} />
-          </button>
-        ))}
         <button
           onClick={onSettings}
           title="设置"
-          className="flex h-8 w-8 items-center justify-center rounded-lg text-muted transition hover:bg-white/5 hover:text-ink"
+          className="flex h-8 w-8 items-center justify-center rounded-lg text-muted transition hover:bg-veil/5 hover:text-ink"
         >
           <Settings size={16} strokeWidth={1.9} />
         </button>
@@ -90,17 +75,17 @@ export function ProgressBar({
 }) {
   const pct = total ? Math.min(100, (done / total) * 100) : 0
   return (
-    <div className="flex h-7 shrink-0 items-center gap-3 px-5">
-      <span className="tabnum shrink-0 text-[11px] text-muted">
-        {label} <span className="text-ink/80">{done}</span>/{total}
+    <div className="flex h-6 shrink-0 items-center gap-2.5 px-5">
+      <span className="tabnum shrink-0 text-[10.5px] text-muted/70">
+        {label} <span className="text-ink/70">{done}</span>/{total}
       </span>
-      <div className="relative h-[3px] flex-1 overflow-hidden rounded-full bg-white/[0.07]">
+      <div className="relative h-[2px] flex-1 overflow-hidden rounded-full bg-veil/[0.06]">
         <div
-          className="absolute inset-y-0 left-0 rounded-full bg-brand transition-[width] duration-300"
-          style={{ width: `${pct}%`, boxShadow: '0 0 12px rgba(124,92,255,0.55)' }}
+          className="absolute inset-y-0 left-0 rounded-full bg-brand/90 transition-[width] duration-300"
+          style={{ width: `${pct}%` }}
         />
       </div>
-      <span className="tabnum shrink-0 text-[11px] text-muted">{timeText}</span>
+      <span className="tabnum shrink-0 text-[10.5px] text-muted/55">{timeText}</span>
     </div>
   )
 }
@@ -113,6 +98,7 @@ export function BottomBar({
   onNext,
   onReveal,
   onMaster,
+  skipDisabled = false,
   extra,
   hintLeft,
 }: {
@@ -121,21 +107,27 @@ export function BottomBar({
   onNext?: () => void
   onReveal?: () => void
   onMaster?: () => void
+  /** 跳过开关关闭时，按钮变灰但还能点（点了会给出说明） */
+  skipDisabled?: boolean
   extra?: ReactNode
   hintLeft?: ReactNode
 }) {
   const iconBtn =
-    'flex h-9 w-9 items-center justify-center rounded-lg text-muted transition hover:bg-white/[0.07] hover:text-ink'
+    'flex h-9 w-9 items-center justify-center rounded-lg text-muted transition hover:bg-veil/[0.07] hover:text-ink'
 
   return (
     <footer className="grid h-[68px] shrink-0 grid-cols-[1fr_auto_1fr] items-center gap-4 px-5">
       <div className="flex min-w-0 items-center text-[12px] text-muted/60">{hintLeft}</div>
 
-      <div className="flex items-center gap-1 rounded-2xl bg-card/80 px-2 py-1.5 ring-1 ring-white/[0.06] backdrop-blur">
-        <button className={iconBtn} onClick={onPrev} title="上一题">
+      <div className="flex items-center gap-1 rounded-2xl bg-card/80 px-2 py-1.5 ring-1 ring-veil/[0.06] backdrop-blur">
+        <button className={iconBtn} onClick={onPrev} title="上一句">
           <ChevronLeft size={18} strokeWidth={2} />
         </button>
-        <button className={iconBtn} onClick={onSkip} title="跳过（Enter）">
+        <button
+          className={clsx(iconBtn, skipDisabled && 'text-muted/30 hover:text-muted/50')}
+          onClick={onSkip}
+          title={skipDisabled ? '跳过已关闭（到设置里打开回车跳过）' : '跳过整句（Enter）'}
+        >
           <SkipForward size={17} strokeWidth={2} />
         </button>
         <button className={iconBtn} onClick={onReveal} title="显示答案">
@@ -148,13 +140,16 @@ export function BottomBar({
 
         <button
           onClick={onNext}
-          className="ml-1 h-9 rounded-xl bg-brand px-5 text-[13px] font-medium leading-none text-white shadow-[0_4px_18px_rgba(124,92,255,0.4)] transition hover:brightness-110 active:scale-[0.98]"
+          className={clsx(
+            'ml-1 flex h-9 items-center gap-1.5 rounded-xl px-5 text-[13px] font-medium leading-none transition active:scale-[0.98]',
+            skipDisabled
+              ? 'bg-veil/[0.07] text-muted/70 hover:bg-veil/[0.1]'
+              : 'bg-brand text-white shadow-[0_4px_18px_rgba(124,92,255,0.4)] hover:brightness-110',
+          )}
+          title={skipDisabled ? '跳过已关闭（到设置里打开回车跳过）' : '下一句'}
         >
-          下一题
-        </button>
-
-        <button className={iconBtn} onClick={onNext} title="下一题">
-          <ChevronRight size={18} strokeWidth={2} />
+          <span>下一题</span>
+          <ChevronRight size={15} strokeWidth={2.4} />
         </button>
       </div>
 

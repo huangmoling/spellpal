@@ -35,6 +35,21 @@ interface AppState {
   fontScale: number
   setFontScale: (v: number) => void
 
+  /* ---- 外观与偏好 ---- */
+  theme: Theme
+  setTheme: (t: Theme) => void
+  /** 虚拟键盘与指法提示 */
+  kbOn: boolean
+  setKbOn: (v: boolean) => void
+  /** 空格键：显示答案（默认关闭，防止孩子用空格逃避拼写） */
+  spaceReveal: boolean
+  /** 回车键：跳过整句（默认关闭） */
+  enterSkip: boolean
+  setToggle: (key: 'spaceReveal' | 'enterSkip', v: boolean) => void
+  /** 设置面板是否打开——打开时要屏蔽练习页的全局键盘，否则 Esc 会连带退出练习 */
+  settingsOpen: boolean
+  setSettingsOpen: (v: boolean) => void
+
   startUnit: (book: Book, unitNo: number, order?: 'seq' | 'random') => void
   startReview: (book: Book, sentenceIds: string[]) => void
   typeKey: (key: string) => 'ok' | 'word' | 'bad' | 'done' | 'idle'
@@ -54,15 +69,39 @@ interface AppState {
 const sentenceIdsOf = (book: Book, unitNo: number) =>
   (book.sentences ?? []).filter((s) => s.unit === unitNo).map((s) => s.id)
 
-/* 字号倍率持久化：0.8 – 1.6，默认 1.15 */
+/* 字号倍率持久化：0.8 – 2.0，默认 1.15 */
 const FONT_KEY = 'spellpal:font'
 export const FONT_MIN = 0.8
-export const FONT_MAX = 1.6
+export const FONT_MAX = 2
 export const FONT_DEFAULT = 1.15
 
 const readFontScale = () => {
   const raw = Number(localStorage.getItem(FONT_KEY))
   return Number.isFinite(raw) && raw >= FONT_MIN && raw <= FONT_MAX ? raw : FONT_DEFAULT
+}
+
+/* ---------- 外观与偏好 ---------- */
+
+export type Theme = 'dark' | 'light'
+
+const THEME_KEY = 'spellpal:theme'
+const KB_KEY = 'spellpal:kb'
+const SPACE_KEY = 'spellpal:opt-space'
+const ENTER_KEY = 'spellpal:opt-enter'
+
+const readTheme = (): Theme => (localStorage.getItem(THEME_KEY) === 'light' ? 'light' : 'dark')
+/** 虚拟键盘默认开；空格/回车两个「逃避键」默认关 */
+const readFlag = (key: string, fallback: boolean) => {
+  const raw = localStorage.getItem(key)
+  return raw === null ? fallback : raw === '1'
+}
+
+/** 把主题写到 <html data-theme>，CSS 变量与 color-scheme 都靠它 */
+export const applyTheme = (t: Theme) => {
+  if (typeof document === 'undefined') return
+  document.documentElement.dataset.theme = t
+  /* 无边框窗口的底色也一起换，否则切主题/滚动时会闪一下另一套底色 */
+  ;(window as unknown as { spellpal?: { setTheme?: (v: string) => void } }).spellpal?.setTheme?.(t)
 }
 
 export const useApp = create<AppState>((set, get) => ({
@@ -86,6 +125,30 @@ export const useApp = create<AppState>((set, get) => ({
     const next = Math.min(FONT_MAX, Math.max(FONT_MIN, Math.round(v * 100) / 100))
     localStorage.setItem(FONT_KEY, String(next))
     set({ fontScale: next })
+  },
+
+  theme: readTheme(),
+  setTheme: (t) => {
+    localStorage.setItem(THEME_KEY, t)
+    applyTheme(t)
+    set({ theme: t })
+  },
+
+  kbOn: readFlag(KB_KEY, true),
+  setKbOn: (v) => {
+    localStorage.setItem(KB_KEY, v ? '1' : '0')
+    set({ kbOn: v })
+  },
+
+  settingsOpen: false,
+  setSettingsOpen: (v) => set({ settingsOpen: v }),
+
+  spaceReveal: readFlag(SPACE_KEY, false),
+  enterSkip: readFlag(ENTER_KEY, false),
+  setToggle: (key, v) => {
+    localStorage.setItem(key === 'spaceReveal' ? SPACE_KEY : ENTER_KEY, v ? '1' : '0')
+    if (key === 'spaceReveal') set({ spaceReveal: v })
+    else set({ enterSkip: v })
   },
 
   startUnit: (book, unitNo, order = 'seq') => {
@@ -280,6 +343,9 @@ export const useApp = create<AppState>((set, get) => ({
     return (finishedAt || Date.now()) - startedAt
   },
 }))
+
+/* 首帧之前就把主题挂到 <html>，避免启动瞬间闪一下暗色 */
+applyTheme(readTheme())
 
 /* 开发期调试接口：便于自动化截图与手动排查 */
 if (typeof window !== 'undefined') {

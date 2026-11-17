@@ -84,19 +84,28 @@ export function cnNum(n: number): string {
   return String(n)
 }
 
-/** 词性 → 配色。暖色给动词，冷色给名词/代词，绿色给形容词。 */
-const POS_TONE: { match: RegExp; fg: string; bg: string }[] = [
-  { match: /动词|助动词/, fg: '#FCA5A5', bg: 'rgba(248,113,113,0.16)' },
-  { match: /形容词/, fg: '#6EE7B7', bg: 'rgba(52,211,153,0.14)' },
-  { match: /名词/, fg: '#C4B5FD', bg: 'rgba(167,139,250,0.16)' },
-  { match: /副词/, fg: '#67E8F9', bg: 'rgba(34,211,238,0.14)' },
-  { match: /代词/, fg: '#93C5FD', bg: 'rgba(96,165,250,0.16)' },
-  { match: /冠词|限定词/, fg: '#A5B4FC', bg: 'rgba(129,140,248,0.16)' },
-  { match: /介词|连词/, fg: '#FCD34D', bg: 'rgba(251,191,36,0.14)' },
-  { match: /数词/, fg: '#FDE68A', bg: 'rgba(253,224,71,0.14)' },
-  { match: /感叹/, fg: '#F9A8D4', bg: 'rgba(244,114,182,0.16)' },
+/**
+ * 词性 → 配色。暖色给动词，冷色给名词/代词，绿色给形容词。
+ * 两套：暗色主题用高亮前景，浅色主题必须换成深色前景，否则在白底上是一片糊。
+ */
+const POS_TONE: { match: RegExp; fg: string; bg: string; fgL: string; bgL: string }[] = [
+  { match: /动词|助动词/, fg: '#FCA5A5', bg: 'rgba(248,113,113,0.16)', fgL: '#B91C1C', bgL: 'rgba(220,38,38,0.11)' },
+  { match: /形容词/, fg: '#6EE7B7', bg: 'rgba(52,211,153,0.14)', fgL: '#047857', bgL: 'rgba(5,150,105,0.11)' },
+  { match: /名词/, fg: '#C4B5FD', bg: 'rgba(167,139,250,0.16)', fgL: '#6D28D9', bgL: 'rgba(124,58,237,0.10)' },
+  { match: /副词/, fg: '#67E8F9', bg: 'rgba(34,211,238,0.14)', fgL: '#0E7490', bgL: 'rgba(14,116,144,0.10)' },
+  { match: /代词/, fg: '#93C5FD', bg: 'rgba(96,165,250,0.16)', fgL: '#1D4ED8', bgL: 'rgba(37,99,235,0.10)' },
+  { match: /冠词|限定词/, fg: '#A5B4FC', bg: 'rgba(129,140,248,0.16)', fgL: '#4338CA', bgL: 'rgba(79,70,229,0.10)' },
+  { match: /介词|连词/, fg: '#FCD34D', bg: 'rgba(251,191,36,0.14)', fgL: '#B45309', bgL: 'rgba(180,83,9,0.10)' },
+  { match: /数词/, fg: '#FDE68A', bg: 'rgba(253,224,71,0.14)', fgL: '#A16207', bgL: 'rgba(161,98,7,0.10)' },
+  { match: /感叹/, fg: '#F9A8D4', bg: 'rgba(244,114,182,0.16)', fgL: '#BE185D', bgL: 'rgba(190,24,93,0.10)' },
 ]
 
-export function posTone(pos: string): { fg: string; bg: string } {
-  return POS_TONE.find((p) => p.match.test(pos)) ?? { fg: '#CBD5E1', bg: 'rgba(148,163,184,0.14)' }
+export function posTone(pos: string, light = false): { fg: string; bg: string } {
+  const hit = POS_TONE.find((p) => p.match.test(pos))
+  if (!hit) {
+    return light
+      ? { fg: '#475569', bg: 'rgba(71,85,105,0.10)' }
+      : { fg: '#CBD5E1', bg: 'rgba(148,163,184,0.14)' }
+  }
+  return light ? { fg: hit.fgL, bg: hit.bgL } : { fg: hit.fg, bg: hit.bg }
 }

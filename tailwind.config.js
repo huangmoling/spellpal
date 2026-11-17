@@ -4,15 +4,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        stage: '#0B0E13',
-        card: '#161C26',
-        panel: '#1F2733',
-        ink: '#F2F5F9',
-        muted: '#8B94A6',
-        brand: '#7C5CFF',
-        ok: '#34D399',
-        err: '#F87171',
-        cursor: '#FBBF24',
+        stage: 'rgb(var(--stage) / <alpha-value>)',
+        card: 'rgb(var(--card) / <alpha-value>)',
+        panel: 'rgb(var(--panel) / <alpha-value>)',
+        ink: 'rgb(var(--ink) / <alpha-value>)',
+        muted: 'rgb(var(--muted) / <alpha-value>)',
+        /** 叠加层基色：暗色主题是白，浅色主题是黑，别直接用 white/x */
+        veil: 'rgb(var(--veil) / <alpha-value>)',
+        brand: 'rgb(var(--brand) / <alpha-value>)',
+        ok: 'rgb(var(--ok) / <alpha-value>)',
+        err: 'rgb(var(--err) / <alpha-value>)',
+        cursor: 'rgb(var(--cursor) / <alpha-value>)',
       },
       fontFamily: {
         ui: ['Inter', 'system-ui', 'Microsoft YaHei', 'sans-serif'],

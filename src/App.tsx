@@ -4,6 +4,7 @@ import BookShelf from '@/pages/BookShelf'
 import Practice from '@/pages/Practice'
 import Result from '@/pages/Result'
 import WindowControls from '@/components/WindowControls'
+import SettingsSheet from '@/components/SettingsSheet'
 import { BOOKS, DEFAULT_BOOK_ID } from '@/data/books'
 
 const BOOK_KEY = 'spellpal:book'
@@ -15,6 +16,8 @@ if (typeof window !== 'undefined') {
 
 export default function App() {
   const phase = useApp((s) => s.phase)
+  const settingsOpen = useApp((s) => s.settingsOpen)
+  const setSettingsOpen = useApp((s) => s.setSettingsOpen)
   const [bookId, setBookId] = useState<string>(() => {
     try {
       return localStorage.getItem(BOOK_KEY) || DEFAULT_BOOK_ID
@@ -35,10 +38,17 @@ export default function App() {
     <div className="relative h-full">
       <WindowControls />
       {phase === 'idle' && (
-        <BookShelf books={BOOKS} bookId={bookId} onPickBook={setBookId} />
+        <BookShelf
+          books={BOOKS}
+          bookId={bookId}
+          onPickBook={setBookId}
+          onOpenSettings={() => setSettingsOpen(true)}
+        />
       )}
-      {phase === 'typing' && <Practice />}
+      {phase === 'typing' && <Practice onOpenSettings={() => setSettingsOpen(true)} />}
       {phase === 'done' && <Result />}
+
+      {settingsOpen && <SettingsSheet onClose={() => setSettingsOpen(false)} />}
     </div>
   )
 }

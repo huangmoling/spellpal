@@ -48,7 +48,8 @@ export default function Result() {
 
   const R = 56
   const C = 2 * Math.PI * R
-  const tone = acc >= 90 ? '#34D399' : acc >= 70 ? '#FBBF24' : '#F87171'
+  const tone =
+    acc >= 90 ? 'rgb(var(--ok))' : acc >= 70 ? 'rgb(var(--cursor))' : 'rgb(var(--err))'
 
   if (!book) return null
 
@@ -64,7 +65,14 @@ export default function Result() {
         {/* 正确率环 */}
         <div className="relative mx-auto mb-9 h-[168px] w-[168px]">
           <svg viewBox="0 0 140 140" className="h-full w-full -rotate-90">
-            <circle cx="70" cy="70" r={R} fill="none" stroke="rgba(255,255,255,0.07)" strokeWidth="9" />
+            <circle
+              cx="70"
+              cy="70"
+              r={R}
+              fill="none"
+              stroke="rgb(var(--veil) / 0.09)"
+              strokeWidth="9"
+            />
             <circle
               cx="70"
               cy="70"
@@ -97,7 +105,7 @@ export default function Result() {
             { k: '句子', v: `${total} 句` },
             { k: '需再练', v: `${wrong} 句` },
           ].map((d) => (
-            <div key={d.k} className="rounded-xl bg-card/70 py-4 text-center ring-1 ring-white/[0.06]">
+            <div key={d.k} className="rounded-xl bg-card/70 py-4 text-center ring-1 ring-veil/[0.06]">
               <div className="tabnum text-[20px] font-semibold">{d.v}</div>
               <div className="mt-1 text-[11px] text-muted/60">{d.k}</div>
             </div>
@@ -140,7 +148,7 @@ export default function Result() {
         <div className="flex gap-3">
           <button
             onClick={backToShelf}
-            className="flex items-center gap-2 rounded-xl px-5 py-3 text-[13px] text-muted ring-1 ring-white/10 transition hover:bg-white/5 hover:text-ink"
+            className="flex items-center gap-2 rounded-xl px-5 py-3 text-[13px] text-muted ring-1 ring-veil/10 transition hover:bg-veil/5 hover:text-ink"
           >
             <ArrowLeft size={15} strokeWidth={2} />
             返回

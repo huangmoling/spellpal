@@ -3,6 +3,7 @@ import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { Volume2 } from 'lucide-react'
 import type { Sentence } from '@/types'
 import { displayChars, inputChars, isPunct, posTone, tokenFlags } from '@/core/typing'
+import { useApp } from '@/store/useApp'
 
 interface Props {
   sentence: Sentence
@@ -87,6 +88,7 @@ export default function SentenceBoard({
   compact = false,
   onSpeak,
 }: Props) {
+  const light = useApp((s) => s.theme) === 'light'
   const [shaking, setShaking] = useState(false)
   const boxRef = useRef<HTMLDivElement>(null)
   const [box, setBox] = useState({ w: 0, h: 0 })
@@ -125,7 +127,7 @@ export default function SentenceBoard({
         key={sentence.id}
         className={clsx(
           'animate-rise shrink-0 text-center font-semibold leading-snug tracking-wide text-ink',
-          compact ? 'text-[30px]' : 'text-[38px]',
+          compact ? 'text-[38px]' : 'text-[48px]',
         )}
       >
         {sentence.cn}
@@ -148,7 +150,7 @@ export default function SentenceBoard({
       <div
         ref={boxRef}
         className={clsx(
-          'mt-4 flex min-h-0 w-full flex-1 flex-wrap content-center items-start justify-center gap-x-[22px] gap-y-8 overflow-hidden rounded-[26px] bg-white/[0.022] px-8 ring-1 ring-white/[0.05]',
+          'mt-4 flex min-h-0 w-full flex-1 flex-wrap content-center items-start justify-center gap-x-[22px] gap-y-8 overflow-hidden rounded-[26px] bg-veil/[0.022] px-8 ring-1 ring-veil/[0.05]',
           shaking && 'animate-shake',
         )}
         style={{ paddingTop: pad, paddingBottom: pad }}
@@ -165,6 +167,7 @@ export default function SentenceBoard({
               state={state}
               typed={state === 'current' ? typed : ''}
               fontSize={fs}
+              light={light}
               reveal={reveal}
               errorFlash={state === 'current' && wrongTokens.includes(i)}
             />
@@ -182,6 +185,7 @@ function TokenBlock({
   state,
   typed,
   fontSize,
+  light,
   reveal,
   errorFlash,
 }: {
@@ -191,6 +195,7 @@ function TokenBlock({
   state: 'done' | 'current' | 'todo'
   typed: string
   fontSize: number
+  light: boolean
   reveal: boolean
   errorFlash: boolean
 }) {
@@ -199,7 +204,7 @@ function TokenBlock({
     .map((c, i) => ({ c, typable: tokenFlags(en)[i] }))
     .filter((x) => !isPunct(x.c))
   const answer = inputChars(en)
-  const tone = posTone(pos)
+  const tone = posTone(pos, light)
 
   /** 某一位该显示什么字母；null = 还没打出来 */
   const charAt = (idx: number): string | null => {
@@ -216,9 +221,9 @@ function TokenBlock({
       className={clsx(
         'relative flex flex-col items-center rounded-xl px-3 pb-2 pt-2.5 transition-colors',
         errorFlash && 'bg-err/[0.1] ring-1 ring-err/60',
-        !errorFlash && state === 'current' && 'bg-white/[0.06] ring-1 ring-brand/30',
-        !errorFlash && state === 'todo' && 'bg-white/[0.03]',
-        !errorFlash && state === 'done' && 'bg-white/[0.015]',
+        !errorFlash && state === 'current' && (light ? 'bg-card shadow-sm ring-1 ring-brand/35' : 'bg-veil/[0.06] ring-1 ring-brand/30'),
+        !errorFlash && state === 'todo' && (light ? 'bg-card/55' : 'bg-veil/[0.03]'),
+        !errorFlash && state === 'done' && (light ? 'bg-card/30' : 'bg-veil/[0.015]'),
       )}
     >
       {/* 词性 */}
@@ -259,7 +264,7 @@ function TokenBlock({
                 ch && 'border-ok/55',
                 isCursor && errorFlash && 'border-err',
                 isCursor && !errorFlash && 'border-cursor/90',
-                !ch && !isCursor && 'border-white/[0.45]',
+                !ch && !isCursor && 'hairline',
               )}
               style={{ width: '0.62em' }}
             >

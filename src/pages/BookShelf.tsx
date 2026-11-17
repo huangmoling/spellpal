@@ -1,9 +1,12 @@
 import { useMemo } from 'react'
 import {
   ArrowRight,
+  ArrowUpRight,
   BookOpen,
   CalendarClock,
   Flame,
+  GitBranch,
+  Heart,
   Settings,
   Sparkles,
   Layers,
@@ -13,15 +16,18 @@ import type { Book } from '@/types'
 import { useApp } from '@/store/useApp'
 import { loadProgress, streakDays } from '@/utils/progress'
 import { dueCards, cardCount } from '@/utils/srs'
+import { noticeLines, openRepo, repoUrl } from '@/core/notice'
 
 export default function BookShelf({
   books,
   bookId,
   onPickBook,
+  onOpenSettings,
 }: {
   books: Book[]
   bookId: string
   onPickBook: (id: string) => void
+  onOpenSettings: () => void
 }) {
   const book = books.find((b) => b.id === bookId) ?? books[0]
   const startUnit = useApp((s) => s.startUnit)
@@ -63,7 +69,7 @@ export default function BookShelf({
     <div className="flex h-full flex-col">
       {/* 顶栏 */}
       <header
-        className="flex h-16 shrink-0 items-center pl-8 pr-[132px]"
+        className="flex h-14 shrink-0 items-center pl-8 pr-[132px]"
         style={{ WebkitAppRegion: 'drag' } as React.CSSProperties}
       >
         <div className="flex items-center gap-2.5">
@@ -76,7 +82,8 @@ export default function BookShelf({
           </div>
         </div>
         <button
-          className="no-drag ml-auto flex h-9 w-9 items-center justify-center rounded-xl text-muted transition hover:bg-white/5 hover:text-ink"
+          onClick={onOpenSettings}
+          className="no-drag ml-auto flex h-9 w-9 items-center justify-center rounded-xl text-muted transition hover:bg-veil/5 hover:text-ink"
           title="设置"
         >
           <Settings size={17} strokeWidth={1.9} />
@@ -93,36 +100,58 @@ export default function BookShelf({
               { key: 'primary', label: '小学同步', list: books.filter((b) => b.stage !== 'starter') },
             ]
               .filter((g) => g.list.length > 0)
-              .map((g) => (
-                <div key={g.key} className="flex items-center gap-1.5">
-                  <span className="w-[52px] shrink-0 text-[10.5px] tracking-wide text-muted/40">
-                    {g.label}
-                  </span>
-                  {g.list.map((b) => {
-                    const on = b.id === book.id
-                    const done = b.units.filter((u) => progress[`${b.id}#${u.no}`]).length
-                    return (
-                      <button
-                        key={b.id}
-                        onClick={() => onPickBook(b.id)}
-                        className={clsx(
-                          'flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-[11.5px] transition',
-                          on
-                            ? 'bg-white/[0.08] text-ink ring-1 ring-white/10'
-                            : 'text-muted/60 hover:bg-white/[0.04] hover:text-ink/85',
-                        )}
-                      >
-                        {b.shortTitle}
-                        <span
-                          className={clsx('tabnum text-[10px]', on ? 'text-brand/80' : 'text-muted/35')}
+              .map((g) => {
+                /* 当前这本属于哪一组，整行就套一个高亮框，标签再单独染色 */
+                const activeGroup = g.list.some((b) => b.id === book.id)
+                return (
+                  <div
+                    key={g.key}
+                    className={clsx(
+                      'flex items-center gap-1.5 rounded-lg px-1.5 py-1 ring-1 transition-colors',
+                      activeGroup
+                        ? 'bg-brand/[0.055] ring-brand/25'
+                        : 'bg-transparent ring-transparent',
+                    )}
+                  >
+                    <span
+                      className={clsx(
+                        'w-[58px] shrink-0 rounded-md py-[3px] text-center text-[10.5px] tracking-wide transition',
+                        activeGroup
+                          ? 'bg-brand/15 font-medium text-brand ring-1 ring-brand/35'
+                          : 'text-muted/40',
+                      )}
+                    >
+                      {g.label}
+                    </span>
+                    {g.list.map((b) => {
+                      const on = b.id === book.id
+                      const done = b.units.filter((u) => progress[`${b.id}#${u.no}`]).length
+                      return (
+                        <button
+                          key={b.id}
+                          onClick={() => onPickBook(b.id)}
+                          className={clsx(
+                            'flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-[11.5px] transition',
+                            on
+                              ? 'bg-veil/[0.08] text-ink ring-1 ring-veil/10'
+                              : 'text-muted/60 hover:bg-veil/[0.04] hover:text-ink/85',
+                          )}
                         >
-                          {done}/{b.units.length}
-                        </span>
-                      </button>
-                    )
-                  })}
-                </div>
-              ))}
+                          {b.shortTitle}
+                          <span
+                            className={clsx(
+                              'tabnum text-[10px]',
+                              on ? 'text-brand/80' : 'text-muted/35',
+                            )}
+                          >
+                            {done}/{b.units.length}
+                          </span>
+                        </button>
+                      )
+                    })}
+                  </div>
+                )
+              })}
           </div>
         )}
 
@@ -152,7 +181,7 @@ export default function BookShelf({
         {/* 继续练习 */}
         <button
           onClick={() => openUnit(lastUnit)}
-          className="group relative mt-5 w-full shrink-0 overflow-hidden rounded-2xl bg-gradient-to-br from-[#1e2532] to-[#151b25] px-7 py-4 text-left ring-1 ring-white/[0.07] transition hover:ring-brand/45"
+          className="group relative mt-4 w-full shrink-0 overflow-hidden rounded-2xl bg-gradient-to-br from-panel to-card px-7 py-3.5 text-left ring-1 ring-veil/[0.07] transition hover:ring-brand/45"
         >
           <div className="absolute -right-8 -top-20 h-52 w-52 rounded-full bg-brand/15 blur-2xl transition group-hover:bg-brand/25" />
           <div className="relative flex items-center gap-5">
@@ -182,16 +211,16 @@ export default function BookShelf({
           onClick={reviewNow}
           disabled={cardsTotal === 0}
           className={clsx(
-            'group mt-4 flex shrink-0 items-center gap-4 rounded-xl px-5 py-3 text-left ring-1 transition',
+            'group mt-3 flex shrink-0 items-center gap-4 rounded-xl px-5 py-2.5 text-left ring-1 transition',
             cardsTotal === 0
-              ? 'cursor-default bg-card/40 ring-white/[0.05]'
-              : 'bg-card/60 ring-white/[0.07] hover:bg-card hover:ring-brand/35',
+              ? 'cursor-default bg-card/40 ring-veil/[0.05]'
+              : 'bg-card/60 ring-veil/[0.07] hover:bg-card hover:ring-brand/35',
           )}
         >
           <span
             className={clsx(
               'flex h-9 w-9 shrink-0 items-center justify-center rounded-lg',
-              due.length > 0 ? 'bg-err/15 text-err/90' : 'bg-white/[0.05] text-muted/50',
+              due.length > 0 ? 'bg-err/15 text-err/90' : 'bg-veil/[0.05] text-muted/50',
             )}
           >
             <CalendarClock size={17} strokeWidth={2} />
@@ -223,7 +252,7 @@ export default function BookShelf({
         </button>
 
         {/* 单元标题 */}
-        <div className="mb-2.5 mt-4 flex items-baseline justify-between">
+        <div className="mb-2 mt-3.5 flex items-baseline justify-between">
           <h2 className="text-[13px] font-medium text-ink/80">全部单元</h2>
           <span className="text-[11px] text-muted/45">
             <Layers size={10} strokeWidth={2.4} className="mr-1 inline" />
@@ -237,7 +266,7 @@ export default function BookShelf({
             <button
               key={u.no}
               onClick={() => openUnit(u.no)}
-              className="group flex min-h-[104px] shrink-0 flex-col rounded-xl bg-card/60 p-3.5 text-left ring-1 ring-white/[0.06] transition hover:bg-card hover:ring-brand/35"
+              className="group flex min-h-[92px] shrink-0 flex-col rounded-xl bg-card/60 p-3 text-left ring-1 ring-veil/[0.06] transition hover:bg-card hover:ring-brand/35"
             >
               <div className="flex w-full items-baseline">
                 <span className="text-[14px] font-semibold text-ink/90">Unit {u.no}</span>
@@ -265,7 +294,7 @@ export default function BookShelf({
                         key={i}
                         className={clsx(
                           'h-[3px] flex-1 rounded-full transition',
-                          on ? 'bg-ok/60' : 'bg-white/[0.07] group-hover:bg-white/[0.12]',
+                          on ? 'bg-ok/60' : 'bg-veil/[0.07] group-hover:bg-veil/[0.12]',
                         )}
                       />
                     )
@@ -277,7 +306,7 @@ export default function BookShelf({
         </div>
 
         {/* 底部状态 */}
-        <div className="mt-auto flex items-center justify-center gap-6 pt-5 text-[11px] text-muted/40">
+        <div className="mt-auto flex items-center justify-center gap-6 pt-3.5 text-[11px] text-muted/40">
           <span className="flex items-center gap-1.5">
             <Flame
               size={12}
@@ -286,12 +315,36 @@ export default function BookShelf({
             />
             连续 {streak} 天
           </span>
-          <span className="h-3 w-px bg-white/[0.08]" />
+          <span className="h-3 w-px bg-veil/[0.08]" />
           <span>已完成 {finished} 个单元</span>
-          <span className="h-3 w-px bg-white/[0.08]" />
+          <span className="h-3 w-px bg-veil/[0.08]" />
           <span>{avgAcc === null ? '正确率 —' : `平均正确率 ${avgAcc}%`}</span>
         </div>
+
+        {/* 声明 */}
+        <NoticeCard />
       </div>
+    </div>
+  )
+}
+
+/** 首页底部的免费开源声明。文案不写成明文常量，见 core/notice.ts */
+function NoticeCard() {
+  const [head, body] = noticeLines()
+  return (
+    <div className="mb-1 mt-3 flex shrink-0 items-center gap-2.5 rounded-lg bg-veil/[0.02] px-3 py-2 ring-1 ring-veil/[0.05]">
+      <Heart size={11} strokeWidth={2.2} className="shrink-0 text-err/70" />
+      <span className="shrink-0 text-[10.5px] font-medium text-ink/70">{head}</span>
+      <span className="min-w-0 flex-1 truncate text-[10px] text-muted/40">{body}</span>
+      <button
+        onClick={openRepo}
+        className="flex shrink-0 items-center gap-1 rounded-md bg-veil/[0.04] px-2 py-1 text-[10px] text-muted/70 ring-1 ring-veil/[0.06] transition hover:bg-brand/10 hover:text-brand hover:ring-brand/40"
+        title="在浏览器中打开项目主页"
+      >
+        <GitBranch size={10} strokeWidth={2.2} />
+        <span className="font-mono">{repoUrl().replace(/^https:\/\//, '')}</span>
+        <ArrowUpRight size={10} strokeWidth={2.6} />
+      </button>
     </div>
   )
 }

@@ -71,6 +71,34 @@ app.on('ready', async () => {
     JSON.stringify(sp0),
   )
 
+  /* 空格 / 回车两个「逃避键」默认关闭：按下去既不能跳词，也不能跳句 */
+  await press(' ')
+  await press('Enter')
+  await wait(220)
+  const escGuard = await run(
+    `(() => { const s = window.__spellpal.getState(); return { idx: s.index, tk: s.tokenIndex, typed: s.typed, wrong: s.wrongItemIds.length }; })()`,
+  )
+  check(
+    '空格/回车默认不生效（词没打完不能跳）',
+    escGuard.idx === 0 && escGuard.tk === 0 && escGuard.typed === '' && escGuard.wrong === 0,
+    JSON.stringify(escGuard),
+  )
+
+  /* 打开「回车跳过」后，回车才真的能跳到下一句 */
+  await run(`window.__spellpal.setState({ enterSkip: true }); true`)
+  await press('Enter')
+  await wait(220)
+  const skipped = await run(
+    `(() => { const s = window.__spellpal.getState(); return { idx: s.index, wrong: s.wrongItemIds.length }; })()`,
+  )
+  check('设置里打开后回车可跳句', skipped.idx === 1 && skipped.wrong >= 1, JSON.stringify(skipped))
+
+  /* 复位，后面的断言都假设从第 1 句第一个词开始 */
+  await run(
+    `window.__spellpal.setState({ index: 0, tokenIndex: 0, typed: '', wrongTokenIdx: [], wrongItemIds: [], enterSkip: false }); true`,
+  )
+  await wait(180)
+
   /* 取当前句全部待敲字符（撇号、连字符、标点都不算） */
   const charsOfSentence = () =>
     run(`

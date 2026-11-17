@@ -1,18 +1,23 @@
 import clsx from 'clsx'
 import { Delete } from 'lucide-react'
+import { useApp } from '@/store/useApp'
 
-/** 八个手指 + 拇指，各自一个颜色，孩子看着颜色就知道该用哪根手指 */
+/** 八个手指 + 拇指，各自一个颜色，孩子看着颜色就知道该用哪根手指。
+ *  color 给暗色主题（浅色调），light 给浅色主题（压深保证在白底上看得清）。 */
 const FINGERS = {
-  l1: { name: '左手小指', color: '#f9a8d4' },
-  l2: { name: '左手无名指', color: '#fdba74' },
-  l3: { name: '左手中指', color: '#fde047' },
-  l4: { name: '左手食指', color: '#86efac' },
-  r4: { name: '右手食指', color: '#7dd3fc' },
-  r3: { name: '右手中指', color: '#a5b4fc' },
-  r2: { name: '右手无名指', color: '#d8b4fe' },
-  r1: { name: '右手小指', color: '#fca5a5' },
-  thumb: { name: '拇指', color: '#cbd5e1' },
+  l1: { name: '左手小指', color: '#f9a8d4', light: '#db2777' },
+  l2: { name: '左手无名指', color: '#fdba74', light: '#ea580c' },
+  l3: { name: '左手中指', color: '#fde047', light: '#a16207' },
+  l4: { name: '左手食指', color: '#86efac', light: '#15803d' },
+  r4: { name: '右手食指', color: '#7dd3fc', light: '#0284c7' },
+  r3: { name: '右手中指', color: '#a5b4fc', light: '#4f46e5' },
+  r2: { name: '右手无名指', color: '#d8b4fe', light: '#9333ea' },
+  r1: { name: '右手小指', color: '#fca5a5', light: '#dc2626' },
+  thumb: { name: '拇指', color: '#cbd5e1', light: '#475569' },
 } as const
+
+type Finger = (typeof FINGERS)[keyof typeof FINGERS]
+const fingerColor = (f: Finger, light: boolean) => (light ? f.light : f.color)
 
 type FingerId = keyof typeof FINGERS
 
@@ -76,12 +81,14 @@ interface Props {
 }
 
 export default function VirtualKeyboard({ nextKey, className }: Props) {
+  const light = useApp((s) => s.theme) === 'light'
   const finger = nextKey ? FINGERS[FINGER_OF[nextKey] ?? 'l4'] : null
+  const fingerTone = finger ? fingerColor(finger, light) : null
 
   return (
     <div
       className={clsx(
-        'shrink-0 rounded-2xl bg-white/[0.022] px-4 py-2.5 ring-1 ring-white/[0.05]',
+        'shrink-0 rounded-2xl bg-veil/[0.022] px-4 py-2.5 ring-1 ring-veil/[0.05]',
         className,
       )}
     >
@@ -92,7 +99,7 @@ export default function VirtualKeyboard({ nextKey, className }: Props) {
           <div className="mt-1 flex items-baseline justify-end gap-1.5">
             <span
               className="font-mono text-[26px] font-bold uppercase leading-none"
-              style={{ color: finger?.color ?? 'rgba(255,255,255,0.25)' }}
+              style={{ color: fingerTone ?? 'rgb(var(--muted) / 0.45)' }}
             >
               {nextKey ?? '·'}
             </span>
@@ -100,7 +107,7 @@ export default function VirtualKeyboard({ nextKey, className }: Props) {
           <div className="mt-1 flex items-center justify-end gap-1.5">
             <span
               className="h-[6px] w-[6px] shrink-0 rounded-full"
-              style={{ background: finger?.color ?? 'rgba(255,255,255,0.18)' }}
+              style={{ background: fingerTone ?? 'rgb(var(--muted) / 0.3)' }}
             />
             <span className="truncate text-[11px] text-muted/70">{finger?.name ?? '不用敲'}</span>
           </div>
@@ -111,10 +118,10 @@ export default function VirtualKeyboard({ nextKey, className }: Props) {
           {ROWS.map((row, ri) => (
             <div key={ri} className="flex gap-[5px]" style={{ marginLeft: row.offset }}>
               {row.keys.map(([k, f]) => {
-                const c = FINGERS[f].color
+                const c = fingerColor(FINGERS[f], light)
                 const on = nextKey === k
                 return (
-                  <Key key={k} color={c} active={on} title={`${k.toUpperCase()} · ${FINGERS[f].name}`}>
+                  <Key key={k} color={c} light={light} active={on} title={`${k.toUpperCase()} · ${FINGERS[f].name}`}>
                     {k.toUpperCase()}
                     {(k === 'f' || k === 'j') && (
                       <span
@@ -127,10 +134,10 @@ export default function VirtualKeyboard({ nextKey, className }: Props) {
               })}
               {ri === 2 && (
                 <>
-                  <Key color={FINGERS.r1.color} active={false} title="退格 · 删掉一个字母">
+                  <Key color={fingerColor(FINGERS.r1, light)} light={light} active={false} title="退格 · 删掉一个字母">
                     <Delete size={13} strokeWidth={2.4} className="mx-auto" />
                   </Key>
-                  <Key color={FINGERS.r1.color} active={false} title="回车 · 跳过整句">
+                  <Key color={fingerColor(FINGERS.r1, light)} light={light} active={false} title="回车 · 跳过整句">
                     <span className="text-[9.5px] tracking-tight">Enter</span>
                   </Key>
                 </>
@@ -141,7 +148,8 @@ export default function VirtualKeyboard({ nextKey, className }: Props) {
           {/* 空格 */}
           <div className="flex gap-[5px] pl-[42px]">
             <Key
-              color={FINGERS.thumb.color}
+              color={fingerColor(FINGERS.thumb, light)}
+              light={light}
               active={nextKey === ' '}
               title="空格 · 放弃当前这个词"
               className="!w-[296px] !h-[22px]"
@@ -164,12 +172,14 @@ function Key({
   active,
   title,
   className,
+  light = false,
 }: {
   children: React.ReactNode
   color: string
   active: boolean
   title: string
   className?: string
+  light?: boolean
 }) {
   return (
     <div
@@ -179,11 +189,11 @@ function Key({
         className,
       )}
       style={{
-        background: active ? color : rgba(color, 0.09),
-        color: active ? '#08080e' : rgba(color, 0.72),
+        background: active ? color : rgba(color, light ? 0.16 : 0.09),
+        color: active ? '#08080e' : rgba(color, light ? 0.92 : 0.72),
         boxShadow: active
           ? `0 0 0 2px ${rgba(color, 0.9)}, 0 0 20px ${rgba(color, 0.45)}, 0 4px 10px rgba(0,0,0,0.35)`
-          : `inset 0 0 0 1px ${rgba(color, 0.2)}`,
+          : `inset 0 0 0 1px ${rgba(color, light ? 0.3 : 0.2)}`,
         transform: active ? 'translateY(-1px) scale(1.06)' : undefined,
       }}
     >

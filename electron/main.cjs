@@ -89,12 +89,14 @@ function createWindow() {
         const fontEnv = process.env.SPELLPAL_FONT
         const bookEnv = process.env.SPELLPAL_BOOK
         const clearEnv = process.env.SPELLPAL_CLEAR
-        if (kbEnv || fontEnv || bookEnv || clearEnv) {
+        const themeEnv = process.env.SPELLPAL_THEME
+        if (kbEnv || fontEnv || bookEnv || clearEnv || themeEnv) {
           const parts = []
           if (clearEnv) parts.push('localStorage.clear();')
           if (kbEnv) parts.push(`localStorage.setItem('spellpal:kb', ${JSON.stringify(kbEnv)});`)
           if (fontEnv) parts.push(`localStorage.setItem('spellpal:font', ${JSON.stringify(fontEnv)});`)
           if (bookEnv) parts.push(`localStorage.setItem('spellpal:book', ${JSON.stringify(bookEnv)});`)
+          if (themeEnv) parts.push(`localStorage.setItem('spellpal:theme', ${JSON.stringify(themeEnv)});`)
           await run(`(() => { ${parts.join(' ')} return true; })()`)
           await run('location.reload(); true')
           await wait(1800)
@@ -218,6 +220,29 @@ function createWindow() {
           }
         }
 
+        /* 4.5) 打开设置面板（顶栏齿轮没有文字，只能按 title 找） */
+        if (action === 'settings' || action === 'about') {
+          const hit = await run(
+            `(() => {
+              const b = document.querySelector('button[title="设置"]');
+              if (b) b.click();
+              return !!b;
+            })()`,
+          )
+          log('open settings -> ' + hit)
+          await wait(600)
+          if (action === 'about') {
+            await run(
+              `(() => {
+                const b = [...document.querySelectorAll('button')].find((x) => (x.textContent || '').trim() === '关于');
+                if (b) b.click();
+                return !!b;
+              })()`,
+            )
+            await wait(400)
+          }
+        }
+
         /* 5) 结果页 */
         if (action === 'result') {
           await run(`
@@ -273,3 +298,16 @@ ipcMain.on('win:maximize', (e) => {
   else w.maximize()
 })
 ipcMain.on('win:close', (e) => BrowserWindow.fromWebContents(e.sender)?.close())
+
+/* 无边框窗口的底色要跟着主题走，否则浅色主题启动/滚动时会闪一下深色 */
+ipcMain.on('app:theme', (e, t) => {
+  BrowserWindow.fromWebContents(e.sender)?.setBackgroundColor(t === 'light' ? '#F5F7FB' : '#0B0E13')
+})
+
+/* 只放行 GitHub 域名的外链，避免渲染进程被注入后打开任意外链。
+   这里故意不写死仓库路径——仓库地址只保存在渲染进程那份编码串里。 */
+ipcMain.on('app:open-external', (e, url) => {
+  if (typeof url !== 'string') return
+  if (!/^https:\/\/(www\.)?github\.com\/[\w.-]+\/[\w.-]+\/?$/.test(url)) return
+  void shell.openExternal(url).catch(() => {})
+})

@@ -5,7 +5,7 @@ export default function WindowControls() {
   if (!api) return null
 
   const base =
-    'flex h-14 w-11 items-center justify-center text-muted/70 transition hover:bg-white/[0.06] hover:text-ink'
+    'flex h-14 w-11 items-center justify-center text-muted/70 transition hover:bg-veil/[0.06] hover:text-ink'
 
   return (
     <div

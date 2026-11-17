@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { Keyboard } from 'lucide-react'
 import clsx from 'clsx'
 import { useApp } from '@/store/useApp'
@@ -10,9 +10,7 @@ import { sfx } from '@/utils/sound'
 import { speak, warmupSpeech } from '@/utils/speech'
 import { markMastered } from '@/utils/srs'
 
-const KB_KEY = 'spellpal:kb'
-
-export default function Practice() {
+export default function Practice({ onOpenSettings }: { onOpenSettings: () => void }) {
   const book = useApp((s) => s.book)
   const unitNo = useApp((s) => s.unitNo)
   const kind = useApp((s) => s.kind)
@@ -24,24 +22,23 @@ export default function Practice() {
   const wrongTokenIdx = useApp((s) => s.wrongTokenIdx)
   const typeKey = useApp((s) => s.typeKey)
   const backspace = useApp((s) => s.backspace)
-  const skipToken = useApp((s) => s.skipToken)
   const skipSentence = useApp((s) => s.skipSentence)
   const advance = useApp((s) => s.advance)
   const prevSentence = useApp((s) => s.prevSentence)
   const backToShelf = useApp((s) => s.backToShelf)
 
-  const [elapsed, setElapsed] = useState(0)
-  const [reveal, setReveal] = useState(false)
-  const [toast, setToast] = useState('')
-  const [showKb, setShowKb] = useState(() => localStorage.getItem(KB_KEY) !== '0')
+  const showKb = useApp((s) => s.kbOn)
+  const setKbOn = useApp((s) => s.setKbOn)
+  const spaceReveal = useApp((s) => s.spaceReveal)
+  const enterSkip = useApp((s) => s.enterSkip)
   const fontScale = useApp((s) => s.fontScale)
   const setFontScale = useApp((s) => s.setFontScale)
 
-  const toggleKb = () => {
-    const next = !showKb
-    localStorage.setItem(KB_KEY, next ? '1' : '0')
-    setShowKb(next)
-  }
+  const [elapsed, setElapsed] = useState(0)
+  const [reveal, setReveal] = useState(false)
+  const [toast, setToast] = useState('')
+  const toastAt = useRef(0)
+  const revealTimer = useRef(0)
 
   const unit = book?.units.find((u) => u.no === unitNo)
   const sentence = book?.sentences?.find((s) => s.id === queue[index])
@@ -55,6 +52,15 @@ export default function Practice() {
   const doSpeak = () => {
     if (sentence) speak(sentence.en, { rate: 0.8 })
   }
+
+  /** 同一句提示 2.6 秒内只弹一次，免得孩子连按空格时刷屏 */
+  const say = useCallback((msg: string) => {
+    const now = Date.now()
+    if (now - toastAt.current < 2600) return
+    toastAt.current = now
+    setToast(msg)
+    window.setTimeout(() => setToast(''), 1800)
+  }, [])
 
   /* 计时 */
   useEffect(() => {
@@ -72,10 +78,11 @@ export default function Practice() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [index])
 
-  const doReveal = () => {
+  const doReveal = useCallback(() => {
     setReveal(true)
-    window.setTimeout(() => setReveal(false), 2200)
-  }
+    window.clearTimeout(revealTimer.current)
+    revealTimer.current = window.setTimeout(() => setReveal(false), 2200)
+  }, [])
 
   const doMaster = () => {
     if (!book || !sentence) return
@@ -84,9 +91,20 @@ export default function Practice() {
     window.setTimeout(() => setToast(''), 1600)
   }
 
+  /** 跳过整句：受设置开关控制；关着就明确告诉孩子为什么按不动 */
+  const trySkip = useCallback(() => {
+    if (!enterSkip) {
+      say('跳过已关闭 —— 先把这句话打完')
+      return
+    }
+    skipSentence()
+  }, [enterSkip, say, skipSentence])
+
   /* 键盘 */
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      /* 设置面板开着的时候，键盘归面板，别让 Esc 顺手退出练习 */
+      if (useApp.getState().settingsOpen) return
       if (e.isComposing || e.ctrlKey || e.metaKey || e.altKey) return
 
       if (e.key === 'Escape') return backToShelf()
@@ -96,11 +114,15 @@ export default function Practice() {
       }
       if (e.key === 'Enter') {
         e.preventDefault()
-        return skipSentence()
+        return trySkip()
       }
       if (e.key === ' ') {
         e.preventDefault()
-        return skipToken()
+        if (!spaceReveal) {
+          say('空格显示答案已关闭，去设置里打开')
+          return
+        }
+        return doReveal()
       }
       if (e.key.length !== 1) return
       e.preventDefault()
@@ -122,7 +144,7 @@ export default function Practice() {
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [typeKey, backspace, skipToken, skipSentence, advance, backToShelf])
+  }, [typeKey, backspace, advance, backToShelf, trySkip, doReveal, spaceReveal, say])
 
   if (!book || !sentence) return null
 
@@ -132,13 +154,14 @@ export default function Practice() {
         title={book.title}
         unitLabel={kind === 'review' ? '错题复习' : `Unit ${unitNo}`}
         onBack={backToShelf}
+        onSettings={onOpenSettings}
         right={
           <button
-            onClick={toggleKb}
+            onClick={() => setKbOn(!showKb)}
             title={showKb ? '收起虚拟键盘' : '显示虚拟键盘与指法提示'}
             className={clsx(
               'no-drag flex h-8 w-8 items-center justify-center rounded-lg transition',
-              showKb ? 'bg-brand/15 text-brand' : 'text-muted hover:bg-white/5 hover:text-ink',
+              showKb ? 'bg-brand/15 text-brand' : 'text-muted hover:bg-veil/5 hover:text-ink',
             )}
           >
             <Keyboard size={16} strokeWidth={1.9} />
@@ -170,7 +193,7 @@ export default function Practice() {
         {showKb && <VirtualKeyboard nextKey={nextKey} className="mt-2" />}
 
         {toast && (
-          <div className="absolute bottom-12 left-1/2 -translate-x-1/2 animate-rise rounded-lg bg-card px-3.5 py-2 text-[12px] text-ink/85 ring-1 ring-white/10">
+          <div className="absolute bottom-12 left-1/2 -translate-x-1/2 animate-rise rounded-lg bg-card px-3.5 py-2 text-[12px] text-ink/85 ring-1 ring-veil/10">
             {toast}
           </div>
         )}
@@ -178,16 +201,17 @@ export default function Practice() {
 
       <BottomBar
         onPrev={prevSentence}
-        onSkip={skipSentence}
-        onNext={skipSentence}
+        onSkip={trySkip}
+        skipDisabled={!enterSkip}
+        onNext={trySkip}
         onReveal={doReveal}
         onMaster={doMaster}
         extra={
-          <div className="mx-1.5 flex items-center gap-0.5 rounded-lg bg-white/[0.05] px-1 py-0.5 ring-1 ring-white/[0.07]">
+          <div className="mx-1.5 flex items-center gap-0.5 rounded-lg bg-veil/[0.05] px-1 py-0.5 ring-1 ring-veil/[0.07]">
             <button
               onClick={() => setFontScale(fontScale - 0.1)}
               title="字号调小"
-              className="flex h-8 w-8 items-center justify-center rounded-md text-[12px] font-semibold leading-none text-muted transition hover:bg-white/10 hover:text-ink"
+              className="flex h-8 w-8 items-center justify-center rounded-md text-[12px] font-semibold leading-none text-muted transition hover:bg-veil/10 hover:text-ink"
             >
               A-
             </button>
@@ -197,7 +221,7 @@ export default function Practice() {
             <button
               onClick={() => setFontScale(fontScale + 0.1)}
               title="字号调大"
-              className="flex h-8 w-8 items-center justify-center rounded-md text-[12px] font-semibold leading-none text-muted transition hover:bg-white/10 hover:text-ink"
+              className="flex h-8 w-8 items-center justify-center rounded-md text-[12px] font-semibold leading-none text-muted transition hover:bg-veil/10 hover:text-ink"
             >
               A+
             </button>
@@ -205,7 +229,7 @@ export default function Practice() {
         }
         hintLeft={
           <span className="truncate">
-            {kind === 'review' ? '错题复习' : unit?.theme ?? ''}
+            {kind === 'review' ? '错题复习' : (unit?.theme ?? '')}
             <span className="ml-2 text-muted/35">
               {index + 1}/{total}
             </span>
