@@ -27,7 +27,7 @@ const BOOKS = {
     series: 'PEP（三年级起点）',
     grade: 3,
     term: 'up',
-    edition: '2024 新课标',
+    edition: '2024 秋 · 新课标修订版',
     unitThemes: {
       1: 'Making friends',
       2: 'Different families',
@@ -45,7 +45,7 @@ const BOOKS = {
     series: 'PEP（三年级起点）',
     grade: 3,
     term: 'down',
-    edition: '2024 新课标',
+    edition: '2025 春 · 新课标修订版',
     unitThemes: {
       1: '认识新朋友 · 你从哪里来',
       2: '说说身体和动作',
@@ -63,7 +63,7 @@ const BOOKS = {
     series: 'PEP（三年级起点）',
     grade: 4,
     term: 'up',
-    edition: '2024 新课标',
+    edition: '2025 秋 · 新课标修订版',
     unitThemes: {
       1: '家人的工作与家务',
       2: '朋友的样子和爱好',
@@ -91,6 +91,44 @@ function parse(file) {
       syllables: (syl || word).trim().split('-').map((s) => s.trim()).filter(Boolean),    })
   })
   return rows
+}
+
+/**
+ * 句子源文件：scripts/data/sentences-{bookId}.tsv
+ * 格式（TAB 分隔）：unit \t 中文整句 \t 英文句子 \t 词性1|词性2… \t 中文1|中文2…
+ * 英文按空格切词，词性与中文用 | 分段，段数必须与切词结果一致。
+ */
+function parseSentences(file, bookId, unitThemes) {
+  if (!fs.existsSync(file)) return []
+  const raw = fs.readFileSync(file, 'utf8').replace(/^\uFEFF/, '')
+  const out = []
+  const lines = raw.split(/\r?\n/).filter((l) => l.trim() && !l.startsWith('#'))
+  const seq = {}
+  lines.forEach((line, i) => {
+    const cols = line.split('\t')
+    if (cols.length < 5) throw new Error(`句子第 ${i + 1} 行列数不足（需 5 列 TAB 分隔）: ${line}`)
+    const [unitRaw, cn, en, posRaw, cnRaw] = cols
+    const unit = Number(unitRaw)
+    const parts = en.trim().split(/\s+/)
+    const poses = posRaw.split('|').map((s) => s.trim())
+    const cns = cnRaw.split('|').map((s) => s.trim())
+    if (poses.length !== parts.length) {
+      throw new Error(`句子第 ${i + 1} 行词性数 ${poses.length} ≠ 词数 ${parts.length}: ${en}`)
+    }
+    if (cns.length !== parts.length) {
+      throw new Error(`句子第 ${i + 1} 行中文数 ${cns.length} ≠ 词数 ${parts.length}: ${en}`)
+    }
+    seq[unit] = (seq[unit] || 0) + 1
+    out.push({
+      id: `${bookId}-u${unit}-s${String(seq[unit]).padStart(2, '0')}`,
+      unit,
+      cn: cn.trim(),
+      en: parts.join(' '),
+      tokens: parts.map((p, k) => ({ en: p, cn: cns[k], pos: poses[k] })),
+      _theme: unitThemes?.[unit] || '',
+    })
+  })
+  return out
 }
 
 function build(bookId) {
@@ -122,6 +160,13 @@ function build(bookId) {
     wordIds: words.filter((w) => w.unit === no).map((w) => w.id),
   }))
 
+  const sentences = parseSentences(
+    path.join(SRC_DIR, `sentences-${bookId}.tsv`),
+    meta.id,
+    meta.unitThemes,
+  )
+  sentences.forEach((s) => delete s._theme)
+
   // ---- 校验 ----
   const errs = []
   /** 归一化：撇号、连字符、空格都不参与比对（这些字符孩子不用敲） */
@@ -144,13 +189,40 @@ function build(bookId) {
     return
   }
 
+  // ---- 句子校验 ----
+  const sEnts = []
+  for (const s of sentences) {
+    if (!s.cn) sEnts.push(`句子缺中文: ${s.en}`)
+    if (!s.en) sEnts.push(`句子缺英文: ${s.cn}`)
+    if (s.tokens.length < 2) sEnts.push(`句子过短（至少 2 词）: ${s.en}`)
+    if (/[，。！？、；：]/.test(s.en)) sEnts.push(`英文句子里混入中文标点: ${s.en}`)
+    for (const t of s.tokens) {
+      if (!t.cn) sEnts.push(`词块缺中文: ${s.en} / ${t.en}`)
+      if (!t.pos) sEnts.push(`词块缺词性: ${s.en} / ${t.en}`)
+      if (/[，。！？、；：|]/.test(t.cn)) sEnts.push(`词块中文含标点: ${s.en} / ${t.en} -> ${t.cn}`)
+    }
+  }
+  const unitsWithSentence = new Set(sentences.map((s) => s.unit))
+  for (const no of unitNos) {
+    if (!unitsWithSentence.has(no)) sEnts.push(`Unit ${no} 没有任何例句`)
+  }
+  if (sEnts.length) {
+    console.error('✗ 句子校验失败:')
+    sEnts.forEach((e) => console.error('  -', e))
+    process.exitCode = 1
+    return
+  }
+
+  const sentenceCount = sentences.length
   const out = {
     ...meta,
     unitThemes: undefined,
     wordCount: words.length,
+    sentenceCount,
     updatedAt: new Date().toISOString().slice(0, 10),
     units,
     words,
+    sentences,
   }
   delete out.unitThemes
 
@@ -158,11 +230,14 @@ function build(bookId) {
   const outFile = path.join(OUT_DIR, `${meta.id}.json`)
   fs.writeFileSync(outFile, JSON.stringify(out, null, 2), 'utf8')
   console.log(
-    `✓ ${meta.id}  ${words.length} 词 / ${units.length} 单元  ->  ${path.relative(ROOT, outFile)}  (${(
+    `✓ ${meta.id}  ${words.length} 词 / ${sentenceCount} 句 / ${units.length} 单元  ->  ${path.relative(ROOT, outFile)}  (${(
       fs.statSync(outFile).size / 1024
     ).toFixed(1)} KB)`,
   )
-  units.forEach((u) => console.log(`   Unit ${u.no}  ${u.theme}  ${u.wordIds.length} 词`))
+  units.forEach((u) => {
+    const n = sentences.filter((s) => s.unit === u.no).length
+    console.log(`   Unit ${u.no}  ${u.theme}  ${u.wordIds.length} 词 / ${n} 句`)
+  })
 }
 
 const targets = process.argv.slice(2)

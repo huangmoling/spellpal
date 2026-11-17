@@ -3,26 +3,16 @@ import {
   ArrowRight,
   BookOpen,
   CalendarClock,
-  Ear,
   Flame,
-  PenLine,
   Settings,
   Sparkles,
   Layers,
-  Eye,
 } from 'lucide-react'
 import clsx from 'clsx'
 import type { Book } from '@/types'
 import { useApp } from '@/store/useApp'
 import { loadProgress, streakDays } from '@/utils/progress'
 import { dueCards, cardCount } from '@/utils/srs'
-import { MODES, type PracticeMode } from '@/core/typing'
-
-const MODE_ICONS: Record<PracticeMode, typeof Eye> = {
-  look: Eye,
-  listen: Ear,
-  cloze: PenLine,
-}
 
 export default function BookShelf({
   books,
@@ -36,8 +26,10 @@ export default function BookShelf({
   const book = books.find((b) => b.id === bookId) ?? books[0]
   const startUnit = useApp((s) => s.startUnit)
   const startReview = useApp((s) => s.startReview)
-  const mode = useApp((s) => s.mode)
-  const setMode = useApp((s) => s.setMode)
+
+  /** 每单元的句子数，单元卡片和「继续练习」都用它 */
+  const sentencesOf = (no: number) => (book.sentences ?? []).filter((s) => s.unit === no).length
+  const sentenceCount = (book.sentences ?? []).length
 
   const lastUnit = Number(localStorage.getItem(`spellpal:last-unit:${book.id}`) || 1)
   const lastUnitData = book.units.find((u) => u.no === lastUnit) ?? book.units[0]
@@ -63,7 +55,7 @@ export default function BookShelf({
     const list = due.length ? due : dueCards(book.id, Date.now() + 365 * 86400000)
     startReview(
       book,
-      list.map((c) => c.wordId),
+      list.map((c) => c.itemId),
     )
   }
 
@@ -141,7 +133,7 @@ export default function BookShelf({
               {book.wordCount}
             </div>
             <div className="mt-2 text-[11px] text-muted/55">
-              个单词 · {book.units.length} 个单元
+              个单词 · {book.units.length} 个单元 · {sentenceCount} 句
             </div>
           </div>
         </div>
@@ -162,7 +154,7 @@ export default function BookShelf({
                 Unit {lastUnitData.no}
               </div>
               <div className="mt-1.5 text-[12px] text-muted/70">
-                {lastUnitData.theme} · {lastUnitData.wordIds.length} 个词 · 约 5 分钟
+                {lastUnitData.theme} · {sentencesOf(lastUnitData.no)} 句 · 约 5 分钟
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -174,39 +166,12 @@ export default function BookShelf({
           </div>
         </button>
 
-        {/* 练习方式 */}
-        <div className="mt-4 flex shrink-0 items-center gap-3">
-          <span className="shrink-0 text-[11.5px] text-muted/55">练习方式</span>
-          <div className="flex flex-1 gap-2">
-            {MODES.map((m) => {
-              const Icon = MODE_ICONS[m.key]
-              const on = mode === m.key
-              return (
-                <button
-                  key={m.key}
-                  onClick={() => setMode(m.key)}
-                  title={m.hint}
-                  className={clsx(
-                    'flex flex-1 items-center justify-center gap-1.5 rounded-xl py-2 text-[12px] transition ring-1',
-                    on
-                      ? 'bg-brand/15 text-brand ring-brand/40'
-                      : 'text-muted/70 ring-white/[0.06] hover:bg-white/[0.04] hover:text-ink',
-                  )}
-                >
-                  <Icon size={14} strokeWidth={2} />
-                  {m.label}
-                </button>
-              )
-            })}
-          </div>
-        </div>
-
         {/* 错题本 */}
         <button
           onClick={reviewNow}
           disabled={cardsTotal === 0}
           className={clsx(
-            'group mt-2.5 flex shrink-0 items-center gap-4 rounded-xl px-5 py-3 text-left ring-1 transition',
+            'group mt-4 flex shrink-0 items-center gap-4 rounded-xl px-5 py-3 text-left ring-1 transition',
             cardsTotal === 0
               ? 'cursor-default bg-card/40 ring-white/[0.05]'
               : 'bg-card/60 ring-white/[0.07] hover:bg-card hover:ring-brand/35',
@@ -223,7 +188,7 @@ export default function BookShelf({
           <span className="min-w-0 flex-1">
             <span className="flex items-baseline gap-2">
               <span className="text-[13.5px] font-medium text-ink/90">错题本</span>
-              <span className="tabnum text-[11px] text-muted/50">{cardsTotal} 词</span>
+              <span className="tabnum text-[11px] text-muted/50">{cardsTotal} 句</span>
               {due.length > 0 && (
                 <span className="rounded-md bg-err/15 px-1.5 py-[1px] text-[10.5px] text-err/90">
                   {due.length} 待复习
@@ -232,10 +197,10 @@ export default function BookShelf({
             </span>
             <span className="mt-1 block truncate text-[11.5px] text-muted/55">
               {cardsTotal === 0
-                ? '还没有错词，练完一个单元会自动收集'
+                ? '还没有错句，练完一个单元会自动收集'
                 : due.length > 0
-                  ? '按 1、3、7、16 天的节奏复习，记住的会自动移出'
-                  : '今天没有要复习的词，明天再来'}
+                  ? '按 1、3、7、16 天的节奏复习，打对的会自动移出'
+                  : '今天没有要复习的句子，明天再来'}
             </span>
           </span>
           {cardsTotal > 0 && (
@@ -251,7 +216,7 @@ export default function BookShelf({
           <h2 className="text-[13px] font-medium text-ink/80">全部单元</h2>
           <span className="text-[11px] text-muted/45">
             <Layers size={10} strokeWidth={2.4} className="mr-1 inline" />
-            每单元 10–25 词 · 练完约 5–8 分钟
+            每单元 8 句 · 练完约 5 分钟
           </span>
         </div>
 
@@ -266,7 +231,7 @@ export default function BookShelf({
               <div className="flex w-full items-baseline">
                 <span className="text-[14px] font-semibold text-ink/90">Unit {u.no}</span>
                 <span className="tabnum ml-auto text-[10.5px] text-muted/45">
-                  {u.wordIds.length} 词
+                  {sentencesOf(u.no)} 句
                 </span>
               </div>
               <div className="mt-1 line-clamp-1 text-[11px] text-muted/55">{u.theme}</div>

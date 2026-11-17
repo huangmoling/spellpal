@@ -61,7 +61,6 @@ function createWindow() {
     mainWindow.webContents.once('did-finish-load', async () => {
       log('did-finish-load')
       const action = process.env.SPELLPAL_ACTION || ''
-      const mode = process.env.SPELLPAL_MODE || ''
       const wc = mainWindow.webContents
       const wait = (ms) => new Promise((r) => setTimeout(r, ms))
       const run = (code) => wc.executeJavaScript(code)
@@ -102,16 +101,16 @@ function createWindow() {
               if (${action.startsWith('review')}) {
                 const now = Date.now();
                 const cards = [
-                  ['pep-3start-3a-u1-01','name','名字',1,0,2],
-                  ['pep-3start-3a-u1-04','hand','手',1,0,1],
-                  ['pep-3start-3a-u2-03','grandma','奶奶',2,1,3],
-                  ['pep-3start-3a-u3-01','like','喜欢',3,0,4]
+                  ['pep-3start-3a-u1-s01','Nice to meet you.','见到你很高兴！',1,0,2],
+                  ['pep-3start-3a-u1-s05','We can share.','我们可以一起分享。',1,0,1],
+                  ['pep-3start-3a-u2-s02','I have a big family.','我有一个大家庭。',2,1,3],
+                  ['pep-3start-3a-u3-s01','I like animals.','我喜欢动物。',3,0,4]
                 ];
                 const m = {};
-                for (const [wid, w, cn, unit, box, wrong] of cards) {
-                  m['pep-3start-3a#' + wid] = {
-                    id: 'pep-3start-3a#' + wid, bookId: 'pep-3start-3a',
-                    wordId: wid, word: w, cn, unit, box, wrong, right: 1,
+                for (const [sid, en, cn, unit, box, wrong] of cards) {
+                  m['pep-3start-3a#' + sid] = {
+                    id: 'pep-3start-3a#' + sid, bookId: 'pep-3start-3a',
+                    itemId: sid, en, cn, unit, box, wrong, right: 1,
                     due: now - 1000, last: now - 86400000
                   };
                 }
@@ -127,14 +126,7 @@ function createWindow() {
           await wait(2200)
         }
 
-        /* 2) 选练习方式 */
-        if (mode) {
-          const label = { look: '看中打英', listen: '听音拼写', cloze: '挖空默写' }[mode] || ''
-          if (label) await clickText([label])
-          await wait(300)
-        }
-
-        /* 3) 切册 + 进入会话 */
+        /* 2) 切册 + 进入会话 */
         if (action.startsWith('book')) {
           const label = action.startsWith('book3b')
             ? '三年级下册'
@@ -154,15 +146,29 @@ function createWindow() {
         if (action) await wait(700)
 
         /* 4) 模拟打字 */
-        if (action.endsWith('typing')) {
-          const seq = await run(`window.__spellpal.getState().seq()`)
-          const keys = (seq || []).slice(0, 3)
-          log('seq=' + JSON.stringify(seq))
+        if (action.includes('typed') || action.includes('wrong') || action.includes('whole')) {
+          const seq = await run(`
+            (() => {
+              const s = window.__spellpal.getState();
+              const sentence = s.book.sentences.find((x) => x.id === s.queue[s.index]);
+              const token = sentence.tokens[s.tokenIndex];
+              return [...token.en].filter((c) => c !== "'" && c !== '\u2019' && c !== '-');
+            })()
+          `)
+          log('token chars=' + JSON.stringify(seq))
+          const keys = action.includes('whole')
+            ? seq || []
+            : (seq || []).slice(0, Math.max(1, (seq || []).length - 1))
           for (const k of keys) {
             await run(`window.dispatchEvent(new KeyboardEvent('keydown',{key:${JSON.stringify(k)},bubbles:true}))`)
-            await wait(150)
+            await wait(130)
           }
-          await wait(500)
+          if (action.includes('wrong')) {
+            await run(`window.dispatchEvent(new KeyboardEvent('keydown',{key:'z',bubbles:true}))`)
+            await wait(150)
+          } else {
+            await wait(600)
+          }
         }
 
         /* 5) 结果页 */
@@ -175,7 +181,7 @@ function createWindow() {
               const outcomes = {};
               st.queue.forEach((id, i) => { outcomes[id] = i < 3 ? 'rough' : 'clean'; });
               s.setState({ phase: 'done', startedAt: Date.now() - 96000,
-                           finishedAt: Date.now(), wrongWordIds: wrong, outcomes });
+                           finishedAt: Date.now(), wrongItemIds: wrong, outcomes });
               return true;
             })()
           `)

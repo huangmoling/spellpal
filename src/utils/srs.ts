@@ -2,14 +2,16 @@
  * 错题本 + 间隔重复（SRS）
  *
  * 设计取舍：
- * - 只用 localStorage，不引 Dexie。理由：单机、单用户、词卡数量最多几千条，
+ * - 只用 localStorage，不引 Dexie。理由：单机、单用户、卡片数量最多几百条，
  *   JSON 序列化成本可忽略；少一个依赖少一处打包问题。
- * - 只有「打错过」的词才进册。第一次就拼对的词不进来，否则错题本会变成
- *   第二个词表，孩子翻不到重点。
+ * - 练习单位是「句」，所以错题本也按句子记：复习时整句重打，
+ *   比单练某个词更接近真实语感。
+ * - 只有「打错过 / 跳过」的句子才进册。一次打对的句子不进来，
+ *   否则错题本会变成第二个课表，孩子翻不到重点。
  * - box 0–5 对应复习间隔 0/1/3/7/16/35 天。答错掉回 box 0，答对升一级。
  */
 
-import type { Book, Word } from '@/types'
+import type { Book, Sentence } from '@/types'
 
 const KEY = 'spellpal:srs'
 
@@ -18,14 +20,14 @@ const INTERVALS = [0, 1, 3, 7, 16, 35]
 const MAX_BOX = INTERVALS.length - 1
 
 export interface Card {
-  /** bookId#wordId */
+  /** bookId#sentenceId */
   id: string
   bookId: string
-  wordId: string
-  word: string
+  itemId: string
+  /** 英文整句 */
+  en: string
+  /** 中文整句 */
   cn: string
-  phonetic?: string
-  syllables?: string[]
   unit: number
   box: number
   /** 累计答错次数 */
@@ -56,18 +58,18 @@ function write(m: CardMap) {
   }
 }
 
-const cardKey = (bookId: string, wordId: string) => `${bookId}#${wordId}`
+const cardKey = (bookId: string, itemId: string) => `${bookId}#${itemId}`
 const dayMs = 86400000
 
-export function getCard(bookId: string, wordId: string): Card | undefined {
-  return read()[cardKey(bookId, wordId)]
+export function getCard(bookId: string, itemId: string): Card | undefined {
+  return read()[cardKey(bookId, itemId)]
 }
 
 export function allCards(): Card[] {
   return Object.values(read())
 }
 
-/** 到期待复习的词卡；传 bookId 只取该册 */
+/** 到期待复习的句子卡；传 bookId 只取该册 */
 export function dueCards(bookId?: string, now = Date.now()): Card[] {
   return allCards()
     .filter((c) => c.due <= now && (!bookId || c.bookId === bookId))
@@ -86,27 +88,25 @@ export function cardCount(bookId?: string): number {
 
 /**
  * 记录一次练习结果。
- * @param ok 是否一次拼对（没错过、没跳过）
+ * @param ok 是否一次打对（没错过、没跳过）
  */
-export function recordResult(book: Book, word: Word, ok: boolean): Card | null {
+export function recordResult(book: Book, sentence: Sentence, ok: boolean): Card | null {
   const m = read()
-  const k = cardKey(book.id, word.id)
+  const k = cardKey(book.id, sentence.id)
   const prev = m[k]
   const now = Date.now()
 
-  // 从没做错过、这次也拼对了 —— 不进册
+  // 从没打错过、这次也打对了 —— 不进册
   if (!prev && ok) return null
 
   const box = ok ? Math.min(MAX_BOX, (prev?.box ?? 0) + 1) : 0
   const card: Card = {
     id: k,
     bookId: book.id,
-    wordId: word.id,
-    word: word.word,
-    cn: word.senses[0]?.cn ?? '',
-    phonetic: word.phoneticUK,
-    syllables: word.syllables,
-    unit: word.unit,
+    itemId: sentence.id,
+    en: sentence.en,
+    cn: sentence.cn,
+    unit: sentence.unit,
     box,
     wrong: (prev?.wrong ?? 0) + (ok ? 0 : 1),
     right: (prev?.right ?? 0) + (ok ? 1 : 0),
@@ -119,9 +119,9 @@ export function recordResult(book: Book, word: Word, ok: boolean): Card | null {
 }
 
 /** 标记已掌握：直接移出错题本 */
-export function markMastered(bookId: string, wordId: string) {
+export function markMastered(bookId: string, itemId: string) {
   const m = read()
-  const k = cardKey(bookId, wordId)
+  const k = cardKey(bookId, itemId)
   if (m[k]) {
     delete m[k]
     write(m)

@@ -6,8 +6,9 @@
   "series": "PEP（三年级起点）",
   "grade": 4,
   "term": "up",
-  "edition": "2024 新课标",
+  "edition": "2025 秋 · 新课标修订版",
   "wordCount": 110,
+  "sentenceCount": 48,
   "updatedAt": "2026-11-17",
   "units": [
     {
@@ -1990,6 +1991,1602 @@
       ],
       "grade": 4,
       "unit": 6
+    }
+  ],
+  "sentences": [
+    {
+      "id": "pep-4start-4a-u1-s01",
+      "unit": 1,
+      "cn": "我妈妈是一名医生。",
+      "en": "My mother is a doctor.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "mother",
+          "cn": "母亲",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一名",
+          "pos": "冠词"
+        },
+        {
+          "en": "doctor.",
+          "cn": "医生",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u1-s02",
+      "unit": 1,
+      "cn": "我爸爸是一名农民。",
+      "en": "My father is a farmer.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "father",
+          "cn": "父亲",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一名",
+          "pos": "冠词"
+        },
+        {
+          "en": "farmer.",
+          "cn": "农民",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u1-s03",
+      "unit": 1,
+      "cn": "我姑姑是一名护士。",
+      "en": "My aunt is a nurse.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "aunt",
+          "cn": "姑姑",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一名",
+          "pos": "冠词"
+        },
+        {
+          "en": "nurse.",
+          "cn": "护士",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u1-s04",
+      "unit": 1,
+      "cn": "我叔叔今天很忙。",
+      "en": "My uncle is busy today.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "uncle",
+          "cn": "叔叔",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "busy",
+          "cn": "忙碌的",
+          "pos": "形容词"
+        },
+        {
+          "en": "today.",
+          "cn": "今天",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u1-s05",
+      "unit": 1,
+      "cn": "我能打扫我的房间。",
+      "en": "I can clean my room.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "动词"
+        },
+        {
+          "en": "clean",
+          "cn": "打扫",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "room.",
+          "cn": "房间",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u1-s06",
+      "unit": 1,
+      "cn": "我们一起扫地吧。",
+      "en": "Let's sweep the floor together.",
+      "tokens": [
+        {
+          "en": "Let's",
+          "cn": "让我们",
+          "pos": "动词"
+        },
+        {
+          "en": "sweep",
+          "cn": "扫",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "floor",
+          "cn": "地板",
+          "pos": "名词"
+        },
+        {
+          "en": "together.",
+          "cn": "一起",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u1-s07",
+      "unit": 1,
+      "cn": "我照顾我奶奶。",
+      "en": "I look after my grandma.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "look",
+          "cn": "照顾",
+          "pos": "动词"
+        },
+        {
+          "en": "after",
+          "cn": "（在…之后）",
+          "pos": "介词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "grandma.",
+          "cn": "奶奶",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u1-s08",
+      "unit": 1,
+      "cn": "我爸爸下班后很累。",
+      "en": "My dad is tired after work.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "dad",
+          "cn": "爸爸",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "tired",
+          "cn": "疲倦的",
+          "pos": "形容词"
+        },
+        {
+          "en": "after",
+          "cn": "在…之后",
+          "pos": "介词"
+        },
+        {
+          "en": "work.",
+          "cn": "工作",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u2-s01",
+      "unit": 2,
+      "cn": "他是我最好的朋友。",
+      "en": "He is my best friend.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "他",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "best",
+          "cn": "最好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "friend.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u2-s02",
+      "unit": 2,
+      "cn": "他的头发很短。",
+      "en": "His hair is short.",
+      "tokens": [
+        {
+          "en": "His",
+          "cn": "他的",
+          "pos": "代词"
+        },
+        {
+          "en": "hair",
+          "cn": "头发",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "short.",
+          "cn": "短的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u2-s03",
+      "unit": 2,
+      "cn": "他又壮又高。",
+      "en": "He is strong and tall.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "他",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "strong",
+          "cn": "强壮的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "tall.",
+          "cn": "高的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u2-s04",
+      "unit": 2,
+      "cn": "她文静又友好。",
+      "en": "She is quiet and kind.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "quiet",
+          "cn": "文静的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "kind.",
+          "cn": "友好的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u2-s05",
+      "unit": 2,
+      "cn": "我总是和他踢足球。",
+      "en": "I always play football with him.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "always",
+          "cn": "总是",
+          "pos": "副词"
+        },
+        {
+          "en": "play",
+          "cn": "踢",
+          "pos": "动词"
+        },
+        {
+          "en": "football",
+          "cn": "足球",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和",
+          "pos": "介词"
+        },
+        {
+          "en": "him.",
+          "cn": "他",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u2-s06",
+      "unit": 2,
+      "cn": "我们玩个游戏吧。",
+      "en": "Let's play a game.",
+      "tokens": [
+        {
+          "en": "Let's",
+          "cn": "让我们",
+          "pos": "动词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "game.",
+          "cn": "游戏",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u2-s07",
+      "unit": 2,
+      "cn": "我喜欢读书。",
+      "en": "I like to read books.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "to",
+          "cn": "（不定式）",
+          "pos": "介词"
+        },
+        {
+          "en": "read",
+          "cn": "阅读",
+          "pos": "动词"
+        },
+        {
+          "en": "books.",
+          "cn": "书",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u2-s08",
+      "unit": 2,
+      "cn": "我们也打篮球。",
+      "en": "We also play basketball.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "also",
+          "cn": "也",
+          "pos": "副词"
+        },
+        {
+          "en": "play",
+          "cn": "打",
+          "pos": "动词"
+        },
+        {
+          "en": "basketball.",
+          "cn": "篮球",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u3-s01",
+      "unit": 3,
+      "cn": "我家附近有一个公园。",
+      "en": "There is a park near my home.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "这里",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "park",
+          "cn": "公园",
+          "pos": "名词"
+        },
+        {
+          "en": "near",
+          "cn": "在…附近",
+          "pos": "介词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "home.",
+          "cn": "家",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u3-s02",
+      "unit": 3,
+      "cn": "图书馆在那边。",
+      "en": "The library is over there.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "library",
+          "cn": "图书馆",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "over",
+          "cn": "在对面",
+          "pos": "介词"
+        },
+        {
+          "en": "there.",
+          "cn": "那里",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u3-s03",
+      "unit": 3,
+      "cn": "我们去公园散步吧。",
+      "en": "Let's walk in the park.",
+      "tokens": [
+        {
+          "en": "Let's",
+          "cn": "让我们",
+          "pos": "动词"
+        },
+        {
+          "en": "walk",
+          "cn": "散步",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在…里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "park.",
+          "cn": "公园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u3-s04",
+      "unit": 3,
+      "cn": "我在图书馆看书。",
+      "en": "I read books in the library.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "read",
+          "cn": "阅读",
+          "pos": "动词"
+        },
+        {
+          "en": "books",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在…里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "library.",
+          "cn": "图书馆",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u3-s05",
+      "unit": 3,
+      "cn": "公交站在哪里？",
+      "en": "Where is the bus stop?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "副词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "bus",
+          "cn": "公交",
+          "pos": "名词"
+        },
+        {
+          "en": "stop?",
+          "cn": "站",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u3-s06",
+      "unit": 3,
+      "cn": "这是我最喜欢的地方。",
+      "en": "This is my favourite place.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "favourite",
+          "cn": "最喜欢的",
+          "pos": "形容词"
+        },
+        {
+          "en": "place.",
+          "cn": "地方",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u3-s07",
+      "unit": 3,
+      "cn": "我在商店里买书。",
+      "en": "I buy books in the shop.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "buy",
+          "cn": "买",
+          "pos": "动词"
+        },
+        {
+          "en": "books",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在…里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "shop.",
+          "cn": "商店",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u3-s08",
+      "unit": 3,
+      "cn": "我们在操场上玩。",
+      "en": "We play on the playground.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在…上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "playground.",
+          "cn": "操场",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u4-s01",
+      "unit": 4,
+      "cn": "我爸爸是一名警察。",
+      "en": "My father is a police officer.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "father",
+          "cn": "父亲",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一名",
+          "pos": "冠词"
+        },
+        {
+          "en": "police",
+          "cn": "警察",
+          "pos": "名词"
+        },
+        {
+          "en": "officer.",
+          "cn": "警官",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u4-s02",
+      "unit": 4,
+      "cn": "消防员能帮助我们。",
+      "en": "A firefighter can help us.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "firefighter",
+          "cn": "消防员",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "动词"
+        },
+        {
+          "en": "help",
+          "cn": "帮助",
+          "pos": "动词"
+        },
+        {
+          "en": "us.",
+          "cn": "我们",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u4-s03",
+      "unit": 4,
+      "cn": "司机在公交车上。",
+      "en": "The driver is on the bus.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "driver",
+          "cn": "司机",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在…上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "bus.",
+          "cn": "公交车",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u4-s04",
+      "unit": 4,
+      "cn": "清洁工现在很忙。",
+      "en": "The cleaner is busy now.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "cleaner",
+          "cn": "清洁工",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "busy",
+          "cn": "忙碌的",
+          "pos": "形容词"
+        },
+        {
+          "en": "now.",
+          "cn": "现在",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u4-s05",
+      "unit": 4,
+      "cn": "李女士是一名厨师。",
+      "en": "Ms Li is a cook.",
+      "tokens": [
+        {
+          "en": "Ms",
+          "cn": "女士",
+          "pos": "名词"
+        },
+        {
+          "en": "Li",
+          "cn": "李",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一名",
+          "pos": "冠词"
+        },
+        {
+          "en": "cook.",
+          "cn": "厨师",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u4-s06",
+      "unit": 4,
+      "cn": "这里有很多人。",
+      "en": "There are many people.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "这里",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "many",
+          "cn": "许多",
+          "pos": "形容词"
+        },
+        {
+          "en": "people.",
+          "cn": "人",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u4-s07",
+      "unit": 4,
+      "cn": "我来铺床。",
+      "en": "Let me make the bed.",
+      "tokens": [
+        {
+          "en": "Let",
+          "cn": "让",
+          "pos": "动词"
+        },
+        {
+          "en": "me",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "make",
+          "cn": "铺",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "bed.",
+          "cn": "床",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u4-s08",
+      "unit": 4,
+      "cn": "现在每个人都在家。",
+      "en": "Everyone is at home now.",
+      "tokens": [
+        {
+          "en": "Everyone",
+          "cn": "每个人",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "home",
+          "cn": "家",
+          "pos": "名词"
+        },
+        {
+          "en": "now.",
+          "cn": "现在",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u5-s01",
+      "unit": 5,
+      "cn": "今天天气怎么样？",
+      "en": "How is the weather today?",
+      "tokens": [
+        {
+          "en": "How",
+          "cn": "怎么样",
+          "pos": "副词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "weather",
+          "cn": "天气",
+          "pos": "名词"
+        },
+        {
+          "en": "today?",
+          "cn": "今天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u5-s02",
+      "unit": 5,
+      "cn": "天气晴朗又暖和。",
+      "en": "It is sunny and warm.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "sunny",
+          "cn": "晴朗的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "warm.",
+          "cn": "暖和的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u5-s03",
+      "unit": 5,
+      "cn": "天冷还下雪。",
+      "en": "It is cold and snowy.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "cold",
+          "cn": "冷的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "snowy.",
+          "cn": "下雪的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u5-s04",
+      "unit": 5,
+      "cn": "我们去放风筝吧。",
+      "en": "Let's fly a kite.",
+      "tokens": [
+        {
+          "en": "Let's",
+          "cn": "让我们",
+          "pos": "动词"
+        },
+        {
+          "en": "fly",
+          "cn": "放飞",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "kite.",
+          "cn": "风筝",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u5-s05",
+      "unit": 5,
+      "cn": "我不喜欢下雨天。",
+      "en": "I don't like rainy days.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "don't",
+          "cn": "不",
+          "pos": "助动词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "rainy",
+          "cn": "下雨的",
+          "pos": "形容词"
+        },
+        {
+          "en": "days.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u5-s06",
+      "unit": 5,
+      "cn": "我们堆个雪人吧。",
+      "en": "Let's make a snowman.",
+      "tokens": [
+        {
+          "en": "Let's",
+          "cn": "让我们",
+          "pos": "动词"
+        },
+        {
+          "en": "make",
+          "cn": "堆",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "snowman.",
+          "cn": "雪人",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u5-s07",
+      "unit": 5,
+      "cn": "明天天气怎么样？",
+      "en": "What is the weather like tomorrow?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "weather",
+          "cn": "天气",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "像",
+          "pos": "介词"
+        },
+        {
+          "en": "tomorrow?",
+          "cn": "明天",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u5-s08",
+      "unit": 5,
+      "cn": "天多云又凉爽。",
+      "en": "It is cloudy and cool.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "cloudy",
+          "cn": "多云的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "cool.",
+          "cn": "凉爽的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u6-s01",
+      "unit": 6,
+      "cn": "这是谁的毛衣？",
+      "en": "Whose sweater is this?",
+      "tokens": [
+        {
+          "en": "Whose",
+          "cn": "谁的",
+          "pos": "代词"
+        },
+        {
+          "en": "sweater",
+          "cn": "毛衣",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "this?",
+          "cn": "这个",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u6-s02",
+      "unit": 6,
+      "cn": "它是我的。",
+      "en": "It is mine.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "mine.",
+          "cn": "我的",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u6-s03",
+      "unit": 6,
+      "cn": "冬天我穿暖和外衣。",
+      "en": "I wear a warm coat in winter.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "wear",
+          "cn": "穿",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一件",
+          "pos": "冠词"
+        },
+        {
+          "en": "warm",
+          "cn": "暖和的",
+          "pos": "形容词"
+        },
+        {
+          "en": "coat",
+          "cn": "外套",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在…里",
+          "pos": "介词"
+        },
+        {
+          "en": "winter.",
+          "cn": "冬天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u6-s04",
+      "unit": 6,
+      "cn": "你喜欢哪个季节？",
+      "en": "Which season do you like?",
+      "tokens": [
+        {
+          "en": "Which",
+          "cn": "哪一个",
+          "pos": "代词"
+        },
+        {
+          "en": "season",
+          "cn": "季节",
+          "pos": "名词"
+        },
+        {
+          "en": "do",
+          "cn": "（助动词）",
+          "pos": "助动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like?",
+          "cn": "喜欢",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u6-s05",
+      "unit": 6,
+      "cn": "我喜欢春天和夏天。",
+      "en": "I like spring and summer.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "spring",
+          "cn": "春天",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "summer.",
+          "cn": "夏天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u6-s06",
+      "unit": 6,
+      "cn": "秋天树叶落下。",
+      "en": "The leaves fall in autumn.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "leaves",
+          "cn": "树叶",
+          "pos": "名词"
+        },
+        {
+          "en": "fall",
+          "cn": "落下",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在…里",
+          "pos": "介词"
+        },
+        {
+          "en": "autumn.",
+          "cn": "秋天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u6-s07",
+      "unit": 6,
+      "cn": "我们在雪中聚会吧。",
+      "en": "Let's get together in the snow.",
+      "tokens": [
+        {
+          "en": "Let's",
+          "cn": "让我们",
+          "pos": "动词"
+        },
+        {
+          "en": "get",
+          "cn": "（变得）",
+          "pos": "动词"
+        },
+        {
+          "en": "together",
+          "cn": "一起",
+          "pos": "副词"
+        },
+        {
+          "en": "in",
+          "cn": "在…里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "snow.",
+          "cn": "雪",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-4start-4a-u6-s08",
+      "unit": 6,
+      "cn": "戴上你的手套。",
+      "en": "Put on your gloves.",
+      "tokens": [
+        {
+          "en": "Put",
+          "cn": "穿上",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "（在…上）",
+          "pos": "介词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "代词"
+        },
+        {
+          "en": "gloves.",
+          "cn": "手套",
+          "pos": "名词"
+        }
+      ]
     }
   ]
 }

@@ -1,92 +1,85 @@
 import { create } from 'zustand'
-import type { Book } from '@/types'
-import { judgeSeq, seqFor, shuffle, type PracticeMode } from '@/core/typing'
+import type { Book, Sentence } from '@/types'
+import { inputChars, judgeToken, shuffle } from '@/core/typing'
 
 type Phase = 'idle' | 'typing' | 'done'
 /** 会话类型：单元练习 / 错题复习 */
 type SessionKind = 'unit' | 'review'
-/** 单词的一次裁定 */
+/** 一句的一次裁定 */
 type Outcome = 'clean' | 'rough'
-
-const MODE_KEY = 'spellpal:mode'
-
-function readMode(): PracticeMode {
-  try {
-    const v = localStorage.getItem(MODE_KEY)
-    if (v === 'look' || v === 'listen' || v === 'cloze') return v
-  } catch {
-    /* ignore */
-  }
-  return 'look'
-}
 
 interface AppState {
   book: Book | null
   unitNo: number
   kind: SessionKind
-  mode: PracticeMode
+  /** 队列里是句子 id */
   queue: string[]
+  /** 当前第几句 */
   index: number
+  /** 当前句里正在打的第几个词 */
+  tokenIndex: number
+  /** 当前词已敲对的字符（不含自动跳过的撇号/连字符） */
   typed: string
-  /** 当前词里打错过的槽位（0 基，按显示序列计） */
-  wrongSlots: number[]
-  /** 整轮打错/跳过的词 id */
-  wrongWordIds: string[]
-  /** 每个词的裁定，用于写入错题本 */
+  /** 本句打错过的词下标 */
+  wrongTokenIdx: number[]
+  /** 整轮打错或跳过的句子 id */
+  wrongItemIds: string[]
+  /** 每句的裁定，用于写入错题本 */
   outcomes: Record<string, Outcome>
   startedAt: number
   finishedAt: number
   phase: Phase
   /** 每次打错自增，用于触发抖动动画 */
   shakeKey: number
-  hint: boolean
 
   startUnit: (book: Book, unitNo: number, order?: 'seq' | 'random') => void
-  startReview: (book: Book, wordIds: string[]) => void
-  setMode: (m: PracticeMode) => void
-  typeKey: (key: string) => 'ok' | 'bad' | 'done' | 'idle'
+  startReview: (book: Book, sentenceIds: string[]) => void
+  typeKey: (key: string) => 'ok' | 'word' | 'bad' | 'done' | 'idle'
   backspace: () => void
-  completeWord: () => void
-  skipWord: () => void
-  prevWord: () => void
-  toggleHint: () => void
+  /** 当前句打完（或跳过）后推进到下一句 */
+  advance: () => void
+  /** 空格：补全当前词并前进 */
+  skipToken: () => void
+  /** Enter：跳过整句 */
+  skipSentence: () => void
+  prevSentence: () => void
   backToShelf: () => void
-  currentWordId: () => string | undefined
-  /** 当前模式下的目标字符序列 */
-  seq: () => string[]
+  currentSentence: () => Sentence | undefined
   elapsed: () => number
 }
+
+const sentenceIdsOf = (book: Book, unitNo: number) =>
+  (book.sentences ?? []).filter((s) => s.unit === unitNo).map((s) => s.id)
 
 export const useApp = create<AppState>((set, get) => ({
   book: null,
   unitNo: 1,
   kind: 'unit',
-  mode: readMode(),
   queue: [],
   index: 0,
+  tokenIndex: 0,
   typed: '',
-  wrongSlots: [],
-  wrongWordIds: [],
+  wrongTokenIdx: [],
+  wrongItemIds: [],
   outcomes: {},
   startedAt: 0,
   finishedAt: 0,
   phase: 'idle',
   shakeKey: 0,
-  hint: true,
 
   startUnit: (book, unitNo, order = 'seq') => {
-    const unit = book.units.find((u) => u.no === unitNo)
-    if (!unit) return
-    const ids = order === 'random' ? shuffle(unit.wordIds) : [...unit.wordIds]
+    const ids = sentenceIdsOf(book, unitNo)
+    if (!ids.length) return
     set({
       book,
       unitNo,
       kind: 'unit',
-      queue: ids,
+      queue: order === 'random' ? shuffle(ids) : ids,
       index: 0,
+      tokenIndex: 0,
       typed: '',
-      wrongSlots: [],
-      wrongWordIds: [],
+      wrongTokenIdx: [],
+      wrongItemIds: [],
       outcomes: {},
       startedAt: 0,
       finishedAt: 0,
@@ -95,17 +88,18 @@ export const useApp = create<AppState>((set, get) => ({
     })
   },
 
-  startReview: (book, wordIds) => {
-    if (!wordIds.length) return
+  startReview: (book, sentenceIds) => {
+    if (!sentenceIds.length) return
     set({
       book,
       unitNo: 0,
       kind: 'review',
-      queue: [...wordIds],
+      queue: [...sentenceIds],
       index: 0,
+      tokenIndex: 0,
       typed: '',
-      wrongSlots: [],
-      wrongWordIds: [],
+      wrongTokenIdx: [],
+      wrongItemIds: [],
       outcomes: {},
       startedAt: 0,
       finishedAt: 0,
@@ -114,86 +108,135 @@ export const useApp = create<AppState>((set, get) => ({
     })
   },
 
-  setMode: (m) => {
-    try {
-      localStorage.setItem(MODE_KEY, m)
-    } catch {
-      /* ignore */
-    }
-    set({ mode: m })
-  },
-
-  seq: () => {
-    const { book, queue, index, mode } = get()
-    const word = book?.words.find((w) => w.id === queue[index])
-    return word ? seqFor(word.word, mode) : []
+  currentSentence: () => {
+    const { book, queue, index } = get()
+    const id = queue[index]
+    return book?.sentences?.find((s) => s.id === id)
   },
 
   typeKey: (key) => {
-    const { phase, queue, index, typed, book, startedAt, mode } = get()
+    const { phase, book, queue, index, tokenIndex, typed, startedAt } = get()
     if (phase !== 'typing' || !book) return 'idle'
-    const id = queue[index]
-    const word = book.words.find((w) => w.id === id)
-    if (!word) return 'idle'
+    const sentence = book.sentences?.find((s) => s.id === queue[index])
+    if (!sentence) return 'idle'
+    const token = sentence.tokens[tokenIndex]
+    if (!token) return 'idle'
 
     const started = startedAt || Date.now()
-    const seq = seqFor(word.word, mode)
-    const ok = judgeSeq(seq, typed, key)
 
-    if (!ok) {
-      const pos = typed.length
+    if (!judgeToken(token.en, typed, key)) {
       set((s) => ({
         startedAt: started,
-        wrongSlots: s.wrongSlots.includes(pos) ? s.wrongSlots : [...s.wrongSlots, pos],
         shakeKey: s.shakeKey + 1,
-        wrongWordIds: s.wrongWordIds.includes(id) ? s.wrongWordIds : [...s.wrongWordIds, id],
+        wrongTokenIdx: s.wrongTokenIdx.includes(tokenIndex)
+          ? s.wrongTokenIdx
+          : [...s.wrongTokenIdx, tokenIndex],
+        wrongItemIds: s.wrongItemIds.includes(sentence.id)
+          ? s.wrongItemIds
+          : [...s.wrongItemIds, sentence.id],
       }))
       return 'bad'
     }
 
     const next = typed + key
+    const full = inputChars(token.en).length
+
+    // 当前词还没打完
+    if (next.length < full) {
+      set({ typed: next, startedAt: started })
+      return 'ok'
+    }
+
+    // 当前词打完了：后面还有词就自动跳到下一个
+    if (tokenIndex < sentence.tokens.length - 1) {
+      set({ typed: '', tokenIndex: tokenIndex + 1, startedAt: started })
+      return 'word'
+    }
+
+    // 整句最后一个字母 —— 保留完整显示，由界面在短暂停顿后调用 advance()
     set({ typed: next, startedAt: started })
-    return next.length >= seq.length ? 'done' : 'ok'
+    return 'done'
   },
 
-  backspace: () => set((s) => ({ typed: s.typed.slice(0, -1) })),
-
-  completeWord: () => {
-    const { index, queue, wrongWordIds } = get()
+  advance: () => {
+    const { queue, index } = get()
     const id = queue[index]
-    const outcome: Outcome = wrongWordIds.includes(id) ? 'rough' : 'clean'
+    if (!id) return
+    const outcome: Outcome = get().wrongItemIds.includes(id) ? 'rough' : 'clean'
     const outcomes = { ...get().outcomes, [id]: outcome }
     if (index >= queue.length - 1) {
       set({ phase: 'done', finishedAt: Date.now(), outcomes })
     } else {
-      set({ index: index + 1, typed: '', wrongSlots: [], outcomes })
+      set({ index: index + 1, tokenIndex: 0, typed: '', wrongTokenIdx: [], outcomes })
     }
   },
 
-  skipWord: () => {
-    const { index, queue, wrongWordIds } = get()
-    const id = queue[index]
-    const outcomes = { ...get().outcomes, [id]: 'rough' as Outcome }
-    const nextWrong = wrongWordIds.includes(id) ? wrongWordIds : [...wrongWordIds, id]
-    if (index >= queue.length - 1) {
-      set({ phase: 'done', finishedAt: Date.now(), outcomes, wrongWordIds: nextWrong })
-    } else {
+  backspace: () => {
+    const { tokenIndex, typed, index, book, queue } = get()
+    if (typed.length > 0) {
+      set({ typed: typed.slice(0, -1) })
+      return
+    }
+    // 已经在这一词开头：退回上一个词，并把上一词填满
+    if (tokenIndex > 0) {
+      const sentence = book?.sentences?.find((s) => s.id === queue[index])
+      const prev = sentence?.tokens[tokenIndex - 1]
+      if (!prev) return
       set({
-        index: index + 1,
-        typed: '',
-        wrongSlots: [],
-        outcomes,
-        wrongWordIds: nextWrong,
+        tokenIndex: tokenIndex - 1,
+        typed: inputChars(prev.en).join(''),
       })
     }
   },
 
-  prevWord: () => {
-    const { index } = get()
-    if (index > 0) set({ index: index - 1, typed: '', wrongSlots: [] })
+  skipToken: () => {
+    const { book, queue, index, tokenIndex, startedAt } = get()
+    const sentence = book?.sentences?.find((s) => s.id === queue[index])
+    if (!sentence) return
+    const token = sentence.tokens[tokenIndex]
+    if (!token) return
+
+    const filled = inputChars(token.en).join('')
+    const started = startedAt || Date.now()
+    const nextWrong = get().wrongItemIds.includes(sentence.id)
+      ? get().wrongItemIds
+      : [...get().wrongItemIds, sentence.id]
+
+    // 后面还有词：放弃当前词，进入下一个
+    if (tokenIndex < sentence.tokens.length - 1) {
+      set({ typed: '', tokenIndex: tokenIndex + 1, startedAt: started, wrongItemIds: nextWrong })
+      return
+    }
+
+    // 已经是本句最后一个词：整句收尾并推进
+    set({ typed: filled, startedAt: started, wrongItemIds: nextWrong })
+    get().advance()
   },
 
-  toggleHint: () => set((s) => ({ hint: !s.hint })),
+  skipSentence: () => {
+    const { index, queue, wrongItemIds } = get()
+    const id = queue[index]
+    if (!id) return
+    const outcomes = { ...get().outcomes, [id]: 'rough' as Outcome }
+    const nextWrong = wrongItemIds.includes(id) ? wrongItemIds : [...wrongItemIds, id]
+    if (index >= queue.length - 1) {
+      set({ phase: 'done', finishedAt: Date.now(), outcomes, wrongItemIds: nextWrong })
+    } else {
+      set({
+        index: index + 1,
+        tokenIndex: 0,
+        typed: '',
+        wrongTokenIdx: [],
+        outcomes,
+        wrongItemIds: nextWrong,
+      })
+    }
+  },
+
+  prevSentence: () => {
+    const { index } = get()
+    if (index > 0) set({ index: index - 1, tokenIndex: 0, typed: '', wrongTokenIdx: [] })
+  },
 
   backToShelf: () =>
     set({
@@ -201,15 +244,14 @@ export const useApp = create<AppState>((set, get) => ({
       book: null,
       queue: [],
       index: 0,
+      tokenIndex: 0,
       typed: '',
-      wrongSlots: [],
-      wrongWordIds: [],
+      wrongTokenIdx: [],
+      wrongItemIds: [],
       outcomes: {},
       startedAt: 0,
       finishedAt: 0,
     }),
-
-  currentWordId: () => get().queue[get().index],
 
   elapsed: () => {
     const { startedAt, finishedAt } = get()

@@ -25,6 +25,25 @@ export interface Unit {
   wordIds: string[]
 }
 
+/** 句子里一个词块：英文 + 中文 + 词性 */
+export interface SentenceToken {
+  en: string
+  cn: string
+  pos: string
+}
+
+/** 一句同步例句。练习以「句」为单位，逐词跟打。 */
+export interface Sentence {
+  id: string
+  unit: number
+  /** 中文整句，练习时显示在正上方 */
+  cn: string
+  /** 英文整句 */
+  en: string
+  /** 与 en 按空格切分一一对应 */
+  tokens: SentenceToken[]
+}
+
 export interface Book {
   id: string
   title: string
@@ -38,6 +57,8 @@ export interface Book {
   updatedAt: string
   units: Unit[]
   words: Word[]
+  /** 同步例句。老词库可能没有这一层，读取时按空数组处理。 */
+  sentences?: Sentence[]
 }
 
 /** 单个字符槽的状态 */

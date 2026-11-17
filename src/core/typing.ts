@@ -1,34 +1,23 @@
 /**
  * 拼写判定核心 —— 纯函数，无副作用，可单测
  *
- * 规则：
+ * 练习单位是「句」，逐词推进。每个词块内的判定规则：
  * 1. 大小写不敏感（孩子不要求按 Shift）
- * 2. 撇号自动跳过（o'clock 只需打 oclock），显示时撇号常亮
- * 3. 空格必须自己打（red panda），训练词组意识
- * 4. 打错不前进，只标记该位置为错误并抖动
- *
- * 三种练习模式的差别只在「需要敲哪些字母」：
- *   look   看中打英 —— 整个词都要敲
- *   listen 听音拼写 —— 整个词都要敲（不给中文）
- *   cloze  挖空默写 —— 只敲挖掉的部分（默认挖元音）
+ * 2. 撇号、连字符自动跳过（o'clock 只需打 oclock，Let's 只需打 Lets），显示时常亮
+ * 3. 打错不前进，只标记并抖动
  */
-
-export type PracticeMode = 'look' | 'listen' | 'cloze'
-
-export const MODES: { key: PracticeMode; label: string; hint: string }[] = [
-  { key: 'look', label: '看中打英', hint: '看中文，敲英文' },
-  { key: 'listen', label: '听音拼写', hint: '听发音，敲英文' },
-  { key: 'cloze', label: '挖空默写', hint: '补全被挖掉的字母' },
-]
-
-const VOWELS = 'aeiou'
 
 /** 不需要用户敲的装饰字符：撇号、连字符 */
 const SKIP = new Set(["'", '’', '-'])
 
+/** 该字符是否要用户敲 */
+export function isTypable(c: string): boolean {
+  return !SKIP.has(c)
+}
+
 /** 去掉撇号/连字符后，真正需要用户敲的字符序列 */
 export function inputChars(target: string): string[] {
-  return [...target].filter((c) => !SKIP.has(c))
+  return [...target].filter(isTypable)
 }
 
 /** 用于渲染的字符序列（保留撇号与连字符） */
@@ -37,66 +26,21 @@ export function displayChars(target: string): string[] {
 }
 
 /** 与 displayChars(target) 逐位对齐：true 表示这一位需要用户敲 */
-export function blankFlags(target: string, mode: PracticeMode = 'look'): boolean[] {
-  const chars = displayChars(target)
-  if (mode !== 'cloze') {
-    return chars.map((c) => !SKIP.has(c))
-  }
-  // 挖空默写：挖掉元音，保留辅音骨架
-  const flags = chars.map((c) => !SKIP.has(c) && VOWELS.includes(c.toLowerCase()))
-  if (flags.some(Boolean)) return flags
-  // 没有元音（如 my / cry / sky）：挖掉中间那一个可敲字符
-  const idx = Math.max(0, Math.floor(inputChars(target).length / 2))
-  let seen = -1
-  return chars.map((c) => {
-    if (SKIP.has(c)) return false
-    seen += 1
-    return seen === idx
-  })
+export function tokenFlags(target: string): boolean[] {
+  return displayChars(target).map(isTypable)
 }
 
-/** 当前模式真正要敲的字符序列 */
-export function seqFor(target: string, mode: PracticeMode = 'look'): string[] {
-  const chars = displayChars(target)
-  const flags = blankFlags(target, mode)
-  return chars.filter((_, i) => flags[i])
+/** 一个字块要敲的字符数 */
+export function tokenLength(target: string): number {
+  return inputChars(target).length
 }
 
 /** 判断这一次按键是否命中当前待输入位置 */
-export function judgeSeq(seq: string[], typed: string, key: string): boolean {
+export function judgeToken(target: string, typed: string, key: string): boolean {
+  const seq = inputChars(target)
   const expected = seq[typed.length]
   if (expected === undefined) return false
   return key.toLowerCase() === expected.toLowerCase()
-}
-
-/** 兼容旧签名：整词判定 */
-export function judge(target: string, typed: string, key: string): boolean {
-  return judgeSeq(inputChars(target), typed, key)
-}
-
-/** 计算每个显示字符的槽位状态 */
-export function slotStates(target: string, typedLength: number): ('pending' | 'correct' | 'cursor')[] {
-  const chars = displayChars(target)
-  let consumed = 0
-  return chars.map((c) => {
-    if (c === "'" || c === '’') return 'correct'
-    if (consumed < typedLength) {
-      consumed++
-      return 'correct'
-    }
-    if (consumed === typedLength) {
-      consumed++
-      return 'cursor'
-    }
-    return 'pending'
-  })
-}
-
-/** 完成度 0–1 */
-export function progress(target: string, typed: string, mode: PracticeMode = 'look'): number {
-  const total = seqFor(target, mode).length
-  if (total === 0) return 1
-  return Math.min(1, typed.length / total)
 }
 
 /** 打乱数组（Fisher–Yates），seed 可选以便复现 */
@@ -132,4 +76,21 @@ export function cnNum(n: number): string {
     return d[t] + '十' + (o ? d[o] : '')
   }
   return String(n)
+}
+
+/** 词性 → 配色。暖色给动词，冷色给名词/代词，绿色给形容词。 */
+const POS_TONE: { match: RegExp; fg: string; bg: string }[] = [
+  { match: /动词|助动词/, fg: '#FCA5A5', bg: 'rgba(248,113,113,0.16)' },
+  { match: /形容词/, fg: '#6EE7B7', bg: 'rgba(52,211,153,0.14)' },
+  { match: /名词/, fg: '#C4B5FD', bg: 'rgba(167,139,250,0.16)' },
+  { match: /副词/, fg: '#67E8F9', bg: 'rgba(34,211,238,0.14)' },
+  { match: /代词/, fg: '#93C5FD', bg: 'rgba(96,165,250,0.16)' },
+  { match: /冠词|限定词/, fg: '#A5B4FC', bg: 'rgba(129,140,248,0.16)' },
+  { match: /介词|连词/, fg: '#FCD34D', bg: 'rgba(251,191,36,0.14)' },
+  { match: /数词/, fg: '#FDE68A', bg: 'rgba(253,224,71,0.14)' },
+  { match: /感叹/, fg: '#F9A8D4', bg: 'rgba(244,114,182,0.16)' },
+]
+
+export function posTone(pos: string): { fg: string; bg: string } {
+  return POS_TONE.find((p) => p.match.test(pos)) ?? { fg: '#CBD5E1', bg: 'rgba(148,163,184,0.14)' }
 }
