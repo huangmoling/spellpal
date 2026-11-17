@@ -29,6 +29,8 @@ interface AppState {
   startedAt: number
   finishedAt: number
   phase: Phase
+  /** 本句已拼完，停在原地等空格（不再自动跳下一句） */
+  completed: boolean
   /** 每次打错自增，用于触发抖动动画 */
   shakeKey: number
   /** 字号倍率，1 = 上限 64px，用户可在练习页调 */
@@ -41,11 +43,14 @@ interface AppState {
   /** 虚拟键盘与指法提示 */
   kbOn: boolean
   setKbOn: (v: boolean) => void
-  /** 空格键：显示答案（默认关闭，防止孩子用空格逃避拼写） */
-  spaceReveal: boolean
   /** 回车键：跳过整句（默认关闭） */
   enterSkip: boolean
-  setToggle: (key: 'spaceReveal' | 'enterSkip', v: boolean) => void
+  setEnterSkip: (v: boolean) => void
+  /** 拼对整句的音效序号（0-7） */
+  sfxOk: number
+  /** 拼错的音效序号（0-7） */
+  sfxErr: number
+  setSfx: (kind: 'ok' | 'err', i: number) => void
   /** 设置面板是否打开——打开时要屏蔽练习页的全局键盘，否则 Esc 会连带退出练习 */
   settingsOpen: boolean
   setSettingsOpen: (v: boolean) => void
@@ -86,14 +91,20 @@ export type Theme = 'dark' | 'light'
 
 const THEME_KEY = 'spellpal:theme'
 const KB_KEY = 'spellpal:kb'
-const SPACE_KEY = 'spellpal:opt-space'
 const ENTER_KEY = 'spellpal:opt-enter'
+const SFX_OK_KEY = 'spellpal:sfx-ok'
+const SFX_ERR_KEY = 'spellpal:sfx-err'
 
 const readTheme = (): Theme => (localStorage.getItem(THEME_KEY) === 'light' ? 'light' : 'dark')
-/** 虚拟键盘默认开；空格/回车两个「逃避键」默认关 */
+/** 虚拟键盘默认开；回车跳过默认关 */
 const readFlag = (key: string, fallback: boolean) => {
   const raw = localStorage.getItem(key)
   return raw === null ? fallback : raw === '1'
+}
+/** 音效序号 0-7 */
+const readSfx = (key: string, fallback: number) => {
+  const raw = Number(localStorage.getItem(key))
+  return Number.isInteger(raw) && raw >= 0 && raw <= 7 ? raw : fallback
 }
 
 /** 把主题写到 <html data-theme>，CSS 变量与 color-scheme 都靠它 */
@@ -118,6 +129,7 @@ export const useApp = create<AppState>((set, get) => ({
   startedAt: 0,
   finishedAt: 0,
   phase: 'idle',
+  completed: false,
   shakeKey: 0,
   fontScale: readFontScale(),
 
@@ -143,14 +155,20 @@ export const useApp = create<AppState>((set, get) => ({
   settingsOpen: false,
   setSettingsOpen: (v) => set({ settingsOpen: v }),
 
-  spaceReveal: readFlag(SPACE_KEY, false),
   enterSkip: readFlag(ENTER_KEY, false),
-  setToggle: (key, v) => {
-    localStorage.setItem(key === 'spaceReveal' ? SPACE_KEY : ENTER_KEY, v ? '1' : '0')
-    if (key === 'spaceReveal') set({ spaceReveal: v })
-    else set({ enterSkip: v })
+  setEnterSkip: (v) => {
+    localStorage.setItem(ENTER_KEY, v ? '1' : '0')
+    set({ enterSkip: v })
   },
 
+  sfxOk: readSfx(SFX_OK_KEY, 0),
+  sfxErr: readSfx(SFX_ERR_KEY, 0),
+  setSfx: (kind, i) => {
+    const next = Math.min(7, Math.max(0, Math.round(i)))
+    localStorage.setItem(kind === 'ok' ? SFX_OK_KEY : SFX_ERR_KEY, String(next))
+    if (kind === 'ok') set({ sfxOk: next })
+    else set({ sfxErr: next })
+  },
   startUnit: (book, unitNo, order = 'seq') => {
     const ids = sentenceIdsOf(book, unitNo)
     if (!ids.length) return
@@ -168,6 +186,7 @@ export const useApp = create<AppState>((set, get) => ({
       startedAt: 0,
       finishedAt: 0,
       phase: 'typing',
+      completed: false,
       shakeKey: 0,
     })
   },
@@ -188,6 +207,7 @@ export const useApp = create<AppState>((set, get) => ({
       startedAt: 0,
       finishedAt: 0,
       phase: 'typing',
+      completed: false,
       shakeKey: 0,
     })
   },
@@ -199,8 +219,8 @@ export const useApp = create<AppState>((set, get) => ({
   },
 
   typeKey: (key) => {
-    const { phase, book, queue, index, tokenIndex, typed, startedAt } = get()
-    if (phase !== 'typing' || !book) return 'idle'
+    const { phase, book, queue, index, tokenIndex, typed, startedAt, completed } = get()
+    if (phase !== 'typing' || !book || completed) return 'idle'
     const sentence = book.sentences?.find((s) => s.id === queue[index])
     if (!sentence) return 'idle'
     const token = sentence.tokens[tokenIndex]
@@ -237,8 +257,8 @@ export const useApp = create<AppState>((set, get) => ({
       return 'word'
     }
 
-    // 整句最后一个字母 —— 保留完整显示，由界面在短暂停顿后调用 advance()
-    set({ typed: next, startedAt: started })
+    // 整句最后一个字母：就地定格成庆祝态，等空格才进下一句
+    set({ typed: next, startedAt: started, completed: true })
     return 'done'
   },
 
@@ -249,14 +269,23 @@ export const useApp = create<AppState>((set, get) => ({
     const outcome: Outcome = get().wrongItemIds.includes(id) ? 'rough' : 'clean'
     const outcomes = { ...get().outcomes, [id]: outcome }
     if (index >= queue.length - 1) {
-      set({ phase: 'done', finishedAt: Date.now(), outcomes })
+      set({ phase: 'done', finishedAt: Date.now(), outcomes, completed: false })
     } else {
-      set({ index: index + 1, tokenIndex: 0, typed: '', wrongTokenIdx: [], outcomes })
+      set({
+        index: index + 1,
+        tokenIndex: 0,
+        typed: '',
+        wrongTokenIdx: [],
+        outcomes,
+        completed: false,
+      })
     }
   },
 
   backspace: () => {
     const { tokenIndex, typed, index, book, queue } = get()
+    /* 拼完定格了就别再改字母，只能空格往下走 */
+    if (get().completed) return
     if (typed.length > 0) {
       set({ typed: typed.slice(0, -1) })
       return
@@ -304,7 +333,7 @@ export const useApp = create<AppState>((set, get) => ({
     const outcomes = { ...get().outcomes, [id]: 'rough' as Outcome }
     const nextWrong = wrongItemIds.includes(id) ? wrongItemIds : [...wrongItemIds, id]
     if (index >= queue.length - 1) {
-      set({ phase: 'done', finishedAt: Date.now(), outcomes, wrongItemIds: nextWrong })
+      set({ phase: 'done', finishedAt: Date.now(), outcomes, wrongItemIds: nextWrong, completed: false })
     } else {
       set({
         index: index + 1,
@@ -313,13 +342,14 @@ export const useApp = create<AppState>((set, get) => ({
         wrongTokenIdx: [],
         outcomes,
         wrongItemIds: nextWrong,
+        completed: false,
       })
     }
   },
 
   prevSentence: () => {
     const { index } = get()
-    if (index > 0) set({ index: index - 1, tokenIndex: 0, typed: '', wrongTokenIdx: [] })
+    if (index > 0) set({ index: index - 1, tokenIndex: 0, typed: '', wrongTokenIdx: [], completed: false })
   },
 
   backToShelf: () =>
@@ -335,6 +365,7 @@ export const useApp = create<AppState>((set, get) => ({
       outcomes: {},
       startedAt: 0,
       finishedAt: 0,
+      completed: false,
     }),
 
   elapsed: () => {

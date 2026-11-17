@@ -109,3 +109,25 @@ export function posTone(pos: string, light = false): { fg: string; bg: string } 
   }
   return light ? { fg: hit.fgL, bg: hit.bgL } : { fg: hit.fg, bg: hit.bg }
 }
+
+/**
+ * 拼完之后词块整块变成彩色卡片，配色按词性分。
+ * 明度都压得住白字，所以卡面上不用再分主题。
+ */
+const POS_BLOCK: { match: RegExp; from: string; to: string }[] = [
+  { match: /系动词/, from: '#B026D9', to: '#7C1FA8' },
+  { match: /助动词|动词/, from: '#E01E63', to: '#A8123F' },
+  { match: /形容词/, from: '#F0A11B', to: '#B96A05' },
+  { match: /副词/, from: '#0EA5B7', to: '#0B7285' },
+  { match: /代词/, from: '#1F8BE0', to: '#155FA8' },
+  { match: /名词/, from: '#2F6BE8', to: '#1C3FA8' },
+  { match: /冠词|限定词/, from: '#4E7BF0', to: '#2A4FBF' },
+  { match: /介词|连词/, from: '#8B3DE0', to: '#5B21A8' },
+  { match: /数词/, from: '#D4A017', to: '#9A6B06' },
+  { match: /感叹/, from: '#E0288A', to: '#A3125C' },
+]
+
+export function posBlock(pos: string): { from: string; to: string } {
+  const hit = POS_BLOCK.find((p) => p.match.test(pos))
+  return hit ?? { from: '#556A8C', to: '#334155' }
+}

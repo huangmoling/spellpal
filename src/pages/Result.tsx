@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { ArrowLeft, RotateCcw, Trophy, Layers } from 'lucide-react'
 import { useApp } from '@/store/useApp'
 import { formatDuration } from '@/core/typing'
-import { sfx } from '@/utils/sound'
+import { playFinish } from '@/utils/sound'
 import { saveUnitProgress } from '@/utils/progress'
 import { recordResult } from '@/utils/srs'
 
@@ -17,6 +17,7 @@ export default function Result() {
   const finishedAt = useApp((s) => s.finishedAt)
   const startUnit = useApp((s) => s.startUnit)
   const backToShelf = useApp((s) => s.backToShelf)
+  const sfxOk = useApp((s) => s.sfxOk)
 
   const total = queue.length
   const wrong = wrongItemIds.length
@@ -31,7 +32,7 @@ export default function Result() {
   )
 
   useEffect(() => {
-    sfx.finish()
+    playFinish(sfxOk)
     if (!book) return
     if (kind === 'unit') saveUnitProgress(book.id, unitNo, { done: total, acc })
 

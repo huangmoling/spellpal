@@ -6,6 +6,8 @@ const isDev = process.env.NODE_ENV === 'development'
 /** 截图模式：SPELLPAL_SHOT=<png 路径> 时，加载页面后截图退出（开发/CI 用） */
 const shotPath = process.env.SPELLPAL_SHOT || ''
 const offscreen = process.env.SPELLPAL_OFFSCREEN === '1'
+/** 截图时也要真窗口（动画类截图用得到，隐藏窗口会暂停 rAF） */
+const showWin = process.env.SPELLPAL_SHOW === '1'
 
 const logFile = shotPath ? path.join(path.dirname(shotPath), 'shot.log') : ''
 const log = (m) => {
@@ -27,7 +29,7 @@ function createWindow() {
     minHeight: 620,
     backgroundColor: '#0B0E13',
     frame: false,
-    show: !shotPath,
+    show: !shotPath || showWin,
     autoHideMenuBar: true,
     title: '小拼手 SpellPal',
     webPreferences: {
@@ -41,7 +43,7 @@ function createWindow() {
 
   mainWindow.once('ready-to-show', () => {
     log('ready-to-show')
-    if (!shotPath) mainWindow?.show()
+    if (!shotPath || showWin) mainWindow?.show()
   })
 
   if (isDev) {
@@ -218,6 +220,28 @@ function createWindow() {
           } else {
             await wait(600)
           }
+        }
+
+        /* 4.4) 整句逐字打完，停在庆祝态（彩色词块 + 烟花） */
+        if (action.includes('sentence')) {
+          const chars = await run(`
+            (() => {
+              const s = window.__spellpal.getState();
+              const sen = s.book.sentences.find((x) => x.id === s.queue[s.index]);
+              const SKIP = new Set(["'", '\u2019', '-', '.', ',', '?', '!', ';', ':', '\u2026']);
+              const out = [];
+              for (const t of sen.tokens) for (const c of [...t.en]) if (!SKIP.has(c)) out.push(c);
+              return out;
+            })()
+          `)
+          log('sentence chars=' + (chars || []).join(''))
+          for (const k of chars || []) {
+            await run(
+              `window.dispatchEvent(new KeyboardEvent('keydown',{key:${JSON.stringify(k)},bubbles:true}))`,
+            )
+            await wait(80)
+          }
+          await wait(350)
         }
 
         /* 4.5) 打开设置面板（顶栏齿轮没有文字，只能按 title 找） */

@@ -99,6 +99,8 @@ export function BottomBar({
   onReveal,
   onMaster,
   skipDisabled = false,
+  nextReady = false,
+  nextLabel = '下一题',
   extra,
   hintLeft,
 }: {
@@ -109,6 +111,9 @@ export function BottomBar({
   onMaster?: () => void
   /** 跳过开关关闭时，按钮变灰但还能点（点了会给出说明） */
   skipDisabled?: boolean
+  /** 本句已拼完：右下角按钮点亮成「下一句」 */
+  nextReady?: boolean
+  nextLabel?: string
   extra?: ReactNode
   hintLeft?: ReactNode
 }) {
@@ -142,13 +147,13 @@ export function BottomBar({
           onClick={onNext}
           className={clsx(
             'ml-1 flex h-9 items-center gap-1.5 rounded-xl px-5 text-[13px] font-medium leading-none transition active:scale-[0.98]',
-            skipDisabled
-              ? 'bg-veil/[0.07] text-muted/70 hover:bg-veil/[0.1]'
-              : 'bg-brand text-white shadow-[0_4px_18px_rgba(124,92,255,0.4)] hover:brightness-110',
+            nextReady || !skipDisabled
+              ? 'bg-brand text-white shadow-[0_4px_18px_rgba(124,92,255,0.4)] hover:brightness-110'
+              : 'bg-veil/[0.07] text-muted/70 hover:bg-veil/[0.1]',
           )}
-          title={skipDisabled ? '跳过已关闭（到设置里打开回车跳过）' : '下一句'}
+          title={nextReady ? '下一句（空格）' : skipDisabled ? '跳过已关闭（到设置里打开回车跳过）' : '下一句'}
         >
-          <span>下一题</span>
+          <span>{nextLabel}</span>
           <ChevronRight size={15} strokeWidth={2.4} />
         </button>
       </div>

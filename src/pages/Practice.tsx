@@ -5,8 +5,9 @@ import { useApp } from '@/store/useApp'
 import { BottomBar, ProgressBar, StageFrame, TopBar } from '@/components/StageFrame'
 import SentenceBoard from '@/components/SentenceBoard'
 import VirtualKeyboard from '@/components/VirtualKeyboard'
+import Fireworks from '@/components/Fireworks'
 import { formatDuration, inputChars, isPunct } from '@/core/typing'
-import { sfx } from '@/utils/sound'
+import { playError, playSuccess, tick } from '@/utils/sound'
 import { speak, warmupSpeech } from '@/utils/speech'
 import { markMastered } from '@/utils/srs'
 
@@ -20,6 +21,7 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
   const typed = useApp((s) => s.typed)
   const shakeKey = useApp((s) => s.shakeKey)
   const wrongTokenIdx = useApp((s) => s.wrongTokenIdx)
+  const completed = useApp((s) => s.completed)
   const typeKey = useApp((s) => s.typeKey)
   const backspace = useApp((s) => s.backspace)
   const skipSentence = useApp((s) => s.skipSentence)
@@ -29,14 +31,16 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
 
   const showKb = useApp((s) => s.kbOn)
   const setKbOn = useApp((s) => s.setKbOn)
-  const spaceReveal = useApp((s) => s.spaceReveal)
   const enterSkip = useApp((s) => s.enterSkip)
+  const sfxOk = useApp((s) => s.sfxOk)
+  const sfxErr = useApp((s) => s.sfxErr)
   const fontScale = useApp((s) => s.fontScale)
   const setFontScale = useApp((s) => s.setFontScale)
 
   const [elapsed, setElapsed] = useState(0)
   const [reveal, setReveal] = useState(false)
   const [toast, setToast] = useState('')
+  const [burst, setBurst] = useState(0)
   const toastAt = useRef(0)
   const revealTimer = useRef(0)
 
@@ -118,11 +122,10 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
       }
       if (e.key === ' ') {
         e.preventDefault()
-        if (!spaceReveal) {
-          say('空格显示答案已关闭，去设置里打开')
-          return
-        }
-        return doReveal()
+        /* 空格只干一件事：这句拼完了，进下一句 */
+        if (completed) return advance()
+        say('先把这句话拼完，再按空格进下一句')
+        return
       }
       if (e.key.length !== 1) return
       e.preventDefault()
@@ -132,19 +135,29 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
 
       const result = typeKey(e.key)
       if (result === 'bad') {
-        sfx.bad()
-      } else if (result === 'ok') {
-        sfx.ok()
-      } else if (result === 'word') {
-        sfx.ok()
+        playError(sfxErr)
+      } else if (result === 'ok' || result === 'word') {
+        tick()
       } else if (result === 'done') {
-        sfx.done()
-        window.setTimeout(() => advance(), 280)
+        /* 不自动跳下一句：定格成彩色卡片 + 烟花，等空格 */
+        playSuccess(sfxOk)
+        setBurst((n) => n + 1)
       }
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [typeKey, backspace, advance, backToShelf, trySkip, doReveal, spaceReveal, say])
+  }, [
+    typeKey,
+    backspace,
+    advance,
+    backToShelf,
+    trySkip,
+    doReveal,
+    say,
+    completed,
+    sfxOk,
+    sfxErr,
+  ])
 
   if (!book || !sentence) return null
 
@@ -184,16 +197,19 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
             shakeKey={shakeKey}
             wrongTokens={wrongTokenIdx}
             reveal={reveal}
+            completed={completed}
             fontScale={fontScale}
-            compact={showKb}
+            compact={showKb && !completed}
             onSpeak={doSpeak}
           />
         </div>
 
-        {showKb && <VirtualKeyboard nextKey={nextKey} className="mt-2" />}
+        {showKb && !completed && <VirtualKeyboard nextKey={nextKey} className="mt-2" />}
+
+        <Fireworks burst={burst} />
 
         {toast && (
-          <div className="absolute bottom-12 left-1/2 -translate-x-1/2 animate-rise rounded-lg bg-card px-3.5 py-2 text-[12px] text-ink/85 ring-1 ring-veil/10">
+          <div className="absolute bottom-12 left-1/2 z-40 -translate-x-1/2 animate-rise rounded-lg bg-card px-3.5 py-2 text-[12px] text-ink/85 ring-1 ring-veil/10">
             {toast}
           </div>
         )}
@@ -203,7 +219,9 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
         onPrev={prevSentence}
         onSkip={trySkip}
         skipDisabled={!enterSkip}
-        onNext={trySkip}
+        onNext={completed ? advance : trySkip}
+        nextReady={completed}
+        nextLabel={completed ? '下一句' : '下一题'}
         onReveal={doReveal}
         onMaster={doMaster}
         extra={
@@ -228,12 +246,20 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
           </div>
         }
         hintLeft={
-          <span className="truncate">
-            {kind === 'review' ? '错题复习' : (unit?.theme ?? '')}
-            <span className="ml-2 text-muted/35">
-              {index + 1}/{total}
+          completed ? (
+            <span className="flex items-center gap-1.5 text-brand">
+              <span className="animate-pulse">✓</span>
+              拼完了 · <kbd className="rounded bg-veil/[0.08] px-1.5 py-[2px] text-[11px]">空格</kbd>{' '}
+              进下一句
             </span>
-          </span>
+          ) : (
+            <span className="truncate">
+              {kind === 'review' ? '错题复习' : (unit?.theme ?? '')}
+              <span className="ml-2 text-muted/35">
+                {index + 1}/{total}
+              </span>
+            </span>
+          )
         }
       />
     </StageFrame>

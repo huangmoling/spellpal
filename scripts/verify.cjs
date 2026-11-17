@@ -114,8 +114,9 @@ app.on('ready', async () => {
       })()
     `)
 
-  /* 第一轮：全部打对 */
+  /* 第一轮：全部打对。每句打完后必须按空格才进下一句 */
   let guard = 0
+  let heldChecked = false
   while (guard < 40) {
     guard += 1
     const st = await run(`(() => { const s = window.__spellpal.getState(); return s.phase + '|' + s.index + '|' + s.tokenIndex; })()`)
@@ -127,7 +128,16 @@ app.on('ready', async () => {
       await press(c)
       await wait(8)
     }
-    await wait(320)
+    await wait(260)
+    if (!heldChecked) {
+      const held = await run(
+        `(() => { const s = window.__spellpal.getState(); return { idx: s.index, done: s.completed }; })()`,
+      )
+      check('拼完不自动跳下一句，等空格', held.idx === 0 && held.done === true, JSON.stringify(held))
+      heldChecked = true
+    }
+    await press(' ')
+    await wait(220)
   }
   console.log('[3] 打完整单元')
 

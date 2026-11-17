@@ -7,14 +7,16 @@ import {
   Heart,
   Keyboard,
   Moon,
+  Play,
   RotateCcw,
-  Space,
+  Sparkles,
   Sun,
   X,
 } from 'lucide-react'
 import { FONT_MAX, FONT_MIN, useApp } from '@/store/useApp'
 import type { Theme } from '@/store/useApp'
 import { noticeLines, openRepo, repoUrl } from '@/core/notice'
+import { ERROR_SFX, SUCCESS_SFX, playError, playSuccess } from '@/utils/sound'
 
 /** 一行设置：左边标题+说明，右边控件 */
 function Row({
@@ -29,7 +31,7 @@ function Row({
   children: React.ReactNode
 }) {
   return (
-    <div className="flex items-center gap-3 rounded-xl bg-veil/[0.03] px-3.5 py-2.5 ring-1 ring-veil/[0.06]">
+    <div className="flex items-center gap-3 rounded-xl bg-veil/[0.03] px-3.5 py-2 ring-1 ring-veil/[0.06]">
       <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-veil/[0.05] text-muted">
         {icon}
       </span>
@@ -72,14 +74,72 @@ function Switch({
   )
 }
 
+/** 音效选择：8 个数字 + 试听 */
+function SoundRow({
+  kind,
+  icon,
+  title,
+  value,
+  onChange,
+}: {
+  kind: 'ok' | 'err'
+  icon: React.ReactNode
+  title: string
+  value: number
+  onChange: (i: number) => void
+}) {
+  const presets = kind === 'ok' ? SUCCESS_SFX : ERROR_SFX
+  const preview = () => (kind === 'ok' ? playSuccess(value) : playError(value))
+
+  return (
+    <div className="flex items-center gap-2.5 rounded-xl bg-veil/[0.03] px-3 py-1.5 ring-1 ring-veil/[0.06]">
+      <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-veil/[0.05] text-muted">
+        {icon}
+      </span>
+      <span className="min-w-0 flex-1">
+        <span className="block text-[12.5px] font-medium text-ink/90">{title}</span>
+        <span className="mt-0.5 block truncate text-[10.5px] text-muted/55">
+          当前：{presets[value]?.name ?? '—'}
+        </span>
+      </span>
+      <div className="flex shrink-0 items-center gap-[3px]">
+        {presets.map((pr, i) => (
+          <button
+            key={i}
+            onClick={() => onChange(i)}
+            title={pr.name}
+            className={clsx(
+              'tabnum h-[22px] w-[22px] rounded-md text-[10.5px] leading-none transition',
+              i === value
+                ? 'bg-brand text-white shadow-[0_2px_10px_rgba(124,92,255,0.45)]'
+                : 'bg-veil/[0.05] text-muted/60 hover:bg-veil/[0.1] hover:text-ink',
+            )}
+          >
+            {i + 1}
+          </button>
+        ))}
+        <button
+          onClick={preview}
+          title="试听"
+          className="ml-1 flex h-[22px] w-[22px] items-center justify-center rounded-md bg-veil/[0.05] text-muted transition hover:bg-brand/15 hover:text-brand"
+        >
+          <Play size={11} strokeWidth={2.2} fill="currentColor" />
+        </button>
+      </div>
+    </div>
+  )
+}
+
 export default function SettingsSheet({ onClose }: { onClose: () => void }) {
   const theme = useApp((s) => s.theme)
   const setTheme = useApp((s) => s.setTheme)
   const kbOn = useApp((s) => s.kbOn)
   const setKbOn = useApp((s) => s.setKbOn)
-  const spaceReveal = useApp((s) => s.spaceReveal)
   const enterSkip = useApp((s) => s.enterSkip)
-  const setToggle = useApp((s) => s.setToggle)
+  const setEnterSkip = useApp((s) => s.setEnterSkip)
+  const sfxOk = useApp((s) => s.sfxOk)
+  const sfxErr = useApp((s) => s.sfxErr)
+  const setSfx = useApp((s) => s.setSfx)
   const fontScale = useApp((s) => s.fontScale)
   const setFontScale = useApp((s) => s.setFontScale)
 
@@ -102,7 +162,7 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
     <div className="fixed inset-0 z-[60] flex items-center justify-center">
       <div className="absolute inset-0 bg-black/55 backdrop-blur-[2px]" onClick={onClose} />
 
-      <div className="relative flex max-h-[88vh] w-[560px] flex-col overflow-hidden rounded-2xl bg-card shadow-[0_24px_80px_rgba(0,0,0,0.45)] ring-1 ring-veil/10">
+      <div className="relative flex max-h-[92vh] w-[560px] flex-col overflow-hidden rounded-2xl bg-card shadow-[0_24px_80px_rgba(0,0,0,0.45)] ring-1 ring-veil/10">
         <header
           className="flex h-14 shrink-0 items-center gap-3 border-b border-veil/[0.07] px-5"
           style={{ WebkitAppRegion: 'drag' } as React.CSSProperties}
@@ -141,7 +201,7 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
         </header>
 
         {tab === 'general' ? (
-          <div className="min-h-0 flex-1 space-y-4 overflow-y-auto px-5 py-4">
+          <div className="min-h-0 flex-1 space-y-3 overflow-y-auto px-5 py-3.5">
             {/* 主题 */}
             <section>
               <div className="mb-2 text-[11px] font-medium tracking-wide text-muted/55">外观</div>
@@ -153,14 +213,14 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
                       key={t.key}
                       onClick={() => setTheme(t.key)}
                       className={clsx(
-                        'group relative overflow-hidden rounded-xl px-3.5 py-2.5 text-left ring-1 transition',
+                        'group relative overflow-hidden rounded-xl px-3.5 py-2 text-left ring-1 transition',
                         on
                           ? 'bg-brand/10 ring-brand/55'
                           : 'bg-veil/[0.03] ring-veil/[0.07] hover:ring-veil/20',
                       )}
                     >
                       <div
-                        className="mb-2 flex h-9 items-center gap-1.5 rounded-lg px-2.5"
+                        className="mb-1.5 flex h-8 items-center gap-1.5 rounded-lg px-2.5"
                         style={{ background: t.key === 'dark' ? '#0B0E13' : '#F5F7FB' }}
                       >
                         <span
@@ -187,7 +247,7 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
                         {t.label}
                         {on && <Check size={13} strokeWidth={3} className="ml-auto text-brand" />}
                       </span>
-                      <span className="mt-0.5 block text-[11px] text-muted/55">{t.hint}</span>
+                      <span className="mt-0.5 block text-[10.5px] text-muted/55">{t.hint}</span>
                     </button>
                   )
                 })}
@@ -204,7 +264,7 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
                   {Math.round(fontScale * 100)}%
                 </span>
               </div>
-              <div className="rounded-xl bg-veil/[0.03] px-3.5 py-2.5 ring-1 ring-veil/[0.06]">
+              <div className="rounded-xl bg-veil/[0.03] px-3.5 py-2 ring-1 ring-veil/[0.06]">
                 <input
                   type="range"
                   min={FONT_MIN * 100}
@@ -226,7 +286,7 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
                   <span>{Math.round(FONT_MAX * 100)}%</span>
                 </div>
               </div>
-              <p className="mt-1.5 px-1 text-[10.5px] leading-relaxed text-muted/40">
+              <p className="mt-1 px-1 text-[10px] leading-relaxed text-muted/40">
                 长句子放不下时，字号会自动降到屏幕能容下的最大值。
               </p>
             </section>
@@ -246,32 +306,44 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
                 </Row>
 
                 <Row
-                  icon={<Space size={15} strokeWidth={1.9} />}
-                  title="空格键显示答案"
-                  desc="默认关闭。开启后按空格亮出整句答案"
-                >
-                  <Switch
-                    on={spaceReveal}
-                    onChange={(v) => setToggle('spaceReveal', v)}
-                    label="空格键显示答案"
-                  />
-                </Row>
-
-                <Row
                   icon={<CornerDownLeft size={15} strokeWidth={1.9} />}
                   title="回车键跳过整句"
                   desc="默认关闭。开启后回车跳到下一句，进错题本"
                 >
                   <Switch
                     on={enterSkip}
-                    onChange={(v) => setToggle('enterSkip', v)}
+                    onChange={(v) => setEnterSkip(v)}
                     label="回车键跳过整句"
                   />
                 </Row>
               </div>
               <p className="mt-2 px-1 text-[10.5px] leading-relaxed text-muted/40">
-                两个键默认都关着——单词没打完就是不能跳，逼孩子把每个字母拼出来。真要跳过，用底部工具栏的按钮。
+                空格固定是「拼完进下一句」；回车跳过默认关着，单词没打完不能跳。
               </p>
+            </section>
+
+            {/* 音效 */}
+            <section>
+              <div className="mb-2 flex items-baseline justify-between">
+                <span className="text-[11px] font-medium tracking-wide text-muted/55">音效</span>
+                <span className="text-[10.5px] text-muted/40">各 8 种，点数字换音色</span>
+              </div>
+              <div className="space-y-2">
+                <SoundRow
+                  kind="ok"
+                  icon={<Sparkles size={14} strokeWidth={2} />}
+                  title="拼对整句"
+                  value={sfxOk}
+                  onChange={(i) => setSfx('ok', i)}
+                />
+                <SoundRow
+                  kind="err"
+                  icon={<X size={14} strokeWidth={2.4} />}
+                  title="拼错字母"
+                  value={sfxErr}
+                  onChange={(i) => setSfx('err', i)}
+                />
+              </div>
             </section>
           </div>
         ) : (

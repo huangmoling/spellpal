@@ -36,11 +36,17 @@ export default {
           '0%': { transform: 'translateY(8px)', opacity: '0' },
           '100%': { transform: 'translateY(0)', opacity: '1' },
         },
+        celebrate: {
+          '0%': { transform: 'scale(0.82) translateY(10px)', opacity: '0' },
+          '62%': { transform: 'scale(1.045) translateY(0)', opacity: '1' },
+          '100%': { transform: 'scale(1) translateY(0)', opacity: '1' },
+        },
       },
       animation: {
         shake: 'shake 0.28s ease-in-out',
         pop: 'pop 0.18s ease-out',
         rise: 'rise 0.28s ease-out',
+        celebrate: 'celebrate 0.42s cubic-bezier(0.22, 0.9, 0.3, 1.2) both',
       },
     },
   },
