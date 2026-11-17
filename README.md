@@ -66,7 +66,7 @@
 | 1–2 年级启蒙路径：拼读起步 + 一年级上下 + 二年级上下，共 5 册 / 233 词 / 144 句 | ✅ |
 | 六下 | 📋 新版（2027 春）尚未出版，网上流传的仍是 2012 课标旧版 |
 
-## 当前收录（12 册 / 1112 词 / 432 句）
+## 当前收录（12 册 / 1050 词 / 433 句）
 
 ### 启蒙路径（1–2 年级）
 
@@ -94,7 +94,7 @@
 | 四年级下册 | 139 | 36 | 6 | 2026 春 · 新课标修订版 |
 | 五年级上册 | 119 | 36 | 6 | 2025 秋 · 新课标修订版 |
 | 五年级下册 | 141 | 36 | 6 | 2026 春 · 新课标修订版 |
-| 六年级上册 | 144 | 36 | 6 | 2026 秋 · 新课标修订版 |
+| 六年级上册 | 82 | 37 | 6 | 2026 秋 · 新课标修订版 |
 
 三上用教材官方英文标题（Making friends / Different families…）；其余册次的单元标题各渠道说法不一，用内容概括的中文标题，不硬编。
 
@@ -169,13 +169,15 @@ npm run books          # = node scripts/build-books.mjs
 | 教材原书（核对册次、单元划分、词表） | [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) → `小学/英语/人教版（PEP）（三年级起点）（主编：吴欣）` |
 | 三上 / 三下 / 四上 逐词表（含英美音标） | [qwerty-learner issue #1044](https://github.com/RealKai42/qwerty-learner/issues/1044) 的三个 JSON 附件（`PEP.2024.json` ×2、`PEP.2025.json`） |
 | 1–6 年级分单元词表（一年级起点） | [billyjr/pep-english-vocabulary](https://github.com/billyjr/pep-english-vocabulary)（MIT，`public/data/pep_english_vocabulary_full.csv`，901 行），启蒙五册的词表与中文均出自此 |
-| 四下（2026 春）、五上（2025 秋）、五下（2026 春）、六上（2026 秋）单元的逐词表 | 英语朗读宝 `yyld.51jiaoxi.com` 的公开单元词汇页：`/sixia/rjbp_danci.html`、`/wushang/rjbp_danci.html`、`/wuxia/rjbp_danci.html`、`/liushang/rjbp_danci.html` |
+| 四下（2026 春）、五上（2025 秋）、五下（2026 春）单元的逐词表 | 英语朗读宝 `yyld.51jiaoxi.com` 的公开单元词汇页：`/sixia/rjbp_danci.html`、`/wushang/rjbp_danci.html`、`/wuxia/rjbp_danci.html` |
+| 六上（2026 秋）逐词表 | 家长实拍的新版教材附录页（`Words and expressions` 分单元词表 3 页、`Words list` 字母索引 3 页、`Proper nouns` 1 页、`Words and expressions in plays` 1 页），逐条转录后按书上的 `Unit` 标记归组 |
 | 音标 | 本地人教版各册课标词表 xlsx 汇总出的 3.8 万条英音索引；词组与专名（`go hiking`、`Eiffel Tower` 等）按英式音标手工补 |
 
 说明三点：
 
 - `billyjr/pep-english-vocabulary` 的 README 写的是 PEP，但实际内容是**人教版一年级起点**（Unit 主题为 School / Face / Animals / Colours 那一套），不是三年级起点 PEP。所以它只用于启蒙五册，没有混进 PEP 三起的词库。
-- 朗读宝页面只公开「单词 + 中文」，音标是前端渲染的静态资源，抓不到。所以四下/五上/五下/六上的音标走本地课标词表索引补，五下缺的 9 个词组（`Labour Day`、`Mount Taishan` 这类）手工写。
+- 朗读宝页面只公开「单词 + 中文」，音标是前端渲染的静态资源，抓不到。所以四下/五上/五下的音标走本地课标词表索引补，五下缺的 9 个词组（`Labour Day`、`Mount Taishan` 这类）手工写。
+- 六上按实拍附录重做过一次：先前按朗读宝抓的 144 词与新版真书对不上（真书的 Unit 1 是点石成金 `golden touch`/`shopkeeper`，不是「我去过的地方」），现已整册替换。教材附录里的**专有名词**（人名 Midas / Cinderella / Goldilocks，地名 the Qinghai-Tibet Plateau、the Danyang-Kunshan Grand Bridge 等 25 条）没有收进练习队列——拼写过长，练了没用，练习只覆盖 82 个核心词。
 - 五下是否为新版，用 Unit 1 主题核对过：新版是 `Following the rules`（must / password / guard 那一套），旧版五下是 My day / My favourite season，两者完全不重叠。
 - **例句不是教材课文原文**。每册每单元 6 句（三上至四上为 8 句、启蒙册 4–5 句）都是按该单元词汇表和主题自己写的短句，覆盖当单元核心词，语法控制在小学范围。这样既避开了课文版权，也能保证每个词都在句子里出现过。
 
