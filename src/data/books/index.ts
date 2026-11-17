@@ -3,11 +3,13 @@ import starterPhonics from './starter-phonics.json'
 import pep1a from './pep-1start-1a.json'
 import pep1b from './pep-1start-1b.json'
 import pep2a from './pep-2start-2a.json'
+import pep2b from './pep-2start-2b.json'
 import pep3a from './pep-3start-3a.json'
 import pep3b from './pep-3start-3b.json'
 import pep4a from './pep-4start-4a.json'
 import pep4b from './pep-4start-4b.json'
 import pep5a from './pep-5start-5a.json'
+import pep5b from './pep-5start-5b.json'
 import pep6a from './pep-6start-6a.json'
 
 /**
@@ -19,11 +21,13 @@ export const BOOKS = [
   pep1a as unknown as Book,
   pep1b as unknown as Book,
   pep2a as unknown as Book,
+  pep2b as unknown as Book,
   pep3a as unknown as Book,
   pep3b as unknown as Book,
   pep4a as unknown as Book,
   pep4b as unknown as Book,
   pep5a as unknown as Book,
+  pep5b as unknown as Book,
   pep6a as unknown as Book,
 ]
 

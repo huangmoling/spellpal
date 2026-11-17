@@ -84,8 +84,24 @@ function createWindow() {
       try {
         await wait(900)
 
+        /* 0) 环境开关：虚拟键盘 / 字号倍率（写入后需 reload 才生效） */
+        const kbEnv = process.env.SPELLPAL_KB
+        const fontEnv = process.env.SPELLPAL_FONT
+        const bookEnv = process.env.SPELLPAL_BOOK
+        const clearEnv = process.env.SPELLPAL_CLEAR
+        if (kbEnv || fontEnv || bookEnv || clearEnv) {
+          const parts = []
+          if (clearEnv) parts.push('localStorage.clear();')
+          if (kbEnv) parts.push(`localStorage.setItem('spellpal:kb', ${JSON.stringify(kbEnv)});`)
+          if (fontEnv) parts.push(`localStorage.setItem('spellpal:font', ${JSON.stringify(fontEnv)});`)
+          if (bookEnv) parts.push(`localStorage.setItem('spellpal:book', ${JSON.stringify(bookEnv)});`)
+          await run(`(() => { ${parts.join(' ')} return true; })()`)
+          await run('location.reload(); true')
+          await wait(1800)
+        }
+
         /* 1) 造数据：进度 / 错题本 */
-        if (action === 'completed' || action.startsWith('review')) {
+        if (action === 'completed' || action === 'shelf' || action.startsWith('review')) {
           await run(`
             (() => {
               const pad = (n) => String(n).padStart(2, '0');
@@ -132,11 +148,14 @@ function createWindow() {
             phonics: '拼读起步',
             '1a': '一年级上册',
             '1b': '一年级下册',
+            '2a': '二年级上册',
+            '2b': '二年级下册',
             '3a': '三年级上册',
             '3b': '三年级下册',
             '4a': '四年级上册',
             '4b': '四年级下册',
             '5a': '五年级上册',
+            '5b': '五年级下册',
             '6a': '六年级上册',
           }
           const key = action.replace(/^book/, '').split(/[-_]/)[0]
@@ -157,10 +176,15 @@ function createWindow() {
             `)
             log('startUnit -> ' + hit)
             await wait(600)
+            const idx = Number(process.env.SPELLPAL_IDX || 0)
+            if (idx) {
+              await run(`window.__spellpal.setState({ index: ${idx}, tokenIndex: 0, typed: '' }); true`)
+              await wait(500)
+            }
           }
         }
-        if (action.startsWith('book') && !action.includes('-')) {
-          // 只切册，停在书架
+        if (action === 'shelf' || (action.startsWith('book') && !action.includes('-'))) {
+          // 只切册 / 造数据，停在书架
         } else if (action.startsWith('review')) {
           await clickText(['开始复习', '全部复习'])
         } else if (action) {

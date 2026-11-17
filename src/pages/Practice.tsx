@@ -1,11 +1,16 @@
 import { useEffect, useState } from 'react'
+import { Keyboard } from 'lucide-react'
+import clsx from 'clsx'
 import { useApp } from '@/store/useApp'
 import { BottomBar, ProgressBar, StageFrame, TopBar } from '@/components/StageFrame'
 import SentenceBoard from '@/components/SentenceBoard'
-import { formatDuration, isPunct } from '@/core/typing'
+import VirtualKeyboard from '@/components/VirtualKeyboard'
+import { formatDuration, inputChars, isPunct } from '@/core/typing'
 import { sfx } from '@/utils/sound'
 import { speak, warmupSpeech } from '@/utils/speech'
 import { markMastered } from '@/utils/srs'
+
+const KB_KEY = 'spellpal:kb'
 
 export default function Practice() {
   const book = useApp((s) => s.book)
@@ -28,10 +33,24 @@ export default function Practice() {
   const [elapsed, setElapsed] = useState(0)
   const [reveal, setReveal] = useState(false)
   const [toast, setToast] = useState('')
+  const [showKb, setShowKb] = useState(() => localStorage.getItem(KB_KEY) !== '0')
+  const fontScale = useApp((s) => s.fontScale)
+  const setFontScale = useApp((s) => s.setFontScale)
+
+  const toggleKb = () => {
+    const next = !showKb
+    localStorage.setItem(KB_KEY, next ? '1' : '0')
+    setShowKb(next)
+  }
 
   const unit = book?.units.find((u) => u.no === unitNo)
   const sentence = book?.sentences?.find((s) => s.id === queue[index])
   const total = queue.length
+
+  /* 下一个该敲的键 —— 给虚拟键盘指路 */
+  const token = sentence?.tokens[tokenIndex]
+  const answer = token ? inputChars(token.en) : []
+  const nextKey = answer[typed.length]?.toLowerCase() ?? null
 
   const doSpeak = () => {
     if (sentence) speak(sentence.en, { rate: 0.8 })
@@ -113,6 +132,18 @@ export default function Practice() {
         title={book.title}
         unitLabel={kind === 'review' ? '错题复习' : `Unit ${unitNo}`}
         onBack={backToShelf}
+        right={
+          <button
+            onClick={toggleKb}
+            title={showKb ? '收起虚拟键盘' : '显示虚拟键盘与指法提示'}
+            className={clsx(
+              'no-drag flex h-8 w-8 items-center justify-center rounded-lg transition',
+              showKb ? 'bg-brand/15 text-brand' : 'text-muted hover:bg-white/5 hover:text-ink',
+            )}
+          >
+            <Keyboard size={16} strokeWidth={1.9} />
+          </button>
+        }
       />
       <ProgressBar
         done={index}
@@ -130,9 +161,13 @@ export default function Practice() {
             shakeKey={shakeKey}
             wrongTokens={wrongTokenIdx}
             reveal={reveal}
+            fontScale={fontScale}
+            compact={showKb}
             onSpeak={doSpeak}
           />
         </div>
+
+        {showKb && <VirtualKeyboard nextKey={nextKey} className="mt-2" />}
 
         {toast && (
           <div className="absolute bottom-12 left-1/2 -translate-x-1/2 animate-rise rounded-lg bg-card px-3.5 py-2 text-[12px] text-ink/85 ring-1 ring-white/10">
@@ -147,6 +182,27 @@ export default function Practice() {
         onNext={skipSentence}
         onReveal={doReveal}
         onMaster={doMaster}
+        extra={
+          <div className="mx-1.5 flex items-center gap-0.5 rounded-lg bg-white/[0.05] px-1 py-0.5 ring-1 ring-white/[0.07]">
+            <button
+              onClick={() => setFontScale(fontScale - 0.1)}
+              title="字号调小"
+              className="flex h-8 w-8 items-center justify-center rounded-md text-[12px] font-semibold leading-none text-muted transition hover:bg-white/10 hover:text-ink"
+            >
+              A-
+            </button>
+            <span className="tabnum w-10 select-none text-center text-[11px] leading-none text-ink/75">
+              {Math.round(fontScale * 100)}%
+            </span>
+            <button
+              onClick={() => setFontScale(fontScale + 0.1)}
+              title="字号调大"
+              className="flex h-8 w-8 items-center justify-center rounded-md text-[12px] font-semibold leading-none text-muted transition hover:bg-white/10 hover:text-ink"
+            >
+              A+
+            </button>
+          </div>
+        }
         hintLeft={
           <span className="truncate">
             {kind === 'review' ? '错题复习' : unit?.theme ?? ''}

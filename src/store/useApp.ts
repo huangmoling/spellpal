@@ -31,6 +31,9 @@ interface AppState {
   phase: Phase
   /** 每次打错自增，用于触发抖动动画 */
   shakeKey: number
+  /** 字号倍率，1 = 上限 64px，用户可在练习页调 */
+  fontScale: number
+  setFontScale: (v: number) => void
 
   startUnit: (book: Book, unitNo: number, order?: 'seq' | 'random') => void
   startReview: (book: Book, sentenceIds: string[]) => void
@@ -51,6 +54,17 @@ interface AppState {
 const sentenceIdsOf = (book: Book, unitNo: number) =>
   (book.sentences ?? []).filter((s) => s.unit === unitNo).map((s) => s.id)
 
+/* 字号倍率持久化：0.8 – 1.6，默认 1.15 */
+const FONT_KEY = 'spellpal:font'
+export const FONT_MIN = 0.8
+export const FONT_MAX = 1.6
+export const FONT_DEFAULT = 1.15
+
+const readFontScale = () => {
+  const raw = Number(localStorage.getItem(FONT_KEY))
+  return Number.isFinite(raw) && raw >= FONT_MIN && raw <= FONT_MAX ? raw : FONT_DEFAULT
+}
+
 export const useApp = create<AppState>((set, get) => ({
   book: null,
   unitNo: 1,
@@ -66,6 +80,13 @@ export const useApp = create<AppState>((set, get) => ({
   finishedAt: 0,
   phase: 'idle',
   shakeKey: 0,
+  fontScale: readFontScale(),
+
+  setFontScale: (v) => {
+    const next = Math.min(FONT_MAX, Math.max(FONT_MIN, Math.round(v * 100) / 100))
+    localStorage.setItem(FONT_KEY, String(next))
+    set({ fontScale: next })
+  },
 
   startUnit: (book, unitNo, order = 'seq') => {
     const ids = sentenceIdsOf(book, unitNo)

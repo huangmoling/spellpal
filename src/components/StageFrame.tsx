@@ -5,7 +5,6 @@ import {
   ChevronRight,
   CreditCard,
   EyeOff,
-  Keyboard,
   Maximize2,
   RotateCcw,
   Settings,
@@ -54,7 +53,6 @@ export function TopBar({
         {[
           { icon: CreditCard, label: '词卡' },
           { icon: RotateCcw, label: '重练' },
-          { icon: Keyboard, label: '键盘' },
           { icon: Maximize2, label: '全屏' },
         ].map(({ icon: Icon, label }) => (
           <button
