@@ -25,6 +25,8 @@ jobs:
       - name: Type check & build frontend
         run: npm run build
 
+      # package.json 里 signAndEditExecutable=false（本机打包时解压签名工具会因权限失败），
+      # 因此 CI 产出的 exe 不含自定义图标与版本信息；带图标的包由维护者本地构建后上传。
       - name: Build installer & portable
         run: npx electron-builder --win --x64
         env:
