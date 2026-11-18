@@ -69,7 +69,7 @@ export default function BookShelf({
     <div className="flex h-full flex-col">
       {/* 顶栏 */}
       <header
-        className="flex h-14 shrink-0 items-center pl-8 pr-[132px]"
+        className="flex h-14 shrink-0 items-center pl-8"
         style={{ WebkitAppRegion: 'drag' } as React.CSSProperties}
       >
         <div className="flex items-center gap-2.5">
@@ -88,6 +88,11 @@ export default function BookShelf({
         >
           <Settings size={17} strokeWidth={1.9} />
         </button>
+        {/* 给窗口三个系统按钮留出 no-drag 空间：padding 挡不住拖拽区，必须放真元素 */}
+        <div
+          className="no-drag h-full w-[132px] shrink-0"
+          style={{ WebkitAppRegion: 'no-drag' } as React.CSSProperties}
+        />
       </header>
 
       {/* 内容区 */}

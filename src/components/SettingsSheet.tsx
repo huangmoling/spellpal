@@ -16,7 +16,7 @@ import {
 import { FONT_MAX, FONT_MIN, useApp } from '@/store/useApp'
 import type { Theme } from '@/store/useApp'
 import { noticeLines, openRepo, repoUrl } from '@/core/notice'
-import { ERROR_SFX, SUCCESS_SFX, playError, playSuccess } from '@/utils/sound'
+import { ERROR_SFX, KEY_SFX, SUCCESS_SFX, playError, playKey, playSuccess } from '@/utils/sound'
 
 /** 一行设置：左边标题+说明，右边控件 */
 function Row({
@@ -74,43 +74,54 @@ function Switch({
   )
 }
 
-/** 音效选择：8 个数字 + 试听 */
+/** 音效选择：8 个数字 + 试听，按键音那行多一个开关 */
 function SoundRow({
   kind,
   icon,
   title,
   value,
   onChange,
+  toggle,
 }: {
-  kind: 'ok' | 'err'
+  kind: 'ok' | 'err' | 'key'
   icon: React.ReactNode
   title: string
   value: number
   onChange: (i: number) => void
+  /** 只有按键音用得上：关掉后不发声，但点数字会自动打开 */
+  toggle?: { on: boolean; onChange: (v: boolean) => void }
 }) {
-  const presets = kind === 'ok' ? SUCCESS_SFX : ERROR_SFX
-  const preview = () => (kind === 'ok' ? playSuccess(value) : playError(value))
+  const presets = kind === 'ok' ? SUCCESS_SFX : kind === 'err' ? ERROR_SFX : KEY_SFX
+  const preview = () => {
+    if (kind === 'ok') playSuccess(value)
+    else if (kind === 'err') playError(value)
+    else playKey(value)
+  }
+  const off = toggle ? !toggle.on : false
 
   return (
-    <div className="flex items-center gap-2.5 rounded-xl bg-veil/[0.03] px-3 py-1.5 ring-1 ring-veil/[0.06]">
-      <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-veil/[0.05] text-muted">
+    <div className="flex items-center gap-2 rounded-xl bg-veil/[0.03] px-2.5 py-1.5 ring-1 ring-veil/[0.06]">
+      <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-lg bg-veil/[0.05] text-muted">
         {icon}
       </span>
       <span className="min-w-0 flex-1">
-        <span className="block text-[12.5px] font-medium text-ink/90">{title}</span>
-        <span className="mt-0.5 block truncate text-[10.5px] text-muted/55">
-          当前：{presets[value]?.name ?? '—'}
+        <span className="block truncate text-[12px] font-medium text-ink/90">{title}</span>
+        <span className="mt-0.5 block truncate text-[10px] text-muted/55">
+          {off ? '已关闭' : `当前：${presets[value]?.name ?? '—'}`}
         </span>
       </span>
-      <div className="flex shrink-0 items-center gap-[3px]">
+      <div className={clsx('flex shrink-0 items-center gap-[3px] transition', off && 'opacity-40')}>
         {presets.map((pr, i) => (
           <button
             key={i}
-            onClick={() => onChange(i)}
+            onClick={() => {
+              onChange(i)
+              if (off) toggle?.onChange(true)
+            }}
             title={pr.name}
             className={clsx(
-              'tabnum h-[22px] w-[22px] rounded-md text-[10.5px] leading-none transition',
-              i === value
+              'tabnum h-[21px] w-[21px] rounded-md text-[10px] leading-none transition',
+              i === value && !off
                 ? 'bg-brand text-white shadow-[0_2px_10px_rgba(124,92,255,0.45)]'
                 : 'bg-veil/[0.05] text-muted/60 hover:bg-veil/[0.1] hover:text-ink',
             )}
@@ -121,11 +132,23 @@ function SoundRow({
         <button
           onClick={preview}
           title="试听"
-          className="ml-1 flex h-[22px] w-[22px] items-center justify-center rounded-md bg-veil/[0.05] text-muted transition hover:bg-brand/15 hover:text-brand"
+          className="ml-1 flex h-[21px] w-[21px] items-center justify-center rounded-md bg-veil/[0.05] text-muted transition hover:bg-brand/15 hover:text-brand"
         >
-          <Play size={11} strokeWidth={2.2} fill="currentColor" />
+          <Play size={10} strokeWidth={2.2} fill="currentColor" />
         </button>
       </div>
+      {toggle && (
+        <button
+          onClick={() => toggle.onChange(!toggle.on)}
+          title={toggle.on ? '关闭按键音' : '开启按键音'}
+          className={clsx(
+            'ml-0.5 flex h-5 w-9 shrink-0 items-center rounded-full px-0.5 transition',
+            toggle.on ? 'justify-end bg-brand' : 'justify-start bg-veil/[0.12]',
+          )}
+        >
+          <span className="h-4 w-4 rounded-full bg-white shadow-sm" />
+        </button>
+      )}
     </div>
   )
 }
@@ -139,6 +162,9 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
   const setEnterSkip = useApp((s) => s.setEnterSkip)
   const sfxOk = useApp((s) => s.sfxOk)
   const sfxErr = useApp((s) => s.sfxErr)
+  const sfxKey = useApp((s) => s.sfxKey)
+  const keySfxOn = useApp((s) => s.keySfxOn)
+  const setKeySfxOn = useApp((s) => s.setKeySfxOn)
   const setSfx = useApp((s) => s.setSfx)
   const fontScale = useApp((s) => s.fontScale)
   const setFontScale = useApp((s) => s.setFontScale)
@@ -326,7 +352,7 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
             <section>
               <div className="mb-2 flex items-baseline justify-between">
                 <span className="text-[11px] font-medium tracking-wide text-muted/55">音效</span>
-                <span className="text-[10.5px] text-muted/40">各 8 种，点数字换音色</span>
+                <span className="text-[10px] text-muted/40">各 8 种，点数字换音色</span>
               </div>
               <div className="space-y-2">
                 <SoundRow
@@ -342,6 +368,14 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
                   title="拼错字母"
                   value={sfxErr}
                   onChange={(i) => setSfx('err', i)}
+                />
+                <SoundRow
+                  kind="key"
+                  icon={<Keyboard size={14} strokeWidth={2} />}
+                  title="按键音"
+                  value={sfxKey}
+                  onChange={(i) => setSfx('key', i)}
+                  toggle={{ on: keySfxOn, onChange: setKeySfxOn }}
                 />
               </div>
             </section>

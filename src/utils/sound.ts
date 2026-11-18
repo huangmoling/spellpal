@@ -203,6 +203,64 @@ export const ERROR_SFX: SfxPreset[] = [
 export const playSuccess = (i: number) => (SUCCESS_SFX[i] ?? SUCCESS_SFX[0]).play()
 export const playError = (i: number) => (ERROR_SFX[i] ?? ERROR_SFX[0]).play()
 
+/**
+ * 每敲对一个字母的按键音，8 种。
+ * 全部做得很短很轻（20–45ms），否则一整句几十下会盖住朗读。
+ */
+export const KEY_SFX: SfxPreset[] = [
+  {
+    name: '轻声',
+    play: () => tone(1320, 0.022, 'triangle', 0.016),
+  },
+  {
+    name: '木鱼',
+    play: () => {
+      tone(560, 0.03, 'square', 0.012)
+      noise(0.02, 0.012, 0, 900)
+    },
+  },
+  {
+    name: '打字机',
+    play: () => {
+      noise(0.028, 0.026, 0, 2600)
+      tone(180, 0.03, 'triangle', 0.012)
+    },
+  },
+  {
+    name: '水滴',
+    play: () => {
+      tone(1400, 0.05, 'sine', 0.022, 0, 700)
+    },
+  },
+  {
+    name: '拨弦',
+    play: () => {
+      tone(760, 0.045, 'triangle', 0.02, 0, 520)
+    },
+  },
+  {
+    name: '咔哒',
+    play: () => {
+      noise(0.016, 0.03, 0, 3400)
+    },
+  },
+  {
+    name: '电子',
+    play: () => {
+      tone(1800, 0.018, 'square', 0.01)
+    },
+  },
+  {
+    name: '纸片',
+    play: () => {
+      noise(0.02, 0.022, 0, 5200)
+      noise(0.014, 0.014, 0.014, 3000)
+    },
+  },
+]
+
+export const playKey = (i: number) => (KEY_SFX[i] ?? KEY_SFX[0]).play()
+
 /** 打字过程中的极轻点击，别盖过语音 */
 export const tick = () => tone(1320, 0.022, 'triangle', 0.016)
 

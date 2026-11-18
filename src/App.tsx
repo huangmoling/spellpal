@@ -36,7 +36,6 @@ export default function App() {
 
   return (
     <div className="relative h-full">
-      <WindowControls />
       {phase === 'idle' && (
         <BookShelf
           books={BOOKS}
@@ -49,6 +48,9 @@ export default function App() {
       {phase === 'done' && <Result />}
 
       {settingsOpen && <SettingsSheet onClose={() => setSettingsOpen(false)} />}
+
+      {/* 放最后渲染：拖拽区按 DOM 顺序登记，晚上一步的 no-drag 才压得住顶栏 */}
+      <WindowControls />
     </div>
   )
 }

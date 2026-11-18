@@ -7,7 +7,7 @@ import SentenceBoard from '@/components/SentenceBoard'
 import VirtualKeyboard from '@/components/VirtualKeyboard'
 import Fireworks from '@/components/Fireworks'
 import { formatDuration, inputChars, isPunct } from '@/core/typing'
-import { playError, playSuccess, tick } from '@/utils/sound'
+import { playError, playKey, playSuccess } from '@/utils/sound'
 import { speak, warmupSpeech } from '@/utils/speech'
 import { markMastered } from '@/utils/srs'
 
@@ -34,6 +34,8 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
   const enterSkip = useApp((s) => s.enterSkip)
   const sfxOk = useApp((s) => s.sfxOk)
   const sfxErr = useApp((s) => s.sfxErr)
+  const sfxKey = useApp((s) => s.sfxKey)
+  const keySfxOn = useApp((s) => s.keySfxOn)
   const fontScale = useApp((s) => s.fontScale)
   const setFontScale = useApp((s) => s.setFontScale)
 
@@ -137,7 +139,8 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
       if (result === 'bad') {
         playError(sfxErr)
       } else if (result === 'ok' || result === 'word') {
-        tick()
+        /* 按键音单独开关：嫌吵可以关掉，字母照样判定 */
+        if (keySfxOn) playKey(sfxKey)
       } else if (result === 'done') {
         /* 不自动跳下一句：定格成彩色卡片 + 烟花，等空格 */
         playSuccess(sfxOk)
@@ -157,6 +160,8 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
     completed,
     sfxOk,
     sfxErr,
+    sfxKey,
+    keySfxOn,
   ])
 
   if (!book || !sentence) return null

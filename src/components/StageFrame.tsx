@@ -46,7 +46,7 @@ export function TopBar({
         )}
       </div>
 
-      <div className="no-drag ml-auto flex items-center gap-0.5 pr-[118px]">
+      <div className="no-drag ml-auto flex items-center gap-0.5">
         {right}
         <button
           onClick={onSettings}
@@ -55,6 +55,11 @@ export function TopBar({
         >
           <Settings size={16} strokeWidth={1.9} />
         </button>
+        {/* 窗口系统按钮的位置，必须是真元素才能挖掉拖拽区 */}
+        <div
+          className="h-full w-[132px] shrink-0"
+          style={{ WebkitAppRegion: 'no-drag' } as React.CSSProperties}
+        />
       </div>
     </header>
   )

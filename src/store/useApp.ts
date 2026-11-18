@@ -50,7 +50,12 @@ interface AppState {
   sfxOk: number
   /** 拼错的音效序号（0-7） */
   sfxErr: number
-  setSfx: (kind: 'ok' | 'err', i: number) => void
+  /** 每个字母的按键音序号（0-7） */
+  sfxKey: number
+  /** 按键音开关，默认开；嫌吵可以关掉 */
+  keySfxOn: boolean
+  setSfx: (kind: 'ok' | 'err' | 'key', i: number) => void
+  setKeySfxOn: (v: boolean) => void
   /** 设置面板是否打开——打开时要屏蔽练习页的全局键盘，否则 Esc 会连带退出练习 */
   settingsOpen: boolean
   setSettingsOpen: (v: boolean) => void
@@ -94,6 +99,8 @@ const KB_KEY = 'spellpal:kb'
 const ENTER_KEY = 'spellpal:opt-enter'
 const SFX_OK_KEY = 'spellpal:sfx-ok'
 const SFX_ERR_KEY = 'spellpal:sfx-err'
+const SFX_KEY_KEY = 'spellpal:sfx-key'
+const KEYSFX_ON_KEY = 'spellpal:opt-keysfx'
 
 const readTheme = (): Theme => (localStorage.getItem(THEME_KEY) === 'light' ? 'light' : 'dark')
 /** 虚拟键盘默认开；回车跳过默认关 */
@@ -163,11 +170,19 @@ export const useApp = create<AppState>((set, get) => ({
 
   sfxOk: readSfx(SFX_OK_KEY, 0),
   sfxErr: readSfx(SFX_ERR_KEY, 0),
+  sfxKey: readSfx(SFX_KEY_KEY, 0),
+  keySfxOn: readFlag(KEYSFX_ON_KEY, true),
   setSfx: (kind, i) => {
     const next = Math.min(7, Math.max(0, Math.round(i)))
-    localStorage.setItem(kind === 'ok' ? SFX_OK_KEY : SFX_ERR_KEY, String(next))
+    const store = kind === 'ok' ? SFX_OK_KEY : kind === 'err' ? SFX_ERR_KEY : SFX_KEY_KEY
+    localStorage.setItem(store, String(next))
     if (kind === 'ok') set({ sfxOk: next })
-    else set({ sfxErr: next })
+    else if (kind === 'err') set({ sfxErr: next })
+    else set({ sfxKey: next })
+  },
+  setKeySfxOn: (v) => {
+    localStorage.setItem(KEYSFX_ON_KEY, v ? '1' : '0')
+    set({ keySfxOn: v })
   },
   startUnit: (book, unitNo, order = 'seq') => {
     const ids = sentenceIdsOf(book, unitNo)
