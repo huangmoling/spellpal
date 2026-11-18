@@ -10,7 +10,7 @@ export default function Result() {
   const book = useApp((s) => s.book)
   const unitNo = useApp((s) => s.unitNo)
   const kind = useApp((s) => s.kind)
-  const queue = useApp((s) => s.queue)
+  const items = useApp((s) => s.items)
   const wrongItemIds = useApp((s) => s.wrongItemIds)
   const outcomes = useApp((s) => s.outcomes)
   const startedAt = useApp((s) => s.startedAt)
@@ -19,16 +19,18 @@ export default function Result() {
   const backToShelf = useApp((s) => s.backToShelf)
   const sfxOk = useApp((s) => s.sfxOk)
 
-  const total = queue.length
+  const total = items.length
+  /** 本轮 = 单词卡 + 句子，统计要分开算 */
+  const wordCount = items.filter((i) => i.kind === 'word').length
+  const sentCount = total - wordCount
   const wrong = wrongItemIds.length
   const acc = total ? Math.round(((total - wrong) / total) * 100) : 0
   const duration = finishedAt && startedAt ? finishedAt - startedAt : 0
   const [added, setAdded] = useState(0)
 
-  const sentences = book?.sentences ?? []
-  const wrongSentences = useMemo(
-    () => sentences.filter((s) => wrongItemIds.includes(s.id)),
-    [sentences, wrongItemIds],
+  const wrongItems = useMemo(
+    () => items.filter((s) => wrongItemIds.includes(s.id)),
+    [items, wrongItemIds],
   )
 
   useEffect(() => {
@@ -37,11 +39,9 @@ export default function Result() {
     if (kind === 'unit') saveUnitProgress(book.id, unitNo, { done: total, acc })
 
     let n = 0
-    for (const id of queue) {
-      const sentence = sentences.find((s) => s.id === id)
-      if (!sentence) continue
-      const ok = outcomes[id] === 'clean'
-      if (recordResult(book, sentence, ok)) n += 1
+    for (const item of items) {
+      const ok = outcomes[item.id] === 'clean'
+      if (recordResult(book, item, ok)) n += 1
     }
     setAdded(n)
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -103,8 +103,8 @@ export default function Result() {
         <div className="mb-8 grid grid-cols-3 gap-3">
           {[
             { k: '用时', v: formatDuration(duration) },
-            { k: '句子', v: `${total} 句` },
-            { k: '需再练', v: `${wrong} 句` },
+            { k: '单词 / 句子', v: `${wordCount} / ${sentCount}` },
+            { k: '需再练', v: `${wrong} 条` },
           ].map((d) => (
             <div key={d.k} className="rounded-xl bg-card/70 py-4 text-center ring-1 ring-veil/[0.06]">
               <div className="tabnum text-[20px] font-semibold">{d.v}</div>
@@ -114,19 +114,19 @@ export default function Result() {
         </div>
 
         {/* 错句 */}
-        {wrongSentences.length > 0 ? (
+        {wrongItems.length > 0 ? (
           <div className="mb-8">
             <div className="mb-2.5 flex items-center gap-2 text-[12px] text-muted/70">
-              <span>这些句子还要再练练</span>
+              <span>这些还要再练练</span>
               {added > 0 && (
                 <span className="flex items-center gap-1 rounded-md bg-brand/15 px-1.5 py-0.5 text-[10.5px] text-brand/90">
                   <Layers size={10} strokeWidth={2.4} />
-                  {added} 句已进错题本
+                  {added} 条已进错题本
                 </span>
               )}
             </div>
             <div className="flex flex-col gap-1.5">
-              {wrongSentences.map((s) => (
+              {wrongItems.map((s) => (
                 <div
                   key={s.id}
                   className="flex items-baseline gap-2 rounded-lg bg-err/10 px-2.5 py-1.5 ring-1 ring-err/20"
@@ -157,7 +157,10 @@ export default function Result() {
           <button
             onClick={() =>
               kind === 'review'
-                ? useApp.getState().startReview(book, queue)
+                ? useApp.getState().startReview(
+                    book,
+                    items.map((i) => i.id),
+                  )
                 : startUnit(book, unitNo, 'random')
             }
             className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-brand py-3 text-[13px] font-medium text-white shadow-[0_6px_24px_rgba(124,92,255,0.45)] transition hover:brightness-110 active:scale-[0.99]"

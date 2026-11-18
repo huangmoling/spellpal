@@ -161,6 +161,13 @@ function createWindow() {
             '5a': '五年级上册',
             '5b': '五年级下册',
             '6a': '六年级上册',
+            fl3a: '三上·外研',
+            fl3b: '三下·外研',
+            fl4a: '四上·外研',
+            fl4b: '四下·外研',
+            fl5a: '五上·外研',
+            fl5b: '五下·外研',
+            fl6a: '六上·外研',
           }
           const key = action.replace(/^book/, '').split(/[-_]/)[0]
           const label = LABELS[key] || '三年级上册'
@@ -180,6 +187,20 @@ function createWindow() {
             `)
             log('startUnit -> ' + hit)
             await wait(600)
+            /* 跳到句子阶段：跳过前面的单词卡 */
+            const stageEnv = process.env.SPELLPAL_STAGE
+            if (stageEnv === 'sentence') {
+              const w = await run(
+                `(() => {
+                  const s = window.__spellpal.getState();
+                  const n = s.items.filter((i) => i.kind === 'word').length;
+                  window.__spellpal.setState({ index: n, tokenIndex: 0, typed: '' });
+                  return n;
+                })()`,
+              )
+              log('jump to sentence stage at ' + w)
+              await wait(500)
+            }
             const idx = Number(process.env.SPELLPAL_IDX || 0)
             if (idx) {
               await run(`window.__spellpal.setState({ index: ${idx}, tokenIndex: 0, typed: '' }); true`)
@@ -201,7 +222,7 @@ function createWindow() {
           const seq = await run(`
             (() => {
               const s = window.__spellpal.getState();
-              const sentence = s.book.sentences.find((x) => x.id === s.queue[s.index]);
+              const sentence = s.items[s.index];
               const token = sentence.tokens[s.tokenIndex];
               return [...token.en].filter((c) => c !== "'" && c !== '\u2019' && c !== '-');
             })()
@@ -227,7 +248,7 @@ function createWindow() {
           const chars = await run(`
             (() => {
               const s = window.__spellpal.getState();
-              const sen = s.book.sentences.find((x) => x.id === s.queue[s.index]);
+              const sen = s.items[s.index];
               const SKIP = new Set(["'", '\u2019', '-', '.', ',', '?', '!', ';', ':', '\u2026']);
               const out = [];
               for (const t of sen.tokens) for (const c of [...t.en]) if (!SKIP.has(c)) out.push(c);
@@ -245,7 +266,7 @@ function createWindow() {
         }
 
         /* 4.5) 打开设置面板（顶栏齿轮没有文字，只能按 title 找） */
-        if (action === 'settings' || action === 'about') {
+        if (action === 'settings' || action === 'about' || action === 'sound') {
           const hit = await run(
             `(() => {
               const b = document.querySelector('button[title="设置"]');
@@ -255,6 +276,16 @@ function createWindow() {
           )
           log('open settings -> ' + hit)
           await wait(600)
+          if (action === 'sound') {
+            await run(
+              `(() => {
+                const b = [...document.querySelectorAll('button')].find((x) => (x.textContent || '').trim() === '声音');
+                if (b) b.click();
+                return !!b;
+              })()`,
+            )
+            await wait(400)
+          }
           if (action === 'about') {
             await run(
               `(() => {

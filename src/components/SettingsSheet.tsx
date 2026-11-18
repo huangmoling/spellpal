@@ -11,6 +11,8 @@ import {
   RotateCcw,
   Sparkles,
   Sun,
+  Volume1,
+  Volume2,
   X,
 } from 'lucide-react'
 import { FONT_MAX, FONT_MIN, useApp } from '@/store/useApp'
@@ -166,10 +168,12 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
   const keySfxOn = useApp((s) => s.keySfxOn)
   const setKeySfxOn = useApp((s) => s.setKeySfxOn)
   const setSfx = useApp((s) => s.setSfx)
+  const volume = useApp((s) => s.volume)
+  const setVolume = useApp((s) => s.setVolume)
   const fontScale = useApp((s) => s.fontScale)
   const setFontScale = useApp((s) => s.setFontScale)
 
-  const [tab, setTab] = useState<'general' | 'about'>('general')
+  const [tab, setTab] = useState<'general' | 'sound' | 'about'>('general')
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -201,6 +205,7 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
             {(
               [
                 ['general', '常规'],
+                ['sound', '声音'],
                 ['about', '关于'],
               ] as const
             ).map(([k, label]) => (
@@ -226,10 +231,10 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
           </button>
         </header>
 
-        {tab === 'general' ? (
+        {tab === 'general' || tab === 'sound' ? (
           <div className="min-h-0 flex-1 space-y-3 overflow-y-auto px-5 py-3.5">
             {/* 主题 */}
-            <section>
+            <section className={tab === 'sound' ? 'hidden' : undefined}>
               <div className="mb-2 text-[11px] font-medium tracking-wide text-muted/55">外观</div>
               <div className="grid grid-cols-2 gap-2.5">
                 {themes.map((t) => {
@@ -281,7 +286,7 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
             </section>
 
             {/* 字号 */}
-            <section>
+            <section className={tab === 'sound' ? 'hidden' : undefined}>
               <div className="mb-2 flex items-baseline justify-between">
                 <span className="text-[11px] font-medium tracking-wide text-muted/55">
                   练习页字号
@@ -317,8 +322,48 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
               </p>
             </section>
 
+            {/* 音量 */}
+            <section className={tab === 'general' ? 'hidden' : undefined}>
+              <div className="mb-2 flex items-baseline justify-between">
+                <span className="text-[11px] font-medium tracking-wide text-muted/55">音量</span>
+                <span className="tabnum text-[11px] text-brand/90">
+                  {volume === 0 ? '静音' : `${volume}%`}
+                </span>
+              </div>
+              <div className="rounded-xl bg-veil/[0.03] px-3.5 py-2 ring-1 ring-veil/[0.06]">
+                <div className="flex items-center gap-2.5">
+                  <Volume1 size={14} strokeWidth={2} className="shrink-0 text-muted/50" />
+                  <input
+                    type="range"
+                    min={0}
+                    max={100}
+                    step={5}
+                    value={volume}
+                    onChange={(e) => setVolume(Number(e.target.value))}
+                    className="h-1.5 w-full cursor-pointer appearance-none rounded-full bg-veil/[0.12] accent-[rgb(var(--brand))]"
+                    title="调音量，松手就记住"
+                  />
+                  <Volume2 size={14} strokeWidth={2} className="shrink-0 text-muted/50" />
+                </div>
+                <div className="mt-2 flex items-center justify-between text-[10.5px] text-muted/45">
+                  <span>静音</span>
+                  <button
+                    onClick={() => setVolume(80)}
+                    className="flex items-center gap-1 rounded-md px-1.5 py-0.5 text-[10.5px] text-muted/60 transition hover:bg-veil/[0.06] hover:text-ink"
+                  >
+                    <RotateCcw size={10} strokeWidth={2.4} />
+                    恢复 80%
+                  </button>
+                  <span>100%</span>
+                </div>
+              </div>
+              <p className="mt-1 px-1 text-[10px] leading-relaxed text-muted/40">
+                「听英文」的朗读和音效一起调。想单独关掉滴滴声，去下面关按键音。
+              </p>
+            </section>
+
             {/* 练习辅助 */}
-            <section>
+            <section className={tab === 'sound' ? 'hidden' : undefined}>
               <div className="mb-2 text-[11px] font-medium tracking-wide text-muted/55">
                 练习辅助
               </div>
@@ -349,7 +394,7 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
             </section>
 
             {/* 音效 */}
-            <section>
+            <section className={tab === 'general' ? 'hidden' : undefined}>
               <div className="mb-2 flex items-baseline justify-between">
                 <span className="text-[11px] font-medium tracking-wide text-muted/55">音效</span>
                 <span className="text-[10px] text-muted/40">各 8 种，点数字换音色</span>

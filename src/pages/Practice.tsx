@@ -15,7 +15,7 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
   const book = useApp((s) => s.book)
   const unitNo = useApp((s) => s.unitNo)
   const kind = useApp((s) => s.kind)
-  const queue = useApp((s) => s.queue)
+  const items = useApp((s) => s.items)
   const index = useApp((s) => s.index)
   const tokenIndex = useApp((s) => s.tokenIndex)
   const typed = useApp((s) => s.typed)
@@ -47,8 +47,14 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
   const revealTimer = useRef(0)
 
   const unit = book?.units.find((u) => u.no === unitNo)
-  const sentence = book?.sentences?.find((s) => s.id === queue[index])
-  const total = queue.length
+  /* 本轮 = 先单词卡、后句子；单词卡是 kind='word' 的伪句子 */
+  const sentence = items[index]
+  const total = items.length
+  /** 本单元单词数。进度条在两个阶段各算各的，不要用总进度混在一起 */
+  const wordTotal = items.filter((i) => i.kind === 'word').length
+  const isWord = sentence?.kind === 'word'
+  const stageDone = isWord ? index : index - wordTotal
+  const stageTotal = isWord ? wordTotal : total - wordTotal
 
   /* 下一个该敲的键 —— 给虚拟键盘指路 */
   const token = sentence?.tokens[tokenIndex]
@@ -170,7 +176,9 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
     <StageFrame>
       <TopBar
         title={book.title}
-        unitLabel={kind === 'review' ? '错题复习' : `Unit ${unitNo}`}
+        unitLabel={
+          kind === 'review' ? '错题复习' : `Unit ${unitNo}${isWord ? ' · 单词' : ' · 句子'}`
+        }
         onBack={backToShelf}
         onSettings={onOpenSettings}
         right={
@@ -187,10 +195,10 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
         }
       />
       <ProgressBar
-        done={index}
-        total={total}
+        done={stageDone}
+        total={stageTotal}
         timeText={formatDuration(elapsed)}
-        label={kind === 'review' ? '已复习' : '已练句'}
+        label={kind === 'review' ? '已复习' : isWord ? '已拼词' : '已拼句'}
       />
 
       <main className="relative flex min-h-0 flex-1 flex-col px-5 pb-1 pt-1">
@@ -226,7 +234,7 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
         skipDisabled={!enterSkip}
         onNext={completed ? advance : trySkip}
         nextReady={completed}
-        nextLabel={completed ? '下一句' : '下一题'}
+        nextLabel={completed ? (isWord ? '下一个词' : '下一句') : '下一题'}
         onReveal={doReveal}
         onMaster={doMaster}
         extra={
@@ -255,13 +263,18 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
             <span className="flex items-center gap-1.5 text-brand">
               <span className="animate-pulse">✓</span>
               拼完了 · <kbd className="rounded bg-veil/[0.08] px-1.5 py-[2px] text-[11px]">空格</kbd>{' '}
-              进下一句
+              {isWord && index + 1 >= wordTotal ? '开始拼句子' : isWord ? '下一个词' : '进下一句'}
             </span>
           ) : (
             <span className="truncate">
-              {kind === 'review' ? '错题复习' : (unit?.theme ?? '')}
+              {kind === 'review' ? '错题复习' : isWord ? '先把单词拼熟' : (unit?.theme ?? '')}
               <span className="ml-2 text-muted/35">
-                {index + 1}/{total}
+                {stageDone + 1}/{stageTotal}
+                {kind === 'unit' && wordTotal > 0 && (
+                  <span className="ml-1.5 text-muted/25">
+                    {isWord ? `· 之后还有 ${total - wordTotal} 句` : '· 句子'}
+                  </span>
+                )}
               </span>
             </span>
           )

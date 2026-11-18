@@ -42,6 +42,14 @@ export interface Sentence {
   en: string
   /** 与 en 按空格切分一一对应 */
   tokens: SentenceToken[]
+  /**
+   * 练习单位类型。
+   * - `sentence`（默认）：整句逐词跟打
+   * - `word`：单元里的单个单词，先于句子练；只有一块，标题就是中文释义
+   */
+  kind?: 'word' | 'sentence'
+  /** 单词模式下显示的音标 */
+  ipa?: string
 }
 
 export interface Book {

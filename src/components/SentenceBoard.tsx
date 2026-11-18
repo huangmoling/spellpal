@@ -134,10 +134,12 @@ export default function SentenceBoard({
   const usableW = Math.max(200, box.w - 64)
   const usableH = Math.max(120, box.h - pad * 2)
 
+  /* 单词阶段只有一块，短，可以顶到很大；句子阶段按宽度自动降 */
+  const isWord = sentence.kind === 'word'
   /* 庆祝态：中文标签放大、词块加宽，于是整句也在放得下的范围内再大一号 */
-  const cnRatio = completed ? 0.36 : 0.3
+  const cnRatio = completed ? 0.36 : isWord ? 0.34 : 0.3
   const blockPad = completed ? BLOCK_PAD + 16 : BLOCK_PAD
-  const cap = Math.round(64 * fontScale * (completed ? 1.14 : 1))
+  const cap = Math.round(64 * fontScale * (completed ? 1.14 : 1) * (isWord ? 1.45 : 1))
   const fs = box.w
     ? fitFontSize(sentence.tokens, usableW, usableH, cap, 2, cnRatio, blockPad)
     : 46
@@ -163,10 +165,10 @@ export default function SentenceBoard({
           compact ? 'mt-3' : 'mt-5',
           completed && 'opacity-45',
         )}
-        title="朗读整句英文"
+        title={isWord ? '朗读这个单词' : '朗读整句英文'}
       >
         <Volume2 size={16} strokeWidth={2.2} className="transition group-hover:scale-110" />
-        听英文
+        {isWord ? '听发音' : '听英文'}
       </button>
 
       {/* 词块区 —— 左右几乎撑满，上下给足留白 */}
@@ -186,8 +188,9 @@ export default function SentenceBoard({
             <TokenBlock
               key={`${sentence.id}-${i}`}
               en={t.en}
-              cn={t.cn}
+              cn={isWord ? '' : t.cn}
               pos={t.pos}
+              ipa={isWord ? sentence.ipa : undefined}
               state={state}
               typed={state === 'current' ? typed : ''}
               fontSize={fs}
@@ -209,6 +212,7 @@ function TokenBlock({
   en,
   cn,
   pos,
+  ipa,
   state,
   typed,
   fontSize,
@@ -222,6 +226,8 @@ function TokenBlock({
   en: string
   cn: string
   pos: string
+  /** 单词模式下用音标顶替词性标签 */
+  ipa?: string
   state: 'done' | 'current' | 'todo'
   typed: string
   fontSize: number
@@ -275,16 +281,21 @@ function TokenBlock({
           : undefined
       }
     >
-      {/* 词性 */}
+      {/* 单词模式显示音标，句子模式显示词性 */}
       <span
-        className="mb-1.5 shrink-0 rounded-md px-1.5 py-[1.5px] text-[10.5px] leading-none tracking-wide"
+        className={clsx(
+          'mb-1.5 shrink-0 rounded-md px-1.5 py-[1.5px] leading-none tracking-wide',
+          ipa ? 'font-mono text-[13px]' : 'text-[10.5px]',
+        )}
         style={
           celebrate
             ? { color: '#fff', background: 'rgba(255,255,255,0.22)' }
-            : { color: tone.fg, background: tone.bg }
+            : ipa
+              ? { color: light ? '#475569' : '#CBD5E1', background: light ? 'rgba(71,85,105,0.10)' : 'rgba(148,163,184,0.14)' }
+              : { color: tone.fg, background: tone.bg }
         }
       >
-        {pos}
+        {ipa || pos}
       </span>
 
       {/* 字母槽 */}
@@ -345,21 +356,23 @@ function TokenBlock({
         })}
       </div>
 
-      {/* 中文 */}
-      <span
-        className={clsx(
-          'max-w-[11em] truncate text-center leading-none',
-          celebrate ? 'mt-1.5 text-white/[0.94]' : 'mt-2',
-          !celebrate && (state === 'todo' ? 'text-muted/40' : 'text-muted/75'),
-        )}
-        style={{
-          fontSize: `${cnSize}px`,
-          textShadow: celebrate ? '0 1px 4px rgba(0,0,0,0.25)' : undefined,
-        }}
-        title={cn}
-      >
-        {cn}
-      </span>
+      {/* 中文（单词模式下标题已经写了中文，这里不再重复） */}
+      {cn && (
+        <span
+          className={clsx(
+            'max-w-[11em] truncate text-center leading-none',
+            celebrate ? 'mt-1.5 text-white/[0.94]' : 'mt-2',
+            !celebrate && (state === 'todo' ? 'text-muted/40' : 'text-muted/75'),
+          )}
+          style={{
+            fontSize: `${cnSize}px`,
+            textShadow: celebrate ? '0 1px 4px rgba(0,0,0,0.25)' : undefined,
+          }}
+          title={cn}
+        >
+          {cn}
+        </span>
+      )}
     </div>
   )
 }

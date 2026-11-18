@@ -6,13 +6,21 @@
 let ctx: AudioContext | null = null
 let bus: GainNode | null = null
 let noiseBuf: AudioBuffer | null = null
+/** 总音量 0–1，设置页拖动时实时生效 */
+let masterVol = 0.8
+
+/** 设置页调音量用。0 就是静音，但朗读不受影响（朗读有单独的 speechVolume） */
+export function setSfxVolume(v: number) {
+  masterVol = Math.min(1, Math.max(0, v))
+  if (bus && ctx) bus.gain.setTargetAtTime(masterVol, ctx.currentTime, 0.01)
+}
 
 function ac(): AudioContext | null {
   try {
     if (!ctx) {
       ctx = new AudioContext()
       bus = ctx.createGain()
-      bus.gain.value = 0.85
+      bus.gain.value = masterVol
       bus.connect(ctx.destination)
     }
     if (ctx.state === 'suspended') void ctx.resume()

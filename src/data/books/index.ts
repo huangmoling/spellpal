@@ -11,6 +11,13 @@ import pep4b from './pep-4start-4b.json'
 import pep5a from './pep-5start-5a.json'
 import pep5b from './pep-5start-5b.json'
 import pep6a from './pep-6start-6a.json'
+import fltrp3a from './fltrp-3a.json'
+import fltrp3b from './fltrp-3b.json'
+import fltrp4a from './fltrp-4a.json'
+import fltrp4b from './fltrp-4b.json'
+import fltrp5a from './fltrp-5a.json'
+import fltrp5b from './fltrp-5b.json'
+import fltrp6a from './fltrp-6a.json'
 
 /**
  * 已收录的教材。加新册只需生成 JSON 后在这里 import 一行。
@@ -29,6 +36,13 @@ export const BOOKS = [
   pep5a as unknown as Book,
   pep5b as unknown as Book,
   pep6a as unknown as Book,
+  fltrp3a as unknown as Book,
+  fltrp3b as unknown as Book,
+  fltrp4a as unknown as Book,
+  fltrp4b as unknown as Book,
+  fltrp5a as unknown as Book,
+  fltrp5b as unknown as Book,
+  fltrp6a as unknown as Book,
 ]
 
 /** 默认打开三年级上册（小学同步的起点） */

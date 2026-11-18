@@ -1,6 +1,8 @@
 /**
  * 功能自测：模拟真实键盘事件打完整个单元，验证状态机与错题本写入。
  *   electron scripts/verify.cjs
+ *
+ * 练习顺序是「先单词、后句子」，所以队列长度 = 本单元词数 + 句数。
  */
 const { app, BrowserWindow } = require('electron')
 const path = require('node:path')
@@ -44,14 +46,35 @@ app.on('ready', async () => {
   `)
   await wait(600)
 
-  const s1 = await run(`(() => { const s = window.__spellpal.getState(); return {
-    phase: s.phase, queue: s.queue, index: s.index, tokenIndex: s.tokenIndex,
-    book: s.book && s.book.id, unitNo: s.unitNo, total: s.queue.length
-  }; })()`)
-  check('点单元后进入练习', s1.phase === 'typing', JSON.stringify({ phase: s1.phase, total: s1.total }))
-  check('队列按句组织（Unit1 应为 8 句）', s1.total === 8, `total=${s1.total}`)
+  const s1 = await run(`(() => {
+    const s = window.__spellpal.getState();
+    return {
+      phase: s.phase, index: s.index, tokenIndex: s.tokenIndex,
+      book: s.book && s.book.id, unitNo: s.unitNo,
+      total: s.items.length,
+      words: s.book.words.filter(w => w.unit === s.unitNo).length,
+      sents: s.book.sentences.filter(x => x.unit === s.unitNo).length,
+      kinds: s.items.map(i => i.kind || 'sentence'),
+    };
+  })()`)
+  check(
+    '点单元后进入练习',
+    s1.phase === 'typing',
+    JSON.stringify({ phase: s1.phase, total: s1.total }),
+  )
+  check(
+    '本轮项数 = 本单元单词 + 句子',
+    s1.total === s1.words + s1.sents,
+    `total=${s1.total} words=${s1.words} sents=${s1.sents}`,
+  )
+  check(
+    '先练单词、后练句子',
+    s1.kinds.slice(0, s1.words).every((k) => k === 'word') &&
+      s1.kinds.slice(s1.words).every((k) => k === 'sentence'),
+    JSON.stringify(s1.kinds),
+  )
   check('起始在第一个词', s1.tokenIndex === 0 && s1.index === 0)
-  console.log('[2] 进入练习 ok', JSON.stringify({ total: s1.total }))
+  console.log('[2] 进入练习 ok', JSON.stringify({ total: s1.total, words: s1.words }))
 
   const press = async (k) => {
     await run(
@@ -84,7 +107,7 @@ app.on('ready', async () => {
     JSON.stringify(escGuard),
   )
 
-  /* 打开「回车跳过」后，回车才真的能跳到下一句 */
+  /* 打开「回车跳过」后，回车才真的能跳到下一项 */
   await run(`window.__spellpal.setState({ enterSkip: true }); true`)
   await press('Enter')
   await wait(220)
@@ -93,53 +116,63 @@ app.on('ready', async () => {
   )
   check('设置里打开后回车可跳句', skipped.idx === 1 && skipped.wrong >= 1, JSON.stringify(skipped))
 
-  /* 复位，后面的断言都假设从第 1 句第一个词开始 */
+  /* 复位，后面的断言都假设从第 1 项第一个字符开始 */
   await run(
     `window.__spellpal.setState({ index: 0, tokenIndex: 0, typed: '', wrongTokenIdx: [], wrongItemIds: [], enterSkip: false }); true`,
   )
   await wait(180)
 
-  /* 取当前句全部待敲字符（撇号、连字符、标点都不算） */
-  const charsOfSentence = () =>
+  /* 取当前项全部待敲字符（撇号、连字符、标点都不算） */
+  const charsOfItem = () =>
     run(`
       (() => {
         const s = window.__spellpal.getState();
-        const sen = s.book.sentences.find(x => x.id === s.queue[s.index]);
+        const item = s.items[s.index];
         const SKIP = new Set(["'", '\\u2019', '-', '.', ',', '?', '!', ';', ':', '"', '\\u201c', '\\u201d', '(', ')', '\\u2026']);
         const out = [];
-        for (const t of sen.tokens) {
+        for (const t of item.tokens) {
           for (const c of [...t.en]) if (!SKIP.has(c)) out.push(c);
         }
         return out;
       })()
     `)
 
-  /* 第一轮：全部打对。每句打完后必须按空格才进下一句 */
+  /* 第一轮：全部打对。每项打完后必须按空格才进下一项 */
   let guard = 0
   let heldChecked = false
-  while (guard < 40) {
+  let stageSwitchOk = null
+  while (guard < 60) {
     guard += 1
-    const st = await run(`(() => { const s = window.__spellpal.getState(); return s.phase + '|' + s.index + '|' + s.tokenIndex; })()`)
-    const [ph, idx] = st.split('|')
+    const st = await run(
+      `(() => { const s = window.__spellpal.getState(); return s.phase + '|' + s.index + '|' + (s.items[s.index] ? (s.items[s.index].kind || 'sentence') : ''); })()`,
+    )
+    const [ph, idx, kindNow] = st.split('|')
     if (ph === 'done') break
-    console.log(`[3.${guard}] 打第 ${Number(idx) + 1} 句`)
-    const chars = await charsOfSentence()
+    console.log(`[3.${guard}] 打第 ${Number(idx) + 1} 项（${kindNow === 'word' ? '单词' : '句子'}）`)
+
+    /* 第一次走到句子阶段时，确认它刚好是「单词全部打完」的位置 */
+    if (stageSwitchOk === null && kindNow === 'sentence') {
+      stageSwitchOk = Number(idx) === s1.words
+    }
+
+    const chars = await charsOfItem()
     for (const c of chars) {
       await press(c)
       await wait(8)
     }
-    await wait(260)
+    await wait(240)
     if (!heldChecked) {
       const held = await run(
         `(() => { const s = window.__spellpal.getState(); return { idx: s.index, done: s.completed }; })()`,
       )
-      check('拼完不自动跳下一句，等空格', held.idx === 0 && held.done === true, JSON.stringify(held))
+      check('拼完不自动跳，等空格', held.idx === 0 && held.done === true, JSON.stringify(held))
       heldChecked = true
     }
     await press(' ')
-    await wait(220)
+    await wait(200)
   }
   console.log('[3] 打完整单元')
+  check('单词练完自动接句子', stageSwitchOk === true, `stageSwitchOk=${stageSwitchOk}`)
 
   const s2 = await run(`(() => { const s = window.__spellpal.getState(); return {
     phase: s.phase, index: s.index,
@@ -149,7 +182,7 @@ app.on('ready', async () => {
   }; })()`)
   check('全部打对后进入结果页', s2.phase === 'done', `phase=${s2.phase} index=${s2.index}`)
   const allClean = Object.values(s2.outcomes).every((v) => v === 'clean')
-  check('每句裁定都是 clean', allClean, JSON.stringify(s2.outcomes))
+  check('每项裁定都是 clean', allClean, JSON.stringify(s2.outcomes))
   check('全对不进错题本', Object.keys(s2.srs).length === 0, `srs=${Object.keys(s2.srs).length}`)
   check(
     '进度已落盘',
@@ -157,7 +190,7 @@ app.on('ready', async () => {
     JSON.stringify(s2.progress['pep-3start-3a#1'] || null),
   )
 
-  /* 第二轮：故意打错第一个字母，验证该句进错题本 */
+  /* 第二轮：故意打错第一个字母，验证该项进错题本 */
   await run(`localStorage.removeItem('spellpal:srs'); true`)
   await run(`
     (() => {
@@ -168,26 +201,26 @@ app.on('ready', async () => {
   `)
   await wait(300)
 
-  const firstChars = await charsOfSentence()
+  const firstChars = await charsOfItem()
   await press('z'.toLowerCase() === firstChars[0].toLowerCase() ? 'q' : 'z')
   await wait(200)
   const s3 = await run(`(() => { const s = window.__spellpal.getState(); return {
     wrong: s.wrongItemIds, typed: s.typed, tokenIndex: s.tokenIndex, index: s.index
   }; })()`)
   check('打错不前进', s3.typed === '' && s3.tokenIndex === 0 && s3.index === 0, JSON.stringify(s3))
-  check('打错的句子被记下', s3.wrong.length === 1, JSON.stringify(s3.wrong))
+  check('打错的项被记下', s3.wrong.length === 1, JSON.stringify(s3.wrong))
 
-  /* 打完这一句，再跳过剩下的，进结果页 */
+  /* 打完这一项，再跳过剩下的，进结果页 */
   for (const c of firstChars) {
     await press(c)
     await wait(12)
   }
   await wait(360)
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 60; i++) {
     const st = await run(`window.__spellpal.getState().phase`)
     if (st === 'done') break
     await run(`window.__spellpal.getState().skipSentence(); true`)
-    await wait(60)
+    await wait(40)
   }
   await wait(900)
 
@@ -196,10 +229,10 @@ app.on('ready', async () => {
   }; })()`)
   const cardIds = Object.keys(s4.srs)
   check('结果页已生成', s4.phase === 'done')
-  check('错句写入错题本', cardIds.length >= 1, `cards=${cardIds.length}`)
+  check('错项写入错题本', cardIds.length >= 1, `cards=${cardIds.length}`)
   const card = s4.srs[cardIds[0]]
   check(
-    '错题卡是句子结构',
+    '错题卡结构完整（有中文、英文、id）',
     !!card && typeof card.en === 'string' && typeof card.cn === 'string' && !!card.itemId,
     card ? `${card.cn} / ${card.en}` : 'none',
   )
@@ -215,8 +248,14 @@ app.on('ready', async () => {
     })()
   `)
   await wait(600)
-  const s5 = await run(`(() => { const s = window.__spellpal.getState(); return { phase: s.phase, kind: s.kind, q: s.queue.length }; })()`)
-  check('能从错题本进入复习', reviewOk === 'clicked' && s5.kind === 'review' && s5.q >= 1, JSON.stringify({ reviewOk, ...s5 }))
+  const s5 = await run(
+    `(() => { const s = window.__spellpal.getState(); return { phase: s.phase, kind: s.kind, q: s.items.length }; })()`,
+  )
+  check(
+    '能从错题本进入复习',
+    reviewOk === 'clicked' && s5.kind === 'review' && s5.q >= 1,
+    JSON.stringify({ reviewOk, ...s5 }),
+  )
 
   console.log('\n================ 功能自测 ================')
   let pass = 0

@@ -36,6 +36,10 @@ export default function BookShelf({
   /** 每单元的句子数，单元卡片和「继续练习」都用它 */
   const sentencesOf = (no: number) => (book.sentences ?? []).filter((s) => s.unit === no).length
   const sentenceCount = (book.sentences ?? []).length
+  const wordsOf = (no: number) => book.words.filter((w) => w.unit === no).length
+  /** 粗估课时：一个词约 15 秒，一句约 30 秒 */
+  const minutesOf = (no: number) =>
+    Math.max(2, Math.round((wordsOf(no) * 15 + sentencesOf(no) * 30) / 60))
 
   const lastUnit = Number(localStorage.getItem(`spellpal:last-unit:${book.id}`) || 1)
   const lastUnitData = book.units.find((u) => u.no === lastUnit) ?? book.units[0]
@@ -97,12 +101,25 @@ export default function BookShelf({
 
       {/* 内容区 */}
       <div className="mx-auto flex w-full max-w-[940px] flex-1 flex-col overflow-y-auto px-8 pb-4">
-        {/* 教材切换：按学段分两行 */}
+        {/* 教材切换：启蒙 / 人教 PEP / 外研新标准 各一行 */}
         {books.length > 1 && (
           <div className="flex shrink-0 flex-col gap-1.5">
             {[
               { key: 'starter', label: '启蒙', list: books.filter((b) => b.stage === 'starter') },
-              { key: 'primary', label: '小学同步', list: books.filter((b) => b.stage !== 'starter') },
+              {
+                key: 'pep',
+                label: '人教 PEP',
+                list: books.filter(
+                  (b) => b.stage !== 'starter' && !b.publisher.includes('外语教学'),
+                ),
+              },
+              {
+                key: 'fltrp',
+                label: '外研 新标准',
+                list: books.filter(
+                  (b) => b.stage !== 'starter' && b.publisher.includes('外语教学'),
+                ),
+              },
             ]
               .filter((g) => g.list.length > 0)
               .map((g) => {
@@ -120,7 +137,7 @@ export default function BookShelf({
                   >
                     <span
                       className={clsx(
-                        'w-[58px] shrink-0 rounded-md py-[3px] text-center text-[10.5px] tracking-wide transition',
+                        'w-[70px] shrink-0 rounded-md py-[3px] text-center text-[10.5px] tracking-wide transition',
                         activeGroup
                           ? 'bg-brand/15 font-medium text-brand ring-1 ring-brand/35'
                           : 'text-muted/40',
@@ -199,7 +216,8 @@ export default function BookShelf({
                 Unit {lastUnitData.no}
               </div>
               <div className="mt-1.5 text-[12px] text-muted/70">
-                {lastUnitData.theme} · {sentencesOf(lastUnitData.no)} 句 · 约 5 分钟
+                {lastUnitData.theme} · {wordsOf(lastUnitData.no)} 词 · {sentencesOf(lastUnitData.no)} 句
+                · 约 {minutesOf(lastUnitData.no)} 分钟
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -233,7 +251,7 @@ export default function BookShelf({
           <span className="min-w-0 flex-1">
             <span className="flex items-baseline gap-2">
               <span className="text-[13.5px] font-medium text-ink/90">错题本</span>
-              <span className="tabnum text-[11px] text-muted/50">{cardsTotal} 句</span>
+              <span className="tabnum text-[11px] text-muted/50">{cardsTotal} 条</span>
               {due.length > 0 && (
                 <span className="rounded-md bg-err/15 px-1.5 py-[1px] text-[10.5px] text-err/90">
                   {due.length} 待复习
@@ -261,12 +279,12 @@ export default function BookShelf({
           <h2 className="text-[13px] font-medium text-ink/80">全部单元</h2>
           <span className="text-[11px] text-muted/45">
             <Layers size={10} strokeWidth={2.4} className="mr-1 inline" />
-            每单元约 {Math.max(1, Math.round(sentenceCount / Math.max(1, book.units.length)))} 句
+            先练单词，再拼句子
           </span>
         </div>
 
         {/* 单元网格 */}
-        <div className="grid grid-cols-3 gap-2.5">
+        <div className="grid grid-cols-4 gap-2.5">
           {book.units.map((u) => (
             <button
               key={u.no}
@@ -276,7 +294,7 @@ export default function BookShelf({
               <div className="flex w-full items-baseline">
                 <span className="text-[14px] font-semibold text-ink/90">Unit {u.no}</span>
                 <span className="tabnum ml-auto text-[10.5px] text-muted/45">
-                  {sentencesOf(u.no)} 句
+                  {wordsOf(u.no)} 词 · {sentencesOf(u.no)} 句
                 </span>
               </div>
               <div className="mt-1 line-clamp-1 text-[11px] text-muted/55">{u.theme}</div>

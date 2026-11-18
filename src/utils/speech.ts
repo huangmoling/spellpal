@@ -6,6 +6,12 @@
 
 let cached: SpeechSynthesisVoice | null = null
 let warmed = false
+/** 朗读音量 0–1。系统和音效各调各的，孩子听英文时音效不该更响 */
+let speechVol = 1
+
+export function setSpeechVolume(v: number) {
+  speechVol = Math.min(1, Math.max(0, v))
+}
 
 /** 优先挑一个英音/美音的女声，听起来更接近教材录音 */
 function pickVoice(): SpeechSynthesisVoice | null {
@@ -52,7 +58,7 @@ export function speak(text: string, opts: SpeakOptions = {}) {
   if (cached) u.voice = cached
   u.rate = opts.rate ?? (opts.spell ? 0.7 : 0.82)
   u.pitch = 1
-  u.volume = 1
+  u.volume = speechVol
   synth.speak(u)
   return true
 }
