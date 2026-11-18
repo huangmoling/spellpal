@@ -134,7 +134,7 @@ export default function SentenceBoard({
   const usableW = Math.max(200, box.w - 64)
   const usableH = Math.max(120, box.h - pad * 2)
 
-  /* 单词阶段只有一块，短，可以顶到很大；句子阶段按宽度自动降 */
+  /* 单词卡短（词组 2–3 块），可以顶到很大；句子按宽度自动降 */
   const isWord = sentence.kind === 'word'
   /* 庆祝态：中文标签放大、词块加宽，于是整句也在放得下的范围内再大一号 */
   const cnRatio = completed ? 0.36 : isWord ? 0.34 : 0.3
@@ -190,7 +190,8 @@ export default function SentenceBoard({
               en={t.en}
               cn={isWord ? '' : t.cn}
               pos={t.pos}
-              ipa={isWord ? sentence.ipa : undefined}
+              /* 词组（pocket money）拆成多块后，音标只挂在第一块上，别重复 */
+              ipa={isWord && i === 0 ? sentence.ipa : undefined}
               state={state}
               typed={state === 'current' ? typed : ''}
               fontSize={fs}
@@ -281,22 +282,26 @@ function TokenBlock({
           : undefined
       }
     >
-      {/* 单词模式显示音标，句子模式显示词性 */}
-      <span
-        className={clsx(
-          'mb-1.5 shrink-0 rounded-md px-1.5 py-[1.5px] leading-none tracking-wide',
-          ipa ? 'font-mono text-[13px]' : 'text-[10.5px]',
-        )}
-        style={
-          celebrate
-            ? { color: '#fff', background: 'rgba(255,255,255,0.22)' }
-            : ipa
-              ? { color: light ? '#475569' : '#CBD5E1', background: light ? 'rgba(71,85,105,0.10)' : 'rgba(148,163,184,0.14)' }
-              : { color: tone.fg, background: tone.bg }
-        }
-      >
-        {ipa || pos}
-      </span>
+      {/* 单词模式显示音标，句子模式显示词性；词组的第二块两者都没有，留等高空位对齐 */}
+      {ipa || pos ? (
+        <span
+          className={clsx(
+            'mb-1.5 shrink-0 rounded-md px-1.5 py-[1.5px] leading-none tracking-wide',
+            ipa ? 'font-mono text-[13px]' : 'text-[10.5px]',
+          )}
+          style={
+            celebrate
+              ? { color: '#fff', background: 'rgba(255,255,255,0.22)' }
+              : ipa
+                ? { color: light ? '#475569' : '#CBD5E1', background: light ? 'rgba(71,85,105,0.10)' : 'rgba(148,163,184,0.14)' }
+                : { color: tone.fg, background: tone.bg }
+          }
+        >
+          {ipa || pos}
+        </span>
+      ) : (
+        <span aria-hidden className="mb-1.5 h-[16px] shrink-0" />
+      )}
 
       {/* 字母槽 */}
       <div className="flex items-end" style={{ fontSize: `${fontSize}px` }}>

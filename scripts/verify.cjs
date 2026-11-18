@@ -2,7 +2,7 @@
  * 功能自测：模拟真实键盘事件打完整个单元，验证状态机与错题本写入。
  *   electron scripts/verify.cjs
  *
- * 练习顺序是「先单词、后句子」，所以队列长度 = 本单元词数 + 句数。
+ * 练习顺序是「一个单词、一个句子」交替，所以队列长度 = 本单元词数 + 句数。
  */
 const { app, BrowserWindow } = require('electron')
 const path = require('node:path')
@@ -67,11 +67,17 @@ app.on('ready', async () => {
     s1.total === s1.words + s1.sents,
     `total=${s1.total} words=${s1.words} sents=${s1.sents}`,
   )
+  /* 交替：每条例句都紧跟在某个单词后面，从第一个词开始 */
   check(
-    '先练单词、后练句子',
-    s1.kinds.slice(0, s1.words).every((k) => k === 'word') &&
-      s1.kinds.slice(s1.words).every((k) => k === 'sentence'),
+    '每条例句都紧跟在单词后面',
+    s1.kinds[0] === 'word' &&
+      s1.kinds.every((k, i) => k !== 'sentence' || (i > 0 && s1.kinds[i - 1] === 'word')),
     JSON.stringify(s1.kinds),
+  )
+  check(
+    '例句紧跟在单词上，不堆在队尾',
+    s1.sents === 0 || s1.kinds.indexOf('sentence') <= 3,
+    JSON.stringify(s1.kinds.slice(0, 5)),
   )
   check('起始在第一个词', s1.tokenIndex === 0 && s1.index === 0)
   console.log('[2] 进入练习 ok', JSON.stringify({ total: s1.total, words: s1.words }))
@@ -150,10 +156,8 @@ app.on('ready', async () => {
     if (ph === 'done') break
     console.log(`[3.${guard}] 打第 ${Number(idx) + 1} 项（${kindNow === 'word' ? '单词' : '句子'}）`)
 
-    /* 第一次走到句子阶段时，确认它刚好是「单词全部打完」的位置 */
-    if (stageSwitchOk === null && kindNow === 'sentence') {
-      stageSwitchOk = Number(idx) === s1.words
-    }
+    /* 每次从单词切到句子都记一次，用来确认没有「先打完所有单词」 */
+    if (stageSwitchOk === null && kindNow === 'sentence') stageSwitchOk = Number(idx)
 
     const chars = await charsOfItem()
     for (const c of chars) {
@@ -172,7 +176,11 @@ app.on('ready', async () => {
     await wait(200)
   }
   console.log('[3] 打完整单元')
-  check('单词练完自动接句子', stageSwitchOk === true, `stageSwitchOk=${stageSwitchOk}`)
+  check(
+    '第一次切到句子时还在队列前段（不是整单元词打完才上句子）',
+    typeof stageSwitchOk === 'number' && stageSwitchOk <= 3,
+    `firstSentenceIndex=${stageSwitchOk}`,
+  )
 
   const s2 = await run(`(() => { const s = window.__spellpal.getState(); return {
     phase: s.phase, index: s.index,
@@ -236,6 +244,52 @@ app.on('ready', async () => {
     !!card && typeof card.en === 'string' && typeof card.cn === 'string' && !!card.itemId,
     card ? `${card.cn} / ${card.en}` : 'none',
   )
+
+  /* 词组：pocket money 这种带空格的词条必须拆成两块，否则空格键进不了下一块，整题卡死 */
+  const multi = await run(`
+    (() => {
+      const list = window.__spellpalBooks || [];
+      const b = list.find((x) => x.id === 'pep-6start-6a');
+      if (!b) return { ok: false, why: 'no-book' };
+      const w = b.words.find((x) => x.unit === 1 && /pocket money/i.test(x.word));
+      if (!w) return { ok: false, why: 'no-word' };
+      const s = window.__spellpal.getState();
+      s.startUnit(b, 1);
+      const st = window.__spellpal.getState();
+      const idx = st.items.findIndex((i) => i.id === 'w:' + w.id);
+      window.__spellpal.setState({ index: idx, tokenIndex: 0, typed: '' });
+      const item = window.__spellpal.getState().items[idx];
+      return { ok: true, idx, tokens: item.tokens.map((t) => t.en), kind: item.kind };
+    })()
+  `)
+  check(
+    '词组拆成多个词块（pocket | money）',
+    multi.ok && multi.tokens.length === 2 && multi.tokens.every((x) => !/\s/.test(x)),
+    JSON.stringify(multi),
+  )
+
+  if (multi.ok) {
+    const [a, b] = multi.tokens
+    for (const c of [...a]) {
+      await press(c)
+      await wait(6)
+    }
+    const mid = await run(
+      `(() => { const s = window.__spellpal.getState(); return { tk: s.tokenIndex, typed: s.typed, done: s.completed }; })()`,
+    )
+    check('打完 pocket 自动跳到 money（不卡在空格上）', mid.tk === 1 && mid.typed === '', JSON.stringify(mid))
+    for (const c of [...b]) {
+      await press(c)
+      await wait(6)
+    }
+    await wait(200)
+    const end = await run(
+      `(() => { const s = window.__spellpal.getState(); return { tk: s.tokenIndex, done: s.completed }; })()`,
+    )
+    check('词组整条能拼完', end.tk === 1 && end.done === true, JSON.stringify(end))
+    await press(' ')
+    await wait(150)
+  }
 
   /* 错题本入口 */
   await run(`window.__spellpal.getState().backToShelf(); true`)

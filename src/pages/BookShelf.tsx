@@ -279,7 +279,7 @@ export default function BookShelf({
           <h2 className="text-[13px] font-medium text-ink/80">全部单元</h2>
           <span className="text-[11px] text-muted/45">
             <Layers size={10} strokeWidth={2.4} className="mr-1 inline" />
-            先练单词，再拼句子
+            一个单词，一个句子
           </span>
         </div>
 

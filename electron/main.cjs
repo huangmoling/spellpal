@@ -187,18 +187,19 @@ function createWindow() {
             `)
             log('startUnit -> ' + hit)
             await wait(600)
-            /* 跳到句子阶段：跳过前面的单词卡 */
+            /* 跳到第一条例句：单词卡与例句是交替排列的，不能再按「跳过前 N 个单词」算位置 */
             const stageEnv = process.env.SPELLPAL_STAGE
             if (stageEnv === 'sentence') {
               const w = await run(
                 `(() => {
                   const s = window.__spellpal.getState();
-                  const n = s.items.filter((i) => i.kind === 'word').length;
-                  window.__spellpal.setState({ index: n, tokenIndex: 0, typed: '' });
-                  return n;
+                  const i = s.items.findIndex((x) => (x.kind || 'sentence') !== 'word');
+                  if (i < 0) return -1;
+                  window.__spellpal.setState({ index: i, tokenIndex: 0, typed: '' });
+                  return i;
                 })()`,
               )
-              log('jump to sentence stage at ' + w)
+              log('jump to first sentence at ' + w)
               await wait(500)
             }
             const idx = Number(process.env.SPELLPAL_IDX || 0)

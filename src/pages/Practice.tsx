@@ -47,14 +47,17 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
   const revealTimer = useRef(0)
 
   const unit = book?.units.find((u) => u.no === unitNo)
-  /* 本轮 = 先单词卡、后句子；单词卡是 kind='word' 的伪句子 */
+  /* 本轮 = 单词卡与例句交替；单词卡是 kind='word' 的伪句子 */
   const sentence = items[index]
   const total = items.length
-  /** 本单元单词数。进度条在两个阶段各算各的，不要用总进度混在一起 */
+  /** 词数和句数分开数，进度条走整轮总进度 */
   const wordTotal = items.filter((i) => i.kind === 'word').length
+  const sentTotal = total - wordTotal
   const isWord = sentence?.kind === 'word'
-  const stageDone = isWord ? index : index - wordTotal
-  const stageTotal = isWord ? wordTotal : total - wordTotal
+  const wordDone = items.slice(0, index).filter((i) => i.kind === 'word').length
+  const sentDone = index - wordDone
+  const nextKind = items[index + 1]?.kind === 'word' ? 'word' : items[index + 1] ? 'sentence' : null
+  const nextLabel = nextKind === 'word' ? '下一个词' : nextKind === 'sentence' ? '进下一句' : '看结果'
 
   /* 下一个该敲的键 —— 给虚拟键盘指路 */
   const token = sentence?.tokens[tokenIndex]
@@ -195,10 +198,10 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
         }
       />
       <ProgressBar
-        done={stageDone}
-        total={stageTotal}
+        done={index}
+        total={total}
         timeText={formatDuration(elapsed)}
-        label={kind === 'review' ? '已复习' : isWord ? '已拼词' : '已拼句'}
+        label={kind === 'review' ? '已复习' : '已练'}
       />
 
       <main className="relative flex min-h-0 flex-1 flex-col px-5 pb-1 pt-1">
@@ -234,7 +237,7 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
         skipDisabled={!enterSkip}
         onNext={completed ? advance : trySkip}
         nextReady={completed}
-        nextLabel={completed ? (isWord ? '下一个词' : '下一句') : '下一题'}
+        nextLabel={completed ? nextKind === 'word' ? '下一个词' : nextKind === 'sentence' ? '下一句' : '下一题' : '下一题'}
         onReveal={doReveal}
         onMaster={doMaster}
         extra={
@@ -263,17 +266,22 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
             <span className="flex items-center gap-1.5 text-brand">
               <span className="animate-pulse">✓</span>
               拼完了 · <kbd className="rounded bg-veil/[0.08] px-1.5 py-[2px] text-[11px]">空格</kbd>{' '}
-              {isWord && index + 1 >= wordTotal ? '开始拼句子' : isWord ? '下一个词' : '进下一句'}
+              {nextLabel}
             </span>
           ) : (
             <span className="truncate">
-              {kind === 'review' ? '错题复习' : isWord ? '先把单词拼熟' : (unit?.theme ?? '')}
+              {kind === 'review' ? '错题复习' : (unit?.theme ?? '')}
               <span className="ml-2 text-muted/35">
-                {stageDone + 1}/{stageTotal}
-                {kind === 'unit' && wordTotal > 0 && (
-                  <span className="ml-1.5 text-muted/25">
-                    {isWord ? `· 之后还有 ${total - wordTotal} 句` : '· 句子'}
-                  </span>
+                {kind === 'unit' && wordTotal > 0 ? (
+                  <>
+                    单词 {Math.min(wordDone + (isWord ? 1 : 0), wordTotal)}/{wordTotal}
+                    <span className="mx-1 text-muted/25">·</span>
+                    句子 {Math.min(sentDone + (isWord ? 0 : 1), sentTotal)}/{sentTotal}
+                  </>
+                ) : (
+                  <>
+                    {index + 1}/{total}
+                  </>
                 )}
               </span>
             </span>

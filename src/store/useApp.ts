@@ -1,5 +1,6 @@
 import { create } from 'zustand'
 import type { Book, Sentence, Word } from '@/types'
+import { assignSentences } from '@/core/pairing'
 import { inputChars, judgeToken, shuffle } from '@/core/typing'
 import { setSfxVolume } from '@/utils/sound'
 import { setSpeechVolume } from '@/utils/speech'
@@ -14,7 +15,7 @@ interface AppState {
   book: Book | null
   unitNo: number
   kind: SessionKind
-  /** 本轮所有练习项：先单词卡、后句子。单词卡是伪句子（kind='word'） */
+  /** 本轮所有练习项：单词卡与例句交替排列。单词卡是伪句子（kind='word'） */
   items: Sentence[]
   /** 队列里是练习项 id */
   queue: string[]
@@ -90,9 +91,20 @@ const sentenceIdsOf = (book: Book, unitNo: number) =>
 const WORD_PREFIX = 'w:'
 export const isWordItem = (id: string) => id.startsWith(WORD_PREFIX)
 
-/** 把一个单词包成「只有一个词块的句子」，这样练习界面和判定逻辑都能直接复用 */
+/**
+ * 把一个单词包成「一句话」，这样练习界面和判定逻辑都能直接复用。
+ *
+ * 词组（pocket money、watering can）必须按空格拆成多个词块：
+ * 空格键在练习页是「进下一题」，不是输入字符，整串塞进一个词块会让
+ * 判定期待的下一字符变成空格，孩子打到 "pocket" 之后怎么敲都算错。
+ */
 const wordCardOf = (w: Word): Sentence => {
   const cn = w.senses[0]?.cn ?? w.word
+  /* 括号里是复数/变体提示（foot (feet)），不是要拼的内容 */
+  const parts = w.word
+    .replace(/[（(][^)）]*[)）]/g, ' ')
+    .split(/\s+/)
+    .filter(Boolean)
   return {
     id: `${WORD_PREFIX}${w.id}`,
     unit: w.unit,
@@ -100,7 +112,7 @@ const wordCardOf = (w: Word): Sentence => {
     cn,
     en: w.word,
     ipa: w.phoneticUK,
-    tokens: [{ en: w.word, cn, pos: '' }],
+    tokens: (parts.length ? parts : [w.word]).map((en) => ({ en, cn: '', pos: '' })),
   }
 }
 
@@ -114,16 +126,50 @@ const resolveItem = (book: Book, id: string): Sentence | undefined => {
 }
 
 /**
- * 一个单元的练习顺序：**先把本单元的单词逐个拼完，再拼句子**。
- * 「单词：猫 cat → 语句：一只猫 A cat」这个顺序是用户明确要求的，不要调换。
+ * 一个单元的练习顺序：**一个单词一个句子，交替着来**。
+ * 「单词：猫 cat → 语句：一只猫 A cat」是用户明确要求的顺序，不要改回「先单词后句子」。
+ *
+ * 句子只发给真正包含这个词的词（pocket money → I have some pocket money.），
+ * 这样孩子看到「单词 → 例句」时能对上号；配不上的词就连续练，
+ * 没被任何词用上的例句排在整轮最后。
  */
 const itemsOfUnit = (book: Book, unitNo: number, order: 'seq' | 'random'): Sentence[] => {
-  const words = (book.words ?? []).filter((w) => w.unit === unitNo).map(wordCardOf)
+  const words = (book.words ?? []).filter((w) => w.unit === unitNo)
   const sents = (book.sentences ?? []).filter((s) => s.unit === unitNo)
-  return [
-    ...(order === 'random' ? shuffle(words) : words),
-    ...(order === 'random' ? shuffle(sents) : sents),
-  ]
+  const wordList = order === 'random' ? shuffle(words) : words
+  const pool = order === 'random' ? shuffle(sents) : [...sents]
+
+  const assignment = assignSentences(
+    wordList.map((w) => w.word),
+    pool,
+  )
+  const used = new Set<number>()
+  /** 配到例句的词：两两成组，词后面紧跟它的例句 */
+  const team: Sentence[] = []
+  /** 没配到例句的词 */
+  const solo: Sentence[] = []
+  wordList.forEach((w, i) => {
+    const j = assignment.get(i)
+    if (j === undefined) {
+      solo.push(wordCardOf(w))
+      return
+    }
+    used.add(j)
+    team.push(wordCardOf(w), pool[j])
+  })
+
+  /* 把「光单词」均匀插在「词+例句」之间，免得开头一串词、结尾一长串句子 */
+  const out: Sentence[] = []
+  const teams = team.length / 2
+  let k = 0
+  for (let i = 0; i < teams; i += 1) {
+    out.push(team[i * 2], team[i * 2 + 1])
+    const want = teams ? Math.round(((i + 1) * solo.length) / teams) : solo.length
+    while (k < want) out.push(solo[k++])
+  }
+  while (k < solo.length) out.push(solo[k++])
+  out.push(...pool.filter((_, j) => !used.has(j)))
+  return out
 }
 
 /* 字号倍率持久化：0.8 – 2.0，默认 1.15 */
