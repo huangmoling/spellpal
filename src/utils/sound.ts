@@ -7,12 +7,34 @@ let ctx: AudioContext | null = null
 let bus: GainNode | null = null
 let noiseBuf: AudioBuffer | null = null
 /** 总音量 0–1，设置页拖动时实时生效 */
-let masterVol = 0.8
+let masterVol = 1
+
+/**
+ * 单个音的增益补偿。原来成功音只有 0.03–0.1，母线再乘 0.8，
+ * 系统音量开满也只有蚊子叫，家长根本听不见。这里统一提一档。
+ */
+const TRIM = 1.5
+/** 母线额外放大。叠加音会超过 1.0，所以后面串一个软限幅，别直接爆音 */
+const BOOST = 2
 
 /** 设置页调音量用。0 就是静音，但朗读不受影响（朗读有单独的 speechVolume） */
 export function setSfxVolume(v: number) {
   masterVol = Math.min(1, Math.max(0, v))
-  if (bus && ctx) bus.gain.setTargetAtTime(masterVol, ctx.currentTime, 0.01)
+  if (bus && ctx) bus.gain.setTargetAtTime(masterVol * BOOST, ctx.currentTime, 0.01)
+}
+
+/** tanh 软限幅：1.0 以上的峰值压回去，听感是「响但不炸」 */
+function makeShaper(c: AudioContext): WaveShaperNode {
+  const shaper = c.createWaveShaper()
+  const n = 2048
+  const curve = new Float32Array(n)
+  for (let i = 0; i < n; i += 1) {
+    const x = (i / (n - 1)) * 2 - 1
+    curve[i] = Math.tanh(x * 1.6)
+  }
+  shaper.curve = curve
+  shaper.oversample = '2x'
+  return shaper
 }
 
 function ac(): AudioContext | null {
@@ -20,8 +42,8 @@ function ac(): AudioContext | null {
     if (!ctx) {
       ctx = new AudioContext()
       bus = ctx.createGain()
-      bus.gain.value = masterVol
-      bus.connect(ctx.destination)
+      bus.gain.value = masterVol * BOOST
+      bus.connect(makeShaper(ctx)).connect(ctx.destination)
     }
     if (ctx.state === 'suspended') void ctx.resume()
     return ctx
@@ -50,7 +72,7 @@ function tone(
   osc.frequency.setValueAtTime(freq, t0)
   if (slideTo) osc.frequency.exponentialRampToValueAtTime(slideTo, t0 + dur)
   g.gain.setValueAtTime(0.0001, t0)
-  g.gain.exponentialRampToValueAtTime(gain, t0 + 0.012)
+  g.gain.exponentialRampToValueAtTime(Math.min(0.95, gain * TRIM), t0 + 0.012)
   g.gain.exponentialRampToValueAtTime(0.0001, t0 + dur)
   osc.connect(g).connect(out(c))
   osc.start(t0)
@@ -75,7 +97,7 @@ function noise(dur: number, gain: number, delay = 0, cutoff = 1600) {
   f.Q.value = 0.9
   const g = c.createGain()
   g.gain.setValueAtTime(0.0001, t0)
-  g.gain.exponentialRampToValueAtTime(gain, t0 + 0.008)
+  g.gain.exponentialRampToValueAtTime(Math.min(0.95, gain * TRIM), t0 + 0.008)
   g.gain.exponentialRampToValueAtTime(0.0001, t0 + dur)
   src.connect(f).connect(g).connect(out(c))
   src.start(t0)

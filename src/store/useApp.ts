@@ -202,18 +202,34 @@ const readFlag = (key: string, fallback: boolean) => {
   const raw = localStorage.getItem(key)
   return raw === null ? fallback : raw === '1'
 }
-/** 音量 0–100，默认 80：朗读和音效共用一个旋钮 */
+/** 音量 0–100，默认 100：朗读和音效共用一个旋钮 */
+export const VOLUME_DEFAULT = 100
+const VOLUME_MIGRATED = 'spellpal:volume-v2'
 const readVolume = () => {
   const raw = localStorage.getItem(VOLUME_KEY)
   /* 注意 Number(null) === 0，不先判空会默认成静音 */
-  if (raw === null) return 80
+  if (raw === null) return VOLUME_DEFAULT
   const n = Number(raw)
-  return Number.isFinite(n) && n >= 0 && n <= 100 ? Math.round(n) : 80
+  if (!Number.isFinite(n) || n < 0 || n > 100) return VOLUME_DEFAULT
+  /* 0.9.1 之前默认 80 且整体偏轻：没动过旋钮的老用户提到 100 */
+  if (!localStorage.getItem(VOLUME_MIGRATED)) {
+    localStorage.setItem(VOLUME_MIGRATED, '1')
+    if (n === 80) {
+      localStorage.setItem(VOLUME_KEY, String(VOLUME_DEFAULT))
+      return VOLUME_DEFAULT
+    }
+  }
+  return Math.round(n)
 }
-/** 把音量同时推给音效总线和语音合成 */
+/**
+ * 把音量同时推给音效总线和语音合成。
+ * 语音合成的 volume 上限就是 1.0，没法再放大，所以给一条下凹曲线：
+ * 滑块拉到 60% 就已经接近满响度，剩下的行程用来微调小音量。
+ */
 export const applyVolume = (v: number) => {
-  setSfxVolume(v / 100)
-  setSpeechVolume(v / 100)
+  const x = Math.min(1, Math.max(0, v / 100))
+  setSfxVolume(x)
+  setSpeechVolume(Math.min(1, Math.pow(x, 0.45)))
 }
 
 /** 音效序号 0-7 */

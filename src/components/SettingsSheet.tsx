@@ -15,7 +15,7 @@ import {
   Volume2,
   X,
 } from 'lucide-react'
-import { FONT_MAX, FONT_MIN, useApp } from '@/store/useApp'
+import { FONT_MAX, FONT_MIN, VOLUME_DEFAULT, useApp } from '@/store/useApp'
 import type { Theme } from '@/store/useApp'
 import { noticeLines, openRepo, repoUrl } from '@/core/notice'
 import { ERROR_SFX, KEY_SFX, SUCCESS_SFX, playError, playKey, playSuccess } from '@/utils/sound'
@@ -348,11 +348,11 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
                 <div className="mt-2 flex items-center justify-between text-[10.5px] text-muted/45">
                   <span>静音</span>
                   <button
-                    onClick={() => setVolume(80)}
+                    onClick={() => setVolume(VOLUME_DEFAULT)}
                     className="flex items-center gap-1 rounded-md px-1.5 py-0.5 text-[10.5px] text-muted/60 transition hover:bg-veil/[0.06] hover:text-ink"
                   >
                     <RotateCcw size={10} strokeWidth={2.4} />
-                    恢复 80%
+                    恢复默认
                   </button>
                   <span>100%</span>
                 </div>

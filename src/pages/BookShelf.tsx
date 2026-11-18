@@ -18,6 +18,26 @@ import { loadProgress, streakDays } from '@/utils/progress'
 import { dueCards, cardCount } from '@/utils/srs'
 import { noticeLines, openRepo, repoUrl } from '@/core/notice'
 
+/** 三套教材各有一块常驻的彩色底，孩子靠颜色就能找到自己的书 */
+const SERIES: { key: string; label: string; emoji: string; tint: string }[] = [
+  { key: 'starter', label: '启蒙', emoji: '🧸', tint: '#34D399' },
+  { key: 'pep', label: '人教 PEP', emoji: '📚', tint: '#8B7CFF' },
+  { key: 'fltrp', label: '外研 新标准', emoji: '🎈', tint: '#FB9A3C' },
+]
+
+/** 单元磁贴配色，按单元号轮转；深浅主题都压得住白字和深字 */
+const UNIT_COLORS = [
+  '#7C5CFF',
+  '#22B8CF',
+  '#3BC98A',
+  '#F5A524',
+  '#F472B6',
+  '#5B9DF9',
+  '#A78BFA',
+  '#FB7A5C',
+]
+const unitColor = (no: number) => UNIT_COLORS[(no - 1) % UNIT_COLORS.length]
+
 export default function BookShelf({
   books,
   bookId,
@@ -69,28 +89,49 @@ export default function BookShelf({
     )
   }
 
+  const groups = SERIES.map((s) => ({
+    ...s,
+    list: books.filter((b) => {
+      if (s.key === 'starter') return b.stage === 'starter'
+      if (s.key === 'fltrp') return b.stage !== 'starter' && b.publisher.includes('外语教学')
+      return b.stage !== 'starter' && !b.publisher.includes('外语教学')
+    }),
+  })).filter((g) => g.list.length > 0)
+
   return (
-    <div className="flex h-full flex-col">
+    <div className="relative flex h-full flex-col overflow-hidden">
+      {/* 顶部一层很淡的双色光晕，让首页不那么「办公软件」 */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -left-24 -top-32 h-72 w-[520px] rounded-full opacity-60 blur-3xl"
+        style={{ background: 'radial-gradient(circle, rgba(124,92,255,0.24), transparent 70%)' }}
+      />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -right-24 -top-28 h-64 w-[420px] rounded-full opacity-50 blur-3xl"
+        style={{ background: 'radial-gradient(circle, rgba(34,184,207,0.22), transparent 70%)' }}
+      />
+
       {/* 顶栏 */}
       <header
-        className="flex h-14 shrink-0 items-center pl-8"
+        className="relative z-10 flex h-[56px] shrink-0 items-center pl-8"
         style={{ WebkitAppRegion: 'drag' } as React.CSSProperties}
       >
-        <div className="flex items-center gap-2.5">
-          <div className="flex h-8 w-8 items-center justify-center rounded-[10px] bg-brand shadow-[0_4px_16px_rgba(124,92,255,0.45)]">
-            <span className="font-mono text-[15px] font-bold text-white">S</span>
+        <div className="flex items-center gap-3">
+          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand shadow-[0_6px_18px_rgba(124,92,255,0.5)]">
+            <span className="font-mono text-[17px] font-bold text-white">S</span>
           </div>
           <div className="leading-tight">
-            <div className="text-[15px] font-semibold tracking-wide">小拼手</div>
-            <div className="text-[10px] tracking-[0.18em] text-muted/60">SPELLPAL</div>
+            <div className="text-[17px] font-bold tracking-wide">小拼手</div>
+            <div className="text-[10px] tracking-[0.2em] text-muted/55">SPELLPAL</div>
           </div>
         </div>
         <button
           onClick={onOpenSettings}
-          className="no-drag ml-auto flex h-9 w-9 items-center justify-center rounded-xl text-muted transition hover:bg-veil/5 hover:text-ink"
+          className="no-drag ml-auto flex h-10 w-10 items-center justify-center rounded-xl text-muted transition hover:bg-veil/5 hover:text-ink"
           title="设置"
         >
-          <Settings size={17} strokeWidth={1.9} />
+          <Settings size={19} strokeWidth={1.9} />
         </button>
         {/* 给窗口三个系统按钮留出 no-drag 空间：padding 挡不住拖拽区，必须放真元素 */}
         <div
@@ -100,101 +141,81 @@ export default function BookShelf({
       </header>
 
       {/* 内容区 */}
-      <div className="mx-auto flex w-full max-w-[940px] flex-1 flex-col overflow-y-auto px-8 pb-4">
-        {/* 教材切换：启蒙 / 人教 PEP / 外研新标准 各一行 */}
+      <div className="relative z-10 mx-auto flex w-full max-w-[1040px] flex-1 flex-col overflow-y-auto px-7 pb-4">
+        {/* 教材切换：启蒙 / 人教 PEP / 外研新标准 各一行，每行有常驻底色 */}
         {books.length > 1 && (
           <div className="flex shrink-0 flex-col gap-1.5">
-            {[
-              { key: 'starter', label: '启蒙', list: books.filter((b) => b.stage === 'starter') },
-              {
-                key: 'pep',
-                label: '人教 PEP',
-                list: books.filter(
-                  (b) => b.stage !== 'starter' && !b.publisher.includes('外语教学'),
-                ),
-              },
-              {
-                key: 'fltrp',
-                label: '外研 新标准',
-                list: books.filter(
-                  (b) => b.stage !== 'starter' && b.publisher.includes('外语教学'),
-                ),
-              },
-            ]
-              .filter((g) => g.list.length > 0)
-              .map((g) => {
-                /* 当前这本属于哪一组，整行就套一个高亮框，标签再单独染色 */
-                const activeGroup = g.list.some((b) => b.id === book.id)
-                return (
-                  <div
-                    key={g.key}
-                    className={clsx(
-                      'flex items-center gap-1.5 rounded-lg px-1.5 py-1 ring-1 transition-colors',
-                      activeGroup
-                        ? 'bg-brand/[0.055] ring-brand/25'
-                        : 'bg-transparent ring-transparent',
-                    )}
+            {groups.map((g) => {
+              const activeGroup = g.list.some((b) => b.id === book.id)
+              return (
+                <div
+                  key={g.key}
+                  className="relative flex items-center gap-2 overflow-hidden rounded-2xl px-2.5 py-[5px] ring-1 transition-colors"
+                  style={{
+                    background: `linear-gradient(96deg, ${g.tint}26, ${g.tint}0F 46%, ${g.tint}05 100%)`,
+                    ['--tw-ring-color' as string]: activeGroup ? `${g.tint}66` : `${g.tint}30`,
+                  }}
+                >
+                  <span
+                    aria-hidden
+                    className="pointer-events-none absolute -top-3 right-1 select-none text-[46px] leading-none opacity-[0.16]"
                   >
-                    <span
-                      className={clsx(
-                        'w-[70px] shrink-0 rounded-md py-[3px] text-center text-[10.5px] tracking-wide transition',
-                        activeGroup
-                          ? 'bg-brand/15 font-medium text-brand ring-1 ring-brand/35'
-                          : 'text-muted/40',
-                      )}
-                    >
-                      {g.label}
-                    </span>
-                    {g.list.map((b) => {
-                      const on = b.id === book.id
-                      const done = b.units.filter((u) => progress[`${b.id}#${u.no}`]).length
-                      return (
-                        <button
-                          key={b.id}
-                          onClick={() => onPickBook(b.id)}
-                          className={clsx(
-                            'flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-[11.5px] transition',
-                            on
-                              ? 'bg-veil/[0.08] text-ink ring-1 ring-veil/10'
-                              : 'text-muted/60 hover:bg-veil/[0.04] hover:text-ink/85',
-                          )}
+                    {g.emoji}
+                  </span>
+                  <span
+                    className="relative flex w-[112px] shrink-0 items-center gap-1.5 whitespace-nowrap rounded-lg px-1.5 py-[4px] text-[12px] font-semibold"
+                    style={{ background: `${g.tint}2b` }}
+                  >
+                    <span className="text-[13px] leading-none">{g.emoji}</span>
+                    <span className={clsx(activeGroup ? 'text-ink' : 'text-ink/65')}>{g.label}</span>
+                  </span>
+                  {g.list.map((b) => {
+                    const on = b.id === book.id
+                    const done = b.units.filter((u) => progress[`${b.id}#${u.no}`]).length
+                    return (
+                      <button
+                        key={b.id}
+                        onClick={() => onPickBook(b.id)}
+                        className={clsx(
+                          'relative flex items-center gap-1.5 rounded-xl px-3 py-[6px] text-[12.5px] transition',
+                          on
+                            ? 'bg-card font-semibold text-ink shadow-sm ring-1 ring-veil/15'
+                            : 'text-ink/60 hover:bg-veil/[0.06] hover:text-ink/90',
+                        )}
+                      >
+                        {b.shortTitle}
+                        <span
+                          className={clsx('tabnum text-[10.5px]', on ? 'text-brand' : 'text-ink/35')}
                         >
-                          {b.shortTitle}
-                          <span
-                            className={clsx(
-                              'tabnum text-[10px]',
-                              on ? 'text-brand/80' : 'text-muted/35',
-                            )}
-                          >
-                            {done}/{b.units.length}
-                          </span>
-                        </button>
-                      )
-                    })}
-                  </div>
-                )
-              })}
+                          {done}/{b.units.length}
+                        </span>
+                      </button>
+                    )
+                  })}
+                </div>
+              )
+            })}
           </div>
         )}
 
         {/* 教材头部 */}
-        <div className="mt-4 flex items-end justify-between">
+        <div className="mt-3 flex items-end justify-between">
           <div>
-            <div className="mb-2 flex items-center gap-1.5 text-[11px] text-muted/65">
+            <div className="mb-1.5 flex items-center gap-1.5 text-[11.5px] text-muted/60">
               <BookOpen size={13} strokeWidth={2} />
               <span>
                 {book.publisher} · {book.series} · {book.edition}
               </span>
             </div>
-            <h1 className="text-[28px] font-semibold leading-none tracking-wide">
+            <h1 className="text-[32px] font-bold leading-none tracking-wide">
               {book.shortTitle}
             </h1>
           </div>
           <div className="text-right leading-none">
-            <div className="tabnum text-[30px] font-semibold leading-none text-brand">
+            <div className="tabnum text-[34px] font-bold leading-none text-brand">
               {book.wordCount}
             </div>
-            <div className="mt-2 text-[11px] text-muted/55">
+            <div className="mt-1.5 text-[11.5px] text-muted/55">
               个单词 · {book.units.length} 个单元 · {sentenceCount} 句
             </div>
           </div>
@@ -203,27 +224,25 @@ export default function BookShelf({
         {/* 继续练习 */}
         <button
           onClick={() => openUnit(lastUnit)}
-          className="group relative mt-4 w-full shrink-0 overflow-hidden rounded-2xl bg-gradient-to-br from-panel to-card px-7 py-3.5 text-left ring-1 ring-veil/[0.07] transition hover:ring-brand/45"
+          className="group relative mt-3 w-full shrink-0 overflow-hidden rounded-3xl bg-gradient-to-br from-panel to-card px-7 py-3 text-left ring-1 ring-veil/[0.08] transition hover:ring-brand/50"
         >
-          <div className="absolute -right-8 -top-20 h-52 w-52 rounded-full bg-brand/15 blur-2xl transition group-hover:bg-brand/25" />
+          <div className="absolute -right-8 -top-20 h-56 w-56 rounded-full bg-brand/18 blur-2xl transition group-hover:bg-brand/28" />
           <div className="relative flex items-center gap-5">
             <div className="flex-1">
-              <div className="mb-1.5 flex items-center gap-1.5 text-[11px] text-brand/90">
-                <Sparkles size={12} strokeWidth={2.4} />
+              <div className="mb-1 flex items-center gap-1.5 text-[11.5px] text-brand/90">
+                <Sparkles size={13} strokeWidth={2.4} />
                 {unitProgress(lastUnitData.no) ? '再练一次' : '继续练习'}
               </div>
-              <div className="text-[22px] font-semibold leading-tight">
-                Unit {lastUnitData.no}
-              </div>
-              <div className="mt-1.5 text-[12px] text-muted/70">
-                {lastUnitData.theme} · {wordsOf(lastUnitData.no)} 词 · {sentencesOf(lastUnitData.no)} 句
-                · 约 {minutesOf(lastUnitData.no)} 分钟
+              <div className="text-[25px] font-bold leading-tight">Unit {lastUnitData.no}</div>
+              <div className="mt-1 text-[12.5px] text-muted/70">
+                {lastUnitData.theme} · {wordsOf(lastUnitData.no)} 词 ·{' '}
+                {sentencesOf(lastUnitData.no)} 句 · 约 {minutesOf(lastUnitData.no)} 分钟
               </div>
             </div>
             <div className="flex items-center gap-3">
               <span className="text-[13px] text-muted transition group-hover:text-ink">开始</span>
-              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-brand text-white shadow-[0_6px_24px_rgba(124,92,255,0.5)] transition group-hover:scale-105">
-                <ArrowRight size={20} strokeWidth={2.4} />
+              <span className="flex h-[52px] w-[52px] items-center justify-center rounded-full bg-brand text-white shadow-[0_8px_26px_rgba(124,92,255,0.55)] transition group-hover:scale-105">
+                <ArrowRight size={22} strokeWidth={2.4} />
               </span>
             </div>
           </div>
@@ -234,7 +253,7 @@ export default function BookShelf({
           onClick={reviewNow}
           disabled={cardsTotal === 0}
           className={clsx(
-            'group mt-3 flex shrink-0 items-center gap-4 rounded-xl px-5 py-2.5 text-left ring-1 transition',
+            'group mt-2.5 flex shrink-0 items-center gap-4 rounded-2xl px-5 py-2 text-left ring-1 transition',
             cardsTotal === 0
               ? 'cursor-default bg-card/40 ring-veil/[0.05]'
               : 'bg-card/60 ring-veil/[0.07] hover:bg-card hover:ring-brand/35',
@@ -242,23 +261,23 @@ export default function BookShelf({
         >
           <span
             className={clsx(
-              'flex h-9 w-9 shrink-0 items-center justify-center rounded-lg',
+              'flex h-10 w-10 shrink-0 items-center justify-center rounded-xl',
               due.length > 0 ? 'bg-err/15 text-err/90' : 'bg-veil/[0.05] text-muted/50',
             )}
           >
-            <CalendarClock size={17} strokeWidth={2} />
+            <CalendarClock size={18} strokeWidth={2} />
           </span>
           <span className="min-w-0 flex-1">
             <span className="flex items-baseline gap-2">
-              <span className="text-[13.5px] font-medium text-ink/90">错题本</span>
-              <span className="tabnum text-[11px] text-muted/50">{cardsTotal} 条</span>
+              <span className="text-[14.5px] font-semibold text-ink/90">错题本</span>
+              <span className="tabnum text-[11.5px] text-muted/50">{cardsTotal} 条</span>
               {due.length > 0 && (
-                <span className="rounded-md bg-err/15 px-1.5 py-[1px] text-[10.5px] text-err/90">
+                <span className="rounded-md bg-err/15 px-1.5 py-[1px] text-[11px] text-err/90">
                   {due.length} 待复习
                 </span>
               )}
             </span>
-            <span className="mt-1 block truncate text-[11.5px] text-muted/55">
+            <span className="mt-1 block truncate text-[12px] text-muted/55">
               {cardsTotal === 0
                 ? '还没有错句，练完一个单元会自动收集'
                 : due.length > 0
@@ -267,72 +286,92 @@ export default function BookShelf({
             </span>
           </span>
           {cardsTotal > 0 && (
-            <span className="flex shrink-0 items-center gap-1 text-[12px] text-brand/80">
+            <span className="flex shrink-0 items-center gap-1 text-[12.5px] text-brand/80">
               {due.length > 0 ? '开始复习' : '全部复习'}
-              <ArrowRight size={13} strokeWidth={2.4} />
+              <ArrowRight size={14} strokeWidth={2.4} />
             </span>
           )}
         </button>
 
         {/* 单元标题 */}
-        <div className="mb-2 mt-3.5 flex items-baseline justify-between">
-          <h2 className="text-[13px] font-medium text-ink/80">全部单元</h2>
-          <span className="text-[11px] text-muted/45">
-            <Layers size={10} strokeWidth={2.4} className="mr-1 inline" />
+        <div className="mb-2 mt-3 flex items-baseline justify-between">
+          <h2 className="text-[14px] font-semibold text-ink/80">全部单元</h2>
+          <span className="text-[11.5px] text-muted/45">
+            <Layers size={11} strokeWidth={2.4} className="mr-1 inline" />
             一个单词，一个句子
           </span>
         </div>
 
         {/* 单元网格 */}
         <div className="grid grid-cols-4 gap-2.5">
-          {book.units.map((u) => (
-            <button
-              key={u.no}
-              onClick={() => openUnit(u.no)}
-              className="group flex min-h-[92px] shrink-0 flex-col rounded-xl bg-card/60 p-3 text-left ring-1 ring-veil/[0.06] transition hover:bg-card hover:ring-brand/35"
-            >
-              <div className="flex w-full items-baseline">
-                <span className="text-[14px] font-semibold text-ink/90">Unit {u.no}</span>
-                <span className="tabnum ml-auto text-[10.5px] text-muted/45">
-                  {wordsOf(u.no)} 词 · {sentencesOf(u.no)} 句
-                </span>
-              </div>
-              <div className="mt-1 line-clamp-1 text-[11px] text-muted/55">{u.theme}</div>
+          {book.units.map((u) => {
+            const c = unitColor(u.no)
+            const p = unitProgress(u.no)
+            return (
+              <button
+                key={u.no}
+                onClick={() => openUnit(u.no)}
+                className="group relative flex min-h-[100px] shrink-0 flex-col overflow-hidden rounded-2xl p-3 text-left ring-1 transition duration-150 hover:-translate-y-[1px] hover:shadow-[0_10px_24px_-14px_rgba(0,0,0,0.55)]"
+                style={{
+                  background: `linear-gradient(150deg, ${c}29, ${c}0D)`,
+                  ['--tw-ring-color' as string]: `${c}3d`,
+                }}
+              >
+                <span
+                  aria-hidden
+                  className="pointer-events-none absolute -bottom-5 -right-2 h-16 w-16 rounded-full opacity-25 blur-xl transition group-hover:opacity-40"
+                  style={{ background: c }}
+                />
+                <div className="relative flex w-full items-center gap-2">
+                  <span
+                    className="flex h-7 w-7 items-center justify-center rounded-lg text-[13.5px] font-bold text-white shadow-sm"
+                    style={{ background: c }}
+                  >
+                    {u.no}
+                  </span>
+                  <span className="text-[10.5px] font-semibold tracking-[0.12em] text-ink/35">
+                    UNIT
+                  </span>
+                  <span className="tabnum ml-auto text-[10.5px] text-ink/40">
+                    {wordsOf(u.no)} 词 · {sentencesOf(u.no)} 句
+                  </span>
+                </div>
+                <div className="relative mt-1.5 line-clamp-1 text-[12.5px] font-medium text-ink/80">
+                  {u.theme}
+                </div>
 
-              <div className="mt-auto">
-                <div className="mb-2 flex items-center justify-between text-[10px]">
-                  {unitProgress(u.no) ? (
-                    <span className="text-ok/80">正确率 {unitProgress(u.no)!.acc}%</span>
-                  ) : (
-                    <span className="text-muted/35">未开始</span>
-                  )}
-                  <span className="text-brand/0 transition group-hover:text-brand/80">开始 ›</span>
+                <div className="relative mt-auto">
+                  <div className="mb-1.5 flex items-center justify-between text-[10.5px]">
+                    {p ? (
+                      <span className="font-medium text-ok">正确率 {p.acc}%</span>
+                    ) : (
+                      <span className="text-ink/35">未开始</span>
+                    )}
+                    <span className="text-brand/0 transition group-hover:text-brand/85">开始 ›</span>
+                  </div>
+                  <div className="flex gap-1">
+                    {Array.from({ length: 12 }).map((_, i) => {
+                      const on = p ? i < Math.round((p.acc / 100) * 12) : false
+                      return (
+                        <span
+                          key={i}
+                          className="h-[4px] flex-1 rounded-full transition"
+                          style={{ background: on ? c : 'rgb(var(--veil) / 0.13)' }}
+                        />
+                      )
+                    })}
+                  </div>
                 </div>
-                <div className="flex gap-1">
-                  {Array.from({ length: 12 }).map((_, i) => {
-                    const p = unitProgress(u.no)
-                    const on = p ? i < Math.round((p.acc / 100) * 12) : false
-                    return (
-                      <span
-                        key={i}
-                        className={clsx(
-                          'h-[3px] flex-1 rounded-full transition',
-                          on ? 'bg-ok/60' : 'bg-veil/[0.07] group-hover:bg-veil/[0.12]',
-                        )}
-                      />
-                    )
-                  })}
-                </div>
-              </div>
-            </button>
-          ))}
+              </button>
+            )
+          })}
         </div>
 
         {/* 底部状态 */}
-        <div className="mt-auto flex items-center justify-center gap-6 pt-3.5 text-[11px] text-muted/40">
+        <div className="mt-auto flex items-center justify-center gap-6 pt-3 text-[12px] text-muted/45">
           <span className="flex items-center gap-1.5">
             <Flame
-              size={12}
+              size={13}
               strokeWidth={2}
               className={streak > 0 ? 'text-brand/70' : 'text-muted/25'}
             />
@@ -355,13 +394,13 @@ export default function BookShelf({
 function NoticeCard() {
   const [head, body] = noticeLines()
   return (
-    <div className="mb-1 mt-3 flex shrink-0 items-center gap-2.5 rounded-lg bg-veil/[0.02] px-3 py-2 ring-1 ring-veil/[0.05]">
-      <Heart size={11} strokeWidth={2.2} className="shrink-0 text-err/70" />
-      <span className="shrink-0 text-[10.5px] font-medium text-ink/70">{head}</span>
-      <span className="min-w-0 flex-1 truncate text-[10px] text-muted/40">{body}</span>
+    <div className="mb-1 mt-3 flex shrink-0 items-center gap-2.5 rounded-xl bg-veil/[0.02] px-3.5 py-2 ring-1 ring-veil/[0.05]">
+      <Heart size={12} strokeWidth={2.2} className="shrink-0 text-err/70" />
+      <span className="shrink-0 text-[11px] font-medium text-ink/70">{head}</span>
+      <span className="min-w-0 flex-1 truncate text-[10.5px] text-muted/40">{body}</span>
       <button
         onClick={openRepo}
-        className="flex shrink-0 items-center gap-1 rounded-md bg-veil/[0.04] px-2 py-1 text-[10px] text-muted/70 ring-1 ring-veil/[0.06] transition hover:bg-brand/10 hover:text-brand hover:ring-brand/40"
+        className="flex shrink-0 items-center gap-1 rounded-lg bg-veil/[0.04] px-2 py-1 text-[10.5px] text-muted/70 ring-1 ring-veil/[0.06] transition hover:bg-brand/10 hover:text-brand hover:ring-brand/40"
         title="在浏览器中打开项目主页"
       >
         <GitBranch size={10} strokeWidth={2.2} />
