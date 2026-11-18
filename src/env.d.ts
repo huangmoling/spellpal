@@ -4,6 +4,10 @@ export interface WindowApi {
   close: () => void
   openExternal: (url: string) => void
   setTheme: (t: string) => void
+  /** 注册「系统侧要求关闭」的回调，返回注销函数 */
+  onAskClose: (cb: () => void) => () => void
+  /** 确认退出 */
+  closeConfirmed: () => void
 }
 
 declare global {

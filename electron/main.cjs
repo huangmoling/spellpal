@@ -59,6 +59,14 @@ function createWindow() {
     return { action: 'deny' }
   })
 
+  mainWindow.on('close', (e) => {
+    /* 截图模式直接退，别在自动化里弹框 */
+    if (allowClose || shotPath) return
+    e.preventDefault()
+    log('close intercepted, ask renderer')
+    mainWindow?.webContents.send('app:ask-close')
+  })
+
   if (shotPath) {
     mainWindow.webContents.once('did-finish-load', async () => {
       log('did-finish-load')
@@ -334,6 +342,10 @@ function createWindow() {
 
 process.on('uncaughtException', (e) => log('UNCAUGHT ' + (e && e.stack)))
 
+/* 关闭前的二次确认：渲染进程弹确认框，确认后才真的关。
+   Alt+F4、任务栏关闭、自己的 X 按钮最后都走同一扇门（窗口 close 事件）。 */
+let allowClose = false
+
 app.whenReady().then(() => {
   log('app ready')
   createWindow()
@@ -354,6 +366,13 @@ ipcMain.on('win:maximize', (e) => {
   else w.maximize()
 })
 ipcMain.on('win:close', (e) => BrowserWindow.fromWebContents(e.sender)?.close())
+/* 用户在确认框里点了「退出」 */
+ipcMain.on('win:close-confirmed', (e) => {
+  const w = BrowserWindow.fromWebContents(e.sender)
+  if (!w) return
+  allowClose = true
+  w.close()
+})
 
 /* 无边框窗口的底色要跟着主题走，否则浅色主题启动/滚动时会闪一下深色 */
 ipcMain.on('app:theme', (e, t) => {

@@ -87,6 +87,7 @@ export default function VirtualKeyboard({ nextKey, className }: Props) {
 
   return (
     <div
+      data-kb
       className={clsx(
         'shrink-0 rounded-2xl bg-veil/[0.022] px-4 py-2.5 ring-1 ring-veil/[0.05]',
         className,

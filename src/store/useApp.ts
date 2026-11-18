@@ -278,7 +278,8 @@ export const useApp = create<AppState>((set, get) => ({
     set({ theme: t })
   },
 
-  kbOn: readFlag(KB_KEY, true),
+  /* 虚拟键盘默认不显示：屏幕键盘挡视线，需要的人自己到设置里打开 */
+  kbOn: readFlag(KB_KEY, false),
   setKbOn: (v) => {
     localStorage.setItem(KB_KEY, v ? '1' : '0')
     set({ kbOn: v })

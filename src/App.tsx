@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { LogOut, X } from 'lucide-react'
 import { useApp } from '@/store/useApp'
 import BookShelf from '@/pages/BookShelf'
 import Practice from '@/pages/Practice'
@@ -25,6 +26,7 @@ export default function App() {
       return DEFAULT_BOOK_ID
     }
   })
+  const [quitOpen, setQuitOpen] = useState(false)
 
   useEffect(() => {
     try {
@@ -33,6 +35,13 @@ export default function App() {
       /* ignore */
     }
   }, [bookId])
+
+  /* 关闭按钮、Alt+F4、任务栏关闭：主进程拦下来先问一句 */
+  useEffect(() => {
+    const api = window.spellpal
+    if (!api?.onAskClose) return
+    return api.onAskClose(() => setQuitOpen(true))
+  }, [])
 
   return (
     <div className="relative h-full">
@@ -49,8 +58,84 @@ export default function App() {
 
       {settingsOpen && <SettingsSheet onClose={() => setSettingsOpen(false)} />}
 
+      {quitOpen && <QuitConfirm onCancel={() => setQuitOpen(false)} />}
+
       {/* 放最后渲染：拖拽区按 DOM 顺序登记，晚上一步的 no-drag 才压得住顶栏 */}
       <WindowControls />
+    </div>
+  )
+}
+
+/**
+ * 退出前的二次确认。
+ *
+ * 练习途中误点 X 会丢掉这一轮，所以默认动作是「继续练」：
+ * Esc / Enter / 空格都当取消，点背景也是取消。
+ * 弹框期间在捕获阶段把按键截掉，否则底下的练习页照吃字母（它挂在 window 冒泡上）。
+ */
+function QuitConfirm({ onCancel }: { onCancel: () => void }) {
+  const phase = useApp((s) => s.phase)
+  const inPractice = phase === 'typing'
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      e.stopImmediatePropagation()
+      e.preventDefault()
+      if (e.key === 'Escape' || e.key === 'Enter' || e.key === ' ') onCancel()
+    }
+    window.addEventListener('keydown', onKey, true)
+    return () => window.removeEventListener('keydown', onKey, true)
+  }, [onCancel])
+
+  const quit = () => window.spellpal?.closeConfirmed()
+
+  return (
+    <div
+      data-quit-modal
+      className="fixed inset-0 z-[1001] flex items-center justify-center bg-stage/70 backdrop-blur-sm"
+      onMouseDown={onCancel}
+    >
+      <div
+        className="relative w-[404px] overflow-hidden rounded-3xl bg-panel p-6 shadow-[0_28px_80px_-24px_rgba(0,0,0,0.7)] ring-1 ring-veil/10"
+        onMouseDown={(e) => e.stopPropagation()}
+      >
+        <div className="pointer-events-none absolute -right-10 -top-14 h-40 w-40 rounded-full bg-brand/20 blur-2xl" />
+        <button
+          onClick={onCancel}
+          className="absolute right-3.5 top-3.5 flex h-8 w-8 items-center justify-center rounded-lg text-muted/60 transition hover:bg-veil/[0.07] hover:text-ink"
+          title="继续练习"
+        >
+          <X size={15} strokeWidth={2.2} />
+        </button>
+
+        <div className="relative">
+          <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-err/15 text-err">
+            <LogOut size={21} strokeWidth={2.1} />
+          </div>
+          <h2 className="mt-4 text-[19px] font-bold">要关掉小拼手吗？</h2>
+          <p className="mt-2 text-[13px] leading-relaxed text-muted/75">
+            {inPractice
+              ? '这一轮还没练完，现在退出不会记录这次的进度，下次可以接着从这一单元练。'
+              : '拼好的单词和错题本都已经存好了，关掉不会丢，下次打开还在。'}
+          </p>
+
+          <div className="mt-6 flex gap-2.5">
+            <button
+              autoFocus
+              onClick={onCancel}
+              className="flex-1 rounded-xl bg-brand py-2.5 text-[14px] font-semibold text-white shadow-[0_8px_22px_-8px_rgba(124,92,255,0.9)] transition hover:brightness-110"
+            >
+              继续练
+            </button>
+            <button
+              onClick={quit}
+              className="rounded-xl px-4 py-2.5 text-[14px] font-medium text-muted/80 ring-1 ring-veil/10 transition hover:bg-err/10 hover:text-err hover:ring-err/30"
+            >
+              退出软件
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

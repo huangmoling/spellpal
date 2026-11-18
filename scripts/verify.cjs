@@ -21,7 +21,7 @@ app.on('ready', async () => {
     show: false,
     frame: false,
     backgroundColor: '#0B0E13',
-    webPreferences: { offscreen: true },
+    webPreferences: { offscreen: true, preload: path.join(__dirname, '..', 'electron', 'preload.cjs') },
   })
   await win.loadFile(path.join(__dirname, '..', 'dist', 'index.html'))
   await new Promise((r) => setTimeout(r, 1200))
@@ -35,6 +35,10 @@ app.on('ready', async () => {
 
   const s0 = await run(`window.__spellpal.getState().phase`)
   check('初始处于书架', s0 === 'idle', `phase=${s0}`)
+
+  /* 虚拟键盘默认关（用户要求：要看的人自己到设置里打开） */
+  const kb = await run(`window.__spellpal.getState().kbOn`)
+  check('虚拟键盘默认关闭', kb === false, `kbOn=${kb}`)
   console.log('[1] 初始状态 ok')
 
   /* 进入 Unit 1 */
@@ -45,6 +49,9 @@ app.on('ready', async () => {
     })()
   `)
   await wait(600)
+
+  const kbVisible = await run(`!!document.querySelector('[data-kb]')`)
+  check('练习页默认不渲染虚拟键盘', kbVisible === false, `visible=${kbVisible}`)
 
   const s1 = await run(`(() => {
     const s = window.__spellpal.getState();
@@ -310,6 +317,18 @@ app.on('ready', async () => {
     reviewOk === 'clicked' && s5.kind === 'review' && s5.q >= 1,
     JSON.stringify({ reviewOk, ...s5 }),
   )
+
+  /* 关窗二次确认：主进程发询问 → 弹框 → Esc 取消 */
+  const hasApi = await run(`typeof window.spellpal?.onAskClose === 'function'`)
+  check('渲染层拿到关窗回调', hasApi === true, `api=${hasApi}`)
+  win.webContents.send('app:ask-close')
+  await wait(500)
+  const quitShown = await run(`!!document.querySelector('[data-quit-modal]')`)
+  check('关闭软件会先弹确认框', quitShown === true, `modal=${quitShown}`)
+  await run(`window.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', bubbles: true }))`)
+  await wait(400)
+  const quitGone = await run(`!!document.querySelector('[data-quit-modal]')`)
+  check('按 Esc 取消退出', quitGone === false, `modal=${quitGone}`)
 
   console.log('\n================ 功能自测 ================')
   let pass = 0
