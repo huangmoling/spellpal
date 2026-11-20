@@ -2542,10 +2542,20 @@
       "id": "pep-4start-4b-u1-s05",
       "unit": 1,
       "cn": "墙上有一块黑板。",
-      "en": "A blackboard is on the wall.",
+      "en": "There is a blackboard on the wall.",
       "tokens": [
         {
-          "en": "A",
+          "en": "There",
+          "cn": "（有）",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
           "cn": "一块",
           "pos": "冠词"
         },
@@ -2553,11 +2563,6 @@
           "en": "blackboard",
           "cn": "黑板",
           "pos": "名词"
-        },
-        {
-          "en": "is",
-          "cn": "在",
-          "pos": "动词"
         },
         {
           "en": "on",

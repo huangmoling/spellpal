@@ -2083,11 +2083,16 @@
       "id": "fltrp-3a-u1-s02",
       "unit": 1,
       "cn": "请打开你的书。",
-      "en": "Open your book, please.",
+      "en": "Please open your book.",
       "tokens": [
         {
-          "en": "Open",
-          "cn": "开放",
+          "en": "Please",
+          "cn": "请",
+          "pos": "副词"
+        },
+        {
+          "en": "open",
+          "cn": "打开",
           "pos": "动词"
         },
         {
@@ -2096,14 +2101,9 @@
           "pos": "代词"
         },
         {
-          "en": "book,",
+          "en": "book.",
           "cn": "书",
           "pos": "名词"
-        },
-        {
-          "en": "please.",
-          "cn": "请",
-          "pos": "副词"
         }
       ]
     },
