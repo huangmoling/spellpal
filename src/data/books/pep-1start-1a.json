@@ -10,7 +10,7 @@
   "stage": "starter",
   "wordCount": 53,
   "sentenceCount": 30,
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-20",
   "units": [
     {
       "no": 1,
@@ -1383,15 +1383,15 @@
       "id": "pep-1start-1a-u4-s01",
       "unit": 4,
       "cn": "一、二、三。",
-      "en": "One two three.",
+      "en": "One, two, three.",
       "tokens": [
         {
-          "en": "One",
+          "en": "One,",
           "cn": "一",
           "pos": "数词"
         },
         {
-          "en": "two",
+          "en": "two,",
           "cn": "二",
           "pos": "数词"
         },
@@ -1684,10 +1684,10 @@
       "id": "pep-1start-1a-u6-s03",
       "unit": 6,
       "cn": "是的，我喜欢苹果。",
-      "en": "Yes I like apples.",
+      "en": "Yes, I like apples.",
       "tokens": [
         {
-          "en": "Yes",
+          "en": "Yes,",
           "cn": "是的",
           "pos": "副词"
         },
@@ -1712,12 +1712,12 @@
       "id": "pep-1start-1a-u6-s04",
       "unit": 6,
       "cn": "不，我不喜欢香蕉。",
-      "en": "No I do not like bananas.",
+      "en": "No, I don't like bananas.",
       "tokens": [
         {
-          "en": "No",
+          "en": "No,",
           "cn": "不",
-          "pos": "副词"
+          "pos": "感叹词"
         },
         {
           "en": "I",
@@ -1725,14 +1725,9 @@
           "pos": "代词"
         },
         {
-          "en": "do",
-          "cn": "（助动词）",
-          "pos": "助动词"
-        },
-        {
-          "en": "not",
+          "en": "don't",
           "cn": "不",
-          "pos": "副词"
+          "pos": "助动词"
         },
         {
           "en": "like",

@@ -10,7 +10,7 @@
   "stage": "starter",
   "wordCount": 55,
   "sentenceCount": 30,
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-20",
   "units": [
     {
       "no": 1,
@@ -1035,7 +1035,7 @@
         {
           "en": "Let's",
           "cn": "让我们",
-          "pos": "助动词"
+          "pos": "动词"
         },
         {
           "en": "play",
@@ -1435,22 +1435,27 @@
       "id": "pep-2start-2b-u4-s02",
       "unit": 4,
       "cn": "现在十一点。",
-      "en": "It is eleven.",
+      "en": "It is eleven o'clock.",
       "tokens": [
         {
           "en": "It",
-          "cn": "现在",
+          "cn": "它",
           "pos": "代词"
         },
         {
           "en": "is",
           "cn": "是",
-          "pos": "动词"
+          "pos": "系动词"
         },
         {
-          "en": "eleven.",
-          "cn": "十一点",
+          "en": "eleven",
+          "cn": "十一",
           "pos": "数词"
+        },
+        {
+          "en": "o'clock.",
+          "cn": "点钟",
+          "pos": "副词"
         }
       ]
     },

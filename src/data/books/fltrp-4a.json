@@ -10,7 +10,7 @@
   "stage": "primary",
   "wordCount": 65,
   "sentenceCount": 18,
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-20",
   "units": [
     {
       "no": 1,
@@ -1184,7 +1184,7 @@
         {
           "en": "run",
           "cn": "跑",
-          "pos": "名词"
+          "pos": "动词"
         },
         {
           "en": "and",
@@ -1194,7 +1194,7 @@
         {
           "en": "swim.",
           "cn": "游泳",
-          "pos": "名词"
+          "pos": "动词"
         }
       ]
     },
@@ -1202,17 +1202,12 @@
       "id": "fltrp-4a-u1-s02",
       "unit": 1,
       "cn": "我们一起踢足球吧。",
-      "en": "Let us play football.",
+      "en": "Let's play football together.",
       "tokens": [
         {
-          "en": "Let",
+          "en": "Let's",
           "cn": "让",
           "pos": "动词"
-        },
-        {
-          "en": "us",
-          "cn": "我们",
-          "pos": "代词"
         },
         {
           "en": "play",
@@ -1220,9 +1215,14 @@
           "pos": "动词"
         },
         {
-          "en": "football.",
+          "en": "football",
           "cn": "足球",
           "pos": "名词"
+        },
+        {
+          "en": "together.",
+          "cn": "一起",
+          "pos": "副词"
         }
       ]
     },
@@ -1288,7 +1288,7 @@
         {
           "en": "home.",
           "cn": "家",
-          "pos": "副词"
+          "pos": "名词"
         }
       ]
     },
@@ -1316,7 +1316,7 @@
         {
           "en": "dirty.",
           "cn": "脏的",
-          "pos": "名词"
+          "pos": "形容词"
         }
       ]
     },
@@ -1400,7 +1400,7 @@
         {
           "en": "cold",
           "cn": "寒冷的",
-          "pos": "名词"
+          "pos": "形容词"
         },
         {
           "en": "and",
@@ -1410,7 +1410,7 @@
         {
           "en": "windy.",
           "cn": "多风的",
-          "pos": "名词"
+          "pos": "形容词"
         }
       ]
     },
@@ -1418,37 +1418,37 @@
       "id": "fltrp-4a-u3-s03",
       "unit": 3,
       "cn": "带把伞，外面在下雨。",
-      "en": "Take an umbrella. It is rainy.",
+      "en": "Take an umbrella. It's raining outside.",
       "tokens": [
         {
           "en": "Take",
-          "cn": "带上",
+          "cn": "拿",
           "pos": "动词"
         },
         {
           "en": "an",
-          "cn": "一个",
+          "cn": "一把",
           "pos": "冠词"
         },
         {
           "en": "umbrella.",
-          "cn": "伞",
+          "cn": "雨伞",
           "pos": "名词"
         },
         {
-          "en": "It",
-          "cn": "它",
+          "en": "It's",
+          "cn": "天",
           "pos": "代词"
         },
         {
-          "en": "is",
-          "cn": "是",
+          "en": "raining",
+          "cn": "正在下",
           "pos": "动词"
         },
         {
-          "en": "rainy.",
-          "cn": "下雨的",
-          "pos": "形容词"
+          "en": "outside.",
+          "cn": "在外面",
+          "pos": "副词"
         }
       ]
     },
@@ -1512,7 +1512,7 @@
         {
           "en": "swim",
           "cn": "游泳",
-          "pos": "名词"
+          "pos": "动词"
         },
         {
           "en": "in",
@@ -1596,21 +1596,16 @@
       "id": "fltrp-4a-u5-s03",
       "unit": 5,
       "cn": "我们走路去公园吧。",
-      "en": "Let us walk to the park.",
+      "en": "Let's walk to the park.",
       "tokens": [
         {
-          "en": "Let",
+          "en": "Let's",
           "cn": "让",
           "pos": "动词"
         },
         {
-          "en": "us",
-          "cn": "我们",
-          "pos": "代词"
-        },
-        {
           "en": "walk",
-          "cn": "散步",
+          "cn": "走",
           "pos": "动词"
         },
         {
@@ -1620,7 +1615,7 @@
         },
         {
           "en": "the",
-          "cn": "那位",
+          "cn": "那个",
           "pos": "冠词"
         },
         {
@@ -1672,17 +1667,12 @@
       "id": "fltrp-4a-u6-s02",
       "unit": 6,
       "cn": "我们去博物馆吧。",
-      "en": "Let us go to the museum.",
+      "en": "Let's go to the museum.",
       "tokens": [
         {
-          "en": "Let",
+          "en": "Let's",
           "cn": "让",
           "pos": "动词"
-        },
-        {
-          "en": "us",
-          "cn": "我们",
-          "pos": "代词"
         },
         {
           "en": "go",
@@ -1696,7 +1686,7 @@
         },
         {
           "en": "the",
-          "cn": "那位",
+          "cn": "那个",
           "pos": "冠词"
         },
         {
@@ -1720,7 +1710,7 @@
         {
           "en": "careful",
           "cn": "小心的",
-          "pos": "名词"
+          "pos": "形容词"
         },
         {
           "en": "on",

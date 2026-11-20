@@ -10,7 +10,7 @@
   "stage": "primary",
   "wordCount": 106,
   "sentenceCount": 18,
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-20",
   "units": [
     {
       "no": 1,
@@ -1889,7 +1889,7 @@
         {
           "en": "black",
           "cn": "黑色",
-          "pos": "名词"
+          "pos": "形容词"
         },
         {
           "en": "and",
@@ -1899,7 +1899,7 @@
         {
           "en": "white.",
           "cn": "白色",
-          "pos": "名词"
+          "pos": "形容词"
         }
       ]
     },
@@ -1927,7 +1927,7 @@
         {
           "en": "cute.",
           "cn": "可爱的",
-          "pos": "名词"
+          "pos": "形容词"
         }
       ]
     },
@@ -2064,7 +2064,7 @@
         {
           "en": "long",
           "cn": "长的",
-          "pos": "名词"
+          "pos": "形容词"
         },
         {
           "en": "nose.",
@@ -2224,7 +2224,7 @@
         {
           "en": "swim",
           "cn": "游泳",
-          "pos": "名词"
+          "pos": "动词"
         },
         {
           "en": "and",
@@ -2234,7 +2234,7 @@
         {
           "en": "run.",
           "cn": "跑",
-          "pos": "名词"
+          "pos": "动词"
         }
       ]
     },
@@ -2242,22 +2242,17 @@
       "id": "fltrp-3b-u4-s03",
       "unit": 4,
       "cn": "我们一起跳舞唱歌吧。",
-      "en": "Let us dance and sing.",
+      "en": "Let's dance and sing together.",
       "tokens": [
         {
-          "en": "Let",
+          "en": "Let's",
           "cn": "让",
           "pos": "动词"
         },
         {
-          "en": "us",
-          "cn": "我们",
-          "pos": "代词"
-        },
-        {
           "en": "dance",
           "cn": "跳舞",
-          "pos": "名词"
+          "pos": "动词"
         },
         {
           "en": "and",
@@ -2265,9 +2260,14 @@
           "pos": "连词"
         },
         {
-          "en": "sing.",
+          "en": "sing",
           "cn": "唱歌",
           "pos": "动词"
+        },
+        {
+          "en": "together.",
+          "cn": "一起",
+          "pos": "副词"
         }
       ]
     },
@@ -2295,7 +2295,7 @@
         {
           "en": "o'clock.",
           "cn": "……点钟",
-          "pos": "名词"
+          "pos": "副词"
         }
       ]
     },

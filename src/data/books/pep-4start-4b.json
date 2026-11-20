@@ -10,7 +10,7 @@
   "stage": "primary",
   "wordCount": 139,
   "sentenceCount": 36,
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-20",
   "units": [
     {
       "no": 1,
@@ -2425,12 +2425,12 @@
       "id": "pep-4start-4b-u1-s01",
       "unit": 1,
       "cn": "对不起，我迟到了。",
-      "en": "Sorry I am late.",
+      "en": "Sorry, I am late.",
       "tokens": [
         {
-          "en": "Sorry",
-          "cn": "对不起",
-          "pos": "叹词"
+          "en": "Sorry,",
+          "cn": "抱歉",
+          "pos": "形容词"
         },
         {
           "en": "I",
@@ -2440,7 +2440,7 @@
         {
           "en": "am",
           "cn": "是",
-          "pos": "动词"
+          "pos": "系动词"
         },
         {
           "en": "late.",
@@ -3361,7 +3361,7 @@
       "id": "pep-4start-4b-u5-s04",
       "unit": 5,
       "cn": "我摘了一个西红柿。",
-      "en": "I pick a tomato.",
+      "en": "I picked a tomato.",
       "tokens": [
         {
           "en": "I",
@@ -3369,7 +3369,7 @@
           "pos": "代词"
         },
         {
-          "en": "pick",
+          "en": "picked",
           "cn": "摘",
           "pos": "动词"
         },
@@ -3526,17 +3526,12 @@
       "id": "pep-4start-4b-u6-s03",
       "unit": 6,
       "cn": "饭后收拾一下餐桌。",
-      "en": "Let us clear the table.",
+      "en": "Let's clear the table.",
       "tokens": [
         {
-          "en": "Let",
+          "en": "Let's",
           "cn": "让",
           "pos": "动词"
-        },
-        {
-          "en": "us",
-          "cn": "我们",
-          "pos": "代词"
         },
         {
           "en": "clear",
@@ -3545,7 +3540,7 @@
         },
         {
           "en": "the",
-          "cn": "那张",
+          "cn": "那个",
           "pos": "冠词"
         },
         {

@@ -10,7 +10,7 @@
   "stage": "primary",
   "wordCount": 107,
   "sentenceCount": 18,
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-20",
   "units": [
     {
       "no": 1,
@@ -1938,7 +1938,7 @@
         {
           "en": "excited.",
           "cn": "激动的",
-          "pos": "名词"
+          "pos": "形容词"
         }
       ]
     },
@@ -2032,7 +2032,7 @@
         {
           "en": "full",
           "cn": "满的",
-          "pos": "名词"
+          "pos": "形容词"
         },
         {
           "en": "of",
@@ -2278,7 +2278,7 @@
         {
           "en": "should",
           "cn": "应该",
-          "pos": "动词"
+          "pos": "助动词"
         },
         {
           "en": "protect",
@@ -2301,7 +2301,7 @@
       "id": "fltrp-5b-u5-s01",
       "unit": 5,
       "cn": "我在森林里找到一只兔子。",
-      "en": "I find a rabbit in the forest.",
+      "en": "I found a rabbit in the forest.",
       "tokens": [
         {
           "en": "I",
@@ -2309,13 +2309,13 @@
           "pos": "代词"
         },
         {
-          "en": "find",
+          "en": "found",
           "cn": "找到",
           "pos": "动词"
         },
         {
           "en": "a",
-          "cn": "一本",
+          "cn": "一只",
           "pos": "冠词"
         },
         {
@@ -2325,12 +2325,12 @@
         },
         {
           "en": "in",
-          "cn": "（里面）",
+          "cn": "在",
           "pos": "介词"
         },
         {
           "en": "the",
-          "cn": "那位",
+          "cn": "那",
           "pos": "冠词"
         },
         {
@@ -2344,22 +2344,22 @@
       "id": "fltrp-5b-u5-s02",
       "unit": 5,
       "cn": "春天叶子是绿色的。",
-      "en": "The leaf is green in spring.",
+      "en": "The leaves are green in spring.",
       "tokens": [
         {
           "en": "The",
-          "cn": "那位",
+          "cn": "那",
           "pos": "冠词"
         },
         {
-          "en": "leaf",
+          "en": "leaves",
           "cn": "叶子",
           "pos": "名词"
         },
         {
-          "en": "is",
+          "en": "are",
           "cn": "是",
-          "pos": "动词"
+          "pos": "系动词"
         },
         {
           "en": "green",
@@ -2368,7 +2368,7 @@
         },
         {
           "en": "in",
-          "cn": "（里面）",
+          "cn": "在",
           "pos": "介词"
         },
         {
@@ -2397,7 +2397,7 @@
         {
           "en": "lose",
           "cn": "丢失",
-          "pos": "名词"
+          "pos": "动词"
         },
         {
           "en": "your",
@@ -2450,12 +2450,12 @@
         {
           "en": "different",
           "cn": "不同的",
-          "pos": "名词"
+          "pos": "形容词"
         },
         {
           "en": "now.",
           "cn": "现在",
-          "pos": "名词"
+          "pos": "副词"
         }
       ]
     },
@@ -2483,7 +2483,7 @@
         {
           "en": "then.",
           "cn": "然后",
-          "pos": "名词"
+          "pos": "副词"
         }
       ]
     },

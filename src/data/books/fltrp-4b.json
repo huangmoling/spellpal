@@ -10,7 +10,7 @@
   "stage": "primary",
   "wordCount": 87,
   "sentenceCount": 18,
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-20",
   "units": [
     {
       "no": 1,
@@ -1580,15 +1580,15 @@
       "id": "fltrp-4b-u1-s02",
       "unit": 1,
       "cn": "消防员帮助人们。",
-      "en": "The fireman helps people.",
+      "en": "The firefighter helps people.",
       "tokens": [
         {
           "en": "The",
-          "cn": "那位",
+          "cn": "那",
           "pos": "冠词"
         },
         {
-          "en": "fireman",
+          "en": "firefighter",
           "cn": "消防员",
           "pos": "名词"
         },
@@ -1694,7 +1694,7 @@
       "id": "fltrp-4b-u2-s02",
       "unit": 2,
       "cn": "她很难过，她哭了。",
-      "en": "She is sad and she cries.",
+      "en": "She is sad and she is crying.",
       "tokens": [
         {
           "en": "She",
@@ -1704,16 +1704,16 @@
         {
           "en": "is",
           "cn": "是",
-          "pos": "动词"
+          "pos": "系动词"
         },
         {
           "en": "sad",
-          "cn": "悲哀的",
-          "pos": "名词"
+          "cn": "难过的",
+          "pos": "形容词"
         },
         {
           "en": "and",
-          "cn": "和",
+          "cn": "并且",
           "pos": "连词"
         },
         {
@@ -1722,7 +1722,12 @@
           "pos": "代词"
         },
         {
-          "en": "cries.",
+          "en": "is",
+          "cn": "正在",
+          "pos": "助动词"
+        },
+        {
+          "en": "crying.",
           "cn": "哭",
           "pos": "动词"
         }
@@ -1752,7 +1757,7 @@
         {
           "en": "scared.",
           "cn": "害怕的",
-          "pos": "名词"
+          "pos": "形容词"
         }
       ]
     },
@@ -1785,7 +1790,7 @@
         {
           "en": "dance.",
           "cn": "跳舞",
-          "pos": "名词"
+          "pos": "动词"
         }
       ]
     },
@@ -1793,11 +1798,11 @@
       "id": "fltrp-4b-u3-s02",
       "unit": 3,
       "cn": "你会画一朵花吗？",
-      "en": "Can you paint a flower?",
+      "en": "Can you draw a flower?",
       "tokens": [
         {
           "en": "Can",
-          "cn": "会",
+          "cn": "能",
           "pos": "助动词"
         },
         {
@@ -1806,13 +1811,13 @@
           "pos": "代词"
         },
         {
-          "en": "paint",
+          "en": "draw",
           "cn": "画",
-          "pos": "名词"
+          "pos": "动词"
         },
         {
           "en": "a",
-          "cn": "一本",
+          "cn": "一朵",
           "pos": "冠词"
         },
         {
@@ -1826,22 +1831,17 @@
       "id": "fltrp-4b-u3-s03",
       "unit": 3,
       "cn": "我们一起跳舞吧。",
-      "en": "Let us dance together.",
+      "en": "Let's dance together.",
       "tokens": [
         {
-          "en": "Let",
+          "en": "Let's",
           "cn": "让",
           "pos": "动词"
         },
         {
-          "en": "us",
-          "cn": "我们",
-          "pos": "代词"
-        },
-        {
           "en": "dance",
           "cn": "跳舞",
-          "pos": "名词"
+          "pos": "动词"
         },
         {
           "en": "together.",
@@ -1854,11 +1854,11 @@
       "id": "fltrp-4b-u4-s01",
       "unit": 4,
       "cn": "种子在泥土里生长。",
-      "en": "The seed grows in the earth.",
+      "en": "The seed grows in the soil.",
       "tokens": [
         {
           "en": "The",
-          "cn": "那位",
+          "cn": "那",
           "pos": "冠词"
         },
         {
@@ -1873,17 +1873,17 @@
         },
         {
           "en": "in",
-          "cn": "（里面）",
+          "cn": "在",
           "pos": "介词"
         },
         {
           "en": "the",
-          "cn": "那位",
+          "cn": "那",
           "pos": "冠词"
         },
         {
-          "en": "earth.",
-          "cn": "地球",
+          "en": "soil.",
+          "cn": "泥土",
           "pos": "名词"
         }
       ]
@@ -2016,7 +2016,7 @@
         {
           "en": "lovely.",
           "cn": "美丽的",
-          "pos": "名词"
+          "pos": "形容词"
         }
       ]
     },
@@ -2024,26 +2024,21 @@
       "id": "fltrp-4b-u5-s03",
       "unit": 5,
       "cn": "我们玩个游戏吧。",
-      "en": "Let us play a game.",
+      "en": "Let's play a game.",
       "tokens": [
         {
-          "en": "Let",
+          "en": "Let's",
           "cn": "让",
           "pos": "动词"
         },
         {
-          "en": "us",
-          "cn": "我们",
-          "pos": "代词"
-        },
-        {
           "en": "play",
-          "cn": "踢",
+          "cn": "玩",
           "pos": "动词"
         },
         {
           "en": "a",
-          "cn": "一本",
+          "cn": "一个",
           "pos": "冠词"
         },
         {

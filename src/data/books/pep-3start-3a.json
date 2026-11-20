@@ -10,7 +10,7 @@
   "stage": "primary",
   "wordCount": 106,
   "sentenceCount": 48,
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-20",
   "units": [
     {
       "no": 1,
@@ -2014,7 +2014,7 @@
       "id": "pep-3start-3a-u1-s05",
       "unit": 1,
       "cn": "我们可以一起分享。",
-      "en": "We can share.",
+      "en": "We can share together.",
       "tokens": [
         {
           "en": "We",
@@ -2023,13 +2023,18 @@
         },
         {
           "en": "can",
-          "cn": "可以",
+          "cn": "能",
+          "pos": "助动词"
+        },
+        {
+          "en": "share",
+          "cn": "分享",
           "pos": "动词"
         },
         {
-          "en": "share.",
-          "cn": "分享",
-          "pos": "动词"
+          "en": "together.",
+          "cn": "一起",
+          "pos": "副词"
         }
       ]
     },
@@ -2510,11 +2515,11 @@
       "id": "pep-3start-3a-u3-s06",
       "unit": 3,
       "cn": "老虎跑得很快。",
-      "en": "The tiger is fast.",
+      "en": "The tiger runs fast.",
       "tokens": [
         {
           "en": "The",
-          "cn": "这个",
+          "cn": "那",
           "pos": "冠词"
         },
         {
@@ -2523,14 +2528,14 @@
           "pos": "名词"
         },
         {
-          "en": "is",
-          "cn": "是",
+          "en": "runs",
+          "cn": "跑",
           "pos": "动词"
         },
         {
           "en": "fast.",
-          "cn": "快的",
-          "pos": "形容词"
+          "cn": "快",
+          "pos": "副词"
         }
       ]
     },
@@ -2678,36 +2683,31 @@
       "id": "pep-3start-3a-u4-s04",
       "unit": 4,
       "cn": "苹果长在树上。",
-      "en": "The apple is on the tree.",
+      "en": "Apples grow on the tree.",
       "tokens": [
         {
-          "en": "The",
-          "cn": "这个",
-          "pos": "冠词"
-        },
-        {
-          "en": "apple",
+          "en": "Apples",
           "cn": "苹果",
           "pos": "名词"
         },
         {
-          "en": "is",
-          "cn": "是",
+          "en": "grow",
+          "cn": "生长",
           "pos": "动词"
         },
         {
           "en": "on",
-          "cn": "在…上",
+          "cn": "在",
           "pos": "介词"
         },
         {
           "en": "the",
-          "cn": "这棵",
+          "cn": "那",
           "pos": "冠词"
         },
         {
           "en": "tree.",
-          "cn": "树",
+          "cn": "树上",
           "pos": "名词"
         }
       ]
@@ -3163,7 +3163,7 @@
         {
           "en": "o'clock.",
           "cn": "点钟",
-          "pos": "名词"
+          "pos": "副词"
         }
       ]
     },

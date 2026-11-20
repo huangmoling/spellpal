@@ -10,7 +10,7 @@
   "stage": "primary",
   "wordCount": 95,
   "sentenceCount": 18,
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-20",
   "units": [
     {
       "no": 1,
@@ -1823,7 +1823,7 @@
         {
           "en": "plastic.",
           "cn": "塑料",
-          "pos": "名词"
+          "pos": "形容词"
         }
       ]
     },
@@ -1831,22 +1831,32 @@
       "id": "fltrp-5a-u2-s02",
       "unit": 2,
       "cn": "这个袋子是纸做的。",
-      "en": "This bag is paper.",
+      "en": "This bag is made of paper.",
       "tokens": [
         {
           "en": "This",
-          "cn": "这",
-          "pos": "代词"
+          "cn": "这个",
+          "pos": "限定词"
         },
         {
           "en": "bag",
-          "cn": "包",
+          "cn": "袋子",
           "pos": "名词"
         },
         {
           "en": "is",
           "cn": "是",
+          "pos": "系动词"
+        },
+        {
+          "en": "made",
+          "cn": "做的",
           "pos": "动词"
+        },
+        {
+          "en": "of",
+          "cn": "由",
+          "pos": "介词"
         },
         {
           "en": "paper.",
@@ -1869,7 +1879,7 @@
         {
           "en": "should",
           "cn": "应该",
-          "pos": "动词"
+          "pos": "助动词"
         },
         {
           "en": "protect",
@@ -1940,7 +1950,7 @@
         {
           "en": "share",
           "cn": "分享",
-          "pos": "名词"
+          "pos": "动词"
         },
         {
           "en": "and",
@@ -1968,22 +1978,17 @@
       "id": "fltrp-5a-u3-s03",
       "unit": 3,
       "cn": "你有什么问题？",
-      "en": "What is your problem?",
+      "en": "What's the problem?",
       "tokens": [
         {
-          "en": "What",
+          "en": "What's",
           "cn": "什么",
-          "pos": "代词"
+          "pos": "疑问词"
         },
         {
-          "en": "is",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "your",
-          "cn": "你的",
-          "pos": "代词"
+          "en": "the",
+          "cn": "那个",
+          "pos": "冠词"
         },
         {
           "en": "problem?",
@@ -2049,7 +2054,7 @@
         {
           "en": "sad",
           "cn": "悲哀的",
-          "pos": "名词"
+          "pos": "形容词"
         },
         {
           "en": "if",
@@ -2064,7 +2069,7 @@
         {
           "en": "fail.",
           "cn": "失败",
-          "pos": "名词"
+          "pos": "动词"
         }
       ]
     },
@@ -2216,7 +2221,7 @@
         {
           "en": "travel",
           "cn": "旅行",
-          "pos": "名词"
+          "pos": "动词"
         },
         {
           "en": "to",
@@ -2310,7 +2315,7 @@
       "id": "fltrp-5a-u6-s03",
       "unit": 6,
       "cn": "我们聚会吃饺子。",
-      "en": "We have a party and eat dumplings.",
+      "en": "We get together and eat dumplings.",
       "tokens": [
         {
           "en": "We",
@@ -2318,19 +2323,14 @@
           "pos": "代词"
         },
         {
-          "en": "have",
-          "cn": "有",
+          "en": "get",
+          "cn": "聚",
           "pos": "动词"
         },
         {
-          "en": "a",
-          "cn": "一本",
-          "pos": "冠词"
-        },
-        {
-          "en": "party",
-          "cn": "联欢会",
-          "pos": "名词"
+          "en": "together",
+          "cn": "一起",
+          "pos": "副词"
         },
         {
           "en": "and",

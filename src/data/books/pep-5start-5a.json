@@ -10,7 +10,7 @@
   "stage": "primary",
   "wordCount": 119,
   "sentenceCount": 36,
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-20",
   "units": [
     {
       "no": 1,
@@ -2671,7 +2671,7 @@
         {
           "en": "should",
           "cn": "应该",
-          "pos": "动词"
+          "pos": "助动词"
         },
         {
           "en": "exercise",
@@ -2732,7 +2732,7 @@
       "id": "pep-5start-5a-u4-s03",
       "unit": 4,
       "cn": "你需要好好休息。",
-      "en": "You should get enough rest.",
+      "en": "You need a good rest.",
       "tokens": [
         {
           "en": "You",
@@ -2740,18 +2740,18 @@
           "pos": "代词"
         },
         {
-          "en": "should",
-          "cn": "应该",
+          "en": "need",
+          "cn": "需要",
           "pos": "动词"
         },
         {
-          "en": "get",
-          "cn": "得到",
-          "pos": "动词"
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
         },
         {
-          "en": "enough",
-          "cn": "足够的",
+          "en": "good",
+          "cn": "好的",
           "pos": "形容词"
         },
         {
@@ -2836,7 +2836,7 @@
       "id": "pep-5start-5a-u4-s06",
       "unit": 4,
       "cn": "放下手机，早点休息。",
-      "en": "Put down the phone and rest.",
+      "en": "Put down the phone and rest early.",
       "tokens": [
         {
           "en": "Put",
@@ -2864,9 +2864,14 @@
           "pos": "连词"
         },
         {
-          "en": "rest.",
+          "en": "rest",
           "cn": "休息",
           "pos": "动词"
+        },
+        {
+          "en": "early.",
+          "cn": "早",
+          "pos": "副词"
         }
       ]
     },
@@ -2925,7 +2930,7 @@
       "id": "pep-5start-5a-u5-s03",
       "unit": 5,
       "cn": "我们吃了牛肉和饺子。",
-      "en": "We have beef and dumplings.",
+      "en": "We had beef and dumplings.",
       "tokens": [
         {
           "en": "We",
@@ -2933,8 +2938,8 @@
           "pos": "代词"
         },
         {
-          "en": "have",
-          "cn": "吃",
+          "en": "had",
+          "cn": "吃了",
           "pos": "动词"
         },
         {

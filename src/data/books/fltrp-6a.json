@@ -10,7 +10,7 @@
   "stage": "primary",
   "wordCount": 139,
   "sentenceCount": 18,
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-20",
   "units": [
     {
       "no": 1,
@@ -2524,7 +2524,7 @@
         {
           "en": "share",
           "cn": "分享",
-          "pos": "名词"
+          "pos": "动词"
         },
         {
           "en": "our",
@@ -2605,7 +2605,7 @@
       "id": "fltrp-6a-u2-s02",
       "unit": 2,
       "cn": "我认为这个故事很有趣。",
-      "en": "I think this story is very fun.",
+      "en": "I think this story is very interesting.",
       "tokens": [
         {
           "en": "I",
@@ -2619,8 +2619,8 @@
         },
         {
           "en": "this",
-          "cn": "这",
-          "pos": "代词"
+          "cn": "这个",
+          "pos": "限定词"
         },
         {
           "en": "story",
@@ -2630,7 +2630,7 @@
         {
           "en": "is",
           "cn": "是",
-          "pos": "动词"
+          "pos": "系动词"
         },
         {
           "en": "very",
@@ -2638,9 +2638,9 @@
           "pos": "副词"
         },
         {
-          "en": "fun.",
-          "cn": "乐趣",
-          "pos": "名词"
+          "en": "interesting.",
+          "cn": "有趣的",
+          "pos": "形容词"
         }
       ]
     },
@@ -2668,7 +2668,7 @@
         {
           "en": "sweet.",
           "cn": "甜的",
-          "pos": "名词"
+          "pos": "形容词"
         }
       ]
     },
@@ -2739,7 +2739,7 @@
         {
           "en": "beautiful.",
           "cn": "美丽的",
-          "pos": "名词"
+          "pos": "形容词"
         }
       ]
     },
@@ -2747,22 +2747,17 @@
       "id": "fltrp-6a-u3-s03",
       "unit": 3,
       "cn": "我们去湖边旅行吧。",
-      "en": "Let us travel to the lake.",
+      "en": "Let's travel to the lake.",
       "tokens": [
         {
-          "en": "Let",
+          "en": "Let's",
           "cn": "让",
           "pos": "动词"
         },
         {
-          "en": "us",
-          "cn": "我们",
-          "pos": "代词"
-        },
-        {
           "en": "travel",
           "cn": "旅行",
-          "pos": "名词"
+          "pos": "动词"
         },
         {
           "en": "to",
@@ -2771,12 +2766,12 @@
         },
         {
           "en": "the",
-          "cn": "那位",
+          "cn": "那个",
           "pos": "冠词"
         },
         {
           "en": "lake.",
-          "cn": "湖",
+          "cn": "湖边",
           "pos": "名词"
         }
       ]
@@ -2818,7 +2813,7 @@
       "id": "fltrp-6a-u4-s02",
       "unit": 4,
       "cn": "我们用纸和布做了一个风筝。",
-      "en": "We make a kite with paper and cloth.",
+      "en": "We made a kite with paper and cloth.",
       "tokens": [
         {
           "en": "We",
@@ -2826,13 +2821,13 @@
           "pos": "代词"
         },
         {
-          "en": "make",
+          "en": "made",
           "cn": "做",
           "pos": "动词"
         },
         {
           "en": "a",
-          "cn": "一本",
+          "cn": "一个",
           "pos": "冠词"
         },
         {
@@ -2942,7 +2937,7 @@
       "id": "fltrp-6a-u5-s02",
       "unit": 5,
       "cn": "你应该多喝水，好好休息。",
-      "en": "You should drink more water and sleep well.",
+      "en": "You should drink more water and have a good rest.",
       "tokens": [
         {
           "en": "You",
@@ -2952,17 +2947,17 @@
         {
           "en": "should",
           "cn": "应该",
-          "pos": "动词"
+          "pos": "助动词"
         },
         {
           "en": "drink",
           "cn": "喝",
-          "pos": "名词"
+          "pos": "动词"
         },
         {
           "en": "more",
           "cn": "更多的",
-          "pos": "形容词"
+          "pos": "副词"
         },
         {
           "en": "water",
@@ -2975,14 +2970,24 @@
           "pos": "连词"
         },
         {
-          "en": "sleep",
-          "cn": "睡觉",
-          "pos": "名词"
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
         },
         {
-          "en": "well.",
-          "cn": "好",
-          "pos": "副词"
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "rest.",
+          "cn": "休息",
+          "pos": "名词"
         }
       ]
     },
@@ -3058,7 +3063,7 @@
         {
           "en": "travel",
           "cn": "旅行",
-          "pos": "名词"
+          "pos": "动词"
         },
         {
           "en": "to",
@@ -3101,7 +3106,7 @@
         {
           "en": "beautiful",
           "cn": "美丽的",
-          "pos": "名词"
+          "pos": "形容词"
         },
         {
           "en": "and",
@@ -3126,7 +3131,7 @@
         {
           "en": "lucky.",
           "cn": "幸运的",
-          "pos": "名词"
+          "pos": "形容词"
         }
       ]
     },
@@ -3139,7 +3144,7 @@
         {
           "en": "Different",
           "cn": "不同的",
-          "pos": "名词"
+          "pos": "形容词"
         },
         {
           "en": "countries",
@@ -3154,7 +3159,7 @@
         {
           "en": "different",
           "cn": "不同的",
-          "pos": "名词"
+          "pos": "形容词"
         },
         {
           "en": "cultures.",
