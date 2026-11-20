@@ -10,6 +10,8 @@ export interface WindowApi {
   closeConfirmed: () => void
   /** 少儿守护：开启后窗口全屏，并屏蔽刷新/开发者工具快捷键 */
   setGuardMode?: (on: boolean) => void
+  /** 读一段离线语音 mp3（按 hash），越权或缺失返回 null */
+  readVoice?: (hash: string) => Promise<Uint8Array | null>
 }
 
 declare global {

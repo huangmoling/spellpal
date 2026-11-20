@@ -9,6 +9,7 @@ import Fireworks from '@/components/Fireworks'
 import { formatDuration, inputChars, isPunct } from '@/core/typing'
 import { playError, playKey, playSuccess } from '@/utils/sound'
 import { speak, warmupSpeech } from '@/utils/speech'
+import { preloadClip } from '@/utils/voice'
 import { markMastered } from '@/utils/srs'
 
 export default function Practice({ onOpenSettings }: { onOpenSettings: () => void }) {
@@ -88,6 +89,10 @@ export default function Practice({ onOpenSettings }: { onOpenSettings: () => voi
     setReveal(false)
     if (!sentence) return
     warmupSpeech()
+    /* 提前把当前和下一句的音频取好，点「再听一遍」时零等待 */
+    preloadClip(sentence.en)
+    const next = items[index + 1]
+    if (next) preloadClip(next.en)
     const t = window.setTimeout(() => speak(sentence.en, { rate: 0.8 }), 240)
     return () => window.clearTimeout(t)
     // eslint-disable-next-line react-hooks/exhaustive-deps

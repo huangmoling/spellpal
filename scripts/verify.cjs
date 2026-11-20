@@ -4,8 +4,9 @@
  *
  * 练习顺序是「一个单词、一个句子」交替，所以队列长度 = 本单元词数 + 句数。
  */
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('node:path')
+const { registerVoiceIpc } = require('../electron/voice-io.cjs')
 
 app.disableHardwareAcceleration()
 
@@ -15,6 +16,9 @@ const check = (name, ok, detail = '') => {
 }
 
 app.on('ready', async () => {
+  /* 自测脚本自己起主进程，离线语音包的读取通道要照样注册，否则渲染进程取不到音频 */
+  registerVoiceIpc(ipcMain, path.join(__dirname, '..', 'dist'))
+
   const win = new BrowserWindow({
     width: 1200,
     height: 800,
@@ -465,6 +469,36 @@ app.on('ready', async () => {
     return { on: s.guardOn, locked: s.guardLocked, lock: !!document.querySelector('[data-guard-lock]') };
   })()`)
   check('关闭守护后解除锁定', g3.on === false && g3.locked === false && g3.lock === false, JSON.stringify(g3))
+
+  /* ---------- 离线语音包 ---------- */
+  const total0 = await run(`window.__spellpal.voice.clipTotal()`)
+  check('语音包索引已加载', total0 >= 1400, `clipTotal=${total0}`)
+
+  const hasHello = await run(`window.__spellpal.voice.hasClip('hello')`)
+  check('常用词能在语音包里命中', hasHello === true, `hasHello=${hasHello}`)
+
+  const miss = await run(`window.__spellpal.voice.hasClip('zzz-not-a-real-word')`)
+  check('未收录文本走系统语音兜底', miss === false, `hasClip=${miss}`)
+
+  const played = await run(`window.__spellpal.voice.play('hello')`)
+  await wait(500)
+  const cached = await run(`window.__spellpal.voice.cachedClipCount()`)
+  check('音频能解码播放（不是空文件）', played === true && cached >= 1, `played=${played} cached=${cached}`)
+
+  /* 索引里每一条都要有对应的 mp3，别出现「有索引没文件」 */
+  const fs = require('node:fs')
+  const voiceDir = path.join(__dirname, '..', 'public', 'voice')
+  const index = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'src', 'data', 'voice-index.json'), 'utf8'))
+  const missing = Object.entries(index).filter(
+    ([, hash]) => !fs.existsSync(path.join(voiceDir, `${hash}.mp3`)),
+  )
+  check('索引与音频文件一一对应', missing.length === 0, `缺 ${missing.length} 个：${missing.slice(0, 3).map((m) => m[0]).join(',')}`)
+
+  const bytes = fs
+    .readdirSync(voiceDir)
+    .filter((n) => n.endsWith('.mp3'))
+    .reduce((sum, n) => sum + fs.statSync(path.join(voiceDir, n)).size, 0)
+  check('语音包体积在预期内', bytes > 8 * 1024 * 1024 && bytes < 40 * 1024 * 1024, `${(bytes / 1024 / 1024).toFixed(1)} MB`)
 
   console.log('\n================ 功能自测 ================')
   let pass = 0

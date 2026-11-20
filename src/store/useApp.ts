@@ -4,6 +4,7 @@ import { assignSentences } from '@/core/pairing'
 import { inputChars, judgeToken, shuffle } from '@/core/typing'
 import { setSfxVolume } from '@/utils/sound'
 import { setSpeechVolume } from '@/utils/speech'
+import { cachedClipCount, clipTotal, hasClip, playClip } from '@/utils/voice'
 import { hashPin, isPin, todayStr } from '@/core/pin'
 
 type Phase = 'idle' | 'typing' | 'done'
@@ -251,14 +252,15 @@ const readVolume = () => {
   return Math.round(n)
 }
 /**
- * 把音量同时推给音效总线和语音合成。
- * 语音合成的 volume 上限就是 1.0，没法再放大，所以给一条下凹曲线：
- * 滑块拉到 60% 就已经接近满响度，剩下的行程用来微调小音量。
+ * 把音量同时推给音效总线和朗读。
+ * 朗读现在播的是自带的离线音频，走 Web Audio 增益，可以放大到原音 2.2 倍，
+ * 所以这里直接把 0–1 传下去，曲线交给各个通道自己按需处理：
+ * 音效是线性增益 + 软限幅，朗读是 GAIN_MAX × pow(x, 1.5)。
  */
 export const applyVolume = (v: number) => {
   const x = Math.min(1, Math.max(0, v / 100))
   setSfxVolume(x)
-  setSpeechVolume(Math.min(1, Math.pow(x, 0.45)))
+  setSpeechVolume(x)
 }
 
 /** 音效序号 0-7 */
@@ -720,5 +722,7 @@ if (typeof window !== 'undefined') {
   ;(window as unknown as Record<string, unknown>).__spellpal = {
     getState: useApp.getState,
     setState: useApp.setState,
+    /* 离线语音包：自测里断言索引覆盖与解码缓存 */
+    voice: { hasClip, clipTotal, cachedClipCount, play: playClip },
   }
 }

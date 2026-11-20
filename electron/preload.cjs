@@ -15,4 +15,6 @@ contextBridge.exposeInMainWorld('spellpal', {
   closeConfirmed: () => ipcRenderer.send('win:close-confirmed'),
   /* 少儿守护：true 时全屏 + 锁掉刷新/开发者工具快捷键 */
   setGuardMode: (on) => ipcRenderer.send('app:guard-mode', !!on),
+  /* 离线语音包：按 hash 取一段 mp3，返回 Buffer（渲染进程当 Uint8Array 用） */
+  readVoice: (hash) => ipcRenderer.invoke('voice:read', hash),
 })

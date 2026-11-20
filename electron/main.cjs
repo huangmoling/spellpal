@@ -1,6 +1,7 @@
 const { app, BrowserWindow, ipcMain, shell } = require('electron')
 const path = require('node:path')
 const fs = require('node:fs')
+const { registerVoiceIpc } = require('./voice-io.cjs')
 
 const isDev = process.env.NODE_ENV === 'development'
 /** 截图模式：SPELLPAL_SHOT=<png 路径> 时，加载页面后截图退出（开发/CI 用） */
@@ -462,6 +463,10 @@ ipcMain.on('app:guard-mode', (e, on) => {
 ipcMain.on('app:theme', (e, t) => {
   BrowserWindow.fromWebContents(e.sender)?.setBackgroundColor(t === 'light' ? '#F5F7FB' : '#0B0E13')
 })
+
+/* 离线语音包：打包后页面在 file:// 下，fetch 读不到本地文件，
+   由主进程读 mp3 交给渲染进程（逻辑与自测脚本共用 voice-io.cjs） */
+registerVoiceIpc(ipcMain, path.join(__dirname, '..', 'dist'))
 
 /* 只放行 GitHub 域名的外链，避免渲染进程被注入后打开任意外链。
    这里故意不写死仓库路径——仓库地址只保存在渲染进程那份编码串里。 */
