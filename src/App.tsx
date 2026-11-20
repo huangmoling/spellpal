@@ -1,14 +1,18 @@
 import { useEffect, useState } from 'react'
-import { LogOut, X } from 'lucide-react'
+import { LogOut, ShieldCheck, X } from 'lucide-react'
 import { useApp } from '@/store/useApp'
 import BookShelf from '@/pages/BookShelf'
 import Practice from '@/pages/Practice'
 import Result from '@/pages/Result'
 import WindowControls from '@/components/WindowControls'
 import SettingsSheet from '@/components/SettingsSheet'
+import GuardLock from '@/components/GuardLock'
+import { PinAuthDialog } from '@/components/GuardDialogs'
 import { BOOKS, DEFAULT_BOOK_ID } from '@/data/books'
 
 const BOOK_KEY = 'spellpal:book'
+/** 学习时长累计的节拍：10 秒记一次，足够准，也不会把 localStorage 写爆 */
+const GUARD_TICK_MS = 10_000
 
 /* 开发期调试接口：自动化截图脚本用它直接指定教材与单元 */
 if (typeof window !== 'undefined') {
@@ -26,6 +30,9 @@ export default function App() {
       return DEFAULT_BOOK_ID
     }
   })
+  const guardOn = useApp((s) => s.guardOn)
+  const guardLocked = useApp((s) => s.guardLocked)
+  const addGuardUsage = useApp((s) => s.addGuardUsage)
   const [quitOpen, setQuitOpen] = useState(false)
 
   useEffect(() => {
@@ -35,6 +42,22 @@ export default function App() {
       /* ignore */
     }
   }, [bookId])
+
+  /* 守护开关同步给主进程：决定启动/退出全屏，以及要不要拦 F11、Ctrl+R */
+  useEffect(() => {
+    window.spellpal?.setGuardMode?.(guardOn)
+  }, [guardOn])
+
+  /* 学时长计时：窗口最小化/切走时暂停，免得孩子一开软件就被计时 */
+  useEffect(() => {
+    if (!guardOn) return
+    const tick = () => {
+      if (document.visibilityState !== 'visible') return
+      addGuardUsage(GUARD_TICK_MS / 1000)
+    }
+    const id = window.setInterval(tick, GUARD_TICK_MS)
+    return () => window.clearInterval(id)
+  }, [guardOn, addGuardUsage])
 
   /* 关闭按钮、Alt+F4、任务栏关闭：主进程拦下来先问一句 */
   useEffect(() => {
@@ -58,6 +81,8 @@ export default function App() {
 
       {settingsOpen && <SettingsSheet onClose={() => setSettingsOpen(false)} />}
 
+      {guardOn && guardLocked && <GuardLock />}
+
       {quitOpen && <QuitConfirm onCancel={() => setQuitOpen(false)} />}
 
       {/* 放最后渲染：拖拽区按 DOM 顺序登记，晚上一步的 no-drag 才压得住顶栏 */}
@@ -75,9 +100,14 @@ export default function App() {
  */
 function QuitConfirm({ onCancel }: { onCancel: () => void }) {
   const phase = useApp((s) => s.phase)
+  const guardOn = useApp((s) => s.guardOn)
   const inPractice = phase === 'typing'
+  /** 开了少儿守护：点「退出软件」先过家长密码 */
+  const [needPin, setNeedPin] = useState(false)
 
   useEffect(() => {
+    /* 密码框自己有按键处理，这里让位 */
+    if (needPin) return
     const onKey = (e: KeyboardEvent) => {
       e.stopImmediatePropagation()
       e.preventDefault()
@@ -85,9 +115,15 @@ function QuitConfirm({ onCancel }: { onCancel: () => void }) {
     }
     window.addEventListener('keydown', onKey, true)
     return () => window.removeEventListener('keydown', onKey, true)
-  }, [onCancel])
+  }, [onCancel, needPin])
 
-  const quit = () => window.spellpal?.closeConfirmed()
+  const quit = () => {
+    if (guardOn) {
+      setNeedPin(true)
+      return
+    }
+    window.spellpal?.closeConfirmed()
+  }
 
   return (
     <div
@@ -114,6 +150,8 @@ function QuitConfirm({ onCancel }: { onCancel: () => void }) {
           </div>
           <h2 className="mt-4 text-[19px] font-bold">要关掉小拼手吗？</h2>
           <p className="mt-2 text-[13px] leading-relaxed text-muted/75">
+            {guardOn && '少儿守护开着，退出前要输入家长密码。'}
+            {guardOn && <br />}
             {inPractice
               ? '这一轮还没练完，现在退出不会记录这次的进度，下次可以接着从这一单元练。'
               : '拼好的单词和错题本都已经存好了，关掉不会丢，下次打开还在。'}
@@ -136,6 +174,17 @@ function QuitConfirm({ onCancel }: { onCancel: () => void }) {
           </div>
         </div>
       </div>
+
+      {needPin && (
+        <PinAuthDialog
+          tone="err"
+          title="退出需要家长密码"
+          desc="少儿守护开着的时候，关闭软件要家长验证一次。"
+          confirmText="验证并退出"
+          onCancel={() => setNeedPin(false)}
+          onSuccess={() => window.spellpal?.closeConfirmed()}
+        />
+      )}
     </div>
   )
 }

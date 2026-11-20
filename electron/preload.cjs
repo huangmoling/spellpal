@@ -13,4 +13,6 @@ contextBridge.exposeInMainWorld('spellpal', {
     return () => ipcRenderer.removeListener('app:ask-close', h)
   },
   closeConfirmed: () => ipcRenderer.send('win:close-confirmed'),
+  /* 少儿守护：true 时全屏 + 锁掉刷新/开发者工具快捷键 */
+  setGuardMode: (on) => ipcRenderer.send('app:guard-mode', !!on),
 })

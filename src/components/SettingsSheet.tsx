@@ -3,20 +3,32 @@ import clsx from 'clsx'
 import {
   ArrowUpRight,
   Check,
+  Clock,
   CornerDownLeft,
   Heart,
   Keyboard,
+  Lock,
   Moon,
   Play,
   RotateCcw,
+  ShieldCheck,
   Sparkles,
   Sun,
   Volume1,
   Volume2,
   X,
 } from 'lucide-react'
-import { FONT_MAX, FONT_MIN, VOLUME_DEFAULT, useApp } from '@/store/useApp'
+import {
+  FONT_MAX,
+  FONT_MIN,
+  GUARD_MAX_MINUTES,
+  GUARD_MIN_MINUTES,
+  VOLUME_DEFAULT,
+  useApp,
+} from '@/store/useApp'
 import type { Theme } from '@/store/useApp'
+import { fmtDuration } from '@/core/pin'
+import { PinAuthDialog, PinSetupDialog } from '@/components/GuardDialogs'
 import { noticeLines, openRepo, repoUrl } from '@/core/notice'
 import { ERROR_SFX, KEY_SFX, SUCCESS_SFX, playError, playKey, playSuccess } from '@/utils/sound'
 
@@ -173,7 +185,19 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
   const fontScale = useApp((s) => s.fontScale)
   const setFontScale = useApp((s) => s.setFontScale)
 
-  const [tab, setTab] = useState<'general' | 'sound' | 'about'>('general')
+  const guardOn = useApp((s) => s.guardOn)
+  const guardMinutes = useApp((s) => s.guardMinutes)
+  const guardUsedSec = useApp((s) => s.guardUsedSec)
+  const guardBonusSec = useApp((s) => s.guardBonusSec)
+  const disableGuard = useApp((s) => s.disableGuard)
+  const setGuardMinutes = useApp((s) => s.setGuardMinutes)
+
+  const [tab, setTab] = useState<'general' | 'sound' | 'guard' | 'about'>('general')
+  /** 首次开启：设密码 + 定时长 */
+  const [setupOpen, setSetupOpen] = useState(false)
+  /** 家长已验密码：本次设置面板内才允许改时长、关守护 */
+  const [guardOk, setGuardOk] = useState(false)
+  const [auth, setAuth] = useState<null | 'disable' | 'edit'>(null)
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -206,6 +230,7 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
               [
                 ['general', '常规'],
                 ['sound', '声音'],
+                ['guard', '守护'],
                 ['about', '关于'],
               ] as const
             ).map(([k, label]) => (
@@ -231,10 +256,10 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
           </button>
         </header>
 
-        {tab === 'general' || tab === 'sound' ? (
+        {tab !== 'about' ? (
           <div className="min-h-0 flex-1 space-y-3 overflow-y-auto px-5 py-3.5">
             {/* 主题 */}
-            <section className={tab === 'sound' ? 'hidden' : undefined}>
+            <section className={tab !== 'general' ? 'hidden' : undefined}>
               <div className="mb-2 text-[11px] font-medium tracking-wide text-muted/55">外观</div>
               <div className="grid grid-cols-2 gap-2.5">
                 {themes.map((t) => {
@@ -286,7 +311,7 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
             </section>
 
             {/* 字号 */}
-            <section className={tab === 'sound' ? 'hidden' : undefined}>
+            <section className={tab !== 'general' ? 'hidden' : undefined}>
               <div className="mb-2 flex items-baseline justify-between">
                 <span className="text-[11px] font-medium tracking-wide text-muted/55">
                   练习页字号
@@ -323,7 +348,7 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
             </section>
 
             {/* 音量 */}
-            <section className={tab === 'general' ? 'hidden' : undefined}>
+            <section className={tab !== 'sound' ? 'hidden' : undefined}>
               <div className="mb-2 flex items-baseline justify-between">
                 <span className="text-[11px] font-medium tracking-wide text-muted/55">音量</span>
                 <span className="tabnum text-[11px] text-brand/90">
@@ -363,7 +388,7 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
             </section>
 
             {/* 练习辅助 */}
-            <section className={tab === 'sound' ? 'hidden' : undefined}>
+            <section className={tab !== 'general' ? 'hidden' : undefined}>
               <div className="mb-2 text-[11px] font-medium tracking-wide text-muted/55">
                 练习辅助
               </div>
@@ -393,8 +418,147 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
               </p>
             </section>
 
+            {/* 少儿守护 */}
+            <section className={tab !== 'guard' ? 'hidden' : undefined}>
+              <div className="mb-2 flex items-baseline justify-between">
+                <span className="text-[11px] font-medium tracking-wide text-muted/55">
+                  少儿守护
+                </span>
+                <span className="text-[10px] text-muted/40">家长密码 6 位数字</span>
+              </div>
+
+              <Row
+                icon={<ShieldCheck size={15} strokeWidth={1.9} />}
+                title={guardOn ? '少儿守护已开启' : '开启少儿守护'}
+                desc={
+                  guardOn
+                    ? '启动即全屏；关软件、关守护、加时都要密码'
+                    : '限定每天的学习时长，到点锁定屏幕'
+                }
+              >
+                <Switch
+                  on={guardOn}
+                  onChange={(v) => {
+                    if (v && !guardOn) {
+                      setSetupOpen(true)
+                      return
+                    }
+                    if (!v && guardOn) {
+                      if (guardOk) disableGuard()
+                      else setAuth('disable')
+                    }
+                  }}
+                  label="少儿守护"
+                />
+              </Row>
+
+              {guardOn && (
+                <>
+                  {/* 今日进度 */}
+                  <div className="mt-2 rounded-xl bg-veil/[0.03] px-3.5 py-2.5 ring-1 ring-veil/[0.06]">
+                    <div className="flex items-baseline justify-between">
+                      <span className="text-[12px] font-medium text-ink/85">
+                        今天已学 {fmtDuration(guardUsedSec)}
+                      </span>
+                      <span className="tabnum text-[11px] text-muted/55">
+                        额度 {fmtDuration(guardMinutes * 60 + guardBonusSec)}
+                      </span>
+                    </div>
+                    <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-veil/[0.08]">
+                      <div
+                        className="h-full rounded-full bg-brand transition-all"
+                        style={{
+                          width: `${Math.min(
+                            100,
+                            Math.round(
+                              (guardUsedSec / Math.max(1, guardMinutes * 60 + guardBonusSec)) * 100,
+                            ),
+                          )}%`,
+                        }}
+                      />
+                    </div>
+                    <p className="mt-1.5 text-[10.5px] text-muted/45">
+                      {guardBonusSec > 0 && `其中家长加时 ${fmtDuration(guardBonusSec)}；`}
+                      每天 0 点自动重新计时。
+                    </p>
+                  </div>
+
+                  {/* 每日时长：没验密码前锁着 */}
+                  <div className="mt-2">
+                    <div className="mb-1.5 flex items-baseline justify-between">
+                      <span className="flex items-center gap-1.5 text-[11px] text-muted/55">
+                        <Clock size={11} strokeWidth={2.2} />
+                        每天学习时长
+                      </span>
+                      {guardOk && (
+                        <span className="tabnum text-[11px] text-brand/90">{guardMinutes} 分钟</span>
+                      )}
+                    </div>
+
+                    {guardOk ? (
+                      <div className="rounded-xl bg-veil/[0.03] px-3.5 py-2.5 ring-1 ring-veil/[0.06]">
+                        <input
+                          type="range"
+                          min={GUARD_MIN_MINUTES}
+                          max={GUARD_MAX_MINUTES}
+                          step={5}
+                          value={guardMinutes}
+                          onChange={(e) => setGuardMinutes(Number(e.target.value))}
+                          className="h-1.5 w-full cursor-pointer appearance-none rounded-full bg-veil/[0.12] accent-[rgb(var(--brand))]"
+                        />
+                        <div className="mt-2 flex justify-between text-[10.5px] text-muted/45">
+                          <span>{GUARD_MIN_MINUTES} 分钟</span>
+                          <span>{GUARD_MAX_MINUTES} 分钟</span>
+                        </div>
+                      </div>
+                    ) : (
+                      <button
+                        onClick={() => setAuth('edit')}
+                        className="flex w-full items-center gap-2 rounded-xl bg-veil/[0.03] px-3.5 py-2.5 text-left ring-1 ring-veil/[0.06] transition hover:bg-brand/10 hover:ring-brand/35"
+                      >
+                        <Lock size={13} strokeWidth={2} className="shrink-0 text-muted/50" />
+                        <span className="text-[11.5px] text-muted/65">
+                          已设为 {guardMinutes} 分钟，点这里验证家长密码后修改
+                        </span>
+                      </button>
+                    )}
+                  </div>
+
+                  <p className="mt-2 px-1 text-[10px] leading-relaxed text-muted/40">
+                    时长到了会锁定整个界面，只有家长密码能再加 10 分钟。
+                    {guardOk && ' 本次已验证，关掉设置后自动上锁。'}
+                  </p>
+                </>
+              )}
+
+              {!guardOn && (
+                <>
+                  <div className="mt-2.5 space-y-2 rounded-xl bg-veil/[0.02] px-3.5 py-3 ring-1 ring-veil/[0.05]">
+                    {[
+                      ['全屏专注', '打开软件自动铺满屏幕，刷新和开发者工具也一并锁住'],
+                      ['到点锁屏', '学满约定时长后整屏锁定，只有家长密码能再加 10 分钟'],
+                      ['退出要密码', '关闭按钮、Alt+F4、任务栏关闭都会先要密码'],
+                    ].map(([t, d]) => (
+                      <div key={t} className="flex gap-2.5">
+                        <span className="mt-[6px] h-1.5 w-1.5 shrink-0 rounded-full bg-brand/70" />
+                        <p className="text-[11px] leading-relaxed text-muted/60">
+                          <span className="font-medium text-ink/80">{t}</span>
+                          <span className="mx-1.5 text-muted/30">·</span>
+                          {d}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                  <p className="mt-2 px-1 text-[10.5px] leading-relaxed text-muted/40">
+                    第一次开启要设一个 6 位数字密码并定好每天能学多久。密码只保存在本机，
+                    忘记后按「关于」页的说明清数据重设。
+                  </p>
+                </>
+              )}
+            </section>
+
             {/* 音效 */}
-            <section className={tab === 'general' ? 'hidden' : undefined}>
+            <section className={tab !== 'sound' ? 'hidden' : undefined}>
               <div className="mb-2 flex items-baseline justify-between">
                 <span className="text-[11px] font-medium tracking-wide text-muted/55">音效</span>
                 <span className="text-[10px] text-muted/40">各 8 种，点数字换音色</span>
@@ -464,10 +628,53 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
                 例句为本项目自编，不是课文原文；音频由系统语音合成，未使用出版社录音。
               </p>
               <p className="mt-1.5">本项目与人民教育出版社无任何关联，是非官方的个人学习工具。</p>
+              <p className="mt-1.5">
+                忘记家长密码：完全退出软件后，删除
+                <span className="mx-1 font-mono text-muted/60">%APPDATA%\SpellPal\Local Storage</span>
+                文件夹再启动，守护设置与练习记录会一起重置。
+              </p>
             </div>
           </div>
         )}
       </div>
+
+      {setupOpen && (
+        <PinSetupDialog
+          onCancel={() => setSetupOpen(false)}
+          onDone={() => {
+            setSetupOpen(false)
+            setGuardOk(true)
+          }}
+        />
+      )}
+
+      {auth === 'disable' && (
+        <PinAuthDialog
+          tone="err"
+          title="关闭少儿守护"
+          desc="关掉后不再全屏，退出软件也不再需要密码。确认是家长本人操作。"
+          confirmText="验证并关闭"
+          onCancel={() => setAuth(null)}
+          onSuccess={() => {
+            disableGuard()
+            setGuardOk(false)
+            setAuth(null)
+          }}
+        />
+      )}
+
+      {auth === 'edit' && (
+        <PinAuthDialog
+          title="家长验证"
+          desc="验证通过后可以调整每天的学习时长。"
+          confirmText="验证"
+          onCancel={() => setAuth(null)}
+          onSuccess={() => {
+            setGuardOk(true)
+            setAuth(null)
+          }}
+        />
+      )}
     </div>
   )
 }

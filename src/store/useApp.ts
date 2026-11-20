@@ -4,6 +4,7 @@ import { assignSentences } from '@/core/pairing'
 import { inputChars, judgeToken, shuffle } from '@/core/typing'
 import { setSfxVolume } from '@/utils/sound'
 import { setSpeechVolume } from '@/utils/speech'
+import { hashPin, isPin, todayStr } from '@/core/pin'
 
 type Phase = 'idle' | 'typing' | 'done'
 /** 会话类型：单元练习 / 错题复习 */
@@ -67,6 +68,34 @@ interface AppState {
   /** 设置面板是否打开——打开时要屏蔽练习页的全局键盘，否则 Esc 会连带退出练习 */
   settingsOpen: boolean
   setSettingsOpen: (v: boolean) => void
+
+  /* ---- 少儿守护 ---- */
+  /** 守护开关：开启后启动即全屏、关窗要密码、学满时长锁定 */
+  guardOn: boolean
+  /** 密码散列，不存明文 */
+  guardPinHash: string
+  /** 家长设定的每日学习时长（分钟） */
+  guardMinutes: number
+  /** 今天已学秒数 */
+  guardUsedSec: number
+  /** 今天家长临时加时秒数 */
+  guardBonusSec: number
+  /** 用量所属日期，跨天自动归零 */
+  guardDate: string
+  /** 今天的额度已经用完 */
+  guardLocked: boolean
+  /** 首次开启：设密码 + 定每日时长 */
+  enableGuard: (pin: string, minutes: number) => boolean
+  /** 关闭守护。调用方必须先验密码 */
+  disableGuard: () => void
+  /** 校验 6 位密码 */
+  verifyPin: (pin: string) => boolean
+  /** 改每日时长。调用方必须先验密码 */
+  setGuardMinutes: (m: number) => void
+  /** 累计学习时长（秒），到点后自动锁定 */
+  addGuardUsage: (sec: number) => void
+  /** 家长临时加时（分钟） */
+  extendGuard: (min: number) => void
 
   startUnit: (book: Book, unitNo: number, order?: 'seq' | 'random') => void
   startReview: (book: Book, sentenceIds: string[]) => void
@@ -246,6 +275,61 @@ export const applyTheme = (t: Theme) => {
   ;(window as unknown as { spellpal?: { setTheme?: (v: string) => void } }).spellpal?.setTheme?.(t)
 }
 
+/* ---------- 少儿守护 ---------- */
+
+export const GUARD_MIN_MINUTES = 10
+export const GUARD_MAX_MINUTES = 180
+export const GUARD_DEFAULT_MINUTES = 30
+/** 家长输密码后一次加的量 */
+export const GUARD_EXTEND_MINUTES = 10
+
+const GUARD_ON_KEY = 'spellpal:guard-on'
+const GUARD_PIN_KEY = 'spellpal:guard-pin'
+const GUARD_MIN_KEY = 'spellpal:guard-minutes'
+const GUARD_USE_KEY = 'spellpal:guard-usage'
+
+const clampMinutes = (n: number) =>
+  Math.min(GUARD_MAX_MINUTES, Math.max(GUARD_MIN_MINUTES, Math.round(n / 5) * 5))
+
+/** 今日用量记录，日期不是今天就直接归零 */
+const readUsage = () => {
+  const fresh = { date: todayStr(), sec: 0, bonus: 0 }
+  try {
+    const raw = JSON.parse(localStorage.getItem(GUARD_USE_KEY) || 'null') as
+      | { date?: string; sec?: number; bonus?: number }
+      | null
+    if (!raw || raw.date !== fresh.date) return fresh
+    return {
+      date: fresh.date,
+      sec: Math.max(0, Number(raw.sec) || 0),
+      bonus: Math.max(0, Number(raw.bonus) || 0),
+    }
+  } catch {
+    return fresh
+  }
+}
+
+const persistUsage = (u: { date: string; sec: number; bonus: number }) => {
+  try {
+    localStorage.setItem(GUARD_USE_KEY, JSON.stringify(u))
+  } catch {
+    /* ignore */
+  }
+}
+
+const limitOf = (minutes: number, bonus: number) => minutes * 60 + bonus
+const isLocked = (on: boolean, minutes: number, u: { sec: number; bonus: number }) =>
+  on && u.sec >= limitOf(minutes, u.bonus)
+
+const readGuardOn = () => localStorage.getItem(GUARD_ON_KEY) === '1'
+const readGuardPin = () => localStorage.getItem(GUARD_PIN_KEY) || ''
+const readGuardMinutes = () => {
+  const n = Number(localStorage.getItem(GUARD_MIN_KEY))
+  return Number.isFinite(n) && n > 0 ? clampMinutes(n) : GUARD_DEFAULT_MINUTES
+}
+
+const bootUsage = readUsage()
+
 export const useApp = create<AppState>((set, get) => ({
   book: null,
   unitNo: 1,
@@ -287,6 +371,104 @@ export const useApp = create<AppState>((set, get) => ({
 
   settingsOpen: false,
   setSettingsOpen: (v) => set({ settingsOpen: v }),
+
+  /* ---- 少儿守护 ---- */
+  guardOn: readGuardOn(),
+  guardPinHash: readGuardPin(),
+  guardMinutes: readGuardMinutes(),
+  guardUsedSec: bootUsage.sec,
+  guardBonusSec: bootUsage.bonus,
+  guardDate: bootUsage.date,
+  guardLocked: isLocked(readGuardOn(), readGuardMinutes(), bootUsage),
+
+  enableGuard: (pin, minutes) => {
+    if (!isPin(pin)) return false
+    const m = clampMinutes(minutes)
+    const usage = { date: todayStr(), sec: 0, bonus: 0 }
+    const h = hashPin(pin)
+    try {
+      localStorage.setItem(GUARD_ON_KEY, '1')
+      localStorage.setItem(GUARD_PIN_KEY, h)
+      localStorage.setItem(GUARD_MIN_KEY, String(m))
+    } catch {
+      /* ignore */
+    }
+    persistUsage(usage)
+    set({
+      guardOn: true,
+      guardPinHash: h,
+      guardMinutes: m,
+      guardUsedSec: 0,
+      guardBonusSec: 0,
+      guardDate: usage.date,
+      guardLocked: false,
+    })
+    return true
+  },
+
+  disableGuard: () => {
+    try {
+      localStorage.setItem(GUARD_ON_KEY, '0')
+    } catch {
+      /* ignore */
+    }
+    /* 关掉守护时清掉今日用量，下次重新开启从零算 */
+    persistUsage({ date: todayStr(), sec: 0, bonus: 0 })
+    set({ guardOn: false, guardLocked: false, guardUsedSec: 0, guardBonusSec: 0, guardDate: todayStr() })
+  },
+
+  verifyPin: (pin) => {
+    const stored = get().guardPinHash
+    if (!stored || !isPin(pin)) return false
+    return hashPin(pin) === stored
+  },
+
+  setGuardMinutes: (m) => {
+    const next = clampMinutes(m)
+    try {
+      localStorage.setItem(GUARD_MIN_KEY, String(next))
+    } catch {
+      /* ignore */
+    }
+    const s = get()
+    const usage = { date: s.guardDate, sec: s.guardUsedSec, bonus: s.guardBonusSec }
+    set({ guardMinutes: next, guardLocked: isLocked(s.guardOn, next, usage) })
+  },
+
+  addGuardUsage: (sec) => {
+    const s = get()
+    if (!s.guardOn || s.guardLocked || sec <= 0) return
+    /* 跨天：昨天的秒数不带过来 */
+    const sameDay = s.guardDate === todayStr()
+    const usage = {
+      date: todayStr(),
+      sec: (sameDay ? s.guardUsedSec : 0) + sec,
+      bonus: sameDay ? s.guardBonusSec : 0,
+    }
+    persistUsage(usage)
+    set({
+      guardUsedSec: usage.sec,
+      guardBonusSec: usage.bonus,
+      guardDate: usage.date,
+      guardLocked: isLocked(true, s.guardMinutes, usage),
+    })
+  },
+
+  extendGuard: (min) => {
+    const s = get()
+    const usage = {
+      date: s.guardDate === todayStr() ? s.guardDate : todayStr(),
+      sec: s.guardDate === todayStr() ? s.guardUsedSec : 0,
+      bonus: (s.guardDate === todayStr() ? s.guardBonusSec : 0) + Math.max(0, min) * 60,
+    }
+    persistUsage(usage)
+    set({
+      guardUsedSec: usage.sec,
+      guardBonusSec: usage.bonus,
+      guardDate: usage.date,
+      guardLocked: isLocked(s.guardOn, s.guardMinutes, usage),
+    })
+  },
 
   enterSkip: readFlag(ENTER_KEY, false),
   setEnterSkip: (v) => {

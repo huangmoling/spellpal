@@ -1,6 +1,6 @@
 {
   "name": "spellpal",
-  "version": "0.9.3",
+  "version": "0.10.0",
   "private": true,
   "type": "module",
   "description": "小拼手 SpellPal — 给小学生的英语单词速记速拼桌面软件",
@@ -14,7 +14,8 @@
     "electron:dev": "concurrently -k \"vite\" \"wait-on tcp:5173 && cross-env NODE_ENV=development electron .\"",
     "electron:build": "npm run build && electron-builder --win --x64",
     "electron:portable": "npm run build && electron-builder --win portable --x64",
-    "books": "node scripts/build-books.mjs"
+    "books": "node scripts/build-books.mjs",
+    "dist": "npm run build && electron-builder --win --x64 && node scripts/patch-exe.cjs && electron-builder --prepackaged release/win-unpacked --win nsis portable"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -33,6 +34,7 @@
     "electron": "^33.3.1",
     "electron-builder": "^25.1.8",
     "postcss": "^8.4.49",
+    "resedit": "^3.1.1",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.2",
     "vite": "^6.0.7",

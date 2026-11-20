@@ -20,6 +20,26 @@ const log = (m) => {
 /** @type {BrowserWindow | null} */
 let mainWindow = null
 
+/* ---------- 少儿守护 ----------
+   状态落一份在 userData 里，主进程启动时自己就能读：
+   不等渲染进程加载完再全屏，否则会先闪一下窗口边框。 */
+let guardActive = false
+const guardFile = () => path.join(app.getPath('userData'), 'guard.json')
+const readGuardFlag = () => {
+  try {
+    return JSON.parse(fs.readFileSync(guardFile(), 'utf8')).on === true
+  } catch {
+    return false
+  }
+}
+const writeGuardFlag = (on) => {
+  try {
+    fs.writeFileSync(guardFile(), JSON.stringify({ on: !!on }))
+  } catch {
+    /* ignore */
+  }
+}
+
 function createWindow() {
   log('createWindow offscreen=' + offscreen)
   mainWindow = new BrowserWindow({
@@ -29,6 +49,7 @@ function createWindow() {
     minHeight: 620,
     backgroundColor: '#0B0E13',
     frame: false,
+    fullscreen: guardActive,
     show: !shotPath || showWin,
     autoHideMenuBar: true,
     title: '小拼手 SpellPal',
@@ -41,8 +62,22 @@ function createWindow() {
     },
   })
 
+  /* 守护期间堵住刷新/开发者工具/退出全屏这些「绕过」快捷键 */
+  mainWindow.webContents.on('before-input-event', (e, input) => {
+    if (!guardActive) return
+    const key = input.key || ''
+    const ctrl = input.control || input.meta
+    const ban =
+      key === 'F11' ||
+      key === 'F5' ||
+      key === 'F12' ||
+      (ctrl && ['r', 'R', 'w', 'W', 'n', 'N', 'o', 'O', 'p', 'P'].includes(key)) ||
+      (ctrl && input.shift && ['i', 'I', 'j', 'J', 'c', 'C'].includes(key))
+    if (ban) e.preventDefault()
+  })
+
   mainWindow.once('ready-to-show', () => {
-    log('ready-to-show')
+    log('ready-to-show fs=' + !!mainWindow?.isFullScreen())
     if (!shotPath || showWin) mainWindow?.show()
   })
 
@@ -324,6 +359,44 @@ function createWindow() {
           await wait(1400)
         }
 
+        /* 4.6) 少儿守护截图：直接调 store，省得点一堆格子 */
+        if (action.startsWith('guard')) {
+          if (action === 'guardlock') {
+            await run(`(() => {
+              const s = window.__spellpal.getState();
+              s.enableGuard('123456', 30);
+              s.addGuardUsage(1800);
+              s.backToShelf();
+              return true;
+            })()`)
+            await wait(800)
+          } else {
+            if (action === 'guardon') {
+              await run(`(() => {
+                const s = window.__spellpal.getState();
+                s.enableGuard('123456', 40);
+                s.addGuardUsage(600);
+                return true;
+              })()`)
+              await wait(300)
+            }
+            await run(
+              `(() => { const b = document.querySelector('button[title="设置"]'); if (b) b.click(); return !!b; })()`,
+            ).then((r) => log('guard: gear=' + r))
+            await wait(500)
+            await run(
+              `(() => { const b = [...document.querySelectorAll('button')].find(x => (x.textContent||'').trim() === '守护'); if (b) b.click(); return !!b; })()`,
+            ).then((r) => log('guard: tab=' + r))
+            await wait(400)
+            if (action === 'guardsetup') {
+              await run(
+                `(() => { const b = document.querySelector('button[role="switch"][aria-label="少儿守护"]'); if (b) b.click(); return !!b; })()`,
+              )
+              await wait(500)
+            }
+          }
+        }
+
         await wait(500)
         const img = await wc.capturePage()
         fs.writeFileSync(shotPath, img.toPNG())
@@ -348,6 +421,8 @@ let allowClose = false
 
 app.whenReady().then(() => {
   log('app ready')
+  guardActive = readGuardFlag()
+  log('guardActive=' + guardActive)
   createWindow()
   app.on('activate', () => {
     if (BrowserWindow.getAllWindows().length === 0) createWindow()
@@ -372,6 +447,15 @@ ipcMain.on('win:close-confirmed', (e) => {
   if (!w) return
   allowClose = true
   w.close()
+})
+
+/* 渲染进程开关少儿守护：同步状态位、写回 userData、切全屏 */
+ipcMain.on('app:guard-mode', (e, on) => {
+  guardActive = !!on
+  writeGuardFlag(guardActive)
+  const w = BrowserWindow.fromWebContents(e.sender)
+  if (!w) return
+  if (w.isFullScreen() !== guardActive) w.setFullScreen(guardActive)
 })
 
 /* 无边框窗口的底色要跟着主题走，否则浅色主题启动/滚动时会闪一下深色 */

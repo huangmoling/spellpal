@@ -330,6 +330,142 @@ app.on('ready', async () => {
   const quitGone = await run(`!!document.querySelector('[data-quit-modal]')`)
   check('按 Esc 取消退出', quitGone === false, `modal=${quitGone}`)
 
+  /* ---------------- 少儿守护 ---------------- */
+  await run(`window.__spellpal.getState().backToShelf(); true`)
+  await wait(300)
+
+  const g0 = await run(`window.__spellpal.getState().guardOn`)
+  check('少儿守护默认关闭', g0 === false, `guardOn=${g0}`)
+
+  /* 从设置界面走一遍：常规 → 守护 → 开 → 设密码 → 再输一次 → 选时长 */
+  const opened = await run(`
+    (() => {
+      const b = document.querySelector('button[title="设置"]');
+      if (b) b.click(); return !!b;
+    })()
+  `)
+  await wait(500)
+  await run(`
+    (() => {
+      const b = [...document.querySelectorAll('button')].find(x => (x.textContent||'').trim() === '守护');
+      if (b) b.click(); return !!b;
+    })()
+  `)
+  await wait(300)
+  await run(`
+    (() => {
+      const b = document.querySelector('button[role="switch"][aria-label="少儿守护"]');
+      if (b) b.click(); return !!b;
+    })()
+  `)
+  await wait(400)
+  const setupShown = await run(`!!document.querySelector('[data-guard-modal] [data-pin-input]')`)
+  check('首次开启会要求设密码', opened === true && setupShown === true, `setup=${setupShown}`)
+
+  for (const c of ['1', '2', '3', '4', '5', '6']) {
+    await press(c)
+    await wait(40)
+  }
+  await wait(250)
+  for (const c of ['1', '2', '3', '4', '5', '6']) {
+    await press(c)
+    await wait(40)
+  }
+  await wait(250)
+  const atMinutes = await run(`!!document.querySelector('[data-guard-modal] input[type=range]')`)
+  check('两次密码一致后进入时长设置', atMinutes === true, `slider=${atMinutes}`)
+  await run(`
+    (() => {
+      const b = [...document.querySelectorAll('button')].find(x => (x.textContent||'').includes('开启少儿守护'));
+      if (b) b.click(); return !!b;
+    })()
+  `)
+  await wait(500)
+
+  const g1 = await run(`(() => {
+    const s = window.__spellpal.getState();
+    return { on: s.guardOn, hash: s.guardPinHash, min: s.guardMinutes,
+             raw: localStorage.getItem('spellpal:guard-pin') || '' };
+  })()`)
+  check('设置完成即开启守护', g1.on === true && g1.min >= 10, JSON.stringify({ on: g1.on, min: g1.min }))
+  check('密码以散列保存，不存明文', g1.hash.startsWith('g1:') && !g1.raw.includes('123456'), g1.raw)
+
+  const pinOk = await run(
+    `[window.__spellpal.getState().verifyPin('000000'), window.__spellpal.getState().verifyPin('123456')]`,
+  )
+  check('错误密码被拒绝、正确密码通过', pinOk[0] === false && pinOk[1] === true, JSON.stringify(pinOk))
+
+  /* 到点锁定：把额度调成 10 分钟再灌满 */
+  await run(`window.__spellpal.getState().setGuardMinutes(10); true`)
+  await run(`window.__spellpal.getState().addGuardUsage(600); true`)
+  await wait(400)
+  const locked = await run(`(() => {
+    const s = window.__spellpal.getState();
+    return { locked: s.guardLocked, used: s.guardUsedSec, lock: !!document.querySelector('[data-guard-lock]') };
+  })()`)
+  check('学满时长后锁定并盖住界面', locked.locked === true && locked.lock === true, JSON.stringify(locked))
+
+  /* 家长密码解锁 +10 分钟 */
+  await run(`
+    (() => {
+      const b = [...document.querySelectorAll('button')].find(x => (x.textContent||'').includes('家长解锁'));
+      if (b) b.click(); return !!b;
+    })()
+  `)
+  await wait(400)
+  for (const c of ['1', '2', '3', '4', '5', '6']) {
+    await press(c)
+    await wait(40)
+  }
+  await wait(500)
+  const unlocked = await run(`(() => {
+    const s = window.__spellpal.getState();
+    return { locked: s.guardLocked, bonus: s.guardBonusSec, lock: !!document.querySelector('[data-guard-lock]') };
+  })()`)
+  check(
+    '输密码后加 10 分钟并解锁',
+    unlocked.locked === false && unlocked.bonus === 600 && unlocked.lock === false,
+    JSON.stringify(unlocked),
+  )
+
+  /* 守护开着时，关软件要先过密码 */
+  win.webContents.send('app:ask-close')
+  await wait(400)
+  await run(`
+    (() => {
+      const b = [...document.querySelectorAll('button')].find(x => (x.textContent||'').trim() === '退出软件');
+      if (b) b.click(); return !!b;
+    })()
+  `)
+  await wait(400)
+  const quitPin = await run(
+    `!!document.querySelector('[data-guard-modal] [data-pin-input]') && !!document.querySelector('[data-quit-modal]')`,
+  )
+  check('守护开启后退出软件要输密码', quitPin === true, `pin=${quitPin}`)
+  await press('Escape')
+  await wait(250)
+  await press('Escape')
+  await wait(250)
+
+  const g2 = await run(`!!document.querySelector('[data-quit-modal]') || !!document.querySelector('[data-guard-modal]')`)
+  check('取消后弹窗全部收起', g2 === false, `still=${g2}`)
+
+  /* 关守护（已解锁状态由设置页负责，这里直接验状态机） */
+  await run(`
+    (() => {
+      const s = window.__spellpal.getState();
+      s.setSettingsOpen(false);
+      s.disableGuard();
+      return true;
+    })()
+  `)
+  await wait(300)
+  const g3 = await run(`(() => {
+    const s = window.__spellpal.getState();
+    return { on: s.guardOn, locked: s.guardLocked, lock: !!document.querySelector('[data-guard-lock]') };
+  })()`)
+  check('关闭守护后解除锁定', g3.on === false && g3.locked === false && g3.lock === false, JSON.stringify(g3))
+
   console.log('\n================ 功能自测 ================')
   let pass = 0
   for (const r of results) {

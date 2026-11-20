@@ -8,6 +8,8 @@ export interface WindowApi {
   onAskClose: (cb: () => void) => () => void
   /** 确认退出 */
   closeConfirmed: () => void
+  /** 少儿守护：开启后窗口全屏，并屏蔽刷新/开发者工具快捷键 */
+  setGuardMode?: (on: boolean) => void
 }
 
 declare global {
