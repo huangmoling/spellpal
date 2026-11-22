@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+ * 萌系字体：英文/数字用 Baloo 2（圆润弹跳），中文用站酷快乐体（OFL 可商用）。
+ * 字体文件随包离线分发，不依赖网络；罕见字自动回退到系统字体。
+ */
+@font-face {
+  font-family: 'Baloo 2';
+  src: url('./assets/fonts/Baloo2-Variable.ttf') format('truetype');
+  font-weight: 400 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ZCOOL KuaiLe';
+  src: url('./assets/fonts/ZCOOLKuaiLe-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
 @layer base {
   /*
    * 浅色（默认）：奶油底 + 纯白卡片，糖果色系。
@@ -55,7 +72,13 @@
   body {
     background: rgb(var(--stage));
     color: rgb(var(--ink));
-    font-family: Inter, system-ui, 'Microsoft YaHei', 'PingFang SC', sans-serif;
+    font-family:
+      'Baloo 2',
+      'ZCOOL KuaiLe',
+      'YouYuan',
+      'Microsoft YaHei UI',
+      'PingFang SC',
+      sans-serif;
     -webkit-font-smoothing: antialiased;
     overflow: hidden;
     user-select: none;

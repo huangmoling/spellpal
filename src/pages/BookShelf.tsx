@@ -1,29 +1,17 @@
 import { useMemo } from 'react'
-import {
-  ArrowRight,
-  ArrowUpRight,
-  BookOpen,
-  CalendarClock,
-  Flame,
-  GitBranch,
-  Heart,
-  Settings,
-  Sparkles,
-  Layers,
-} from 'lucide-react'
+import { ArrowRight, CalendarClock, Settings } from 'lucide-react'
 import clsx from 'clsx'
 import type { Book } from '@/types'
 import { useApp } from '@/store/useApp'
-import { loadProgress, streakDays } from '@/utils/progress'
+import { loadProgress } from '@/utils/progress'
 import { dueCards, cardCount } from '@/utils/srs'
-import { noticeLines, openRepo, repoUrl } from '@/core/notice'
 
 /** 每套教材各有一块常驻的彩色底，孩子靠颜色就能找到自己的书 */
 const SERIES: { key: string; label: string; emoji: string; tint: string; pub?: string }[] = [
   { key: 'starter', label: '启蒙', emoji: '🧸', tint: '#2FC49A' },
   { key: 'pep', label: '人教 PEP', emoji: '📚', tint: '#4A80F0', pub: '人民教育' },
   { key: 'fltrp', label: '外研 新标准', emoji: '🎈', tint: '#FF9A3D', pub: '外语教学' },
-  { key: 'yilin', label: '译林 牛津', emoji: '📘', tint: '#9B7BF0', pub: '译林' },
+  { key: 'yilin', label: '牛津译林', emoji: '📘', tint: '#9B7BF0', pub: '译林' },
   { key: 'bj', label: '北京版', emoji: '🏙', tint: '#E8606C', pub: '北京出版社' },
   { key: 'bsd', label: '北师大', emoji: '🎓', tint: '#6C5CE7', pub: '北京师范大学' },
   { key: 'jj', label: '冀教', emoji: '🍎', tint: '#FF7EB6', pub: '河北教育' },
@@ -48,6 +36,15 @@ const UNIT_COLORS = [
 ]
 const unitColor = (no: number) => UNIT_COLORS[(no - 1) % UNIT_COLORS.length]
 
+/**
+ * 书 → 系列 key。跟 SERIES 的分组规则同源，出版社分开认，别再互相兜底：
+ * 以前非外研的全塞给人教，加了译林就会串组。
+ */
+const seriesKeyOf = (b: Book): string | undefined => {
+  if (b.stage === 'starter') return 'starter'
+  return SERIES.find((s) => s.pub && b.publisher.includes(s.pub))?.key
+}
+
 export default function BookShelf({
   books,
   bookId,
@@ -63,28 +60,42 @@ export default function BookShelf({
   const startUnit = useApp((s) => s.startUnit)
   const startReview = useApp((s) => s.startReview)
 
-  /** 每单元的句子数，单元卡片和「继续练习」都用它 */
-  const sentencesOf = (no: number) => (book.sentences ?? []).filter((s) => s.unit === no).length
-  const sentenceCount = (book.sentences ?? []).length
-  const wordsOf = (no: number) => book.words.filter((w) => w.unit === no).length
-  /** 粗估课时：一个词约 15 秒，一句约 30 秒 */
-  const minutesOf = (no: number) =>
-    Math.max(2, Math.round((wordsOf(no) * 15 + sentencesOf(no) * 30) / 60))
-
   const lastUnit = Number(localStorage.getItem(`spellpal:last-unit:${book.id}`) || 1)
   const lastUnitData = book.units.find((u) => u.no === lastUnit) ?? book.units[0]
 
   const progress = useMemo(() => loadProgress(), [book.id])
   const unitProgress = (no: number) => progress[`${book.id}#${no}`]
-  const finished = book.units.filter((u) => unitProgress(u.no)).length
-  const accs = book.units
-    .map((u) => unitProgress(u.no)?.acc)
-    .filter((v): v is number => typeof v === 'number')
-  const avgAcc = accs.length ? Math.round(accs.reduce((a, b) => a + b, 0) / accs.length) : null
-  const streak = streakDays()
 
   const due = useMemo(() => dueCards(book.id), [book.id])
   const cardsTotal = useMemo(() => cardCount(book.id), [book.id])
+
+  /** 系列行 + 教材行：选中的书 = 下面单元格所属的书，全页只有一份选中态 */
+  const groups = useMemo(
+    () =>
+      SERIES.map((s) => ({
+        ...s,
+        list: books.filter((b) => seriesKeyOf(b) === s.key),
+      })).filter((g) => g.list.length > 0),
+    [books],
+  )
+  const activeKey = seriesKeyOf(book) ?? groups[0]?.key ?? ''
+  const bookRow = groups.find((g) => g.key === activeKey)?.list ?? []
+
+  const pickBook = (id: string) => {
+    const b = books.find((x) => x.id === id)
+    const k = b && seriesKeyOf(b)
+    if (k) localStorage.setItem(`spellpal:last-book:${k}`, id)
+    onPickBook(id)
+  }
+
+  /** 点系列只换教材行；换书时优先回到这个系列上次用的那本 */
+  const pickSeries = (key: string) => {
+    if (key === activeKey) return
+    const g = groups.find((x) => x.key === key)
+    if (!g) return
+    const last = localStorage.getItem(`spellpal:last-book:${key}`)
+    pickBook(g.list.find((b) => b.id === last)?.id ?? g.list[0].id)
+  }
 
   const openUnit = (no: number) => {
     localStorage.setItem(`spellpal:last-unit:${book.id}`, String(no))
@@ -99,22 +110,12 @@ export default function BookShelf({
     )
   }
 
-  const groups = SERIES.map((s) => ({
-    ...s,
-    list: books.filter((b) => {
-      if (s.key === 'starter') return b.stage === 'starter'
-      if (b.stage === 'starter') return false
-      /* 出版社分开认，别再互相兜底：以前非外研的全塞给人教，加了译林就会串组 */
-      return !!s.pub && b.publisher.includes(s.pub)
-    }),
-  })).filter((g) => g.list.length > 0)
-
   // 单元网格固定 4 列，行数决定网格高度上限（每行最多 142px），避免全屏时被拉高
   const unitRows = Math.max(1, Math.ceil(book.units.length / 4))
 
   return (
     <div className="relative flex h-full flex-col overflow-hidden">
-      {/* 整页插画底：光晕 + 点阵 + 漂浮的星星/云/铅笔，缩放到任何窗口都不糊 */}
+      {/* 整页插画底：光晕 + 点阵 + 漂浮的星星，缩放到任何窗口都不糊 */}
       <HomeBackdrop />
 
       {/* 顶栏 */}
@@ -126,10 +127,7 @@ export default function BookShelf({
           <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand shadow-[0_6px_18px_rgba(255,154,61,0.45)]">
             <span className="font-mono text-[17px] font-bold text-white">S</span>
           </div>
-          <div className="leading-tight">
-            <div className="text-[17px] font-bold tracking-wide">小拼手</div>
-            <div className="text-[10px] tracking-[0.2em] text-muted/55">SPELLPAL</div>
-          </div>
+          <div className="text-[17px] font-bold tracking-wide">小拼手</div>
         </div>
         <button
           onClick={onOpenSettings}
@@ -146,169 +144,108 @@ export default function BookShelf({
       </header>
 
       {/* 内容区 */}
-      <div className="relative z-10 mx-auto flex w-full max-w-[1120px] flex-1 flex-col overflow-y-auto px-8 pb-3">
-        {/* 教材切换：启蒙 / 人教 PEP / 外研新标准 各一行，每行有常驻底色 */}
+      <div className="relative z-10 mx-auto flex w-full max-w-[1120px] flex-1 flex-col overflow-y-auto px-8 pb-4">
+        {/* 系列 / 教材切换 */}
         {books.length > 1 && (
-          <div className="flex shrink-0 flex-col gap-1">
-            {groups.map((g) => {
-              const activeGroup = g.list.some((b) => b.id === book.id)
-              return (
-                <div
-                  key={g.key}
-                  className="relative flex flex-wrap items-center gap-x-2 gap-y-1 overflow-hidden rounded-2xl px-3 py-[4px] ring-1 transition-colors"
-                  style={{
-                    background: `linear-gradient(96deg, ${g.tint}4d, ${g.tint}22 50%, ${g.tint}0d 100%)`,
-                    ['--tw-ring-color' as string]: activeGroup ? `${g.tint}90` : `${g.tint}55`,
-                  }}
-                >
-                  <span
-                    className="relative flex w-[112px] shrink-0 items-center gap-1.5 whitespace-nowrap rounded-lg px-1.5 py-[4px] text-[12px] font-semibold"
-                    style={{ background: `${g.tint}3d` }}
+          <>
+            <div className="flex shrink-0 flex-wrap items-center gap-1.5">
+              {groups.map((g) => {
+                const on = g.key === activeKey
+                return (
+                  <button
+                    key={g.key}
+                    onClick={() => pickSeries(g.key)}
+                    className={clsx(
+                      'flex items-center gap-2 rounded-xl px-4 py-2 text-[18px] transition',
+                      on
+                        ? 'font-semibold text-ink'
+                        : 'text-ink/55 hover:bg-veil/[0.05] hover:text-ink/85',
+                    )}
+                    style={
+                      on
+                        ? {
+                            background: `${g.tint}26`,
+                            boxShadow: `inset 0 0 0 1.5px ${g.tint}99`,
+                          }
+                        : undefined
+                    }
                   >
-                    <span className="text-[13px] leading-none">{g.emoji}</span>
-                    <span className={clsx(activeGroup ? 'text-ink' : 'text-ink/70')}>{g.label}</span>
-                  </span>
-                  {g.list.map((b) => {
-                    const on = b.id === book.id
-                    const done = b.units.filter((u) => progress[`${b.id}#${u.no}`]).length
-                    return (
-                      <button
-                        key={b.id}
-                        onClick={() => onPickBook(b.id)}
-                        className={clsx(
-                          'relative flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-xl px-3.5 py-[5px] text-[12.5px] transition',
-                          on
-                            ? 'bg-card font-semibold text-ink shadow-sm ring-1 ring-veil/15'
-                            : 'text-ink/60 hover:bg-veil/[0.06] hover:text-ink/90',
-                        )}
-                      >
-                        {b.shortTitle}
-                        <span
-                          className={clsx('tabnum text-[10.5px]', on ? 'text-brand' : 'text-ink/35')}
-                        >
-                          {done}/{b.units.length}
-                        </span>
-                      </button>
-                    )
-                  })}
-                </div>
-              )
-            })}
-          </div>
+                    <span className="text-[17px] leading-none">{g.emoji}</span>
+                    {g.label}
+                  </button>
+                )
+              })}
+            </div>
+            <div className="mt-1.5 flex shrink-0 flex-wrap items-center gap-1.5">
+              {bookRow.map((b) => {
+                const on = b.id === book.id
+                return (
+                  <button
+                    key={b.id}
+                    onClick={() => pickBook(b.id)}
+                    className={clsx(
+                      'whitespace-nowrap rounded-xl px-5 py-2 text-[18px] transition',
+                      on
+                        ? 'bg-card font-semibold text-ink shadow-sm ring-1 ring-veil/15'
+                        : 'text-ink/60 hover:bg-veil/[0.06] hover:text-ink/90',
+                    )}
+                  >
+                    {b.shortTitle}
+                  </button>
+                )
+              })}
+            </div>
+          </>
         )}
 
-        {/* 教材头部 */}
-        <div className="mt-3 flex items-end justify-between">
-          <div>
-            <div className="mb-1.5 flex items-center gap-1.5 text-[11.5px] text-muted/60">
-              <BookOpen size={13} strokeWidth={2} />
-              <span>
-                {book.publisher} · {book.series} · {book.edition}
-              </span>
-            </div>
-            <h1 className="text-[35px] font-bold leading-none tracking-wide">
-              {book.shortTitle}
-            </h1>
-          </div>
-          <div className="text-right leading-none">
-            <div className="tabnum text-[38px] font-bold leading-none text-brand">
-              {book.wordCount}
-            </div>
-            <div className="mt-1.5 text-[11.5px] text-muted/55">
-              个单词 · {book.units.length} 个单元 · {sentenceCount} 句
-            </div>
-          </div>
-        </div>
+        {/* 当前教材 */}
+        <h1 className="mt-4 text-[27px] font-bold leading-none tracking-wide">{book.shortTitle}</h1>
 
         {/* 继续练习 */}
         <button
-          onClick={() => openUnit(lastUnit)}
-          className="group relative mt-3 w-full shrink-0 overflow-hidden rounded-3xl bg-gradient-to-br from-brand/[0.12] via-card to-card px-7 py-2.5 text-left ring-1 ring-brand/25 transition hover:ring-brand/50"
+          onClick={() => openUnit(lastUnitData.no)}
+          className="group relative mt-3 flex w-full shrink-0 items-center gap-5 overflow-hidden rounded-3xl bg-gradient-to-br from-brand/[0.12] via-card to-card px-7 py-3.5 text-left ring-1 ring-brand/25 transition hover:ring-brand/50"
         >
-          <div className="absolute -right-8 -top-20 h-56 w-56 rounded-full bg-brand/18 blur-2xl transition group-hover:bg-brand/28" />
           <CardScene />
-          <div className="relative flex items-center gap-5">
-            <div className="flex-1">
-              <div className="mb-0.5 flex items-center gap-1.5 text-[11.5px] text-brand/90">
-                <Sparkles size={13} strokeWidth={2.4} />
-                {unitProgress(lastUnitData.no) ? '再练一次' : '继续练习'}
-              </div>
-              <div className="text-[26px] font-bold leading-tight">Unit {lastUnitData.no}</div>
-              <div className="mt-0.5 text-[12.5px] text-muted/70">
-                {lastUnitData.theme} · {wordsOf(lastUnitData.no)} 词 ·{' '}
-                {sentencesOf(lastUnitData.no)} 句 · 约 {minutesOf(lastUnitData.no)} 分钟
-              </div>
+          <div className="flex-1">
+            <div className="text-[16px] font-semibold tracking-[0.12em] text-brand/90">
+              继续练习
             </div>
-            <div className="flex items-center gap-3">
-              <span className="text-[13px] text-muted transition group-hover:text-ink">开始</span>
-              <span className="flex h-[56px] w-[56px] items-center justify-center rounded-full bg-brand text-white shadow-[0_8px_26px_rgba(74,128,240,0.5)] transition group-hover:scale-105">
-                <ArrowRight size={22} strokeWidth={2.4} />
-              </span>
+            <div className="mt-1 text-[21px] font-bold leading-tight">
+              Unit {lastUnitData.no}
+              {lastUnitData.theme ? ` · ${lastUnitData.theme}` : ''}
             </div>
           </div>
+          <span className="flex h-[52px] w-[52px] shrink-0 items-center justify-center rounded-full bg-brand text-white shadow-[0_8px_26px_rgba(74,128,240,0.5)] transition group-hover:scale-105">
+            <ArrowRight size={21} strokeWidth={2.4} />
+          </span>
         </button>
 
-        {/* 错题本 */}
-        <button
-          onClick={reviewNow}
-          disabled={cardsTotal === 0}
-          className={clsx(
-            'group mt-2 flex shrink-0 items-center gap-3.5 rounded-2xl px-5 py-1.5 text-left ring-1 transition',
-            cardsTotal === 0
-              ? 'cursor-default bg-veil/[0.03] ring-veil/[0.07]'
-              : 'bg-veil/[0.04] ring-veil/[0.09] hover:bg-card hover:ring-brand/35',
-          )}
-        >
-          <span
-            className={clsx(
-              'flex h-10 w-10 shrink-0 items-center justify-center rounded-xl',
-              due.length > 0 ? 'bg-err/15 text-err/90' : 'bg-veil/[0.05] text-muted/50',
-            )}
+        {/* 错题本：没有错句时不占一行，练错后自动出现 */}
+        {cardsTotal > 0 && (
+          <button
+            onClick={reviewNow}
+            className="group mt-2 flex shrink-0 items-center gap-3.5 rounded-2xl bg-veil/[0.04] px-5 py-2.5 text-left ring-1 ring-veil/[0.09] transition hover:bg-card hover:ring-brand/35"
           >
-            <CalendarClock size={18} strokeWidth={2} />
-          </span>
-          <span className="min-w-0 flex-1">
-            <span className="flex items-baseline gap-2">
-              <span className="text-[14.5px] font-semibold text-ink/90">错题本</span>
-              <span className="tabnum text-[11.5px] text-muted/50">{cardsTotal} 条</span>
-              {due.length > 0 && (
-                <span className="rounded-md bg-err/15 px-1.5 py-[1px] text-[11px] text-err/90">
-                  {due.length} 待复习
-                </span>
+            <span
+              className={clsx(
+                'flex h-10 w-10 shrink-0 items-center justify-center rounded-xl',
+                due.length > 0 ? 'bg-err/15 text-err/90' : 'bg-veil/[0.05] text-muted/50',
               )}
+            >
+              <CalendarClock size={18} strokeWidth={2} />
             </span>
-            <span className="mt-1 block truncate text-[12px] text-muted/55">
-              {cardsTotal === 0
-                ? '还没有错句，练完一个单元会自动收集'
-                : due.length > 0
-                  ? '按 1、3、7、16 天的节奏复习，打对的会自动移出'
-                  : '今天没有要复习的句子，明天再来'}
-            </span>
-          </span>
-          {cardsTotal > 0 && (
-            <span className="flex shrink-0 items-center gap-1 text-[12.5px] text-brand/80">
+            <span className="text-[14.5px] font-semibold text-ink/90">错题本</span>
+            <span className="ml-auto flex shrink-0 items-center gap-1 text-[12.5px] text-brand/80">
               {due.length > 0 ? '开始复习' : '全部复习'}
               <ArrowRight size={14} strokeWidth={2.4} />
             </span>
-          )}
-        </button>
+          </button>
+        )}
 
-        {/* 单元标题 */}
-        <div className="mb-2 mt-3 flex items-baseline justify-between">
-          <h2 className="text-[15px] font-semibold text-ink/80">全部单元</h2>
-          <span className="text-[11.5px] text-muted/45">
-            <Layers size={11} strokeWidth={2.4} className="mr-1 inline" />
-            一个单词，一个句子
-          </span>
-        </div>
-
-        {/* 单元网格 + 底部插画带：网格吃掉剩余高度，插画带收住空旷感 */}
-        {/*
-         * 行高用 1fr 跟着剩余高度走，但给网格整体压一个上限（每行最多 142px）。
-         * 之前没有上限，1080p 全屏时一行被拉到 240px，格子变成一片色块，孩子看不出是卡片。
-         */}
+        {/* 单元网格 */}
         <div
-          className="grid flex-1 auto-rows-[minmax(104px,1fr)] grid-cols-4 gap-3"
+          className="mt-3 grid flex-1 auto-rows-[minmax(104px,1fr)] grid-cols-4 gap-3"
           style={{ maxHeight: unitRows * 142 + (unitRows - 1) * 12 }}
         >
           {book.units.map((u) => {
@@ -325,95 +262,28 @@ export default function BookShelf({
                 }}
               >
                 <span
-                  aria-hidden
-                  className="pointer-events-none absolute -bottom-5 -right-2 h-16 w-16 rounded-full opacity-25 blur-xl transition group-hover:opacity-40"
+                  className="flex h-7 w-7 items-center justify-center rounded-lg text-[13.5px] font-bold text-white shadow-sm"
                   style={{ background: c }}
-                />
-                <div className="relative flex w-full items-center gap-2">
-                  <span
-                    className="flex h-7 w-7 items-center justify-center rounded-lg text-[13.5px] font-bold text-white shadow-sm"
-                    style={{ background: c }}
-                  >
-                    {u.no}
-                  </span>
-                  <span className="text-[11px] font-semibold tracking-[0.12em] text-ink/45">
-                    UNIT
-                  </span>
-                  <span className="tabnum ml-auto text-[11px] text-ink/50">
-                    {wordsOf(u.no)} 词 · {sentencesOf(u.no)} 句
-                  </span>
-                </div>
-                <div className="relative mt-1 line-clamp-1 text-[15.5px] font-semibold text-ink/85">
+                >
+                  {u.no}
+                </span>
+                <div className="mt-1.5 line-clamp-2 text-[16.5px] font-semibold leading-tight tracking-[0.02em] text-ink/85">
                   {u.theme}
                 </div>
-
-                <div className="relative mt-auto">
-                  <div className="mb-1 flex items-center justify-between text-[11px]">
-                    {p ? (
-                      <span className="font-medium text-ok">正确率 {p.acc}%</span>
-                    ) : (
-                      <span className="text-ink/45">未开始</span>
-                    )}
-                    <span className="text-brand/0 transition group-hover:text-brand/85">开始 ›</span>
+                {/* 正确率就是进度条的填充量；没练过的单元不画这条线 */}
+                {p && (
+                  <div className="mt-auto h-1 w-full overflow-hidden rounded-full bg-veil/[0.22]">
+                    <div
+                      className="h-full rounded-full"
+                      style={{ width: `${p.acc}%`, background: c }}
+                    />
                   </div>
-                  <div className="flex gap-1">
-                    {Array.from({ length: 12 }).map((_, i) => {
-                      const on = p ? i < Math.round((p.acc / 100) * 12) : false
-                      return (
-                        <span
-                          key={i}
-                          className="h-[4px] flex-1 rounded-full transition"
-                          style={{ background: on ? c : 'rgb(var(--veil) / 0.22)' }}
-                        />
-                      )
-                    })}
-                  </div>
-                </div>
+                )}
               </button>
             )
           })}
         </div>
-
-        {/* 底部状态 */}
-        <div className="mt-auto flex shrink-0 items-center justify-center gap-6 pt-2.5 text-[12.5px] text-muted/70">
-          <span className="flex items-center gap-1.5">
-            <Flame
-              size={13}
-              strokeWidth={2}
-              className={streak > 0 ? 'text-brand/70' : 'text-muted/25'}
-            />
-            连续 {streak} 天
-          </span>
-          <span className="h-3 w-px bg-veil/[0.08]" />
-          <span>已完成 {finished} 个单元</span>
-          <span className="h-3 w-px bg-veil/[0.08]" />
-          <span>{avgAcc === null ? '正确率 —' : `平均正确率 ${avgAcc}%`}</span>
-        </div>
-
-        {/* 声明 */}
-        <NoticeCard />
       </div>
-    </div>
-  )
-}
-
-/** 首页底部的免费开源声明。文案不写成明文常量，见 core/notice.ts */
-function NoticeCard() {
-  const [head, body] = noticeLines()
-  return (
-    <div className="mb-1 mt-2 flex shrink-0 items-center gap-2.5 rounded-xl bg-veil/[0.02] px-3.5 py-1.5 ring-1 ring-veil/[0.05]">
-      <Heart size={12} strokeWidth={2.2} className="shrink-0 text-err/70" />
-      <span className="shrink-0 text-[11px] font-medium text-ink/70">{head}</span>
-      <span className="min-w-0 flex-1 truncate text-[10.5px] text-muted/40">{body}</span>
-      <button
-        onClick={openRepo}
-        className="flex shrink-0 items-center gap-1 rounded-lg bg-veil/[0.04] px-2 py-1 text-[10.5px] text-muted/70 ring-1 ring-veil/[0.06] transition hover:bg-brand/10 hover:text-brand hover:ring-brand/40"
-        title="在浏览器中打开项目主页"
-      >
-        <GitBranch size={10} strokeWidth={2.2} />
-        <span className="font-mono">{repoUrl().replace(/^https:\/\//, '')}</span>
-        <ArrowUpRight size={10} strokeWidth={2.6} />
-      </button>
     </div>
   )
 }
@@ -485,7 +355,7 @@ function CardScene() {
       aria-hidden
       viewBox="0 0 520 110"
       preserveAspectRatio="xMaxYMid meet"
-      className="pointer-events-none absolute right-[146px] top-1/2 hidden h-[92px] w-[440px] -translate-y-1/2 min-[1080px]:block"
+      className="pointer-events-none absolute right-[112px] top-1/2 hidden h-[80px] w-[420px] -translate-y-1/2 min-[1080px]:block"
       style={{ opacity: light ? 0.4 : 0.34 }}
       fill="none"
       strokeLinecap="round"

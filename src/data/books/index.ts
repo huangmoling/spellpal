@@ -37,7 +37,9 @@ import bsd3a from './bsd-3a.json'
 import bsd3b from './bsd-3b.json'
 import bsd4a from './bsd-4a.json'
 import bsd4b from './bsd-4b.json'
+import bsd5a from './bsd-5a.json'
 import bsd5b from './bsd-5b.json'
+import bsd6a from './bsd-6a.json'
 import bsd6b from './bsd-6b.json'
 import cj3a from './cj-3a.json'
 import cj4a from './cj-4a.json'
@@ -128,7 +130,9 @@ export const BOOKS = [
   bsd3b as unknown as Book,
   bsd4a as unknown as Book,
   bsd4b as unknown as Book,
+  bsd5a as unknown as Book,
   bsd5b as unknown as Book,
+  bsd6a as unknown as Book,
   bsd6b as unknown as Book,
   cj3a as unknown as Book,
   cj4a as unknown as Book,
