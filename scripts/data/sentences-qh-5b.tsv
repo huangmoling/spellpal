@@ -1,7 +1,99 @@
-# qh-5b 同步例句
-0	这是一个（玩游戏用的）沙包。	This is a beanbag.	代词|动词|冠词|名词	这|是|一个|（玩游戏用的）沙包
-1	这是一个在...... 上方。	This is a above.	代词|动词|冠词|名词	这|是|一个|在...... 上方
-2	这是一个越过，穿过。	This is a across.	代词|动词|冠词|名词	这|是|一个|越过，穿过
-3	这是一个气球。	This is a balloon.	代词|动词|冠词|名词	这|是|一个|气球
-4	这是一个咬。	This is a bite.	代词|动词|冠词|名词	这|是|一个|咬
-6	这是一个有魔力的，神奇的；魔法(56)。	This is a magic.	代词|动词|冠词|名词	这|是|一个|有魔力的，神奇的；魔法(56)
+1	"above"的意思是在...... 上方。	The book is above the desk.	冠词|名词|动词|介词|冠词|名词	这个|书|是|在...... 上方|这个|书桌
+1	"another"的意思是另一个。	I like another of them.	代词|动词|限定词|介词|代词	我|喜欢|另一个|的|他们
+1	"bright"的意思是明亮的。	It is bright and big.	代词|动词|形容词|连词|形容词	它|是|明亮的|和|大的
+1	"bring"的意思是带来。	I like to bring.	代词|动词|介词|动词	我|喜欢|到|带来
+1	"bulletin board"的意思是板报。	I like the bulletin board.	代词|动词|冠词|名词|名词	我|喜欢|这个|bulletin|board
+1	"chase"的意思是追赶。	Please chase with me.	副词|动词|介词|代词	请|追赶|和|我
+1	"computer"的意思是计算机。	Where is the computer?	疑问词|动词|冠词|名词	哪里|是|这个|计算机
+1	"monitor"的意思是班长。	Do you like the monitor?	动词|代词|动词|冠词|名词	做|你|喜欢|这个|班长
+1	"primary school"的意思是小学。	I like the primary school.	代词|动词|冠词|名词|名词	我|喜欢|这个|primary|学校
+1	"row"的意思是排。	Let us row together.	动词|代词|动词|副词	让|我们|排|一起
+1	"rule"的意思是规定。	I like this rule.	代词|动词|代词|名词	我|喜欢|这|规定
+1	"schoolyard"的意思是校园。	Look at the schoolyard.	动词|介词|冠词|名词	看|在|这个|校园
+1	"should"的意思是应该。	I should swim.	代词|情态动词|动词	我|应该|游泳
+1	"somewhere"的意思是在某处。	I sit somewhere my friend.	代词|动词|介词|代词|名词	我|坐|在某处|我的|朋友
+1	"spend"的意思是花( 时间。	Where is the spend?	疑问词|动词|冠词|名词	哪里|是|这个|花( 时间
+1	"study"的意思是学习。	She can study very well.	代词|情态动词|动词|副词|副词	她|能|学习|非常|好
+1	"subject"的意思是课程。	I can see a subject.	代词|情态动词|动词|冠词|名词	我|能|看见|一个|课程
+1	"tag"的意思是儿童捉人游戏。	Let us tag together.	动词|代词|动词|副词	让|我们|儿童捉人游戏|一起
+1	"than"的意思是比。	I like apples than bananas.	代词|动词|名词|连词|名词	我|喜欢|苹果|比|香蕉
+1	"true"的意思是真的。	The true one is mine.	冠词|形容词|数词|动词|代词	这个|真的|一|是|我的
+1	"try"的意思是努力。	We try at school.	代词|动词|介词|名词	我们|努力|在|学校
+1	"wall"的意思是墙。	I have a new wall.	代词|动词|冠词|形容词|名词	我|有|一个|新的|墙
+1	"week"的意思是星期。	Where is the week?	疑问词|动词|冠词|名词	哪里|是|这个|星期
+2	"beanbag"的意思是（玩游戏用的）沙包。	She can beanbag very well.	代词|情态动词|动词|副词|副词	她|能|（玩游戏用的）沙包|非常|好
+2	"think"的意思是认为。	I think every day.	代词|动词|限定词|名词	我|认为|每个|天
+2	"across"的意思是越过。	I sit across my friend.	代词|动词|介词|代词|名词	我|坐|越过|我的|朋友
+2	"allow"的意思是允许。	I like this allow.	代词|动词|代词|名词	我|喜欢|这|允许
+2	"alone"的意思是独自。	They alone play games.	代词|副词|动词|名词	他们|独自|玩|游戏
+2	"binoculars"的意思是望远镜。	This is my binoculars.	代词|动词|代词|名词	这|是|我的|望远镜
+2	"both"的意思是两个都。	Both children are here.	限定词|名词|动词|副词	两个都|孩子们|是|这里
+2	"buzz"的意思是嗡嗡声。	Where is the buzz?	疑问词|动词|冠词|名词	哪里|是|这个|嗡嗡声
+2	"camera"的意思是照相机。	Do you like the camera?	动词|代词|动词|冠词|名词	做|你|喜欢|这个|照相机
+2	"classmate"的意思是同学。	I can see a classmate.	代词|情态动词|动词|冠词|名词	我|能|看见|一个|同学
+2	"country"的意思是国家。	The country is very nice.	冠词|名词|动词|副词|形容词	这个|国家|是|非常|好的
+2	"easy"的意思是容易的。	It is easy and big.	代词|动词|形容词|连词|形容词	它|是|容易的|和|大的
+2	"exercise"的意思是锻炼。	Look at the exercise.	动词|介词|冠词|名词	看|在|这个|锻炼
+2	"free"的意思是自由的。	This book is free.	代词|名词|动词|形容词	这|书|是|自由的
+2	"fresh"的意思是新鲜的。	We have a fresh day.	代词|动词|冠词|形容词|名词	我们|有|一个|新鲜的|天
+2	"group"的意思是（小）组。	Where is the group?	疑问词|动词|冠词|名词	哪里|是|这个|（小）组
+2	"hear"的意思是听。	She can hear very well.	代词|情态动词|动词|副词|副词	她|能|听|非常|好
+2	"hike"的意思是徒步旅行。	I can see a hike.	代词|情态动词|动词|冠词|名词	我|能|看见|一个|徒步旅行
+2	"interview"的意思是采访。	The interview is very nice.	冠词|名词|动词|副词|形容词	这个|采访|是|非常|好的
+2	"machine"的意思是机器。	I like this machine.	代词|动词|代词|名词	我|喜欢|这|机器
+2	"member"的意思是成员。	Look at the member.	动词|介词|冠词|名词	看|在|这个|成员
+2	"neck"的意思是脖子。	This is my neck.	代词|动词|代词|名词	这|是|我的|脖子
+2	"notebook"的意思是笔记本。	I have a new notebook.	代词|动词|冠词|形容词|名词	我|有|一个|新的|笔记本
+2	"reason"的意思是理由。	Where is the reason?	疑问词|动词|冠词|名词	哪里|是|这个|理由
+2	"reporter"的意思是记者。	Do you like the reporter?	动词|代词|动词|冠词|名词	做|你|喜欢|这个|记者
+2	"robot"的意思是机器人。	I can see a robot.	代词|情态动词|动词|冠词|名词	我|能|看见|一个|机器人
+2	"sew"的意思是缝纫。	The sew is very nice.	冠词|名词|动词|副词|形容词	这个|缝纫|是|非常|好的
+2	"sewing machine"的意思是缝纫机。	I like the sewing machine.	代词|动词|冠词|动词|名词	我|喜欢|这个|sewing|机器
+2	"smell"的意思是闻……味道。	Look at the smell.	动词|介词|冠词|名词	看|在|这个|闻……味道
+2	"sound"的意思是声音。	This is my sound.	代词|动词|代词|名词	这|是|我的|声音
+2	"sunlight"的意思是阳光。	I have a new sunlight.	代词|动词|冠词|形容词|名词	我|有|一个|新的|阳光
+2	"yesterday"的意思是昨天。	Where is the yesterday?	疑问词|动词|冠词|名词	哪里|是|这个|昨天
+3	"balloon"的意思是气球。	Do you like the balloon?	动词|代词|动词|冠词|名词	做|你|喜欢|这个|气球
+3	"breathe"的意思是呼吸。	I can see a breathe.	代词|情态动词|动词|冠词|名词	我|能|看见|一个|呼吸
+3	"camel"的意思是骆驼。	The camel is very nice.	冠词|名词|动词|副词|形容词	这个|骆驼|是|非常|好的
+3	"desert"的意思是沙漠。	I like this desert.	代词|动词|代词|名词	我|喜欢|这|沙漠
+3	"destroy"的意思是毁坏困难的。	The destroy one is mine.	冠词|形容词|数词|动词|代词	这个|毁坏困难的|一|是|我的
+3	"environment"的意思是环境。	This is my environment.	代词|动词|代词|名词	这|是|我的|环境
+3	"ice"的意思是冰。	I have a new ice.	代词|动词|冠词|形容词|名词	我|有|一个|新的|冰
+3	"kill"的意思是杀死。	Where is the kill?	疑问词|动词|冠词|名词	哪里|是|这个|杀死
+3	"low"的意思是低的。	The cat is low.	冠词|名词|动词|形容词	这个|猫|是|低的
+3	"penguin"的意思是企鹅。	I can see a penguin.	代词|情态动词|动词|冠词|名词	我|能|看见|一个|企鹅
+3	"protect"的意思是保护。	The protect is very nice.	冠词|名词|动词|副词|形容词	这个|保护|是|非常|好的
+3	"recycle"的意思是回收利用。	I like this recycle.	代词|动词|代词|名词	我|喜欢|这|回收利用
+3	"reuse"的意思是再使用。	I like to reuse.	代词|动词|介词|动词	我|喜欢|到|再使用
+3	"sadly"的意思是伤心地。	He runs sadly.	代词|动词|副词	他|跑|伤心地
+3	"salt"的意思是盐。	I have a new salt.	代词|动词|冠词|形容词|名词	我|有|一个|新的|盐
+3	"shade"的意思是荫。	Where is the shade?	疑问词|动词|冠词|名词	哪里|是|这个|荫
+3	"soil"的意思是土壤。	Do you like the soil?	动词|代词|动词|冠词|名词	做|你|喜欢|这个|土壤
+3	"string"的意思是细绳。	I string every day.	代词|动词|限定词|名词	我|细绳|每个|天
+3	"waste"的意思是浪费。	The waste is very nice.	冠词|名词|动词|副词|形容词	这个|浪费|是|非常|好的
+3	"young"的意思是年轻的。	It is young and big.	代词|动词|形容词|连词|形容词	它|是|年轻的|和|大的
+4	"past"的意思是过。	Look at the past.	动词|介词|冠词|名词	看|在|这个|过
+4	"really"的意思是当真。	It really rains in spring.	代词|副词|名词|介词|名词	它|当真|rains|在|春天
+4	"swallow"的意思是咽下。	I have a new swallow.	代词|动词|冠词|形容词|名词	我|有|一个|新的|咽下
+4	"trick"的意思是花招。	Where is the trick?	疑问词|动词|冠词|名词	哪里|是|这个|花招
+4	"bite"的意思是咬。	Do you like the bite?	动词|代词|动词|冠词|名词	做|你|喜欢|这个|咬
+4	"block"的意思是大块。	I can see a block.	代词|情态动词|动词|冠词|名词	我|能|看见|一个|大块
+4	"building block"的意思是积木。	I like the building block.	代词|动词|冠词|名词|名词	我|喜欢|这个|建筑|block
+4	"camp"的意思是露营。	I like this camp.	代词|动词|代词|名词	我|喜欢|这|露营
+4	"cough"的意思是咳嗽。	Look at the cough.	动词|介词|冠词|名词	看|在|这个|咳嗽
+4	"deliver"的意思是投递。	We deliver at school.	代词|动词|介词|名词	我们|投递|在|学校
+4	"happen"的意思是发生。	I have a new happen.	代词|动词|冠词|形容词|名词	我|有|一个|新的|发生
+4	"hook"的意思是钩。	They hook in the park.	代词|动词|介词|冠词|名词	他们|钩|在|这个|公园
+4	"inside"的意思是在里面。	The cat is inside.	冠词|名词|动词|形容词	这个|猫|是|在里面
+4	"knife"的意思是小刀。	I can see a knife.	代词|情态动词|动词|冠词|名词	我|能|看见|一个|小刀
+4	"magic trick"的意思是魔术。	I like the magic trick.	代词|动词|冠词|名词|名词	我|喜欢|这个|magic|trick
+4	"magician"的意思是魔术师。	I like this magician.	代词|动词|代词|名词	我|喜欢|这|魔术师
+4	"news"的意思是新闻。	Look at the news.	动词|介词|冠词|名词	看|在|这个|新闻
+4	"paw"的意思是（动物的）爪子。	This is my paw.	代词|动词|代词|名词	这|是|我的|（动物的）爪子
+4	"splash"的意思是扑通( 象声词)。	I have a new splash.	代词|动词|冠词|形容词|名词	我|有|一个|新的|扑通( 象声词)
+4	"sting"的意思是刺。	Where is the sting?	疑问词|动词|冠词|名词	哪里|是|这个|刺
+4	"tent"的意思是帐篷。	Do you like the tent?	动词|代词|动词|冠词|名词	做|你|喜欢|这个|帐篷
+4	"world"的意思是世界。	I can see a world.	代词|情态动词|动词|冠词|名词	我|能|看见|一个|世界
+4	"yelp"的意思是（因疼痛等）叫喊。	Let us yelp together.	动词|代词|动词|副词	让|我们|（因疼痛等）叫喊|一起
+4	"magic"的意思是有魔力的。	It is magic and big.	代词|动词|形容词|连词|形容词	它|是|有魔力的|和|大的

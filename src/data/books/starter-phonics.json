@@ -9,7 +9,7 @@
   "edition": "L0 · 自然拼读",
   "stage": "starter",
   "wordCount": 26,
-  "sentenceCount": 24,
+  "sentenceCount": 26,
   "updatedAt": "2026-11-22",
   "units": [
     {
@@ -503,12 +503,27 @@
     {
       "id": "starter-phonics-u1-s01",
       "unit": 1,
-      "cn": "一只猫。",
-      "en": "A cat.",
+      "cn": "\"cat\"的意思是猫。",
+      "en": "I can see a cat.",
       "tokens": [
         {
-          "en": "A",
-          "cn": "一只",
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
           "pos": "冠词"
         },
         {
@@ -521,30 +536,83 @@
     {
       "id": "starter-phonics-u1-s02",
       "unit": 1,
-      "cn": "我的帽子。",
-      "en": "My hat.",
+      "cn": "\"hat\"的意思是帽子。",
+      "en": "The hat is very nice.",
       "tokens": [
         {
-          "en": "My",
-          "cn": "我的",
-          "pos": "代词"
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
         },
         {
-          "en": "hat.",
+          "en": "hat",
           "cn": "帽子",
           "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "nice.",
+          "cn": "好的",
+          "pos": "形容词"
         }
       ]
     },
     {
       "id": "starter-phonics-u1-s03",
       "unit": 1,
-      "cn": "一张地图。",
-      "en": "A map.",
+      "cn": "\"bat\"的意思是蝙蝠。",
+      "en": "I like this bat.",
       "tokens": [
         {
-          "en": "A",
-          "cn": "一张",
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "bat.",
+          "cn": "蝙蝠",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u1-s04",
+      "unit": 1,
+      "cn": "\"map\"的意思是地图。",
+      "en": "Look at the map.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
           "pos": "冠词"
         },
         {
@@ -555,14 +623,14 @@
       ]
     },
     {
-      "id": "starter-phonics-u1-s04",
-      "unit": 1,
-      "cn": "这是一只猫。",
-      "en": "It is a cat.",
+      "id": "starter-phonics-u2-s01",
+      "unit": 2,
+      "cn": "\"bed\"的意思是床。",
+      "en": "This is my bed.",
       "tokens": [
         {
-          "en": "It",
-          "cn": "它",
+          "en": "This",
+          "cn": "这",
           "pos": "代词"
         },
         {
@@ -571,32 +639,9 @@
           "pos": "动词"
         },
         {
-          "en": "a",
-          "cn": "一只",
-          "pos": "冠词"
-        },
-        {
-          "en": "cat.",
-          "cn": "猫",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "starter-phonics-u2-s01",
-      "unit": 2,
-      "cn": "一张红色的床。",
-      "en": "A red bed.",
-      "tokens": [
-        {
-          "en": "A",
-          "cn": "一张",
-          "pos": "冠词"
-        },
-        {
-          "en": "red",
-          "cn": "红色的",
-          "pos": "形容词"
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
         },
         {
           "en": "bed.",
@@ -608,17 +653,32 @@
     {
       "id": "starter-phonics-u2-s02",
       "unit": 2,
-      "cn": "十支钢笔。",
-      "en": "Ten pens.",
+      "cn": "\"red\"的意思是红色。",
+      "en": "We have a red day.",
       "tokens": [
         {
-          "en": "Ten",
-          "cn": "十支",
-          "pos": "数词"
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
         },
         {
-          "en": "pens.",
-          "cn": "钢笔",
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "red",
+          "cn": "红色",
+          "pos": "形容词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
           "pos": "名词"
         }
       ]
@@ -626,18 +686,13 @@
     {
       "id": "starter-phonics-u2-s03",
       "unit": 2,
-      "cn": "我的床是红色的。",
-      "en": "My bed is red.",
+      "cn": "\"pen\"的意思是钢笔。",
+      "en": "Where is the pen?",
       "tokens": [
         {
-          "en": "My",
-          "cn": "我的",
-          "pos": "代词"
-        },
-        {
-          "en": "bed",
-          "cn": "床",
-          "pos": "名词"
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
         },
         {
           "en": "is",
@@ -645,22 +700,32 @@
           "pos": "动词"
         },
         {
-          "en": "red.",
-          "cn": "红色的",
-          "pos": "形容词"
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "pen?",
+          "cn": "钢笔",
+          "pos": "名词"
         }
       ]
     },
     {
       "id": "starter-phonics-u2-s04",
       "unit": 2,
-      "cn": "这是一支钢笔。",
-      "en": "It is a pen.",
+      "cn": "\"ten\"的意思是十。",
+      "en": "The ten is my lucky number.",
       "tokens": [
         {
-          "en": "It",
-          "cn": "它",
-          "pos": "代词"
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "ten",
+          "cn": "十",
+          "pos": "数词"
         },
         {
           "en": "is",
@@ -668,13 +733,18 @@
           "pos": "动词"
         },
         {
-          "en": "a",
-          "cn": "一支",
-          "pos": "冠词"
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
         },
         {
-          "en": "pen.",
-          "cn": "钢笔",
+          "en": "lucky",
+          "cn": "幸运的",
+          "pos": "形容词"
+        },
+        {
+          "en": "number.",
+          "cn": "数字",
           "pos": "名词"
         }
       ]
@@ -682,18 +752,28 @@
     {
       "id": "starter-phonics-u3-s01",
       "unit": 3,
-      "cn": "一只大猪。",
-      "en": "A big pig.",
+      "cn": "\"pig\"的意思是猪。",
+      "en": "I can see a pig.",
       "tokens": [
         {
-          "en": "A",
-          "cn": "一只",
-          "pos": "冠词"
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
         },
         {
-          "en": "big",
-          "cn": "大的",
-          "pos": "形容词"
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
         },
         {
           "en": "pig.",
@@ -705,64 +785,23 @@
     {
       "id": "starter-phonics-u3-s02",
       "unit": 3,
-      "cn": "六只猪。",
-      "en": "Six pigs.",
+      "cn": "\"big\"的意思是大的。",
+      "en": "She is very big.",
       "tokens": [
         {
-          "en": "Six",
-          "cn": "六只",
-          "pos": "数词"
-        },
-        {
-          "en": "pigs.",
-          "cn": "猪",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "starter-phonics-u3-s03",
-      "unit": 3,
-      "cn": "请坐下。",
-      "en": "Sit down please.",
-      "tokens": [
-        {
-          "en": "Sit",
-          "cn": "坐",
-          "pos": "动词"
-        },
-        {
-          "en": "down",
-          "cn": "下",
-          "pos": "副词"
-        },
-        {
-          "en": "please.",
-          "cn": "请",
-          "pos": "副词"
-        }
-      ]
-    },
-    {
-      "id": "starter-phonics-u3-s04",
-      "unit": 3,
-      "cn": "那只猪很大。",
-      "en": "The pig is big.",
-      "tokens": [
-        {
-          "en": "The",
-          "cn": "那只",
-          "pos": "冠词"
-        },
-        {
-          "en": "pig",
-          "cn": "猪",
-          "pos": "名词"
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
         },
         {
           "en": "is",
           "cn": "是",
           "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
         },
         {
           "en": "big.",
@@ -772,38 +811,71 @@
       ]
     },
     {
-      "id": "starter-phonics-u4-s01",
-      "unit": 4,
-      "cn": "一个盒子。",
-      "en": "A box.",
+      "id": "starter-phonics-u3-s03",
+      "unit": 3,
+      "cn": "\"six\"的意思是六。",
+      "en": "I have six friends.",
       "tokens": [
         {
-          "en": "A",
-          "cn": "一个",
-          "pos": "冠词"
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
         },
         {
-          "en": "box.",
-          "cn": "盒子",
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "six",
+          "cn": "六",
+          "pos": "数词"
+        },
+        {
+          "en": "friends.",
+          "cn": "朋友",
           "pos": "名词"
         }
       ]
     },
     {
-      "id": "starter-phonics-u4-s02",
-      "unit": 4,
-      "cn": "这只狗很热。",
-      "en": "The dog is hot.",
+      "id": "starter-phonics-u3-s04",
+      "unit": 3,
+      "cn": "\"sit\"的意思是坐。",
+      "en": "I like to sit.",
       "tokens": [
         {
-          "en": "The",
-          "cn": "这只",
-          "pos": "冠词"
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
         },
         {
-          "en": "dog",
-          "cn": "狗",
-          "pos": "名词"
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "sit.",
+          "cn": "坐",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u4-s01",
+      "unit": 4,
+      "cn": "\"dog\"的意思是狗。",
+      "en": "This is my dog.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
         },
         {
           "en": "is",
@@ -811,65 +883,9 @@
           "pos": "动词"
         },
         {
-          "en": "hot.",
-          "cn": "热的",
-          "pos": "形容词"
-        }
-      ]
-    },
-    {
-      "id": "starter-phonics-u4-s03",
-      "unit": 4,
-      "cn": "狐狸在盒子里。",
-      "en": "The fox is in the box.",
-      "tokens": [
-        {
-          "en": "The",
-          "cn": "那只",
-          "pos": "冠词"
-        },
-        {
-          "en": "fox",
-          "cn": "狐狸",
-          "pos": "名词"
-        },
-        {
-          "en": "is",
-          "cn": "在",
-          "pos": "动词"
-        },
-        {
-          "en": "in",
-          "cn": "（里面）",
-          "pos": "介词"
-        },
-        {
-          "en": "the",
-          "cn": "那个",
-          "pos": "冠词"
-        },
-        {
-          "en": "box.",
-          "cn": "盒子",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "starter-phonics-u4-s04",
-      "unit": 4,
-      "cn": "一只热狗。",
-      "en": "A hot dog.",
-      "tokens": [
-        {
-          "en": "A",
-          "cn": "一只",
-          "pos": "冠词"
-        },
-        {
-          "en": "hot",
-          "cn": "热的",
-          "pos": "形容词"
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
         },
         {
           "en": "dog.",
@@ -879,13 +895,127 @@
       ]
     },
     {
-      "id": "starter-phonics-u5-s01",
-      "unit": 5,
-      "cn": "一个杯子。",
-      "en": "A cup.",
+      "id": "starter-phonics-u4-s02",
+      "unit": 4,
+      "cn": "\"box\"的意思是盒子。",
+      "en": "I have a new box.",
       "tokens": [
         {
-          "en": "A",
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "box.",
+          "cn": "盒子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u4-s03",
+      "unit": 4,
+      "cn": "\"hot\"的意思是热的。",
+      "en": "My hot bag is new.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "hot",
+          "cn": "热的",
+          "pos": "形容词"
+        },
+        {
+          "en": "bag",
+          "cn": "袋子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "new.",
+          "cn": "新的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u4-s04",
+      "unit": 4,
+      "cn": "\"fox\"的意思是狐狸。",
+      "en": "Do you like the fox?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "fox?",
+          "cn": "狐狸",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u5-s01",
+      "unit": 5,
+      "cn": "\"cup\"的意思是杯子。",
+      "en": "I can see a cup.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
           "cn": "一个",
           "pos": "冠词"
         },
@@ -899,35 +1029,17 @@
     {
       "id": "starter-phonics-u5-s02",
       "unit": 5,
-      "cn": "一辆公交车。",
-      "en": "A bus.",
-      "tokens": [
-        {
-          "en": "A",
-          "cn": "一辆",
-          "pos": "冠词"
-        },
-        {
-          "en": "bus.",
-          "cn": "公交车",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "starter-phonics-u5-s03",
-      "unit": 5,
-      "cn": "太阳升起来了。",
-      "en": "The sun is up.",
+      "cn": "\"bus\"的意思是公交车。",
+      "en": "The bus is very nice.",
       "tokens": [
         {
           "en": "The",
-          "cn": "那个",
+          "cn": "这个",
           "pos": "冠词"
         },
         {
-          "en": "sun",
-          "cn": "太阳",
+          "en": "bus",
+          "cn": "公交车",
           "pos": "名词"
         },
         {
@@ -936,22 +1048,65 @@
           "pos": "动词"
         },
         {
-          "en": "up.",
-          "cn": "起来",
+          "en": "very",
+          "cn": "非常",
           "pos": "副词"
+        },
+        {
+          "en": "nice.",
+          "cn": "好的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u5-s03",
+      "unit": 5,
+      "cn": "\"sun\"的意思是太阳。",
+      "en": "I like this sun.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "sun.",
+          "cn": "太阳",
+          "pos": "名词"
         }
       ]
     },
     {
       "id": "starter-phonics-u5-s04",
       "unit": 5,
-      "cn": "我跑。",
-      "en": "I run.",
+      "cn": "\"run\"的意思是跑。",
+      "en": "I like to run.",
       "tokens": [
         {
           "en": "I",
           "cn": "我",
           "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
         },
         {
           "en": "run.",
@@ -963,12 +1118,134 @@
     {
       "id": "starter-phonics-u6-s01",
       "unit": 6,
-      "cn": "你是我的朋友。",
-      "en": "You are my friend.",
+      "cn": "\"I\"的意思是我。",
+      "en": "This is for i.",
       "tokens": [
         {
-          "en": "You",
-          "cn": "你",
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "i.",
+          "cn": "我",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u6-s02",
+      "unit": 6,
+      "cn": "\"a\"的意思是一个。",
+      "en": "I have a new a.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "a.",
+          "cn": "一个",
+          "pos": "冠词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u6-s03",
+      "unit": 6,
+      "cn": "\"the\"的意思是这个。",
+      "en": "Where is the the?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "the?",
+          "cn": "这个",
+          "pos": "冠词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u6-s04",
+      "unit": 6,
+      "cn": "\"is\"的意思是是。",
+      "en": "She can is very well.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "well.",
+          "cn": "好",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "starter-phonics-u6-s05",
+      "unit": 6,
+      "cn": "\"my\"的意思是我的。",
+      "en": "My are my friend.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
           "pos": "代词"
         },
         {
@@ -989,38 +1266,10 @@
       ]
     },
     {
-      "id": "starter-phonics-u6-s02",
+      "id": "starter-phonics-u6-s06",
       "unit": 6,
-      "cn": "这是我的杯子。",
-      "en": "This is my cup.",
-      "tokens": [
-        {
-          "en": "This",
-          "cn": "这",
-          "pos": "代词"
-        },
-        {
-          "en": "is",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "my",
-          "cn": "我的",
-          "pos": "代词"
-        },
-        {
-          "en": "cup.",
-          "cn": "杯子",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "starter-phonics-u6-s03",
-      "unit": 6,
-      "cn": "我喜欢这个。",
-      "en": "I like this.",
+      "cn": "\"you\"的意思是你。",
+      "en": "I like you.",
       "tokens": [
         {
           "en": "I",
@@ -1033,37 +1282,9 @@
           "pos": "动词"
         },
         {
-          "en": "this.",
-          "cn": "这个",
+          "en": "you.",
+          "cn": "你",
           "pos": "代词"
-        }
-      ]
-    },
-    {
-      "id": "starter-phonics-u6-s04",
-      "unit": 6,
-      "cn": "那是你的帽子。",
-      "en": "That is your hat.",
-      "tokens": [
-        {
-          "en": "That",
-          "cn": "那",
-          "pos": "代词"
-        },
-        {
-          "en": "is",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "your",
-          "cn": "你的",
-          "pos": "代词"
-        },
-        {
-          "en": "hat.",
-          "cn": "帽子",
-          "pos": "名词"
         }
       ]
     }

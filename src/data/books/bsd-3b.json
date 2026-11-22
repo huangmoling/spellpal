@@ -9,7 +9,7 @@
   "edition": "2025 春 · 新课标修订版",
   "stage": "primary",
   "wordCount": 100,
-  "sentenceCount": 3,
+  "sentenceCount": 100,
   "updatedAt": "2026-11-22",
   "units": [
     {
@@ -1870,10 +1870,492 @@
   ],
   "sentences": [
     {
-      "id": "bsd-3b-u3-s01",
-      "unit": 3,
-      "cn": "这是一个农场；养殖场。",
-      "en": "This is a farm.",
+      "id": "bsd-3b-u1-s01",
+      "unit": 1,
+      "cn": "\"Happy Birthday!\"的意思是生日快乐！。",
+      "en": "He is happy birthday!.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "他",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "happy",
+          "cn": "快乐的",
+          "pos": "形容词"
+        },
+        {
+          "en": "birthday!.",
+          "cn": "生日",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s02",
+      "unit": 1,
+      "cn": "\"How old ...?\"的意思是（某人）几岁了?。",
+      "en": "I like the how old ...?.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "how",
+          "cn": "怎样",
+          "pos": "疑问词"
+        },
+        {
+          "en": "old",
+          "cn": "旧的",
+          "pos": "形容词"
+        },
+        {
+          "en": "...?.",
+          "cn": "...?.",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s03",
+      "unit": 1,
+      "cn": "\"grandpa\"的意思是爷爷。",
+      "en": "I like this grandpa.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "grandpa.",
+          "cn": "爷爷",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s04",
+      "unit": 1,
+      "cn": "\"grandma\"的意思是奶奶。",
+      "en": "Look at the grandma.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "grandma.",
+          "cn": "奶奶",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s05",
+      "unit": 1,
+      "cn": "\"one\"的意思是一。",
+      "en": "I can see one birds.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "one",
+          "cn": "一",
+          "pos": "数词"
+        },
+        {
+          "en": "birds.",
+          "cn": "birds",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s06",
+      "unit": 1,
+      "cn": "\"two\"的意思是二。",
+      "en": "There are two books on the desk.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "two",
+          "cn": "二",
+          "pos": "数词"
+        },
+        {
+          "en": "books",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "desk.",
+          "cn": "书桌",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s07",
+      "unit": 1,
+      "cn": "\"three\"的意思是三。",
+      "en": "I have three friends.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "three",
+          "cn": "三",
+          "pos": "数词"
+        },
+        {
+          "en": "friends.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s08",
+      "unit": 1,
+      "cn": "\"four\"的意思是四。",
+      "en": "The four is my lucky number.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "four",
+          "cn": "四",
+          "pos": "数词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "lucky",
+          "cn": "幸运的",
+          "pos": "形容词"
+        },
+        {
+          "en": "number.",
+          "cn": "数字",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s09",
+      "unit": 1,
+      "cn": "\"five\"的意思是五。",
+      "en": "I can see five birds.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "five",
+          "cn": "五",
+          "pos": "数词"
+        },
+        {
+          "en": "birds.",
+          "cn": "birds",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s10",
+      "unit": 1,
+      "cn": "\"six\"的意思是一三四五六七八九十他。",
+      "en": "There are six books on the desk.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "six",
+          "cn": "一三四五六七八九十他",
+          "pos": "数词"
+        },
+        {
+          "en": "books",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "desk.",
+          "cn": "书桌",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s11",
+      "unit": 1,
+      "cn": "\"seven\"的意思是七。",
+      "en": "I have seven friends.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "seven",
+          "cn": "七",
+          "pos": "数词"
+        },
+        {
+          "en": "friends.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s12",
+      "unit": 1,
+      "cn": "\"eight\"的意思是八。",
+      "en": "The eight is my lucky number.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "eight",
+          "cn": "八",
+          "pos": "数词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "lucky",
+          "cn": "幸运的",
+          "pos": "形容词"
+        },
+        {
+          "en": "number.",
+          "cn": "数字",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s13",
+      "unit": 1,
+      "cn": "\"nine\"的意思是九。",
+      "en": "I can see nine birds.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "nine",
+          "cn": "九",
+          "pos": "数词"
+        },
+        {
+          "en": "birds.",
+          "cn": "birds",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s14",
+      "unit": 1,
+      "cn": "\"ten\"的意思是十。",
+      "en": "There are ten books on the desk.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "ten",
+          "cn": "十",
+          "pos": "数词"
+        },
+        {
+          "en": "books",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "desk.",
+          "cn": "书桌",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s15",
+      "unit": 1,
+      "cn": "\"he\"的意思是他。",
+      "en": "This is for he.",
       "tokens": [
         {
           "en": "This",
@@ -1886,13 +2368,1411 @@
           "pos": "动词"
         },
         {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "he.",
+          "cn": "他",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s16",
+      "unit": 1,
+      "cn": "\"colour\"的意思是颜色。",
+      "en": "Do you like the colour?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "colour?",
+          "cn": "颜色",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s17",
+      "unit": 1,
+      "cn": "\"red\"的意思是红色。",
+      "en": "I feel red today.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "feel",
+          "cn": "感觉",
+          "pos": "动词"
+        },
+        {
+          "en": "red",
+          "cn": "红色",
+          "pos": "形容词"
+        },
+        {
+          "en": "today.",
+          "cn": "今天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s18",
+      "unit": 1,
+      "cn": "\"blue\"的意思是蓝色。",
+      "en": "She is very blue.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "blue.",
+          "cn": "蓝色",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s19",
+      "unit": 1,
+      "cn": "\"yellow\"的意思是黄色。",
+      "en": "It is yellow and big.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "yellow",
+          "cn": "黄色",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "big.",
+          "cn": "大的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s20",
+      "unit": 1,
+      "cn": "\"white\"的意思是白色。",
+      "en": "The white one is mine.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "white",
+          "cn": "白色",
+          "pos": "形容词"
+        },
+        {
+          "en": "one",
+          "cn": "一",
+          "pos": "数词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "mine.",
+          "cn": "我的",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s21",
+      "unit": 1,
+      "cn": "\"black\"的意思是黑色。",
+      "en": "This book is black.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "book",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "black.",
+          "cn": "黑色",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s22",
+      "unit": 1,
+      "cn": "\"storybook\"的意思是故事书。",
+      "en": "I have a new storybook.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
           "en": "a",
           "cn": "一个",
           "pos": "冠词"
         },
         {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "storybook.",
+          "cn": "故事书",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s23",
+      "unit": 1,
+      "cn": "\"play sport\"的意思是做运动。",
+      "en": "I play sport at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "动词"
+        },
+        {
+          "en": "sport",
+          "cn": "运动",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s24",
+      "unit": 1,
+      "cn": "\"run\"的意思是跑。",
+      "en": "She can run very well.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "run",
+          "cn": "跑",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "well.",
+          "cn": "好",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s25",
+      "unit": 1,
+      "cn": "\"swim\"的意思是游泳。",
+      "en": "I swim every day.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "swim",
+          "cn": "游泳",
+          "pos": "动词"
+        },
+        {
+          "en": "every",
+          "cn": "每个",
+          "pos": "限定词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u1-s26",
+      "unit": 1,
+      "cn": "\"dance\"的意思是跳舞。",
+      "en": "Let us dance together.",
+      "tokens": [
+        {
+          "en": "Let",
+          "cn": "让",
+          "pos": "动词"
+        },
+        {
+          "en": "us",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "dance",
+          "cn": "跳舞",
+          "pos": "动词"
+        },
+        {
+          "en": "together.",
+          "cn": "一起",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u2-s01",
+      "unit": 2,
+      "cn": "\"plant flowers\"的意思是种花。",
+      "en": "I plant flowers at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "plant",
+          "cn": "种植",
+          "pos": "动词"
+        },
+        {
+          "en": "flowers",
+          "cn": "flowers",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u2-s02",
+      "unit": 2,
+      "cn": "\"ride bikes\"的意思是骑自行车。",
+      "en": "I ride bikes at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "ride",
+          "cn": "骑",
+          "pos": "动词"
+        },
+        {
+          "en": "bikes",
+          "cn": "bikes",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u2-s03",
+      "unit": 2,
+      "cn": "\"aunt\"的意思是姑母。",
+      "en": "This is my aunt.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "aunt.",
+          "cn": "姑母",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u2-s04",
+      "unit": 2,
+      "cn": "\"uncle\"的意思是伯父。",
+      "en": "I have a new uncle.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "uncle.",
+          "cn": "伯父",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u2-s05",
+      "unit": 2,
+      "cn": "\"cousin\"的意思是堂（或表）兄弟。",
+      "en": "Where is the cousin?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "cousin?",
+          "cn": "堂（或表）兄弟",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u2-s06",
+      "unit": 2,
+      "cn": "\"she\"的意思是她。",
+      "en": "I like she.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "she.",
+          "cn": "她",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u2-s07",
+      "unit": 2,
+      "cn": "\"job\"的意思是工作。",
+      "en": "I can see a job.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "job.",
+          "cn": "工作",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u2-s08",
+      "unit": 2,
+      "cn": "\"doctor\"的意思是医生。",
+      "en": "The doctor is very nice.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "doctor",
+          "cn": "医生",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "nice.",
+          "cn": "好的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u2-s09",
+      "unit": 2,
+      "cn": "\"worker\"的意思是工人。",
+      "en": "I like this worker.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "worker.",
+          "cn": "工人",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u2-s10",
+      "unit": 2,
+      "cn": "\"farmer\"的意思是农民。",
+      "en": "Look at the farmer.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "farmer.",
+          "cn": "农民",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u2-s11",
+      "unit": 2,
+      "cn": "\"driver\"的意思是司机。",
+      "en": "This is my driver.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "driver.",
+          "cn": "司机",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u2-s12",
+      "unit": 2,
+      "cn": "\"What's wrong?\"的意思是出了什么事？。",
+      "en": "I like the what's wrong?.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "what's",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "wrong?.",
+          "cn": "错误的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u2-s13",
+      "unit": 2,
+      "cn": "\"happy\"的意思是高兴的。",
+      "en": "My happy bag is new.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "happy",
+          "cn": "高兴的",
+          "pos": "形容词"
+        },
+        {
+          "en": "bag",
+          "cn": "袋子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "new.",
+          "cn": "新的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u2-s14",
+      "unit": 2,
+      "cn": "\"angry\"的意思是发怒的。",
+      "en": "The cat is angry.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "cat",
+          "cn": "猫",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "angry.",
+          "cn": "发怒的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u2-s15",
+      "unit": 2,
+      "cn": "\"tired\"的意思是困倦的。",
+      "en": "I feel tired today.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "feel",
+          "cn": "感觉",
+          "pos": "动词"
+        },
+        {
+          "en": "tired",
+          "cn": "困倦的",
+          "pos": "形容词"
+        },
+        {
+          "en": "today.",
+          "cn": "今天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u2-s16",
+      "unit": 2,
+      "cn": "\"sad\"的意思是伤心的。",
+      "en": "She is very sad.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "sad.",
+          "cn": "伤心的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s01",
+      "unit": 3,
+      "cn": "\"farm\"的意思是农场。",
+      "en": "I like this farm.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
           "en": "farm.",
-          "cn": "farm.",
+          "cn": "农场",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s02",
+      "unit": 3,
+      "cn": "\"animal\"的意思是动物。",
+      "en": "Look at the animal.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "animal.",
+          "cn": "动物",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s03",
+      "unit": 3,
+      "cn": "\"chicken\"的意思是鸡肉。",
+      "en": "This is my chicken.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "chicken.",
+          "cn": "鸡肉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s04",
+      "unit": 3,
+      "cn": "\"sheep\"的意思是羊。",
+      "en": "I have a new sheep.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "sheep.",
+          "cn": "羊",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s05",
+      "unit": 3,
+      "cn": "\"horse\"的意思是母牛。",
+      "en": "Where is the horse?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "horse?",
+          "cn": "母牛",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s06",
+      "unit": 3,
+      "cn": "\"let's=let us\"的意思是让我们。",
+      "en": "I like the let's=let us.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "let's=let",
+          "cn": "let's=let",
+          "pos": "名词"
+        },
+        {
+          "en": "us.",
+          "cn": "我们",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s07",
+      "unit": 3,
+      "cn": "\"go over\"的意思是越过。",
+      "en": "I go over at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "go",
+          "cn": "去",
+          "pos": "动词"
+        },
+        {
+          "en": "over",
+          "cn": "在……上方",
+          "pos": "介词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s08",
+      "unit": 3,
+      "cn": "\"hill\"的意思是小山。",
+      "en": "The hill is very nice.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "hill",
+          "cn": "小山",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "nice.",
+          "cn": "好的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s09",
+      "unit": 3,
+      "cn": "\"river\"的意思是江。",
+      "en": "I like this river.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "river.",
+          "cn": "江",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s10",
+      "unit": 3,
+      "cn": "\"lake\"的意思是湖。",
+      "en": "Look at the lake.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "lake.",
+          "cn": "湖",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s11",
+      "unit": 3,
+      "cn": "\"forest\"的意思是森林。",
+      "en": "This is my forest.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "forest.",
+          "cn": "森林",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s12",
+      "unit": 3,
+      "cn": "\"boat\"的意思是小船。",
+      "en": "I have a new boat.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "boat.",
+          "cn": "小船",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s13",
+      "unit": 3,
+      "cn": "\"spring\"的意思是春天。",
+      "en": "Where is the spring?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "spring?",
+          "cn": "春天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s14",
+      "unit": 3,
+      "cn": "\"summer\"的意思是夏天。",
+      "en": "Do you like the summer?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "summer?",
+          "cn": "夏天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s15",
+      "unit": 3,
+      "cn": "\"autumn\"的意思是秋天。",
+      "en": "I can see a autumn.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "autumn.",
+          "cn": "秋天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s16",
+      "unit": 3,
+      "cn": "\"winter\"的意思是冬天。",
+      "en": "The winter is very nice.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "winter",
+          "cn": "冬天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "nice.",
+          "cn": "好的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s17",
+      "unit": 3,
+      "cn": "\"favourite\"的意思是最喜欢的。",
+      "en": "It is favourite and big.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "favourite",
+          "cn": "最喜欢的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "big.",
+          "cn": "大的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s18",
+      "unit": 3,
+      "cn": "\"season\"的意思是季节。",
+      "en": "Look at the season.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "season.",
+          "cn": "季节",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u3-s19",
+      "unit": 3,
+      "cn": "\"fly kites\"的意思是放风筝。",
+      "en": "I fly kites at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "fly",
+          "cn": "飞",
+          "pos": "动词"
+        },
+        {
+          "en": "kites",
+          "cn": "kites",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
           "pos": "名词"
         }
       ]
@@ -1900,8 +3780,259 @@
     {
       "id": "bsd-3b-u4-s01",
       "unit": 4,
-      "cn": "这是一个旅行。",
-      "en": "This is a travel.",
+      "cn": "\"travel\"的意思是旅行。",
+      "en": "I have a new travel.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "travel.",
+          "cn": "旅行",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u4-s02",
+      "unit": 4,
+      "cn": "\"safe\"的意思是安全的。",
+      "en": "My safe bag is new.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "safe",
+          "cn": "安全的",
+          "pos": "形容词"
+        },
+        {
+          "en": "bag",
+          "cn": "袋子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "new.",
+          "cn": "新的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u4-s03",
+      "unit": 4,
+      "cn": "\"park\"的意思是公园。",
+      "en": "Do you like the park?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "park?",
+          "cn": "公园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u4-s04",
+      "unit": 4,
+      "cn": "\"by bus\"的意思是乘公共汽车。",
+      "en": "It is by bus the house.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "by",
+          "cn": "乘",
+          "pos": "介词"
+        },
+        {
+          "en": "bus",
+          "cn": "公共汽车",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "house.",
+          "cn": "房子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u4-s05",
+      "unit": 4,
+      "cn": "\"on foot\"的意思是步行。",
+      "en": "It is on foot the house.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "foot",
+          "cn": "脚",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "house.",
+          "cn": "房子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u4-s06",
+      "unit": 4,
+      "cn": "\"fast\"的意思是快的。",
+      "en": "It is fast and big.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "fast",
+          "cn": "快的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "big.",
+          "cn": "大的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u4-s07",
+      "unit": 4,
+      "cn": "\"on the way\"的意思是在路上。",
+      "en": "It is on the way the house.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "way",
+          "cn": "方法",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "house.",
+          "cn": "房子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u4-s08",
+      "unit": 4,
+      "cn": "\"we\"的意思是我们。",
+      "en": "This is for we.",
       "tokens": [
         {
           "en": "This",
@@ -1914,13 +4045,356 @@
           "pos": "动词"
         },
         {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "we.",
+          "cn": "我们",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u4-s09",
+      "unit": 4,
+      "cn": "\"plane\"的意思是飞机。",
+      "en": "I have a new plane.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
           "en": "a",
           "cn": "一个",
           "pos": "冠词"
         },
         {
-          "en": "travel.",
-          "cn": "travel.",
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "plane.",
+          "cn": "飞机",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u4-s10",
+      "unit": 4,
+      "cn": "\"ship\"的意思是大船。",
+      "en": "Where is the ship?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "ship?",
+          "cn": "大船",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u4-s11",
+      "unit": 4,
+      "cn": "\"far\"的意思是远的。",
+      "en": "The cat is far.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "cat",
+          "cn": "猫",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "far.",
+          "cn": "远的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u4-s12",
+      "unit": 4,
+      "cn": "\"close\"的意思是接近的。",
+      "en": "I close every day.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "close",
+          "cn": "接近的",
+          "pos": "动词"
+        },
+        {
+          "en": "every",
+          "cn": "每个",
+          "pos": "限定词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u4-s13",
+      "unit": 4,
+      "cn": "\"water\"的意思是水。",
+      "en": "The water is very nice.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "water",
+          "cn": "水",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "nice.",
+          "cn": "好的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u4-s14",
+      "unit": 4,
+      "cn": "\"Excuse me.\"的意思是劳驾。",
+      "en": "I like the excuse me..",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "excuse",
+          "cn": "excuse",
+          "pos": "名词"
+        },
+        {
+          "en": "me..",
+          "cn": "我",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u4-s15",
+      "unit": 4,
+      "cn": "\"shop\"的意思是商店。",
+      "en": "Look at the shop.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "shop.",
+          "cn": "商店",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u4-s16",
+      "unit": 4,
+      "cn": "\"walk along\"的意思是沿着走。",
+      "en": "I walk along at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "walk",
+          "cn": "走",
+          "pos": "动词"
+        },
+        {
+          "en": "along",
+          "cn": "沿着",
+          "pos": "介词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u4-s17",
+      "unit": 4,
+      "cn": "\"street\"的意思是大街。",
+      "en": "I have a new street.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "street.",
+          "cn": "大街",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u4-s18",
+      "unit": 4,
+      "cn": "\"turn right\"的意思是向右转。",
+      "en": "I turn right at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "turn",
+          "cn": "转",
+          "pos": "动词"
+        },
+        {
+          "en": "right",
+          "cn": "右",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u4-s19",
+      "unit": 4,
+      "cn": "\"left\"的意思是左边的。",
+      "en": "Do you like the left?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "left?",
+          "cn": "左边的",
           "pos": "名词"
         }
       ]
@@ -1928,8 +4402,125 @@
     {
       "id": "bsd-3b-u5-s01",
       "unit": 5,
-      "cn": "这是一个爱；喜爱。",
-      "en": "This is a love.",
+      "cn": "\"love\"的意思是爱。",
+      "en": "I love every day.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "love",
+          "cn": "爱",
+          "pos": "动词"
+        },
+        {
+          "en": "every",
+          "cn": "每个",
+          "pos": "限定词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s02",
+      "unit": 5,
+      "cn": "\"China\"的意思是中国。",
+      "en": "The china is very nice.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "china",
+          "cn": "中国",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "nice.",
+          "cn": "好的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s03",
+      "unit": 5,
+      "cn": "\"star\"的意思是星。",
+      "en": "I like this star.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "star.",
+          "cn": "星",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s04",
+      "unit": 5,
+      "cn": "\"sea\"的意思是海。",
+      "en": "Look at the sea.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "sea.",
+          "cn": "海",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s05",
+      "unit": 5,
+      "cn": "\"sky\"的意思是天。",
+      "en": "This is my sky.",
       "tokens": [
         {
           "en": "This",
@@ -1942,14 +4533,489 @@
           "pos": "动词"
         },
         {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "sky.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s06",
+      "unit": 5,
+      "cn": "\"green\"的意思是绿色的。",
+      "en": "We have a green day.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
           "en": "a",
           "cn": "一个",
           "pos": "冠词"
         },
         {
-          "en": "love.",
-          "cn": "love.",
+          "en": "green",
+          "cn": "绿色的",
+          "pos": "形容词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
           "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s07",
+      "unit": 5,
+      "cn": "\"pink\"的意思是粉红色的。",
+      "en": "My pink bag is new.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "pink",
+          "cn": "粉红色的",
+          "pos": "形容词"
+        },
+        {
+          "en": "bag",
+          "cn": "袋子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "new.",
+          "cn": "新的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s08",
+      "unit": 5,
+      "cn": "\"Mrs\"的意思是夫人。",
+      "en": "Do you like the mrs?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "mrs?",
+          "cn": "夫人",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s09",
+      "unit": 5,
+      "cn": "\"some\"的意思是一些。",
+      "en": "I like some of them.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "them.",
+          "cn": "他们",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s10",
+      "unit": 5,
+      "cn": "\"fish\"的意思是鱼。",
+      "en": "The fish is very nice.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "fish",
+          "cn": "鱼",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "nice.",
+          "cn": "好的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s11",
+      "unit": 5,
+      "cn": "\"meat\"的意思是肉。",
+      "en": "I like this meat.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "meat.",
+          "cn": "肉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s12",
+      "unit": 5,
+      "cn": "\"tofu\"的意思是豆腐。",
+      "en": "Look at the tofu.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "tofu.",
+          "cn": "豆腐",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s13",
+      "unit": 5,
+      "cn": "\"vegetable\"的意思是蔬菜。",
+      "en": "This is my vegetable.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "vegetable.",
+          "cn": "蔬菜",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s14",
+      "unit": 5,
+      "cn": "\"Chinese\"的意思是中国的。",
+      "en": "I have a new chinese.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "chinese.",
+          "cn": "中国的",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s15",
+      "unit": 5,
+      "cn": "\"food\"的意思是食物。",
+      "en": "Where is the food?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "food?",
+          "cn": "食物",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s16",
+      "unit": 5,
+      "cn": "\"homeland\"的意思是祖国。",
+      "en": "Do you like the homeland?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "homeland?",
+          "cn": "祖国",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s17",
+      "unit": 5,
+      "cn": "\"the Great Wall\"的意思是长城。",
+      "en": "I like the the great wall.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "great",
+          "cn": "太好了",
+          "pos": "形容词"
+        },
+        {
+          "en": "wall.",
+          "cn": "墙",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s18",
+      "unit": 5,
+      "cn": "\"city\"的意思是城市。",
+      "en": "The city is very nice.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "city",
+          "cn": "城市",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "nice.",
+          "cn": "好的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s19",
+      "unit": 5,
+      "cn": "\"place\"的意思是地方。",
+      "en": "I like this place.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "place.",
+          "cn": "地方",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-3b-u5-s20",
+      "unit": 5,
+      "cn": "\"lots of\"的意思是大量。",
+      "en": "I like the lots of.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "lots",
+          "cn": "lots",
+          "pos": "名词"
+        },
+        {
+          "en": "of.",
+          "cn": "的",
+          "pos": "介词"
         }
       ]
     }

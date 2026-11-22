@@ -9,7 +9,7 @@
   "edition": "L3 · 主题词",
   "stage": "starter",
   "wordCount": 45,
-  "sentenceCount": 30,
+  "sentenceCount": 45,
   "updatedAt": "2026-11-22",
   "units": [
     {
@@ -827,27 +827,32 @@
     {
       "id": "pep-1start-1b-u1-s01",
       "unit": 1,
-      "cn": "书在哪里？",
-      "en": "Where is the book?",
+      "cn": "\"blackboard\"的意思是黑板。",
+      "en": "I can see a blackboard.",
       "tokens": [
         {
-          "en": "Where",
-          "cn": "哪里",
-          "pos": "副词"
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
         },
         {
-          "en": "is",
-          "cn": "是",
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
           "pos": "动词"
         },
         {
-          "en": "the",
-          "cn": "那本",
+          "en": "a",
+          "cn": "一个",
           "pos": "冠词"
         },
         {
-          "en": "book?",
-          "cn": "书",
+          "en": "blackboard.",
+          "cn": "黑板",
           "pos": "名词"
         }
       ]
@@ -855,78 +860,12 @@
     {
       "id": "pep-1start-1b-u1-s02",
       "unit": 1,
-      "cn": "它在书桌上。",
-      "en": "It is on the desk.",
-      "tokens": [
-        {
-          "en": "It",
-          "cn": "它",
-          "pos": "代词"
-        },
-        {
-          "en": "is",
-          "cn": "在",
-          "pos": "动词"
-        },
-        {
-          "en": "on",
-          "cn": "（上面）",
-          "pos": "介词"
-        },
-        {
-          "en": "the",
-          "cn": "那张",
-          "pos": "冠词"
-        },
-        {
-          "en": "desk.",
-          "cn": "书桌",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "pep-1start-1b-u1-s03",
-      "unit": 1,
-      "cn": "它在书包里。",
-      "en": "It is in the schoolbag.",
-      "tokens": [
-        {
-          "en": "It",
-          "cn": "它",
-          "pos": "代词"
-        },
-        {
-          "en": "is",
-          "cn": "在",
-          "pos": "动词"
-        },
-        {
-          "en": "in",
-          "cn": "（里面）",
-          "pos": "介词"
-        },
-        {
-          "en": "the",
-          "cn": "那个",
-          "pos": "冠词"
-        },
-        {
-          "en": "schoolbag.",
-          "cn": "书包",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "pep-1start-1b-u1-s04",
-      "unit": 1,
-      "cn": "椅子在书桌下面。",
-      "en": "The chair is under the desk.",
+      "cn": "\"chair\"的意思是椅子。",
+      "en": "The chair is very nice.",
       "tokens": [
         {
           "en": "The",
-          "cn": "那把",
+          "cn": "这个",
           "pos": "冠词"
         },
         {
@@ -936,17 +875,111 @@
         },
         {
           "en": "is",
-          "cn": "在",
+          "cn": "是",
           "pos": "动词"
         },
         {
-          "en": "under",
-          "cn": "（下面）",
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "nice.",
+          "cn": "好的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u1-s03",
+      "unit": 1,
+      "cn": "\"desk\"的意思是书桌。",
+      "en": "I like this desk.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "desk.",
+          "cn": "书桌",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u1-s04",
+      "unit": 1,
+      "cn": "\"in\"的意思是在…里。",
+      "en": "She is in home now.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在…里",
+          "pos": "介词"
+        },
+        {
+          "en": "home",
+          "cn": "家",
+          "pos": "名词"
+        },
+        {
+          "en": "now.",
+          "cn": "现在",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u1-s05",
+      "unit": 1,
+      "cn": "\"on\"的意思是在…上。",
+      "en": "The book is on the desk.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "book",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在…上",
           "pos": "介词"
         },
         {
           "en": "the",
-          "cn": "那张",
+          "cn": "这个",
           "pos": "冠词"
         },
         {
@@ -957,20 +990,48 @@
       ]
     },
     {
-      "id": "pep-1start-1b-u1-s05",
+      "id": "pep-1start-1b-u1-s06",
       "unit": 1,
-      "cn": "黑板很大。",
-      "en": "The blackboard is big.",
+      "cn": "\"under\"的意思是在…下面。",
+      "en": "I sit under my friend.",
       "tokens": [
         {
-          "en": "The",
-          "cn": "那块",
-          "pos": "冠词"
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
         },
         {
-          "en": "blackboard",
-          "cn": "黑板",
+          "en": "sit",
+          "cn": "坐",
+          "pos": "动词"
+        },
+        {
+          "en": "under",
+          "cn": "在…下面",
+          "pos": "介词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "friend.",
+          "cn": "朋友",
           "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u1-s07",
+      "unit": 1,
+      "cn": "\"the\"的意思是这个。",
+      "en": "Where is the the?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
         },
         {
           "en": "is",
@@ -978,117 +1039,74 @@
           "pos": "动词"
         },
         {
-          "en": "big.",
-          "cn": "大的",
-          "pos": "形容词"
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "the?",
+          "cn": "这个",
+          "pos": "冠词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u1-s08",
+      "unit": 1,
+      "cn": "\"where\"的意思是哪里。",
+      "en": "Do you like the where?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "where?",
+          "cn": "哪里",
+          "pos": "疑问词"
         }
       ]
     },
     {
       "id": "pep-1start-1b-u2-s01",
       "unit": 2,
-      "cn": "猫在门后面。",
-      "en": "The cat is behind the door.",
+      "cn": "\"bed\"的意思是床。",
+      "en": "I can see a bed.",
       "tokens": [
         {
-          "en": "The",
-          "cn": "那只",
-          "pos": "冠词"
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
         },
         {
-          "en": "cat",
-          "cn": "猫",
-          "pos": "名词"
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
         },
         {
-          "en": "is",
-          "cn": "在",
+          "en": "see",
+          "cn": "看见",
           "pos": "动词"
         },
         {
-          "en": "behind",
-          "cn": "（后面）",
-          "pos": "介词"
-        },
-        {
-          "en": "the",
-          "cn": "那扇",
-          "pos": "冠词"
-        },
-        {
-          "en": "door.",
-          "cn": "门",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "pep-1start-1b-u2-s02",
-      "unit": 2,
-      "cn": "球在盒子附近。",
-      "en": "The ball is near the box.",
-      "tokens": [
-        {
-          "en": "The",
-          "cn": "那个",
-          "pos": "冠词"
-        },
-        {
-          "en": "ball",
-          "cn": "球",
-          "pos": "名词"
-        },
-        {
-          "en": "is",
-          "cn": "在",
-          "pos": "动词"
-        },
-        {
-          "en": "near",
-          "cn": "（附近）",
-          "pos": "介词"
-        },
-        {
-          "en": "the",
-          "cn": "那个",
-          "pos": "冠词"
-        },
-        {
-          "en": "box.",
-          "cn": "盒子",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "pep-1start-1b-u2-s03",
-      "unit": 2,
-      "cn": "灯在床边。",
-      "en": "The light is near the bed.",
-      "tokens": [
-        {
-          "en": "The",
-          "cn": "那盏",
-          "pos": "冠词"
-        },
-        {
-          "en": "light",
-          "cn": "灯",
-          "pos": "名词"
-        },
-        {
-          "en": "is",
-          "cn": "在",
-          "pos": "动词"
-        },
-        {
-          "en": "near",
-          "cn": "（附近）",
-          "pos": "介词"
-        },
-        {
-          "en": "the",
-          "cn": "那张",
+          "en": "a",
+          "cn": "一个",
           "pos": "冠词"
         },
         {
@@ -1099,47 +1117,263 @@
       ]
     },
     {
-      "id": "pep-1start-1b-u2-s04",
+      "id": "pep-1start-1b-u2-s02",
       "unit": 2,
-      "cn": "我的床很大。",
-      "en": "My bed is big.",
+      "cn": "\"behind\"的意思是在后面。",
+      "en": "I sit behind my friend.",
       "tokens": [
         {
-          "en": "My",
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "sit",
+          "cn": "坐",
+          "pos": "动词"
+        },
+        {
+          "en": "behind",
+          "cn": "在后面",
+          "pos": "介词"
+        },
+        {
+          "en": "my",
           "cn": "我的",
           "pos": "代词"
         },
         {
-          "en": "bed",
-          "cn": "床",
+          "en": "friend.",
+          "cn": "朋友",
           "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u2-s03",
+      "unit": 2,
+      "cn": "\"box\"的意思是盒。",
+      "en": "I like this box.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
         },
         {
-          "en": "is",
-          "cn": "是",
+          "en": "like",
+          "cn": "喜欢",
           "pos": "动词"
         },
         {
-          "en": "big.",
-          "cn": "大的",
-          "pos": "形容词"
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "box.",
+          "cn": "盒",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u2-s04",
+      "unit": 2,
+      "cn": "\"door\"的意思是门。",
+      "en": "Look at the door.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "door.",
+          "cn": "门",
+          "pos": "名词"
         }
       ]
     },
     {
       "id": "pep-1start-1b-u2-s05",
       "unit": 2,
-      "cn": "门在这里。",
-      "en": "The door is here.",
+      "cn": "\"light\"的意思是电灯。",
+      "en": "This is my light.",
       "tokens": [
         {
-          "en": "The",
-          "cn": "那扇",
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "light.",
+          "cn": "电灯",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u2-s06",
+      "unit": 2,
+      "cn": "\"near\"的意思是附近。",
+      "en": "I sit near my friend.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "sit",
+          "cn": "坐",
+          "pos": "动词"
+        },
+        {
+          "en": "near",
+          "cn": "附近",
+          "pos": "介词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "friend.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u3-s01",
+      "unit": 3,
+      "cn": "\"ball\"的意思是球。",
+      "en": "Where is the ball?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
           "pos": "冠词"
         },
         {
-          "en": "door",
-          "cn": "门",
+          "en": "ball?",
+          "cn": "球",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u3-s02",
+      "unit": 3,
+      "cn": "\"bear\"的意思是熊。",
+      "en": "Do you like the bear?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "bear?",
+          "cn": "熊",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u3-s03",
+      "unit": 3,
+      "cn": "\"car\"的意思是小汽车。",
+      "en": "I can see a car.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "car.",
+          "cn": "小汽车",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u3-s04",
+      "unit": 3,
+      "cn": "\"doll\"的意思是洋娃娃。",
+      "en": "The doll is very nice.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "doll",
+          "cn": "洋娃娃",
           "pos": "名词"
         },
         {
@@ -1148,21 +1382,110 @@
           "pos": "动词"
         },
         {
-          "en": "here.",
-          "cn": "这里",
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "nice.",
+          "cn": "好的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u3-s05",
+      "unit": 3,
+      "cn": "\"plane\"的意思是飞机。",
+      "en": "I like this plane.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "plane.",
+          "cn": "飞机",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u3-s06",
+      "unit": 3,
+      "cn": "\"train\"的意思是火车。",
+      "en": "Look at the train.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "train.",
+          "cn": "火车",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u3-s07",
+      "unit": 3,
+      "cn": "\"can\"的意思是能。",
+      "en": "We can go now.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "go",
+          "cn": "去",
+          "pos": "动词"
+        },
+        {
+          "en": "now.",
+          "cn": "现在",
           "pos": "副词"
         }
       ]
     },
     {
-      "id": "pep-1start-1b-u3-s01",
+      "id": "pep-1start-1b-u3-s08",
       "unit": 3,
-      "cn": "我有一个球。",
-      "en": "I have a ball.",
+      "cn": "\"sorry\"的意思是对不起。",
+      "en": "We have a sorry day.",
       "tokens": [
         {
-          "en": "I",
-          "cn": "我",
+          "en": "We",
+          "cn": "我们",
           "pos": "代词"
         },
         {
@@ -1176,17 +1499,210 @@
           "pos": "冠词"
         },
         {
-          "en": "ball.",
-          "cn": "球",
+          "en": "sorry",
+          "cn": "对不起",
+          "pos": "形容词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
           "pos": "名词"
         }
       ]
     },
     {
-      "id": "pep-1start-1b-u3-s02",
+      "id": "pep-1start-1b-u3-s09",
       "unit": 3,
-      "cn": "这是我的小熊。",
-      "en": "This is my bear.",
+      "cn": "\"sure\"的意思是当然。",
+      "en": "My sure bag is new.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "sure",
+          "cn": "当然",
+          "pos": "形容词"
+        },
+        {
+          "en": "bag",
+          "cn": "袋子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "new.",
+          "cn": "新的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u4-s01",
+      "unit": 4,
+      "cn": "\"chicken\"的意思是鸡肉。",
+      "en": "Do you like the chicken?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "chicken?",
+          "cn": "鸡肉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u4-s02",
+      "unit": 4,
+      "cn": "\"egg\"的意思是蛋。",
+      "en": "I can see a egg.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "egg.",
+          "cn": "蛋",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u4-s03",
+      "unit": 4,
+      "cn": "\"fish\"的意思是鱼。",
+      "en": "The fish is very nice.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "fish",
+          "cn": "鱼",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "nice.",
+          "cn": "好的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u4-s04",
+      "unit": 4,
+      "cn": "\"noodles\"的意思是面条。",
+      "en": "I like this noodles.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "noodles.",
+          "cn": "面条",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u4-s05",
+      "unit": 4,
+      "cn": "\"rice\"的意思是米饭。",
+      "en": "Look at the rice.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "rice.",
+          "cn": "米饭",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u4-s06",
+      "unit": 4,
+      "cn": "\"vegetable\"的意思是蔬菜。",
+      "en": "This is my vegetable.",
       "tokens": [
         {
           "en": "This",
@@ -1204,17 +1720,299 @@
           "pos": "代词"
         },
         {
-          "en": "bear.",
-          "cn": "小熊",
+          "en": "vegetable.",
+          "cn": "蔬菜",
           "pos": "名词"
         }
       ]
     },
     {
-      "id": "pep-1start-1b-u3-s03",
-      "unit": 3,
-      "cn": "我喜欢这架飞机。",
-      "en": "I like the plane.",
+      "id": "pep-1start-1b-u4-s07",
+      "unit": 4,
+      "cn": "\"and\"的意思是和。",
+      "en": "We play and we study.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "动词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "we",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "study.",
+          "cn": "学习",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u4-s08",
+      "unit": 4,
+      "cn": "\"hungry\"的意思是饿的。",
+      "en": "My hungry bag is new.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "hungry",
+          "cn": "饿的",
+          "pos": "形容词"
+        },
+        {
+          "en": "bag",
+          "cn": "袋子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "new.",
+          "cn": "新的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u4-s09",
+      "unit": 4,
+      "cn": "\"want\"的意思是要。",
+      "en": "She can want very well.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "want",
+          "cn": "要",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "well.",
+          "cn": "好",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u5-s01",
+      "unit": 5,
+      "cn": "\"juice\"的意思是果汁。",
+      "en": "I can see a juice.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "juice.",
+          "cn": "果汁",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u5-s02",
+      "unit": 5,
+      "cn": "\"milk\"的意思是牛奶。",
+      "en": "The milk is very nice.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "milk",
+          "cn": "牛奶",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "nice.",
+          "cn": "好的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u5-s03",
+      "unit": 5,
+      "cn": "\"tea\"的意思是茶。",
+      "en": "I like this tea.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "tea.",
+          "cn": "茶",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u5-s04",
+      "unit": 5,
+      "cn": "\"water\"的意思是水。",
+      "en": "Look at the water.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "water.",
+          "cn": "水",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u5-s05",
+      "unit": 5,
+      "cn": "\"thanks\"的意思是谢谢。",
+      "en": "This is my thanks.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "thanks.",
+          "cn": "谢谢",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u5-s06",
+      "unit": 5,
+      "cn": "\"thirsty\"的意思是渴的。",
+      "en": "We have a thirsty day.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "thirsty",
+          "cn": "渴的",
+          "pos": "形容词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u6-s01",
+      "unit": 6,
+      "cn": "\"T-shirt\"的意思是T恤。",
+      "en": "I like the t-shirt.",
       "tokens": [
         {
           "en": "I",
@@ -1228,330 +2026,11 @@
         },
         {
           "en": "the",
-          "cn": "那架",
+          "cn": "这个",
           "pos": "冠词"
         },
         {
-          "en": "plane.",
-          "cn": "飞机",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "pep-1start-1b-u3-s04",
-      "unit": 3,
-      "cn": "这是一辆火车。",
-      "en": "This is a train.",
-      "tokens": [
-        {
-          "en": "This",
-          "cn": "这",
-          "pos": "代词"
-        },
-        {
-          "en": "is",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "a",
-          "cn": "一辆",
-          "pos": "冠词"
-        },
-        {
-          "en": "train.",
-          "cn": "火车",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "pep-1start-1b-u3-s05",
-      "unit": 3,
-      "cn": "我很抱歉。",
-      "en": "I am sorry.",
-      "tokens": [
-        {
-          "en": "I",
-          "cn": "我",
-          "pos": "代词"
-        },
-        {
-          "en": "am",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "sorry.",
-          "cn": "抱歉的",
-          "pos": "形容词"
-        }
-      ]
-    },
-    {
-      "id": "pep-1start-1b-u4-s01",
-      "unit": 4,
-      "cn": "我饿了。",
-      "en": "I am hungry.",
-      "tokens": [
-        {
-          "en": "I",
-          "cn": "我",
-          "pos": "代词"
-        },
-        {
-          "en": "am",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "hungry.",
-          "cn": "饿的",
-          "pos": "形容词"
-        }
-      ]
-    },
-    {
-      "id": "pep-1start-1b-u4-s02",
-      "unit": 4,
-      "cn": "我想要米饭。",
-      "en": "I want rice.",
-      "tokens": [
-        {
-          "en": "I",
-          "cn": "我",
-          "pos": "代词"
-        },
-        {
-          "en": "want",
-          "cn": "想要",
-          "pos": "动词"
-        },
-        {
-          "en": "rice.",
-          "cn": "米饭",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "pep-1start-1b-u4-s03",
-      "unit": 4,
-      "cn": "我想要鱼。",
-      "en": "I want fish.",
-      "tokens": [
-        {
-          "en": "I",
-          "cn": "我",
-          "pos": "代词"
-        },
-        {
-          "en": "want",
-          "cn": "想要",
-          "pos": "动词"
-        },
-        {
-          "en": "fish.",
-          "cn": "鱼",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "pep-1start-1b-u4-s04",
-      "unit": 4,
-      "cn": "我想要面条和鸡蛋。",
-      "en": "I want noodles and eggs.",
-      "tokens": [
-        {
-          "en": "I",
-          "cn": "我",
-          "pos": "代词"
-        },
-        {
-          "en": "want",
-          "cn": "想要",
-          "pos": "动词"
-        },
-        {
-          "en": "noodles",
-          "cn": "面条",
-          "pos": "名词"
-        },
-        {
-          "en": "and",
-          "cn": "和",
-          "pos": "连词"
-        },
-        {
-          "en": "eggs.",
-          "cn": "鸡蛋",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "pep-1start-1b-u4-s05",
-      "unit": 4,
-      "cn": "我喜欢蔬菜。",
-      "en": "I like vegetables.",
-      "tokens": [
-        {
-          "en": "I",
-          "cn": "我",
-          "pos": "代词"
-        },
-        {
-          "en": "like",
-          "cn": "喜欢",
-          "pos": "动词"
-        },
-        {
-          "en": "vegetables.",
-          "cn": "蔬菜",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "pep-1start-1b-u5-s01",
-      "unit": 5,
-      "cn": "我渴了。",
-      "en": "I am thirsty.",
-      "tokens": [
-        {
-          "en": "I",
-          "cn": "我",
-          "pos": "代词"
-        },
-        {
-          "en": "am",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "thirsty.",
-          "cn": "渴的",
-          "pos": "形容词"
-        }
-      ]
-    },
-    {
-      "id": "pep-1start-1b-u5-s02",
-      "unit": 5,
-      "cn": "我想要水。",
-      "en": "I want water.",
-      "tokens": [
-        {
-          "en": "I",
-          "cn": "我",
-          "pos": "代词"
-        },
-        {
-          "en": "want",
-          "cn": "想要",
-          "pos": "动词"
-        },
-        {
-          "en": "water.",
-          "cn": "水",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "pep-1start-1b-u5-s03",
-      "unit": 5,
-      "cn": "我想要牛奶。",
-      "en": "I want milk.",
-      "tokens": [
-        {
-          "en": "I",
-          "cn": "我",
-          "pos": "代词"
-        },
-        {
-          "en": "want",
-          "cn": "想要",
-          "pos": "动词"
-        },
-        {
-          "en": "milk.",
-          "cn": "牛奶",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "pep-1start-1b-u5-s04",
-      "unit": 5,
-      "cn": "你想要果汁吗？",
-      "en": "Do you want juice?",
-      "tokens": [
-        {
-          "en": "Do",
-          "cn": "（助动词）",
-          "pos": "助动词"
-        },
-        {
-          "en": "you",
-          "cn": "你",
-          "pos": "代词"
-        },
-        {
-          "en": "want",
-          "cn": "想要",
-          "pos": "动词"
-        },
-        {
-          "en": "juice?",
-          "cn": "果汁",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "pep-1start-1b-u5-s05",
-      "unit": 5,
-      "cn": "谢谢你。",
-      "en": "Thank you.",
-      "tokens": [
-        {
-          "en": "Thank",
-          "cn": "谢谢",
-          "pos": "动词"
-        },
-        {
-          "en": "you.",
-          "cn": "你",
-          "pos": "代词"
-        }
-      ]
-    },
-    {
-      "id": "pep-1start-1b-u6-s01",
-      "unit": 6,
-      "cn": "这是我的T恤。",
-      "en": "This is my T-shirt.",
-      "tokens": [
-        {
-          "en": "This",
-          "cn": "这",
-          "pos": "代词"
-        },
-        {
-          "en": "is",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "my",
-          "cn": "我的",
-          "pos": "代词"
-        },
-        {
-          "en": "T-shirt.",
+          "en": "t-shirt.",
           "cn": "T恤",
           "pos": "名词"
         }
@@ -1560,17 +2039,83 @@
     {
       "id": "pep-1start-1b-u6-s02",
       "unit": 6,
-      "cn": "你的连衣裙很漂亮。",
-      "en": "Your dress is beautiful.",
+      "cn": "\"dress\"的意思是连衣裙。",
+      "en": "Do you like the dress?",
       "tokens": [
         {
-          "en": "Your",
-          "cn": "你的",
+          "en": "Do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
           "pos": "代词"
         },
         {
-          "en": "dress",
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "dress?",
           "cn": "连衣裙",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u6-s03",
+      "unit": 6,
+      "cn": "\"shirt\"的意思是衬衫。",
+      "en": "I can see a shirt.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "shirt.",
+          "cn": "衬衫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u6-s04",
+      "unit": 6,
+      "cn": "\"shorts\"的意思是短裤。",
+      "en": "The shorts is very nice.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "shorts",
+          "cn": "短裤",
           "pos": "名词"
         },
         {
@@ -1579,16 +2124,21 @@
           "pos": "动词"
         },
         {
-          "en": "beautiful.",
-          "cn": "漂亮的",
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "nice.",
+          "cn": "好的",
           "pos": "形容词"
         }
       ]
     },
     {
-      "id": "pep-1start-1b-u6-s03",
+      "id": "pep-1start-1b-u6-s05",
       "unit": 6,
-      "cn": "我喜欢这条裙子。",
+      "cn": "\"skirt\"的意思是裙子。",
       "en": "I like this skirt.",
       "tokens": [
         {
@@ -1603,7 +2153,7 @@
         },
         {
           "en": "this",
-          "cn": "这条",
+          "cn": "这",
           "pos": "代词"
         },
         {
@@ -1614,68 +2164,58 @@
       ]
     },
     {
-      "id": "pep-1start-1b-u6-s04",
+      "id": "pep-1start-1b-u6-s06",
       "unit": 6,
-      "cn": "你的短裤在这里。",
-      "en": "Your shorts are here.",
+      "cn": "\"socks\"的意思是袜子。",
+      "en": "Look at the socks.",
       "tokens": [
         {
-          "en": "Your",
-          "cn": "你的",
-          "pos": "代词"
-        },
-        {
-          "en": "shorts",
-          "cn": "短裤",
-          "pos": "名词"
-        },
-        {
-          "en": "are",
-          "cn": "是",
+          "en": "Look",
+          "cn": "看",
           "pos": "动词"
         },
         {
-          "en": "here.",
-          "cn": "这里",
-          "pos": "副词"
-        }
-      ]
-    },
-    {
-      "id": "pep-1start-1b-u6-s05",
-      "unit": 6,
-      "cn": "我的袜子在床上。",
-      "en": "My socks are on the bed.",
-      "tokens": [
-        {
-          "en": "My",
-          "cn": "我的",
-          "pos": "代词"
-        },
-        {
-          "en": "socks",
-          "cn": "袜子",
-          "pos": "名词"
-        },
-        {
-          "en": "are",
+          "en": "at",
           "cn": "在",
-          "pos": "动词"
-        },
-        {
-          "en": "on",
-          "cn": "（上面）",
           "pos": "介词"
         },
         {
           "en": "the",
-          "cn": "那张",
+          "cn": "这个",
           "pos": "冠词"
         },
         {
-          "en": "bed.",
-          "cn": "床",
+          "en": "socks.",
+          "cn": "袜子",
           "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u6-s07",
+      "unit": 6,
+      "cn": "\"your\"的意思是你的。",
+      "en": "This is for your.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "your.",
+          "cn": "你的",
+          "pos": "代词"
         }
       ]
     }

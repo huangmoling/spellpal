@@ -9,7 +9,7 @@
   "edition": "2025 春 · 新课标修订版",
   "stage": "primary",
   "wordCount": 72,
-  "sentenceCount": 7,
+  "sentenceCount": 72,
   "updatedAt": "2026-11-22",
   "units": [
     {
@@ -1450,12 +1450,83 @@
     {
       "id": "jk-3b-u0-s01",
       "unit": 0,
-      "cn": "这是一个礼貌的。",
-      "en": "This is a polite.",
+      "cn": "\"get up\"的意思是起床。",
+      "en": "I get up at school.",
       "tokens": [
         {
-          "en": "This",
-          "cn": "这",
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "get",
+          "cn": "得到",
+          "pos": "动词"
+        },
+        {
+          "en": "up",
+          "cn": "向上",
+          "pos": "介词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u0-s02",
+      "unit": 0,
+      "cn": "\"hand out food\"的意思是分发食物。",
+      "en": "I like the hand out food.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "hand",
+          "cn": "手",
+          "pos": "名词"
+        },
+        {
+          "en": "out",
+          "cn": "外面",
+          "pos": "介词"
+        },
+        {
+          "en": "food.",
+          "cn": "食物",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u0-s03",
+      "unit": 0,
+      "cn": "\"on duty\"的意思是值 日。",
+      "en": "It is on duty the house.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
           "pos": "代词"
         },
         {
@@ -1464,13 +1535,198 @@
           "pos": "动词"
         },
         {
-          "en": "a",
-          "cn": "一个",
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "duty",
+          "cn": "duty",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
           "pos": "冠词"
         },
         {
-          "en": "polite.",
+          "en": "house.",
+          "cn": "房子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u0-s04",
+      "unit": 0,
+      "cn": "\"polite\"的意思是礼貌的。",
+      "en": "The polite one is mine.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "polite",
           "cn": "礼貌的",
+          "pos": "形容词"
+        },
+        {
+          "en": "one",
+          "cn": "一",
+          "pos": "数词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "mine.",
+          "cn": "我的",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u1-s01",
+      "unit": 1,
+      "cn": "\"brush my teeth\"的意思是刷牙。",
+      "en": "I brush my teeth at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "brush",
+          "cn": "刷",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "teeth",
+          "cn": "牙齿",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u1-s02",
+      "unit": 1,
+      "cn": "\"comb my hair\"的意思是梳头。",
+      "en": "I like the comb my hair.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "comb",
+          "cn": "comb",
+          "pos": "名词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "hair.",
+          "cn": "头发",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u1-s03",
+      "unit": 1,
+      "cn": "\"get dressed\"的意思是穿衣。",
+      "en": "I get dressed at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "get",
+          "cn": "得到",
+          "pos": "动词"
+        },
+        {
+          "en": "dressed",
+          "cn": "dressed",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u1-s04",
+      "unit": 1,
+      "cn": "\"have breakfast\"的意思是吃早饭。",
+      "en": "I have breakfast at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "breakfast",
+          "cn": "早餐",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
           "pos": "名词"
         }
       ]
@@ -1478,23 +1734,208 @@
     {
       "id": "jk-3b-u2-s01",
       "unit": 2,
-      "cn": "这是一个梦。",
-      "en": "This is a dream.",
+      "cn": "\"go home\"的意思是回家。",
+      "en": "I go home at school.",
       "tokens": [
         {
-          "en": "This",
-          "cn": "这",
+          "en": "I",
+          "cn": "我",
           "pos": "代词"
         },
         {
-          "en": "is",
-          "cn": "是",
+          "en": "go",
+          "cn": "去",
+          "pos": "动词"
+        },
+        {
+          "en": "home",
+          "cn": "家",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u2-s02",
+      "unit": 2,
+      "cn": "\"go to bed\"的意思是去睡觉。",
+      "en": "I go to bed at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "go",
+          "cn": "去",
+          "pos": "动词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "bed",
+          "cn": "床",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u2-s03",
+      "unit": 2,
+      "cn": "\"go to school\"的意思是去上学。",
+      "en": "I go to school at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "go",
+          "cn": "去",
+          "pos": "动词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "school",
+          "cn": "学校",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u2-s04",
+      "unit": 2,
+      "cn": "\"half past ten\"的意思是十点半。",
+      "en": "I like the half past ten.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "half",
+          "cn": "一半",
+          "pos": "名词"
+        },
+        {
+          "en": "past",
+          "cn": "过去",
+          "pos": "名词"
+        },
+        {
+          "en": "ten.",
+          "cn": "十",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u2-s05",
+      "unit": 2,
+      "cn": "\"have class\"的意思是上课。",
+      "en": "I have class at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "class",
+          "cn": "班级",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u2-s06",
+      "unit": 2,
+      "cn": "\"dream\"的意思是梦。",
+      "en": "I have a new dream.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
           "pos": "动词"
         },
         {
           "en": "a",
           "cn": "一个",
           "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
         },
         {
           "en": "dream.",
@@ -1504,14 +1945,387 @@
       ]
     },
     {
-      "id": "jk-3b-u4-s01",
-      "unit": 4,
-      "cn": "这是一个当然。",
-      "en": "This is a sure.",
+      "id": "jk-3b-u2-s07",
+      "unit": 2,
+      "cn": "\"hurry up\"的意思是快点。",
+      "en": "I like the hurry up.",
       "tokens": [
         {
-          "en": "This",
-          "cn": "这",
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "hurry",
+          "cn": "hurry",
+          "pos": "名词"
+        },
+        {
+          "en": "up.",
+          "cn": "向上",
+          "pos": "介词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u3-s01",
+      "unit": 3,
+      "cn": "\"half an hour\"的意思是半小时。",
+      "en": "I like the half an hour.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "half",
+          "cn": "一半",
+          "pos": "名词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "hour.",
+          "cn": "小时",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u3-s02",
+      "unit": 3,
+      "cn": "\"nine ten\"的意思是九点十分。",
+      "en": "I like the nine ten.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "nine",
+          "cn": "九",
+          "pos": "数词"
+        },
+        {
+          "en": "ten.",
+          "cn": "十",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u3-s03",
+      "unit": 3,
+      "cn": "\"pack my schoolbag\"的意思是收拾书包。",
+      "en": "I like the pack my schoolbag.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "pack",
+          "cn": "收拾",
+          "pos": "名词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "schoolbag.",
+          "cn": "书包",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u3-s04",
+      "unit": 3,
+      "cn": "\"play sports\"的意思是做运动。",
+      "en": "I play sports at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "动词"
+        },
+        {
+          "en": "sports",
+          "cn": "运动",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u3-s05",
+      "unit": 3,
+      "cn": "\"eight twenty\"的意思是八点二十分。",
+      "en": "I like the eight twenty.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "eight",
+          "cn": "八",
+          "pos": "数词"
+        },
+        {
+          "en": "twenty.",
+          "cn": "二十",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u3-s06",
+      "unit": 3,
+      "cn": "\"have dinner\"的意思是吃晚饭。",
+      "en": "I have dinner at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "dinner",
+          "cn": "正餐",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u3-s07",
+      "unit": 3,
+      "cn": "\"have lunch\"的意思是吃午饭。",
+      "en": "I have lunch at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "lunch",
+          "cn": "午餐",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u3-s08",
+      "unit": 3,
+      "cn": "\"read books\"的意思是看书。",
+      "en": "I read books at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "read",
+          "cn": "读",
+          "pos": "动词"
+        },
+        {
+          "en": "books",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u3-s09",
+      "unit": 3,
+      "cn": "\"seven forty\"的意思是七点四十分。",
+      "en": "I like the seven forty.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "seven",
+          "cn": "七",
+          "pos": "数词"
+        },
+        {
+          "en": "forty.",
+          "cn": "四十",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u3-s10",
+      "unit": 3,
+      "cn": "\"six fifty\"的意思是六点五十分。",
+      "en": "I like the six fifty.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "six",
+          "cn": "六",
+          "pos": "数词"
+        },
+        {
+          "en": "fifty.",
+          "cn": "fifty",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u4-s01",
+      "unit": 4,
+      "cn": "\"sure\"的意思是当然。",
+      "en": "She is very sure.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
           "pos": "代词"
         },
         {
@@ -1520,37 +2334,37 @@
           "pos": "动词"
         },
         {
-          "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
         },
         {
           "en": "sure.",
           "cn": "当然",
-          "pos": "名词"
+          "pos": "形容词"
         }
       ]
     },
     {
       "id": "jk-3b-u5-s01",
       "unit": 5,
-      "cn": "这是一个黑板。",
-      "en": "This is a blackboard.",
+      "cn": "\"blackboard\"的意思是黑板。",
+      "en": "I like this blackboard.",
       "tokens": [
         {
-          "en": "This",
-          "cn": "这",
+          "en": "I",
+          "cn": "我",
           "pos": "代词"
         },
         {
-          "en": "is",
-          "cn": "是",
+          "en": "like",
+          "cn": "喜欢",
           "pos": "动词"
         },
         {
-          "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
         },
         {
           "en": "blackboard.",
@@ -1560,19 +2374,528 @@
       ]
     },
     {
-      "id": "jk-3b-u6-s01",
-      "unit": 6,
-      "cn": "这是一个工作。",
-      "en": "This is a job.",
+      "id": "jk-3b-u5-s02",
+      "unit": 5,
+      "cn": "\"classroom rules\"的意思是班规。",
+      "en": "I like the classroom rules.",
       "tokens": [
         {
-          "en": "This",
-          "cn": "这",
+          "en": "I",
+          "cn": "我",
           "pos": "代词"
         },
         {
-          "en": "is",
-          "cn": "是",
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "classroom",
+          "cn": "教室",
+          "pos": "名词"
+        },
+        {
+          "en": "rules.",
+          "cn": "rules",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u5-s03",
+      "unit": 5,
+      "cn": "\"give a helping hand\"的意思是向别人伸出援手。",
+      "en": "I give a helping hand at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "give",
+          "cn": "给",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "helping",
+          "cn": "helping",
+          "pos": "动词"
+        },
+        {
+          "en": "hand",
+          "cn": "手",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u5-s04",
+      "unit": 5,
+      "cn": "\"do your best\"的意思是尽自己最大努力。",
+      "en": "I do your best at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "代词"
+        },
+        {
+          "en": "best",
+          "cn": "最好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u5-s05",
+      "unit": 5,
+      "cn": "\"don't run in the classroom\"的意思是不要在教室里奔跑。",
+      "en": "I like the don't run in the classroom.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "don't",
+          "cn": "不做",
+          "pos": "缩略"
+        },
+        {
+          "en": "run",
+          "cn": "运行",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "classroom.",
+          "cn": "教室",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u5-s06",
+      "unit": 5,
+      "cn": "\"listen carefully\"的意思是仔细听。",
+      "en": "I listen carefully at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "listen",
+          "cn": "听",
+          "pos": "动词"
+        },
+        {
+          "en": "carefully",
+          "cn": "仔细地",
+          "pos": "副词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u5-s07",
+      "unit": 5,
+      "cn": "\"poster\"的意思是海报。",
+      "en": "I can see a poster.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "poster.",
+          "cn": "海报",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u5-s08",
+      "unit": 5,
+      "cn": "\"put away your things\"的意思是收拾好你的东西。",
+      "en": "I put away your things at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "put",
+          "cn": "放",
+          "pos": "动词"
+        },
+        {
+          "en": "away",
+          "cn": "离开",
+          "pos": "动词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "代词"
+        },
+        {
+          "en": "things",
+          "cn": "things",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u5-s09",
+      "unit": 5,
+      "cn": "\"say nice words\"的意思是用语得体。",
+      "en": "I say nice words at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "say",
+          "cn": "说",
+          "pos": "动词"
+        },
+        {
+          "en": "nice",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "words",
+          "cn": "words",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u6-s01",
+      "unit": 6,
+      "cn": "\"carry food boxes\"的意思是搬运餐盒。",
+      "en": "I carry food boxes at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "carry",
+          "cn": "搬运",
+          "pos": "动词"
+        },
+        {
+          "en": "food",
+          "cn": "食物",
+          "pos": "名词"
+        },
+        {
+          "en": "boxes",
+          "cn": "boxes",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u6-s02",
+      "unit": 6,
+      "cn": "\"get in line\"的意思是排队。",
+      "en": "I get in line at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "get",
+          "cn": "得到",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "line",
+          "cn": "线",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u6-s03",
+      "unit": 6,
+      "cn": "\"hand out papers\"的意思是分发试卷。",
+      "en": "I like the hand out papers.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "hand",
+          "cn": "手",
+          "pos": "名词"
+        },
+        {
+          "en": "out",
+          "cn": "外面",
+          "pos": "介词"
+        },
+        {
+          "en": "papers.",
+          "cn": "papers",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u6-s04",
+      "unit": 6,
+      "cn": "\"lunch helper\"的意思是午饭小帮手。",
+      "en": "I like the lunch helper.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "lunch",
+          "cn": "午餐",
+          "pos": "名词"
+        },
+        {
+          "en": "helper.",
+          "cn": "helper",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u6-s05",
+      "unit": 6,
+      "cn": "\"help everyone stand in line\"的意思是帮助大家站好队。",
+      "en": "I like the help everyone stand in line.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "help",
+          "cn": "帮助",
+          "pos": "名词"
+        },
+        {
+          "en": "everyone",
+          "cn": "每个人",
+          "pos": "代词"
+        },
+        {
+          "en": "stand",
+          "cn": "站",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "line.",
+          "cn": "线",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u6-s06",
+      "unit": 6,
+      "cn": "\"job\"的意思是工作。",
+      "en": "I can see a job.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
           "pos": "动词"
         },
         {
@@ -1588,10 +2911,124 @@
       ]
     },
     {
+      "id": "jk-3b-u6-s07",
+      "unit": 6,
+      "cn": "\"lead the way\"的意思是在队列中带路。",
+      "en": "It is lead the way the house.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "lead",
+          "cn": "lead",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "way",
+          "cn": "方法",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "house.",
+          "cn": "房子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u6-s08",
+      "unit": 6,
+      "cn": "\"line leader\"的意思是列队小帮手。",
+      "en": "I like the line leader.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "line",
+          "cn": "线",
+          "pos": "名词"
+        },
+        {
+          "en": "leader.",
+          "cn": "leader",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u6-s09",
+      "unit": 6,
+      "cn": "\"put away books\"的意思是整理书本。",
+      "en": "I put away books at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "put",
+          "cn": "放",
+          "pos": "动词"
+        },
+        {
+          "en": "away",
+          "cn": "离开",
+          "pos": "动词"
+        },
+        {
+          "en": "books",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
       "id": "jk-3b-u7-s01",
       "unit": 7,
-      "cn": "这是一个美术。",
-      "en": "This is a Art.",
+      "cn": "\"Art\"的意思是美术。",
+      "en": "This is my art.",
       "tokens": [
         {
           "en": "This",
@@ -1604,13 +3041,360 @@
           "pos": "动词"
         },
         {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "art.",
+          "cn": "美术",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u7-s02",
+      "unit": 7,
+      "cn": "\"Chinese\"的意思是语文。",
+      "en": "I have a new chinese.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
           "en": "a",
           "cn": "一个",
           "pos": "冠词"
         },
         {
-          "en": "Art.",
-          "cn": "美术",
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "chinese.",
+          "cn": "语文",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u7-s03",
+      "unit": 7,
+      "cn": "\"Maths\"的意思是数学。",
+      "en": "Where is the maths?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "maths?",
+          "cn": "数学",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u7-s04",
+      "unit": 7,
+      "cn": "\"PE\"的意思是体育。",
+      "en": "She can pe very well.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "pe",
+          "cn": "体育",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "well.",
+          "cn": "好",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u7-s05",
+      "unit": 7,
+      "cn": "\"don't eat or drink\"的意思是不要吃喝。",
+      "en": "I like the don't eat or drink.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "don't",
+          "cn": "不做",
+          "pos": "缩略"
+        },
+        {
+          "en": "eat",
+          "cn": "吃",
+          "pos": "动词"
+        },
+        {
+          "en": "or",
+          "cn": "或者",
+          "pos": "连词"
+        },
+        {
+          "en": "drink.",
+          "cn": "喝",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u7-s06",
+      "unit": 7,
+      "cn": "\"don't run in the hallway\"的意思是不要在走廊里奔跑。",
+      "en": "I like the don't run in the hallway.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "don't",
+          "cn": "不做",
+          "pos": "缩略"
+        },
+        {
+          "en": "run",
+          "cn": "运行",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "hallway.",
+          "cn": "hallway",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u7-s07",
+      "unit": 7,
+      "cn": "\"in the toilet\"的意思是在厕所。",
+      "en": "It is in the toilet the house.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "toilet",
+          "cn": "厕所",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "house.",
+          "cn": "房子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u7-s08",
+      "unit": 7,
+      "cn": "\"keep to the right\"的意思是靠右行走。",
+      "en": "I keep to the right at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "keep",
+          "cn": "保持",
+          "pos": "动词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "right",
+          "cn": "右",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u7-s09",
+      "unit": 7,
+      "cn": "\"keep your voice down\"的意思是小声说话。",
+      "en": "I keep your voice down at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "keep",
+          "cn": "保持",
+          "pos": "动词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "代词"
+        },
+        {
+          "en": "voice",
+          "cn": "声音",
+          "pos": "名词"
+        },
+        {
+          "en": "down",
+          "cn": "向下",
+          "pos": "介词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u7-s10",
+      "unit": 7,
+      "cn": "\"Science\"的意思是科学。",
+      "en": "I have a new science.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "science.",
+          "cn": "科学",
           "pos": "名词"
         }
       ]
@@ -1618,17 +3402,98 @@
     {
       "id": "jk-3b-u8-s01",
       "unit": 8,
-      "cn": "这是一个椅子。",
-      "en": "This is a chair.",
+      "cn": "\"be careful\"的意思是小心。",
+      "en": "I be careful at school.",
       "tokens": [
         {
-          "en": "This",
-          "cn": "这",
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "be",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "careful",
+          "cn": "careful",
+          "pos": "形容词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u8-s02",
+      "unit": 8,
+      "cn": "\"before you go\"的意思是在你走之前。",
+      "en": "It is before you go the house.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
           "pos": "代词"
         },
         {
           "en": "is",
           "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "before",
+          "cn": "在……前",
+          "pos": "介词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "go",
+          "cn": "去",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "house.",
+          "cn": "房子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u8-s03",
+      "unit": 8,
+      "cn": "\"chair\"的意思是椅子。",
+      "en": "I can see a chair.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
           "pos": "动词"
         },
         {
@@ -1639,6 +3504,526 @@
         {
           "en": "chair.",
           "cn": "椅子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u8-s04",
+      "unit": 8,
+      "cn": "\"close the window\"的意思是关上窗户。",
+      "en": "I close the window at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "close",
+          "cn": "关",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "window",
+          "cn": "窗户",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u8-s05",
+      "unit": 8,
+      "cn": "\"computer classroom\"的意思是电脑教室。",
+      "en": "I like the computer classroom.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "computer",
+          "cn": "电脑",
+          "pos": "名词"
+        },
+        {
+          "en": "classroom.",
+          "cn": "教室",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u8-s06",
+      "unit": 8,
+      "cn": "\"go on green\"的意思是绿灯行。",
+      "en": "I go on green at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "go",
+          "cn": "去",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "green",
+          "cn": "绿色的",
+          "pos": "形容词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u8-s07",
+      "unit": 8,
+      "cn": "\"go to the school club\"的意思是参加学校社团。",
+      "en": "I go to the school club at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "go",
+          "cn": "去",
+          "pos": "动词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "school",
+          "cn": "学校",
+          "pos": "名词"
+        },
+        {
+          "en": "club",
+          "cn": "club",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u8-s08",
+      "unit": 8,
+      "cn": "\"look left\"的意思是向左看。",
+      "en": "I look left at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "left",
+          "cn": "左",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u8-s09",
+      "unit": 8,
+      "cn": "\"look right\"的意思是向右看。",
+      "en": "I look right at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "right",
+          "cn": "右",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u8-s10",
+      "unit": 8,
+      "cn": "\"lunchroom\"的意思是食堂。",
+      "en": "Do you like the lunchroom?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "lunchroom?",
+          "cn": "食堂",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u8-s11",
+      "unit": 8,
+      "cn": "\"music classroom\"的意思是音乐教室。",
+      "en": "I like the music classroom.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "music",
+          "cn": "音乐",
+          "pos": "名词"
+        },
+        {
+          "en": "classroom.",
+          "cn": "教室",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u8-s12",
+      "unit": 8,
+      "cn": "\"piano\"的意思是钢琴。",
+      "en": "The piano is very nice.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "piano",
+          "cn": "钢琴",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "nice.",
+          "cn": "好的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u8-s13",
+      "unit": 8,
+      "cn": "\"desk\"的意思是书桌。",
+      "en": "I like this desk.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "desk.",
+          "cn": "书桌",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u8-s14",
+      "unit": 8,
+      "cn": "\"fan\"的意思是电风扇。",
+      "en": "Look at the fan.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "fan.",
+          "cn": "电风扇",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u8-s15",
+      "unit": 8,
+      "cn": "\"road sign\"的意思是路标。",
+      "en": "I like the road sign.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "road",
+          "cn": "路",
+          "pos": "名词"
+        },
+        {
+          "en": "sign.",
+          "cn": "标志",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u8-s16",
+      "unit": 8,
+      "cn": "\"safety rules\"的意思是安全守则。",
+      "en": "I like the safety rules.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "safety",
+          "cn": "安全",
+          "pos": "名词"
+        },
+        {
+          "en": "rules.",
+          "cn": "rules",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u8-s17",
+      "unit": 8,
+      "cn": "\"say \"excuse me\"\"的意思是说“不好意思”。",
+      "en": "I say \"excuse me\" at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "say",
+          "cn": "说",
+          "pos": "动词"
+        },
+        {
+          "en": "\"excuse",
+          "cn": "excuse",
+          "pos": "名词"
+        },
+        {
+          "en": "me\"",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jk-3b-u8-s18",
+      "unit": 8,
+      "cn": "\"stop on red\"的意思是红灯停。",
+      "en": "I stop on red at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "stop",
+          "cn": "停",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "red",
+          "cn": "红色的",
+          "pos": "形容词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
           "pos": "名词"
         }
       ]

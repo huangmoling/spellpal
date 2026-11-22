@@ -9,7 +9,7 @@
   "edition": "2024 秋 · 2022 课标修订版",
   "stage": "primary",
   "wordCount": 129,
-  "sentenceCount": 44,
+  "sentenceCount": 129,
   "updatedAt": "2026-11-22",
   "units": [
     {
@@ -2294,161 +2294,74 @@
     {
       "id": "yilin-3a-u1-s01",
       "unit": 1,
-      "cn": "你好，我是波比。",
-      "en": "Hi, I'm Bobby.",
+      "cn": "\"hello\"的意思是哈啰。",
+      "en": "Hello! Nice to meet you.",
       "tokens": [
         {
-          "en": "Hi,",
-          "cn": "嗨",
+          "en": "Hello!",
+          "cn": "哈啰",
           "pos": "感叹词"
         },
         {
-          "en": "I'm",
-          "cn": "我是",
-          "pos": "缩略"
+          "en": "Nice",
+          "cn": "好的",
+          "pos": "形容词"
         },
         {
-          "en": "Bobby.",
-          "cn": "波比",
-          "pos": "名词"
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "meet",
+          "cn": "见面",
+          "pos": "动词"
+        },
+        {
+          "en": "you.",
+          "cn": "你",
+          "pos": "代词"
         }
       ]
     },
     {
       "id": "yilin-3a-u1-s02",
       "unit": 1,
-      "cn": "早上好，李老师。",
-      "en": "Good morning, Miss Li.",
+      "cn": "\"hi\"的意思是喂。",
+      "en": "Hi! How are you?",
       "tokens": [
         {
-          "en": "Good",
-          "cn": "好的",
-          "pos": "形容词"
+          "en": "Hi!",
+          "cn": "喂",
+          "pos": "感叹词"
         },
         {
-          "en": "morning,",
-          "cn": "早上",
-          "pos": "名词"
+          "en": "How",
+          "cn": "怎样",
+          "pos": "疑问词"
         },
         {
-          "en": "Miss",
-          "cn": "小姐",
-          "pos": "名词"
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
         },
         {
-          "en": "Li.",
-          "cn": "李",
-          "pos": "名词"
+          "en": "you?",
+          "cn": "你",
+          "pos": "代词"
         }
       ]
     },
     {
       "id": "yilin-3a-u1-s03",
       "unit": 1,
-      "cn": "下午好，同学们。",
-      "en": "Good afternoon, class.",
+      "cn": "\"Good morning.\"的意思是早上好。",
+      "en": "He is good morning..",
       "tokens": [
         {
-          "en": "Good",
-          "cn": "好的",
-          "pos": "形容词"
-        },
-        {
-          "en": "afternoon,",
-          "cn": "下午",
-          "pos": "名词"
-        },
-        {
-          "en": "class.",
-          "cn": "课",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u1-s04",
-      "unit": 1,
-      "cn": "再见，李老师。",
-      "en": "Goodbye, Miss Li.",
-      "tokens": [
-        {
-          "en": "Goodbye,",
-          "cn": "再见",
-          "pos": "感叹词"
-        },
-        {
-          "en": "Miss",
-          "cn": "小姐",
-          "pos": "名词"
-        },
-        {
-          "en": "Li.",
-          "cn": "李",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u1-s05",
-      "unit": 1,
-      "cn": "看，一只猫！",
-      "en": "Look, a cat!",
-      "tokens": [
-        {
-          "en": "Look,",
-          "cn": "看",
-          "pos": "动词"
-        },
-        {
-          "en": "a",
-          "cn": "一本",
-          "pos": "冠词"
-        },
-        {
-          "en": "cat!",
-          "cn": "猫",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u2-s01",
-      "unit": 2,
-      "cn": "你叫什么名字？",
-      "en": "What's your name?",
-      "tokens": [
-        {
-          "en": "What's",
-          "cn": "什么",
-          "pos": "疑问词"
-        },
-        {
-          "en": "your",
-          "cn": "你的",
+          "en": "He",
+          "cn": "他",
           "pos": "代词"
-        },
-        {
-          "en": "name?",
-          "cn": "名字",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u2-s02",
-      "unit": 2,
-      "cn": "我叫贝贝。",
-      "en": "My name is Beibei.",
-      "tokens": [
-        {
-          "en": "My",
-          "cn": "我的",
-          "pos": "代词"
-        },
-        {
-          "en": "name",
-          "cn": "名字",
-          "pos": "名词"
         },
         {
           "en": "is",
@@ -2456,134 +2369,50 @@
           "pos": "动词"
         },
         {
-          "en": "Beibei.",
-          "cn": "贝贝",
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "morning..",
+          "cn": "早上",
           "pos": "名词"
         }
       ]
     },
     {
-      "id": "yilin-3a-u2-s03",
-      "unit": 2,
-      "cn": "很高兴认识你！",
-      "en": "Nice to meet you!",
+      "id": "yilin-3a-u1-s04",
+      "unit": 1,
+      "cn": "\"I\"的意思是我。",
+      "en": "I are my friend.",
       "tokens": [
         {
-          "en": "Nice",
-          "cn": "令人愉快的",
-          "pos": "形容词"
-        },
-        {
-          "en": "to",
-          "cn": "到",
-          "pos": "介词"
-        },
-        {
-          "en": "meet",
-          "cn": "见到",
-          "pos": "动词"
-        },
-        {
-          "en": "you!",
-          "cn": "你",
-          "pos": "代词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u2-s04",
-      "unit": 2,
-      "cn": "我也很高兴认识你。",
-      "en": "Nice to meet you too.",
-      "tokens": [
-        {
-          "en": "Nice",
-          "cn": "令人愉快的",
-          "pos": "形容词"
-        },
-        {
-          "en": "to",
-          "cn": "到",
-          "pos": "介词"
-        },
-        {
-          "en": "meet",
-          "cn": "见到",
-          "pos": "动词"
-        },
-        {
-          "en": "you",
-          "cn": "你",
-          "pos": "代词"
-        },
-        {
-          "en": "too.",
-          "cn": "太",
-          "pos": "副词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u3-s01",
-      "unit": 3,
-      "cn": "打扰一下，你是本吗？",
-      "en": "Excuse me, are you Ben?",
-      "tokens": [
-        {
-          "en": "Excuse",
-          "cn": "打扰",
-          "pos": "动词"
-        },
-        {
-          "en": "me,",
+          "en": "I",
           "cn": "我",
           "pos": "代词"
         },
         {
           "en": "are",
           "cn": "是",
-          "pos": "系动词"
+          "pos": "动词"
         },
         {
-          "en": "you",
-          "cn": "你",
+          "en": "my",
+          "cn": "我的",
           "pos": "代词"
         },
         {
-          "en": "Ben?",
-          "cn": "本",
+          "en": "friend.",
+          "cn": "朋友",
           "pos": "名词"
         }
       ]
     },
     {
-      "id": "yilin-3a-u3-s02",
-      "unit": 3,
-      "cn": "不，我不是。",
-      "en": "No, I'm not.",
-      "tokens": [
-        {
-          "en": "No,",
-          "cn": "不",
-          "pos": "感叹词"
-        },
-        {
-          "en": "I'm",
-          "cn": "我是",
-          "pos": "缩略"
-        },
-        {
-          "en": "not.",
-          "cn": "不",
-          "pos": "副词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u3-s03",
-      "unit": 3,
-      "cn": "我们是双胞胎。",
-      "en": "We are twins.",
+      "id": "yilin-3a-u1-s05",
+      "unit": 1,
+      "cn": "\"am\"的意思是是。",
+      "en": "We am at school.",
       "tokens": [
         {
           "en": "We",
@@ -2591,83 +2420,487 @@
           "pos": "代词"
         },
         {
-          "en": "are",
+          "en": "am",
           "cn": "是",
-          "pos": "系动词"
+          "pos": "动词"
         },
         {
-          "en": "twins.",
-          "cn": "双胞胎",
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
           "pos": "名词"
         }
       ]
     },
     {
-      "id": "yilin-3a-u3-s04",
-      "unit": 3,
-      "cn": "我在你的班上。",
-      "en": "I'm in your class.",
+      "id": "yilin-3a-u1-s06",
+      "unit": 1,
+      "cn": "\"ah\"的意思是啊。",
+      "en": "I have a new ah.",
       "tokens": [
         {
-          "en": "I'm",
-          "cn": "我是",
-          "pos": "缩略"
-        },
-        {
-          "en": "in",
-          "cn": "（里面）",
-          "pos": "介词"
-        },
-        {
-          "en": "your",
-          "cn": "你的",
-          "pos": "代词"
-        },
-        {
-          "en": "class.",
-          "cn": "课",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u3-s05",
-      "unit": 3,
-      "cn": "你和我在一起，对吗？",
-      "en": "You are with me, right?",
-      "tokens": [
-        {
-          "en": "You",
-          "cn": "你",
-          "pos": "代词"
-        },
-        {
-          "en": "are",
-          "cn": "是",
-          "pos": "系动词"
-        },
-        {
-          "en": "with",
-          "cn": "用",
-          "pos": "介词"
-        },
-        {
-          "en": "me,",
+          "en": "I",
           "cn": "我",
           "pos": "代词"
         },
         {
-          "en": "right?",
-          "cn": "正确",
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
           "pos": "形容词"
+        },
+        {
+          "en": "ah.",
+          "cn": "啊",
+          "pos": "名词"
         }
       ]
     },
     {
-      "id": "yilin-3a-u4-s01",
-      "unit": 4,
-      "cn": "这是我的朋友。",
-      "en": "This is my friend.",
+      "id": "yilin-3a-u1-s07",
+      "unit": 1,
+      "cn": "\"a\"的意思是一（个）。",
+      "en": "Where is the a?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "a?",
+          "cn": "一（个）",
+          "pos": "冠词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u1-s08",
+      "unit": 1,
+      "cn": "\"cat\"的意思是猫。",
+      "en": "Do you like the cat?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "cat?",
+          "cn": "猫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u1-s09",
+      "unit": 1,
+      "cn": "\"Miss\"的意思是小姐。",
+      "en": "I can see a miss.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "miss.",
+          "cn": "小姐",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u1-s10",
+      "unit": 1,
+      "cn": "\"Good afternoon.\"的意思是下午好。",
+      "en": "He is good afternoon..",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "他",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "afternoon..",
+          "cn": "下午",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u1-s11",
+      "unit": 1,
+      "cn": "\"class\"的意思是同学们。",
+      "en": "I like this class.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "class.",
+          "cn": "同学们",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u1-s12",
+      "unit": 1,
+      "cn": "\"goodbye\"的意思是再见。",
+      "en": "Goodbye! How are you?",
+      "tokens": [
+        {
+          "en": "Goodbye!",
+          "cn": "再见",
+          "pos": "感叹词"
+        },
+        {
+          "en": "How",
+          "cn": "怎样",
+          "pos": "疑问词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "you?",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u1-s13",
+      "unit": 1,
+      "cn": "\"bye\"的意思是再见。",
+      "en": "Bye! Nice to meet you.",
+      "tokens": [
+        {
+          "en": "Bye!",
+          "cn": "再见",
+          "pos": "感叹词"
+        },
+        {
+          "en": "Nice",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "meet",
+          "cn": "见面",
+          "pos": "动词"
+        },
+        {
+          "en": "you.",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u2-s01",
+      "unit": 2,
+      "cn": "\"what\"的意思是什么。",
+      "en": "I have a new what.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "what.",
+          "cn": "什么",
+          "pos": "疑问词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u2-s02",
+      "unit": 2,
+      "cn": "\"is\"的意思是是。",
+      "en": "They is in the park.",
+      "tokens": [
+        {
+          "en": "They",
+          "cn": "他们",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "park.",
+          "cn": "公园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u2-s03",
+      "unit": 2,
+      "cn": "\"your\"的意思是你的。",
+      "en": "Your are my friend.",
+      "tokens": [
+        {
+          "en": "Your",
+          "cn": "你的",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "friend.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u2-s04",
+      "unit": 2,
+      "cn": "\"name\"的意思是名字。",
+      "en": "I can see a name.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "name.",
+          "cn": "名字",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u2-s05",
+      "unit": 2,
+      "cn": "\"my\"的意思是我的。",
+      "en": "This is for my.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "my.",
+          "cn": "我的",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u2-s06",
+      "unit": 2,
+      "cn": "\"Nice to meet you!\"的意思是很高兴认识你！。",
+      "en": "He is nice to meet you!.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "他",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "nice",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "meet",
+          "cn": "见面",
+          "pos": "动词"
+        },
+        {
+          "en": "you!.",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u2-s07",
+      "unit": 2,
+      "cn": "\"too\"的意思是也。",
+      "en": "She sings too.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "sings",
+          "cn": "sings",
+          "pos": "名词"
+        },
+        {
+          "en": "too.",
+          "cn": "也",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u2-s08",
+      "unit": 2,
+      "cn": "\"boy\"的意思是男孩。",
+      "en": "This is my boy.",
       "tokens": [
         {
           "en": "This",
@@ -2685,17 +2918,322 @@
           "pos": "代词"
         },
         {
-          "en": "friend.",
-          "cn": "朋友",
+          "en": "boy.",
+          "cn": "男孩",
           "pos": "名词"
         }
       ]
     },
     {
-      "id": "yilin-3a-u4-s02",
-      "unit": 4,
-      "cn": "她是我的朋友。",
-      "en": "She is my friend.",
+      "id": "yilin-3a-u2-s09",
+      "unit": 2,
+      "cn": "\"and\"的意思是和。",
+      "en": "I like apples and bananas.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "apples",
+          "cn": "苹果",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "bananas.",
+          "cn": "香蕉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u2-s10",
+      "unit": 2,
+      "cn": "\"girl\"的意思是女孩。",
+      "en": "Where is the girl?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "girl?",
+          "cn": "女孩",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u2-s11",
+      "unit": 2,
+      "cn": "\"Mr\"的意思是先生。",
+      "en": "Do you like the mr?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "mr?",
+          "cn": "先生",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u3-s01",
+      "unit": 3,
+      "cn": "\"are\"的意思是是。",
+      "en": "I are every day.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "every",
+          "cn": "每个",
+          "pos": "限定词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u3-s02",
+      "unit": 3,
+      "cn": "\"you\"的意思是你。",
+      "en": "I like you.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "you.",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u3-s03",
+      "unit": 3,
+      "cn": "\"no\"的意思是不。",
+      "en": "No children are here.",
+      "tokens": [
+        {
+          "en": "No",
+          "cn": "不",
+          "pos": "限定词"
+        },
+        {
+          "en": "children",
+          "cn": "孩子们",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "here.",
+          "cn": "这里",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u3-s04",
+      "unit": 3,
+      "cn": "\"not\"的意思是不。",
+      "en": "They not play games.",
+      "tokens": [
+        {
+          "en": "They",
+          "cn": "他们",
+          "pos": "代词"
+        },
+        {
+          "en": "not",
+          "cn": "不",
+          "pos": "副词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "动词"
+        },
+        {
+          "en": "games.",
+          "cn": "游戏",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u3-s05",
+      "unit": 3,
+      "cn": "\"yes\"的意思是是。",
+      "en": "It yes rains in spring.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "yes",
+          "cn": "是",
+          "pos": "副词"
+        },
+        {
+          "en": "rains",
+          "cn": "rains",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "spring.",
+          "cn": "春天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u3-s06",
+      "unit": 3,
+      "cn": "\"ha\"的意思是（笑声）哈。",
+      "en": "I have a new ha.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "ha.",
+          "cn": "（笑声）哈",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u3-s07",
+      "unit": 3,
+      "cn": "\"Here I am!\"的意思是我在这里！。",
+      "en": "I do it here i am!.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "it",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "here",
+          "cn": "这里",
+          "pos": "副词"
+        },
+        {
+          "en": "i",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "am!.",
+          "cn": "是",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u3-s08",
+      "unit": 3,
+      "cn": "\"but\"的意思是但是。",
+      "en": "She is smart but kind.",
       "tokens": [
         {
           "en": "She",
@@ -2708,8 +3246,351 @@
           "pos": "动词"
         },
         {
-          "en": "my",
-          "cn": "我的",
+          "en": "smart",
+          "cn": "智能的",
+          "pos": "形容词"
+        },
+        {
+          "en": "but",
+          "cn": "但是",
+          "pos": "连词"
+        },
+        {
+          "en": "kind.",
+          "cn": "种类",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u3-s09",
+      "unit": 3,
+      "cn": "\"oh\"的意思是啊。",
+      "en": "Oh! Nice to meet you.",
+      "tokens": [
+        {
+          "en": "Oh!",
+          "cn": "啊",
+          "pos": "感叹词"
+        },
+        {
+          "en": "Nice",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "meet",
+          "cn": "见面",
+          "pos": "动词"
+        },
+        {
+          "en": "you.",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u3-s10",
+      "unit": 3,
+      "cn": "\"sorry\"的意思是对不起。",
+      "en": "She is very sorry.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "sorry.",
+          "cn": "对不起",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u3-s11",
+      "unit": 3,
+      "cn": "\"twin\"的意思是双胞胎之一。",
+      "en": "I like this twin.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "twin.",
+          "cn": "双胞胎之一",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u3-s12",
+      "unit": 3,
+      "cn": "\"we\"的意思是我们。",
+      "en": "This is for we.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "we.",
+          "cn": "我们",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u3-s13",
+      "unit": 3,
+      "cn": "\"excuse me\"的意思是对不起。",
+      "en": "I excuse me at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "excuse",
+          "cn": "excuse",
+          "pos": "名词"
+        },
+        {
+          "en": "me",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u3-s14",
+      "unit": 3,
+      "cn": "\"class\"的意思是班级。",
+      "en": "I have a new class.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "class.",
+          "cn": "班级",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u3-s15",
+      "unit": 3,
+      "cn": "\"in\"的意思是在……内。",
+      "en": "We play in the park.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……内",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "park.",
+          "cn": "公园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u3-s16",
+      "unit": 3,
+      "cn": "\"with\"的意思是和……在一起。",
+      "en": "She is with home now.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "with",
+          "cn": "和……在一起",
+          "pos": "介词"
+        },
+        {
+          "en": "home",
+          "cn": "家",
+          "pos": "名词"
+        },
+        {
+          "en": "now.",
+          "cn": "现在",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u3-s17",
+      "unit": 3,
+      "cn": "\"right\"的意思是正确的。",
+      "en": "I can see a right.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "right.",
+          "cn": "正确的",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u4-s01",
+      "unit": 4,
+      "cn": "\"this\"的意思是这。",
+      "en": "This is for this.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "this.",
+          "cn": "这",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u4-s02",
+      "unit": 4,
+      "cn": "\"friend\"的意思是朋友。",
+      "en": "I like this friend.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
           "pos": "代词"
         },
         {
@@ -2722,12 +3603,274 @@
     {
       "id": "yilin-3a-u4-s03",
       "unit": 4,
-      "cn": "他也是我的朋友。",
-      "en": "He is my friend too.",
+      "cn": "\"she\"的意思是她。",
+      "en": "I like she.",
       "tokens": [
         {
-          "en": "He",
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "she.",
+          "cn": "她",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u4-s04",
+      "unit": 4,
+      "cn": "\"he\"的意思是他。",
+      "en": "This is for he.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "he.",
           "cn": "他",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u4-s05",
+      "unit": 4,
+      "cn": "\"it\"的意思是它。",
+      "en": "It are my friend.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "friend.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u4-s06",
+      "unit": 4,
+      "cn": "\"good\"的意思是好的。",
+      "en": "My good bag is new.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "bag",
+          "cn": "袋子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "new.",
+          "cn": "新的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u4-s07",
+      "unit": 4,
+      "cn": "\"Thank you.\"的意思是谢谢你。",
+      "en": "I like the thank you..",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "thank",
+          "cn": "thank",
+          "pos": "名词"
+        },
+        {
+          "en": "you..",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u4-s08",
+      "unit": 4,
+      "cn": "\"have\"的意思是有。",
+      "en": "I have every day.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "every",
+          "cn": "每个",
+          "pos": "限定词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u4-s09",
+      "unit": 4,
+      "cn": "\"many\"的意思是许多。",
+      "en": "I like many of them.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "many",
+          "cn": "许多",
+          "pos": "限定词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "them.",
+          "cn": "他们",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u5-s01",
+      "unit": 5,
+      "cn": "\"mother\"的意思是母亲。",
+      "en": "I like this mother.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "mother.",
+          "cn": "母亲",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u5-s02",
+      "unit": 5,
+      "cn": "\"father\"的意思是父亲。",
+      "en": "Look at the father.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "father.",
+          "cn": "父亲",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u5-s03",
+      "unit": 5,
+      "cn": "\"dad\"的意思是爸爸（口语）。",
+      "en": "This is my dad.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
           "pos": "代词"
         },
         {
@@ -2741,40 +3884,17 @@
           "pos": "代词"
         },
         {
-          "en": "friend",
-          "cn": "朋友",
+          "en": "dad.",
+          "cn": "爸爸（口语）",
           "pos": "名词"
-        },
-        {
-          "en": "too.",
-          "cn": "太",
-          "pos": "副词"
         }
       ]
     },
     {
-      "id": "yilin-3a-u4-s04",
-      "unit": 4,
-      "cn": "谢谢你。",
-      "en": "Thank you.",
-      "tokens": [
-        {
-          "en": "Thank",
-          "cn": "谢谢",
-          "pos": "动词"
-        },
-        {
-          "en": "you.",
-          "cn": "你",
-          "pos": "代词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u4-s05",
-      "unit": 4,
-      "cn": "我有很多朋友。",
-      "en": "I have many friends.",
+      "id": "yilin-3a-u5-s04",
+      "unit": 5,
+      "cn": "\"mum\"的意思是妈妈（口语）。",
+      "en": "I have a new mum.",
       "tokens": [
         {
           "en": "I",
@@ -2787,9 +3907,881 @@
           "pos": "动词"
         },
         {
-          "en": "many",
-          "cn": "许多",
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
           "pos": "形容词"
+        },
+        {
+          "en": "mum.",
+          "cn": "妈妈（口语）",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u5-s05",
+      "unit": 5,
+      "cn": "\"brother\"的意思是哥哥。",
+      "en": "Where is the brother?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "brother?",
+          "cn": "哥哥",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u5-s06",
+      "unit": 5,
+      "cn": "\"baby\"的意思是婴儿。",
+      "en": "Do you like the baby?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "baby?",
+          "cn": "婴儿",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u5-s07",
+      "unit": 5,
+      "cn": "\"sister\"的意思是姐姐。",
+      "en": "I can see a sister.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "sister.",
+          "cn": "姐姐",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u5-s08",
+      "unit": 5,
+      "cn": "\"Good evening.\"的意思是晚上好。",
+      "en": "He is good evening..",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "他",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "evening..",
+          "cn": "晚上",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u5-s09",
+      "unit": 5,
+      "cn": "\"quick\"的意思是快。",
+      "en": "I like this quick.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "quick.",
+          "cn": "快",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u5-s10",
+      "unit": 5,
+      "cn": "\"look\"的意思是看。",
+      "en": "I like to look.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "look.",
+          "cn": "看",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u5-s11",
+      "unit": 5,
+      "cn": "\"the\"的意思是这个。",
+      "en": "This is my the.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "the.",
+          "cn": "这个",
+          "pos": "冠词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u5-s12",
+      "unit": 5,
+      "cn": "\"pond\"的意思是池塘。",
+      "en": "I have a new pond.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "pond.",
+          "cn": "池塘",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u5-s13",
+      "unit": 5,
+      "cn": "\"who\"的意思是谁。",
+      "en": "Where is the who?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "who?",
+          "cn": "谁",
+          "pos": "疑问词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u5-s14",
+      "unit": 5,
+      "cn": "\"great\"的意思是极好的。",
+      "en": "The cat is great.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "cat",
+          "cn": "猫",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "great.",
+          "cn": "极好的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u5-s15",
+      "unit": 5,
+      "cn": "\"come\"的意思是来。",
+      "en": "I come every day.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "come",
+          "cn": "来",
+          "pos": "动词"
+        },
+        {
+          "en": "every",
+          "cn": "每个",
+          "pos": "限定词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u5-s16",
+      "unit": 5,
+      "cn": "\"meet\"的意思是相识。",
+      "en": "Let us meet together.",
+      "tokens": [
+        {
+          "en": "Let",
+          "cn": "让",
+          "pos": "动词"
+        },
+        {
+          "en": "us",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "meet",
+          "cn": "相识",
+          "pos": "动词"
+        },
+        {
+          "en": "together.",
+          "cn": "一起",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u5-s17",
+      "unit": 5,
+      "cn": "\"family\"的意思是家。",
+      "en": "I like this family.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "family.",
+          "cn": "家",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u5-s18",
+      "unit": 5,
+      "cn": "\"say\"的意思是说。",
+      "en": "I like to say.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "say.",
+          "cn": "说",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u6-s01",
+      "unit": 6,
+      "cn": "\"grandfather\"的意思是祖父。",
+      "en": "This is my grandfather.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "grandfather.",
+          "cn": "祖父",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u6-s02",
+      "unit": 6,
+      "cn": "\"uncle\"的意思是舅父。",
+      "en": "I have a new uncle.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "uncle.",
+          "cn": "舅父",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u6-s03",
+      "unit": 6,
+      "cn": "\"aunt\"的意思是姑母。",
+      "en": "Where is the aunt?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "aunt?",
+          "cn": "姑母",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u6-s04",
+      "unit": 6,
+      "cn": "\"grandmother\"的意思是祖母。",
+      "en": "Do you like the grandmother?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "grandmother?",
+          "cn": "祖母",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u6-s05",
+      "unit": 6,
+      "cn": "\"cousin\"的意思是堂（表）兄弟姐妹。",
+      "en": "I can see a cousin.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "cousin.",
+          "cn": "堂（表）兄弟姐妹",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u6-s06",
+      "unit": 6,
+      "cn": "\"cool\"的意思是妙极的。",
+      "en": "She is very cool.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "cool.",
+          "cn": "妙极的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u6-s07",
+      "unit": 6,
+      "cn": "\"me\"的意思是我。",
+      "en": "This is for me.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "me.",
+          "cn": "我",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u6-s08",
+      "unit": 6,
+      "cn": "\"wow\"的意思是哇。",
+      "en": "Wow! How are you?",
+      "tokens": [
+        {
+          "en": "Wow!",
+          "cn": "哇",
+          "pos": "感叹词"
+        },
+        {
+          "en": "How",
+          "cn": "怎样",
+          "pos": "疑问词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "you?",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u6-s09",
+      "unit": 6,
+      "cn": "\"big\"的意思是大的。",
+      "en": "This book is big.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "book",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "big.",
+          "cn": "大的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u6-s10",
+      "unit": 6,
+      "cn": "\"it\"的意思是指婴儿。",
+      "en": "This is for it.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "it.",
+          "cn": "指婴儿",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u6-s11",
+      "unit": 6,
+      "cn": "\"happy\"的意思是幸福的。",
+      "en": "My happy bag is new.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "happy",
+          "cn": "幸福的",
+          "pos": "形容词"
+        },
+        {
+          "en": "bag",
+          "cn": "袋子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "new.",
+          "cn": "新的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u6-s12",
+      "unit": 6,
+      "cn": "\"love\"的意思是爱。",
+      "en": "She can love very well.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "love",
+          "cn": "爱",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "well.",
+          "cn": "好",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s01",
+      "unit": 7,
+      "cn": "\"Happy Birthday!\"的意思是生日快乐！。",
+      "en": "He is happy birthday!.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "他",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "happy",
+          "cn": "快乐的",
+          "pos": "形容词"
+        },
+        {
+          "en": "birthday!.",
+          "cn": "生日",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s02",
+      "unit": 7,
+      "cn": "\"one\"的意思是一。",
+      "en": "There are one books on the desk.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "one",
+          "cn": "一",
+          "pos": "数词"
+        },
+        {
+          "en": "books",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "desk.",
+          "cn": "书桌",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s03",
+      "unit": 7,
+      "cn": "\"two\"的意思是二。",
+      "en": "I have two friends.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "two",
+          "cn": "二",
+          "pos": "数词"
         },
         {
           "en": "friends.",
@@ -2799,15 +4791,20 @@
       ]
     },
     {
-      "id": "yilin-3a-u5-s01",
-      "unit": 5,
-      "cn": "她是我妈妈。",
-      "en": "She is my mother.",
+      "id": "yilin-3a-u7-s04",
+      "unit": 7,
+      "cn": "\"three\"的意思是三。",
+      "en": "The three is my lucky number.",
       "tokens": [
         {
-          "en": "She",
-          "cn": "她",
-          "pos": "代词"
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "three",
+          "cn": "三",
+          "pos": "数词"
         },
         {
           "en": "is",
@@ -2820,249 +4817,22 @@
           "pos": "代词"
         },
         {
-          "en": "mother.",
-          "cn": "妈妈",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u5-s02",
-      "unit": 5,
-      "cn": "这是我爸爸。",
-      "en": "This is my father.",
-      "tokens": [
-        {
-          "en": "This",
-          "cn": "这",
-          "pos": "代词"
-        },
-        {
-          "en": "is",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "my",
-          "cn": "我的",
-          "pos": "代词"
-        },
-        {
-          "en": "father.",
-          "cn": "爸爸",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u5-s03",
-      "unit": 5,
-      "cn": "她是谁？",
-      "en": "Who is she?",
-      "tokens": [
-        {
-          "en": "Who",
-          "cn": "谁",
-          "pos": "代词"
-        },
-        {
-          "en": "is",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "she?",
-          "cn": "她",
-          "pos": "代词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u5-s04",
-      "unit": 5,
-      "cn": "他是我哥哥。",
-      "en": "He is my brother.",
-      "tokens": [
-        {
-          "en": "He",
-          "cn": "他",
-          "pos": "代词"
-        },
-        {
-          "en": "is",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "my",
-          "cn": "我的",
-          "pos": "代词"
-        },
-        {
-          "en": "brother.",
-          "cn": "哥哥",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u5-s05",
-      "unit": 5,
-      "cn": "晚上好！",
-      "en": "Good evening!",
-      "tokens": [
-        {
-          "en": "Good",
-          "cn": "好的",
+          "en": "lucky",
+          "cn": "幸运的",
           "pos": "形容词"
         },
         {
-          "en": "evening!",
-          "cn": "晚上",
+          "en": "number.",
+          "cn": "数字",
           "pos": "名词"
         }
       ]
     },
     {
-      "id": "yilin-3a-u5-s06",
-      "unit": 5,
-      "cn": "来见见我的家人。",
-      "en": "Come and meet my family.",
-      "tokens": [
-        {
-          "en": "Come",
-          "cn": "来",
-          "pos": "动词"
-        },
-        {
-          "en": "and",
-          "cn": "和",
-          "pos": "连词"
-        },
-        {
-          "en": "meet",
-          "cn": "见到",
-          "pos": "动词"
-        },
-        {
-          "en": "my",
-          "cn": "我的",
-          "pos": "代词"
-        },
-        {
-          "en": "family.",
-          "cn": "家庭",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u6-s01",
-      "unit": 6,
-      "cn": "他是你的爷爷吗？",
-      "en": "Is he your grandpa?",
-      "tokens": [
-        {
-          "en": "Is",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "he",
-          "cn": "他",
-          "pos": "代词"
-        },
-        {
-          "en": "your",
-          "cn": "你的",
-          "pos": "代词"
-        },
-        {
-          "en": "grandpa?",
-          "cn": "爷爷",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u6-s02",
-      "unit": 6,
-      "cn": "她是我奶奶。",
-      "en": "She is my grandma.",
-      "tokens": [
-        {
-          "en": "She",
-          "cn": "她",
-          "pos": "代词"
-        },
-        {
-          "en": "is",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "my",
-          "cn": "我的",
-          "pos": "代词"
-        },
-        {
-          "en": "grandma.",
-          "cn": "奶奶",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u6-s03",
-      "unit": 6,
-      "cn": "这是我的舅舅。",
-      "en": "This is my uncle.",
-      "tokens": [
-        {
-          "en": "This",
-          "cn": "这",
-          "pos": "代词"
-        },
-        {
-          "en": "is",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "my",
-          "cn": "我的",
-          "pos": "代词"
-        },
-        {
-          "en": "uncle.",
-          "cn": "叔叔",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u6-s04",
-      "unit": 6,
-      "cn": "哇，太酷了！",
-      "en": "Wow, cool!",
-      "tokens": [
-        {
-          "en": "Wow,",
-          "cn": "哇",
-          "pos": "感叹词"
-        },
-        {
-          "en": "cool!",
-          "cn": "凉爽的",
-          "pos": "形容词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u6-s05",
-      "unit": 6,
-      "cn": "我爱你，爷爷。",
-      "en": "I love you, Grandpa.",
+      "id": "yilin-3a-u7-s05",
+      "unit": 7,
+      "cn": "\"four\"的意思是四。",
+      "en": "I can see four birds.",
       "tokens": [
         {
           "en": "I",
@@ -3070,27 +4840,296 @@
           "pos": "代词"
         },
         {
-          "en": "love",
-          "cn": "爱",
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
           "pos": "动词"
         },
         {
-          "en": "you,",
-          "cn": "你",
-          "pos": "代词"
+          "en": "four",
+          "cn": "四",
+          "pos": "数词"
         },
         {
-          "en": "Grandpa.",
-          "cn": "爷爷",
+          "en": "birds.",
+          "cn": "birds",
           "pos": "名词"
         }
       ]
     },
     {
-      "id": "yilin-3a-u6-s06",
-      "unit": 6,
-      "cn": "我有一个大家庭。",
-      "en": "I have a big family.",
+      "id": "yilin-3a-u7-s06",
+      "unit": 7,
+      "cn": "\"five\"的意思是五。",
+      "en": "There are five books on the desk.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "five",
+          "cn": "五",
+          "pos": "数词"
+        },
+        {
+          "en": "books",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "desk.",
+          "cn": "书桌",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s07",
+      "unit": 7,
+      "cn": "\"six\"的意思是六。",
+      "en": "I have six friends.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "six",
+          "cn": "六",
+          "pos": "数词"
+        },
+        {
+          "en": "friends.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s08",
+      "unit": 7,
+      "cn": "\"seven\"的意思是七。",
+      "en": "The seven is my lucky number.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "seven",
+          "cn": "七",
+          "pos": "数词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "lucky",
+          "cn": "幸运的",
+          "pos": "形容词"
+        },
+        {
+          "en": "number.",
+          "cn": "数字",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s09",
+      "unit": 7,
+      "cn": "\"eight\"的意思是八。",
+      "en": "I can see eight birds.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "eight",
+          "cn": "八",
+          "pos": "数词"
+        },
+        {
+          "en": "birds.",
+          "cn": "birds",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s10",
+      "unit": 7,
+      "cn": "\"nine\"的意思是九。",
+      "en": "There are nine books on the desk.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "nine",
+          "cn": "九",
+          "pos": "数词"
+        },
+        {
+          "en": "books",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "desk.",
+          "cn": "书桌",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s11",
+      "unit": 7,
+      "cn": "\"ten\"的意思是十。",
+      "en": "I have ten friends.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "ten",
+          "cn": "十",
+          "pos": "数词"
+        },
+        {
+          "en": "friends.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s12",
+      "unit": 7,
+      "cn": "\"now\"的意思是现在。",
+      "en": "She sings now.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "sings",
+          "cn": "sings",
+          "pos": "名词"
+        },
+        {
+          "en": "now.",
+          "cn": "现在",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s13",
+      "unit": 7,
+      "cn": "\"want\"的意思是要。",
+      "en": "We want at school.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "want",
+          "cn": "要",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s14",
+      "unit": 7,
+      "cn": "\"car\"的意思是小汽车。",
+      "en": "I have a new car.",
       "tokens": [
         {
           "en": "I",
@@ -3104,141 +5143,59 @@
         },
         {
           "en": "a",
-          "cn": "一本",
+          "cn": "一个",
           "pos": "冠词"
         },
         {
-          "en": "big",
-          "cn": "大的",
+          "en": "new",
+          "cn": "新的",
           "pos": "形容词"
         },
         {
-          "en": "family.",
-          "cn": "家庭",
+          "en": "car.",
+          "cn": "小汽车",
           "pos": "名词"
         }
       ]
     },
     {
-      "id": "yilin-3a-u7-s01",
+      "id": "yilin-3a-u7-s15",
       "unit": 7,
-      "cn": "生日快乐！",
-      "en": "Happy Birthday!",
+      "cn": "\"book\"的意思是书。",
+      "en": "Where is the book?",
       "tokens": [
         {
-          "en": "Happy",
-          "cn": "快乐的",
-          "pos": "形容词"
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
         },
         {
-          "en": "Birthday!",
-          "cn": "生日",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u7-s02",
-      "unit": 7,
-      "cn": "你多大了？",
-      "en": "How old are you?",
-      "tokens": [
-        {
-          "en": "How",
-          "cn": "多少",
-          "pos": "副词"
-        },
-        {
-          "en": "old",
-          "cn": "（多少）岁",
-          "pos": "形容词"
-        },
-        {
-          "en": "are",
+          "en": "is",
           "cn": "是",
-          "pos": "系动词"
-        },
-        {
-          "en": "you?",
-          "cn": "你",
-          "pos": "代词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u7-s03",
-      "unit": 7,
-      "cn": "我十岁。",
-      "en": "I'm ten.",
-      "tokens": [
-        {
-          "en": "I'm",
-          "cn": "我是",
-          "pos": "缩略"
-        },
-        {
-          "en": "ten.",
-          "cn": "十本",
-          "pos": "数词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u7-s04",
-      "unit": 7,
-      "cn": "要帮忙吗？",
-      "en": "Can I help you?",
-      "tokens": [
-        {
-          "en": "Can",
-          "cn": "会",
-          "pos": "助动词"
-        },
-        {
-          "en": "I",
-          "cn": "我",
-          "pos": "代词"
-        },
-        {
-          "en": "help",
-          "cn": "帮助",
           "pos": "动词"
         },
         {
-          "en": "you?",
-          "cn": "你",
-          "pos": "代词"
-        }
-      ]
-    },
-    {
-      "id": "yilin-3a-u7-s05",
-      "unit": 7,
-      "cn": "好的，谢谢。",
-      "en": "Yes, please.",
-      "tokens": [
-        {
-          "en": "Yes,",
-          "cn": "是的",
-          "pos": "副词"
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
         },
         {
-          "en": "please.",
-          "cn": "请",
-          "pos": "副词"
+          "en": "book?",
+          "cn": "书",
+          "pos": "名词"
         }
       ]
     },
     {
-      "id": "yilin-3a-u7-s06",
+      "id": "yilin-3a-u7-s16",
       "unit": 7,
-      "cn": "给你。",
-      "en": "Here you are.",
+      "cn": "\"ball\"的意思是球。",
+      "en": "Do you like the ball?",
       "tokens": [
         {
-          "en": "Here",
-          "cn": "这里",
-          "pos": "副词"
+          "en": "Do",
+          "cn": "做",
+          "pos": "动词"
         },
         {
           "en": "you",
@@ -3246,17 +5203,27 @@
           "pos": "代词"
         },
         {
-          "en": "are.",
-          "cn": "是",
-          "pos": "系动词"
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "ball?",
+          "cn": "球",
+          "pos": "名词"
         }
       ]
     },
     {
-      "id": "yilin-3a-u7-s07",
+      "id": "yilin-3a-u7-s17",
       "unit": 7,
-      "cn": "我想要一个蛋糕。",
-      "en": "I want a cake.",
+      "cn": "\"cake\"的意思是蛋糕。",
+      "en": "I can see a cake.",
       "tokens": [
         {
           "en": "I",
@@ -3264,13 +5231,18 @@
           "pos": "代词"
         },
         {
-          "en": "want",
-          "cn": "想要",
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
           "pos": "动词"
         },
         {
           "en": "a",
-          "cn": "一本",
+          "cn": "一个",
           "pos": "冠词"
         },
         {
@@ -3281,10 +5253,10 @@
       ]
     },
     {
-      "id": "yilin-3a-u8-s01",
-      "unit": 8,
-      "cn": "我会唱歌。",
-      "en": "I can sing.",
+      "id": "yilin-3a-u7-s18",
+      "unit": 7,
+      "cn": "\"How lovely!\"的意思是真可爱！。",
+      "en": "I like the how lovely!.",
       "tokens": [
         {
           "en": "I",
@@ -3292,22 +5264,32 @@
           "pos": "代词"
         },
         {
-          "en": "can",
-          "cn": "会",
-          "pos": "助动词"
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
         },
         {
-          "en": "sing.",
-          "cn": "唱歌",
-          "pos": "动词"
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "how",
+          "cn": "怎样",
+          "pos": "疑问词"
+        },
+        {
+          "en": "lovely!.",
+          "cn": "可爱的",
+          "pos": "形容词"
         }
       ]
     },
     {
-      "id": "yilin-3a-u8-s02",
-      "unit": 8,
-      "cn": "我会跳舞。",
-      "en": "I can dance.",
+      "id": "yilin-3a-u7-s19",
+      "unit": 7,
+      "cn": "\"Can I help you?\"的意思是要帮忙吗？。",
+      "en": "I like the can i help you?.",
       "tokens": [
         {
           "en": "I",
@@ -3315,45 +5297,70 @@
           "pos": "代词"
         },
         {
-          "en": "can",
-          "cn": "会",
-          "pos": "助动词"
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
         },
         {
-          "en": "dance.",
-          "cn": "跳舞",
-          "pos": "动词"
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "i",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "help",
+          "cn": "帮助",
+          "pos": "名词"
+        },
+        {
+          "en": "you?.",
+          "cn": "你",
+          "pos": "代词"
         }
       ]
     },
     {
-      "id": "yilin-3a-u8-s03",
-      "unit": 8,
-      "cn": "我会画画。",
-      "en": "I can draw.",
+      "id": "yilin-3a-u7-s20",
+      "unit": 7,
+      "cn": "\"Yes, please.\"的意思是好的。",
+      "en": "He is yes, please..",
       "tokens": [
         {
-          "en": "I",
-          "cn": "我",
+          "en": "He",
+          "cn": "他",
           "pos": "代词"
         },
         {
-          "en": "can",
-          "cn": "会",
-          "pos": "助动词"
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
         },
         {
-          "en": "draw.",
-          "cn": "画",
-          "pos": "动词"
+          "en": "yes,",
+          "cn": "是的",
+          "pos": "副词"
+        },
+        {
+          "en": "please..",
+          "cn": "请",
+          "pos": "副词"
         }
       ]
     },
     {
-      "id": "yilin-3a-u8-s04",
-      "unit": 8,
-      "cn": "我会拍照。",
-      "en": "I can take pictures.",
+      "id": "yilin-3a-u7-s21",
+      "unit": 7,
+      "cn": "\"some\"的意思是一些。",
+      "en": "I like some of them.",
       "tokens": [
         {
           "en": "I",
@@ -3361,47 +5368,75 @@
           "pos": "代词"
         },
         {
-          "en": "can",
-          "cn": "会",
-          "pos": "助动词"
-        },
-        {
-          "en": "take",
-          "cn": "拿",
+          "en": "like",
+          "cn": "喜欢",
           "pos": "动词"
         },
         {
-          "en": "pictures.",
-          "cn": "图画",
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "them.",
+          "cn": "他们",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s22",
+      "unit": 7,
+      "cn": "\"toy\"的意思是玩具。",
+      "en": "I have a new toy.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "toy.",
+          "cn": "玩具",
           "pos": "名词"
         }
       ]
     },
     {
-      "id": "yilin-3a-u8-s05",
-      "unit": 8,
-      "cn": "我能为你做这件事。",
-      "en": "I can do this for you.",
+      "id": "yilin-3a-u7-s23",
+      "unit": 7,
+      "cn": "\"for\"的意思是给。",
+      "en": "We play for the park.",
       "tokens": [
         {
-          "en": "I",
-          "cn": "我",
+          "en": "We",
+          "cn": "我们",
           "pos": "代词"
         },
         {
-          "en": "can",
-          "cn": "会",
-          "pos": "助动词"
-        },
-        {
-          "en": "do",
-          "cn": "（助动词）",
-          "pos": "助动词"
-        },
-        {
-          "en": "this",
-          "cn": "这",
-          "pos": "代词"
+          "en": "play",
+          "cn": "玩",
+          "pos": "动词"
         },
         {
           "en": "for",
@@ -3409,17 +5444,281 @@
           "pos": "介词"
         },
         {
-          "en": "you.",
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "park.",
+          "cn": "公园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s24",
+      "unit": 7,
+      "cn": "\"OK\"的意思是对。",
+      "en": "The cat is ok.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "cat",
+          "cn": "猫",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "ok.",
+          "cn": "对",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s25",
+      "unit": 7,
+      "cn": "\"How old are you?\"的意思是你多大了？。",
+      "en": "I like the how old are you?.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "how",
+          "cn": "怎样",
+          "pos": "疑问词"
+        },
+        {
+          "en": "old",
+          "cn": "旧的",
+          "pos": "形容词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "you?.",
           "cn": "你",
           "pos": "代词"
         }
       ]
     },
     {
-      "id": "yilin-3a-u8-s06",
+      "id": "yilin-3a-u7-s26",
+      "unit": 7,
+      "cn": "\"please\"的意思是请。",
+      "en": "They please play games.",
+      "tokens": [
+        {
+          "en": "They",
+          "cn": "他们",
+          "pos": "代词"
+        },
+        {
+          "en": "please",
+          "cn": "请",
+          "pos": "副词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "动词"
+        },
+        {
+          "en": "games.",
+          "cn": "游戏",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s27",
+      "unit": 7,
+      "cn": "\"here\"的意思是到这里。",
+      "en": "It here rains in spring.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "here",
+          "cn": "到这里",
+          "pos": "副词"
+        },
+        {
+          "en": "rains",
+          "cn": "rains",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "spring.",
+          "cn": "春天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s28",
+      "unit": 7,
+      "cn": "\"love\"的意思是喜好。",
+      "en": "I like to love.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "love.",
+          "cn": "喜好",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s29",
+      "unit": 7,
+      "cn": "\"Here you are.\"的意思是给你。",
+      "en": "I do it here you are..",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "it",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "here",
+          "cn": "这里",
+          "pos": "副词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "are..",
+          "cn": "是",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s30",
+      "unit": 7,
+      "cn": "\"You're welcome.\"的意思是别客气。",
+      "en": "I like the you're welcome..",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "you're",
+          "cn": "你是",
+          "pos": "缩略"
+        },
+        {
+          "en": "welcome..",
+          "cn": "欢迎",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u7-s31",
+      "unit": 7,
+      "cn": "\"thanks\"的意思是谢谢。",
+      "en": "Where is the thanks?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "thanks?",
+          "cn": "谢谢",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u8-s01",
       "unit": 8,
-      "cn": "我会擦桌子。",
-      "en": "I can clean the table.",
+      "cn": "\"can\"的意思是能。",
+      "en": "I can swim.",
       "tokens": [
         {
           "en": "I",
@@ -3428,22 +5727,528 @@
         },
         {
           "en": "can",
-          "cn": "会",
-          "pos": "助动词"
+          "cn": "能",
+          "pos": "情态动词"
         },
         {
-          "en": "clean",
-          "cn": "打扫",
+          "en": "swim.",
+          "cn": "游泳",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u8-s02",
+      "unit": 8,
+      "cn": "\"do\"的意思是做。",
+      "en": "I do every day.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
           "pos": "动词"
         },
         {
+          "en": "every",
+          "cn": "每个",
+          "pos": "限定词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u8-s03",
+      "unit": 8,
+      "cn": "\"for\"的意思是为了。",
+      "en": "I sit for my friend.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "sit",
+          "cn": "坐",
+          "pos": "动词"
+        },
+        {
+          "en": "for",
+          "cn": "为了",
+          "pos": "介词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "friend.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u8-s04",
+      "unit": 8,
+      "cn": "\"clean\"的意思是使……干净。",
+      "en": "Can you clean?",
+      "tokens": [
+        {
+          "en": "Can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "clean?",
+          "cn": "使……干净",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u8-s05",
+      "unit": 8,
+      "cn": "\"table\"的意思是桌子。",
+      "en": "Look at the table.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
           "en": "the",
-          "cn": "那位",
+          "cn": "这个",
           "pos": "冠词"
         },
         {
           "en": "table.",
-          "cn": "餐桌",
+          "cn": "桌子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u8-s06",
+      "unit": 8,
+      "cn": "\"draw\"的意思是画。",
+      "en": "We draw at school.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "draw",
+          "cn": "画",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u8-s07",
+      "unit": 8,
+      "cn": "\"sing\"的意思是唱（歌）。",
+      "en": "Please sing with me.",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "副词"
+        },
+        {
+          "en": "sing",
+          "cn": "唱（歌）",
+          "pos": "动词"
+        },
+        {
+          "en": "with",
+          "cn": "和",
+          "pos": "介词"
+        },
+        {
+          "en": "me.",
+          "cn": "我",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u8-s08",
+      "unit": 8,
+      "cn": "\"take pictures\"的意思是拍照。",
+      "en": "I take pictures at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "take",
+          "cn": "拿",
+          "pos": "动词"
+        },
+        {
+          "en": "pictures",
+          "cn": "图画",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u8-s09",
+      "unit": 8,
+      "cn": "\"dance\"的意思是跳舞。",
+      "en": "She can dance very well.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "dance",
+          "cn": "跳舞",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "well.",
+          "cn": "好",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u8-s10",
+      "unit": 8,
+      "cn": "\"Are you OK?\"的意思是你没事吧？。",
+      "en": "I are you ok? at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "ok?",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u8-s11",
+      "unit": 8,
+      "cn": "\"dizzy\"的意思是头晕目眩的。",
+      "en": "She is very dizzy.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "非常",
+          "pos": "副词"
+        },
+        {
+          "en": "dizzy.",
+          "cn": "头晕目眩的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u8-s12",
+      "unit": 8,
+      "cn": "\"picture\"的意思是图画。",
+      "en": "I like this picture.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "this",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "picture.",
+          "cn": "图画",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u8-s13",
+      "unit": 8,
+      "cn": "\"er\"的意思是哦。",
+      "en": "Look at the er.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "er.",
+          "cn": "哦",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u8-s14",
+      "unit": 8,
+      "cn": "\"fox\"的意思是狐狸。",
+      "en": "This is my fox.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "代词"
+        },
+        {
+          "en": "fox.",
+          "cn": "狐狸",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u8-s15",
+      "unit": 8,
+      "cn": "\"get together\"的意思是聚集。",
+      "en": "I get together at school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "get",
+          "cn": "得到",
+          "pos": "动词"
+        },
+        {
+          "en": "together",
+          "cn": "一起",
+          "pos": "副词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u8-s16",
+      "unit": 8,
+      "cn": "\"on\"的意思是在（某一天）。",
+      "en": "We play on the park.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在（某一天）",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "park.",
+          "cn": "公园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u8-s17",
+      "unit": 8,
+      "cn": "\"child\"的意思是儿童。",
+      "en": "Do you like the child?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这个",
+          "pos": "冠词"
+        },
+        {
+          "en": "child?",
+          "cn": "儿童",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "yilin-3a-u8-s18",
+      "unit": 8,
+      "cn": "\"thing\"的意思是事情。",
+      "en": "I can see a thing.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看见",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "thing.",
+          "cn": "事情",
           "pos": "名词"
         }
       ]
