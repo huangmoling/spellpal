@@ -8,7 +8,7 @@ if ROOT not in sys.path:
 
 CJK = re.compile(r'[\u4e00-\u9fff]')
 IPA = re.compile(r'/[^/\s]{1,24}/')
-BAD = {'ls-4b', 'ls-5a', 'ls-5b', 'ls-6a', 'ls-6b'}
+BAD = set()
 
 
 def norm(w):
@@ -17,6 +17,14 @@ def norm(w):
     w = w.replace('…', ' ')
     return re.sub(r'\s+', ' ', w).strip().lower()
 
+
+def load_extra():
+    p = os.path.join(HERE, 'extra_ipa.json')
+    try:
+        d = json.load(open(p, encoding='utf-8'))
+        return {k.lower(): v for k, v in d.items()}
+    except Exception:
+        return {}
 
 def load_lib():
     lib = {}
@@ -30,6 +38,7 @@ def load_lib():
         for w in d.get('words', []):
             if w.get('ipaUK'):
                 lib.setdefault(norm(w['word']), w['ipaUK'])
+    lib.update(load_extra())
     return lib
 
 

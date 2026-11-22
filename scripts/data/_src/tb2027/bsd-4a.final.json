@@ -1,0 +1,922 @@
+{
+ "book": "bsd-4a",
+ "words": [
+  {
+   "unit": 1,
+   "word": "new",
+   "gloss": "新的",
+   "ipaUK": "/njuː/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "lunch",
+   "gloss": "午餐",
+   "ipaUK": "/lʌntʃ/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "library",
+   "gloss": "图书室；图书馆",
+   "ipaUK": "/ˈlaɪbrəri/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "computer",
+   "gloss": "计算机，，电脑",
+   "ipaUK": "/kəmˈpjuːtə(r)/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "music",
+   "gloss": "音乐",
+   "ipaUK": "/ˈmjuːzɪk/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "science",
+   "gloss": "科学",
+   "ipaUK": "/ˈsaɪəns/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "Good morning",
+   "gloss": "早上好。",
+   "ipaUK": "/ɡʊd ˈmɔːnɪŋ/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "subject",
+   "gloss": "学科，科目",
+   "ipaUK": "/ˈsʌbdʒɪkt/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "day",
+   "gloss": "一日；白天",
+   "ipaUK": "/deɪ/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "today",
+   "gloss": "今天",
+   "ipaUK": "/təˈdeɪ/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "on",
+   "gloss": "在（某一天）",
+   "ipaUK": "/ɒn/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "Monday",
+   "gloss": "星期一",
+   "ipaUK": "/ˈmʌndeɪ/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "Tuesday",
+   "gloss": "星期二",
+   "ipaUK": "/ˈtjuːzdeɪ/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "Wednesday",
+   "gloss": "星期三",
+   "ipaUK": "/ˈwenzdeɪ/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "Thursday",
+   "gloss": "星期四",
+   "ipaUK": "/ˈθɜːzdeɪ/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "Friday",
+   "gloss": "星期五",
+   "ipaUK": "/ˈfraɪdeɪ/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "story",
+   "gloss": "故事",
+   "ipaUK": "/ˈstɔːri/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "find",
+   "gloss": "找到，发现",
+   "ipaUK": "/faɪnd/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "many",
+   "gloss": "许多",
+   "ipaUK": "/ˈmeni/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "word",
+   "gloss": "字，词，单词",
+   "ipaUK": "/wɜːd/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "thing",
+   "gloss": "事情；物品",
+   "ipaUK": "/θɪŋ/",
+   "star": true
+  },
+  {
+   "unit": 1,
+   "word": "put",
+   "gloss": "放，安置",
+   "ipaUK": "/pʊt/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "map",
+   "gloss": "图；地图",
+   "ipaUK": "/mæp/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "easy",
+   "gloss": "容易的",
+   "ipaUK": "/ˈiːzi/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "make",
+   "gloss": "制定，写",
+   "ipaUK": "/meɪk/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "plan",
+   "gloss": "计划，目标",
+   "ipaUK": "/plæn/",
+   "star": true
+  },
+  {
+   "unit": 1,
+   "word": "Saturday",
+   "gloss": "星期六",
+   "ipaUK": "/ˈsætədeɪ/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "Sunday",
+   "gloss": "星期日",
+   "ipaUK": "/ˈsʌndeɪ/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "live",
+   "gloss": "居住",
+   "ipaUK": "/lɪv/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "sound",
+   "gloss": "听起来",
+   "ipaUK": "/saʊnd/",
+   "star": true
+  },
+  {
+   "unit": 2,
+   "word": "those",
+   "gloss": "那些",
+   "ipaUK": "/ðəʊz/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "bird",
+   "gloss": "鸟",
+   "ipaUK": "/bɜːd/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "rabbit",
+   "gloss": "兔子",
+   "ipaUK": "/ˈræbɪt/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "deer",
+   "gloss": "鸟兔鹿狮虎猴",
+   "ipaUK": "/dɪə/",
+   "star": true
+  },
+  {
+   "unit": 2,
+   "word": "lion",
+   "gloss": "狮子",
+   "ipaUK": "/ˈlaɪən/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "tiger",
+   "gloss": "老虎",
+   "ipaUK": "/ˈtaɪɡə(r)/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "monkey",
+   "gloss": "猴子",
+   "ipaUK": "/ˈmʌŋki/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "clever",
+   "gloss": "聪明的；聪颖的",
+   "ipaUK": "/ˈklevə(r)/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "people",
+   "gloss": "人；人们",
+   "ipaUK": "/ˈpiːpl/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "work hard",
+   "gloss": "努力工作",
+   "ipaUK": "/wɜːk hɑːd/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "honey",
+   "gloss": "蜂蜜",
+   "ipaUK": "/ˈhʌni/",
+   "star": true
+  },
+  {
+   "unit": 2,
+   "word": "strong",
+   "gloss": "强健的，健壮的",
+   "ipaUK": "/strɒŋ/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "cute",
+   "gloss": "逗人喜爱的",
+   "ipaUK": "/kjuːt/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "elephant",
+   "gloss": "大象",
+   "ipaUK": "/ˈelɪfənt/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "cat",
+   "gloss": "猫",
+   "ipaUK": "/kæt/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "bee",
+   "gloss": "蜜蜂",
+   "ipaUK": "/biː/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "mouse",
+   "gloss": "鼠狗",
+   "ipaUK": "/maʊs/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "dog",
+   "gloss": "狗",
+   "ipaUK": "/dɒɡ/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "turtle",
+   "gloss": "海龟",
+   "ipaUK": "/ˈtɜːtl̩/",
+   "star": true
+  },
+  {
+   "unit": 2,
+   "word": "there",
+   "gloss": "有；在那里",
+   "ipaUK": "/ðeə(r)/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "how many",
+   "gloss": "有多少，有几个",
+   "ipaUK": "/haʊ ˈmeni/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "eleven",
+   "gloss": "十一",
+   "ipaUK": "/ɪˈlev(ə)n/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "twelve",
+   "gloss": "十二",
+   "ipaUK": "/twelv/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "thirteen",
+   "gloss": "十三",
+   "ipaUK": "/ˌθɜːˈtiːn/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "fourteen",
+   "gloss": "十四",
+   "ipaUK": "/ˌfɔːˈtiːn/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "fifteen",
+   "gloss": "十五",
+   "ipaUK": "/ˌfɪfˈtiːn/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "sixteen",
+   "gloss": "十六",
+   "ipaUK": "/ˈsɪks.tiːn/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "seventeen",
+   "gloss": "十七",
+   "ipaUK": "/ˈsɛv.ən.tiːn/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "eighteen",
+   "gloss": "十八",
+   "ipaUK": "/ˈeɪ.tiːn/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "nineteen",
+   "gloss": "十九",
+   "ipaUK": "/ˈnaɪntiːn/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "twenty",
+   "gloss": "二十",
+   "ipaUK": "/ˈtwenti/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "they",
+   "gloss": "他（她、它）们",
+   "ipaUK": "/ðeɪ/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "football",
+   "gloss": "足球",
+   "ipaUK": "/ˈfʊtbɔːl/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "jump rope",
+   "gloss": "跳绳",
+   "ipaUK": "/dʒʌmp rəʊp/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "sell",
+   "gloss": "卖，出售",
+   "ipaUK": "/sel/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "buy",
+   "gloss": "买，购买",
+   "ipaUK": "/baɪ/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "basketball",
+   "gloss": "篮球",
+   "ipaUK": "/ˈbɑːskɪtbɔːl/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "fun",
+   "gloss": "有趣的",
+   "ipaUK": "/fʌn/",
+   "star": true
+  },
+  {
+   "unit": 3,
+   "word": "game",
+   "gloss": "游戏",
+   "ipaUK": "/ɡeɪm/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "kick",
+   "gloss": "踢",
+   "ipaUK": "/kɪk/",
+   "star": true
+  },
+  {
+   "unit": 3,
+   "word": "catch",
+   "gloss": "接住",
+   "ipaUK": "/kætʃ/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "group",
+   "gloss": "组；群",
+   "ipaUK": "/ɡruːp/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "on your own",
+   "gloss": "独自",
+   "ipaUK": "/ɒn jɔː(r) əʊn/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "in pairs",
+   "gloss": "两人一组",
+   "ipaUK": "/ɪn peəz/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "try",
+   "gloss": "试，试做",
+   "ipaUK": "/traɪ/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "or",
+   "gloss": "或，还是",
+   "ipaUK": "/ɔː(r)/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "get",
+   "gloss": "准备；带来",
+   "ipaUK": "/ɡet/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "all the time",
+   "gloss": "一直，始终",
+   "ipaUK": "/ɔːl ðə taɪm/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "any",
+   "gloss": "任何的",
+   "ipaUK": "/ˈeni/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "tea",
+   "gloss": "茶",
+   "ipaUK": "/tiː/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "around",
+   "gloss": "围绕",
+   "ipaUK": "/əˈraʊnd/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "here",
+   "gloss": "在这里",
+   "ipaUK": "/hɪə(r)/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "near",
+   "gloss": "在附近",
+   "ipaUK": "/nɪə(r)/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "cinema",
+   "gloss": "电影院",
+   "ipaUK": "/ˈsɪnəmə/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "supermarket",
+   "gloss": "超市",
+   "ipaUK": "/ˈsuːpəmɑːkɪt/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "beside",
+   "gloss": "在旁边",
+   "ipaUK": "/bɪˈsaɪd/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "hospital",
+   "gloss": "医院",
+   "ipaUK": "/ˈhɒspɪtl/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "bus stop",
+   "gloss": "公共汽车站",
+   "ipaUK": "/bʌs stɒp/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "visit",
+   "gloss": "参观，拜访",
+   "ipaUK": "/ˈvɪzɪt/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "in front of",
+   "gloss": "在前面",
+   "ipaUK": "/ɪn frʌnt ɒv/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "behind",
+   "gloss": "在后面",
+   "ipaUK": "/bɪˈhaɪnd/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "hungry",
+   "gloss": "感到饿的",
+   "ipaUK": "/ˈhʌŋɡri/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "Beijing roast duck",
+   "gloss": "北京烤鸭",
+   "ipaUK": "/ˌbeɪdʒɪŋ rəʊst ˈdʌk/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "Tian'anmen Square",
+   "gloss": "天安门广场",
+   "ipaUK": "/ˌtjɛnˈɑːmən skweə(r)/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "the Palace Museum",
+   "gloss": "故宫博物院",
+   "ipaUK": "/ðə ˈpæləs mjuˈziːəm/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "round",
+   "gloss": "圆的，圆形的",
+   "ipaUK": "/raʊnd/",
+   "star": true
+  },
+  {
+   "unit": 4,
+   "word": "clock",
+   "gloss": "钟，表",
+   "ipaUK": "/klɒk/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "tower",
+   "gloss": "塔；塔楼",
+   "ipaUK": "/ˈtaʊə(r)/",
+   "star": true
+  },
+  {
+   "unit": 4,
+   "word": "call",
+   "gloss": "把叫作",
+   "ipaUK": "/kɔːl/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "house",
+   "gloss": "房屋",
+   "ipaUK": "/haʊs/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "window",
+   "gloss": "窗；窗户",
+   "ipaUK": "/ˈwɪndəʊ/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "long ago",
+   "gloss": "很久以前",
+   "ipaUK": "/lɒŋ əˈɡəʊ/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "holiday",
+   "gloss": "假期",
+   "ipaUK": "/ˈhɒlədeɪ/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "take",
+   "gloss": "拿；携带",
+   "ipaUK": "/teɪk/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "dress",
+   "gloss": "连衣裙",
+   "ipaUK": "/dres/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "heavy coat",
+   "gloss": "厚重的衣服",
+   "ipaUK": "/ˈhevi kəʊt/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "sweater",
+   "gloss": "毛线衣，羊毛衫",
+   "ipaUK": "/ˈswetə(r)/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "coat",
+   "gloss": "大衣，外套",
+   "ipaUK": "/kəʊt/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "cap",
+   "gloss": "帽子",
+   "ipaUK": "/kæp/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "sock",
+   "gloss": "袜子，短袜",
+   "ipaUK": "/sɒk/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "shorts",
+   "gloss": "短裤",
+   "ipaUK": "/ʃɔːts/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "shirt",
+   "gloss": "衬衫",
+   "ipaUK": "/ʃɜːt/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "gift",
+   "gloss": "礼物",
+   "ipaUK": "/ɡɪft/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "how much",
+   "gloss": "多少钱",
+   "ipaUK": "/haʊ mʌtʃ/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "bag",
+   "gloss": "手提包；袋",
+   "ipaUK": "/bæɡ/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "thirty",
+   "gloss": "三十",
+   "ipaUK": "/ˈθɜːti/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "forty",
+   "gloss": "四十",
+   "ipaUK": "/ˈfɔːti/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "fifty",
+   "gloss": "五十",
+   "ipaUK": "/ˈfɪfti/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "sixty",
+   "gloss": "六十",
+   "ipaUK": "/ˈsɪksti/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "seventy",
+   "gloss": "七十",
+   "ipaUK": "/ˈsɛv.ən.ti/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "eighty",
+   "gloss": "八十",
+   "ipaUK": "/ˈeɪ.ti/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "ninety",
+   "gloss": "九十",
+   "ipaUK": "/ˈnaɪnti/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "No touching",
+   "gloss": "禁止触摸。",
+   "ipaUK": "/nəʊ ˈtʌtʃɪŋ/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "No photos.",
+   "gloss": "禁止拍照。",
+   "ipaUK": "/nəʊ ˈfəʊtəʊz/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "be careful",
+   "gloss": "当心，小心",
+   "ipaUK": "/biː ˈkeəfl/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "Keep quiet.",
+   "gloss": "保持安静。",
+   "ipaUK": "/kiːp ˈkwaɪət/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "No pets.",
+   "gloss": "禁止携带宠物。",
+   "ipaUK": "/nəʊ pets/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "No food or drink.",
+   "gloss": "禁用食物与饮料。",
+   "ipaUK": "/nəʊ fuːd ɔː(r) drɪŋk/",
+   "star": false
+  },
+  {
+   "unit": 6,
+   "word": "No bikes.",
+   "gloss": "自行车禁行。",
+   "ipaUK": "/nəʊ baɪks/",
+   "star": false
+  },
+  {
+   "unit": 6,
+   "word": "No running.",
+   "gloss": "禁止奔跑。",
+   "ipaUK": "/nəʊ ˈrʌnɪŋ/",
+   "star": false
+  },
+  {
+   "unit": 6,
+   "word": "watch",
+   "gloss": "看，观看",
+   "ipaUK": "/wɒtʃ/",
+   "star": false
+  }
+ ]
+}

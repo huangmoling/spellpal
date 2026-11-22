@@ -24,24 +24,24 @@ CONF = {
     'hj-3b': ('blocks', 94, 96), 'hj-5b': ('blocks', 96, 98), 'hj-6a': ('blocks', 98, 100),
     'hj-6b': ('blocks', 90, 92),
     'xs-3b': ('blocks', 74, 76),
-    'jk-4b': ('blocks', 93, 95), 'jk-5b': ('blocks', 83, 85), 'jk-6b': ('blocks', 70, 72),
+    'jk-4b': ('blocks', 92, 95), 'jk-5b': ('blocks', 83, 85), 'jk-6b': ('blocks', 70, 72),
     'cj-3a': ('tabs', 88, 94), 'cj-3b': ('tabs', 90, 98), 'cj-4a': ('tabs', 92, 96),
     'cj-4b': ('tabs', 74, 77), 'cj-5b': ('tabs', 84, 87), 'cj-6b': ('tabs', 84, 86),
     'jj-3a': ('alpha', 83, 88), 'jj-3b': ('alpha', 83, 88), 'jj-4a': ('alpha', 84, 89),
-    'jj-5a': ('alpha', 81, 84), 'jj-5b': ('alpha', 80, 85),
-    'jj-6a': ('alpha', 81, 84), 'jj-6b': ('alpha', 81, 84),
+    'jj-5a': ('jjmerge', 81, 86, 79, 80), 'jj-5b': ('jjmerge', 80, 85, 78, 79),
+    'jj-6a': ('jjmerge', 81, 86, 79, 80), 'jj-6b': ('jjmerge', 81, 86, 79, 80),
     'qh-3a': ('alpha', 95, 97), 'qh-3b': ('alpha', 95, 97), 'qh-4b': ('alpha', 80, 81),
     'qh-5a': ('alpha', 80, 81), 'qh-5b': ('alpha', 80, 81), 'qh-6b': ('alpha', 80, 81),
-    'bj-2b': ('bjlist', 74, 76), 'bj-3b': ('bjlist', 86, 89), 'bj-5b': ('bjlist', 89, 91),
+    'bj-2b': ('bjlist', 74, 76), 'bj-3b': ('bjcol', 86, 88), 'bj-5b': ('bjlist', 89, 91),
     'bj-6a': ('bjlist', 92, 94), 'bj-6b': ('bjlist', 66, 68),
     'ls-3a': ('lsalpha', 96, 97), 'ls-3b': ('lsalpha', 95, 96), 'ls-4a': ('lsalpha', 96, 97),
-    'ls-4b': ('lsmerge', 81, 83, 86, 88), 'ls-5a': ('lsmerge', 82, 84, 85, 88),
-    'ls-5b': ('lsmerge', 81, 83, 85, 87), 'ls-6a': ('lsmerge', 81, 83, 85, 88),
-    'ls-6b': ('lsmerge', 78, 79, 80, 84),
+    'ls-4b': ('lsflow', 81, 85), 'ls-5a': ('lsflow', 82, 84),
+    'ls-5b': ('lsflow', 81, 84), 'ls-6a': ('lsflow', 81, 84),
+    'ls-6b': ('lsflow', 78, 79),
 }
 
 
-def blocks(key, a, b, unit_re=r'^\s*\d*\s*[UJ]nit\s*(\d+)'):
+def blocks(key, a, b, unit_re=r'^\s*(?:Unit|[UJ]nit|U)\s*(\d{1,2})\b'):
     pg = pages(key)
     by = {}
     for p in range(a, b + 1):
@@ -192,14 +192,33 @@ def run(key):
     conf = CONF[key]
     mode, a, b = conf[0], conf[1], conf[2]
     if mode == 'blocks':
-        keep, _ = dedupe(blocks(key, a, b, unit_re=r'^\s*(?:Unit|U)\s*(\d+)'))
+        keep, _ = dedupe(blocks(key, a, b))
         return keep, mode
     if mode == 'tabs':
         return tabs(key, a, b), mode
     if mode == 'alpha':
         return alpha(key, a, b), mode
+    if mode == 'jjmerge':
+        import merge_tables
+        import parse_lsflow
+        full = [(int(r['page']) if r.get('page') else 0, r['word'], r['gloss'])
+                for r in alpha_parse(key, conf[1], conf[2])]   # Vocabulary：[(page, word, gloss)]
+        unitr = parse_lsflow.parse(key, range(conf[3], conf[4] + 1), split=250)
+        dots = unit_starts_dots(key)
+        ranges = [(dots[i], (dots[i + 1] - 1) if i + 1 < len(dots) else 999)
+                  for i in range(len(dots))]
+        rows = merge_tables.merge(full, unitr, ranges, B.assign_unit)
+        return [[u, w, g, False, None] for u, w, g in rows], mode
     if mode == 'bjlist':
         return bjlist(key, a, b), mode
+    if mode == 'bjcol':
+        import parse_bjcol
+        rows = parse_bjcol.parse(key, range(a, b + 1))
+        return [[u, w, g, False, None] for u, w, g in rows], mode
+    if mode == 'lsflow':
+        import parse_lsflow
+        rows = parse_lsflow.parse(key, range(a, b + 1))
+        return [[u, w, g, False, None] for u, w, g in rows], mode
     if mode == 'lsmerge':
         import ls_merge
         rows, _miss = ls_merge.parse(key, conf[1], conf[2], conf[3], conf[4])

@@ -1,0 +1,653 @@
+{
+ "book": "xs-5b",
+ "words": [
+  {
+   "unit": 1,
+   "word": "story",
+   "gloss": "故事",
+   "ipaUK": "/ˈstɔːri/"
+  },
+  {
+   "unit": 1,
+   "word": "listen to",
+   "gloss": "听；倾听",
+   "ipaUK": "/ˈlɪsn tuː/"
+  },
+  {
+   "unit": 1,
+   "word": "interesting",
+   "gloss": "有趣的",
+   "ipaUK": "/ˈɪntrəstɪŋ/"
+  },
+  {
+   "unit": 1,
+   "word": "talk about",
+   "gloss": "谈论；讨论",
+   "ipaUK": "/tɔːk əˈbaʊt/"
+  },
+  {
+   "unit": 1,
+   "word": "put on",
+   "gloss": "上演；演出",
+   "ipaUK": "/pʊt ɒn/"
+  },
+  {
+   "unit": 1,
+   "word": "play",
+   "gloss": "戏剧；演出",
+   "ipaUK": "/pleɪ/"
+  },
+  {
+   "unit": 1,
+   "word": "great",
+   "gloss": "好极了；太棒了",
+   "ipaUK": "/ɡreɪt/"
+  },
+  {
+   "unit": 1,
+   "word": "write about",
+   "gloss": "写……记述.",
+   "ipaUK": "/raɪt əˈbaʊt/"
+  },
+  {
+   "unit": 2,
+   "word": "research",
+   "gloss": "调查；研究",
+   "ipaUK": "/ɹɪˈsɜːt͡ʃ/"
+  },
+  {
+   "unit": 2,
+   "word": "find",
+   "gloss": "找到；发现",
+   "ipaUK": "/faɪnd/"
+  },
+  {
+   "unit": 2,
+   "word": "information",
+   "gloss": "信息",
+   "ipaUK": "/ˌɪnfəˈmeɪʃn/"
+  },
+  {
+   "unit": 2,
+   "word": "study",
+   "gloss": "学习；研究",
+   "ipaUK": "/ˈstʌdi/"
+  },
+  {
+   "unit": 2,
+   "word": "think",
+   "gloss": "想；思考",
+   "ipaUK": "/θɪŋk/"
+  },
+  {
+   "unit": 2,
+   "word": "report",
+   "gloss": "报告",
+   "ipaUK": "/rɪˈpɔːt/"
+  },
+  {
+   "unit": 3,
+   "word": "kite",
+   "gloss": "风筝",
+   "ipaUK": "/kaɪt/"
+  },
+  {
+   "unit": 3,
+   "word": "show",
+   "gloss": "展示；给……看",
+   "ipaUK": "/ʃəʊ/"
+  },
+  {
+   "unit": 3,
+   "word": "paper",
+   "gloss": "纸",
+   "ipaUK": "/ˈpeɪ̯.pə/"
+  },
+  {
+   "unit": 3,
+   "word": "bamboo",
+   "gloss": "竹子",
+   "ipaUK": "/ˌbæmˈbuː/"
+  },
+  {
+   "unit": 3,
+   "word": "cut",
+   "gloss": "切；削；剪",
+   "ipaUK": "/kʌt/"
+  },
+  {
+   "unit": 3,
+   "word": "tie",
+   "gloss": "系；捆",
+   "ipaUK": "/taɪ/"
+  },
+  {
+   "unit": 4,
+   "word": "here",
+   "gloss": "在这里",
+   "ipaUK": "/hɪə(r)/"
+  },
+  {
+   "unit": 4,
+   "word": "Mrs",
+   "gloss": "夫人；太太",
+   "ipaUK": "/ˈmɪsɪz/"
+  },
+  {
+   "unit": 4,
+   "word": "take",
+   "gloss": "把带往",
+   "ipaUK": "/teɪk/"
+  },
+  {
+   "unit": 4,
+   "word": "library",
+   "gloss": "图书馆",
+   "ipaUK": "/ˈlaɪbrəri/"
+  },
+  {
+   "unit": 4,
+   "word": "throw",
+   "gloss": "丢；扔",
+   "ipaUK": "/θrəʊ/"
+  },
+  {
+   "unit": 4,
+   "word": "waste",
+   "gloss": "废弃的；浪费的",
+   "ipaUK": "/weɪst/"
+  },
+  {
+   "unit": 4,
+   "word": "floor",
+   "gloss": "地板",
+   "ipaUK": "/flɔː(r)/"
+  },
+  {
+   "unit": 4,
+   "word": "road",
+   "gloss": "道路",
+   "ipaUK": "/rəʊd/"
+  },
+  {
+   "unit": 4,
+   "word": "park",
+   "gloss": "公园",
+   "ipaUK": "/pɑːk/"
+  },
+  {
+   "unit": 5,
+   "word": "year",
+   "gloss": "年",
+   "ipaUK": "/jɪə(r)/"
+  },
+  {
+   "unit": 5,
+   "word": "January",
+   "gloss": "一月",
+   "ipaUK": "/ˈdʒænjuəri/"
+  },
+  {
+   "unit": 5,
+   "word": "February",
+   "gloss": "二月",
+   "ipaUK": "/ˈfebruəri/"
+  },
+  {
+   "unit": 5,
+   "word": "April",
+   "gloss": "四月",
+   "ipaUK": "/ˈeɪprəl/"
+  },
+  {
+   "unit": 5,
+   "word": "July",
+   "gloss": "七月",
+   "ipaUK": "/dʒuˈlaɪ/"
+  },
+  {
+   "unit": 5,
+   "word": "August",
+   "gloss": "八月",
+   "ipaUK": "/ɔːˈɡʌst/"
+  },
+  {
+   "unit": 5,
+   "word": "September",
+   "gloss": "九月",
+   "ipaUK": "/sepˈtembə(r)/"
+  },
+  {
+   "unit": 5,
+   "word": "October",
+   "gloss": "十月",
+   "ipaUK": "/ɒkˈtəʊbə(r)/"
+  },
+  {
+   "unit": 5,
+   "word": "November",
+   "gloss": "十一月",
+   "ipaUK": "/nəʊˈvembə(r)/"
+  },
+  {
+   "unit": 5,
+   "word": "December",
+   "gloss": "十二月",
+   "ipaUK": "/dɪˈsembə(r)/"
+  },
+  {
+   "unit": 5,
+   "word": "March",
+   "gloss": "三月",
+   "ipaUK": "/mɑːtʃ/"
+  },
+  {
+   "unit": 5,
+   "word": "May",
+   "gloss": "五月",
+   "ipaUK": "/meɪ/"
+  },
+  {
+   "unit": 5,
+   "word": "International Children's Day",
+   "gloss": "国际儿童节",
+   "ipaUK": "/ˌɪntəˈnæʃnəl ˈtʃɪldrənz deɪ/"
+  },
+  {
+   "unit": 5,
+   "word": "June",
+   "gloss": "六月",
+   "ipaUK": "/dʒuːn/"
+  },
+  {
+   "unit": 5,
+   "word": "month",
+   "gloss": "月",
+   "ipaUK": "/mʌnθ/"
+  },
+  {
+   "unit": 6,
+   "word": "Mother's Day",
+   "gloss": "母亲节",
+   "ipaUK": "/ˈmʌðəz deɪ/"
+  },
+  {
+   "unit": 6,
+   "word": "favourite",
+   "gloss": "最喜欢的",
+   "ipaUK": "/ˈfeɪvərɪt/"
+  },
+  {
+   "unit": 6,
+   "word": "chocolate",
+   "gloss": "巧克力",
+   "ipaUK": "/ˈtʃɒklət/"
+  },
+  {
+   "unit": 6,
+   "word": "rose",
+   "gloss": "玫瑰花",
+   "ipaUK": "/ɹəʊz/"
+  },
+  {
+   "unit": 6,
+   "word": "celebrate",
+   "gloss": "庆祝",
+   "ipaUK": "/ˈselɪbreɪt/"
+  },
+  {
+   "unit": 6,
+   "word": "restaurant",
+   "gloss": "餐馆",
+   "ipaUK": "/ˈɹɛs.t(ə.)ɹɒnt/"
+  },
+  {
+   "unit": 7,
+   "word": "there",
+   "gloss": "在那里",
+   "ipaUK": "/ðeə(r)/"
+  },
+  {
+   "unit": 7,
+   "word": "post office",
+   "gloss": "邮局",
+   "ipaUK": "/pəʊst ˈɒfɪs/"
+  },
+  {
+   "unit": 7,
+   "word": "near",
+   "gloss": "在……附近",
+   "ipaUK": "/nɪə(r)/"
+  },
+  {
+   "unit": 7,
+   "word": "hometown",
+   "gloss": "家乡",
+   "ipaUK": "/ˈhəʊmtaʊn/"
+  },
+  {
+   "unit": 7,
+   "word": "shop",
+   "gloss": "商店",
+   "ipaUK": "/ʃɒp/"
+  },
+  {
+   "unit": 7,
+   "word": "over there",
+   "gloss": "在那里",
+   "ipaUK": "/ˈəʊvə(r) ðeə(r)/"
+  },
+  {
+   "unit": 7,
+   "word": "cinema",
+   "gloss": "电影院",
+   "ipaUK": "/ˈsɪnəmə/"
+  },
+  {
+   "unit": 7,
+   "word": "around",
+   "gloss": "在……周围",
+   "ipaUK": "/əˈraʊnd/"
+  },
+  {
+   "unit": 7,
+   "word": "street",
+   "gloss": "街道",
+   "ipaUK": "/striːt/"
+  },
+  {
+   "unit": 7,
+   "word": "shopping centre",
+   "gloss": "购物中心",
+   "ipaUK": "/ˈʃɒpɪŋ ˈsentə(r)/"
+  },
+  {
+   "unit": 7,
+   "word": "hotel",
+   "gloss": "宾馆",
+   "ipaUK": "/həʊˈtel/"
+  },
+  {
+   "unit": 7,
+   "word": "bank",
+   "gloss": "银行",
+   "ipaUK": "/bæŋk/"
+  },
+  {
+   "unit": 8,
+   "word": "hospital",
+   "gloss": "医院",
+   "ipaUK": "/ˈhɒspɪtl/"
+  },
+  {
+   "unit": 8,
+   "word": "airport",
+   "gloss": "机场",
+   "ipaUK": "/ˈɛə.pɔːt/"
+  },
+  {
+   "unit": 8,
+   "word": "railway station",
+   "gloss": "火车站",
+   "ipaUK": "/ˈreɪlweɪ ˈsteɪʃn/"
+  },
+  {
+   "unit": 8,
+   "word": "way",
+   "gloss": "道路；路线",
+   "ipaUK": "/weɪ/"
+  },
+  {
+   "unit": 8,
+   "word": "straight",
+   "gloss": "笔直地",
+   "ipaUK": "/streɪt/"
+  },
+  {
+   "unit": 8,
+   "word": "along",
+   "gloss": "沿着",
+   "ipaUK": "/əˈlɒŋ/"
+  },
+  {
+   "unit": 8,
+   "word": "crossing",
+   "gloss": "十字路口",
+   "ipaUK": "/ˈkɹɒsɪŋ/"
+  },
+  {
+   "unit": 8,
+   "word": "take",
+   "gloss": "（车/船/飞机等）",
+   "ipaUK": "/teɪk/"
+  },
+  {
+   "unit": 8,
+   "word": "get off",
+   "gloss": "下车",
+   "ipaUK": "/ɡet ɒf/"
+  },
+  {
+   "unit": 8,
+   "word": "stop",
+   "gloss": "停车站",
+   "ipaUK": "/stɒp/"
+  },
+  {
+   "unit": 8,
+   "word": "get on",
+   "gloss": "上车",
+   "ipaUK": "/ɡet ɒn/"
+  },
+  {
+   "unit": 9,
+   "word": "kind",
+   "gloss": "亲切的；和噶的",
+   "ipaUK": "/kaɪnd/"
+  },
+  {
+   "unit": 9,
+   "word": "village",
+   "gloss": "村庄",
+   "ipaUK": "/ˈvɪlɪdʒ/"
+  },
+  {
+   "unit": 9,
+   "word": "teach",
+   "gloss": "教",
+   "ipaUK": "/tiːtʃ/"
+  },
+  {
+   "unit": 9,
+   "word": "interested",
+   "gloss": "感兴趣的",
+   "ipaUK": "/ˈɪn.t(ə.)ɹɛs.tɪd/"
+  },
+  {
+   "unit": 9,
+   "word": "active",
+   "gloss": "活跃的",
+   "ipaUK": "/ˈæktɪv/"
+  },
+  {
+   "unit": 9,
+   "word": "friendly",
+   "gloss": "友好的",
+   "ipaUK": "/ˈfrendli/"
+  },
+  {
+   "unit": 9,
+   "word": "smart",
+   "gloss": "聪明的",
+   "ipaUK": "/smɑːt/"
+  },
+  {
+   "unit": 9,
+   "word": "serious",
+   "gloss": "严肃的",
+   "ipaUK": "/ˈsɪəriəs/"
+  },
+  {
+   "unit": 10,
+   "word": "were",
+   "gloss": "是（are 的过去式）",
+   "ipaUK": "/wə(ɹ)/"
+  },
+  {
+   "unit": 10,
+   "word": "are",
+   "gloss": "的过去式",
+   "ipaUK": "/ɑː(r)/"
+  },
+  {
+   "unit": 10,
+   "word": "yesterday",
+   "gloss": "昨天",
+   "ipaUK": "/ˈjestədeɪ/"
+  },
+  {
+   "unit": 10,
+   "word": "was",
+   "gloss": "是（is 的过去式）",
+   "ipaUK": "/wəz/"
+  },
+  {
+   "unit": 10,
+   "word": "am, is",
+   "gloss": "的过去式",
+   "ipaUK": "/ˌeɪ ˈem ɪz/"
+  },
+  {
+   "unit": 10,
+   "word": "sick",
+   "gloss": "病的；有病的",
+   "ipaUK": "/ˈsɪk/"
+  },
+  {
+   "unit": 10,
+   "word": "better",
+   "gloss": "更好的",
+   "ipaUK": "/ˈbetə(r)/"
+  },
+  {
+   "unit": 10,
+   "word": "last",
+   "gloss": "最近过去的",
+   "ipaUK": "/lɑːst/"
+  },
+  {
+   "unit": 10,
+   "word": "work",
+   "gloss": "工作",
+   "ipaUK": "/wɜːk/"
+  },
+  {
+   "unit": 11,
+   "word": "first",
+   "gloss": "第一",
+   "ipaUK": "/fɜːst/"
+  },
+  {
+   "unit": 11,
+   "word": "sport",
+   "gloss": "运动",
+   "ipaUK": "/spɔːt/"
+  },
+  {
+   "unit": 11,
+   "word": "metre",
+   "gloss": "米",
+   "ipaUK": "/ˈmiːtə(r)/"
+  },
+  {
+   "unit": 11,
+   "word": "race",
+   "gloss": "赛跑",
+   "ipaUK": "/ɹeɪs/"
+  },
+  {
+   "unit": 11,
+   "word": "second",
+   "gloss": "第二",
+   "ipaUK": "/ˈsɛk.ənd/"
+  },
+  {
+   "unit": 11,
+   "word": "third",
+   "gloss": "第三",
+   "ipaUK": "/θɜːd/"
+  },
+  {
+   "unit": 11,
+   "word": "fourth",
+   "gloss": "第四",
+   "ipaUK": "/fɔːθ/"
+  },
+  {
+   "unit": 11,
+   "word": "fifth",
+   "gloss": "第五",
+   "ipaUK": "/fɪfθ/"
+  },
+  {
+   "unit": 11,
+   "word": "sixth",
+   "gloss": "第六",
+   "ipaUK": "/sɪksθ/"
+  },
+  {
+   "unit": 11,
+   "word": "seventh",
+   "gloss": "第七",
+   "ipaUK": "/ˈsevnθ/"
+  },
+  {
+   "unit": 11,
+   "word": "eighth",
+   "gloss": "第八",
+   "ipaUK": "/eɪtθ/"
+  },
+  {
+   "unit": 11,
+   "word": "ninth",
+   "gloss": "第九",
+   "ipaUK": "/naɪnθ/"
+  },
+  {
+   "unit": 11,
+   "word": "tenth",
+   "gloss": "第十",
+   "ipaUK": "/tɛnθ/"
+  },
+  {
+   "unit": 12,
+   "word": "forest",
+   "gloss": "森林",
+   "ipaUK": "/ˈfɒrɪst/"
+  },
+  {
+   "unit": 12,
+   "word": "museum",
+   "gloss": "博物馆",
+   "ipaUK": "/mjuˈziːəm/"
+  },
+  {
+   "unit": 12,
+   "word": "note",
+   "gloss": "笔记",
+   "ipaUK": "/nəʊt/"
+  },
+  {
+   "unit": 12,
+   "word": "ask",
+   "gloss": "提问；询问",
+   "ipaUK": "/ɑːsk/"
+  },
+  {
+   "unit": 12,
+   "word": "question",
+   "gloss": "问题",
+   "ipaUK": "/ˈkwestʃən/"
+  }
+ ]
+}

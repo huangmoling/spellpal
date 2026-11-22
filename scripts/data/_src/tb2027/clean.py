@@ -27,11 +27,14 @@ def fix_gloss(g):
 
 
 def is_sentence(w):
-    if re.search(r'[!?]', w):
+    if re.search(r'[!?！？]', w):
+        return True
+    if '…' in w or '...' in w:
         return True
     if '/' in w:
         return True
-    if '…' in w and len(w.split()) >= 3:
+    # 以句号收尾且不止一个词 —— 课本句型表里混进词表的都是这种
+    if re.search(r'\.\s*$', w) and len(w.split()) >= 2:
         return True
     return False
 

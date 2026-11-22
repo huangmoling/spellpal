@@ -1,0 +1,705 @@
+{
+ "book": "ls-4b",
+ "words": [
+  {
+   "unit": 1,
+   "word": "father",
+   "gloss": "父亲，爸爸",
+   "ipaUK": "/ˈfɑːðə(r)/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "mother",
+   "gloss": "母亲，妈妈",
+   "ipaUK": "/ˈmʌðə(r)/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "grandmother",
+   "gloss": "奶奶；外婆",
+   "ipaUK": "/ˈɡrænmʌðə(r)/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "grandfather",
+   "gloss": "爷爷；外公",
+   "ipaUK": "/ˈɡrænfɑːðə(r)/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "welcome",
+   "gloss": "欢迎",
+   "ipaUK": "/ˈwelkəm/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "our",
+   "gloss": "我们的",
+   "ipaUK": "/ˈaʊə(r)/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "home",
+   "gloss": "家",
+   "ipaUK": "/həʊm/",
+   "star": false
+  },
+  {
+   "unit": 1,
+   "word": "from",
+   "gloss": "来自，从……来",
+   "ipaUK": "/frɒm/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "brother",
+   "gloss": "兄，弟",
+   "ipaUK": "/ˈbrʌðə(r)/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "sister",
+   "gloss": "姐，妹",
+   "ipaUK": "/ˈsɪstə(r)/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "cousin",
+   "gloss": "堂（表）兄（弟，姐，妹）",
+   "ipaUK": "/ˈkʌzn/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "uncle",
+   "gloss": "叔；伯；舅",
+   "ipaUK": "/ˈʌŋkl/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "aunt",
+   "gloss": "姨；姑；婶",
+   "ipaUK": "/ɑːnt/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "look at",
+   "gloss": "看……，瞧……",
+   "ipaUK": "/lʊk ət/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "family",
+   "gloss": "家庭",
+   "ipaUK": "/ˈfæməli/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "photo",
+   "gloss": "照片",
+   "ipaUK": "/ˈfəʊtəʊ/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "like",
+   "gloss": "喜欢；像",
+   "ipaUK": "/laɪk/",
+   "star": false
+  },
+  {
+   "unit": 2,
+   "word": "look like",
+   "gloss": "看上去像，似乎",
+   "ipaUK": "/lʊk laɪk/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "man",
+   "gloss": "男人",
+   "ipaUK": "/mæn/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "woman",
+   "gloss": "女人",
+   "ipaUK": "/ˈwʊmən/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "tall",
+   "gloss": "高的，高大的",
+   "ipaUK": "/tɔːl/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "short",
+   "gloss": "矮的；短的",
+   "ipaUK": "/ʃɔːt/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "strong",
+   "gloss": "强壮的",
+   "ipaUK": "/strɒŋ/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "PE",
+   "gloss": "体育课",
+   "ipaUK": "/ˌpiː ˈiː/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "very",
+   "gloss": "很，非常",
+   "ipaUK": "/ˈveri/",
+   "star": false
+  },
+  {
+   "unit": 3,
+   "word": "smart",
+   "gloss": "聪明的；精明的",
+   "ipaUK": "/smɑːt/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "young",
+   "gloss": "年轻的",
+   "ipaUK": "/jʌŋ/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "old",
+   "gloss": "年纪大的",
+   "ipaUK": "/əʊld/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "beautiful",
+   "gloss": "美丽的",
+   "ipaUK": "/ˈbjuːtɪf(ə)l/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "thin",
+   "gloss": "瘦的",
+   "ipaUK": "/θɪn/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "clever",
+   "gloss": "聪明的",
+   "ipaUK": "/ˈklevə(r)/",
+   "star": false
+  },
+  {
+   "unit": 4,
+   "word": "the UK",
+   "gloss": "英国",
+   "ipaUK": "/ðə ˌjuːˈkeɪ/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "driver",
+   "gloss": "司机",
+   "ipaUK": "/ˈdraɪvə(r)/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "nurse",
+   "gloss": "护士",
+   "ipaUK": "/nɜːs/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "pupil",
+   "gloss": "小学生",
+   "ipaUK": "/ˈpjuːpl/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "know",
+   "gloss": "知道，了解",
+   "ipaUK": "/nəʊ/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "many",
+   "gloss": "许多",
+   "ipaUK": "/ˈmeni/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "thing",
+   "gloss": "东西；物品",
+   "ipaUK": "/θɪŋ/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "job",
+   "gloss": "工作，职业",
+   "ipaUK": "/dʒɒb/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "place",
+   "gloss": "地方，场所",
+   "ipaUK": "/pleɪs/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "really",
+   "gloss": "当真；确实",
+   "ipaUK": "/ˈrɪəli/",
+   "star": false
+  },
+  {
+   "unit": 5,
+   "word": "taxi",
+   "gloss": "出租汽车",
+   "ipaUK": "/ˈtæksi/",
+   "star": false
+  },
+  {
+   "unit": 6,
+   "word": "artist",
+   "gloss": "艺术家；画家",
+   "ipaUK": "/ˈɑːtɪst/",
+   "star": false
+  },
+  {
+   "unit": 6,
+   "word": "worker",
+   "gloss": "工人",
+   "ipaUK": "/ˈwɜːkə(r)/",
+   "star": false
+  },
+  {
+   "unit": 6,
+   "word": "farmer",
+   "gloss": "农民",
+   "ipaUK": "/ˈfɑːmə(r)/",
+   "star": false
+  },
+  {
+   "unit": 6,
+   "word": "policeman",
+   "gloss": "警察",
+   "ipaUK": "/pəˈliːsmən/",
+   "star": false
+  },
+  {
+   "unit": 6,
+   "word": "soldier",
+   "gloss": "军人；士兵",
+   "ipaUK": "/ˈsəʊldʒə(r)/",
+   "star": false
+  },
+  {
+   "unit": 6,
+   "word": "parent",
+   "gloss": "父亲；母亲",
+   "ipaUK": "/ˈpeərənt/",
+   "star": false
+  },
+  {
+   "unit": 6,
+   "word": "France",
+   "gloss": "法国",
+   "ipaUK": "/frɑːns/",
+   "star": false
+  },
+  {
+   "unit": 6,
+   "word": "their",
+   "gloss": "他们的",
+   "ipaUK": "/ðeə(r)/",
+   "star": false
+  },
+  {
+   "unit": 6,
+   "word": "great",
+   "gloss": "极好的",
+   "ipaUK": "/ɡreɪt/",
+   "star": false
+  },
+  {
+   "unit": 6,
+   "word": "want",
+   "gloss": "要，想要；希望",
+   "ipaUK": "/wɒnt/",
+   "star": false
+  },
+  {
+   "unit": 7,
+   "word": "duck",
+   "gloss": "鸭子",
+   "ipaUK": "/dʌk/",
+   "star": false
+  },
+  {
+   "unit": 7,
+   "word": "pig",
+   "gloss": "猪",
+   "ipaUK": "/pɪɡ/",
+   "star": false
+  },
+  {
+   "unit": 7,
+   "word": "sheep",
+   "gloss": "（单、复数）羊；绵羊",
+   "ipaUK": "/ʃiːp/",
+   "star": false
+  },
+  {
+   "unit": 7,
+   "word": "cow",
+   "gloss": "母牛；奶牛",
+   "ipaUK": "/kaʊ/",
+   "star": false
+  },
+  {
+   "unit": 7,
+   "word": "geese",
+   "gloss": "（复数）鹅",
+   "ipaUK": "/ɡiːs/",
+   "star": false
+  },
+  {
+   "unit": 8,
+   "word": "tomatoes",
+   "gloss": "（复数）西红柿",
+   "ipaUK": "/təˈmɑːtəʊz/",
+   "star": false
+  },
+  {
+   "unit": 8,
+   "word": "potatoes",
+   "gloss": "（复数）土豆",
+   "ipaUK": "/pəˈteɪtəʊz/",
+   "star": false
+  },
+  {
+   "unit": 8,
+   "word": "peppers",
+   "gloss": "（复数）甜椒",
+   "ipaUK": "/ˈpepəz/",
+   "star": false
+  },
+  {
+   "unit": 8,
+   "word": "beans",
+   "gloss": "（复数）豆；豆荚",
+   "ipaUK": "/biːnz/",
+   "star": false
+  },
+  {
+   "unit": 8,
+   "word": "cabbages",
+   "gloss": "（复数）卷心菜",
+   "ipaUK": "/ˈkæbɪdʒɪz/",
+   "star": false
+  },
+  {
+   "unit": 8,
+   "word": "those",
+   "gloss": "那些",
+   "ipaUK": "/ðəʊz/",
+   "star": false
+  },
+  {
+   "unit": 8,
+   "word": "sweet",
+   "gloss": "甜的",
+   "ipaUK": "/swiːt/",
+   "star": false
+  },
+  {
+   "unit": 9,
+   "word": "run",
+   "gloss": "跑；奔跑",
+   "ipaUK": "/rʌn/",
+   "star": false
+  },
+  {
+   "unit": 9,
+   "word": "jump",
+   "gloss": "跳；跳跃",
+   "ipaUK": "/dʒʌmp/",
+   "star": false
+  },
+  {
+   "unit": 9,
+   "word": "swim",
+   "gloss": "游泳",
+   "ipaUK": "/swɪm/",
+   "star": false
+  },
+  {
+   "unit": 9,
+   "word": "fly",
+   "gloss": "飞；飞翔",
+   "ipaUK": "/flaɪ/",
+   "star": false
+  },
+  {
+   "unit": 9,
+   "word": "walk",
+   "gloss": "走，行走",
+   "ipaUK": "/wɔːk/",
+   "star": false
+  },
+  {
+   "unit": 9,
+   "word": "can",
+   "gloss": "能，会",
+   "ipaUK": "/kæn/",
+   "star": false
+  },
+  {
+   "unit": 10,
+   "word": "sing",
+   "gloss": "唱（歌）；演唱",
+   "ipaUK": "/sɪŋ/",
+   "star": false
+  },
+  {
+   "unit": 10,
+   "word": "dance",
+   "gloss": "舞蹈；跳舞",
+   "ipaUK": "/dɑːns/",
+   "star": false
+  },
+  {
+   "unit": 10,
+   "word": "read",
+   "gloss": "阅读，读",
+   "ipaUK": "/riːd/",
+   "star": false
+  },
+  {
+   "unit": 10,
+   "word": "write",
+   "gloss": "书写，写字",
+   "ipaUK": "/raɪt/",
+   "star": false
+  },
+  {
+   "unit": 10,
+   "word": "speak",
+   "gloss": "谈话，讲话",
+   "ipaUK": "/spiːk/",
+   "star": false
+  },
+  {
+   "unit": 10,
+   "word": "English",
+   "gloss": "英语",
+   "ipaUK": "/ˈɪŋɡlɪʃ/",
+   "star": false
+  },
+  {
+   "unit": 11,
+   "word": "make",
+   "gloss": "制作（过去式 made）",
+   "ipaUK": "/meɪk/",
+   "star": false
+  },
+  {
+   "unit": 11,
+   "word": "model",
+   "gloss": "模型",
+   "ipaUK": "/ˈmɒdl/",
+   "star": false
+  },
+  {
+   "unit": 11,
+   "word": "plane",
+   "gloss": "飞机",
+   "ipaUK": "/pleɪn/",
+   "star": false
+  },
+  {
+   "unit": 11,
+   "word": "play",
+   "gloss": "玩耍；演奏(乐器）",
+   "ipaUK": "/pleɪ/",
+   "star": false
+  },
+  {
+   "unit": 11,
+   "word": "guitar",
+   "gloss": "吉他",
+   "ipaUK": "/ɡɪˈtɑː(r)/",
+   "star": false
+  },
+  {
+   "unit": 11,
+   "word": "play the guitar",
+   "gloss": "弹吉他",
+   "ipaUK": "/pleɪ ðə ɡɪˈtɑː(r)/",
+   "star": false
+  },
+  {
+   "unit": 11,
+   "word": "draw",
+   "gloss": "画，描绘",
+   "ipaUK": "/drɔː/",
+   "star": false
+  },
+  {
+   "unit": 11,
+   "word": "picture",
+   "gloss": "图画；照片",
+   "ipaUK": "/ˈpɪktʃə(r)/",
+   "star": false
+  },
+  {
+   "unit": 11,
+   "word": "draw pictures",
+   "gloss": "画画",
+   "ipaUK": "/drɔː ˈpɪk.(t)ʃəz/",
+   "star": false
+  },
+  {
+   "unit": 11,
+   "word": "chess",
+   "gloss": "棋",
+   "ipaUK": "/tʃes/",
+   "star": false
+  },
+  {
+   "unit": 11,
+   "word": "play chess",
+   "gloss": "下棋",
+   "ipaUK": "/pleɪ tʃes/",
+   "star": false
+  },
+  {
+   "unit": 11,
+   "word": "super",
+   "gloss": "超级的",
+   "ipaUK": "/ˈsuːpə(r)/",
+   "star": false
+  },
+  {
+   "unit": 11,
+   "word": "children",
+   "gloss": "（复数）儿童，小孩",
+   "ipaUK": "/ˈt͡ʃɪldɹən/",
+   "star": false
+  },
+  {
+   "unit": 11,
+   "word": "Chinese",
+   "gloss": "汉语，中文",
+   "ipaUK": "/ˌtʃaɪˈniːz/",
+   "star": false
+  },
+  {
+   "unit": 12,
+   "word": "listen",
+   "gloss": "听；倾听",
+   "ipaUK": "/ˈlɪsn/",
+   "star": false
+  },
+  {
+   "unit": 12,
+   "word": "talk",
+   "gloss": "说话，谈话",
+   "ipaUK": "/tɔːk/",
+   "star": false
+  },
+  {
+   "unit": 12,
+   "word": "stand",
+   "gloss": "站立",
+   "ipaUK": "/stænd/",
+   "star": false
+  },
+  {
+   "unit": 12,
+   "word": "wait",
+   "gloss": "等，等候",
+   "ipaUK": "/weɪt/",
+   "star": false
+  },
+  {
+   "unit": 12,
+   "word": "right",
+   "gloss": "右；右边",
+   "ipaUK": "/raɪt/",
+   "star": false
+  },
+  {
+   "unit": 12,
+   "word": "side",
+   "gloss": "方面；侧面",
+   "ipaUK": "/ˈsaɪ̯d/",
+   "star": false
+  },
+  {
+   "unit": 12,
+   "word": "line",
+   "gloss": "线；路线",
+   "ipaUK": "/laɪn/",
+   "star": false
+  },
+  {
+   "unit": 12,
+   "word": "push",
+   "gloss": "推动；移动",
+   "ipaUK": "/pʊʃ/",
+   "star": false
+  },
+  {
+   "unit": 12,
+   "word": "for",
+   "gloss": "给；对；为了",
+   "ipaUK": "/fɔː(r)/",
+   "star": false
+  },
+  {
+   "unit": 12,
+   "word": "light",
+   "gloss": "光；电灯",
+   "ipaUK": "/laɪt/",
+   "star": false
+  }
+ ]
+}

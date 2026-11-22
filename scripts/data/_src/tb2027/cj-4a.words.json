@@ -67,28 +67,6 @@
    "ipaUK": "/ɒn/"
   },
   {
-   "unit": 1,
-   "word": "Look here.",
-   "gloss": "瞧这儿。",
-   "star": false,
-   "page": null,
-   "ipaUK": "/lʊk hɪə(r)/"
-  },
-  {
-   "unit": 1,
-   "word": "Please don’t ...",
-   "gloss": "请不要……I’m sorry./Sorry. 对不起。",
-   "star": false,
-   "page": null
-  },
-  {
-   "unit": 1,
-   "word": "Don’t worry.",
-   "gloss": "别担心。",
-   "star": false,
-   "page": null
-  },
-  {
    "unit": 2,
    "word": "play",
    "gloss": "玩",
@@ -133,7 +111,8 @@
    "word": "sleep",
    "gloss": "睡觉",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/sliːp/"
   },
   {
    "unit": 2,
@@ -156,14 +135,16 @@
    "word": "school rules",
    "gloss": "校规",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/skuːl ˈɹuːlz/"
   },
   {
    "unit": 2,
    "word": "class rules",
    "gloss": "班规",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/klɑːs ˈɹuːlz/"
   },
   {
    "unit": 2,
@@ -194,7 +175,8 @@
    "word": "ask questions",
    "gloss": "提问",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/ɑːsk ˈkwɛst͡ʃənz/"
   },
   {
    "unit": 2,
@@ -233,28 +215,32 @@
    "word": "share ideas",
    "gloss": "交流意见",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/ʃeə(r) aɪˈdɪəz/"
   },
   {
    "unit": 3,
    "word": "traffic lights",
    "gloss": "红绿灯",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/ˈtɹæfɪk laɪts/"
   },
   {
    "unit": 3,
    "word": "window",
    "gloss": "窗户",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/ˈwɪndəʊ/"
   },
   {
    "unit": 3,
    "word": "behind",
    "gloss": "在……之后",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/bɪˈhaɪnd/"
   },
   {
    "unit": 3,
@@ -285,21 +271,16 @@
    "word": "shouldn’t",
    "gloss": "不应该",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/ˈʃʊdnt/"
   },
   {
    "unit": 3,
    "word": "wear a seat belt",
    "gloss": "系安全带［没有标注*号的为《义务教育英语课程标准》（2022年版）中的二级词，要求能够理解和运用；标注*号的则只要求在语境中理解］",
    "star": false,
-   "page": null
-  },
-  {
-   "unit": 3,
-   "word": "throw ... out of",
-   "gloss": "把……扔出",
-   "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/weə(r) ə siːt ˈbɛlt/"
   },
   {
    "unit": 3,
@@ -314,7 +295,8 @@
    "word": "line up",
    "gloss": "排队",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/laɪn ʌp/"
   },
   {
    "unit": 3,
@@ -326,24 +308,19 @@
   },
   {
    "unit": 3,
-   "word": "know ... well",
-   "gloss": "熟知",
-   "star": false,
-   "page": null
-  },
-  {
-   "unit": 3,
    "word": "cry wolf",
    "gloss": "狼来了",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/kraɪ wʊlf/"
   },
   {
    "unit": 3,
    "word": "feel bored",
    "gloss": "感到无聊",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/fiːl bɔːd/"
   },
   {
    "unit": 3,
@@ -382,7 +359,8 @@
    "word": "ate",
    "gloss": "吃（eat的过去式）",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/eɪt/"
   },
   {
    "unit": 4,
@@ -474,13 +452,6 @@
   },
   {
    "unit": 4,
-   "word": "Class 3",
-   "gloss": "3班",
-   "star": false,
-   "page": null
-  },
-  {
-   "unit": 4,
    "word": "rain hard",
    "gloss": "下大雨",
    "star": false,
@@ -492,15 +463,8 @@
    "word": "rain cats and dogs",
    "gloss": "倾盆大雨",
    "star": false,
-   "page": null
-  },
-  {
-   "unit": 4,
-   "word": "I see.",
-   "gloss": "我明白了。",
-   "star": false,
    "page": null,
-   "ipaUK": "/aɪ siː/"
+   "ipaUK": "/reɪn kæts ænd dɒɡz/"
   },
   {
    "unit": 5,
@@ -595,15 +559,8 @@
    "word": "set off fireworks",
    "gloss": "放烟花",
    "star": false,
-   "page": null
-  },
-  {
-   "unit": 5,
-   "word": "Not bad.",
-   "gloss": "不错。What’s the weather like? 天气如何？",
-   "star": false,
    "page": null,
-   "ipaUK": "/nɒt bæd/"
+   "ipaUK": "/set ɒf ˈfaɪ̯.ə.wɜːks/"
   },
   {
    "unit": 6,
@@ -666,21 +623,16 @@
    "word": "go hiking",
    "gloss": "去爬山",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/ɡəʊ ˈhaɪkɪŋ/"
   },
   {
    "unit": 6,
    "word": "plant trees",
    "gloss": "植树",
    "star": false,
-   "page": null
-  },
-  {
-   "unit": 6,
-   "word": "I like ... best.",
-   "gloss": "我最喜欢……",
-   "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/plɑːnt tɹiːz/"
   },
   {
    "unit": 6,
@@ -727,7 +679,8 @@
    "word": "give thanks to",
    "gloss": "感谢……",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/ɡɪv ˈθæŋks tuː/"
   },
   {
    "unit": 7,
@@ -798,7 +751,8 @@
    "word": "noodles",
    "gloss": "面条",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/ˈnuːd(ə)lz/"
   },
   {
    "unit": 7,
@@ -853,7 +807,8 @@
    "word": "like a king",
    "gloss": "像国王一样",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/laɪk ə ˈkɪŋɡ/"
   },
   {
    "unit": 8,
@@ -876,7 +831,8 @@
    "word": "jog",
    "gloss": "跑步",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/d͡ʒɒɡ/"
   },
   {
    "unit": 8,
@@ -904,17 +860,11 @@
   },
   {
    "unit": 8,
-   "word": "be good for ...",
-   "gloss": "对……有好处",
-   "star": false,
-   "page": null
-  },
-  {
-   "unit": 8,
    "word": "of course",
    "gloss": "当然",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/ɒv kɔːs/"
   },
   {
    "unit": 8,
@@ -929,7 +879,8 @@
    "word": "play ping-pong",
    "gloss": "打乒乓球",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/pleɪ pɪŋ-pɒŋ/"
   },
   {
    "unit": 8,
@@ -946,21 +897,6 @@
    "star": false,
    "page": null,
    "ipaUK": "/pleɪ ˈbædmɪntən/"
-  },
-  {
-   "unit": 8,
-   "word": "I think so.",
-   "gloss": "我也这么想。",
-   "star": false,
-   "page": null,
-   "ipaUK": "/aɪ θɪŋk səʊ/"
-  },
-  {
-   "unit": 8,
-   "word": "That’s fun.",
-   "gloss": "这真有趣。",
-   "star": false,
-   "page": null
   },
   {
    "unit": 9,
@@ -991,7 +927,8 @@
    "word": "feet",
    "gloss": "脚（foot的复数形式）",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/ˈfiːt/"
   },
   {
    "unit": 9,
@@ -1070,7 +1007,8 @@
    "word": "wash my hands",
    "gloss": "洗我的手",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/wɒʃ maɪ hæn(d)z/"
   },
   {
    "unit": 9,
@@ -1085,21 +1023,24 @@
    "word": "before meals",
    "gloss": "饭前",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/bɪˈfɔː miːlz/"
   },
   {
    "unit": 9,
    "word": "after meals",
    "gloss": "饭后",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/ˈɑːftə miːlz/"
   },
   {
    "unit": 9,
    "word": "brush one’s teeth",
    "gloss": "刷牙",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/brʌʃ wʌnz tiːθ/"
   },
   {
    "unit": 9,
@@ -1111,17 +1052,11 @@
   },
   {
    "unit": 9,
-   "word": "keep ... clean",
-   "gloss": "保持……清洁",
-   "star": false,
-   "page": null
-  },
-  {
-   "unit": 9,
    "word": "nobody",
    "gloss": "没有人",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/ˈnəʊ.bɒd.i/"
   },
   {
    "unit": 9,
@@ -1136,7 +1071,8 @@
    "word": "wash himself",
    "gloss": "洗澡",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/wɒʃ hɪmˈsɛlf/"
   },
   {
    "unit": 9,
@@ -1175,14 +1111,16 @@
    "word": "such as",
    "gloss": "例如",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/sʌt͡ʃ əz/"
   },
   {
    "unit": 9,
    "word": "look fit",
    "gloss": "看上去很健康",
    "star": false,
-   "page": null
+   "page": null,
+   "ipaUK": "/lʊk fɪt/"
   },
   {
    "unit": 9,
@@ -1234,6 +1172,78 @@
    "unit": 5,
    "word": "How are you doing?",
    "gloss": "你好吗？",
+   "page": null
+  },
+  {
+   "unit": 1,
+   "word": "Look here.",
+   "gloss": "瞧这儿。",
+   "page": null
+  },
+  {
+   "unit": 1,
+   "word": "Please don’t ...",
+   "gloss": "请不要……I’m sorry./Sorry. 对不起。",
+   "page": null
+  },
+  {
+   "unit": 1,
+   "word": "Don’t worry.",
+   "gloss": "别担心。",
+   "page": null
+  },
+  {
+   "unit": 3,
+   "word": "throw ... out of",
+   "gloss": "把……扔出",
+   "page": null
+  },
+  {
+   "unit": 3,
+   "word": "know ... well",
+   "gloss": "熟知",
+   "page": null
+  },
+  {
+   "unit": 4,
+   "word": "I see.",
+   "gloss": "我明白了。",
+   "page": null
+  },
+  {
+   "unit": 5,
+   "word": "Not bad.",
+   "gloss": "不错。What’s the weather like? 天气如何？",
+   "page": null
+  },
+  {
+   "unit": 6,
+   "word": "I like ... best.",
+   "gloss": "我最喜欢……",
+   "page": null
+  },
+  {
+   "unit": 8,
+   "word": "be good for ...",
+   "gloss": "对……有好处",
+   "page": null
+  },
+  {
+   "unit": 8,
+   "word": "I think so.",
+   "gloss": "我也这么想。",
+   "page": null
+  },
+  {
+   "unit": 8,
+   "word": "That’s fun.",
+   "gloss": "这真有趣。",
+   "page": null
+  },
+  {
+   "unit": 9,
+   "word": "keep ... clean",
+   "gloss": "保持……清洁",
    "page": null
   }
  ]
