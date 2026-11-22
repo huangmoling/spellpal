@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>小拼手 SpellPal</title>
+    <script>
+      /* 首屏定主题：避免深色用户先看到一帧浅色 */
+      try {
+        document.documentElement.dataset.theme =
+          localStorage.getItem('spellpal:theme') === 'dark' ? 'dark' : 'light'
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="root"></div>

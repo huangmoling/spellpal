@@ -1,0 +1,369 @@
+{
+  "book": "yilin-3b",
+  "title": "义务教育教科书·英语（译林版）三年级下册",
+  "edition": "2025 春 · 2022 课标修订版",
+  "publisher": "译林出版社",
+  "collectedAt": "2026-11-21",
+  "sources": [
+    {
+      "id": "A",
+      "name": "公众号《英语译林三下 U1–U8 单词跟读（2026春新版本）》",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg2NTkwOTYxNQ==&mid=2247496715",
+      "note": "按单元分页列词，每条后面括号里是课本页码（如 U3 的 rule→24、shh→28），并标出课本的 * 非核心词。页码是判断单元归属与条目的硬证据，作为主干"
+    },
+    {
+      "id": "B",
+      "name": "公众号《2024-2025 译林版新教材英语三下单词知识清单》（名远教育）",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzIwMzUzMTU1MQ==&mid=2247496927",
+      "note": "课本 Word list 页扫描件，双栏排版 OCR 较乱，但能独立确认每单元的词条集合与 * 标记"
+    },
+    {
+      "id": "C",
+      "name": "21世纪教育网《译林版三年级下册英语单词默写单（无答案）》",
+      "url": "https://zy.21cnjy.com/22171511",
+      "note": "只给中文不给英文，用于核对「这个单元到底有几条」「条目是否漏收」，是最可靠的条数校验源"
+    },
+    {
+      "id": "D",
+      "name": "21世纪教育网《Unit 2 Clean our classroom 知识清单》Part 1 Word List",
+      "url": "https://zy.21cnjy.com/22451986",
+      "note": "逐字复刻课本 Word List，用于裁决 U2 的 let / us / sweep / All right. 四处争议"
+    },
+    {
+      "id": "E",
+      "name": "manyfish 快乐听写《苏教译林版三下 Unit 1–8》",
+      "url": "http://www.manyfish.top/game/en_words/6947312/Unit-3-School-rules.html",
+      "note": "逐条给英式音标，用于音标第三方比对（同页也是 build 里 IPA 的核对源）"
+    },
+    {
+      "id": "F",
+      "name": "人人文库《译林版(三起)(2024)三年级下册英语单词表带音标》",
+      "url": "https://renrendoc.com/paper/382447494.html",
+      "note": "带 * 标记的整册词表，用于交叉确认 U4 的 28 条与 U8 的 17 条"
+    },
+    {
+      "id": "G",
+      "name": "人人文库《Unit 4 / Unit 6 / Unit 8 知识清单（教师版·学生版）》",
+      "url": "https://renrendoc.com/paper/510646671.html",
+      "note": "分单元四会单词表，用于裁决 lovely / cute / little 三个易混释义"
+    }
+  ],
+  "conflicts": [
+    {
+      "item": "U2 的 let / us 还是 let's",
+      "教辅常见写法": "let's 让我们（公众号「小学生书屋」、夜雨聆风默写表均作此写法）",
+      "A_B_D": "课本原表是 let（让，第 10 页）与 us（我们）两条独立词条",
+      "decision": "拆成 let + us 两条",
+      "status": "A 带页码 + B 扫描 + D 逐字复刻，三处一致；C 的中文清单也是「让」「我们」两条，条数 17 吻合"
+    },
+    {
+      "item": "U2 的「打扫，清扫」是 sweep 还是 clean",
+      "夜雨聆风默写表": "clean 打扫，清扫 / clean 洁净的，干净的（同一个词占两条）",
+      "A_B_D": "sweep 打扫，清扫；clean 洁净的，干净的",
+      "decision": "用 sweep",
+      "status": "夜雨聆风把 sweep 漏了，导致 clean 重复出现，是明显错漏"
+    },
+    {
+      "item": "U2 的「好的」是 OK 还是 All right.",
+      "小学生书屋": "OK",
+      "A_B_D": "All right. /ɔːl raɪt/",
+      "decision": "用 All right.",
+      "status": "A 带页码 + B 扫描 + D 逐字复刻一致"
+    },
+    {
+      "item": "U3 的「有趣的」是 fun 还是 funny",
+      "夜雨聆风 / 人人文库默写表": "funny /ˈfʌni/",
+      "A_B_E": "fun /fʌn/",
+      "decision": "用 fun",
+      "status": "A 带课本页码 28 + B 扫描音标 [fʌn] + E 听写页，三处一致；funny 是把板书里的 fun 误补成 funny"
+    },
+    {
+      "item": "U3 是否收 How are you?",
+      "21世纪教育网默写单 / 夜雨聆风": "U3 词表里列了「你(们)好吗」",
+      "A_B_E": "课本词表没有这一条；「How are you doing?」出现在该单元句型清单里",
+      "decision": "不收",
+      "status": "教辅把句型串进了词表；A 的 19 条与 B 的 19 条一一对应且都不含此项"
+    },
+    {
+      "item": "U4 的「玩得高兴」",
+      "小学生书屋": "have a good time",
+      "A_B_E_F_G": "have fun",
+      "decision": "用 have fun",
+      "status": "五处一致；have a good time 是教辅给的同义替换，不是课本原词条"
+    },
+    {
+      "item": "U4 的「在……旁边」是 by 还是 beside",
+      "小学生书屋": "beside",
+      "A_B_E_G": "by /baɪ/",
+      "decision": "用 by",
+      "status": "学生书屋同时把 over 写成 end、lovely 写成 wonderful，属同一次同义替换，整批不采信"
+    },
+    {
+      "item": "U4 的「结束」是 over 还是 end",
+      "小学生书屋": "end",
+      "A_B_E_F": "over /ˈəʊvə(r)/",
+      "decision": "用 over",
+      "status": "E 听写页独立给 over，与 A 的页码条目一致"
+    },
+    {
+      "item": "U4 的「极好的；美丽的」是 lovely 还是 wonderful",
+      "小学生书屋": "wonderful",
+      "A_B_F_G": "lovely /ˈlʌvli/",
+      "decision": "用 lovely",
+      "status": "G 知识清单四会单词表明确列 lovely，且 wonderful 在译林其他册才出现"
+    },
+    {
+      "item": "U4 的「课间休息」是 break time 还是 break",
+      "小学生书屋": "break",
+      "A_B_F": "*break time",
+      "decision": "用 break time",
+      "status": "三处带 * 标记，是课本的非核心词条"
+    },
+    {
+      "item": "U4 是否收 hey",
+      "年级知识清单（公众号汇总版）": "27 条，没有 hey",
+      "A_B_F_G": "28 条，含 *hey 嘿，喂",
+      "decision": "收 hey，U4 共 28 条",
+      "status": "C 的中文默写单也是 28 条，末条正是「嘿，喂」，条数吻合"
+    },
+    {
+      "item": "U5 的「有用，有好处」是 good 还是 useful",
+      "夜雨聆风": "useful",
+      "A_B_E": "good /ɡʊd/",
+      "decision": "用 good",
+      "status": "A 带页码 47 + B 扫描 + E 听写页一致；useful 是教辅的释义引申"
+    },
+    {
+      "item": "U5 是否收 How nice!",
+      "公众号 U5 单词表": "16 条，没有 How nice!",
+      "B_C_E": "17 条，含 How nice! 真好看!",
+      "decision": "收 How nice!，U5 共 17 条",
+      "status": "C 的中文默写单 17 条末两条正是「真好看!」「有用，有好处」，B 扫描也列了"
+    },
+    {
+      "item": "U6 的「可爱的」是 cute 还是 lovely",
+      "夜雨聆风": "lovely",
+      "A_B_F_G": "cute /kjuːt/",
+      "decision": "用 cute",
+      "status": "G 知识清单四会单词明确列 cute；lovely 属 U4"
+    },
+    {
+      "item": "U8 的「小的」是 little 还是 small",
+      "夜雨聆风": "small",
+      "A_B_D_G": "little /ˈlɪtl/",
+      "decision": "用 little",
+      "status": "四处一致"
+    },
+    {
+      "item": "U8 是否收 buy 买",
+      "51jiaoxi 单词表 / Unit 8 知识清单四会单词": "列了 buy 买",
+      "A_B_C": "17 条，不含 buy；课本词表末三条是 What colour? / What colour ...? / How come?",
+      "decision": "不收",
+      "status": "C 的中文默写单 17 条同样不含「买」，buy 来自课文对话而非词表"
+    },
+    {
+      "item": "省略号的写法",
+      "课本原样": "put … away / Would you like ...? / Welcome to ... / What colour is ...?",
+      "processing": "统一去掉省略号与问号，写成 put away / Would you like / Welcome to / What colour is",
+      "status": "孩子只在二十六字母键盘上敲字，省略号和问号打不出来；与三上「Are you OK」「Can I help you」的处理一致"
+    }
+  ],
+  "units": [
+    {
+      "no": 1,
+      "title": "Unit 1 School things",
+      "theme": "School things",
+      "words": [
+        ["school", "学校", 0, 9],
+        ["thing", "用品，用具", 1, 9],
+        ["pen", "笔，钢笔", 0, 9],
+        ["pencil", "铅笔", 0, 9],
+        ["ruler", "直尺", 0, 9],
+        ["rubber", "橡皮", 0, 9],
+        ["schoolbag", "书包", 0, 9],
+        ["pencil case", "铅笔盒，铅笔袋", 0, 9],
+        ["that", "那，那个", 0, 10],
+        ["put", "放，安置", 0, 10],
+        ["guess", "猜测，估计", 1, 13],
+        ["again", "再一次，又一次", 0, 13],
+        ["long", "长的", 0, 13],
+        ["Good idea!", "好主意！", 0, 13]
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Unit 2 Clean our classroom",
+      "theme": "Clean our classroom",
+      "words": [
+        ["our", "我们的", 0, 17],
+        ["classroom", "教室，课堂", 0, 17],
+        ["put away", "收起来，放回原处", 1, 18],
+        ["close", "关，关闭", 0, 18],
+        ["window", "窗，窗户", 0, 18],
+        ["blackboard", "黑板", 0, 18],
+        ["chair", "椅子", 0, 18],
+        ["sweep", "打扫，清扫", 0, 18],
+        ["floor", "地板，地面", 0, 18],
+        ["let", "让", 0, 19],
+        ["us", "我们", 0, 19],
+        ["desk", "课桌，书桌", 0, 19],
+        ["dirty", "肮脏的", 0, 19],
+        ["Me too!", "我也是！", 0, 19],
+        ["All right.", "好的。", 0, 20],
+        ["clean", "洁净的，干净的", 0, 20],
+        ["keep", "（使）保持，处于", 0, 20]
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Unit 3 School rules",
+      "theme": "School rules",
+      "words": [
+        ["rule", "规则，规章", 0, 24],
+        ["library", "图书馆", 0, 24],
+        ["shout", "大声说，叫，嚷", 1, 24],
+        ["talk", "说话，讲话", 0, 24],
+        ["eat", "吃", 0, 24],
+        ["run", "跑，奔跑", 0, 24],
+        ["Mrs", "太太，夫人", 0, 26],
+        ["sit down", "坐下", 0, 26],
+        ["late", "迟的，晚的", 0, 26],
+        ["look out of", "朝……外看", 0, 26],
+        ["on", "在……上面", 0, 26],
+        ["shh", "嘘", 1, 28],
+        ["fun", "有趣的", 0, 28],
+        ["quiet", "安静的", 0, 28],
+        ["follow", "遵循，听从", 1, 28],
+        ["Would you like", "你想要……吗", 0, 29],
+        ["sweet", "糖果", 1, 29],
+        ["look at", "看，瞧", 0, 29],
+        ["That's all right.", "不要紧。", 0, 29]
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Unit 4 Have fun after class",
+      "theme": "Have fun after class",
+      "words": [
+        ["have fun", "玩得高兴", 0, 34],
+        ["after class", "课后", 0, 34],
+        ["behind", "在……的后面", 0, 34],
+        ["tree", "树，树木", 0, 34],
+        ["by", "在……旁边", 0, 34],
+        ["under", "在……下面", 0, 34],
+        ["flower", "花，花朵", 0, 34],
+        ["break time", "课间休息", 1, 35],
+        ["play", "玩耍", 0, 35],
+        ["outside", "在外面", 1, 35],
+        ["ready", "准备好", 1, 35],
+        ["go", "开始；移动", 0, 35],
+        ["plane", "飞机", 0, 35],
+        ["very", "很，非常", 0, 35],
+        ["far", "远", 0, 36],
+        ["where", "在哪里，到哪里", 0, 36],
+        ["find", "找到", 0, 36],
+        ["over", "结束", 0, 36],
+        ["student", "学生", 0, 36],
+        ["Art Club", "美术社团", 1, 37],
+        ["lovely", "极好的；美丽的", 0, 37],
+        ["day", "白天", 0, 37],
+        ["today", "今天", 0, 37],
+        ["garden", "花园，园圃", 0, 37],
+        ["butterfly", "蝴蝶", 1, 38],
+        ["beautiful", "美丽的，美好的", 0, 38],
+        ["hey", "嘿，喂", 1, 38],
+        ["duck", "鸭子", 0, 38]
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Unit 5 Fruit",
+      "theme": "Fruit",
+      "words": [
+        ["fruit", "水果", 0, 44],
+        ["orange", "橙子，柑橘", 0, 44],
+        ["grape", "葡萄", 0, 44],
+        ["banana", "香蕉", 0, 44],
+        ["apple", "苹果", 0, 44],
+        ["mango", "芒果", 0, 44],
+        ["share", "分享，共享", 0, 45],
+        ["like", "喜欢，喜爱", 0, 45],
+        ["they", "它们，他们，她们", 0, 45],
+        ["sweet", "甜的", 1, 46],
+        ["make", "做，制造", 0, 46],
+        ["salad", "色拉，沙拉", 1, 46],
+        ["together", "在一起，共同", 1, 46],
+        ["an", "一（个）", 0, 46],
+        ["What about you", "你呢", 0, 46],
+        ["How nice!", "真好看！", 0, 47],
+        ["good", "有用，有好处", 0, 47]
+      ]
+    },
+    {
+      "no": 6,
+      "title": "Unit 6 On the farm",
+      "theme": "On the farm",
+      "words": [
+        ["farm", "农场", 0, 50],
+        ["rabbit", "兔子", 0, 50],
+        ["cow", "奶牛", 0, 50],
+        ["sheep", "羊，绵羊", 0, 50],
+        ["chicken", "鸡", 0, 50],
+        ["carrot", "胡萝卜", 0, 51],
+        ["pig", "猪", 0, 51],
+        ["Welcome to", "欢迎来到……", 0, 52],
+        ["home", "家，住所", 0, 52],
+        ["these", "这些", 0, 52],
+        ["those", "那些", 0, 52],
+        ["help", "帮助，协助", 0, 52],
+        ["cute", "可爱的", 0, 55],
+        ["move", "移动", 0, 55]
+      ]
+    },
+    {
+      "no": 7,
+      "title": "Unit 7 Animals",
+      "theme": "Animals",
+      "words": [
+        ["animal", "动物", 0, 58],
+        ["bear", "熊", 0, 58],
+        ["lion", "狮子", 0, 58],
+        ["monkey", "猴子", 0, 58],
+        ["tiger", "老虎", 0, 58],
+        ["panda", "大熊猫", 0, 58],
+        ["elephant", "大象", 0, 59],
+        ["lunchtime", "午餐时间", 1, 60],
+        ["fish", "鱼；鱼肉", 0, 60],
+        ["high five", "相互高举胳膊击掌", 1, 62],
+        ["feed", "给食物，喂养", 0, 62],
+        ["zoo", "动物园", 0, 62],
+        ["go", "去，走", 0, 62],
+        ["see", "看，见", 0, 62]
+      ]
+    },
+    {
+      "no": 8,
+      "title": "Unit 8 Colours",
+      "theme": "Colours",
+      "words": [
+        ["colour", "颜色，色彩", 0, 66],
+        ["yellow", "黄色的", 0, 66],
+        ["blue", "蓝色的", 0, 66],
+        ["red", "红色的", 0, 66],
+        ["orange", "橙红色的，橘黄色的", 0, 66],
+        ["pink", "粉红色的", 0, 66],
+        ["green", "绿色的", 0, 66],
+        ["brown", "棕色的", 0, 67],
+        ["black", "黑色的", 0, 67],
+        ["white", "白色的", 0, 67],
+        ["balloon", "气球", 1, 68],
+        ["sure", "（表示同意）当然", 0, 68],
+        ["What colour", "什么颜色", 0, 69],
+        ["chameleon", "变色龙", 1, 70],
+        ["little", "小的", 0, 70],
+        ["What colour is", "……是什么颜色的", 0, 71],
+        ["How come", "怎么回事", 0, 71]
+      ]
+    }
+  ]
+}

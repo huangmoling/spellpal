@@ -18,6 +18,14 @@ import fltrp4b from './fltrp-4b.json'
 import fltrp5a from './fltrp-5a.json'
 import fltrp5b from './fltrp-5b.json'
 import fltrp6a from './fltrp-6a.json'
+import yilin3a from './yilin-3a.json'
+import yilin3b from './yilin-3b.json'
+import jj3b from './jj-3b.json'
+import cj3b from './cj-3b.json'
+import qh3b from './qh-3b.json'
+import hj3b from './hj-3b.json'
+import xs3b from './xs-3b.json'
+import ls3b from './ls-3b.json'
 
 /**
  * 已收录的教材。加新册只需生成 JSON 后在这里 import 一行。
@@ -43,6 +51,14 @@ export const BOOKS = [
   fltrp5a as unknown as Book,
   fltrp5b as unknown as Book,
   fltrp6a as unknown as Book,
+  yilin3a as unknown as Book,
+  yilin3b as unknown as Book,
+  jj3b as unknown as Book,
+  cj3b as unknown as Book,
+  qh3b as unknown as Book,
+  hj3b as unknown as Book,
+  xs3b as unknown as Book,
+  ls3b as unknown as Book,
 ]
 
 /** 默认打开三年级上册（小学同步的起点） */

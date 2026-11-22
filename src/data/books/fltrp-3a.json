@@ -10,7 +10,7 @@
   "stage": "primary",
   "wordCount": 116,
   "sentenceCount": 23,
-  "updatedAt": "2026-11-20",
+  "updatedAt": "2026-11-22",
   "units": [
     {
       "no": 1,
@@ -2083,16 +2083,11 @@
       "id": "fltrp-3a-u1-s02",
       "unit": 1,
       "cn": "请打开你的书。",
-      "en": "Please open your book.",
+      "en": "Open your book, please.",
       "tokens": [
         {
-          "en": "Please",
-          "cn": "请",
-          "pos": "副词"
-        },
-        {
-          "en": "open",
-          "cn": "打开",
+          "en": "Open",
+          "cn": "开放",
           "pos": "动词"
         },
         {
@@ -2101,9 +2096,14 @@
           "pos": "代词"
         },
         {
-          "en": "book.",
+          "en": "book,",
           "cn": "书",
           "pos": "名词"
+        },
+        {
+          "en": "please.",
+          "cn": "请",
+          "pos": "副词"
         }
       ]
     },

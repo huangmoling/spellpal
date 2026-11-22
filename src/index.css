@@ -3,8 +3,31 @@
 @tailwind utilities;
 
 @layer base {
-  /* 暗色（默认）：叠加层用白色 */
+  /*
+   * 浅色（默认）：奶油底 + 纯白卡片，糖果色系。
+   * 儿童向配色的底线是「暖、亮、不刺眼」，所以底色不用纯白也不用冷灰，
+   * 文字用葡萄紫灰而不是纯黑，避免整屏发脏。
+   * 这里是 :root 兜底，首屏在 React 挂载前也不会闪成黑底。
+   */
   :root,
+  :root[data-theme='light'] {
+    color-scheme: light;
+    --stage: 255 248 240;
+    --card: 255 255 255;
+    --panel: 255 238 222;
+    --ink: 61 53 82;
+    --muted: 108 98 124;
+    --veil: 63 52 74;
+    --scrim: 63 52 74;
+    --brand: 74 128 240;
+    --ok: 32 166 118;
+    --err: 236 88 88;
+    --cursor: 232 142 12;
+    --glow: 0.1;
+    --hairline: 0.3;
+  }
+
+  /* 深色：夜间可选。叠加层用白色，遮罩用纯黑 */
   :root[data-theme='dark'] {
     color-scheme: dark;
     --stage: 11 14 19;
@@ -13,29 +36,13 @@
     --ink: 242 245 249;
     --muted: 139 148 166;
     --veil: 255 255 255;
+    --scrim: 0 0 0;
     --brand: 124 92 255;
     --ok: 52 211 153;
     --err: 248 113 113;
     --cursor: 251 191 36;
     --glow: 0.09;
     --hairline: 0.45;
-  }
-
-  /* 浅色：叠加层改用黑色，颜色整体压深以保证对比度 */
-  :root[data-theme='light'] {
-    color-scheme: light;
-    --stage: 245 247 251;
-    --card: 255 255 255;
-    --panel: 237 240 246;
-    --ink: 23 29 41;
-    --muted: 98 109 130;
-    --veil: 15 23 42;
-    --brand: 108 76 240;
-    --ok: 21 148 76;
-    --err: 214 40 40;
-    --cursor: 180 120 8;
-    --glow: 0.05;
-    --hairline: 0.32;
   }
 
   html,
@@ -57,19 +64,16 @@
       color 0.22s ease;
   }
 
-  /* 舞台背景的极淡径向光，避免纯色发闷 */
+  /* 舞台背景的极淡径向光，避免纯色发闷；浅色主题偏暖，深色主题偏紫 */
   #root::before {
     content: '';
     position: fixed;
     inset: 0;
     pointer-events: none;
     background:
-      radial-gradient(
-        900px 520px at 50% 22%,
-        rgba(124, 92, 255, var(--glow)),
-        transparent 62%
-      ),
-      radial-gradient(700px 420px at 82% 96%, rgba(52, 211, 153, var(--glow)), transparent 60%);
+      radial-gradient(880px 520px at 50% 18%, rgba(255, 168, 76, var(--glow)), transparent 64%),
+      radial-gradient(720px 460px at 84% 94%, rgba(93, 196, 168, var(--glow)), transparent 62%),
+      radial-gradient(680px 420px at 8% 88%, rgba(120, 152, 255, calc(var(--glow) * 0.8)), transparent 62%);
   }
 
   /* 滚动条跟着主题走，别让 Windows 默认的白/黑粗条破坏画面 */

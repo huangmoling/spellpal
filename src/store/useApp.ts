@@ -226,7 +226,8 @@ const SFX_KEY_KEY = 'spellpal:sfx-key'
 const KEYSFX_ON_KEY = 'spellpal:opt-keysfx'
 const VOLUME_KEY = 'spellpal:volume'
 
-const readTheme = (): Theme => (localStorage.getItem(THEME_KEY) === 'light' ? 'light' : 'dark')
+/** 默认浅色：儿童向界面优先明亮暖色，深色只留给主动切换的用户 */
+const readTheme = (): Theme => (localStorage.getItem(THEME_KEY) === 'dark' ? 'dark' : 'light')
 /** 虚拟键盘默认开；回车跳过默认关 */
 const readFlag = (key: string, fallback: boolean) => {
   const raw = localStorage.getItem(key)

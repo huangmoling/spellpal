@@ -1,0 +1,855 @@
+{
+ "book": "xs-3b",
+ "mode": "blocks",
+ "words": [
+  {
+   "unit": 1,
+   "word": "glad",
+   "gloss": "高兴的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɡlæd/"
+  },
+  {
+   "unit": 1,
+   "word": "see",
+   "gloss": "看见",
+   "star": false,
+   "page": null,
+   "ipaUK": "/siː/"
+  },
+  {
+   "unit": 1,
+   "word": "again",
+   "gloss": "又；再次",
+   "star": false,
+   "page": null,
+   "ipaUK": "/əˈɡen/"
+  },
+  {
+   "unit": 1,
+   "word": "fine",
+   "gloss": "健康的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/faɪn/"
+  },
+  {
+   "unit": 1,
+   "word": "boy",
+   "gloss": "男孩",
+   "star": false,
+   "page": null,
+   "ipaUK": "/bɔɪ/"
+  },
+  {
+   "unit": 1,
+   "word": "girl",
+   "gloss": "女孩",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɡɜːl/"
+  },
+  {
+   "unit": 1,
+   "word": "baby",
+   "gloss": "婴儿",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈbeɪbi/"
+  },
+  {
+   "unit": 1,
+   "word": "man",
+   "gloss": "男人",
+   "star": false,
+   "page": null,
+   "ipaUK": "/mæn/"
+  },
+  {
+   "unit": 1,
+   "word": "woman",
+   "gloss": "女人",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈwʊmən/"
+  },
+  {
+   "unit": 2,
+   "word": "time",
+   "gloss": "时间",
+   "star": false,
+   "page": null,
+   "ipaUK": "/taɪm/"
+  },
+  {
+   "unit": 2,
+   "word": "wake up",
+   "gloss": "醒来",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈweɪk ʌp/"
+  },
+  {
+   "unit": 2,
+   "word": "o’clock",
+   "gloss": "……点钟",
+   "star": false,
+   "page": null,
+   "ipaUK": "/əˈklɒk/"
+  },
+  {
+   "unit": 2,
+   "word": "school",
+   "gloss": "学校",
+   "star": false,
+   "page": null,
+   "ipaUK": "/skuːl/"
+  },
+  {
+   "unit": 2,
+   "word": "bed",
+   "gloss": "床",
+   "star": false,
+   "page": null,
+   "ipaUK": "/bed/"
+  },
+  {
+   "unit": 2,
+   "word": "night",
+   "gloss": "晚上",
+   "star": false,
+   "page": null,
+   "ipaUK": "/naɪt/"
+  },
+  {
+   "unit": 2,
+   "word": "clock",
+   "gloss": "时钟",
+   "star": false,
+   "page": null,
+   "ipaUK": "/klɒk/"
+  },
+  {
+   "unit": 2,
+   "word": "eleven",
+   "gloss": "十一",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɪˈlev(ə)n/"
+  },
+  {
+   "unit": 2,
+   "word": "twelve",
+   "gloss": "十二",
+   "star": false,
+   "page": null,
+   "ipaUK": "/twelv/"
+  },
+  {
+   "unit": 2,
+   "word": "day",
+   "gloss": "白天；一天",
+   "star": false,
+   "page": null,
+   "ipaUK": "/deɪ/"
+  },
+  {
+   "unit": 2,
+   "word": "please",
+   "gloss": "请",
+   "star": false,
+   "page": null,
+   "ipaUK": "/pliːz/"
+  },
+  {
+   "unit": 3,
+   "word": "the",
+   "gloss": "这个；那个",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ðə/"
+  },
+  {
+   "unit": 3,
+   "word": "weather",
+   "gloss": "天气",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈweðə(r)/"
+  },
+  {
+   "unit": 3,
+   "word": "like",
+   "gloss": "怎么样；像",
+   "star": false,
+   "page": null,
+   "ipaUK": "/laɪk/"
+  },
+  {
+   "unit": 3,
+   "word": "rainy",
+   "gloss": "下雨的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈreɪni/"
+  },
+  {
+   "unit": 3,
+   "word": "windy",
+   "gloss": "有风的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈwɪndi/"
+  },
+  {
+   "unit": 3,
+   "word": "cold",
+   "gloss": "冷的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/kəʊld/"
+  },
+  {
+   "unit": 3,
+   "word": "sunny",
+   "gloss": "晴朗的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈsʌni/"
+  },
+  {
+   "unit": 3,
+   "word": "snowy",
+   "gloss": "下雪的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈsnəʊi/"
+  },
+  {
+   "unit": 3,
+   "word": "cloudy",
+   "gloss": "多云的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈklaʊdi/"
+  },
+  {
+   "unit": 3,
+   "word": "hot",
+   "gloss": "炎热的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/hɒt/"
+  },
+  {
+   "unit": 4,
+   "word": "dress",
+   "gloss": "连衣裙",
+   "star": false,
+   "page": null,
+   "ipaUK": "/dres/"
+  },
+  {
+   "unit": 4,
+   "word": "T-shirt",
+   "gloss": "T恤衫",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈtiːʃɜːt/"
+  },
+  {
+   "unit": 4,
+   "word": "trousers",
+   "gloss": "长裤",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈtraʊzəz/"
+  },
+  {
+   "unit": 4,
+   "word": "too",
+   "gloss": "太；也",
+   "star": false,
+   "page": null,
+   "ipaUK": "/tuː/"
+  },
+  {
+   "unit": 4,
+   "word": "big",
+   "gloss": "大的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/bɪɡ/"
+  },
+  {
+   "unit": 4,
+   "word": "them",
+   "gloss": "他（她；它）们",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ðəm, ðem/"
+  },
+  {
+   "unit": 4,
+   "word": "cap",
+   "gloss": "（有帽舌的）帽子",
+   "star": false,
+   "page": null,
+   "ipaUK": "/kæp/"
+  },
+  {
+   "unit": 4,
+   "word": "skirt",
+   "gloss": "半身裙",
+   "star": false,
+   "page": null,
+   "ipaUK": "/skɜːt/"
+  },
+  {
+   "unit": 4,
+   "word": "shirt",
+   "gloss": "衬衫",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ʃɜːt/"
+  },
+  {
+   "unit": 4,
+   "word": "coat",
+   "gloss": "外套；大衣",
+   "star": false,
+   "page": null,
+   "ipaUK": "/kəʊt/"
+  },
+  {
+   "unit": 4,
+   "word": "shorts",
+   "gloss": "短裤",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ʃɔːts/"
+  },
+  {
+   "unit": 5,
+   "word": "how many",
+   "gloss": "多少……",
+   "star": false,
+   "page": null,
+   "ipaUK": "/haʊ ˈmeni/"
+  },
+  {
+   "unit": 5,
+   "word": "kite",
+   "gloss": "风筝",
+   "star": false,
+   "page": null,
+   "ipaUK": "/kaɪt/"
+  },
+  {
+   "unit": 5,
+   "word": "bird",
+   "gloss": "鸟",
+   "star": false,
+   "page": null,
+   "ipaUK": "/bɜːd/"
+  },
+  {
+   "unit": 5,
+   "word": "thirteen",
+   "gloss": "十三",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˌθɜːˈtiːn/"
+  },
+  {
+   "unit": 5,
+   "word": "fourteen",
+   "gloss": "十四",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˌfɔːˈtiːn/"
+  },
+  {
+   "unit": 5,
+   "word": "fifteen",
+   "gloss": "十五",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˌfɪfˈtiːn/"
+  },
+  {
+   "unit": 5,
+   "word": "sixteen",
+   "gloss": "十六",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˌsɪksˈtiːn/"
+  },
+  {
+   "unit": 5,
+   "word": "seventeen",
+   "gloss": "十七",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˌsevnˈtiːn/"
+  },
+  {
+   "unit": 5,
+   "word": "eighteen",
+   "gloss": "十八",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˌeɪˈtiːn/"
+  },
+  {
+   "unit": 5,
+   "word": "nineteen",
+   "gloss": "十九",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˌnaɪnˈtiːn/"
+  },
+  {
+   "unit": 5,
+   "word": "twenty",
+   "gloss": "二十",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈtwenti/"
+  },
+  {
+   "unit": 6,
+   "word": "there",
+   "gloss": "（在） 那里",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ðeə(r)/"
+  },
+  {
+   "unit": 6,
+   "word": "egg",
+   "gloss": "鸡蛋；蛋",
+   "star": false,
+   "page": null,
+   "ipaUK": "/eɡ/"
+  },
+  {
+   "unit": 6,
+   "word": "many",
+   "gloss": "许多",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈmeni/"
+  },
+  {
+   "unit": 6,
+   "word": "tomato",
+   "gloss": "西红柿",
+   "star": false,
+   "page": null,
+   "ipaUK": "/təˈmɑːtəʊ/"
+  },
+  {
+   "unit": 6,
+   "word": "potato",
+   "gloss": "土豆",
+   "star": false,
+   "page": null,
+   "ipaUK": "/pəˈteɪtəʊ/"
+  },
+  {
+   "unit": 6,
+   "word": "small",
+   "gloss": "小的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/smɔːl/"
+  },
+  {
+   "unit": 6,
+   "word": "some",
+   "gloss": "一些",
+   "star": false,
+   "page": null,
+   "ipaUK": "/səm, sʌm/"
+  },
+  {
+   "unit": 6,
+   "word": "grape",
+   "gloss": "葡萄",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɡreɪp/"
+  },
+  {
+   "unit": 6,
+   "word": "carrot",
+   "gloss": "胡萝卜",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈkærət/"
+  },
+  {
+   "unit": 6,
+   "word": "strawberry",
+   "gloss": "草莓",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈstrɔːbəri/"
+  },
+  {
+   "unit": 7,
+   "word": "wash",
+   "gloss": "洗",
+   "star": false,
+   "page": null,
+   "ipaUK": "/wɒʃ/"
+  },
+  {
+   "unit": 7,
+   "word": "hungry",
+   "gloss": "饥饿的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈhʌŋɡri/"
+  },
+  {
+   "unit": 7,
+   "word": "come",
+   "gloss": "来",
+   "star": false,
+   "page": null,
+   "ipaUK": "/kʌm/"
+  },
+  {
+   "unit": 7,
+   "word": "OK",
+   "gloss": "好的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˌəʊˈkeɪ/"
+  },
+  {
+   "unit": 7,
+   "word": "clean",
+   "gloss": "干净的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/kliːn/"
+  },
+  {
+   "unit": 7,
+   "word": "face",
+   "gloss": "脸",
+   "star": false,
+   "page": null,
+   "ipaUK": "/feɪs/"
+  },
+  {
+   "unit": 7,
+   "word": "brush",
+   "gloss": "刷",
+   "star": false,
+   "page": null,
+   "ipaUK": "/brʌʃ/"
+  },
+  {
+   "unit": 7,
+   "word": "tooth",
+   "gloss": "牙齿",
+   "star": false,
+   "page": null,
+   "ipaUK": "/tuːθ/"
+  },
+  {
+   "unit": 7,
+   "word": "hair",
+   "gloss": "头发",
+   "star": false,
+   "page": null,
+   "ipaUK": "/heə(r)/"
+  },
+  {
+   "unit": 7,
+   "word": "neck",
+   "gloss": "颈；脖子",
+   "star": false,
+   "page": null,
+   "ipaUK": "/nek/"
+  },
+  {
+   "unit": 7,
+   "word": "arm",
+   "gloss": "手臂",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɑːm/"
+  },
+  {
+   "unit": 8,
+   "word": "child",
+   "gloss": "儿童",
+   "star": false,
+   "page": null,
+   "ipaUK": "/tʃaɪld/"
+  },
+  {
+   "unit": 8,
+   "word": "we",
+   "gloss": "我们",
+   "star": false,
+   "page": null,
+   "ipaUK": "/wiː/"
+  },
+  {
+   "unit": 8,
+   "word": "sing",
+   "gloss": "唱；唱歌",
+   "star": false,
+   "page": null,
+   "ipaUK": "/sɪŋ/"
+  },
+  {
+   "unit": 8,
+   "word": "dance",
+   "gloss": "跳舞",
+   "star": false,
+   "page": null,
+   "ipaUK": "/dɑːns/"
+  },
+  {
+   "unit": 8,
+   "word": "draw",
+   "gloss": "画画",
+   "star": false,
+   "page": null,
+   "ipaUK": "/drɔː/"
+  },
+  {
+   "unit": 8,
+   "word": "play",
+   "gloss": "玩",
+   "star": false,
+   "page": null,
+   "ipaUK": "/pleɪ/"
+  },
+  {
+   "unit": 8,
+   "word": "game",
+   "gloss": "游戏",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɡeɪm/"
+  },
+  {
+   "unit": 8,
+   "word": "have",
+   "gloss": "举行；有",
+   "star": false,
+   "page": null,
+   "ipaUK": "/hæv/"
+  },
+  {
+   "unit": 8,
+   "word": "party",
+   "gloss": "聚会",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈpɑːti/"
+  },
+  {
+   "unit": 8,
+   "word": "paint",
+   "gloss": "（用颜料）画",
+   "star": false,
+   "page": null,
+   "ipaUK": "/peɪnt/"
+  },
+  {
+   "unit": 8,
+   "word": "watch",
+   "gloss": "观看",
+   "star": false,
+   "page": null,
+   "ipaUK": "/wɒtʃ/"
+  },
+  {
+   "unit": 9,
+   "word": "go",
+   "gloss": "去",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɡəʊ/"
+  },
+  {
+   "unit": 9,
+   "word": "by",
+   "gloss": "乘；通过",
+   "star": false,
+   "page": null,
+   "ipaUK": "/baɪ/"
+  },
+  {
+   "unit": 9,
+   "word": "bus",
+   "gloss": "公共汽车",
+   "star": false,
+   "page": null,
+   "ipaUK": "/bʌs/"
+  },
+  {
+   "unit": 9,
+   "word": "underground",
+   "gloss": "地铁",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˌʌndəˈɡraʊnd/"
+  },
+  {
+   "unit": 9,
+   "word": "hometown",
+   "gloss": "家乡",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈhəʊmtaʊn/"
+  },
+  {
+   "unit": 9,
+   "word": "ship",
+   "gloss": "轮船",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ʃɪp/"
+  },
+  {
+   "unit": 9,
+   "word": "train",
+   "gloss": "火车",
+   "star": false,
+   "page": null,
+   "ipaUK": "/treɪn/"
+  },
+  {
+   "unit": 9,
+   "word": "taxi",
+   "gloss": "出租车",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈtæksi/"
+  },
+  {
+   "unit": 9,
+   "word": "car",
+   "gloss": "小汽车",
+   "star": false,
+   "page": null,
+   "ipaUK": "/kɑː(r)/"
+  },
+  {
+   "unit": 9,
+   "word": "plane",
+   "gloss": "飞机",
+   "star": false,
+   "page": null,
+   "ipaUK": "/pleɪn/"
+  },
+  {
+   "unit": 9,
+   "word": "bike",
+   "gloss": "自行车",
+   "star": false,
+   "page": null,
+   "ipaUK": "/baɪk/"
+  },
+  {
+   "unit": 10,
+   "word": "driver",
+   "gloss": "驾驶员",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈdraɪvə(r)/"
+  },
+  {
+   "unit": 10,
+   "word": "welcome",
+   "gloss": "欢迎",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈwelkəm/"
+  },
+  {
+   "unit": 10,
+   "word": "to",
+   "gloss": "到；向",
+   "star": false,
+   "page": null,
+   "ipaUK": "/tuː/"
+  },
+  {
+   "unit": 10,
+   "word": "our",
+   "gloss": "我们的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈaʊə(r)/"
+  },
+  {
+   "unit": 10,
+   "word": "food",
+   "gloss": "食物",
+   "star": false,
+   "page": null,
+   "ipaUK": "/fuːd/"
+  },
+  {
+   "unit": 10,
+   "word": "farmer",
+   "gloss": "农民",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈfɑːmə(r)/"
+  },
+  {
+   "unit": 10,
+   "word": "worker",
+   "gloss": "工人",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈwɜːkə(r)/"
+  },
+  {
+   "unit": 10,
+   "word": "nurse",
+   "gloss": "护士",
+   "star": false,
+   "page": null,
+   "ipaUK": "/nɜːs/"
+  },
+  {
+   "unit": 10,
+   "word": "doctor",
+   "gloss": "医生",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈdɒktə(r)/"
+  },
+  {
+   "unit": 10,
+   "word": "student",
+   "gloss": "学生",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈstjuːdnt/"
+  },
+  {
+   "unit": 10,
+   "word": "teacher",
+   "gloss": "教师",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈtiːtʃə(r)/"
+  }
+ ],
+ "patterns": []
+}

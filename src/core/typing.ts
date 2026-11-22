@@ -136,20 +136,26 @@ export function posTone(pos: string, light = false): { fg: string; bg: string } 
  * 拼完之后词块整块变成彩色卡片，配色按词性分。
  * 明度都压得住白字，所以卡面上不用再分主题。
  */
+/*
+ * 拼完时词块会变成实色卡片。to 不能压得太暗 —— 以前名词收到 #1C3FA8、
+ * 兜底干脆是 #334155，一屏彩色中间杵着一块近黑，儿童界面看着发闷。
+ * 现在每条都保持「明亮糖果色」，深浅差只用来做渐变方向。
+ */
 const POS_BLOCK: { match: RegExp; from: string; to: string }[] = [
-  { match: /系动词/, from: '#B026D9', to: '#7C1FA8' },
-  { match: /助动词|动词/, from: '#E01E63', to: '#A8123F' },
-  { match: /形容词/, from: '#F0A11B', to: '#B96A05' },
-  { match: /副词/, from: '#0EA5B7', to: '#0B7285' },
-  { match: /代词/, from: '#1F8BE0', to: '#155FA8' },
-  { match: /名词/, from: '#2F6BE8', to: '#1C3FA8' },
-  { match: /冠词|限定词/, from: '#4E7BF0', to: '#2A4FBF' },
-  { match: /介词|连词/, from: '#8B3DE0', to: '#5B21A8' },
-  { match: /数词/, from: '#D4A017', to: '#9A6B06' },
-  { match: /感叹/, from: '#E0288A', to: '#A3125C' },
+  { match: /系动词/, from: '#C24FE0', to: '#9B2BC4' },
+  { match: /助动词|动词/, from: '#F0527F', to: '#C42A5C' },
+  { match: /形容词/, from: '#F5AC2B', to: '#D9860E' },
+  { match: /副词/, from: '#2FB6C9', to: '#0E93A3' },
+  { match: /代词/, from: '#4C9FE8', to: '#1C74BC' },
+  { match: /名词/, from: '#5286F0', to: '#2A5FCB' },
+  { match: /冠词|限定词/, from: '#6E93F5', to: '#3F68CF' },
+  { match: /介词|连词/, from: '#A968E8', to: '#7A35C4' },
+  { match: /数词/, from: '#E5B62A', to: '#B98A0E' },
+  { match: /感叹/, from: '#F0509E', to: '#C42878' },
 ]
 
 export function posBlock(pos: string): { from: string; to: string } {
   const hit = POS_BLOCK.find((p) => p.match.test(pos))
-  return hit ?? { from: '#556A8C', to: '#334155' }
+  /* 单词卡没有词性，走品牌蓝，别再用近黑的蓝灰兜底 */
+  return hit ?? { from: '#5B8DEF', to: '#3F6FD0' }
 }

@@ -1,0 +1,953 @@
+{
+ "book": "hj-四a",
+ "kind": "blocks",
+ "config": {
+  "kind": "blocks",
+  "span": [
+   93,
+   94
+  ]
+ },
+ "check": {
+  "raw": 117,
+  "kept": 117,
+  "dup": [],
+  "count": 112,
+  "patterns": 5
+ },
+ "words": [
+  {
+   "unit": 1,
+   "word": "city",
+   "gloss": "城市",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈsɪti/"
+  },
+  {
+   "unit": 1,
+   "word": "building",
+   "gloss": "建筑物；楼房",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈbɪldɪŋ/"
+  },
+  {
+   "unit": 1,
+   "word": "flat",
+   "gloss": "公寓",
+   "star": false,
+   "page": null,
+   "ipaUK": "/flæt/"
+  },
+  {
+   "unit": 1,
+   "word": "street",
+   "gloss": "大街；街道",
+   "star": true,
+   "page": null,
+   "ipaUK": "/striːt/"
+  },
+  {
+   "unit": 1,
+   "word": "country",
+   "gloss": "乡村",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈkʌntri/"
+  },
+  {
+   "unit": 1,
+   "word": "farm",
+   "gloss": "农场",
+   "star": true,
+   "page": null,
+   "ipaUK": "/fɑːm/"
+  },
+  {
+   "unit": 1,
+   "word": "house",
+   "gloss": "房屋；房子",
+   "star": true,
+   "page": null,
+   "ipaUK": "/haʊs/"
+  },
+  {
+   "unit": 1,
+   "word": "people",
+   "gloss": "人；人们",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈpiːpl/"
+  },
+  {
+   "unit": 1,
+   "word": "live",
+   "gloss": "住；居住",
+   "star": true,
+   "page": null,
+   "ipaUK": "/lɪv/"
+  },
+  {
+   "unit": 1,
+   "word": "many",
+   "gloss": "许多",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈmeni/"
+  },
+  {
+   "unit": 1,
+   "word": "place",
+   "gloss": "地方",
+   "star": true,
+   "page": null,
+   "ipaUK": "/pleɪs/"
+  },
+  {
+   "unit": 1,
+   "word": "quiet",
+   "gloss": "安静的",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈkwaɪət/"
+  },
+  {
+   "unit": 1,
+   "word": "all kinds of",
+   "gloss": "各种各样的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɔːl kaɪndz ɒv/"
+  },
+  {
+   "unit": 1,
+   "word": "a lot of",
+   "gloss": "许多",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ə lɒt əv/"
+  },
+  {
+   "unit": 2,
+   "word": "eagle",
+   "gloss": "老鹰",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈiːɡəl/"
+  },
+  {
+   "unit": 2,
+   "word": "owl",
+   "gloss": "猫头鹰",
+   "star": false,
+   "page": null,
+   "ipaUK": "/aʊl/"
+  },
+  {
+   "unit": 2,
+   "word": "honeybee",
+   "gloss": "蜜蜂",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈhʌnibiː/"
+  },
+  {
+   "unit": 2,
+   "word": "nest",
+   "gloss": "巢穴",
+   "star": false,
+   "page": null,
+   "ipaUK": "/nest/"
+  },
+  {
+   "unit": 2,
+   "word": "their",
+   "gloss": "他们的；她们的；它们的",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ðeə(r)/"
+  },
+  {
+   "unit": 2,
+   "word": "tree hole",
+   "gloss": "树洞",
+   "star": false,
+   "page": null,
+   "ipaUK": "/triː həʊl/"
+  },
+  {
+   "unit": 2,
+   "word": "safe",
+   "gloss": "安全的",
+   "star": true,
+   "page": null,
+   "ipaUK": "/seɪf/"
+  },
+  {
+   "unit": 2,
+   "word": "there",
+   "gloss": "那里；在那里",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ðeə(r)/"
+  },
+  {
+   "unit": 2,
+   "word": "snake",
+   "gloss": "蛇",
+   "star": false,
+   "page": null,
+   "ipaUK": "/sneɪk/"
+  },
+  {
+   "unit": 2,
+   "word": "hive",
+   "gloss": "蜂巢",
+   "star": false,
+   "page": null,
+   "ipaUK": "/haɪv/"
+  },
+  {
+   "unit": 2,
+   "word": "under",
+   "gloss": "在……下面；小于；少于",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈʌndə(r)/"
+  },
+  {
+   "unit": 2,
+   "word": "at night",
+   "gloss": "晚上",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ət naɪt/"
+  },
+  {
+   "unit": 2,
+   "word": "make honey",
+   "gloss": "酿蜜",
+   "star": false,
+   "page": null,
+   "ipaUK": "/meɪk ˈhʌni/"
+  },
+  {
+   "unit": 3,
+   "word": "plus",
+   "gloss": "加；加号",
+   "star": false,
+   "page": null,
+   "ipaUK": "/plʌs/"
+  },
+  {
+   "unit": 3,
+   "word": "equal",
+   "gloss": "等于",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈiːkwəl/"
+  },
+  {
+   "unit": 3,
+   "word": "answer",
+   "gloss": "答案；回答",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈɑːnsə(r)/"
+  },
+  {
+   "unit": 3,
+   "word": "minus",
+   "gloss": "减；减号",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈmaɪnəs/"
+  },
+  {
+   "unit": 3,
+   "word": "odd numbers",
+   "gloss": "奇数",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɒd ˈnʌmbəz/"
+  },
+  {
+   "unit": 3,
+   "word": "even numbers",
+   "gloss": "偶数",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈiːv(ə)n ˈnʌmbəz/"
+  },
+  {
+   "unit": 3,
+   "word": "use",
+   "gloss": "使用",
+   "star": true,
+   "page": null,
+   "ipaUK": "/juːz/"
+  },
+  {
+   "unit": 3,
+   "word": "help",
+   "gloss": "帮助",
+   "star": true,
+   "page": null,
+   "ipaUK": "/help/"
+  },
+  {
+   "unit": 3,
+   "word": "count",
+   "gloss": "（按顺序）数数",
+   "star": false,
+   "page": null,
+   "ipaUK": "/kaʊnt/"
+  },
+  {
+   "unit": 3,
+   "word": "thing",
+   "gloss": "东西；事物",
+   "star": false,
+   "page": null,
+   "ipaUK": "/θɪŋ/"
+  },
+  {
+   "unit": 3,
+   "word": "say",
+   "gloss": "说",
+   "star": true,
+   "page": null,
+   "ipaUK": "/seɪ/"
+  },
+  {
+   "unit": 3,
+   "word": "every day",
+   "gloss": "每天",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˌevri ˈdeɪ/"
+  },
+  {
+   "unit": 3,
+   "word": "how many",
+   "gloss": "（用于问数量）多少",
+   "star": false,
+   "page": null,
+   "ipaUK": "/haʊ ˈmeni/"
+  },
+  {
+   "unit": 4,
+   "word": "supermarket",
+   "gloss": "超市",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈsuːpəmɑːkɪt/"
+  },
+  {
+   "unit": 4,
+   "word": "a bag of rice",
+   "gloss": "一袋米",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ə bæɡ ɒv raɪs/"
+  },
+  {
+   "unit": 4,
+   "word": "a box of eggs",
+   "gloss": "一盒鸡蛋",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ə bɒks ɒv eɡz/"
+  },
+  {
+   "unit": 4,
+   "word": "a bottle of juice",
+   "gloss": "一瓶果汁",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ə ˈbɒtl ɒv dʒuːs/"
+  },
+  {
+   "unit": 4,
+   "word": "buy",
+   "gloss": "购买",
+   "star": true,
+   "page": null,
+   "ipaUK": "/baɪ/"
+  },
+  {
+   "unit": 4,
+   "word": "sell",
+   "gloss": "出售",
+   "star": true,
+   "page": null,
+   "ipaUK": "/sel/"
+  },
+  {
+   "unit": 4,
+   "word": "need",
+   "gloss": "需要",
+   "star": false,
+   "page": null,
+   "ipaUK": "/niːd/"
+  },
+  {
+   "unit": 4,
+   "word": "shopping list",
+   "gloss": "购物单",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈʃɒpɪŋ lɪst/"
+  },
+  {
+   "unit": 4,
+   "word": "each",
+   "gloss": "每个",
+   "star": false,
+   "page": null,
+   "ipaUK": "/iːtʃ/"
+  },
+  {
+   "unit": 4,
+   "word": "team",
+   "gloss": "队；组",
+   "star": false,
+   "page": null,
+   "ipaUK": "/tiːm/"
+  },
+  {
+   "unit": 4,
+   "word": "faster",
+   "gloss": "更快的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈfɑːstə(r)/"
+  },
+  {
+   "unit": 4,
+   "word": "candy",
+   "gloss": "糖果；巧克力",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈkændi/"
+  },
+  {
+   "unit": 4,
+   "word": "bread",
+   "gloss": "面包",
+   "star": true,
+   "page": null,
+   "ipaUK": "/bred/"
+  },
+  {
+   "unit": 4,
+   "word": "win",
+   "gloss": "获胜",
+   "star": true,
+   "page": null,
+   "ipaUK": "/wɪn/"
+  },
+  {
+   "unit": 4,
+   "word": "still",
+   "gloss": "还；仍然",
+   "star": false,
+   "page": null,
+   "ipaUK": "/stɪl/"
+  },
+  {
+   "unit": 4,
+   "word": "share",
+   "gloss": "分享",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ʃeə(r)/"
+  },
+  {
+   "unit": 4,
+   "word": "water",
+   "gloss": "水；给……浇水",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈwɔːtə(r)/"
+  },
+  {
+   "unit": 4,
+   "word": "how much",
+   "gloss": "多少钱；多少",
+   "star": false,
+   "page": null,
+   "ipaUK": "/haʊ mʌtʃ/"
+  },
+  {
+   "unit": 4,
+   "word": "a bar of chocolate",
+   "gloss": "一块巧克力",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ə bɑː(r) ɒv ˈtʃɒklət/"
+  },
+  {
+   "unit": 5,
+   "word": "spring",
+   "gloss": "春天",
+   "star": true,
+   "page": null,
+   "ipaUK": "/sprɪŋ/"
+  },
+  {
+   "unit": 5,
+   "word": "warm",
+   "gloss": "温暖的",
+   "star": true,
+   "page": null,
+   "ipaUK": "/wɔːm/"
+  },
+  {
+   "unit": 5,
+   "word": "summer",
+   "gloss": "夏天",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈsʌmə(r)/"
+  },
+  {
+   "unit": 5,
+   "word": "hot",
+   "gloss": "炎热的",
+   "star": true,
+   "page": null,
+   "ipaUK": "/hɒt/"
+  },
+  {
+   "unit": 5,
+   "word": "autumn",
+   "gloss": "秋天",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈɔːtəm/"
+  },
+  {
+   "unit": 5,
+   "word": "cool",
+   "gloss": "凉爽的",
+   "star": true,
+   "page": null,
+   "ipaUK": "/kuːl/"
+  },
+  {
+   "unit": 5,
+   "word": "winter",
+   "gloss": "冬天",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈwɪntə(r)/"
+  },
+  {
+   "unit": 5,
+   "word": "cold",
+   "gloss": "寒冷的",
+   "star": true,
+   "page": null,
+   "ipaUK": "/kəʊld/"
+  },
+  {
+   "unit": 5,
+   "word": "parent",
+   "gloss": "父亲（或母亲）",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈpeərənt/"
+  },
+  {
+   "unit": 5,
+   "word": "season",
+   "gloss": "季节",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈsiːzn/"
+  },
+  {
+   "unit": 5,
+   "word": "year",
+   "gloss": "年",
+   "star": true,
+   "page": null,
+   "ipaUK": "/jɪə(r)/"
+  },
+  {
+   "unit": 5,
+   "word": "grow",
+   "gloss": "（使）生长",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɡrəʊ/"
+  },
+  {
+   "unit": 5,
+   "word": "get",
+   "gloss": "变得",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ɡet/"
+  },
+  {
+   "unit": 5,
+   "word": "usually",
+   "gloss": "通常",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈjuːʒuəli/"
+  },
+  {
+   "unit": 5,
+   "word": "after",
+   "gloss": "在……之后",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈɑːftə(r)/"
+  },
+  {
+   "unit": 5,
+   "word": "fall",
+   "gloss": "落下",
+   "star": false,
+   "page": null,
+   "ipaUK": "/fɔːl/"
+  },
+  {
+   "unit": 5,
+   "word": "turn",
+   "gloss": "（使）变成",
+   "star": true,
+   "page": null,
+   "ipaUK": "/tɜːn/"
+  },
+  {
+   "unit": 5,
+   "word": "often",
+   "gloss": "经常",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈɒfən/"
+  },
+  {
+   "unit": 5,
+   "word": "snow",
+   "gloss": "下雪；雪",
+   "star": true,
+   "page": null,
+   "ipaUK": "/snəʊ/"
+  },
+  {
+   "unit": 5,
+   "word": "then",
+   "gloss": "然后",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ðen/"
+  },
+  {
+   "unit": 5,
+   "word": "begin",
+   "gloss": "开始",
+   "star": true,
+   "page": null,
+   "ipaUK": "/bɪˈɡɪn/"
+  },
+  {
+   "unit": 6,
+   "word": "flower",
+   "gloss": "花",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈflaʊə(r)/"
+  },
+  {
+   "unit": 6,
+   "word": "fruit",
+   "gloss": "果实；水果",
+   "star": true,
+   "page": null,
+   "ipaUK": "/fruːt/"
+  },
+  {
+   "unit": 6,
+   "word": "leaf",
+   "gloss": "叶子",
+   "star": false,
+   "page": null,
+   "ipaUK": "/liːf/"
+  },
+  {
+   "unit": 6,
+   "word": "soil",
+   "gloss": "土壤",
+   "star": false,
+   "page": null,
+   "ipaUK": "/sɔɪl/"
+  },
+  {
+   "unit": 6,
+   "word": "sunflower",
+   "gloss": "向日葵",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈsʌnflaʊə(r)/"
+  },
+  {
+   "unit": 6,
+   "word": "seed",
+   "gloss": "种子",
+   "star": false,
+   "page": null,
+   "ipaUK": "/siːd/"
+  },
+  {
+   "unit": 6,
+   "word": "put",
+   "gloss": "放",
+   "star": true,
+   "page": null,
+   "ipaUK": "/pʊt/"
+  },
+  {
+   "unit": 6,
+   "word": "plant",
+   "gloss": "植物",
+   "star": true,
+   "page": null,
+   "ipaUK": "/plɑːnt/"
+  },
+  {
+   "unit": 6,
+   "word": "root",
+   "gloss": "根",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ruːt/"
+  },
+  {
+   "unit": 6,
+   "word": "tall",
+   "gloss": "高的",
+   "star": true,
+   "page": null,
+   "ipaUK": "/tɔːl/"
+  },
+  {
+   "unit": 6,
+   "word": "round",
+   "gloss": "圆形的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/raʊnd/"
+  },
+  {
+   "unit": 6,
+   "word": "oil",
+   "gloss": "食用油",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɔɪl/"
+  },
+  {
+   "unit": 6,
+   "word": "amazing",
+   "gloss": "令人惊叹的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/əˈmeɪzɪŋ/"
+  },
+  {
+   "unit": 7,
+   "word": "green light",
+   "gloss": "绿灯",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɡriːn laɪt/"
+  },
+  {
+   "unit": 7,
+   "word": "red light",
+   "gloss": "红灯",
+   "star": false,
+   "page": null,
+   "ipaUK": "/red laɪt/"
+  },
+  {
+   "unit": 7,
+   "word": "wait",
+   "gloss": "等待",
+   "star": true,
+   "page": null,
+   "ipaUK": "/weɪt/"
+  },
+  {
+   "unit": 7,
+   "word": "cross",
+   "gloss": "穿越",
+   "star": false,
+   "page": null,
+   "ipaUK": "/krɒs/"
+  },
+  {
+   "unit": 7,
+   "word": "Mr",
+   "gloss": "先生",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈmɪstə(r)/"
+  },
+  {
+   "unit": 7,
+   "word": "way",
+   "gloss": "路线；道路",
+   "star": true,
+   "page": null,
+   "ipaUK": "/weɪ/"
+  },
+  {
+   "unit": 7,
+   "word": "road",
+   "gloss": "路；马路",
+   "star": false,
+   "page": null,
+   "ipaUK": "/rəʊd/"
+  },
+  {
+   "unit": 7,
+   "word": "should",
+   "gloss": "应该",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ʃəd/"
+  },
+  {
+   "unit": 7,
+   "word": "first",
+   "gloss": "首先",
+   "star": false,
+   "page": null,
+   "ipaUK": "/fɜːst/"
+  },
+  {
+   "unit": 7,
+   "word": "left",
+   "gloss": "左边",
+   "star": true,
+   "page": null,
+   "ipaUK": "/left/"
+  },
+  {
+   "unit": 7,
+   "word": "car",
+   "gloss": "小汽车",
+   "star": true,
+   "page": null,
+   "ipaUK": "/kɑː(r)/"
+  },
+  {
+   "unit": 7,
+   "word": "right",
+   "gloss": "右边",
+   "star": true,
+   "page": null,
+   "ipaUK": "/raɪt/"
+  },
+  {
+   "unit": 7,
+   "word": "skate",
+   "gloss": "滑（滑板）",
+   "star": false,
+   "page": null,
+   "ipaUK": "/skeɪt/"
+  },
+  {
+   "unit": 7,
+   "word": "sorry",
+   "gloss": "对不起",
+   "star": true,
+   "page": null,
+   "ipaUK": "/ˈsɒri/"
+  },
+  {
+   "unit": 7,
+   "word": "kid",
+   "gloss": "小孩；孩子",
+   "star": true,
+   "page": null,
+   "ipaUK": "/kɪd/"
+  },
+  {
+   "unit": 7,
+   "word": "late",
+   "gloss": "迟到",
+   "star": true,
+   "page": null,
+   "ipaUK": "/leɪt/"
+  },
+  {
+   "unit": 8,
+   "word": "go shopping",
+   "gloss": "购物",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɡəʊ ˈʃɒpɪŋ/"
+  },
+  {
+   "unit": 8,
+   "word": "go for a walk",
+   "gloss": "去散步",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɡəʊ fɔː(r) ə wɔːk/"
+  },
+  {
+   "unit": 8,
+   "word": "use the internet",
+   "gloss": "使用互联网",
+   "star": false,
+   "page": null,
+   "ipaUK": "/juːz ðə ˈɪntənet/"
+  }
+ ],
+ "patterns": [
+  {
+   "unit": 4,
+   "word": "Here they are.",
+   "gloss": "它们在这里。",
+   "star": false,
+   "page": null
+  },
+  {
+   "unit": 4,
+   "word": "All right.",
+   "gloss": "好的。",
+   "star": false,
+   "page": null
+  },
+  {
+   "unit": 4,
+   "word": "What would you like?",
+   "gloss": "你想要什么？",
+   "star": false,
+   "page": null
+  },
+  {
+   "unit": 7,
+   "word": "Good job!",
+   "gloss": "做得好！",
+   "star": false,
+   "page": null
+  },
+  {
+   "unit": 7,
+   "word": "Hurry up!",
+   "gloss": "快点！",
+   "star": false,
+   "page": null
+  }
+ ]
+}

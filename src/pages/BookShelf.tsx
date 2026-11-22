@@ -18,23 +18,30 @@ import { loadProgress, streakDays } from '@/utils/progress'
 import { dueCards, cardCount } from '@/utils/srs'
 import { noticeLines, openRepo, repoUrl } from '@/core/notice'
 
-/** 三套教材各有一块常驻的彩色底，孩子靠颜色就能找到自己的书 */
-const SERIES: { key: string; label: string; emoji: string; tint: string }[] = [
-  { key: 'starter', label: '启蒙', emoji: '🧸', tint: '#34D399' },
-  { key: 'pep', label: '人教 PEP', emoji: '📚', tint: '#8B7CFF' },
-  { key: 'fltrp', label: '外研 新标准', emoji: '🎈', tint: '#FB9A3C' },
+/** 每套教材各有一块常驻的彩色底，孩子靠颜色就能找到自己的书 */
+const SERIES: { key: string; label: string; emoji: string; tint: string; pub?: string }[] = [
+  { key: 'starter', label: '启蒙', emoji: '🧸', tint: '#2FC49A' },
+  { key: 'pep', label: '人教 PEP', emoji: '📚', tint: '#4A80F0', pub: '人民教育' },
+  { key: 'fltrp', label: '外研 新标准', emoji: '🎈', tint: '#FF9A3D', pub: '外语教学' },
+  { key: 'yilin', label: '译林 牛津', emoji: '📘', tint: '#9B7BF0', pub: '译林' },
+  { key: 'jj', label: '冀教', emoji: '🍎', tint: '#FF7EB6', pub: '河北教育' },
+  { key: 'cj', label: '川教', emoji: '🐄', tint: '#3FBFE0', pub: '四川教育' },
+  { key: 'qh', label: '清华', emoji: '🎒', tint: '#7E72E8', pub: '清华大学' },
+  { key: 'hj', label: '沪教', emoji: '🌈', tint: '#F0A23A', pub: '上海教育' },
+  { key: 'xs', label: '湘少', emoji: '🎏', tint: '#56C596', pub: '湖南少年儿童' },
+  { key: 'ls', label: '辽师大', emoji: '🌤', tint: '#FF8A5C', pub: '辽宁师范' },
 ]
 
-/** 单元磁贴配色，按单元号轮转；深浅主题都压得住白字和深字 */
+/** 单元磁贴配色，按单元号轮转；都是糖果色里偏深的一档，压得住白字 */
 const UNIT_COLORS = [
-  '#7C5CFF',
-  '#22B8CF',
-  '#3BC98A',
-  '#F5A524',
-  '#F472B6',
-  '#5B9DF9',
-  '#A78BFA',
-  '#FB7A5C',
+  '#4A80F0',
+  '#FF9A3D',
+  '#2FC49A',
+  '#FF7EB6',
+  '#9B7BF0',
+  '#3FBFE0',
+  '#F0A23A',
+  '#FF7A6B',
 ]
 const unitColor = (no: number) => UNIT_COLORS[(no - 1) % UNIT_COLORS.length]
 
@@ -93,10 +100,14 @@ export default function BookShelf({
     ...s,
     list: books.filter((b) => {
       if (s.key === 'starter') return b.stage === 'starter'
-      if (s.key === 'fltrp') return b.stage !== 'starter' && b.publisher.includes('外语教学')
-      return b.stage !== 'starter' && !b.publisher.includes('外语教学')
+      if (b.stage === 'starter') return false
+      /* 出版社分开认，别再互相兜底：以前非外研的全塞给人教，加了译林就会串组 */
+      return !!s.pub && b.publisher.includes(s.pub)
     }),
   })).filter((g) => g.list.length > 0)
+
+  // 单元网格固定 4 列，行数决定网格高度上限（每行最多 142px），避免全屏时被拉高
+  const unitRows = Math.max(1, Math.ceil(book.units.length / 4))
 
   return (
     <div className="relative flex h-full flex-col overflow-hidden">
@@ -109,7 +120,7 @@ export default function BookShelf({
         style={{ WebkitAppRegion: 'drag' } as React.CSSProperties}
       >
         <div className="flex items-center gap-3">
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand shadow-[0_6px_18px_rgba(124,92,255,0.5)]">
+          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand shadow-[0_6px_18px_rgba(255,154,61,0.45)]">
             <span className="font-mono text-[17px] font-bold text-white">S</span>
           </div>
           <div className="leading-tight">
@@ -143,22 +154,16 @@ export default function BookShelf({
                   key={g.key}
                   className="relative flex flex-wrap items-center gap-x-2 gap-y-1 overflow-hidden rounded-2xl px-3 py-[4px] ring-1 transition-colors"
                   style={{
-                    background: `linear-gradient(96deg, ${g.tint}26, ${g.tint}0F 46%, ${g.tint}05 100%)`,
-                    ['--tw-ring-color' as string]: activeGroup ? `${g.tint}66` : `${g.tint}30`,
+                    background: `linear-gradient(96deg, ${g.tint}4d, ${g.tint}22 50%, ${g.tint}0d 100%)`,
+                    ['--tw-ring-color' as string]: activeGroup ? `${g.tint}90` : `${g.tint}55`,
                   }}
                 >
                   <span
-                    aria-hidden
-                    className="pointer-events-none absolute -top-3 right-1 select-none text-[46px] leading-none opacity-[0.16]"
-                  >
-                    {g.emoji}
-                  </span>
-                  <span
                     className="relative flex w-[112px] shrink-0 items-center gap-1.5 whitespace-nowrap rounded-lg px-1.5 py-[4px] text-[12px] font-semibold"
-                    style={{ background: `${g.tint}2b` }}
+                    style={{ background: `${g.tint}3d` }}
                   >
                     <span className="text-[13px] leading-none">{g.emoji}</span>
-                    <span className={clsx(activeGroup ? 'text-ink' : 'text-ink/65')}>{g.label}</span>
+                    <span className={clsx(activeGroup ? 'text-ink' : 'text-ink/70')}>{g.label}</span>
                   </span>
                   {g.list.map((b) => {
                     const on = b.id === book.id
@@ -215,7 +220,7 @@ export default function BookShelf({
         {/* 继续练习 */}
         <button
           onClick={() => openUnit(lastUnit)}
-          className="group relative mt-3 w-full shrink-0 overflow-hidden rounded-3xl bg-gradient-to-br from-panel to-card px-7 py-2.5 text-left ring-1 ring-veil/[0.08] transition hover:ring-brand/50"
+          className="group relative mt-3 w-full shrink-0 overflow-hidden rounded-3xl bg-gradient-to-br from-brand/[0.12] via-card to-card px-7 py-2.5 text-left ring-1 ring-brand/25 transition hover:ring-brand/50"
         >
           <div className="absolute -right-8 -top-20 h-56 w-56 rounded-full bg-brand/18 blur-2xl transition group-hover:bg-brand/28" />
           <CardScene />
@@ -233,7 +238,7 @@ export default function BookShelf({
             </div>
             <div className="flex items-center gap-3">
               <span className="text-[13px] text-muted transition group-hover:text-ink">开始</span>
-              <span className="flex h-[56px] w-[56px] items-center justify-center rounded-full bg-brand text-white shadow-[0_8px_26px_rgba(124,92,255,0.55)] transition group-hover:scale-105">
+              <span className="flex h-[56px] w-[56px] items-center justify-center rounded-full bg-brand text-white shadow-[0_8px_26px_rgba(74,128,240,0.5)] transition group-hover:scale-105">
                 <ArrowRight size={22} strokeWidth={2.4} />
               </span>
             </div>
@@ -247,8 +252,8 @@ export default function BookShelf({
           className={clsx(
             'group mt-2 flex shrink-0 items-center gap-3.5 rounded-2xl px-5 py-1.5 text-left ring-1 transition',
             cardsTotal === 0
-              ? 'cursor-default bg-card/40 ring-veil/[0.05]'
-              : 'bg-card/60 ring-veil/[0.07] hover:bg-card hover:ring-brand/35',
+              ? 'cursor-default bg-veil/[0.03] ring-veil/[0.07]'
+              : 'bg-veil/[0.04] ring-veil/[0.09] hover:bg-card hover:ring-brand/35',
           )}
         >
           <span
@@ -295,7 +300,14 @@ export default function BookShelf({
         </div>
 
         {/* 单元网格 + 底部插画带：网格吃掉剩余高度，插画带收住空旷感 */}
-        <div className="grid min-h-[224px] flex-1 auto-rows-[minmax(104px,1fr)] grid-cols-4 gap-2.5">
+        {/*
+         * 行高用 1fr 跟着剩余高度走，但给网格整体压一个上限（每行最多 142px）。
+         * 之前没有上限，1080p 全屏时一行被拉到 240px，格子变成一片色块，孩子看不出是卡片。
+         */}
+        <div
+          className="grid flex-1 auto-rows-[minmax(104px,1fr)] grid-cols-4 gap-3"
+          style={{ maxHeight: unitRows * 142 + (unitRows - 1) * 12 }}
+        >
           {book.units.map((u) => {
             const c = unitColor(u.no)
             const p = unitProgress(u.no)
@@ -305,8 +317,8 @@ export default function BookShelf({
                 onClick={() => openUnit(u.no)}
                 className="group relative flex flex-col overflow-hidden rounded-2xl p-3 text-left ring-1 transition duration-150 hover:-translate-y-[1px] hover:shadow-[0_10px_24px_-14px_rgba(0,0,0,0.55)]"
                 style={{
-                  background: `linear-gradient(150deg, ${c}29, ${c}0D)`,
-                  ['--tw-ring-color' as string]: `${c}3d`,
+                  background: `linear-gradient(150deg, ${c}4d, ${c}1c)`,
+                  ['--tw-ring-color' as string]: `${c}66`,
                 }}
               >
                 <span
@@ -321,14 +333,14 @@ export default function BookShelf({
                   >
                     {u.no}
                   </span>
-                  <span className="text-[11px] font-semibold tracking-[0.12em] text-ink/35">
+                  <span className="text-[11px] font-semibold tracking-[0.12em] text-ink/45">
                     UNIT
                   </span>
-                  <span className="tabnum ml-auto text-[11px] text-ink/40">
+                  <span className="tabnum ml-auto text-[11px] text-ink/50">
                     {wordsOf(u.no)} 词 · {sentencesOf(u.no)} 句
                   </span>
                 </div>
-                <div className="relative mt-1 line-clamp-1 text-[14.5px] font-medium text-ink/80">
+                <div className="relative mt-1 line-clamp-1 text-[15.5px] font-semibold text-ink/85">
                   {u.theme}
                 </div>
 
@@ -337,7 +349,7 @@ export default function BookShelf({
                     {p ? (
                       <span className="font-medium text-ok">正确率 {p.acc}%</span>
                     ) : (
-                      <span className="text-ink/35">未开始</span>
+                      <span className="text-ink/45">未开始</span>
                     )}
                     <span className="text-brand/0 transition group-hover:text-brand/85">开始 ›</span>
                   </div>
@@ -348,7 +360,7 @@ export default function BookShelf({
                         <span
                           key={i}
                           className="h-[4px] flex-1 rounded-full transition"
-                          style={{ background: on ? c : 'rgb(var(--veil) / 0.17)' }}
+                          style={{ background: on ? c : 'rgb(var(--veil) / 0.22)' }}
                         />
                       )
                     })}
@@ -360,7 +372,7 @@ export default function BookShelf({
         </div>
 
         {/* 底部状态 */}
-        <div className="mt-auto flex shrink-0 items-center justify-center gap-6 pt-2.5 text-[12.5px] text-muted/45">
+        <div className="mt-auto flex shrink-0 items-center justify-center gap-6 pt-2.5 text-[12.5px] text-muted/70">
           <span className="flex items-center gap-1.5">
             <Flame
               size={13}
@@ -416,16 +428,16 @@ function HomeBackdrop() {
       <svg viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" className="h-full w-full">
         <defs>
           <radialGradient id="bdPurple">
-            <stop offset="0%" stopColor="#7C5CFF" stopOpacity={light ? '0.20' : '0.30'} />
-            <stop offset="100%" stopColor="#7C5CFF" stopOpacity="0" />
+            <stop offset="0%" stopColor="#FF9A3D" stopOpacity={light ? '0.22' : '0.22'} />
+            <stop offset="100%" stopColor="#FF9A3D" stopOpacity="0" />
           </radialGradient>
           <radialGradient id="bdTeal">
-            <stop offset="0%" stopColor="#22B8CF" stopOpacity={light ? '0.18' : '0.26'} />
-            <stop offset="100%" stopColor="#22B8CF" stopOpacity="0" />
+            <stop offset="0%" stopColor="#4A80F0" stopOpacity={light ? '0.2' : '0.2'} />
+            <stop offset="100%" stopColor="#4A80F0" stopOpacity="0" />
           </radialGradient>
           <radialGradient id="bdAmber">
-            <stop offset="0%" stopColor="#F5A524" stopOpacity={light ? '0.16' : '0.20'} />
-            <stop offset="100%" stopColor="#F5A524" stopOpacity="0" />
+            <stop offset="0%" stopColor="#2FC49A" stopOpacity={light ? '0.18' : '0.2'} />
+            <stop offset="100%" stopColor="#2FC49A" stopOpacity="0" />
           </radialGradient>
           <pattern id="bdDots" width="32" height="32" patternUnits="userSpaceOnUse">
             <circle cx="2.5" cy="2.5" r="1.5" fill={ink} fillOpacity={light ? '0.10' : '0.075'} />
@@ -438,7 +450,7 @@ function HomeBackdrop() {
         <ellipse cx="1080" cy="770" rx="420" ry="300" fill="url(#bdAmber)" />
         <ellipse cx="130" cy="740" rx="380" ry="260" fill="url(#bdTeal)" opacity="0.7" />
 
-        <g fill="#F5A524" fillOpacity={light ? '0.5' : '0.42'}>
+        <g fill="#FFB020" fillOpacity={light ? '0.55' : '0.42'}>
           {[
             [60, 210, 7],
             [1150, 300, 5],
@@ -483,34 +495,34 @@ function CardScene() {
         strokeWidth="2.2"
       />
       {/* 纸飞机 */}
-      <path d="M104 82 L146 58 L136 92 L127 78 Z" stroke="#7C5CFF" strokeWidth="2.4" />
-      <path d="M146 58 L127 78" stroke="#7C5CFF" strokeWidth="1.8" opacity="0.65" />
-      <path d="M104 82 L92 88" stroke="#7C5CFF" strokeWidth="1.8" opacity="0.4" />
+      <path d="M104 82 L146 58 L136 92 L127 78 Z" stroke="#4A80F0" strokeWidth="2.4" />
+      <path d="M146 58 L127 78" stroke="#4A80F0" strokeWidth="1.8" opacity="0.65" />
+      <path d="M104 82 L92 88" stroke="#4A80F0" strokeWidth="1.8" opacity="0.4" />
 
       {/* 星星 */}
       <path
         d="M228 30 l4.4 10.2 10.2 4.4 -10.2 4.4 -4.4 10.2 -4.4 -10.2 -10.2 -4.4 10.2 -4.4 z"
-        stroke="#F5A524"
+        stroke="#FF9A3D"
         strokeWidth="2.2"
       />
       <path
         d="M286 74 l2.8 6.6 6.6 2.8 -6.6 2.8 -2.8 6.6 -2.8 -6.6 -6.6 -2.8 6.6 -2.8 z"
-        stroke="#F472B6"
+        stroke="#FF7EB6"
         strokeWidth="2"
       />
-      <circle cx="336" cy="34" r="3.4" stroke="#22B8CF" strokeWidth="2" />
+      <circle cx="336" cy="34" r="3.4" stroke="#3FBFE0" strokeWidth="2" />
 
       {/* 一摞书 */}
-      <g stroke="#22B8CF" strokeWidth="2.2">
+      <g stroke="#3FBFE0" strokeWidth="2.2">
         <path d="M392 90 h40 a4 4 0 0 1 4 4 v7 h-44 z" />
         <path d="M397 74 h40 a4 4 0 0 1 4 4 v7 h-44 z" />
         <path d="M402 58 h40 a4 4 0 0 1 4 4 v7 h-44 z" />
       </g>
       {/* 铅笔 */}
       <g transform="translate(452 30) rotate(18)" stroke="none">
-        <rect width="14" height="44" rx="3" fill="#F5A524" fillOpacity="0.55" />
+        <rect width="14" height="44" rx="3" fill="#FFB020" fillOpacity="0.55" />
         <path d="M0 44 L7 56 L14 44 Z" fill="#FDE7C8" fillOpacity="0.8" />
-        <rect x="0" y="-6" width="14" height="7" rx="3" fill="#F472B6" fillOpacity="0.6" />
+        <rect x="0" y="-6" width="14" height="7" rx="3" fill="#FF7EB6" fillOpacity="0.6" />
       </g>
     </svg>
   )

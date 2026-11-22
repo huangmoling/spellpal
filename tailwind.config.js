@@ -11,6 +11,8 @@ export default {
         muted: 'rgb(var(--muted) / <alpha-value>)',
         /** 叠加层基色：暗色主题是白，浅色主题是黑，别直接用 white/x */
         veil: 'rgb(var(--veil) / <alpha-value>)',
+        /** 弹窗遮罩：浅色主题是深紫灰，深色主题是纯黑 */
+        scrim: 'rgb(var(--scrim) / <alpha-value>)',
         brand: 'rgb(var(--brand) / <alpha-value>)',
         ok: 'rgb(var(--ok) / <alpha-value>)',
         err: 'rgb(var(--err) / <alpha-value>)',

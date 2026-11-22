@@ -35,7 +35,7 @@ app.on('ready', async () => {
       height: h,
       show: false,
       frame: false,
-      backgroundColor: '#0B0E13',
+      backgroundColor: '#FFF8F0',
       webPreferences: { offscreen: true },
     })
     log('window created')

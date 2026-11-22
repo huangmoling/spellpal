@@ -55,8 +55,14 @@ export default function Result() {
   if (!book) return null
 
   return (
-    <div className="flex h-full flex-col items-center justify-center px-8">
-      <div className="w-full max-w-[560px] animate-rise">
+    /*
+     * 内容短时垂直居中，内容长时可滚动。
+     * 以前是 h-full + justify-center 直接把内容顶出去，body 又是 overflow:hidden，
+     * 错项多的时候正确率环会被裁在视口上方，怎么拉都看不到。
+     */
+    <div className="h-full overflow-y-auto">
+      <div className="flex min-h-full flex-col items-center justify-center px-8 py-10">
+        <div className="w-full max-w-[560px] animate-rise">
         <div className="mb-8 flex items-center gap-2 text-[12px] text-muted/70">
           <Trophy size={14} strokeWidth={2} className="text-brand" />
           {kind === 'review' ? '错题复习完成' : `Unit ${unitNo} 完成`} ·{' '}
@@ -126,7 +132,8 @@ export default function Result() {
               )}
             </div>
             <div className="flex flex-col gap-1.5">
-              {wrongItems.map((s) => (
+              {/* 只列前 8 条：错得多的时候整页会长到看不见按钮，剩下的去错题本看 */}
+              {wrongItems.slice(0, 8).map((s) => (
                 <div
                   key={s.id}
                   className="flex items-baseline gap-2 rounded-lg bg-err/10 px-2.5 py-1.5 ring-1 ring-err/20"
@@ -137,6 +144,11 @@ export default function Result() {
                   </span>
                 </div>
               ))}
+              {wrongItems.length > 8 && (
+                <div className="pt-1 text-center text-[11.5px] text-muted/60">
+                  还有 {wrongItems.length - 8} 条已收进错题本
+                </div>
+              )}
             </div>
           </div>
         ) : (
@@ -163,11 +175,12 @@ export default function Result() {
                   )
                 : startUnit(book, unitNo, 'random')
             }
-            className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-brand py-3 text-[13px] font-medium text-white shadow-[0_6px_24px_rgba(124,92,255,0.45)] transition hover:brightness-110 active:scale-[0.99]"
+            className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-brand py-3 text-[13px] font-medium text-white shadow-[0_6px_24px_rgba(74,128,240,0.45)] transition hover:brightness-110 active:scale-[0.99]"
           >
             <RotateCcw size={15} strokeWidth={2.2} />
             {kind === 'review' ? '再复习一遍' : '再练一遍'}
           </button>
+        </div>
         </div>
       </div>
     </div>

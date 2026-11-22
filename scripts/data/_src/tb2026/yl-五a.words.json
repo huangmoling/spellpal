@@ -1,0 +1,1348 @@
+{
+ "book": "yl-五a",
+ "kind": "blocks",
+ "config": {
+  "kind": "blocks",
+  "span": [
+   110,
+   112
+  ],
+  "idx": [
+   113,
+   115
+  ],
+  "unit_re": "^Unit\\s{2,}(\\d+)\\s*$"
+ },
+ "check": {
+  "raw": 163,
+  "kept": 163,
+  "dup": [],
+  "index_count": 137,
+  "only_in_units": [
+   "i i",
+   "turkey",
+   "tv",
+   "twenty-eight",
+   "twenty-four",
+   "understand",
+   "use",
+   "usually",
+   "very much",
+   "visit",
+   "wait a minute",
+   "walk",
+   "wall",
+   "warm up",
+   "watch",
+   "well done!",
+   "when",
+   "wonderful",
+   "word",
+   "worried",
+   "write",
+   "yeah",
+   "yuan"
+  ],
+  "only_in_index": [
+   "ii"
+  ],
+  "count": 158,
+  "patterns": 4
+ },
+ "words": [
+  {
+   "unit": 1,
+   "word": "habit",
+   "gloss": "习惯",
+   "star": true,
+   "page": 8,
+   "ipaUK": "/ˈhæbɪt/"
+  },
+  {
+   "unit": 1,
+   "word": "do exercise",
+   "gloss": "锻炼",
+   "star": false,
+   "page": 8,
+   "ipaUK": "/duː ˈeksəsaɪz/"
+  },
+  {
+   "unit": 1,
+   "word": "listen",
+   "gloss": "听",
+   "star": false,
+   "page": 8,
+   "ipaUK": "/ˈlɪsn/"
+  },
+  {
+   "unit": 1,
+   "word": "carefully",
+   "gloss": "仔细地，小心翼翼地",
+   "star": false,
+   "page": 8,
+   "ipaUK": "/ˈkeəfəli/"
+  },
+  {
+   "unit": 1,
+   "word": "take notes",
+   "gloss": "记笔记",
+   "star": true,
+   "page": 9,
+   "ipaUK": "/teɪk nəʊts/"
+  },
+  {
+   "unit": 1,
+   "word": "tidy",
+   "gloss": "整洁的，井然有序的",
+   "star": false,
+   "page": 9,
+   "ipaUK": "/ˈtaɪdi/"
+  },
+  {
+   "unit": 1,
+   "word": "wait a minute",
+   "gloss": "等一会儿，稍等一下",
+   "star": false,
+   "page": 11,
+   "ipaUK": "/weɪt ə ˈmɪnɪt/"
+  },
+  {
+   "unit": 1,
+   "word": "never",
+   "gloss": "从不，绝不",
+   "star": false,
+   "page": 11,
+   "ipaUK": "/ˈnevə(r)/"
+  },
+  {
+   "unit": 1,
+   "word": "in class",
+   "gloss": "在课堂上",
+   "star": false,
+   "page": 13,
+   "ipaUK": "/ɪn klɑːs/"
+  },
+  {
+   "unit": 1,
+   "word": "do well",
+   "gloss": "成功",
+   "star": false,
+   "page": 13,
+   "ipaUK": "/duː wel/"
+  },
+  {
+   "unit": 1,
+   "word": "very much",
+   "gloss": "非常",
+   "star": false,
+   "page": 13,
+   "ipaUK": "/ˈveri mʌtʃ/"
+  },
+  {
+   "unit": 1,
+   "word": "a lot of",
+   "gloss": "许多",
+   "star": false,
+   "page": 13,
+   "ipaUK": "/ə lɒt əv/"
+  },
+  {
+   "unit": 1,
+   "word": "often",
+   "gloss": "时常，常常",
+   "star": false,
+   "page": 13,
+   "ipaUK": "/ˈɒfən/"
+  },
+  {
+   "unit": 1,
+   "word": "in bed",
+   "gloss": "在床上",
+   "star": false,
+   "page": 13,
+   "ipaUK": "/ɪn bed/"
+  },
+  {
+   "unit": 1,
+   "word": "bad",
+   "gloss": "坏的",
+   "star": false,
+   "page": 13,
+   "ipaUK": "/bæd/"
+  },
+  {
+   "unit": 1,
+   "word": "healthy",
+   "gloss": "健康的，健壮的",
+   "star": false,
+   "page": 14,
+   "ipaUK": "/ˈhelθi/"
+  },
+  {
+   "unit": 1,
+   "word": "late",
+   "gloss": "迟，晚",
+   "star": false,
+   "page": 14,
+   "ipaUK": "/leɪt/"
+  },
+  {
+   "unit": 1,
+   "word": "health",
+   "gloss": "健康",
+   "star": false,
+   "page": 14,
+   "ipaUK": "/helθ/"
+  },
+  {
+   "unit": 1,
+   "word": "card",
+   "gloss": "卡片",
+   "star": false,
+   "page": 17,
+   "ipaUK": "/kɑːd/"
+  },
+  {
+   "unit": 1,
+   "word": "feel good",
+   "gloss": "感到愉快（或有信心等）",
+   "star": false,
+   "page": 20,
+   "ipaUK": "/fiːl ɡʊd/"
+  },
+  {
+   "unit": 1,
+   "word": "worried",
+   "gloss": "担心的，担忧的",
+   "star": true,
+   "page": 20,
+   "ipaUK": "/ˈwʌrid/"
+  },
+  {
+   "unit": 1,
+   "word": "excited",
+   "gloss": "激动的，兴奋的",
+   "star": false,
+   "page": 20,
+   "ipaUK": "/ɪkˈsaɪtɪd/"
+  },
+  {
+   "unit": 2,
+   "word": "the high jump",
+   "gloss": "跳高（运动）",
+   "star": true,
+   "page": 22,
+   "ipaUK": "/ðə haɪ dʒʌmp/"
+  },
+  {
+   "unit": 2,
+   "word": "hard",
+   "gloss": "努力地",
+   "star": false,
+   "page": 22,
+   "ipaUK": "/hɑːd/"
+  },
+  {
+   "unit": 2,
+   "word": "ouch",
+   "gloss": "哎哟",
+   "star": true,
+   "page": 22,
+   "ipaUK": "/aʊtʃ/"
+  },
+  {
+   "unit": 2,
+   "word": "like",
+   "gloss": "例如，譬如",
+   "star": false,
+   "page": 22,
+   "ipaUK": "/laɪk/"
+  },
+  {
+   "unit": 2,
+   "word": "yeah",
+   "gloss": "是的，对的",
+   "star": true,
+   "page": 23,
+   "ipaUK": "/jeə/"
+  },
+  {
+   "unit": 2,
+   "word": "or",
+   "gloss": "也不",
+   "star": false,
+   "page": 25,
+   "ipaUK": "/ɔː(r)/"
+  },
+  {
+   "unit": 2,
+   "word": "hear",
+   "gloss": "听见，听到",
+   "star": false,
+   "page": 25,
+   "ipaUK": "/hɪə(r)/"
+  },
+  {
+   "unit": 2,
+   "word": "sometimes",
+   "gloss": "有时，间或",
+   "star": false,
+   "page": 25,
+   "ipaUK": "/ˈsʌmtaɪmz/"
+  },
+  {
+   "unit": 2,
+   "word": "then",
+   "gloss": "然后，后来",
+   "star": false,
+   "page": 25,
+   "ipaUK": "/ðen/"
+  },
+  {
+   "unit": 2,
+   "word": "teach",
+   "gloss": "教授，教",
+   "star": false,
+   "page": 25,
+   "ipaUK": "/tiːtʃ/"
+  },
+  {
+   "unit": 2,
+   "word": "write",
+   "gloss": "书写，写字",
+   "star": false,
+   "page": 25,
+   "ipaUK": "/raɪt/"
+  },
+  {
+   "unit": 2,
+   "word": "word",
+   "gloss": "单词，字",
+   "star": false,
+   "page": 25,
+   "ipaUK": "/wɜːd/"
+  },
+  {
+   "unit": 2,
+   "word": "hand",
+   "gloss": "手",
+   "star": false,
+   "page": 25,
+   "ipaUK": "/hænd/"
+  },
+  {
+   "unit": 2,
+   "word": "understand",
+   "gloss": "懂，理解",
+   "star": true,
+   "page": 25,
+   "ipaUK": "/ˌʌndəˈstænd/"
+  },
+  {
+   "unit": 2,
+   "word": "give up",
+   "gloss": "放弃",
+   "star": false,
+   "page": 26,
+   "ipaUK": "/ɡɪv ʌp/"
+  },
+  {
+   "unit": 2,
+   "word": "other",
+   "gloss": "那个，另一个",
+   "star": true,
+   "page": 26,
+   "ipaUK": "/ˈʌðə(r)/"
+  },
+  {
+   "unit": 2,
+   "word": "fast",
+   "gloss": "快，快速，迅速",
+   "star": false,
+   "page": 26,
+   "ipaUK": "/fɑːst/"
+  },
+  {
+   "unit": 2,
+   "word": "speak",
+   "gloss": "说话",
+   "star": false,
+   "page": 26,
+   "ipaUK": "/spiːk/"
+  },
+  {
+   "unit": 2,
+   "word": "study",
+   "gloss": "学习",
+   "star": false,
+   "page": 28,
+   "ipaUK": "/ˈstʌdi/"
+  },
+  {
+   "unit": 2,
+   "word": "know",
+   "gloss": "知道，了解",
+   "star": false,
+   "page": 28,
+   "ipaUK": "/nəʊ/"
+  },
+  {
+   "unit": 2,
+   "word": "when",
+   "gloss": "当……时",
+   "star": false,
+   "page": 29,
+   "ipaUK": "/wen/"
+  },
+  {
+   "unit": 2,
+   "word": "hobby",
+   "gloss": "业余爱好",
+   "star": true,
+   "page": 32,
+   "ipaUK": "/ˈhɒbi/"
+  },
+  {
+   "unit": 2,
+   "word": "dance",
+   "gloss": "舞蹈",
+   "star": false,
+   "page": 32,
+   "ipaUK": "/dɑːns/"
+  },
+  {
+   "unit": 2,
+   "word": "paper-cutting",
+   "gloss": "剪纸",
+   "star": false,
+   "page": 32,
+   "ipaUK": "/ˈpeɪpə(r)-ˈkʌtɪŋ/"
+  },
+  {
+   "unit": 3,
+   "word": "gift",
+   "gloss": "礼物",
+   "star": false,
+   "page": 34,
+   "ipaUK": "/ɡɪft/"
+  },
+  {
+   "unit": 3,
+   "word": "her",
+   "gloss": "她",
+   "star": false,
+   "page": 34,
+   "ipaUK": "/hɜː(r)/"
+  },
+  {
+   "unit": 3,
+   "word": "skip",
+   "gloss": "跳绳",
+   "star": true,
+   "page": 35,
+   "ipaUK": "/skɪp/"
+  },
+  {
+   "unit": 3,
+   "word": "make",
+   "gloss": "使变得，使成为",
+   "star": false,
+   "page": 35,
+   "ipaUK": "/meɪk/"
+  },
+  {
+   "unit": 3,
+   "word": "join",
+   "gloss": "成为……的一员，参加",
+   "star": true,
+   "page": 37,
+   "ipaUK": "/dʒɔɪn/"
+  },
+  {
+   "unit": 3,
+   "word": "over there",
+   "gloss": "在那里",
+   "star": false,
+   "page": 38,
+   "ipaUK": "/ˈəʊvə(r) ðeə(r)/"
+  },
+  {
+   "unit": 3,
+   "word": "a lot",
+   "gloss": "大量",
+   "star": false,
+   "page": 38,
+   "ipaUK": "/ə lɒt/"
+  },
+  {
+   "unit": 3,
+   "word": "paint",
+   "gloss": "用颜料画",
+   "star": true,
+   "page": 40,
+   "ipaUK": "/peɪnt/"
+  },
+  {
+   "unit": 3,
+   "word": "pull",
+   "gloss": "拉，拽，扯",
+   "star": true,
+   "page": 44,
+   "ipaUK": "/pʊl/"
+  },
+  {
+   "unit": 3,
+   "word": "push",
+   "gloss": "推",
+   "star": true,
+   "page": 44,
+   "ipaUK": "/pʊʃ/"
+  },
+  {
+   "unit": 3,
+   "word": "warm up",
+   "gloss": "做准备活动，热身",
+   "star": false,
+   "page": 44,
+   "ipaUK": "/wɔːm ʌp/"
+  },
+  {
+   "unit": 3,
+   "word": "jump",
+   "gloss": "跳，跳跃",
+   "star": false,
+   "page": 44,
+   "ipaUK": "/dʒʌmp/"
+  },
+  {
+   "unit": 4,
+   "word": "climb",
+   "gloss": "攀登，爬",
+   "star": true,
+   "page": 45,
+   "ipaUK": "/klaɪm/"
+  },
+  {
+   "unit": 4,
+   "word": "should",
+   "gloss": "应该，应当",
+   "star": false,
+   "page": 46,
+   "ipaUK": "/ʃəd/"
+  },
+  {
+   "unit": 4,
+   "word": "swim",
+   "gloss": "游泳",
+   "star": false,
+   "page": 46,
+   "ipaUK": "/swɪm/"
+  },
+  {
+   "unit": 4,
+   "word": "swimming pool",
+   "gloss": "游泳池",
+   "star": true,
+   "page": 46,
+   "ipaUK": "/ˈswɪmɪŋ puːl/"
+  },
+  {
+   "unit": 4,
+   "word": "hurt",
+   "gloss": "感到疼痛；（使）疼痛，受伤",
+   "star": false,
+   "page": 46,
+   "ipaUK": "/hɜːt/"
+  },
+  {
+   "unit": 4,
+   "word": "listen",
+   "gloss": "听从",
+   "star": false,
+   "page": 47,
+   "ipaUK": "/ˈlɪsn/"
+  },
+  {
+   "unit": 4,
+   "word": "stairs",
+   "gloss": "楼梯",
+   "star": true,
+   "page": 49,
+   "ipaUK": "/steəz/"
+  },
+  {
+   "unit": 4,
+   "word": "keep to the right",
+   "gloss": "靠右边走",
+   "star": false,
+   "page": 49,
+   "ipaUK": "/kiːp tuː ðə raɪt/"
+  },
+  {
+   "unit": 4,
+   "word": "from",
+   "gloss": "从",
+   "star": false,
+   "page": 49,
+   "ipaUK": "/frɒm/"
+  },
+  {
+   "unit": 4,
+   "word": "may",
+   "gloss": "也许，可能",
+   "star": false,
+   "page": 50,
+   "ipaUK": "/meɪ/"
+  },
+  {
+   "unit": 4,
+   "word": "out of the way",
+   "gloss": "不再挡路，不再碍事",
+   "star": false,
+   "page": 50,
+   "ipaUK": "/aʊt ɒv ðə weɪ/"
+  },
+  {
+   "unit": 4,
+   "word": "right now",
+   "gloss": "立即，马上",
+   "star": false,
+   "page": 50,
+   "ipaUK": "/raɪt naʊ/"
+  },
+  {
+   "unit": 4,
+   "word": "walk",
+   "gloss": "走，行走",
+   "star": false,
+   "page": 50,
+   "ipaUK": "/wɔːk/"
+  },
+  {
+   "unit": 4,
+   "word": "slowly",
+   "gloss": "慢速地，缓慢地",
+   "star": false,
+   "page": 50,
+   "ipaUK": "/ˈsləʊli/"
+  },
+  {
+   "unit": 4,
+   "word": "watch",
+   "gloss": "观看",
+   "star": false,
+   "page": 58,
+   "ipaUK": "/wɒtʃ/"
+  },
+  {
+   "unit": 4,
+   "word": "TV",
+   "gloss": "电视，电视机",
+   "star": false,
+   "page": 58,
+   "ipaUK": "/ˌtiː ˈviː/"
+  },
+  {
+   "unit": 4,
+   "word": "visit",
+   "gloss": "拜访，看望",
+   "star": false,
+   "page": 58,
+   "ipaUK": "/ˈvɪzɪt/"
+  },
+  {
+   "unit": 4,
+   "word": "grandparent",
+   "gloss": "（外）祖父，（外）祖母",
+   "star": true,
+   "page": 58,
+   "ipaUK": "/ˈɡrænpeərənt/"
+  },
+  {
+   "unit": 4,
+   "word": "play Chinese chess",
+   "gloss": "下象棋",
+   "star": true,
+   "page": 58,
+   "ipaUK": "/pleɪ ˌtʃaɪˈniːz tʃes/"
+  },
+  {
+   "unit": 5,
+   "word": "play the piano",
+   "gloss": "弹钢琴",
+   "star": false,
+   "page": 59,
+   "ipaUK": "/pleɪ ðə piˈænəʊ/"
+  },
+  {
+   "unit": 5,
+   "word": "chat",
+   "gloss": "闲聊，聊天",
+   "star": true,
+   "page": 59,
+   "ipaUK": "/tʃæt/"
+  },
+  {
+   "unit": 5,
+   "word": "internet",
+   "gloss": "互联网",
+   "star": false,
+   "page": 59,
+   "ipaUK": "/ˈɪntənet/"
+  },
+  {
+   "unit": 5,
+   "word": "always",
+   "gloss": "总是，每次都是",
+   "star": false,
+   "page": 60,
+   "ipaUK": "/ˈɔːlweɪz/"
+  },
+  {
+   "unit": 5,
+   "word": "have a picnic",
+   "gloss": "野餐",
+   "star": true,
+   "page": 61,
+   "ipaUK": "/hæv ə ˈpɪknɪk/"
+  },
+  {
+   "unit": 5,
+   "word": "get out",
+   "gloss": "出去",
+   "star": false,
+   "page": 61,
+   "ipaUK": "/ɡet aʊt/"
+  },
+  {
+   "unit": 5,
+   "word": "usually",
+   "gloss": "通常地，一般地",
+   "star": true,
+   "page": 63,
+   "ipaUK": "/ˈjuːʒuəli/"
+  },
+  {
+   "unit": 5,
+   "word": "plant",
+   "gloss": "植物，花草",
+   "star": false,
+   "page": 63,
+   "ipaUK": "/plɑːnt/"
+  },
+  {
+   "unit": 5,
+   "word": "spend",
+   "gloss": "花（时间），度过",
+   "star": true,
+   "page": 63,
+   "ipaUK": "/spend/"
+  },
+  {
+   "unit": 5,
+   "word": "live",
+   "gloss": "住，居住",
+   "star": false,
+   "page": 63,
+   "ipaUK": "/lɪv/"
+  },
+  {
+   "unit": 5,
+   "word": "wonderful",
+   "gloss": "精彩的，绝妙的",
+   "star": false,
+   "page": 64,
+   "ipaUK": "/ˈwʌndəf(ə)l/"
+  },
+  {
+   "unit": 5,
+   "word": "get along with",
+   "gloss": "与……和睦相处",
+   "star": true,
+   "page": 70,
+   "ipaUK": "/ɡet əˈlɒŋ wɪð/"
+  },
+  {
+   "unit": 5,
+   "word": "between",
+   "gloss": "在……中间，介于……之间",
+   "star": false,
+   "page": 70,
+   "ipaUK": "/bɪˈtwiːn/"
+  },
+  {
+   "unit": 5,
+   "word": "wall",
+   "gloss": "围墙；墙，壁",
+   "star": false,
+   "page": 70,
+   "ipaUK": "/wɔːl/"
+  },
+  {
+   "unit": 5,
+   "word": "neighbour",
+   "gloss": "邻居，邻人",
+   "star": true,
+   "page": 70,
+   "ipaUK": "/ˈneɪbə(r)/"
+  },
+  {
+   "unit": 6,
+   "word": "heavy",
+   "gloss": "重的，沉的",
+   "star": false,
+   "page": 72,
+   "ipaUK": "/ˈhevi/"
+  },
+  {
+   "unit": 6,
+   "word": "drink",
+   "gloss": "喝，饮",
+   "star": false,
+   "page": 72,
+   "ipaUK": "/drɪŋk/"
+  },
+  {
+   "unit": 6,
+   "word": "some",
+   "gloss": "有些事物，有些人",
+   "star": false,
+   "page": 73,
+   "ipaUK": "/səm, sʌm/"
+  },
+  {
+   "unit": 6,
+   "word": "on one’s way back",
+   "gloss": "在某人回去的路上",
+   "star": false,
+   "page": 73,
+   "ipaUK": "/ɒn wʌnz weɪ ˈbæk/"
+  },
+  {
+   "unit": 6,
+   "word": "next to",
+   "gloss": "紧邻，在……近旁",
+   "star": false,
+   "page": 75,
+   "ipaUK": "/nekst tuː/"
+  },
+  {
+   "unit": 6,
+   "word": "space",
+   "gloss": "空地，空间",
+   "star": false,
+   "page": 75,
+   "ipaUK": "/speɪs/"
+  },
+  {
+   "unit": 6,
+   "word": "their",
+   "gloss": "他们的，她们的，它们的",
+   "star": false,
+   "page": 75,
+   "ipaUK": "/ðeə(r)/"
+  },
+  {
+   "unit": 6,
+   "word": "too",
+   "gloss": "太，过于",
+   "star": false,
+   "page": 75,
+   "ipaUK": "/tuː/"
+  },
+  {
+   "unit": 6,
+   "word": "close to",
+   "gloss": "接近",
+   "star": false,
+   "page": 75,
+   "ipaUK": "/kləʊz tuː/"
+  },
+  {
+   "unit": 6,
+   "word": "use",
+   "gloss": "使用，利用",
+   "star": false,
+   "page": 75,
+   "ipaUK": "/juːz/"
+  },
+  {
+   "unit": 6,
+   "word": "letter",
+   "gloss": "信，函",
+   "star": false,
+   "page": 75,
+   "ipaUK": "/ˈletə(r)/"
+  },
+  {
+   "unit": 6,
+   "word": "advice",
+   "gloss": "建议",
+   "star": true,
+   "page": 75,
+   "ipaUK": "/ədˈvaɪs/"
+  },
+  {
+   "unit": 6,
+   "word": "important",
+   "gloss": "重要的",
+   "star": true,
+   "page": 76,
+   "ipaUK": "/ɪmˈpɔːtnt/"
+  },
+  {
+   "unit": 6,
+   "word": "friendly",
+   "gloss": "友好的，友爱的",
+   "star": false,
+   "page": 76,
+   "ipaUK": "/ˈfrendli/"
+  },
+  {
+   "unit": 6,
+   "word": "then",
+   "gloss": "到那时，当时",
+   "star": false,
+   "page": 78,
+   "ipaUK": "/ðen/"
+  },
+  {
+   "unit": 6,
+   "word": "time",
+   "gloss": "时候；时间",
+   "star": false,
+   "page": 79,
+   "ipaUK": "/taɪm/"
+  },
+  {
+   "unit": 6,
+   "word": "favourite (AmE favorite)",
+   "gloss": "特别喜爱的",
+   "star": false,
+   "page": 79,
+   "ipaUK": "/ˈfeɪvərɪt/"
+  },
+  {
+   "unit": 6,
+   "word": "problem",
+   "gloss": "问题，困难",
+   "star": false,
+   "page": 79,
+   "ipaUK": "/ˈprɒbləm/"
+  },
+  {
+   "unit": 6,
+   "word": "do your homework",
+   "gloss": "做家庭作业",
+   "star": false,
+   "page": 79,
+   "ipaUK": "/duː jɔː(r) ˈhəʊmwɜːk/"
+  },
+  {
+   "unit": 6,
+   "word": "classmate",
+   "gloss": "同班同学",
+   "star": true,
+   "page": 79,
+   "ipaUK": "/ˈklɑːsmeɪt/"
+  },
+  {
+   "unit": 6,
+   "word": "shop",
+   "gloss": "在商店购物",
+   "star": false,
+   "page": 82,
+   "ipaUK": "/ʃɒp/"
+  },
+  {
+   "unit": 6,
+   "word": "smart",
+   "gloss": "明智且高效地",
+   "star": true,
+   "page": 82,
+   "ipaUK": "/smɑːt/"
+  },
+  {
+   "unit": 6,
+   "word": "shoe",
+   "gloss": "鞋",
+   "star": false,
+   "page": 82,
+   "ipaUK": "/ʃuː/"
+  },
+  {
+   "unit": 6,
+   "word": "sweater",
+   "gloss": "毛衣，线衣",
+   "star": false,
+   "page": 82,
+   "ipaUK": "/ˈswetə(r)/"
+  },
+  {
+   "unit": 7,
+   "word": "sock",
+   "gloss": "短袜",
+   "star": false,
+   "page": 83,
+   "ipaUK": "/sɒk/"
+  },
+  {
+   "unit": 7,
+   "word": "bow",
+   "gloss": "蝴蝶结",
+   "star": true,
+   "page": 84,
+   "ipaUK": "/bəʊ/"
+  },
+  {
+   "unit": 7,
+   "word": "need",
+   "gloss": "需要，必需",
+   "star": true,
+   "page": 84,
+   "ipaUK": "/niːd/"
+  },
+  {
+   "unit": 7,
+   "word": "Ms",
+   "gloss": "女士（不指明婚否）",
+   "star": false,
+   "page": 84,
+   "ipaUK": "/mɪz/"
+  },
+  {
+   "unit": 7,
+   "word": "twenty-eight",
+   "gloss": "二十八",
+   "star": false,
+   "page": 84,
+   "ipaUK": "/ˌtwenti ˈeɪt/"
+  },
+  {
+   "unit": 7,
+   "word": "yuan",
+   "gloss": "元（中国货币单位）",
+   "star": true,
+   "page": 84,
+   "ipaUK": "/ˌjuːˈæn/"
+  },
+  {
+   "unit": 7,
+   "word": "show",
+   "gloss": "给……看，展示",
+   "star": false,
+   "page": 85,
+   "ipaUK": "/ʃəʊ/"
+  },
+  {
+   "unit": 7,
+   "word": "tail",
+   "gloss": "尾巴",
+   "star": false,
+   "page": 85,
+   "ipaUK": "/teɪl/"
+  },
+  {
+   "unit": 7,
+   "word": "list",
+   "gloss": "清单",
+   "star": true,
+   "page": 87,
+   "ipaUK": "/lɪst/"
+  },
+  {
+   "unit": 7,
+   "word": "pocket money",
+   "gloss": "零花钱",
+   "star": true,
+   "page": 87,
+   "ipaUK": "/ˈpɒkɪt ˈmʌni/"
+  },
+  {
+   "unit": 7,
+   "word": "one",
+   "gloss": "（一批东西中的）一个",
+   "star": false,
+   "page": 87,
+   "ipaUK": "/wʌn/"
+  },
+  {
+   "unit": 7,
+   "word": "try on",
+   "gloss": "试穿",
+   "star": false,
+   "page": 87,
+   "ipaUK": "/traɪ ɒn/"
+  },
+  {
+   "unit": 7,
+   "word": "sixty-eight",
+   "gloss": "六十八",
+   "star": false,
+   "page": 87,
+   "ipaUK": "/ˌsɪksti ˈeɪt/"
+  },
+  {
+   "unit": 7,
+   "word": "take",
+   "gloss": "选中，买下",
+   "star": false,
+   "page": 87,
+   "ipaUK": "/teɪk/"
+  },
+  {
+   "unit": 7,
+   "word": "pair",
+   "gloss": "一双，一对",
+   "star": false,
+   "page": 88,
+   "ipaUK": "/peə(r)/"
+  },
+  {
+   "unit": 7,
+   "word": "forty",
+   "gloss": "四十",
+   "star": false,
+   "page": 88,
+   "ipaUK": "/ˈfɔːti/"
+  },
+  {
+   "unit": 7,
+   "word": "twenty-four",
+   "gloss": "二十四",
+   "star": false,
+   "page": 88,
+   "ipaUK": "/ˌtwenti ˈfɔː(r)/"
+  },
+  {
+   "unit": 7,
+   "word": "festival",
+   "gloss": "节日",
+   "star": true,
+   "page": 94,
+   "ipaUK": "/ˈfestɪvl/"
+  },
+  {
+   "unit": 8,
+   "word": "sky",
+   "gloss": "天空",
+   "star": true,
+   "page": 96,
+   "ipaUK": "/skaɪ/"
+  },
+  {
+   "unit": 8,
+   "word": "about",
+   "gloss": "关于，对于",
+   "star": false,
+   "page": 96,
+   "ipaUK": "/əˈbaʊt/"
+  },
+  {
+   "unit": 8,
+   "word": "May",
+   "gloss": "五月",
+   "star": false,
+   "page": 96,
+   "ipaUK": "/meɪ/"
+  },
+  {
+   "unit": 8,
+   "word": "or",
+   "gloss": "或者",
+   "star": false,
+   "page": 96,
+   "ipaUK": "/ɔː(r)/"
+  },
+  {
+   "unit": 8,
+   "word": "June",
+   "gloss": "六月",
+   "star": false,
+   "page": 96,
+   "ipaUK": "/dʒuːn/"
+  },
+  {
+   "unit": 8,
+   "word": "dragon boat race",
+   "gloss": "龙舟比赛",
+   "star": true,
+   "page": 96,
+   "ipaUK": "/ˈdræɡən bəʊt reɪs/"
+  },
+  {
+   "unit": 8,
+   "word": "January",
+   "gloss": "一月",
+   "star": false,
+   "page": 99,
+   "ipaUK": "/ˈdʒænjuəri/"
+  },
+  {
+   "unit": 8,
+   "word": "February",
+   "gloss": "二月",
+   "star": false,
+   "page": 99,
+   "ipaUK": "/ˈfebruəri/"
+  },
+  {
+   "unit": 8,
+   "word": "before",
+   "gloss": "在……以前",
+   "star": false,
+   "page": 99,
+   "ipaUK": "/bɪˈfɔː(r)/"
+  },
+  {
+   "unit": 8,
+   "word": "door",
+   "gloss": "门",
+   "star": false,
+   "page": 99,
+   "ipaUK": "/dɔː(r)/"
+  },
+  {
+   "unit": 8,
+   "word": "red packet",
+   "gloss": "红包",
+   "star": true,
+   "page": 99,
+   "ipaUK": "/red ˈpækɪt/"
+  },
+  {
+   "unit": 8,
+   "word": "lion dance",
+   "gloss": "舞狮",
+   "star": false,
+   "page": 99,
+   "ipaUK": "/ˈlaɪən dɑːns/"
+  },
+  {
+   "unit": 8,
+   "word": "have a good time",
+   "gloss": "过得愉快",
+   "star": false,
+   "page": 99,
+   "ipaUK": "/hæv ə ɡʊd taɪm/"
+  },
+  {
+   "unit": 8,
+   "word": "December",
+   "gloss": "十二月",
+   "star": false,
+   "page": 100,
+   "ipaUK": "/dɪˈsembə(r)/"
+  },
+  {
+   "unit": 8,
+   "word": "hang",
+   "gloss": "挂",
+   "star": true,
+   "page": 100,
+   "ipaUK": "/hæŋ/"
+  },
+  {
+   "unit": 8,
+   "word": "stocking",
+   "gloss": "圣诞袜",
+   "star": true,
+   "page": 100,
+   "ipaUK": "/ˈstɒkɪŋ/"
+  },
+  {
+   "unit": 8,
+   "word": "open",
+   "gloss": "打开，撕开",
+   "star": false,
+   "page": 100,
+   "ipaUK": "/ˈəʊpən/"
+  },
+  {
+   "unit": 8,
+   "word": "turkey",
+   "gloss": "火鸡肉；火鸡",
+   "star": true,
+   "page": 100,
+   "ipaUK": "/ˈtɜːki/"
+  },
+  {
+   "unit": 8,
+   "word": "October",
+   "gloss": "十月",
+   "star": false,
+   "page": 102,
+   "ipaUK": "/ɒkˈtəʊbə(r)/"
+  },
+  {
+   "unit": 8,
+   "word": "September",
+   "gloss": "九月",
+   "star": false,
+   "page": 103,
+   "ipaUK": "/sepˈtembə(r)/"
+  },
+  {
+   "unit": 8,
+   "word": "mooncake",
+   "gloss": "月饼",
+   "star": false,
+   "page": 103,
+   "ipaUK": "/ˈmuːnkeɪk/"
+  },
+  {
+   "unit": 8,
+   "word": "activity",
+   "gloss": "活动",
+   "star": true,
+   "page": 103,
+   "ipaUK": "/ækˈtɪvɪti/"
+  },
+  {
+   "unit": 8,
+   "word": "moon",
+   "gloss": "月亮",
+   "star": false,
+   "page": 103,
+   "ipaUK": "/muːn/"
+  },
+  {
+   "unit": 8,
+   "word": "China",
+   "gloss": "中国",
+   "star": false,
+   "page": 103,
+   "ipaUK": "/ˈtʃaɪnə/"
+  }
+ ],
+ "patterns": [
+  {
+   "unit": 1,
+   "word": "put ... in order",
+   "gloss": "把……整理好",
+   "star": true,
+   "page": 8
+  },
+  {
+   "unit": 1,
+   "word": "It’s your turn.",
+   "gloss": "轮到你了。",
+   "star": false,
+   "page": 17
+  },
+  {
+   "unit": 2,
+   "word": "Well done!",
+   "gloss": "干得好！",
+   "star": false,
+   "page": 23
+  },
+  {
+   "unit": 3,
+   "word": "I don’t think so.",
+   "gloss": "我不这么认为。",
+   "star": false,
+   "page": 35
+  }
+ ]
+}

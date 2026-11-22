@@ -41,6 +41,26 @@ const writeGuardFlag = (on) => {
   }
 }
 
+/* ---------- 主题底色 ----------
+   无边框窗口的 backgroundColor 要跟渲染进程一致，否则启动/滚动时闪一帧另一种底色。
+   localStorage 主进程读不到，所以在切主题时顺手写一份到 userData。 */
+const THEME_BG = { light: '#FFF8F0', dark: '#0B0E13' }
+const themeFile = () => path.join(app.getPath('userData'), 'theme.json')
+const readThemeName = () => {
+  try {
+    return JSON.parse(fs.readFileSync(themeFile(), 'utf8')).theme === 'dark' ? 'dark' : 'light'
+  } catch {
+    return 'light'
+  }
+}
+const writeThemeName = (t) => {
+  try {
+    fs.writeFileSync(themeFile(), JSON.stringify({ theme: t === 'dark' ? 'dark' : 'light' }))
+  } catch {
+    /* ignore */
+  }
+}
+
 function createWindow() {
   log('createWindow offscreen=' + offscreen)
   mainWindow = new BrowserWindow({
@@ -48,7 +68,7 @@ function createWindow() {
     height: 800,
     minWidth: 900,
     minHeight: 620,
-    backgroundColor: '#0B0E13',
+    backgroundColor: THEME_BG[readThemeName()],
     frame: false,
     fullscreen: guardActive,
     show: !shotPath || showWin,
@@ -461,7 +481,9 @@ ipcMain.on('app:guard-mode', (e, on) => {
 
 /* 无边框窗口的底色要跟着主题走，否则浅色主题启动/滚动时会闪一下深色 */
 ipcMain.on('app:theme', (e, t) => {
-  BrowserWindow.fromWebContents(e.sender)?.setBackgroundColor(t === 'light' ? '#F5F7FB' : '#0B0E13')
+  const name = t === 'dark' ? 'dark' : 'light'
+  writeThemeName(name)
+  BrowserWindow.fromWebContents(e.sender)?.setBackgroundColor(THEME_BG[name])
 })
 
 /* 离线语音包：打包后页面在 file:// 下，fetch 读不到本地文件，

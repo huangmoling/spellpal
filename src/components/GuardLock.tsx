@@ -61,7 +61,7 @@ export default function GuardLock() {
 
         <button
           onClick={() => setAsk(true)}
-          className="mt-6 flex w-full items-center justify-center gap-2 rounded-xl bg-brand py-4 text-[16.5px] font-semibold text-white shadow-[0_10px_26px_-10px_rgba(124,92,255,0.95)] transition hover:brightness-110"
+          className="mt-6 flex w-full items-center justify-center gap-2 rounded-xl bg-brand py-4 text-[16.5px] font-semibold text-white shadow-[0_10px_26px_-10px_rgba(74,128,240,0.95)] transition hover:brightness-110"
         >
           <ShieldCheck size={18} strokeWidth={2.2} />
           家长解锁，再学 {GUARD_EXTEND_MINUTES} 分钟

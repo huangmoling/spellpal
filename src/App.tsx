@@ -161,7 +161,7 @@ function QuitConfirm({ onCancel }: { onCancel: () => void }) {
             <button
               autoFocus
               onClick={onCancel}
-              className="flex-1 rounded-xl bg-brand py-2.5 text-[14px] font-semibold text-white shadow-[0_8px_22px_-8px_rgba(124,92,255,0.9)] transition hover:brightness-110"
+              className="flex-1 rounded-xl bg-brand py-2.5 text-[14px] font-semibold text-white shadow-[0_8px_22px_-8px_rgba(74,128,240,0.9)] transition hover:brightness-110"
             >
               继续练
             </button>

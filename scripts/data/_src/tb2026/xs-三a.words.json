@@ -1,0 +1,910 @@
+{
+ "book": "xs-三a",
+ "kind": "blocks",
+ "config": {
+  "kind": "blocks",
+  "span": [
+   74,
+   76
+  ],
+  "idx": [
+   77,
+   80
+  ]
+ },
+ "check": {
+  "raw": 102,
+  "kept": 102,
+  "dup": [],
+  "index_count": 157,
+  "only_in_units": [
+   "he",
+   "hi",
+   "i",
+   "is",
+   "it",
+   "no"
+  ],
+  "only_in_index": [
+   "amazing",
+   "and",
+   "ant",
+   "aunt",
+   "back",
+   "bag",
+   "ball",
+   "beautiful",
+   "body",
+   "box",
+   "boy",
+   "brown",
+   "can",
+   "care",
+   "cheese",
+   "cousin",
+   "different",
+   "dinosaur",
+   "doggie",
+   "find",
+   "follow",
+   "football",
+   "girl",
+   "great",
+   "help",
+   "know",
+   "little",
+   "look",
+   "love",
+   "lovely",
+   "me",
+   "meet",
+   "much",
+   "nice",
+   "noodle",
+   "now",
+   "ok",
+   "out",
+   "photo",
+   "please",
+   "put",
+   "rainbow",
+   "robot",
+   "say",
+   "see",
+   "shake",
+   "sit down",
+   "smile",
+   "some",
+   "stand up",
+   "swan",
+   "sweet",
+   "take care of",
+   "the",
+   "they",
+   "thing",
+   "tree",
+   "uncle",
+   "very much",
+   "woof",
+   "you’re welcome."
+  ]
+ },
+ "words": [
+  {
+   "unit": 1,
+   "word": "hello",
+   "gloss": "你好",
+   "star": false,
+   "page": null,
+   "ipaUK": "/həˈləʊ/"
+  },
+  {
+   "unit": 1,
+   "word": "I",
+   "gloss": "我",
+   "star": false,
+   "page": null,
+   "ipaUK": "/aɪ/"
+  },
+  {
+   "unit": 1,
+   "word": "am",
+   "gloss": "是",
+   "star": false,
+   "page": null,
+   "ipaUK": "/æm/"
+  },
+  {
+   "unit": 1,
+   "word": "good",
+   "gloss": "好的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɡʊd/"
+  },
+  {
+   "unit": 1,
+   "word": "morning",
+   "gloss": "早上",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈmɔːnɪŋ/"
+  },
+  {
+   "unit": 1,
+   "word": "Miss",
+   "gloss": "老师（对女教师的尊称）",
+   "star": false,
+   "page": null,
+   "ipaUK": "/mɪs/"
+  },
+  {
+   "unit": 1,
+   "word": "hi",
+   "gloss": "你好",
+   "star": false,
+   "page": null,
+   "ipaUK": "/haɪ/"
+  },
+  {
+   "unit": 2,
+   "word": "what",
+   "gloss": "什么",
+   "star": false,
+   "page": null,
+   "ipaUK": "/wɒt/"
+  },
+  {
+   "unit": 2,
+   "word": "is",
+   "gloss": "是",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɪz/"
+  },
+  {
+   "unit": 2,
+   "word": "your",
+   "gloss": "你的；你们的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/jɔː(r)/"
+  },
+  {
+   "unit": 2,
+   "word": "name",
+   "gloss": "名字",
+   "star": false,
+   "page": null,
+   "ipaUK": "/neɪm/"
+  },
+  {
+   "unit": 2,
+   "word": "afternoon",
+   "gloss": "下午",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˌɑːftəˈnuːn/"
+  },
+  {
+   "unit": 2,
+   "word": "class",
+   "gloss": "班级；全班",
+   "star": false,
+   "page": null,
+   "ipaUK": "/klɑːs/"
+  },
+  {
+   "unit": 2,
+   "word": "my",
+   "gloss": "我的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/maɪ/"
+  },
+  {
+   "unit": 2,
+   "word": "goodbye (bye)",
+   "gloss": "再见",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˌɡʊdˈbaɪ/"
+  },
+  {
+   "unit": 2,
+   "word": "Mr",
+   "gloss": "先生",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈmɪstə(r)/"
+  },
+  {
+   "unit": 3,
+   "word": "how",
+   "gloss": "怎样；多少",
+   "star": false,
+   "page": null,
+   "ipaUK": "/haʊ/"
+  },
+  {
+   "unit": 3,
+   "word": "old",
+   "gloss": "（多少） 岁",
+   "star": false,
+   "page": null,
+   "ipaUK": "/əʊld/"
+  },
+  {
+   "unit": 3,
+   "word": "are",
+   "gloss": "是",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɑː(r)/"
+  },
+  {
+   "unit": 3,
+   "word": "you",
+   "gloss": "你；你们",
+   "star": false,
+   "page": null,
+   "ipaUK": "/juː/"
+  },
+  {
+   "unit": 3,
+   "word": "too",
+   "gloss": "也",
+   "star": false,
+   "page": null,
+   "ipaUK": "/tuː/"
+  },
+  {
+   "unit": 3,
+   "word": "one",
+   "gloss": "一",
+   "star": false,
+   "page": null,
+   "ipaUK": "/wʌn/"
+  },
+  {
+   "unit": 3,
+   "word": "two",
+   "gloss": "二",
+   "star": false,
+   "page": null,
+   "ipaUK": "/tuː/"
+  },
+  {
+   "unit": 3,
+   "word": "three",
+   "gloss": "三",
+   "star": false,
+   "page": null,
+   "ipaUK": "/θriː/"
+  },
+  {
+   "unit": 3,
+   "word": "four",
+   "gloss": "四",
+   "star": false,
+   "page": null,
+   "ipaUK": "/fɔː(r)/"
+  },
+  {
+   "unit": 3,
+   "word": "five",
+   "gloss": "五",
+   "star": false,
+   "page": null,
+   "ipaUK": "/faɪv/"
+  },
+  {
+   "unit": 3,
+   "word": "six",
+   "gloss": "六",
+   "star": false,
+   "page": null,
+   "ipaUK": "/sɪks/"
+  },
+  {
+   "unit": 3,
+   "word": "seven",
+   "gloss": "七",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈsevn/"
+  },
+  {
+   "unit": 3,
+   "word": "eight",
+   "gloss": "八",
+   "star": false,
+   "page": null,
+   "ipaUK": "/eɪt/"
+  },
+  {
+   "unit": 3,
+   "word": "nine",
+   "gloss": "九",
+   "star": false,
+   "page": null,
+   "ipaUK": "/naɪn/"
+  },
+  {
+   "unit": 3,
+   "word": "ten",
+   "gloss": "十",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ten/"
+  },
+  {
+   "unit": 4,
+   "word": "this",
+   "gloss": "这个",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ðɪs/"
+  },
+  {
+   "unit": 4,
+   "word": "family",
+   "gloss": "家庭；家人",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈfæməli/"
+  },
+  {
+   "unit": 4,
+   "word": "mother (mum)",
+   "gloss": "妈妈",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈmʌðə(r)/"
+  },
+  {
+   "unit": 4,
+   "word": "father (dad)",
+   "gloss": "爸爸",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈfɑːðə(r)/"
+  },
+  {
+   "unit": 4,
+   "word": "who",
+   "gloss": "谁",
+   "star": false,
+   "page": null,
+   "ipaUK": "/huː/"
+  },
+  {
+   "unit": 4,
+   "word": "he",
+   "gloss": "他",
+   "star": false,
+   "page": null,
+   "ipaUK": "/hiː/"
+  },
+  {
+   "unit": 4,
+   "word": "brother",
+   "gloss": "哥哥；弟弟",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈbrʌðə(r)/"
+  },
+  {
+   "unit": 4,
+   "word": "grandmother",
+   "gloss": "奶奶；外婆",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈɡrænmʌðə(r)/"
+  },
+  {
+   "unit": 4,
+   "word": "grandfather",
+   "gloss": "爷爷；外公",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈɡrænfɑːðə(r)/"
+  },
+  {
+   "unit": 4,
+   "word": "sister",
+   "gloss": "姐姐；妹妹",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈsɪstə(r)/"
+  },
+  {
+   "unit": 4,
+   "word": "she",
+   "gloss": "她",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ʃiː/"
+  },
+  {
+   "unit": 5,
+   "word": "pen",
+   "gloss": "钢笔",
+   "star": false,
+   "page": null,
+   "ipaUK": "/pen/"
+  },
+  {
+   "unit": 5,
+   "word": "a (an)",
+   "gloss": "一（个；位）",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ə/"
+  },
+  {
+   "unit": 5,
+   "word": "no",
+   "gloss": "不",
+   "star": false,
+   "page": null,
+   "ipaUK": "/nəʊ/"
+  },
+  {
+   "unit": 5,
+   "word": "it",
+   "gloss": "它",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɪt/"
+  },
+  {
+   "unit": 5,
+   "word": "not",
+   "gloss": "不；不是；没有",
+   "star": false,
+   "page": null,
+   "ipaUK": "/nɒt/"
+  },
+  {
+   "unit": 5,
+   "word": "yes",
+   "gloss": "是的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/jes/"
+  },
+  {
+   "unit": 5,
+   "word": "pencil",
+   "gloss": "铅笔",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈpensl/"
+  },
+  {
+   "unit": 5,
+   "word": "ruler",
+   "gloss": "尺子",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈruːlə(r)/"
+  },
+  {
+   "unit": 5,
+   "word": "book",
+   "gloss": "书",
+   "star": false,
+   "page": null,
+   "ipaUK": "/bʊk/"
+  },
+  {
+   "unit": 5,
+   "word": "pencil case",
+   "gloss": "文具盒",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈpensl keɪs/"
+  },
+  {
+   "unit": 5,
+   "word": "schoolbag",
+   "gloss": "书包",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈskuːlbæɡ/"
+  },
+  {
+   "unit": 6,
+   "word": "touch",
+   "gloss": "摸；接触",
+   "star": false,
+   "page": null,
+   "ipaUK": "/tʌtʃ/"
+  },
+  {
+   "unit": 6,
+   "word": "head",
+   "gloss": "头",
+   "star": false,
+   "page": null,
+   "ipaUK": "/hed/"
+  },
+  {
+   "unit": 6,
+   "word": "raise",
+   "gloss": "举起",
+   "star": false,
+   "page": null,
+   "ipaUK": "/reɪz/"
+  },
+  {
+   "unit": 6,
+   "word": "hand",
+   "gloss": "手",
+   "star": false,
+   "page": null,
+   "ipaUK": "/hænd/"
+  },
+  {
+   "unit": 6,
+   "word": "foot (pl. feet)",
+   "gloss": "脚",
+   "star": false,
+   "page": null,
+   "ipaUK": "/fʊt/"
+  },
+  {
+   "unit": 6,
+   "word": "leg",
+   "gloss": "腿",
+   "star": false,
+   "page": null,
+   "ipaUK": "/leɡ/"
+  },
+  {
+   "unit": 6,
+   "word": "ear",
+   "gloss": "耳朵",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɪə(r)/"
+  },
+  {
+   "unit": 6,
+   "word": "eye",
+   "gloss": "眼睛",
+   "star": false,
+   "page": null,
+   "ipaUK": "/aɪ/"
+  },
+  {
+   "unit": 6,
+   "word": "nose",
+   "gloss": "鼻子",
+   "star": false,
+   "page": null,
+   "ipaUK": "/nəʊz/"
+  },
+  {
+   "unit": 6,
+   "word": "mouth",
+   "gloss": "嘴巴",
+   "star": false,
+   "page": null,
+   "ipaUK": "/maʊθ/"
+  },
+  {
+   "unit": 7,
+   "word": "colour",
+   "gloss": "颜色",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈkʌlə(r)/"
+  },
+  {
+   "unit": 7,
+   "word": "red",
+   "gloss": "红色；红色的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/red/"
+  },
+  {
+   "unit": 7,
+   "word": "yellow",
+   "gloss": "黄色；黄色的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈjeləʊ/"
+  },
+  {
+   "unit": 7,
+   "word": "blue",
+   "gloss": "蓝色；蓝色的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/bluː/"
+  },
+  {
+   "unit": 7,
+   "word": "purple",
+   "gloss": "紫色；紫色的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈpɜːpl/"
+  },
+  {
+   "unit": 7,
+   "word": "green",
+   "gloss": "绿色；绿色的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɡriːn/"
+  },
+  {
+   "unit": 7,
+   "word": "orange",
+   "gloss": "橙色；橙色的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈɒrɪndʒ/"
+  },
+  {
+   "unit": 7,
+   "word": "pink",
+   "gloss": "粉色；粉色的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/pɪŋk/"
+  },
+  {
+   "unit": 7,
+   "word": "white",
+   "gloss": "白色；白色的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/waɪt/"
+  },
+  {
+   "unit": 7,
+   "word": "black",
+   "gloss": "黑色；黑色的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/blæk/"
+  },
+  {
+   "unit": 8,
+   "word": "that",
+   "gloss": "那个",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ðæt/"
+  },
+  {
+   "unit": 8,
+   "word": "cow",
+   "gloss": "奶牛",
+   "star": false,
+   "page": null,
+   "ipaUK": "/kaʊ/"
+  },
+  {
+   "unit": 8,
+   "word": "pig",
+   "gloss": "猪",
+   "star": false,
+   "page": null,
+   "ipaUK": "/pɪɡ/"
+  },
+  {
+   "unit": 8,
+   "word": "dog",
+   "gloss": "狗",
+   "star": false,
+   "page": null,
+   "ipaUK": "/dɒɡ/"
+  },
+  {
+   "unit": 8,
+   "word": "sheep",
+   "gloss": "羊；绵羊",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ʃiːp/"
+  },
+  {
+   "unit": 8,
+   "word": "duck",
+   "gloss": "鸭子",
+   "star": false,
+   "page": null,
+   "ipaUK": "/dʌk/"
+  },
+  {
+   "unit": 8,
+   "word": "horse",
+   "gloss": "马",
+   "star": false,
+   "page": null,
+   "ipaUK": "/hɔːs/"
+  },
+  {
+   "unit": 8,
+   "word": "cat",
+   "gloss": "猫",
+   "star": false,
+   "page": null,
+   "ipaUK": "/kæt/"
+  },
+  {
+   "unit": 8,
+   "word": "goose",
+   "gloss": "鹅",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɡuːs/"
+  },
+  {
+   "unit": 9,
+   "word": "like",
+   "gloss": "喜欢",
+   "star": false,
+   "page": null,
+   "ipaUK": "/laɪk/"
+  },
+  {
+   "unit": 9,
+   "word": "apple",
+   "gloss": "苹果",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈæpl/"
+  },
+  {
+   "unit": 9,
+   "word": "have",
+   "gloss": "吃；喝",
+   "star": false,
+   "page": null,
+   "ipaUK": "/hæv/"
+  },
+  {
+   "unit": 9,
+   "word": "fruit",
+   "gloss": "水果",
+   "star": false,
+   "page": null,
+   "ipaUK": "/fruːt/"
+  },
+  {
+   "unit": 9,
+   "word": "pear",
+   "gloss": "梨",
+   "star": false,
+   "page": null,
+   "ipaUK": "/peə(r)/"
+  },
+  {
+   "unit": 9,
+   "word": "lemon",
+   "gloss": "柠檬",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈlemən/"
+  },
+  {
+   "unit": 9,
+   "word": "banana",
+   "gloss": "香蕉",
+   "star": false,
+   "page": null,
+   "ipaUK": "/bəˈnɑːnə/"
+  },
+  {
+   "unit": 9,
+   "word": "watermelon",
+   "gloss": "西瓜",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈwɔːtəˌmelən/"
+  },
+  {
+   "unit": 10,
+   "word": "happy",
+   "gloss": "快乐的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈhæpi/"
+  },
+  {
+   "unit": 10,
+   "word": "birthday",
+   "gloss": "生日",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈbɜːθdeɪ/"
+  },
+  {
+   "unit": 10,
+   "word": "thank",
+   "gloss": "谢谢",
+   "star": false,
+   "page": null,
+   "ipaUK": "/θæŋk/"
+  },
+  {
+   "unit": 10,
+   "word": "here",
+   "gloss": "（在） 这里",
+   "star": false,
+   "page": null,
+   "ipaUK": "/hɪə(r)/"
+  },
+  {
+   "unit": 10,
+   "word": "gift",
+   "gloss": "礼物",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɡɪft/"
+  },
+  {
+   "unit": 10,
+   "word": "for",
+   "gloss": "给",
+   "star": false,
+   "page": null,
+   "ipaUK": "/fɔː(r)/"
+  },
+  {
+   "unit": 10,
+   "word": "storybook",
+   "gloss": "故事书",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈstɔːribʊk/"
+  },
+  {
+   "unit": 10,
+   "word": "doll",
+   "gloss": "玩偶；",
+   "star": false,
+   "page": null,
+   "ipaUK": "/dɒl/"
+  },
+  {
+   "unit": 10,
+   "word": "card",
+   "gloss": "卡片",
+   "star": false,
+   "page": null,
+   "ipaUK": "/kɑːd/"
+  },
+  {
+   "unit": 10,
+   "word": "cake",
+   "gloss": "蛋糕",
+   "star": false,
+   "page": null,
+   "ipaUK": "/keɪk/"
+  },
+  {
+   "unit": 10,
+   "word": "toy",
+   "gloss": "玩具",
+   "star": false,
+   "page": null,
+   "ipaUK": "/tɔɪ/"
+  },
+  {
+   "unit": 10,
+   "word": "picture",
+   "gloss": "图画；照片",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈpɪktʃə(r)/"
+  }
+ ]
+}

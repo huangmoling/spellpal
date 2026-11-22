@@ -24,7 +24,7 @@ app.on('ready', async () => {
     height: 800,
     show: false,
     frame: false,
-    backgroundColor: '#0B0E13',
+    backgroundColor: '#FFF8F0',
     webPreferences: { offscreen: true, preload: path.join(__dirname, '..', 'electron', 'preload.cjs') },
   })
   await win.loadFile(path.join(__dirname, '..', 'dist', 'index.html'))

@@ -40,7 +40,7 @@ function Shell({
   return (
     <div
       data-guard-modal
-      className="fixed inset-0 z-[1200] flex items-center justify-center bg-black/65 backdrop-blur-[3px]"
+      className="fixed inset-0 z-[1200] flex items-center justify-center bg-scrim/50 backdrop-blur-[3px]"
       onMouseDown={onCancel}
     >
       <div
@@ -163,7 +163,7 @@ export function PinSetupDialog({
         <div className="mt-5 flex gap-2.5">
           <button
             onClick={finish}
-            className="flex-1 rounded-xl bg-brand py-2.5 text-[14px] font-semibold text-white shadow-[0_8px_22px_-8px_rgba(124,92,255,0.9)] transition hover:brightness-110"
+            className="flex-1 rounded-xl bg-brand py-2.5 text-[14px] font-semibold text-white shadow-[0_8px_22px_-8px_rgba(74,128,240,0.9)] transition hover:brightness-110"
           >
             开启少儿守护
           </button>
@@ -293,7 +293,7 @@ export function PinAuthDialog({
         <button
           onClick={manual}
           disabled={pin.length !== 6}
-          className="mt-3 w-full rounded-xl bg-brand py-2.5 text-[14px] font-semibold text-white shadow-[0_8px_22px_-8px_rgba(124,92,255,0.9)] transition hover:brightness-110 disabled:cursor-not-allowed disabled:opacity-40"
+          className="mt-3 w-full rounded-xl bg-brand py-2.5 text-[14px] font-semibold text-white shadow-[0_8px_22px_-8px_rgba(74,128,240,0.9)] transition hover:brightness-110 disabled:cursor-not-allowed disabled:opacity-40"
         >
           {confirmText}
         </button>

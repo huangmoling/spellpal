@@ -176,7 +176,7 @@ export default function SentenceBoard({
         ref={boxRef}
         className={clsx(
           'mt-4 flex min-h-0 w-full flex-1 flex-wrap content-center items-start justify-center gap-x-[22px] gap-y-8 overflow-hidden rounded-[26px] px-8',
-          !completed && 'bg-veil/[0.022] ring-1 ring-veil/[0.05]',
+          !completed && 'bg-card/45 ring-1 ring-veil/[0.09]',
           shaking && !completed && 'animate-shake',
         )}
         style={{ paddingTop: pad, paddingBottom: pad }}
@@ -268,7 +268,9 @@ function TokenBlock({
         !celebrate &&
           !errorFlash &&
           state === 'current' &&
-          (light ? 'bg-card shadow-sm ring-1 ring-brand/35' : 'bg-veil/[0.06] ring-1 ring-brand/30'),
+          (light
+            ? 'bg-card shadow-[0_8px_22px_-14px_rgba(74,128,240,0.85)] ring-2 ring-brand/45'
+            : 'bg-veil/[0.06] ring-1 ring-brand/30'),
         !celebrate && !errorFlash && state === 'todo' && (light ? 'bg-card/55' : 'bg-veil/[0.03]'),
         !celebrate && !errorFlash && state === 'done' && (light ? 'bg-card/30' : 'bg-veil/[0.015]'),
       )}

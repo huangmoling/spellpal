@@ -69,7 +69,7 @@
 
 | 项 | 默认 | 说明 |
 |---|---|---|
-| 主题 | 深色 | 深色 / 浅色，浅色适合白天开着窗户用 |
+| 主题 | **浅色** | 浅色（暖奶油底）/ 深色，夜间用。默认浅色，奶油底 + 糖果色是给孩子看的 |
 | 练习页字号 | 115% | 80% – 200%。长句子放不下时会自动降到屏幕容得下的最大值 |
 | 音量 | 100% | 0–100%，朗读和音效一起调，拖完立即生效。朗读走自带语音包，可以放大到原音 2.2 倍 |
 | 显示虚拟键盘 | **关** | 底部键盘 + 手指提示，需要时再打开 |
@@ -132,9 +132,11 @@
 | 字号可调（80%–200%，键盘 A- / A+ 直接改，自动记忆） | ✅ |
 | 小学同步：人教 PEP 三上 → 六下，共 7 册 / 879 词 / 288 句 | ✅ |
 | 1–2 年级启蒙路径：拼读起步 + 一年级上下 + 二年级上下，共 5 册 / 233 词 / 144 句 | ✅ |
+| 译林版（三年级起点）2022 课标修订版 三上 + 三下，16 单元 / 269 词 / 92 句 | ✅ |
+| 冀教 / 川教 / 清华 / 沪教 / 湘少 / 辽师大 三年级下册，43 单元 / 820 词 / 130 句 | ✅ |
 | 六下 | 📋 新版（2027 春）尚未出版，网上流传的仍是 2012 课标旧版 |
 
-## 当前收录（19 册 / 1765 词 / 564 句）
+## 当前收录（27 册 / 2854 词 / 786 句）
 
 ### 启蒙路径（1–2 年级）
 
@@ -194,7 +196,70 @@
 
 去重后 508 个词形，其中 348 个（68%）在已有的人教词库里出现过，160 个是外研独有——`bird-watching`、`afternoon tea`、`milk tea`、`weiqi`、`couch potato`、`watering bottle`、`lion dance` 这一类。课件里与人教版本重合的词，中文释义和音标直接复用已有词库（命中率 74%，剩下 186 条逐条判读补齐），所以两套教材的同一个词在各册里释义是统一的。
 
-教材切换区按出版社分三行：**启蒙 / 人教 PEP / 外研 新标准**，点一下换一套，进度各记各的。
+教材切换区按出版社分行：**启蒙 / 人教 PEP / 外研 新标准 / 译林 牛津 / 冀教 / 川教 / 清华 / 沪教 / 湘少 / 辽师大**，点一下换一套，进度各记各的。
+
+### 小学同步 · 译林版（三年级起点，2024 修订版）
+
+| 册次 | 词数 | 句数 | 单元数 | 单元主题 |
+|---|---|---|---|---|
+| 三年级上册 | 129 | 44 | 8 | Hello! / What's your name? / Are you Su Hai? / This is my friend / She's my mother / Is he your grandpa? / Happy Birthday! / I can do this for you |
+| 三年级下册 | 140 | 48 | 8 | School things / Clean our classroom / School rules / Have fun after class / Fruit / On the farm / Animals / Colours |
+
+这本是 2024 秋启用的 2022 课标修订版（8 个 Unit + Project 1/2），词表按课本 Word list 逐条录入，三处独立来源交叉核对：带页码的单词表、全册默写表、教材配套号里的 Word list 页扫描。三处对 `ha`（U1 还是 U3）、`er`（U3 还是 U8）有分歧，以**带页码**的那份为准，并用课本 68 页扫描确认 `er` 属于 U8。
+
+两个刻意的取舍：
+
+- **缩写形式不单列**。`I'm` / `what's` / `you're` / `she's` / `he's` / `it's` / `who's` / `isn't` 在课本 Word list 里是单独条目，这里不单独出卡：单词卡是拼写练习，缩写和原型只差一个撇号，而句子练习里它们全会出现。
+- **例句取单元核心句型，不抄课文**。每单元 4–7 句，都是「Is he your grandpa?」这种一句话能说完的句型，不整段搬 Story time。
+
+三下是 2025 春启用的同版教材，140 词 / 48 句（U1 14、U2 17、U3 19、U4 28、U5 17、U6 14、U7 14、U8 17）。这一册是教辅互相抄得最乱的一册，同一个位置常有七八处说法，逐条裁决记录在 `scripts/data/_src/yilin-3b.raw.json` 的 `conflicts` 里：
+
+| 位置 | 部分教辅写的 | 课本原表 | 判据 |
+|---|---|---|---|
+| U2「打扫，清扫」 | clean（clean 又占一条「洁净的」） | **sweep** | 默写单 17 条与拆开 let / us 吻合 |
+| U2「好的」 | OK | **All right.** | 知识清单 Part 1 Word List 逐字复刻 |
+| U3「有趣的」 | funny | **fun** | 带页码词表 + 扫描件音标 `[fʌn]` |
+| U4「玩得高兴」 | have a good time | **have fun** | 五处一致 |
+| U4 结束 / 旁边 / 极好的 | end / beside / wonderful | **over / by / lovely** | 同一份教辅整批同义替换，不采信 |
+| U5「有用，有好处」 | useful | **good** | 带页码词表 + 扫描件 |
+| U6「可爱的」/ U8「小的」 | lovely / small | **cute / little** | 知识清单四会单词表 |
+| U3 词表里有没有 `How are you?` | 有 | **没有** | 教辅把句型串进了词表 |
+
+省略号做了统一处理：`put … away` / `Would you like ...?` / `Welcome to ...` / `What colour is ...?` 一律去掉省略号和问号。孩子只在二十六字母键盘上敲字，省略号和问号打不出来，跟三上「Are you OK」「Can I help you」的处理一致。
+
+音标复核换了个源。三上用的 `api.dictionaryapi.dev` 是美式记法（`ɹ`/`ɛ`/`ɔː`），那轮 108 个词报的 21 处「差异」全是误报；这轮改成拉 Wiktionary 的 **RP（英式）** 音标（`scripts/data/_src/verify_ipa_wikt.mjs`），走批量 `action=query` 接口 —— 单条 `action=parse` 会被限流，137 条只回了 18 条。137 条里 68 条有英式音标可比，26 处标了「差异」，**全部是记法差异**（Wiktionary 写 `ɛ`/`ɹ`/`t͡ʃ`/`deɪ̯`，我们用学习者词典的 `e`/`r`/`tʃ`/`deɪ`），没有一处真错。
+
+顺带发现一个跨全库的老问题：`schoolbag` / `tiger` / `green` 三条音标里的 `ɡ` 被写成了普通字母 `g`（U+0067 而非 U+0261）。三下这三条已在 `IPA_FORCE` 里纠正，其余册次还没动。
+
+### 小学同步 · 冀教 / 川教 / 清华 / 沪教 / 湘少 / 辽师大（三年级下册）
+
+家长从各出版社渠道凑齐的十套教材里，这一批先收六家、各收三年级下册一册（译林三下已在上表）。六册都用课本自己的单元标题，不另起中文概括。
+
+| 册次 | 词数 | 句数 | 单元数 | 单元主题 |
+|---|---|---|---|---|
+| 三下·冀教 | 192 | 18 | 6 | Food we like / Good food, good health / My day / On the farm / At the zoo / My week |
+| 三下·川教 | 115 | 27 | 9 | What's This? / I Have a Farm / I Like This Dog / This Is My Family / What's Your Job? / Let's Make a Birthday Card / I Have Great Classmates / Is It the Library? / Who Is Your English Teacher? |
+| 三下·清华 | 143 | 12 | 4 | Spring Semester Begins / Where Do You Want to Go? / Green Living / Habits and Rules |
+| 三下·沪教 | 180 | 24 | 8 | Hobbies / Activities with friends / Clothes / Sounds I hear / Colours / Rooms in my home / Places at school / Children's Day |
+| 三下·湘少 | 106 | 31 | 10 | Greetings / What time is it? / Weather / Clothes / Numbers 13–20 / Fruit and vegetables / Body parts and habits / Children's Day / Transport / Jobs |
+| 三下·辽师大 | 84 | 18 | 6 | It's a sunny day / Spring is here / This is beautiful / Good habits / I love it / Let me help you |
+
+这六册的坑和前面几套不一样：前面几套拿的是电子词表，这批只有 PDF，词表页的版式还各不相同（冀教/清华是字母序总表加课本页码，川教是双栏 TAB 表，辽师大是三栏「单词 / 音标 / 释义」）。PDF 文字层直接抽出来的东西**不能直接用**，举几类：
+
+- **词形被拆断**。`before bed` 抽成了 `be befo fore re bed`，`colour` 抽成了 `colo colour ur AmE color)`，辽师大那册最严重（文本层把同一行的字符按 x 坐标乱序吐出）。
+- **释义串行**。释义栏右边紧挨着栏注或广告，「做；干」变成「做；干狗」，「家庭作业」变成「家庭作业马」，「操场」后面接了两次「上海教育出版社」，清华那册还有「科目，课程太阳」这种。这类共 131 处。
+- **不是词条的东西混进来**。川教把 `It's ...` `I like ...` `You're welcome.` 这类句型排进了词表；沪教把栏目标题 `Numbers`、调查表里的 `Group 5`、校名 `Sunshine Primary School` 也算了词。
+- **音标记法不统一**。沪教 PDF 里 `out` 写作 `/ˈäʊ̯t/`（带次开央元音加非音节记号），统一成 `/aʊt/`。
+
+处理办法是「机器抽 + 逐条判」：抽完先跑一遍结构化清洗（去星号、去 `（pl. leaves）` 这类括号补充、去行尾页码、把含 `...` 或整句的条目移出词表），再对着 PDF 原文一条条核词形、音标、释义，改不动的（比如 `child (` `make (` 这种括号残留）直接重写。**820 条词全部人工过了一遍**，改动记录在 `scripts/data/_src/tb2027/finalize.py` 的 `FIX` 表里，一条一处。
+
+联网复核按上一轮同样的口径做：6 册去重后 579 个词形，逐词查 en.wiktionary.org，549 个单词全部有词条，剩下的差异只有大小写（Friday / Beijing）和撇号（o'clock）导致的查询形式不同，没有拼写错误。
+
+例句同样受限：这批 PDF 的词表页只有词，没有例句，例句得回正文里捞。捞的办法是按「这句话命中本单元单词的数量」打分排名，再人工筛——课文的歌谣（`Yummy, yummy, delicious meat.`）、老师指令（`Work in groups and make songs about farm animals.`）、带占位符的残句（`There is ... in my school.`）都要去掉。最后每单元留 3–4 句核心句型，逐句核过语法与拼写，词块的中文和词性按句内语境标注（同一个 `like`，在 `I'd like a cake` 里是「想要」，在 `What's the weather like` 里是「像」）。
+
+复核明细（每册逐词逐句）在 [`docs/教材复核-三下六家.md`](docs/教材复核-三下六家.md)。
+
+**还没收的**：北师大 8 册、北京 2a/4b、教科 3b、冀教 4b、沪教 4b、译林 4b、川教 5a/6a、清华 2a/4a/6a、湘少 4b/5b/6b 共 19 册是纯扫描件，没有文字层，本机也没有可用的 OCR 方案；辽师大 4b/5a/5b/6a/6b 的单元标记缺失、北京三下的 Lesson→Unit 映射读不出来，这三类等下一批。
 
 ### 教材版本对照
 

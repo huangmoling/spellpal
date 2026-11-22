@@ -153,7 +153,7 @@ export function BottomBar({
           className={clsx(
             'ml-1 flex h-9 items-center gap-1.5 rounded-xl px-5 text-[13px] font-medium leading-none transition active:scale-[0.98]',
             nextReady || !skipDisabled
-              ? 'bg-brand text-white shadow-[0_4px_18px_rgba(124,92,255,0.4)] hover:brightness-110'
+              ? 'bg-brand text-white shadow-[0_4px_18px_rgba(74,128,240,0.4)] hover:brightness-110'
               : 'bg-veil/[0.07] text-muted/70 hover:bg-veil/[0.1]',
           )}
           title={nextReady ? '下一句（空格）' : skipDisabled ? '跳过已关闭（到设置里打开回车跳过）' : '下一句'}

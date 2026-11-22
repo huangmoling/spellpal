@@ -136,7 +136,7 @@ function SoundRow({
             className={clsx(
               'tabnum h-[21px] w-[21px] rounded-md text-[10px] leading-none transition',
               i === value && !off
-                ? 'bg-brand text-white shadow-[0_2px_10px_rgba(124,92,255,0.45)]'
+                ? 'bg-brand text-white shadow-[0_2px_10px_rgba(74,128,240,0.45)]'
                 : 'bg-veil/[0.05] text-muted/60 hover:bg-veil/[0.1] hover:text-ink',
             )}
           >
@@ -208,13 +208,13 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
   }, [onClose])
 
   const themes: { key: Theme; label: string; icon: React.ReactNode; hint: string }[] = [
+    { key: 'light', label: '浅色', icon: <Sun size={14} strokeWidth={2} />, hint: '白天、推荐' },
     { key: 'dark', label: '深色', icon: <Moon size={14} strokeWidth={2} />, hint: '夜间、关灯后' },
-    { key: 'light', label: '浅色', icon: <Sun size={14} strokeWidth={2} />, hint: '白天、光线足' },
   ]
 
   return (
     <div className="fixed inset-0 z-[60] flex items-center justify-center">
-      <div className="absolute inset-0 bg-black/55 backdrop-blur-[2px]" onClick={onClose} />
+      <div className="absolute inset-0 bg-scrim/45 backdrop-blur-[2px]" onClick={onClose} />
 
       <div className="relative flex max-h-[92vh] w-[560px] flex-col overflow-hidden rounded-2xl bg-card shadow-[0_24px_80px_rgba(0,0,0,0.45)] ring-1 ring-veil/10">
         <header
@@ -277,7 +277,7 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
                     >
                       <div
                         className="mb-1.5 flex h-8 items-center gap-1.5 rounded-lg px-2.5"
-                        style={{ background: t.key === 'dark' ? '#0B0E13' : '#F5F7FB' }}
+                        style={{ background: t.key === 'dark' ? '#0B0E13' : '#FFF8F0' }}
                       >
                         <span
                           className="h-5 w-5 rounded-md"
@@ -286,16 +286,16 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
                         <span className="flex-1">
                           <span
                             className="block h-[5px] w-8 rounded-full"
-                            style={{ background: '#7C5CFF' }}
+                            style={{ background: t.key === 'dark' ? '#7C5CFF' : '#4A80F0' }}
                           />
                           <span
                             className="mt-1 block h-[4px] w-12 rounded-full"
-                            style={{ background: t.key === 'dark' ? '#2A3342' : '#D7DDE8' }}
+                            style={{ background: t.key === 'dark' ? '#2A3342' : '#FFD9B8' }}
                           />
                         </span>
                         <span
                           className="h-5 w-5 rounded-full"
-                          style={{ background: t.key === 'dark' ? '#1F2733' : '#E7EBF3' }}
+                          style={{ background: t.key === 'dark' ? '#1F2733' : '#FFEEDE' }}
                         />
                       </div>
                       <span className="flex items-center gap-1.5 text-[13px] font-medium">

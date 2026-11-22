@@ -1,0 +1,837 @@
+{
+ "book": "jk-六a",
+ "kind": "blocks",
+ "config": {
+  "kind": "blocks",
+  "span": [
+   98,
+   101
+  ],
+  "unit_re": "^(?:Unit\\s*|U)(\\d+)\\s*$"
+ },
+ "check": {
+  "raw": 103,
+  "kept": 103,
+  "dup": []
+ },
+ "words": [
+  {
+   "unit": 1,
+   "word": "breath",
+   "gloss": "呼吸",
+   "star": false,
+   "page": null,
+   "ipaUK": "/breθ/"
+  },
+  {
+   "unit": 1,
+   "word": "throw",
+   "gloss": "扔，抛",
+   "star": false,
+   "page": null,
+   "ipaUK": "/θrəʊ/"
+  },
+  {
+   "unit": 1,
+   "word": "count",
+   "gloss": "数，计数",
+   "star": false,
+   "page": null,
+   "ipaUK": "/kaʊnt/"
+  },
+  {
+   "unit": 1,
+   "word": "will",
+   "gloss": "将要；会",
+   "star": false,
+   "page": null,
+   "ipaUK": "/wɪl/"
+  },
+  {
+   "unit": 1,
+   "word": "music",
+   "gloss": "音乐",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈmjuːzɪk/"
+  },
+  {
+   "unit": 1,
+   "word": "try",
+   "gloss": "尝试",
+   "star": false,
+   "page": null,
+   "ipaUK": "/traɪ/"
+  },
+  {
+   "unit": 1,
+   "word": "with",
+   "gloss": "和…… 一起",
+   "star": false,
+   "page": null,
+   "ipaUK": "/wɪð/"
+  },
+  {
+   "unit": 1,
+   "word": "why",
+   "gloss": "为什么",
+   "star": false,
+   "page": null,
+   "ipaUK": "/waɪ/"
+  },
+  {
+   "unit": 2,
+   "word": "lion",
+   "gloss": "狮子",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈlaɪən/"
+  },
+  {
+   "unit": 2,
+   "word": "call",
+   "gloss": "称呼；喊",
+   "star": false,
+   "page": null,
+   "ipaUK": "/kɔːl/"
+  },
+  {
+   "unit": 2,
+   "word": "stop",
+   "gloss": "停止",
+   "star": false,
+   "page": null,
+   "ipaUK": "/stɒp/"
+  },
+  {
+   "unit": 2,
+   "word": "joke",
+   "gloss": "玩笑",
+   "star": false,
+   "page": null,
+   "ipaUK": "/dʒəʊk/"
+  },
+  {
+   "unit": 2,
+   "word": "worse",
+   "gloss": "更糟糕的，更差的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/wɜːs/"
+  },
+  {
+   "unit": 2,
+   "word": "mad",
+   "gloss": "生气的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/mæd/"
+  },
+  {
+   "unit": 2,
+   "word": "also",
+   "gloss": "也；此外",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈɔːlsəʊ/"
+  },
+  {
+   "unit": 2,
+   "word": "make",
+   "gloss": "制作",
+   "star": false,
+   "page": null,
+   "ipaUK": "/meɪk/"
+  },
+  {
+   "unit": 2,
+   "word": "proud",
+   "gloss": "骄傲的，自豪的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/praʊd/"
+  },
+  {
+   "unit": 3,
+   "word": "bring",
+   "gloss": "提出；带来",
+   "star": false,
+   "page": null,
+   "ipaUK": "/brɪŋ/"
+  },
+  {
+   "unit": 3,
+   "word": "might",
+   "gloss": "可能",
+   "star": false,
+   "page": null,
+   "ipaUK": "/maɪt/"
+  },
+  {
+   "unit": 3,
+   "word": "cup",
+   "gloss": "杯子",
+   "star": false,
+   "page": null,
+   "ipaUK": "/kʌp/"
+  },
+  {
+   "unit": 3,
+   "word": "dangerous",
+   "gloss": "危险的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈdeɪndʒərəs/"
+  },
+  {
+   "unit": 3,
+   "word": "homework",
+   "gloss": "作业",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈhəʊmwɜːk/"
+  },
+  {
+   "unit": 3,
+   "word": "lie",
+   "gloss": "欺骗，撒谎",
+   "star": false,
+   "page": null,
+   "ipaUK": "/laɪ/"
+  },
+  {
+   "unit": 3,
+   "word": "finish",
+   "gloss": "完成",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈfɪnɪʃ/"
+  },
+  {
+   "unit": 3,
+   "word": "record",
+   "gloss": "录制；记录",
+   "star": false,
+   "page": null,
+   "ipaUK": "/rɪˈkɔːd/"
+  },
+  {
+   "unit": 3,
+   "word": "choose",
+   "gloss": "选择",
+   "star": false,
+   "page": null,
+   "ipaUK": "/tʃuːz/"
+  },
+  {
+   "unit": 3,
+   "word": "their",
+   "gloss": "他们的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ðeə(r)/"
+  },
+  {
+   "unit": 4,
+   "word": "play",
+   "gloss": "玩",
+   "star": false,
+   "page": null,
+   "ipaUK": "/pleɪ/"
+  },
+  {
+   "unit": 4,
+   "word": "stay",
+   "gloss": "停留；保持",
+   "star": false,
+   "page": null,
+   "ipaUK": "/steɪ/"
+  },
+  {
+   "unit": 4,
+   "word": "toy",
+   "gloss": "玩具",
+   "star": false,
+   "page": null,
+   "ipaUK": "/tɔɪ/"
+  },
+  {
+   "unit": 4,
+   "word": "dig",
+   "gloss": "挖掘",
+   "star": false,
+   "page": null,
+   "ipaUK": "/dɪɡ/"
+  },
+  {
+   "unit": 4,
+   "word": "least",
+   "gloss": "至少，最少",
+   "star": false,
+   "page": null,
+   "ipaUK": "/liːst/"
+  },
+  {
+   "unit": 4,
+   "word": "habit",
+   "gloss": "习性，习惯",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈhæbɪt/"
+  },
+  {
+   "unit": 4,
+   "word": "between",
+   "gloss": "在…… 之间",
+   "star": false,
+   "page": null,
+   "ipaUK": "/bɪˈtwiːn/"
+  },
+  {
+   "unit": 4,
+   "word": "building",
+   "gloss": "建筑物",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈbɪldɪŋ/"
+  },
+  {
+   "unit": 4,
+   "word": "much",
+   "gloss": "许多，大量",
+   "star": false,
+   "page": null,
+   "ipaUK": "/mʌtʃ/"
+  },
+  {
+   "unit": 4,
+   "word": "orange",
+   "gloss": "橙色的；橙子",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈɒrɪndʒ/"
+  },
+  {
+   "unit": 4,
+   "word": "push",
+   "gloss": "推",
+   "star": false,
+   "page": null,
+   "ipaUK": "/pʊʃ/"
+  },
+  {
+   "unit": 5,
+   "word": "wait",
+   "gloss": "等待",
+   "star": false,
+   "page": null,
+   "ipaUK": "/weɪt/"
+  },
+  {
+   "unit": 5,
+   "word": "learn",
+   "gloss": "学习",
+   "star": false,
+   "page": null,
+   "ipaUK": "/lɜːn/"
+  },
+  {
+   "unit": 5,
+   "word": "bike",
+   "gloss": "自行车",
+   "star": false,
+   "page": null,
+   "ipaUK": "/baɪk/"
+  },
+  {
+   "unit": 5,
+   "word": "money",
+   "gloss": "钱",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈmʌni/"
+  },
+  {
+   "unit": 5,
+   "word": "online",
+   "gloss": "在线的，网上的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈɒnlaɪn/"
+  },
+  {
+   "unit": 5,
+   "word": "free",
+   "gloss": "免费的；空闲的；自由的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/friː/"
+  },
+  {
+   "unit": 5,
+   "word": "clock",
+   "gloss": "钟表",
+   "star": false,
+   "page": null,
+   "ipaUK": "/klɒk/"
+  },
+  {
+   "unit": 5,
+   "word": "notebook",
+   "gloss": "笔记本",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈnəʊtˌbʊk/"
+  },
+  {
+   "unit": 5,
+   "word": "cost",
+   "gloss": "花费",
+   "star": false,
+   "page": null,
+   "ipaUK": "/kɒst/"
+  },
+  {
+   "unit": 5,
+   "word": "cheap",
+   "gloss": "便宜",
+   "star": false,
+   "page": null,
+   "ipaUK": "/tʃiːp/"
+  },
+  {
+   "unit": 5,
+   "word": "glove",
+   "gloss": "手套",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɡlʌv/"
+  },
+  {
+   "unit": 5,
+   "word": "sometimes",
+   "gloss": "有时候",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈsʌmtaɪmz/"
+  },
+  {
+   "unit": 5,
+   "word": "little",
+   "gloss": "少量的；小的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈlɪt(ə)l/"
+  },
+  {
+   "unit": 6,
+   "word": "please",
+   "gloss": "请",
+   "star": false,
+   "page": null,
+   "ipaUK": "/pliːz/"
+  },
+  {
+   "unit": 6,
+   "word": "waste",
+   "gloss": "垃圾；浪费",
+   "star": false,
+   "page": null,
+   "ipaUK": "/weɪst/"
+  },
+  {
+   "unit": 6,
+   "word": "snack",
+   "gloss": "零食，小吃",
+   "star": false,
+   "page": null,
+   "ipaUK": "/snæk/"
+  },
+  {
+   "unit": 6,
+   "word": "noon",
+   "gloss": "中午",
+   "star": false,
+   "page": null,
+   "ipaUK": "/nuːn/"
+  },
+  {
+   "unit": 6,
+   "word": "change",
+   "gloss": "改变",
+   "star": false,
+   "page": null,
+   "ipaUK": "/tʃeɪndʒ/"
+  },
+  {
+   "unit": 6,
+   "word": "menu",
+   "gloss": "菜单",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈmenjuː/"
+  },
+  {
+   "unit": 6,
+   "word": "classmate",
+   "gloss": "同学",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈklɑːsmeɪt/"
+  },
+  {
+   "unit": 6,
+   "word": "helpful",
+   "gloss": "有帮助的，有益的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈhelpfl/"
+  },
+  {
+   "unit": 6,
+   "word": "fourth",
+   "gloss": "第四",
+   "star": false,
+   "page": null,
+   "ipaUK": "/fɔːθ/"
+  },
+  {
+   "unit": 6,
+   "word": "fifth",
+   "gloss": "第五",
+   "star": false,
+   "page": null,
+   "ipaUK": "/fɪfθ/"
+  },
+  {
+   "unit": 6,
+   "word": "difference",
+   "gloss": "不同",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈdɪf(ə)rəns/"
+  },
+  {
+   "unit": 7,
+   "word": "break",
+   "gloss": "休息，间歇；打破",
+   "star": false,
+   "page": null,
+   "ipaUK": "/breɪk/"
+  },
+  {
+   "unit": 7,
+   "word": "right",
+   "gloss": "恰当的；对的；右边的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/raɪt/"
+  },
+  {
+   "unit": 7,
+   "word": "playground",
+   "gloss": "操场",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈpleɪɡraʊnd/"
+  },
+  {
+   "unit": 7,
+   "word": "yesterday",
+   "gloss": "昨天",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈjestədeɪ/"
+  },
+  {
+   "unit": 7,
+   "word": "important",
+   "gloss": "重要的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɪmˈpɔːtnt/"
+  },
+  {
+   "unit": 7,
+   "word": "without",
+   "gloss": "没有",
+   "star": false,
+   "page": null,
+   "ipaUK": "/wɪðˈaʊt/"
+  },
+  {
+   "unit": 7,
+   "word": "hospital",
+   "gloss": "医院",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈhɒspɪtl/"
+  },
+  {
+   "unit": 7,
+   "word": "rest",
+   "gloss": "休息",
+   "star": false,
+   "page": null,
+   "ipaUK": "/rest/"
+  },
+  {
+   "unit": 7,
+   "word": "another",
+   "gloss": "另一个",
+   "star": false,
+   "page": null,
+   "ipaUK": "/əˈnʌðə(r)/"
+  },
+  {
+   "unit": 7,
+   "word": "team",
+   "gloss": "团队",
+   "star": false,
+   "page": null,
+   "ipaUK": "/tiːm/"
+  },
+  {
+   "unit": 7,
+   "word": "watch",
+   "gloss": "观察；看",
+   "star": false,
+   "page": null,
+   "ipaUK": "/wɒtʃ/"
+  },
+  {
+   "unit": 7,
+   "word": "lonely",
+   "gloss": "孤单的",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈləʊnli/"
+  },
+  {
+   "unit": 7,
+   "word": "garden",
+   "gloss": "花园",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈɡɑːdn/"
+  },
+  {
+   "unit": 7,
+   "word": "tool",
+   "gloss": "工具",
+   "star": false,
+   "page": null,
+   "ipaUK": "/tuːl/"
+  },
+  {
+   "unit": 7,
+   "word": "basket",
+   "gloss": "篮子",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈbɑːskɪt/"
+  },
+  {
+   "unit": 7,
+   "word": "potato",
+   "gloss": "土豆",
+   "star": false,
+   "page": null,
+   "ipaUK": "/pəˈteɪtəʊ/"
+  },
+  {
+   "unit": 7,
+   "word": "either",
+   "gloss": "也；（两者中的）任何一个",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈaɪðə(r)/"
+  },
+  {
+   "unit": 1,
+   "word": "yell and cry",
+   "gloss": "边哭边喊",
+   "star": false,
+   "page": null,
+   "ipaUK": "/jel ænd kraɪ/"
+  },
+  {
+   "unit": 1,
+   "word": "go for a walk",
+   "gloss": "出去走走",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ɡəʊ fɔː(r) ə wɔːk/"
+  },
+  {
+   "unit": 1,
+   "word": "shout bad words",
+   "gloss": "大声骂人",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ʃaʊt bæd wɜːdz/"
+  },
+  {
+   "unit": 1,
+   "word": "take a deep breath",
+   "gloss": "深呼吸",
+   "star": false,
+   "page": null,
+   "ipaUK": "/teɪk ə diːp breθ/"
+  },
+  {
+   "unit": 1,
+   "word": "throw things",
+   "gloss": "扔东西",
+   "star": false,
+   "page": null,
+   "ipaUK": "/θrəʊ θɪŋz/"
+  },
+  {
+   "unit": 1,
+   "word": "count to ten",
+   "gloss": "数到十",
+   "star": false,
+   "page": null,
+   "ipaUK": "/kaʊnt tuː ten/"
+  },
+  {
+   "unit": 1,
+   "word": "very angry",
+   "gloss": "非常生气",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈveri ˈæŋɡri/"
+  },
+  {
+   "unit": 1,
+   "word": "eat a lot",
+   "gloss": "吃很多",
+   "star": false,
+   "page": null,
+   "ipaUK": "/iːt ə lɒt/"
+  },
+  {
+   "unit": 1,
+   "word": "listen to some music",
+   "gloss": "听一点音乐",
+   "star": false,
+   "page": null,
+   "ipaUK": "/ˈlɪsn tuː səm ˈmjuːzɪk/"
+  },
+  {
+   "unit": 1,
+   "word": "yell out loud",
+   "gloss": "大声喊叫",
+   "star": false,
+   "page": null,
+   "ipaUK": "/jel aʊt laʊd/"
+  },
+  {
+   "unit": 1,
+   "word": "talk with friends on the phone",
+   "gloss": "与朋友通电话",
+   "star": false,
+   "page": null,
+   "ipaUK": "/tɔːk wɪð fren(d)z ɒn ðə fəʊn/"
+  },
+  {
+   "unit": 1,
+   "word": "calm down",
+   "gloss": "冷静，平静下来",
+   "star": false,
+   "page": null,
+   "ipaUK": "/kɑːm daʊn/"
+  },
+  {
+   "unit": 1,
+   "word": "solve the problem",
+   "gloss": "解决问题",
+   "star": false,
+   "page": null,
+   "ipaUK": "/sɒlv ðə ˈprɒbləm/"
+  },
+  {
+   "unit": 2,
+   "word": "talk it out",
+   "gloss": "谈话和解",
+   "star": false,
+   "page": null,
+   "ipaUK": "/tɔːk ɪt aʊt/"
+  },
+  {
+   "unit": 2,
+   "word": "have a new haircut",
+   "gloss": "剪了个新发型",
+   "star": false,
+   "page": null,
+   "ipaUK": "/hæv ə njuː ˈheəkʌt/"
+  },
+  {
+   "unit": 2,
+   "word": "fight with each other",
+   "gloss": "双方争吵",
+   "star": false,
+   "page": null,
+   "ipaUK": "/faɪt wɪð iːtʃ ˈʌðə(r)/"
+  }
+ ],
+ "patterns": [
+  {
+   "unit": 1,
+   "word": "I feel ...",
+   "gloss": "我觉得……",
+   "star": false,
+   "page": null
+  },
+  {
+   "unit": 1,
+   "word": "I don’t like it because ...",
+   "gloss": "我不喜欢它，因为……",
+   "star": false,
+   "page": null
+  },
+  {
+   "unit": 1,
+   "word": "I get ... when ...",
+   "gloss": "每当……时，我就会……",
+   "star": false,
+   "page": null
+  },
+  {
+   "unit": 1,
+   "word": "I got really ... because ...",
+   "gloss": "我真的很……，因为……",
+   "star": false,
+   "page": null
+  },
+  {
+   "unit": 2,
+   "word": "make fun of ...",
+   "gloss": "开某人的玩笑",
+   "star": false,
+   "page": null
+  },
+  {
+   "unit": 2,
+   "word": "call ... names",
+   "gloss": "给……起外号",
+   "star": false,
+   "page": null
+  },
+  {
+   "unit": 2,
+   "word": "yell at ...",
+   "gloss": "对……喊叫",
+   "star": false,
+   "page": null
+  },
+  {
+   "unit": 2,
+   "word": "I feel ... when you ...",
+   "gloss": "当你……时，我觉得……",
+   "star": false,
+   "page": null
+  }
+ ]
+}

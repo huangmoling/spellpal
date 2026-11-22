@@ -10,7 +10,7 @@
   "stage": "starter",
   "wordCount": 26,
   "sentenceCount": 24,
-  "updatedAt": "2026-11-20",
+  "updatedAt": "2026-11-22",
   "units": [
     {
       "no": 1,
@@ -724,21 +724,21 @@
       "id": "starter-phonics-u3-s03",
       "unit": 3,
       "cn": "请坐下。",
-      "en": "Please sit down.",
+      "en": "Sit down please.",
       "tokens": [
         {
-          "en": "Please",
-          "cn": "请",
-          "pos": "副词"
-        },
-        {
-          "en": "sit",
+          "en": "Sit",
           "cn": "坐",
           "pos": "动词"
         },
         {
-          "en": "down.",
+          "en": "down",
           "cn": "下",
+          "pos": "副词"
+        },
+        {
+          "en": "please.",
+          "cn": "请",
           "pos": "副词"
         }
       ]
