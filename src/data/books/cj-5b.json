@@ -8,8 +8,8 @@
   "term": "down",
   "edition": "2025 春 · 新课标修订版",
   "stage": "primary",
-  "wordCount": 78,
-  "sentenceCount": 27,
+  "wordCount": 96,
+  "sentenceCount": 72,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -42,7 +42,9 @@
         "cj-5b-u1-23",
         "cj-5b-u1-24",
         "cj-5b-u1-25",
-        "cj-5b-u1-26"
+        "cj-5b-u1-26",
+        "cj-5b-u1-27",
+        "cj-5b-u1-28"
       ]
     },
     {
@@ -74,7 +76,11 @@
         "cj-5b-u2-22",
         "cj-5b-u2-23",
         "cj-5b-u2-24",
-        "cj-5b-u2-25"
+        "cj-5b-u2-25",
+        "cj-5b-u2-26",
+        "cj-5b-u2-27",
+        "cj-5b-u2-28",
+        "cj-5b-u2-29"
       ]
     },
     {
@@ -108,7 +114,19 @@
         "cj-5b-u3-24",
         "cj-5b-u3-25",
         "cj-5b-u3-26",
-        "cj-5b-u3-27"
+        "cj-5b-u3-27",
+        "cj-5b-u3-28",
+        "cj-5b-u3-29",
+        "cj-5b-u3-30",
+        "cj-5b-u3-31",
+        "cj-5b-u3-32",
+        "cj-5b-u3-33",
+        "cj-5b-u3-34",
+        "cj-5b-u3-35",
+        "cj-5b-u3-36",
+        "cj-5b-u3-37",
+        "cj-5b-u3-38",
+        "cj-5b-u3-39"
       ]
     }
   ],
@@ -118,9 +136,10 @@
       "word": "sweep the floor",
       "phoneticUK": "/swiːp ðə flɔː(r)/",
       "syllables": [
-        "swe",
-        "ep the flo",
-        "or"
+        "s",
+        "weep t",
+        "he f",
+        "loor"
       ],
       "senses": [
         {
@@ -137,7 +156,9 @@
       "phoneticUK": "/meɪk ðə bed/",
       "syllables": [
         "m",
-        "ake the bed"
+        "ake t",
+        "he b",
+        "ed"
       ],
       "senses": [
         {
@@ -153,10 +174,10 @@
       "word": "clean the windows",
       "phoneticUK": "/kliːn ðə ˈwɪndəʊz/",
       "syllables": [
-        "cle",
-        "an the w",
-        "ind",
-        "ows"
+        "c",
+        "lean t",
+        "he w",
+        "indows"
       ],
       "senses": [
         {
@@ -170,14 +191,11 @@
     {
       "id": "cj-5b-u1-04",
       "word": "wash vegetables",
-      "phoneticUK": "/wɒʃ ˈvɛd͡ʒ.tə.bəlz/",
+      "phoneticUK": "/wɒʃ ˈvedʒtəblz/",
       "syllables": [
         "w",
         "ash v",
-        "eg",
-        "et",
-        "abl",
-        "es"
+        "egetables"
       ],
       "senses": [
         {
@@ -191,17 +209,17 @@
     {
       "id": "cj-5b-u1-05",
       "word": "do some washing",
-      "phoneticUK": "/duː səm, sʌm ˈwɒʃ.ɪŋ/",
+      "phoneticUK": "/duː səm ˈwɒʃɪŋ/",
       "syllables": [
-        "do s",
+        "d",
+        "o s",
         "ome w",
-        "ash",
-        "ing"
+        "ashing"
       ],
       "senses": [
         {
-          "cn": "洗衣服put away the clothes 收拾衣服",
-          "cnFull": "洗衣服put away the clothes 收拾衣服"
+          "cn": "洗衣服",
+          "cnFull": "洗衣服"
         }
       ],
       "grade": 5,
@@ -209,14 +227,34 @@
     },
     {
       "id": "cj-5b-u1-06",
+      "word": "put away the clothes",
+      "phoneticUK": "/pʊt əˈweɪ ðə kləʊðz/",
+      "syllables": [
+        "p",
+        "ut a",
+        "way t",
+        "he c",
+        "lothes"
+      ],
+      "senses": [
+        {
+          "cn": "收拾衣服",
+          "cnFull": "收拾衣服"
+        }
+      ],
+      "grade": 5,
+      "unit": 1
+    },
+    {
+      "id": "cj-5b-u1-07",
       "word": "look at this picture",
       "phoneticUK": "/lʊk ət ðɪs ˈpɪktʃə(r)/",
       "syllables": [
-        "lo",
-        "ok at th",
-        "is p",
-        "ict",
-        "ure"
+        "l",
+        "ook a",
+        "t t",
+        "his p",
+        "icture"
       ],
       "senses": [
         {
@@ -228,13 +266,13 @@
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-07",
+      "id": "cj-5b-u1-08",
       "word": "plant trees",
-      "phoneticUK": "/plɑːnt tɹiːz/",
+      "phoneticUK": "/plɑːnt triːz/",
       "syllables": [
-        "pl",
-        "ant tre",
-        "es"
+        "p",
+        "lant t",
+        "rees"
       ],
       "senses": [
         {
@@ -246,11 +284,12 @@
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-08",
+      "id": "cj-5b-u1-09",
       "word": "now",
       "phoneticUK": "/naʊ/",
       "syllables": [
-        "now"
+        "n",
+        "ow"
       ],
       "senses": [
         {
@@ -262,7 +301,7 @@
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-09",
+      "id": "cj-5b-u1-10",
       "word": "earth",
       "phoneticUK": "/ɜːθ/",
       "syllables": [
@@ -279,12 +318,12 @@
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-10",
+      "id": "cj-5b-u1-11",
       "word": "stamp",
       "phoneticUK": "/stæmp/",
       "syllables": [
-        "st",
-        "amp"
+        "s",
+        "tamp"
       ],
       "senses": [
         {
@@ -296,13 +335,12 @@
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-11",
+      "id": "cj-5b-u1-12",
       "word": "garden",
       "phoneticUK": "/ˈɡɑːdn/",
       "syllables": [
         "g",
-        "ard",
-        "en"
+        "arden"
       ],
       "senses": [
         {
@@ -314,7 +352,7 @@
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-12",
+      "id": "cj-5b-u1-13",
       "word": "table",
       "phoneticUK": "/ˈteɪbl/",
       "syllables": [
@@ -323,23 +361,37 @@
       ],
       "senses": [
         {
-          "cn": "桌子people 人，人们（单复数同形）",
-          "cnFull": "桌子people 人，人们（单复数同形）"
+          "cn": "桌子",
+          "cnFull": "桌子"
         }
       ],
       "grade": 5,
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-13",
+      "id": "cj-5b-u1-14",
+      "word": "people",
+      "phoneticUK": "/ˈpiːpl/",
+      "syllables": [
+        "p",
+        "eople"
+      ],
+      "senses": [
+        {
+          "cn": "人，人们",
+          "cnFull": "人，人们"
+        }
+      ],
+      "grade": 5,
+      "unit": 1
+    },
+    {
+      "id": "cj-5b-u1-15",
       "word": "watermelon",
       "phoneticUK": "/ˈwɔːtəmelən/",
       "syllables": [
         "w",
-        "at",
-        "erm",
-        "el",
-        "on"
+        "atermelon"
       ],
       "senses": [
         {
@@ -351,12 +403,12 @@
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-14",
+      "id": "cj-5b-u1-16",
       "word": "grass",
       "phoneticUK": "/ɡrɑːs/",
       "syllables": [
-        "gr",
-        "ass"
+        "g",
+        "rass"
       ],
       "senses": [
         {
@@ -368,12 +420,12 @@
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-15",
+      "id": "cj-5b-u1-17",
       "word": "them",
-      "phoneticUK": "/ðəm, ðem/",
+      "phoneticUK": "/ðem/",
       "syllables": [
-        "th",
-        "em"
+        "t",
+        "hem"
       ],
       "senses": [
         {
@@ -385,13 +437,12 @@
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-16",
+      "id": "cj-5b-u1-18",
       "word": "squirrel",
-      "phoneticUK": "/ˈskwɪr(ə)l/",
+      "phoneticUK": "/ˈskwɪrəl/",
       "syllables": [
-        "squ",
-        "irr",
-        "el"
+        "s",
+        "quirrel"
       ],
       "senses": [
         {
@@ -403,11 +454,12 @@
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-17",
+      "id": "cj-5b-u1-19",
       "word": "any",
       "phoneticUK": "/ˈeni/",
       "syllables": [
-        "any"
+        "a",
+        "ny"
       ],
       "senses": [
         {
@@ -419,11 +471,12 @@
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-18",
+      "id": "cj-5b-u1-20",
       "word": "sea",
       "phoneticUK": "/siː/",
       "syllables": [
-        "sea"
+        "s",
+        "ea"
       ],
       "senses": [
         {
@@ -435,12 +488,12 @@
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-19",
+      "id": "cj-5b-u1-21",
       "word": "shark",
       "phoneticUK": "/ʃɑːk/",
       "syllables": [
-        "sh",
-        "ark"
+        "s",
+        "hark"
       ],
       "senses": [
         {
@@ -452,13 +505,12 @@
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-20",
+      "id": "cj-5b-u1-22",
       "word": "mountain",
       "phoneticUK": "/ˈmaʊntən/",
       "syllables": [
-        "mo",
-        "unta",
-        "in"
+        "m",
+        "ountain"
       ],
       "senses": [
         {
@@ -470,13 +522,12 @@
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-21",
+      "id": "cj-5b-u1-23",
       "word": "forest",
       "phoneticUK": "/ˈfɒrɪst/",
       "syllables": [
         "f",
-        "or",
-        "est"
+        "orest"
       ],
       "senses": [
         {
@@ -488,13 +539,12 @@
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-22",
+      "id": "cj-5b-u1-24",
       "word": "desert",
-      "phoneticUK": "/ˈdɛz.ət/",
+      "phoneticUK": "/ˈdezət/",
       "syllables": [
         "d",
-        "es",
-        "ert"
+        "esert"
       ],
       "senses": [
         {
@@ -506,13 +556,12 @@
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-23",
+      "id": "cj-5b-u1-25",
       "word": "grassland",
       "phoneticUK": "/ˈɡrɑːslænd/",
       "syllables": [
-        "gr",
-        "assl",
-        "and"
+        "g",
+        "rassland"
       ],
       "senses": [
         {
@@ -524,13 +573,13 @@
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-24",
+      "id": "cj-5b-u1-26",
       "word": "have a look",
       "phoneticUK": "/hæv ə lʊk/",
       "syllables": [
         "h",
-        "ave a lo",
-        "ok"
+        "ave a l",
+        "ook"
       ],
       "senses": [
         {
@@ -542,7 +591,7 @@
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-25",
+      "id": "cj-5b-u1-27",
       "word": "live",
       "phoneticUK": "/lɪv/",
       "syllables": [
@@ -551,21 +600,20 @@
       ],
       "senses": [
         {
-          "cn": "居住hey （引起注意）嘿",
-          "cnFull": "居住hey （引起注意）嘿"
+          "cn": "居住",
+          "cnFull": "居住"
         }
       ],
       "grade": 5,
       "unit": 1
     },
     {
-      "id": "cj-5b-u1-26",
+      "id": "cj-5b-u1-28",
       "word": "swallow",
-      "phoneticUK": "/ˈswɒl.əʊ/",
+      "phoneticUK": "/ˈswɒləʊ/",
       "syllables": [
-        "sw",
-        "all",
-        "ow"
+        "s",
+        "wallow"
       ],
       "senses": [
         {
@@ -581,9 +629,8 @@
       "word": "clothes",
       "phoneticUK": "/kləʊðz/",
       "syllables": [
-        "cl",
-        "oth",
-        "es"
+        "c",
+        "lothes"
       ],
       "senses": [
         {
@@ -597,10 +644,10 @@
     {
       "id": "cj-5b-u2-02",
       "word": "jeans",
-      "phoneticUK": "/d͡ʒiːnz/",
+      "phoneticUK": "/dʒiːnz/",
       "syllables": [
-        "je",
-        "ans"
+        "j",
+        "eans"
       ],
       "senses": [
         {
@@ -616,8 +663,8 @@
       "word": "shirt",
       "phoneticUK": "/ʃɜːt/",
       "syllables": [
-        "sh",
-        "irt"
+        "s",
+        "hirt"
       ],
       "senses": [
         {
@@ -631,11 +678,10 @@
     {
       "id": "cj-5b-u2-04",
       "word": "T-shirt",
-      "phoneticUK": "/ˈtiːʃɜːt/",
+      "phoneticUK": "/ˈtiː ʃɜːt/",
       "syllables": [
-        "t",
-        "sh",
-        "irt"
+        "T",
+        "shirt"
       ],
       "senses": [
         {
@@ -651,14 +697,13 @@
       "word": "sweater",
       "phoneticUK": "/ˈswetə(r)/",
       "syllables": [
-        "swe",
-        "at",
-        "er"
+        "s",
+        "weater"
       ],
       "senses": [
         {
-          "cn": "毛衣shoes 鞋（复数）",
-          "cnFull": "毛衣shoes 鞋（复数）"
+          "cn": "毛衣",
+          "cnFull": "毛衣"
         }
       ],
       "grade": 5,
@@ -666,11 +711,28 @@
     },
     {
       "id": "cj-5b-u2-06",
+      "word": "shoes",
+      "phoneticUK": "/ʃuːz/",
+      "syllables": [
+        "s",
+        "hoes"
+      ],
+      "senses": [
+        {
+          "cn": "鞋（复数）",
+          "cnFull": "鞋（复数）"
+        }
+      ],
+      "grade": 5,
+      "unit": 2
+    },
+    {
+      "id": "cj-5b-u2-07",
       "word": "coat",
       "phoneticUK": "/kəʊt/",
       "syllables": [
-        "co",
-        "at"
+        "c",
+        "oat"
       ],
       "senses": [
         {
@@ -682,11 +744,12 @@
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-07",
+      "id": "cj-5b-u2-08",
       "word": "get warm",
       "phoneticUK": "/ɡet wɔːm/",
       "syllables": [
-        "get w",
+        "g",
+        "et w",
         "arm"
       ],
       "senses": [
@@ -699,12 +762,12 @@
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-08",
+      "id": "cj-5b-u2-09",
       "word": "wear",
       "phoneticUK": "/weə(r)/",
       "syllables": [
-        "we",
-        "ar"
+        "w",
+        "ear"
       ],
       "senses": [
         {
@@ -716,13 +779,13 @@
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-09",
+      "id": "cj-5b-u2-10",
       "word": "plants grow",
       "phoneticUK": "/plɑːnts ɡrəʊ/",
       "syllables": [
-        "pl",
-        "ants gr",
-        "ow"
+        "p",
+        "lants g",
+        "row"
       ],
       "senses": [
         {
@@ -734,13 +797,13 @@
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-10",
+      "id": "cj-5b-u2-11",
       "word": "wind blows",
       "phoneticUK": "/wɪnd bləʊz/",
       "syllables": [
         "w",
-        "ind bl",
-        "ows"
+        "ind b",
+        "lows"
       ],
       "senses": [
         {
@@ -752,14 +815,13 @@
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-11",
+      "id": "cj-5b-u2-12",
       "word": "turn yellow",
       "phoneticUK": "/tɜːn ˈjeləʊ/",
       "syllables": [
         "t",
         "urn y",
-        "ell",
-        "ow"
+        "ellow"
       ],
       "senses": [
         {
@@ -771,13 +833,12 @@
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-12",
+      "id": "cj-5b-u2-13",
       "word": "leaves fall",
       "phoneticUK": "/liːvz fɔːl/",
       "syllables": [
-        "le",
-        "av",
-        "es f",
+        "l",
+        "eaves f",
         "all"
       ],
       "senses": [
@@ -790,12 +851,12 @@
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-13",
+      "id": "cj-5b-u2-14",
       "word": "snow",
       "phoneticUK": "/snəʊ/",
       "syllables": [
-        "sn",
-        "ow"
+        "s",
+        "now"
       ],
       "senses": [
         {
@@ -807,13 +868,15 @@
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-14",
+      "id": "cj-5b-u2-15",
       "word": "go for an outing",
-      "phoneticUK": "/ɡəʊ fɔː(r) ˈæn ˈaʊtɪŋ/",
+      "phoneticUK": "/ɡəʊ fər ən ˈaʊtɪŋ/",
       "syllables": [
-        "go for an o",
-        "ut",
-        "ing"
+        "g",
+        "o f",
+        "or a",
+        "n o",
+        "uting"
       ],
       "senses": [
         {
@@ -825,7 +888,7 @@
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-15",
+      "id": "cj-5b-u2-16",
       "word": "last",
       "phoneticUK": "/lɑːst/",
       "syllables": [
@@ -842,13 +905,12 @@
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-16",
+      "id": "cj-5b-u2-17",
       "word": "harvest",
       "phoneticUK": "/ˈhɑːvɪst/",
       "syllables": [
         "h",
-        "arv",
-        "est"
+        "arvest"
       ],
       "senses": [
         {
@@ -860,13 +922,13 @@
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-17",
+      "id": "cj-5b-u2-18",
       "word": "Easter egg",
-      "phoneticUK": "/ˈiː.stə eɡ/",
+      "phoneticUK": "/ˈiːstə(r) eɡ/",
       "syllables": [
-        "e",
-        "ast",
-        "er egg"
+        "E",
+        "aster e",
+        "gg"
       ],
       "senses": [
         {
@@ -878,29 +940,87 @@
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-18",
+      "id": "cj-5b-u2-19",
       "word": "boat",
-      "phoneticUK": "/bəʊ̯t/",
+      "phoneticUK": "/bəʊt/",
       "syllables": [
-        "bo",
-        "at"
+        "b",
+        "oat"
       ],
       "senses": [
         {
-          "cn": "小船give a card to 给……卡片be made of chocolate 由巧克力制成a piece of paper 一张纸",
-          "cnFull": "小船give a card to 给……卡片be made of chocolate 由巧克力制成a piece of paper 一张纸"
+          "cn": "小船",
+          "cnFull": "小船"
         }
       ],
       "grade": 5,
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-19",
+      "id": "cj-5b-u2-20",
+      "word": "give a card to",
+      "phoneticUK": "/ɡɪv ə kɑːd tuː/",
+      "syllables": [
+        "g",
+        "ive a c",
+        "ard t",
+        "o"
+      ],
+      "senses": [
+        {
+          "cn": "给……卡片",
+          "cnFull": "给……卡片"
+        }
+      ],
+      "grade": 5,
+      "unit": 2
+    },
+    {
+      "id": "cj-5b-u2-21",
+      "word": "be made of chocolate",
+      "phoneticUK": "/bi meɪd əv ˈtʃɒklət/",
+      "syllables": [
+        "b",
+        "e m",
+        "ade o",
+        "f c",
+        "hocolate"
+      ],
+      "senses": [
+        {
+          "cn": "由巧克力制成",
+          "cnFull": "由巧克力制成"
+        }
+      ],
+      "grade": 5,
+      "unit": 2
+    },
+    {
+      "id": "cj-5b-u2-22",
+      "word": "a piece of paper",
+      "phoneticUK": "/ə piːs əv ˈpeɪpə(r)/",
+      "syllables": [
+        "a p",
+        "iece o",
+        "f p",
+        "aper"
+      ],
+      "senses": [
+        {
+          "cn": "一张纸",
+          "cnFull": "一张纸"
+        }
+      ],
+      "grade": 5,
+      "unit": 2
+    },
+    {
+      "id": "cj-5b-u2-23",
       "word": "think",
       "phoneticUK": "/θɪŋk/",
       "syllables": [
-        "th",
-        "ink"
+        "t",
+        "hink"
       ],
       "senses": [
         {
@@ -912,12 +1032,13 @@
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-20",
+      "id": "cj-5b-u2-24",
       "word": "used to",
-      "phoneticUK": "/juːzd tuː/",
+      "phoneticUK": "/juːst tuː/",
       "syllables": [
-        "us",
-        "ed to"
+        "u",
+        "sed t",
+        "o"
       ],
       "senses": [
         {
@@ -929,13 +1050,12 @@
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-21",
+      "id": "cj-5b-u2-25",
       "word": "holiday",
       "phoneticUK": "/ˈhɒlədeɪ/",
       "syllables": [
         "h",
-        "ol",
-        "iday"
+        "oliday"
       ],
       "senses": [
         {
@@ -947,7 +1067,7 @@
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-22",
+      "id": "cj-5b-u2-26",
       "word": "bank",
       "phoneticUK": "/bæŋk/",
       "syllables": [
@@ -964,13 +1084,12 @@
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-23",
+      "id": "cj-5b-u2-27",
       "word": "symbol",
-      "phoneticUK": "/ˈsɪmbəl/",
+      "phoneticUK": "/ˈsɪmbl/",
       "syllables": [
         "s",
-        "ymb",
-        "ol"
+        "ymbol"
       ],
       "senses": [
         {
@@ -982,14 +1101,12 @@
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-24",
+      "id": "cj-5b-u2-28",
       "word": "celebrate",
       "phoneticUK": "/ˈselɪbreɪt/",
       "syllables": [
         "c",
-        "el",
-        "ebr",
-        "ate"
+        "elebrate"
       ],
       "senses": [
         {
@@ -1001,14 +1118,12 @@
       "unit": 2
     },
     {
-      "id": "cj-5b-u2-25",
+      "id": "cj-5b-u2-29",
       "word": "national",
       "phoneticUK": "/ˈnæʃnəl/",
       "syllables": [
         "n",
-        "ati",
-        "on",
-        "al"
+        "ational"
       ],
       "senses": [
         {
@@ -1029,8 +1144,8 @@
       ],
       "senses": [
         {
-          "cn": "第一second 第二",
-          "cnFull": "第一second 第二"
+          "cn": "第一",
+          "cnFull": "第一"
         }
       ],
       "grade": 5,
@@ -1038,16 +1153,16 @@
     },
     {
       "id": "cj-5b-u3-02",
-      "word": "third",
-      "phoneticUK": "/θɜːd/",
+      "word": "second",
+      "phoneticUK": "/ˈsekənd/",
       "syllables": [
-        "th",
-        "ird"
+        "s",
+        "econd"
       ],
       "senses": [
         {
-          "cn": "第三fourth 第四",
-          "cnFull": "第三fourth 第四"
+          "cn": "第二",
+          "cnFull": "第二"
         }
       ],
       "grade": 5,
@@ -1055,6 +1170,40 @@
     },
     {
       "id": "cj-5b-u3-03",
+      "word": "third",
+      "phoneticUK": "/θɜːd/",
+      "syllables": [
+        "t",
+        "hird"
+      ],
+      "senses": [
+        {
+          "cn": "第三",
+          "cnFull": "第三"
+        }
+      ],
+      "grade": 5,
+      "unit": 3
+    },
+    {
+      "id": "cj-5b-u3-04",
+      "word": "fourth",
+      "phoneticUK": "/fɔːθ/",
+      "syllables": [
+        "f",
+        "ourth"
+      ],
+      "senses": [
+        {
+          "cn": "第四",
+          "cnFull": "第四"
+        }
+      ],
+      "grade": 5,
+      "unit": 3
+    },
+    {
+      "id": "cj-5b-u3-05",
       "word": "fifth",
       "phoneticUK": "/fɪfθ/",
       "syllables": [
@@ -1063,21 +1212,139 @@
       ],
       "senses": [
         {
-          "cn": "第五sixth 第六seventh 第七eighth 第八ninth 第九tenth 第十eleventh 第十一twelfth 第十二",
-          "cnFull": "第五sixth 第六seventh 第七eighth 第八ninth 第九tenth 第十eleventh 第十一twelfth 第十二"
+          "cn": "第五",
+          "cnFull": "第五"
         }
       ],
       "grade": 5,
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-04",
+      "id": "cj-5b-u3-06",
+      "word": "sixth",
+      "phoneticUK": "/sɪksθ/",
+      "syllables": [
+        "s",
+        "ixth"
+      ],
+      "senses": [
+        {
+          "cn": "第六",
+          "cnFull": "第六"
+        }
+      ],
+      "grade": 5,
+      "unit": 3
+    },
+    {
+      "id": "cj-5b-u3-07",
+      "word": "seventh",
+      "phoneticUK": "/ˈsevnθ/",
+      "syllables": [
+        "s",
+        "eventh"
+      ],
+      "senses": [
+        {
+          "cn": "第七",
+          "cnFull": "第七"
+        }
+      ],
+      "grade": 5,
+      "unit": 3
+    },
+    {
+      "id": "cj-5b-u3-08",
+      "word": "eighth",
+      "phoneticUK": "/eɪtθ/",
+      "syllables": [
+        "e",
+        "ighth"
+      ],
+      "senses": [
+        {
+          "cn": "第八",
+          "cnFull": "第八"
+        }
+      ],
+      "grade": 5,
+      "unit": 3
+    },
+    {
+      "id": "cj-5b-u3-09",
+      "word": "ninth",
+      "phoneticUK": "/naɪnθ/",
+      "syllables": [
+        "n",
+        "inth"
+      ],
+      "senses": [
+        {
+          "cn": "第九",
+          "cnFull": "第九"
+        }
+      ],
+      "grade": 5,
+      "unit": 3
+    },
+    {
+      "id": "cj-5b-u3-10",
+      "word": "tenth",
+      "phoneticUK": "/tenθ/",
+      "syllables": [
+        "t",
+        "enth"
+      ],
+      "senses": [
+        {
+          "cn": "第十",
+          "cnFull": "第十"
+        }
+      ],
+      "grade": 5,
+      "unit": 3
+    },
+    {
+      "id": "cj-5b-u3-11",
+      "word": "eleventh",
+      "phoneticUK": "/ɪˈlevnθ/",
+      "syllables": [
+        "e",
+        "leventh"
+      ],
+      "senses": [
+        {
+          "cn": "第十一",
+          "cnFull": "第十一"
+        }
+      ],
+      "grade": 5,
+      "unit": 3
+    },
+    {
+      "id": "cj-5b-u3-12",
+      "word": "twelfth",
+      "phoneticUK": "/twelfθ/",
+      "syllables": [
+        "t",
+        "welfth"
+      ],
+      "senses": [
+        {
+          "cn": "第十二",
+          "cnFull": "第十二"
+        }
+      ],
+      "grade": 5,
+      "unit": 3
+    },
+    {
+      "id": "cj-5b-u3-13",
       "word": "thirteenth",
       "phoneticUK": "/ˌθɜːˈtiːnθ/",
       "syllables": [
-        "th",
-        "irte",
-        "enth"
+        "t",
+        "hirteenth"
       ],
       "senses": [
         {
@@ -1089,32 +1356,63 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-05",
+      "id": "cj-5b-u3-14",
       "word": "fourteenth",
       "phoneticUK": "/ˌfɔːˈtiːnθ/",
       "syllables": [
-        "fo",
-        "urte",
-        "enth"
+        "f",
+        "ourteenth"
       ],
       "senses": [
         {
-          "cn": "第十四fifteenth 第十五sixteenth 第十六",
-          "cnFull": "第十四fifteenth 第十五sixteenth 第十六"
+          "cn": "第十四",
+          "cnFull": "第十四"
         }
       ],
       "grade": 5,
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-06",
-      "word": "seventeenth",
-      "phoneticUK": "/ˌsɛvənˈtiːnθ/",
+      "id": "cj-5b-u3-15",
+      "word": "fifteenth",
+      "phoneticUK": "/ˌfɪfˈtiːnθ/",
+      "syllables": [
+        "f",
+        "ifteenth"
+      ],
+      "senses": [
+        {
+          "cn": "第十五",
+          "cnFull": "第十五"
+        }
+      ],
+      "grade": 5,
+      "unit": 3
+    },
+    {
+      "id": "cj-5b-u3-16",
+      "word": "sixteenth",
+      "phoneticUK": "/ˌsɪksˈtiːnθ/",
       "syllables": [
         "s",
-        "ev",
-        "ente",
-        "enth"
+        "ixteenth"
+      ],
+      "senses": [
+        {
+          "cn": "第十六",
+          "cnFull": "第十六"
+        }
+      ],
+      "grade": 5,
+      "unit": 3
+    },
+    {
+      "id": "cj-5b-u3-17",
+      "word": "seventeenth",
+      "phoneticUK": "/ˌsevnˈtiːnθ/",
+      "syllables": [
+        "s",
+        "eventeenth"
       ],
       "senses": [
         {
@@ -1126,13 +1424,12 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-07",
+      "id": "cj-5b-u3-18",
       "word": "eighteenth",
       "phoneticUK": "/ˌeɪˈtiːnθ/",
       "syllables": [
         "e",
-        "ighte",
-        "enth"
+        "ighteenth"
       ],
       "senses": [
         {
@@ -1144,14 +1441,12 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-08",
+      "id": "cj-5b-u3-19",
       "word": "nineteenth",
       "phoneticUK": "/ˌnaɪnˈtiːnθ/",
       "syllables": [
         "n",
-        "in",
-        "ete",
-        "enth"
+        "ineteenth"
       ],
       "senses": [
         {
@@ -1163,23 +1458,24 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-09",
-      "word": "be free",
-      "phoneticUK": "/biː friː/",
+      "id": "cj-5b-u3-20",
+      "word": "free",
+      "phoneticUK": "/friː/",
       "syllables": [
-        "be free"
+        "f",
+        "ree"
       ],
       "senses": [
         {
-          "cn": "有空",
-          "cnFull": "有空"
+          "cn": "有空的",
+          "cnFull": "有空的"
         }
       ],
       "grade": 5,
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-10",
+      "id": "cj-5b-u3-21",
       "word": "birthday party",
       "phoneticUK": "/ˈbɜːθdeɪ ˈpɑːti/",
       "syllables": [
@@ -1197,11 +1493,12 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-11",
+      "id": "cj-5b-u3-22",
       "word": "on time",
       "phoneticUK": "/ɒn taɪm/",
       "syllables": [
-        "on t",
+        "o",
+        "n t",
         "ime"
       ],
       "senses": [
@@ -1214,7 +1511,7 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-12",
+      "id": "cj-5b-u3-23",
       "word": "socks",
       "phoneticUK": "/sɒks/",
       "syllables": [
@@ -1231,12 +1528,12 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-13",
+      "id": "cj-5b-u3-24",
       "word": "blouse",
-      "phoneticUK": "/ˈblaʊ̯z/",
+      "phoneticUK": "/blaʊz/",
       "syllables": [
-        "blo",
-        "use"
+        "b",
+        "louse"
       ],
       "senses": [
         {
@@ -1248,12 +1545,12 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-14",
+      "id": "cj-5b-u3-25",
       "word": "piano",
       "phoneticUK": "/piˈænəʊ/",
       "syllables": [
-        "pi",
-        "ano"
+        "p",
+        "iano"
       ],
       "senses": [
         {
@@ -1265,7 +1562,7 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-15",
+      "id": "cj-5b-u3-26",
       "word": "money",
       "phoneticUK": "/ˈmʌni/",
       "syllables": [
@@ -1282,9 +1579,9 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-16",
+      "id": "cj-5b-u3-27",
       "word": "tape",
-      "phoneticUK": "/teɪ̯p/",
+      "phoneticUK": "/teɪp/",
       "syllables": [
         "t",
         "ape"
@@ -1299,12 +1596,12 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-17",
+      "id": "cj-5b-u3-28",
       "word": "phone",
-      "phoneticUK": "/ˈfəʊ̯n/",
+      "phoneticUK": "/fəʊn/",
       "syllables": [
-        "ph",
-        "one"
+        "p",
+        "hone"
       ],
       "senses": [
         {
@@ -1316,14 +1613,13 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-18",
+      "id": "cj-5b-u3-29",
       "word": "mobile phone",
-      "phoneticUK": "/ˈməʊ.baɪl ˈfəʊ̯n/",
+      "phoneticUK": "/ˈməʊbaɪl fəʊn/",
       "syllables": [
         "m",
-        "ob",
-        "ile ph",
-        "one"
+        "obile p",
+        "hone"
       ],
       "senses": [
         {
@@ -1335,12 +1631,12 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-19",
+      "id": "cj-5b-u3-30",
       "word": "look like",
       "phoneticUK": "/lʊk laɪk/",
       "syllables": [
-        "lo",
-        "ok l",
+        "l",
+        "ook l",
         "ike"
       ],
       "senses": [
@@ -1353,13 +1649,12 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-20",
+      "id": "cj-5b-u3-31",
       "word": "expensive",
-      "phoneticUK": "/ɪkˈspɛn.sɪv/",
+      "phoneticUK": "/ɪkˈspensɪv/",
       "syllables": [
-        "exp",
-        "ens",
-        "ive"
+        "e",
+        "xpensive"
       ],
       "senses": [
         {
@@ -1371,14 +1666,14 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-21",
+      "id": "cj-5b-u3-32",
       "word": "light the candles",
-      "phoneticUK": "/laɪt ðə ˈkændl̩z/",
+      "phoneticUK": "/laɪt ðə ˈkændlz/",
       "syllables": [
         "l",
-        "ight the c",
-        "andl",
-        "es"
+        "ight t",
+        "he c",
+        "andles"
       ],
       "senses": [
         {
@@ -1390,7 +1685,7 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-22",
+      "id": "cj-5b-u3-33",
       "word": "sing a song",
       "phoneticUK": "/sɪŋ ə sɒŋ/",
       "syllables": [
@@ -1400,15 +1695,35 @@
       ],
       "senses": [
         {
-          "cn": "唱歌blow out the candles 吹蜡烛",
-          "cnFull": "唱歌blow out the candles 吹蜡烛"
+          "cn": "唱歌",
+          "cnFull": "唱歌"
         }
       ],
       "grade": 5,
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-23",
+      "id": "cj-5b-u3-34",
+      "word": "blow out the candles",
+      "phoneticUK": "/bləʊ aʊt ðə ˈkændlz/",
+      "syllables": [
+        "b",
+        "low o",
+        "ut t",
+        "he c",
+        "andles"
+      ],
+      "senses": [
+        {
+          "cn": "吹蜡烛",
+          "cnFull": "吹蜡烛"
+        }
+      ],
+      "grade": 5,
+      "unit": 3
+    },
+    {
+      "id": "cj-5b-u3-35",
       "word": "make a wish",
       "phoneticUK": "/meɪk ə wɪʃ/",
       "syllables": [
@@ -1426,7 +1741,7 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-24",
+      "id": "cj-5b-u3-36",
       "word": "late",
       "phoneticUK": "/leɪt/",
       "syllables": [
@@ -1443,7 +1758,7 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-25",
+      "id": "cj-5b-u3-37",
       "word": "early",
       "phoneticUK": "/ˈɜːli/",
       "syllables": [
@@ -1460,14 +1775,13 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-26",
-      "word": "be worried about",
-      "phoneticUK": "/biː ˈwʌrid əˈbaʊt/",
+      "id": "cj-5b-u3-38",
+      "word": "worried about",
+      "phoneticUK": "/ˈwʌrid əˈbaʊt/",
       "syllables": [
-        "be w",
-        "orri",
-        "ed abo",
-        "ut"
+        "w",
+        "orried a",
+        "bout"
       ],
       "senses": [
         {
@@ -1479,9 +1793,9 @@
       "unit": 3
     },
     {
-      "id": "cj-5b-u3-27",
+      "id": "cj-5b-u3-39",
       "word": "must",
-      "phoneticUK": "/məst/",
+      "phoneticUK": "/mʌst/",
       "syllables": [
         "m",
         "ust"
@@ -1500,42 +1814,52 @@
     {
       "id": "cj-5b-u1-s01",
       "unit": 1,
-      "cn": "乐乐，你打算做什么？",
-      "en": "What are you going to do, Lele?",
+      "cn": "我来扫地、整理床铺吧。",
+      "en": "Let me sweep the floor and make the bed.",
       "tokens": [
         {
-          "en": "What",
-          "cn": "什么",
-          "pos": "疑问词"
-        },
-        {
-          "en": "are",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "you",
-          "cn": "你",
-          "pos": "代词"
-        },
-        {
-          "en": "going",
-          "cn": "走",
+          "en": "Let",
+          "cn": "让",
           "pos": "名词"
         },
         {
-          "en": "to",
-          "cn": "到",
-          "pos": "介词"
+          "en": "me",
+          "cn": "我",
+          "pos": "代词"
         },
         {
-          "en": "do,",
-          "cn": "做",
-          "pos": "助动词"
+          "en": "sweep",
+          "cn": "打扫",
+          "pos": "动词"
         },
         {
-          "en": "Lele?",
-          "cn": "乐乐",
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "floor",
+          "cn": "地板",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "make",
+          "cn": "制作（过去式 made）",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bed.",
+          "cn": "床",
           "pos": "名词"
         }
       ]
@@ -1543,27 +1867,371 @@
     {
       "id": "cj-5b-u1-s02",
       "unit": 1,
-      "cn": "在中国，植树节是三月十二日。",
-      "en": "In China, Tree-planting Day is on March 12th.",
+      "cn": "我擦窗户、洗菜。",
+      "en": "I clean the windows and wash vegetables.",
       "tokens": [
         {
-          "en": "In",
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "clean",
+          "cn": "打扫",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "windows",
+          "cn": "窗",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "wash",
+          "cn": "洗",
+          "pos": "名词"
+        },
+        {
+          "en": "vegetables.",
+          "cn": "蔬菜",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u1-s03",
+      "unit": 1,
+      "cn": "我洗衣服，把衣服收起来。",
+      "en": "I do some washing and put away the clothes.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "washing",
+          "cn": "洗",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "put",
+          "cn": "放",
+          "pos": "名词"
+        },
+        {
+          "en": "away",
+          "cn": "离开",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "clothes.",
+          "cn": "衣服",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u1-s04",
+      "unit": 1,
+      "cn": "看这幅图。看一眼这个花园。",
+      "en": "Look at this picture. Have a look at the garden.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "this",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "picture.",
+          "cn": "照片",
+          "pos": "名词"
+        },
+        {
+          "en": "Have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "look",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "garden.",
+          "cn": "花园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u1-s05",
+      "unit": 1,
+      "cn": "我们现在在这里种树。",
+      "en": "We plant trees here now.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "plant",
+          "cn": "植物",
+          "pos": "名词"
+        },
+        {
+          "en": "trees",
+          "cn": "树",
+          "pos": "名词"
+        },
+        {
+          "en": "here",
+          "cn": "这里",
+          "pos": "副词"
+        },
+        {
+          "en": "now.",
+          "cn": "现在",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u1-s06",
+      "unit": 1,
+      "cn": "花园里有一张桌子。",
+      "en": "There is a table in the garden.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "table",
+          "cn": "桌子",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
           "cn": "在……里",
           "pos": "介词"
         },
         {
-          "en": "China,",
-          "cn": "中国",
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "garden.",
+          "cn": "花园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u1-s07",
+      "unit": 1,
+      "cn": "许多人住在海边。",
+      "en": "Many people live near the sea.",
+      "tokens": [
+        {
+          "en": "Many",
+          "cn": "许多",
+          "pos": "限定词"
+        },
+        {
+          "en": "people",
+          "cn": "人们",
           "pos": "名词"
         },
         {
-          "en": "Tree-planting",
-          "cn": "树-种植",
+          "en": "live",
+          "cn": "居住",
           "pos": "名词"
         },
         {
-          "en": "Day",
-          "cn": "天",
+          "en": "near",
+          "cn": "在……附近",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sea.",
+          "cn": "海",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u1-s08",
+      "unit": 1,
+      "cn": "看他们！他们在大海里。",
+      "en": "Look at them! They are in the sea.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "them!",
+          "cn": "他们",
+          "pos": "代词"
+        },
+        {
+          "en": "They",
+          "cn": "他们",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sea.",
+          "cn": "海",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u1-s09",
+      "unit": 1,
+      "cn": "鲨鱼生活在海里。",
+      "en": "A shark lives in the sea.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "shark",
+          "cn": "鲨鱼",
+          "pos": "名词"
+        },
+        {
+          "en": "lives",
+          "cn": "居住",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sea.",
+          "cn": "海",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u1-s10",
+      "unit": 1,
+      "cn": "松鼠在草地上。",
+      "en": "The squirrel is on the grass.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "squirrel",
+          "cn": "松鼠",
           "pos": "名词"
         },
         {
@@ -1577,26 +2245,31 @@
           "pos": "介词"
         },
         {
-          "en": "March",
-          "cn": "三月",
-          "pos": "数词"
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
         },
         {
-          "en": "12th.",
-          "cn": "12th",
-          "pos": "数词"
+          "en": "grass.",
+          "cn": "草",
+          "pos": "名词"
         }
       ]
     },
     {
-      "id": "cj-5b-u1-s03",
+      "id": "cj-5b-u1-s11",
       "unit": 1,
-      "cn": "婷婷和彼得在谈论松鼠。",
-      "en": "Tingting and Peter are talking about squirrels.",
+      "cn": "大山和森林在很远的地方。",
+      "en": "The mountain and the forest are far away.",
       "tokens": [
         {
-          "en": "Tingting",
-          "cn": "婷婷",
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "mountain",
+          "cn": "山",
           "pos": "名词"
         },
         {
@@ -1605,8 +2278,13 @@
           "pos": "连词"
         },
         {
-          "en": "Peter",
-          "cn": "彼得",
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "forest",
+          "cn": "森林",
           "pos": "名词"
         },
         {
@@ -1615,102 +2293,31 @@
           "pos": "动词"
         },
         {
-          "en": "talking",
-          "cn": "谈话",
-          "pos": "名词"
-        },
-        {
-          "en": "about",
-          "cn": "关于",
-          "pos": "介词"
-        },
-        {
-          "en": "squirrels.",
-          "cn": "松鼠",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "cj-5b-u1-s04",
-      "unit": 1,
-      "cn": "它们会做什么？",
-      "en": "What Can They Do?",
-      "tokens": [
-        {
-          "en": "What",
-          "cn": "什么",
-          "pos": "疑问词"
-        },
-        {
-          "en": "Can",
-          "cn": "能",
-          "pos": "情态动词"
-        },
-        {
-          "en": "They",
-          "cn": "他们",
-          "pos": "代词"
-        },
-        {
-          "en": "Do?",
-          "cn": "做",
-          "pos": "助动词"
-        }
-      ]
-    },
-    {
-      "id": "cj-5b-u1-s05",
-      "unit": 1,
-      "cn": "你的英语老师住在哪里？",
-      "en": "Where does your English teacher live?",
-      "tokens": [
-        {
-          "en": "Where",
-          "cn": "哪里",
-          "pos": "疑问词"
-        },
-        {
-          "en": "does",
-          "cn": "做",
-          "pos": "助动词"
-        },
-        {
-          "en": "your",
-          "cn": "你的",
-          "pos": "限定词"
-        },
-        {
-          "en": "English",
-          "cn": "英文的",
+          "en": "far",
+          "cn": "较远的",
           "pos": "形容词"
         },
         {
-          "en": "teacher",
-          "cn": "教师",
-          "pos": "名词"
-        },
-        {
-          "en": "live?",
-          "cn": "居住",
+          "en": "away.",
+          "cn": "离开",
           "pos": "名词"
         }
       ]
     },
     {
-      "id": "cj-5b-u2-s01",
-      "unit": 2,
-      "cn": "植树节是一个节日。",
-      "en": "Tree-planting Day is a holiday.",
+      "id": "cj-5b-u1-s12",
+      "unit": 1,
+      "cn": "沙漠很干燥，草原是绿的。",
+      "en": "A desert is dry, but a grassland is green.",
       "tokens": [
         {
-          "en": "Tree-planting",
-          "cn": "树-种植",
+          "en": "A",
+          "cn": "A",
           "pos": "名词"
         },
         {
-          "en": "Day",
-          "cn": "天",
+          "en": "desert",
+          "cn": "沙漠",
           "pos": "名词"
         },
         {
@@ -1719,31 +2326,137 @@
           "pos": "动词"
         },
         {
+          "en": "dry,",
+          "cn": "擦干",
+          "pos": "名词"
+        },
+        {
+          "en": "but",
+          "cn": "但是",
+          "pos": "连词"
+        },
+        {
           "en": "a",
-          "cn": "一个",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "grassland",
+          "cn": "草原",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "green.",
+          "cn": "绿色的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u1-s13",
+      "unit": 1,
+      "cn": "桌子上有一个大西瓜。",
+      "en": "There is a big watermelon on the table.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "big",
+          "cn": "大的",
+          "pos": "形容词"
+        },
+        {
+          "en": "watermelon",
+          "cn": "西瓜",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
           "pos": "冠词"
         },
         {
-          "en": "holiday.",
-          "cn": "假期",
+          "en": "table.",
+          "cn": "桌子",
           "pos": "名词"
         }
       ]
     },
     {
-      "id": "cj-5b-u2-s02",
-      "unit": 2,
-      "cn": "我打算好好过春节。",
-      "en": "I’m going to celebrate the Spring Festival.",
+      "id": "cj-5b-u1-s14",
+      "unit": 1,
+      "cn": "你有水吗？",
+      "en": "Do you have any water?",
       "tokens": [
         {
-          "en": "I’m",
-          "cn": "我是",
-          "pos": "缩略"
+          "en": "Do",
+          "cn": "做",
+          "pos": "助动词"
         },
         {
-          "en": "going",
-          "cn": "走",
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "any",
+          "cn": "任何",
+          "pos": "限定词"
+        },
+        {
+          "en": "water?",
+          "cn": "水",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u1-s15",
+      "unit": 1,
+      "cn": "燕子秋天飞到南方去。",
+      "en": "A swallow flies to the south in autumn.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "swallow",
+          "cn": "燕子",
+          "pos": "名词"
+        },
+        {
+          "en": "flies",
+          "cn": "飞",
           "pos": "名词"
         },
         {
@@ -1752,9 +2465,90 @@
           "pos": "介词"
         },
         {
-          "en": "celebrate",
-          "cn": "庆祝",
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "south",
+          "cn": "南方",
           "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "autumn.",
+          "cn": "秋天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u1-s16",
+      "unit": 1,
+      "cn": "这里的泥土适合长草。",
+      "en": "The earth here is good for grass.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "earth",
+          "cn": "地球",
+          "pos": "名词"
+        },
+        {
+          "en": "here",
+          "cn": "这里",
+          "pos": "副词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "grass.",
+          "cn": "草",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u1-s17",
+      "unit": 1,
+      "cn": "不要踩嫩草。",
+      "en": "Don't stamp on the young grass.",
+      "tokens": [
+        {
+          "en": "Don't",
+          "cn": "不",
+          "pos": "助动词"
+        },
+        {
+          "en": "stamp",
+          "cn": "邮票",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
         },
         {
           "en": "the",
@@ -1762,19 +2556,386 @@
           "pos": "冠词"
         },
         {
-          "en": "Spring",
-          "cn": "春天",
+          "en": "young",
+          "cn": "扬",
           "pos": "名词"
         },
         {
-          "en": "Festival.",
-          "cn": "节日",
+          "en": "grass.",
+          "cn": "草",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u2-s01",
+      "unit": 2,
+      "cn": "我今天穿衬衣和牛仔裤。",
+      "en": "I wear a shirt and jeans today.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "wear",
+          "cn": "穿",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "shirt",
+          "cn": "衬衫",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "jeans",
+          "cn": "牛仔裤",
+          "pos": "名词"
+        },
+        {
+          "en": "today.",
+          "cn": "今天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u2-s02",
+      "unit": 2,
+      "cn": "穿上你的外套和鞋子。",
+      "en": "Put on your coat and shoes.",
+      "tokens": [
+        {
+          "en": "Put",
+          "cn": "放",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "coat",
+          "cn": "上衣",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "shoes.",
+          "cn": "鞋子",
           "pos": "名词"
         }
       ]
     },
     {
       "id": "cj-5b-u2-s03",
+      "unit": 2,
+      "cn": "我的毛衣和T恤是新衣服。",
+      "en": "My sweater and T-shirt are new clothes.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "sweater",
+          "cn": "毛衣",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "T-shirt",
+          "cn": "T-衬衫",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "clothes.",
+          "cn": "衣服",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u2-s04",
+      "unit": 2,
+      "cn": "春天天气变暖和了。",
+      "en": "It gets warm in spring.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "gets",
+          "cn": "准备",
+          "pos": "名词"
+        },
+        {
+          "en": "warm",
+          "cn": "温暖的",
+          "pos": "形容词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "spring.",
+          "cn": "春天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u2-s05",
+      "unit": 2,
+      "cn": "风起了，植物生长了。",
+      "en": "The wind blows and the plants grow.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "wind",
+          "cn": "风",
+          "pos": "名词"
+        },
+        {
+          "en": "blows",
+          "cn": "吹",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "plants",
+          "cn": "植物",
+          "pos": "名词"
+        },
+        {
+          "en": "grow.",
+          "cn": "生长",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u2-s06",
+      "unit": 2,
+      "cn": "秋天树叶变黄了。",
+      "en": "The leaves turn yellow in autumn.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "leaves",
+          "cn": "叶子(leaf 的复数形式) (13)",
+          "pos": "名词"
+        },
+        {
+          "en": "turn",
+          "cn": "转弯",
+          "pos": "名词"
+        },
+        {
+          "en": "yellow",
+          "cn": "黄色",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "autumn.",
+          "cn": "秋天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u2-s07",
+      "unit": 2,
+      "cn": "叶子从树上落下来。",
+      "en": "The leaves fall from the trees.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "leaves",
+          "cn": "叶子(leaf 的复数形式) (13)",
+          "pos": "名词"
+        },
+        {
+          "en": "fall",
+          "cn": "掉进",
+          "pos": "名词"
+        },
+        {
+          "en": "from",
+          "cn": "从",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "trees.",
+          "cn": "树",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u2-s08",
+      "unit": 2,
+      "cn": "这里冬天常下雪。",
+      "en": "It often snows here in winter.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "often",
+          "cn": "常常",
+          "pos": "名词"
+        },
+        {
+          "en": "snows",
+          "cn": "雪",
+          "pos": "名词"
+        },
+        {
+          "en": "here",
+          "cn": "这里",
+          "pos": "副词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "winter.",
+          "cn": "冬天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u2-s09",
+      "unit": 2,
+      "cn": "天气好的时候我们去郊游。",
+      "en": "We go for an outing on a fine day.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "outing",
+          "cn": "向外",
+          "pos": "副词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "fine",
+          "cn": "健康的",
+          "pos": "形容词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u2-s10",
       "unit": 2,
       "cn": "春天从三月持续到五月。",
       "en": "Spring lasts from March to May.",
@@ -1812,7 +2973,93 @@
       ]
     },
     {
-      "id": "cj-5b-u2-s04",
+      "id": "cj-5b-u2-s11",
+      "unit": 2,
+      "cn": "农民秋天收割庄稼。",
+      "en": "Farmers harvest the crops in autumn.",
+      "tokens": [
+        {
+          "en": "Farmers",
+          "cn": "农民",
+          "pos": "名词"
+        },
+        {
+          "en": "harvest",
+          "cn": "收割",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "crops",
+          "cn": "庄稼",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "autumn.",
+          "cn": "秋天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u2-s12",
+      "unit": 2,
+      "cn": "我们用复活节彩蛋庆祝这个节日。",
+      "en": "We celebrate the holiday with an Easter egg.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "celebrate",
+          "cn": "庆祝",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "holiday",
+          "cn": "假期",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "Easter",
+          "cn": "复活节",
+          "pos": "名词"
+        },
+        {
+          "en": "egg.",
+          "cn": "鸡蛋",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u2-s13",
       "unit": 2,
       "cn": "彩蛋和小鸡是复活节的象征。",
       "en": "Eggs and chicks are symbols of Easter.",
@@ -1855,16 +3102,11 @@
       ]
     },
     {
-      "id": "cj-5b-u2-s05",
+      "id": "cj-5b-u2-s14",
       "unit": 2,
-      "cn": "如今复活节是英国的全国性节日。",
-      "en": "Today, Easter is a national holiday in Britain.",
+      "cn": "复活节在英国是全国性的节日。",
+      "en": "Easter is a national holiday in Britain.",
       "tokens": [
-        {
-          "en": "Today,",
-          "cn": "今天",
-          "pos": "名词"
-        },
         {
           "en": "Easter",
           "cn": "复活节",
@@ -1877,8 +3119,8 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "national",
@@ -1903,29 +3145,39 @@
       ]
     },
     {
-      "id": "cj-5b-u2-s06",
+      "id": "cj-5b-u2-s15",
       "unit": 2,
-      "cn": "复活节的象征是什么？",
-      "en": "What are the symbols of Easter?",
+      "cn": "复活节彩蛋可以用巧克力做。",
+      "en": "An Easter egg can be made of chocolate.",
       "tokens": [
         {
-          "en": "What",
-          "cn": "什么",
-          "pos": "疑问词"
+          "en": "An",
+          "cn": "一个",
+          "pos": "冠词"
         },
         {
-          "en": "are",
+          "en": "Easter",
+          "cn": "复活节",
+          "pos": "名词"
+        },
+        {
+          "en": "egg",
+          "cn": "鸡蛋",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "be",
           "cn": "是",
           "pos": "动词"
         },
         {
-          "en": "the",
-          "cn": "这",
-          "pos": "冠词"
-        },
-        {
-          "en": "symbols",
-          "cn": "象征",
+          "en": "made",
+          "cn": "制造（make 的过去式）",
           "pos": "名词"
         },
         {
@@ -1934,79 +3186,112 @@
           "pos": "介词"
         },
         {
-          "en": "Easter?",
-          "cn": "复活节",
+          "en": "chocolate.",
+          "cn": "巧克力",
           "pos": "名词"
         }
       ]
     },
     {
-      "id": "cj-5b-u2-s07",
+      "id": "cj-5b-u2-s16",
       "unit": 2,
-      "cn": "复活节彩蛋通常是用什么做的？",
-      "en": "What are Easter eggs usually made of?",
+      "cn": "请给你的老师一张卡片。",
+      "en": "Please give a card to your teacher.",
       "tokens": [
         {
-          "en": "What",
-          "cn": "什么",
-          "pos": "疑问词"
-        },
-        {
-          "en": "are",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "Easter",
-          "cn": "复活节",
+          "en": "Please",
+          "cn": "请",
           "pos": "名词"
         },
         {
-          "en": "eggs",
-          "cn": "鸡蛋",
+          "en": "give",
+          "cn": "给",
           "pos": "名词"
         },
         {
-          "en": "usually",
-          "cn": "通常",
+          "en": "a",
+          "cn": "A",
           "pos": "名词"
         },
         {
-          "en": "made",
-          "cn": "制造（make 的过去式）",
+          "en": "card",
+          "cn": "贺卡",
           "pos": "名词"
         },
         {
-          "en": "of?",
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "teacher.",
+          "cn": "教师",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u2-s17",
+      "unit": 2,
+      "cn": "我需要一张纸。",
+      "en": "I need a piece of paper.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "need",
+          "cn": "需要",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "piece",
+          "cn": "片",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
           "cn": "的",
           "pos": "介词"
+        },
+        {
+          "en": "paper.",
+          "cn": "纸",
+          "pos": "名词"
         }
       ]
     },
     {
-      "id": "cj-5b-u2-s08",
+      "id": "cj-5b-u2-s18",
       "unit": 2,
-      "cn": "端午节也叫端阳节。",
-      "en": "The Dragon Boat Festival is also called the Duanwu Festival.",
+      "cn": "我认为他说得对。",
+      "en": "I think he is right.",
       "tokens": [
         {
-          "en": "The",
-          "cn": "这",
-          "pos": "冠词"
-        },
-        {
-          "en": "Dragon",
-          "cn": "龙",
+          "en": "I",
+          "cn": "I",
           "pos": "名词"
         },
         {
-          "en": "Boat",
-          "cn": "小船",
+          "en": "think",
+          "cn": "认为",
           "pos": "名词"
         },
         {
-          "en": "Festival",
-          "cn": "节日",
+          "en": "he",
+          "cn": "和",
           "pos": "名词"
         },
         {
@@ -2015,14 +3300,90 @@
           "pos": "动词"
         },
         {
-          "en": "also",
-          "cn": "也",
+          "en": "right.",
+          "cn": "正确的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u2-s19",
+      "unit": 2,
+      "cn": "我爸爸以前在银行工作。",
+      "en": "My father used to work in a bank.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "father",
+          "cn": "父亲",
+          "pos": "名词"
+        },
+        {
+          "en": "used",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "work",
+          "cn": "工作",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "bank.",
+          "cn": "银行",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u2-s20",
+      "unit": 2,
+      "cn": "河上有一条小船。",
+      "en": "There is a boat on the river.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
           "pos": "副词"
         },
         {
-          "en": "called",
-          "cn": "打电话",
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
           "pos": "名词"
+        },
+        {
+          "en": "boat",
+          "cn": "小船",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
         },
         {
           "en": "the",
@@ -2030,27 +3391,70 @@
           "pos": "冠词"
         },
         {
-          "en": "Duanwu",
-          "cn": "端午",
-          "pos": "名词"
-        },
-        {
-          "en": "Festival.",
-          "cn": "节日",
+          "en": "river.",
+          "cn": "河",
           "pos": "名词"
         }
       ]
     },
     {
-      "id": "cj-5b-u2-s09",
-      "unit": 2,
-      "cn": "端午节是什么时候？",
-      "en": "When is the Dragon Boat Festival?",
+      "id": "cj-5b-u3-s01",
+      "unit": 3,
+      "cn": "我的生日是五月一日。",
+      "en": "My birthday is on the first of May.",
       "tokens": [
         {
-          "en": "When",
-          "cn": "当……时",
-          "pos": "连词"
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "birthday",
+          "cn": "生日",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "first",
+          "cn": "第一",
+          "pos": "数词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "May.",
+          "cn": "可以",
+          "pos": "情态动词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s02",
+      "unit": 3,
+      "cn": "今天是新学期的第二天。",
+      "en": "Today is the second day of the new term.",
+      "tokens": [
+        {
+          "en": "Today",
+          "cn": "今天",
+          "pos": "名词"
         },
         {
           "en": "is",
@@ -2063,47 +3467,176 @@
           "pos": "冠词"
         },
         {
-          "en": "Dragon",
-          "cn": "龙",
+          "en": "second",
+          "cn": "第二",
+          "pos": "数词"
+        },
+        {
+          "en": "day",
+          "cn": "天",
           "pos": "名词"
         },
         {
-          "en": "Boat",
-          "cn": "小船",
-          "pos": "名词"
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
         },
         {
-          "en": "Festival?",
-          "cn": "节日",
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "term.",
+          "cn": "学期",
           "pos": "名词"
         }
       ]
     },
     {
-      "id": "cj-5b-u2-s10",
-      "unit": 2,
-      "cn": "人们在端午节做什么？",
-      "en": "What do people do in the Dragon Boat Festival?",
+      "id": "cj-5b-u3-s03",
+      "unit": 3,
+      "cn": "三月是一年中的第三个月。",
+      "en": "March is the third month of the year.",
       "tokens": [
         {
-          "en": "What",
-          "cn": "什么",
-          "pos": "疑问词"
+          "en": "March",
+          "cn": "三月",
+          "pos": "数词"
         },
         {
-          "en": "do",
-          "cn": "做",
-          "pos": "助动词"
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
         },
         {
-          "en": "people",
-          "cn": "人们",
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "third",
+          "cn": "第三",
+          "pos": "数词"
+        },
+        {
+          "en": "month",
+          "cn": "月",
           "pos": "名词"
         },
         {
-          "en": "do",
-          "cn": "做",
-          "pos": "助动词"
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "year.",
+          "cn": "年",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s04",
+      "unit": 3,
+      "cn": "他住在四楼。",
+      "en": "He lives on the fourth floor.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "lives",
+          "cn": "居住",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "fourth",
+          "cn": "第四",
+          "pos": "数词"
+        },
+        {
+          "en": "floor.",
+          "cn": "地板",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s05",
+      "unit": 3,
+      "cn": "这是我的第五本英语书。",
+      "en": "This is my fifth English book.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "fifth",
+          "cn": "第五",
+          "pos": "数词"
+        },
+        {
+          "en": "English",
+          "cn": "英文的",
+          "pos": "形容词"
+        },
+        {
+          "en": "book.",
+          "cn": "书",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s06",
+      "unit": 3,
+      "cn": "她上六年级。",
+      "en": "She is in the sixth grade.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
         },
         {
           "en": "in",
@@ -2116,322 +3649,27 @@
           "pos": "冠词"
         },
         {
-          "en": "Dragon",
-          "cn": "龙",
-          "pos": "名词"
-        },
-        {
-          "en": "Boat",
-          "cn": "小船",
-          "pos": "名词"
-        },
-        {
-          "en": "Festival?",
-          "cn": "节日",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "cj-5b-u2-s11",
-      "unit": 2,
-      "cn": "你喜欢英语吗？",
-      "en": "Do you like English?",
-      "tokens": [
-        {
-          "en": "Do",
-          "cn": "做",
-          "pos": "助动词"
-        },
-        {
-          "en": "you",
-          "cn": "你",
-          "pos": "代词"
-        },
-        {
-          "en": "like",
-          "cn": "喜欢",
-          "pos": "名词"
-        },
-        {
-          "en": "English?",
-          "cn": "英文的",
-          "pos": "形容词"
-        }
-      ]
-    },
-    {
-      "id": "cj-5b-u2-s12",
-      "unit": 2,
-      "cn": "我怎么过马路？",
-      "en": "How can I cross the street?",
-      "tokens": [
-        {
-          "en": "How",
-          "cn": "怎样",
-          "pos": "疑问词"
-        },
-        {
-          "en": "can",
-          "cn": "能",
-          "pos": "情态动词"
-        },
-        {
-          "en": "I",
-          "cn": "我",
-          "pos": "代词"
-        },
-        {
-          "en": "cross",
-          "cn": "穿越",
-          "pos": "名词"
-        },
-        {
-          "en": "the",
-          "cn": "这",
-          "pos": "冠词"
-        },
-        {
-          "en": "street?",
-          "cn": "街道",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "cj-5b-u2-s13",
-      "unit": 2,
-      "cn": "这是罗斯。",
-      "en": "This is Rose.",
-      "tokens": [
-        {
-          "en": "This",
-          "cn": "这个",
-          "pos": "代词"
-        },
-        {
-          "en": "is",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "Rose.",
-          "cn": "罗斯",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "cj-5b-u2-s14",
-      "unit": 2,
-      "cn": "今天是九月一日。",
-      "en": "It is September 1st.",
-      "tokens": [
-        {
-          "en": "It",
-          "cn": "它",
-          "pos": "代词"
-        },
-        {
-          "en": "is",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "September",
-          "cn": "九月",
+          "en": "sixth",
+          "cn": "第六",
           "pos": "数词"
         },
         {
-          "en": "1st.",
-          "cn": "1st",
+          "en": "grade.",
+          "cn": "年级",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s07",
+      "unit": 3,
+      "cn": "七月是一年中的第七个月。",
+      "en": "July is the seventh month of the year.",
+      "tokens": [
+        {
+          "en": "July",
+          "cn": "七月",
           "pos": "数词"
-        }
-      ]
-    },
-    {
-      "id": "cj-5b-u2-s15",
-      "unit": 2,
-      "cn": "那时还是八月三十一日。",
-      "en": "It was August 31st.",
-      "tokens": [
-        {
-          "en": "It",
-          "cn": "它",
-          "pos": "代词"
-        },
-        {
-          "en": "was",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "August",
-          "cn": "八月",
-          "pos": "数词"
-        },
-        {
-          "en": "31st.",
-          "cn": "31st",
-          "pos": "数词"
-        }
-      ]
-    },
-    {
-      "id": "cj-5b-u3-s01",
-      "unit": 3,
-      "cn": "母亲节是什么时候？",
-      "en": "When is Mother’s Day?",
-      "tokens": [
-        {
-          "en": "When",
-          "cn": "当……时",
-          "pos": "连词"
-        },
-        {
-          "en": "is",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "Mother’s",
-          "cn": "母亲",
-          "pos": "名词"
-        },
-        {
-          "en": "Day?",
-          "cn": "天",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "cj-5b-u3-s02",
-      "unit": 3,
-      "cn": "迪克办了一场什么聚会？",
-      "en": "What party does Dick have?",
-      "tokens": [
-        {
-          "en": "What",
-          "cn": "什么",
-          "pos": "疑问词"
-        },
-        {
-          "en": "party",
-          "cn": "聚会",
-          "pos": "名词"
-        },
-        {
-          "en": "does",
-          "cn": "做",
-          "pos": "助动词"
-        },
-        {
-          "en": "Dick",
-          "cn": "迪克",
-          "pos": "名词"
-        },
-        {
-          "en": "have?",
-          "cn": "有",
-          "pos": "动词"
-        }
-      ]
-    },
-    {
-      "id": "cj-5b-u3-s03",
-      "unit": 3,
-      "cn": "需要我帮忙吗？",
-      "en": "Can I help you?",
-      "tokens": [
-        {
-          "en": "Can",
-          "cn": "能",
-          "pos": "情态动词"
-        },
-        {
-          "en": "I",
-          "cn": "我",
-          "pos": "代词"
-        },
-        {
-          "en": "help",
-          "cn": "帮助",
-          "pos": "动词"
-        },
-        {
-          "en": "you?",
-          "cn": "你",
-          "pos": "代词"
-        }
-      ]
-    },
-    {
-      "id": "cj-5b-u3-s04",
-      "unit": 3,
-      "cn": "我是乐乐。",
-      "en": "This is Lele speaking.",
-      "tokens": [
-        {
-          "en": "This",
-          "cn": "这个",
-          "pos": "代词"
-        },
-        {
-          "en": "is",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "Lele",
-          "cn": "乐乐",
-          "pos": "名词"
-        },
-        {
-          "en": "speaking.",
-          "cn": "说",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "cj-5b-u3-s05",
-      "unit": 3,
-      "cn": "我怎么才能睡着？",
-      "en": "How can I sleep?",
-      "tokens": [
-        {
-          "en": "How",
-          "cn": "怎样",
-          "pos": "疑问词"
-        },
-        {
-          "en": "can",
-          "cn": "能",
-          "pos": "情态动词"
-        },
-        {
-          "en": "I",
-          "cn": "我",
-          "pos": "代词"
-        },
-        {
-          "en": "sleep?",
-          "cn": "睡觉",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "cj-5b-u3-s06",
-      "unit": 3,
-      "cn": "小红母鸡打算做什么？",
-      "en": "What is the Little Red Hen going to do?",
-      "tokens": [
-        {
-          "en": "What",
-          "cn": "什么",
-          "pos": "疑问词"
         },
         {
           "en": "is",
@@ -2444,23 +3682,89 @@
           "pos": "冠词"
         },
         {
-          "en": "Little",
-          "cn": "小的",
-          "pos": "形容词"
+          "en": "seventh",
+          "cn": "第七",
+          "pos": "数词"
         },
         {
-          "en": "Red",
-          "cn": "红色",
+          "en": "month",
+          "cn": "月",
           "pos": "名词"
         },
         {
-          "en": "Hen",
-          "cn": "母鸡",
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "year.",
+          "cn": "年",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s08",
+      "unit": 3,
+      "cn": "我的座位在第八排。",
+      "en": "My seat is in the eighth row.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "seat",
+          "cn": "座位",
           "pos": "名词"
         },
         {
-          "en": "going",
-          "cn": "走",
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "eighth",
+          "cn": "第八",
+          "pos": "数词"
+        },
+        {
+          "en": "row.",
+          "cn": "划船",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s09",
+      "unit": 3,
+      "cn": "请翻到第九页。",
+      "en": "Please turn to the ninth page.",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "turn",
+          "cn": "转弯",
           "pos": "名词"
         },
         {
@@ -2469,36 +3773,69 @@
           "pos": "介词"
         },
         {
-          "en": "do?",
-          "cn": "做",
-          "pos": "助动词"
-        }
-      ]
-    },
-    {
-      "id": "cj-5b-u3-s07",
-      "unit": 3,
-      "cn": "小红母鸡真漂亮。",
-      "en": "The Little Red Hen is beautiful.",
-      "tokens": [
-        {
-          "en": "The",
+          "en": "the",
           "cn": "这",
           "pos": "冠词"
         },
         {
-          "en": "Little",
-          "cn": "小的",
-          "pos": "形容词"
+          "en": "ninth",
+          "cn": "第九",
+          "pos": "数词"
         },
         {
-          "en": "Red",
-          "cn": "红色",
+          "en": "page.",
+          "cn": "页",
           "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s10",
+      "unit": 3,
+      "cn": "十月是第十个月。",
+      "en": "October is the tenth month.",
+      "tokens": [
+        {
+          "en": "October",
+          "cn": "十月",
+          "pos": "数词"
         },
         {
-          "en": "Hen",
-          "cn": "母鸡",
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "tenth",
+          "cn": "第十",
+          "pos": "数词"
+        },
+        {
+          "en": "month.",
+          "cn": "月",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s11",
+      "unit": 3,
+      "cn": "他的生日是六月十一日。",
+      "en": "His birthday is on the eleventh of June.",
+      "tokens": [
+        {
+          "en": "His",
+          "cn": "他的",
+          "pos": "限定词"
+        },
+        {
+          "en": "birthday",
+          "cn": "生日",
           "pos": "名词"
         },
         {
@@ -2507,9 +3844,1011 @@
           "pos": "动词"
         },
         {
-          "en": "beautiful.",
-          "cn": "美丽的",
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "eleventh",
+          "cn": "第十一",
+          "pos": "数词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "June.",
+          "cn": "六月",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s12",
+      "unit": 3,
+      "cn": "十二月是一年中的第十二个月。",
+      "en": "December is the twelfth month of the year.",
+      "tokens": [
+        {
+          "en": "December",
+          "cn": "十二月",
+          "pos": "数词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "twelfth",
+          "cn": "第十二",
+          "pos": "数词"
+        },
+        {
+          "en": "month",
+          "cn": "月",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "year.",
+          "cn": "年",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s13",
+      "unit": 3,
+      "cn": "明天是她十三岁生日。",
+      "en": "Tomorrow is her thirteenth birthday.",
+      "tokens": [
+        {
+          "en": "Tomorrow",
+          "cn": "明天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "her",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "thirteenth",
+          "cn": "第十三",
+          "pos": "数词"
+        },
+        {
+          "en": "birthday.",
+          "cn": "生日",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s14",
+      "unit": 3,
+      "cn": "我们在十四日有一个聚会。",
+      "en": "We have a party on the fourteenth.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "party",
+          "cn": "聚会",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "fourteenth.",
+          "cn": "第十四",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s15",
+      "unit": 3,
+      "cn": "这是第十五课。",
+      "en": "This is the fifteenth lesson.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "fifteenth",
+          "cn": "第十五",
+          "pos": "数词"
+        },
+        {
+          "en": "lesson.",
+          "cn": "课",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s16",
+      "unit": 3,
+      "cn": "六月十六日在这里是节日。",
+      "en": "The sixteenth of June is a holiday here.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sixteenth",
+          "cn": "第十六",
+          "pos": "数词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "June",
+          "cn": "六月",
+          "pos": "数词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "holiday",
+          "cn": "假期",
+          "pos": "名词"
+        },
+        {
+          "en": "here.",
+          "cn": "这里",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s17",
+      "unit": 3,
+      "cn": "今天是四月十七日。",
+      "en": "Today is the seventeenth of April.",
+      "tokens": [
+        {
+          "en": "Today",
+          "cn": "今天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "seventeenth",
+          "cn": "第十七",
+          "pos": "数词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "April.",
+          "cn": "四月",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s18",
+      "unit": 3,
+      "cn": "我姐姐十八岁，所以今天是她十八岁生日。",
+      "en": "My sister is eighteen, so today is her eighteenth birthday.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "sister",
+          "cn": "姐姐",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "eighteen,",
+          "cn": "十八",
+          "pos": "数词"
+        },
+        {
+          "en": "so",
+          "cn": "所以",
+          "pos": "连词"
+        },
+        {
+          "en": "today",
+          "cn": "今天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "her",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "eighteenth",
+          "cn": "第十八",
+          "pos": "数词"
+        },
+        {
+          "en": "birthday.",
+          "cn": "生日",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s19",
+      "unit": 3,
+      "cn": "五月十九日是星期一。",
+      "en": "The nineteenth of May is a Monday.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "nineteenth",
+          "cn": "第十九",
+          "pos": "数词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "May",
+          "cn": "可以",
+          "pos": "情态动词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "Monday.",
+          "cn": "星期一",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s20",
+      "unit": 3,
+      "cn": "我今天下午有空。",
+      "en": "I am free this afternoon.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "free",
+          "cn": "免费的",
           "pos": "形容词"
+        },
+        {
+          "en": "this",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "afternoon.",
+          "cn": "下午",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s21",
+      "unit": 3,
+      "cn": "我们为汤姆办了一个生日聚会。",
+      "en": "We have a birthday party for Tom.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "birthday",
+          "cn": "生日",
+          "pos": "名词"
+        },
+        {
+          "en": "party",
+          "cn": "聚会",
+          "pos": "名词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "Tom.",
+          "cn": "汤姆",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s22",
+      "unit": 3,
+      "cn": "请准时来。",
+      "en": "Please come on time.",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "come",
+          "cn": "来",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "time.",
+          "cn": "时间",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s23",
+      "unit": 3,
+      "cn": "我有一双新袜子和一件女式衬衣。",
+      "en": "I have a new pair of socks and a blouse.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "pair",
+          "cn": "一条",
+          "pos": "数词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "socks",
+          "cn": "短袜",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "blouse.",
+          "cn": "（女式）衬衣",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s24",
+      "unit": 3,
+      "cn": "她钢琴弹得很好。",
+      "en": "She can play the piano very well.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "piano",
+          "cn": "钢琴",
+          "pos": "名词"
+        },
+        {
+          "en": "very",
+          "cn": "很",
+          "pos": "副词"
+        },
+        {
+          "en": "well.",
+          "cn": "好",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s25",
+      "unit": 3,
+      "cn": "我没有钱买磁带。",
+      "en": "I have no money for the tape.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "no",
+          "cn": "不",
+          "pos": "副词"
+        },
+        {
+          "en": "money",
+          "cn": "钱",
+          "pos": "名词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "tape.",
+          "cn": "磁带",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s26",
+      "unit": 3,
+      "cn": "你的电话在桌子上。",
+      "en": "Your phone is on the table.",
+      "tokens": [
+        {
+          "en": "Your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "phone",
+          "cn": "电话",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "table.",
+          "cn": "桌子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s27",
+      "unit": 3,
+      "cn": "我的手机是新的。",
+      "en": "My mobile phone is new.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "mobile",
+          "cn": "移动的",
+          "pos": "形容词"
+        },
+        {
+          "en": "phone",
+          "cn": "电话",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "new.",
+          "cn": "新的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s28",
+      "unit": 3,
+      "cn": "你看起来像你妈妈。",
+      "en": "You look like your mother.",
+      "tokens": [
+        {
+          "en": "You",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "look",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "mother.",
+          "cn": "母亲",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s29",
+      "unit": 3,
+      "cn": "这件外套太贵了。",
+      "en": "This coat is too expensive.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "coat",
+          "cn": "上衣",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "too",
+          "cn": "也",
+          "pos": "副词"
+        },
+        {
+          "en": "expensive.",
+          "cn": "昂贵的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s30",
+      "unit": 3,
+      "cn": "我们点上蜡烛，唱首歌吧。",
+      "en": "Let's light the candles and sing a song.",
+      "tokens": [
+        {
+          "en": "Let's",
+          "cn": "让我们",
+          "pos": "缩略"
+        },
+        {
+          "en": "light",
+          "cn": "灯",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "candles",
+          "cn": "蜡烛",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "sing",
+          "cn": "唱",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "song.",
+          "cn": "歌",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s31",
+      "unit": 3,
+      "cn": "现在吹灭蜡烛，许个愿吧。",
+      "en": "Now blow out the candles and make a wish.",
+      "tokens": [
+        {
+          "en": "Now",
+          "cn": "现在",
+          "pos": "副词"
+        },
+        {
+          "en": "blow",
+          "cn": "吹",
+          "pos": "名词"
+        },
+        {
+          "en": "out",
+          "cn": "向外",
+          "pos": "副词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "candles",
+          "cn": "蜡烛",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "make",
+          "cn": "制作（过去式 made）",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "wish.",
+          "cn": "希望",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s32",
+      "unit": 3,
+      "cn": "不要再上学迟到了。",
+      "en": "Don't be late for school again.",
+      "tokens": [
+        {
+          "en": "Don't",
+          "cn": "不",
+          "pos": "助动词"
+        },
+        {
+          "en": "be",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "late",
+          "cn": "晚的",
+          "pos": "形容词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "school",
+          "cn": "学校",
+          "pos": "名词"
+        },
+        {
+          "en": "again.",
+          "cn": "再一次",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s33",
+      "unit": 3,
+      "cn": "我每天早上起得很早。",
+      "en": "I get up early every morning.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "get",
+          "cn": "准备",
+          "pos": "名词"
+        },
+        {
+          "en": "up",
+          "cn": "向上",
+          "pos": "副词"
+        },
+        {
+          "en": "early",
+          "cn": "早的",
+          "pos": "形容词"
+        },
+        {
+          "en": "every",
+          "cn": "每一个",
+          "pos": "名词"
+        },
+        {
+          "en": "morning.",
+          "cn": "早晨",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s34",
+      "unit": 3,
+      "cn": "妈妈为我担心。",
+      "en": "Mother is worried about me.",
+      "tokens": [
+        {
+          "en": "Mother",
+          "cn": "母亲",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "worried",
+          "cn": "担忧的",
+          "pos": "形容词"
+        },
+        {
+          "en": "about",
+          "cn": "关于",
+          "pos": "介词"
+        },
+        {
+          "en": "me.",
+          "cn": "我",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "cj-5b-u3-s35",
+      "unit": 3,
+      "cn": "你必须准时完成作业。",
+      "en": "You must finish your homework on time.",
+      "tokens": [
+        {
+          "en": "You",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "must",
+          "cn": "必须",
+          "pos": "情态动词"
+        },
+        {
+          "en": "finish",
+          "cn": "完成",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "homework",
+          "cn": "家庭作业",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "time.",
+          "cn": "时间",
+          "pos": "名词"
         }
       ]
     }
