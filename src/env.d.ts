@@ -1,3 +1,44 @@
+export interface VoicePackStatus {
+  installed: boolean
+  usable: boolean
+  skipped: boolean
+  count: number
+  bundled: number
+  expectedCount: number
+  version: string
+  expectedVersion: string
+  bytes: number
+  parts: { name: string; bytes: number }[]
+  outdated: boolean
+  missing: boolean
+  voiceDir: string
+  mirrored: string
+  presetMirror: string
+  manifest: { version: string; count: number }
+}
+
+export interface VoicePackProgress {
+  phase: 'start' | 'download' | 'verify' | 'extract' | 'install' | 'done' | 'error' | 'switch'
+  partIndex?: number
+  partCount?: number
+  partName?: string
+  got?: number
+  total?: number
+  speed?: number
+  eta?: number
+  count?: number
+  bytes?: number
+  message?: string
+  mirror?: string
+}
+
+export interface VoicePackResult {
+  ok: boolean
+  count?: number
+  message?: string
+  canceled?: boolean
+}
+
 export interface WindowApi {
   minimize: () => void
   maximize: () => void
@@ -12,6 +53,15 @@ export interface WindowApi {
   setGuardMode?: (on: boolean) => void
   /** 读一段离线语音 mp3（按 hash），越权或缺失返回 null */
   readVoice?: (hash: string) => Promise<Uint8Array | null>
+  /** 外置语音包管理（下载、导入、状态） */
+  voicePack?: {
+    status: () => Promise<VoicePackStatus>
+    download: (opts?: { mirror?: string }) => Promise<VoicePackResult>
+    skip: (on: boolean) => Promise<VoicePackStatus>
+    remove: () => Promise<VoicePackStatus>
+    pickAndInstall: () => Promise<VoicePackResult>
+    onProgress: (cb: (p: VoicePackProgress) => void) => () => void
+  }
 }
 
 declare global {

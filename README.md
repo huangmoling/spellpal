@@ -55,7 +55,7 @@
 - **`Space` 只干一件事：这句拼完，进下一句**。词没打完时按它没反应，会提示先把句子打完——空格不是跳词键，也不是看答案键。
 - `Enter` 跳过整句默认关闭，见下面「设置」。开关关着时词没拼完就是不能跳。
 - 打不出来的句子不用慌，点「听英文」可以无限重播。
-- 发音用**自带的离线语音包**（981 词 + 548 句神经语音 mp3，约 20 MB），装完即用，不联网、不依赖系统装了什么语音。
+- 发音用**独立的离线语音包**（9374 段神经语音 mp3，约 134 MB，首次启动下载一次），之后不联网、不依赖系统装了什么语音。安装包本体只有 60 MB 左右。
 
 ### 虚拟键盘指法提示
 
@@ -393,12 +393,49 @@ python scripts/tts_pack.py all                 # 合成 → 校验 → 打包
 | `pack` | 打成 zip（STORE，mp3 本身已压缩），支持 `--split-mb` 切卷，附 `manifest.json` + `SHA256SUMS.txt`，索引也塞进包里 |
 | `stats` | 覆盖率、总体积、单条大小区间 |
 
-- 产物分工：`public/voice/<hash>.mp3` 每段一个文件（约 14 KB，**已进仓库**，正常构建不用再跑）；`src/data/voice-index.json` 是英文原文 → hash 的索引；`release/voice-pack/*.zip` 是分发用语音包（`release/` 在 .gitignore 里，单独分发，不进仓库）。
+- 产物分工：`public/voice/<hash>.mp3` 每段一个文件（约 14 KB，**不进安装包**，见下一节）；`src/data/voice-index.json` 是英文原文 → hash 的索引；`release/voice-pack/*.zip` 是分发用语音包（`release/` 在 .gitignore 里，单独分发，不进仓库）。
 - 文件名取文本 sha1 前 12 位，避开空格、大小写、标点在文件系统上的差异；索引键就是英文原句，运行时拿整句直接查，不额外占内存。词比句读得慢（`-10%` / `-5%`），同一段文本既是词又是句时按词处理。
 - 运行时 `src/utils/voice.ts` 用 Web Audio 播放：每条按有声段 RMS 归一化到 -18 dBFS，词与词响度一致；首尾静音裁掉（神经语音每条尾巴挂着近 1 秒空白）；末端串一个 -9 dB / 比 8 的压缩器兜住峰值，实测峰值 0.85，满音量不削波。
 - 打包后页面在 `file://` 下，fetch 读不到本地文件，音频由主进程读出来经 `voice:read` 这个 IPC 交给渲染进程（`electron/voice-io.cjs`，主进程和自测脚本共用）。
 
 用到的接口是 Edge「朗读」功能的非公开接口，攒成音频自用没问题，正式商用请换成 Azure 订阅或开源模型。
+
+### 语音包与安装包分离
+
+语音包 **134 MB / 9374 段**，比除 Electron 本体以外的所有代码加起来还大一个量级。把它塞进 asar，安装包从 60 MB 涨到 189 MB，而 mp3 本身已经压过，NSIS 再压也压不动。所以 0.19.0 起改成外置：
+
+**打包侧**
+
+- `vite build` 时 `publicDir: false`，`dist/` 里不再有 `voice/`（7.2 MB）；`package.json` 的 build.files 再加一条 `!dist/voice/**` 兜底
+- `tts_pack.py pack --split-mb 50` 产出的每卷 zip 带 `zipBytes` 与 `sha256`，清单同时写两处：`release/voice-pack/manifest.json`（发布核对）和 `electron/voice-pack.manifest.json`（随软件打包，客户端只认它）
+- 分卷上传到 GitHub Release（tag `voice-<版本>`），清单里 `baseUrl` 用 `{version}` 占位拼地址，另配几个公共加速前缀做镜像兜底
+
+**客户端侧**（`electron/voice-pack.cjs`）
+
+| 阶段 | 做什么 |
+|---|---|
+| 检查 | 启动时读 `userData/voice-pack-state.json`，比对内置清单的 `version` 与磁盘上实际 mp3 数量 |
+| 下载 | 分卷下到 `userData/voice-tmp`，带 `Range` 续传（断网重开不重下）、每卷 SHA256 校验、失败指数退避重试 3 次、整轮换下载源 |
+| 解压 | 零依赖 zip 读取（`electron/zip-read.cjs`，只支持 STORE/DEFLATE），解到 `voice-new` 后按 mp3 数量核对清单 |
+| 安装 | 删旧目录 → `rename` 原子换名 → 写状态 → 清掉 tmp 里的分卷 |
+| 读取 | `voice-io.cjs` 按 `userData/voice` → 包内 `dist/voice` 的顺序找，所以开发模式和从旧版升级的机器都能发音 |
+
+几个绕不开的坑，都踩过了：
+
+- **清单里的 `bytes` 是卷内 mp3 之和，不是 zip 文件大小**（差一个 zip 目录的开销，134 MB 的包差约 800 KB）。下载时拿 `bytes` 当期望长度，校验永远不过，表现成「第一卷下完就卡住」。客户端一律用 `zipBytes`。
+- **解压 3500 个小文件在 Windows 上很慢**。实测同一卷 3495 个文件：每文件 `mkdir` + `writeFileSync` 约 40 s；32 路 `fs.promises.writeFile` 并发反而要 90 s（4 个线程池线程被 open/write/close 抢爆）；顺序同步写 + 每 120 个 `setImmediate` 让出事件循环约 34 s 且界面不假死。取第三种。
+- **首次启动必须给出口**。孩子第一次打开看到 134 MB 的下载会不知所措，所以引导页三个按钮平级：开始下载 / 从文件导入（内网、机房用）/ 先用系统语音。跳过后随时能在「设置 → 声音 → 离线语音包」里补下载或删掉重装。
+- **升级安装会丢语音包**。NSIS 覆盖安装会把旧的 `app.asar`（连同里面的 voice）换掉，老用户升上来要重下一次，这是外置方案必然的代价。
+
+**发布语音包**
+
+```bash
+python scripts/tts_pack.py pack --split-mb 50     # 生成分卷 + 两处清单
+# 把 release/voice-pack/*.zip 传到 GitHub Release，tag 用 voice-<清单里的 version>
+```
+
+`electron/voice-pack.manifest.json` 是客户端唯一认的清单，换音色或改了语速后必须重新 `pack` 再发一次，版本号（默认当天日期）变了客户端才会主动更新。
+
 
 ### 自动化验证
 

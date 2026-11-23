@@ -29,6 +29,7 @@ import {
 import type { Theme } from '@/store/useApp'
 import { fmtDuration } from '@/core/pin'
 import { PinAuthDialog, PinSetupDialog } from '@/components/GuardDialogs'
+import VoicePackSetting from '@/components/VoicePackSetting'
 import { noticeLines, openRepo, repoUrl } from '@/core/notice'
 import { ERROR_SFX, KEY_SFX, SUCCESS_SFX, playError, playKey, playSuccess } from '@/utils/sound'
 
@@ -385,6 +386,16 @@ export default function SettingsSheet({ onClose }: { onClose: () => void }) {
               <p className="mt-1 px-1 text-[10px] leading-relaxed text-muted/40">
                 「听英文」的朗读和音效一起调。想单独关掉滴滴声，去下面关按键音。
               </p>
+
+              <div className="mt-4">
+                <div className="mb-2 text-[11px] font-medium tracking-wide text-muted/55">
+                  离线语音包
+                </div>
+                <VoicePackSetting />
+                <p className="mt-1 px-1 text-[10px] leading-relaxed text-muted/40">
+                  单词和例句的高清发音存在本机，装一次就不用再联网。
+                </p>
+              </div>
             </section>
 
             {/* 练习辅助 */}

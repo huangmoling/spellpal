@@ -92,7 +92,14 @@ DEFAULT_SENT_RATE = "-5%"
 MIN_MP3_BYTES = 600
 
 PACK_FORMAT = "spellpal-voice-pack"
-PACK_VERSION = 1
+REPO_URL = "https://github.com/huangmoling/spellpal"
+# 客户端拼下载地址的模板，{version} 会被清单里的版本号替换
+DEFAULT_BASE_URL = REPO_URL + "/releases/download/voice-{version}"
+# 国内直连 GitHub Release 经常龟速/超时，给几个公共加速前缀做兜底
+DEFAULT_MIRRORS = [
+    "https://ghfast.top/" + REPO_URL + "/releases/download/voice-{version}",
+    "https://gh-proxy.com/" + REPO_URL + "/releases/download/voice-{version}",
+]
 
 
 # ---------------------------------------------------------------- 小工具
@@ -593,6 +600,13 @@ def sha256_of(path: str) -> str:
 
 
 def cmd_pack(args: argparse.Namespace) -> None:
+    """打成分卷 zip + 一份客户端能直接读的清单。
+
+    0.19 起安装包不再内置语音，客户端首次启动会照这份清单去远端下：
+    清单必须自带每卷的字节数与 SHA256，客户端才敢「校验通过再解压」。
+    清单同时写两处：release/ 里那份用于发布核对，
+    electron/ 里那份随软件打包，是客户端唯一的真相来源。
+    """
     if not os.path.isdir(VOICE_DIR):
         die(f"没有音频目录 {VOICE_DIR}，先跑 synth")
 
@@ -614,15 +628,20 @@ def cmd_pack(args: argparse.Namespace) -> None:
     if not pairs:
         die("一个可打包的音频都没有")
 
+    version = (args.pack_version or datetime.now().strftime("%Y%m%d")).strip()
+    base_url = (args.base_url or DEFAULT_BASE_URL).strip()
+
     out_dir = args.out or PACK_DIR
     os.makedirs(out_dir, exist_ok=True)
     total_bytes = sum(sz for _, sz in pairs)
     parts = _split_by_size(pairs, int(args.split_mb * 1024 * 1024))
+    n_parts = len(parts)
 
     stamp = datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds")
     manifest = {
         "format": PACK_FORMAT,
-        "version": PACK_VERSION,
+        "formatVersion": 2,
+        "version": version,
         "generatedAt": stamp,
         "voice": args.voice,
         "wordRate": args.word_rate,
@@ -630,15 +649,16 @@ def cmd_pack(args: argparse.Namespace) -> None:
         "count": len(pairs),
         "bytes": total_bytes,
         "indexEntries": len(index),
+        "baseUrl": base_url.replace("{version}", version),
+        "mirrors": [m.replace("{version}", version) for m in DEFAULT_MIRRORS],
         "parts": [],
     }
 
-    print(f"打包 {len(pairs)} 段 / {human(total_bytes)}，分 {len(parts)} 卷 → "
+    print(f"打包 {len(pairs)} 段 / {human(total_bytes)}，分 {n_parts} 卷 → "
           f"{os.path.relpath(out_dir, ROOT)}")
 
     for i, part in enumerate(parts, 1):
-        suffix = f"-part{i}of{len(parts)}" if len(parts) > 1 else ""
-        name = f"spellpal-voice{suffix}.zip"
+        name = f"spellpal-voice-{version}-part{i}of{n_parts}.zip"
         out_path = os.path.join(out_dir, name)
         part_bytes = sum(sz for _, sz in part)
 
@@ -648,17 +668,8 @@ def cmd_pack(args: argparse.Namespace) -> None:
         with zipfile.ZipFile(out_path, "w", zipfile.ZIP_STORED, allowZip64=True) as z:
             for key, _ in part:
                 z.write(os.path.join(VOICE_DIR, key + ".mp3"), f"voice/{key}.mp3")
-            # 索引随包分发，解包方不必回头找仓库
+            # 每卷都带一份索引：解包方不必再回头找仓库，单卷也能凑合着用
             z.write(INDEX_PATH, "voice-index.json")
-            z.writestr(
-                "README.txt",
-                "小拼手 SpellPal 离线语音包\n"
-                f"生成时间：{stamp}\n"
-                f"音色：{args.voice}\n"
-                f"本卷 {len(part)} 段，共 {len(pairs)} 段 / 全部 {len(parts)} 卷\n"
-                "用法：把 voice/*.mp3 放到应用目录的 voice/ 下，\n"
-                "      voice-index.json 放到 src/data/ 后重新构建。\n",
-            )
 
         digest = sha256_of(out_path)
         manifest["parts"].append({
@@ -671,17 +682,27 @@ def cmd_pack(args: argparse.Namespace) -> None:
         print(f"  {name}  {len(part)} 段  {human(part_bytes)} → "
               f"{human(os.path.getsize(out_path))}")
 
+    body = json.dumps(manifest, ensure_ascii=False, indent=2) + "\n"
+
+    # 1) 发布目录里的完整清单
     with open(os.path.join(out_dir, "manifest.json"), "w", encoding="utf-8") as f:
-        json.dump(manifest, f, ensure_ascii=False, indent=2)
-        f.write("\n")
+        f.write(body)
+
+    # 2) 随软件打包的那份：客户端只认它
+    bundled = os.path.join(ROOT, "electron", "voice-pack.manifest.json")
+    os.makedirs(os.path.dirname(bundled), exist_ok=True)
+    with open(bundled, "w", encoding="utf-8") as f:
+        f.write(body)
 
     with open(os.path.join(out_dir, "SHA256SUMS.txt"), "w", encoding="utf-8") as f:
         for p in manifest["parts"]:
             f.write(f"{p['sha256']}  {p['name']}\n")
 
     print(f"清单 {os.path.relpath(os.path.join(out_dir, 'manifest.json'), ROOT)}")
+    print(f"内置 {os.path.relpath(bundled, ROOT)}")
     print(f"校验 {os.path.relpath(os.path.join(out_dir, 'SHA256SUMS.txt'), ROOT)}")
-    print("（release/ 已在 .gitignore 里，语音包单独分发，不进仓库）")
+    print(f"下载源 {manifest['baseUrl']}")
+    print(f"版本 {version}（客户端靠它判断要不要更新）")
 
 
 # ---------------------------------------------------------------- CLI
@@ -728,6 +749,10 @@ def build_parser() -> argparse.ArgumentParser:
     p = sub.add_parser("pack", help="打成分发音频包", parents=[common])
     p.add_argument("--split-mb", type=float, default=0, help="按 MB 切卷，0 表示单卷")
     p.add_argument("--out", help="输出目录，默认 release/voice-pack")
+    p.add_argument("--pack-version", dest="pack_version", default="",
+                   help="语音包版本号，默认当天日期 YYYYMMDD；客户端靠它决定是否更新")
+    p.add_argument("--base-url", dest="base_url", default="",
+                   help="下载地址模板，含 {version} 占位")
     p.set_defaults(func=cmd_pack)
 
     p = sub.add_parser("stats", help="覆盖率与体积统计", parents=[common])

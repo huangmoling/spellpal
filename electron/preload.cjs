@@ -17,4 +17,17 @@ contextBridge.exposeInMainWorld('spellpal', {
   setGuardMode: (on) => ipcRenderer.send('app:guard-mode', !!on),
   /* 离线语音包：按 hash 取一段 mp3，返回 Buffer（渲染进程当 Uint8Array 用） */
   readVoice: (hash) => ipcRenderer.invoke('voice:read', hash),
+  /* 外置语音包的下载 / 安装 / 状态 */
+  voicePack: {
+    status: () => ipcRenderer.invoke('voicepack:status'),
+    download: (opts) => ipcRenderer.invoke('voicepack:download', opts),
+    skip: (on) => ipcRenderer.invoke('voicepack:skip', on),
+    remove: () => ipcRenderer.invoke('voicepack:remove'),
+    pickAndInstall: () => ipcRenderer.invoke('voicepack:pick-and-install'),
+    onProgress: (cb) => {
+      const h = (_e, p) => cb(p)
+      ipcRenderer.on('voicepack:progress', h)
+      return () => ipcRenderer.removeListener('voicepack:progress', h)
+    },
+  },
 })

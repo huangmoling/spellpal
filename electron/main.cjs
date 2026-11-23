@@ -2,6 +2,7 @@ const { app, BrowserWindow, ipcMain, shell } = require('electron')
 const path = require('node:path')
 const fs = require('node:fs')
 const { registerVoiceIpc } = require('./voice-io.cjs')
+const { createVoicePack } = require('./voice-pack.cjs')
 
 const isDev = process.env.NODE_ENV === 'development'
 /** 截图模式：SPELLPAL_SHOT=<png 路径> 时，加载页面后截图退出（开发/CI 用） */
@@ -440,10 +441,34 @@ process.on('uncaughtException', (e) => log('UNCAUGHT ' + (e && e.stack)))
    Alt+F4、任务栏关闭、自己的 X 按钮最后都走同一扇门（窗口 close 事件）。 */
 let allowClose = false
 
+/* 离线语音包：打包后页面在 file:// 下，fetch 读不到本地文件，
+   由主进程读 mp3 交给渲染进程（逻辑与自测脚本共用 voice-io.cjs）。
+   0.19 起语音包外置，userData/voice 优先，包内 dist/voice 兜底，所以注册
+   放在 whenReady 之后 —— getPath('userData') 那时才是最终路径。 */
+let voicePack = null
+
 app.whenReady().then(() => {
   log('app ready')
   guardActive = readGuardFlag()
   log('guardActive=' + guardActive)
+
+  const distDir = path.join(__dirname, '..', 'dist')
+  try {
+    voicePack = createVoicePack({
+      app,
+      ipcMain,
+      distDir,
+      manifestFile: path.join(__dirname, 'voice-pack.manifest.json'),
+      getWindow: () => mainWindow,
+    })
+    registerVoiceIpc(ipcMain, distDir, [voicePack.voiceDir])
+    log('voicepack ready count=' + voicePack.status().count)
+  } catch (e) {
+    /* 语音包模块挂了不能拖垮整个软件：主界面照样能开，只是没离线发音 */
+    log('voicepack init failed: ' + (e && e.message))
+    registerVoiceIpc(ipcMain, distDir)
+  }
+
   createWindow()
   app.on('activate', () => {
     if (BrowserWindow.getAllWindows().length === 0) createWindow()
@@ -485,10 +510,6 @@ ipcMain.on('app:theme', (e, t) => {
   writeThemeName(name)
   BrowserWindow.fromWebContents(e.sender)?.setBackgroundColor(THEME_BG[name])
 })
-
-/* 离线语音包：打包后页面在 file:// 下，fetch 读不到本地文件，
-   由主进程读 mp3 交给渲染进程（逻辑与自测脚本共用 voice-io.cjs） */
-registerVoiceIpc(ipcMain, path.join(__dirname, '..', 'dist'))
 
 /* 只放行 GitHub 域名的外链，避免渲染进程被注入后打开任意外链。
    这里故意不写死仓库路径——仓库地址只保存在渲染进程那份编码串里。 */

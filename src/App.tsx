@@ -7,6 +7,7 @@ import Result from '@/pages/Result'
 import WindowControls from '@/components/WindowControls'
 import SettingsSheet from '@/components/SettingsSheet'
 import GuardLock from '@/components/GuardLock'
+import VoicePackGate from '@/components/VoicePackGate'
 import { PinAuthDialog } from '@/components/GuardDialogs'
 import { BOOKS, DEFAULT_BOOK_ID } from '@/data/books'
 
@@ -34,6 +35,8 @@ export default function App() {
   const guardLocked = useApp((s) => s.guardLocked)
   const addGuardUsage = useApp((s) => s.addGuardUsage)
   const [quitOpen, setQuitOpen] = useState(false)
+  /** 语音包引导页放行前不渲染主界面，免得孩子点到没有发音的练习 */
+  const [packReady, setPackReady] = useState(false)
 
   useEffect(() => {
     try {
@@ -68,22 +71,28 @@ export default function App() {
 
   return (
     <div className="relative h-full">
-      {phase === 'idle' && (
-        <BookShelf
-          books={BOOKS}
-          bookId={bookId}
-          onPickBook={setBookId}
-          onOpenSettings={() => setSettingsOpen(true)}
-        />
+      {packReady && (
+        <>
+          {phase === 'idle' && (
+            <BookShelf
+              books={BOOKS}
+              bookId={bookId}
+              onPickBook={setBookId}
+              onOpenSettings={() => setSettingsOpen(true)}
+            />
+          )}
+          {phase === 'typing' && <Practice onOpenSettings={() => setSettingsOpen(true)} />}
+          {phase === 'done' && <Result />}
+
+          {settingsOpen && <SettingsSheet onClose={() => setSettingsOpen(false)} />}
+
+          {guardOn && guardLocked && <GuardLock />}
+
+          {quitOpen && <QuitConfirm onCancel={() => setQuitOpen(false)} />}
+        </>
       )}
-      {phase === 'typing' && <Practice onOpenSettings={() => setSettingsOpen(true)} />}
-      {phase === 'done' && <Result />}
 
-      {settingsOpen && <SettingsSheet onClose={() => setSettingsOpen(false)} />}
-
-      {guardOn && guardLocked && <GuardLock />}
-
-      {quitOpen && <QuitConfirm onCancel={() => setQuitOpen(false)} />}
+      {!packReady && <VoicePackGate onReady={() => setPackReady(true)} />}
 
       {/* 放最后渲染：拖拽区按 DOM 顺序登记，晚上一步的 no-drag 才压得住顶栏 */}
       <WindowControls />

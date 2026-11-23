@@ -1,0 +1,40 @@
+{
+  "format": "spellpal-voice-pack",
+  "formatVersion": 2,
+  "version": "20261123",
+  "generatedAt": "2026-11-23T14:26:04+08:00",
+  "voice": "en-US-AriaNeural",
+  "wordRate": "-10%",
+  "sentRate": "-5%",
+  "count": 9374,
+  "bytes": 140534064,
+  "indexEntries": 9374,
+  "baseUrl": "https://github.com/huangmoling/spellpal/releases/download/voice-20261123",
+  "mirrors": [
+    "https://ghfast.top/https://github.com/huangmoling/spellpal/releases/download/voice-20261123",
+    "https://gh-proxy.com/https://github.com/huangmoling/spellpal/releases/download/voice-20261123"
+  ],
+  "parts": [
+    {
+      "name": "spellpal-voice-20261123-part1of3.zip",
+      "files": 3495,
+      "bytes": 52415280,
+      "zipBytes": 53233142,
+      "sha256": "01e4197855d9b76651ffe14bde130de533d98d76737950d74e791ee0e5fc4014"
+    },
+    {
+      "name": "spellpal-voice-20261123-part2of3.zip",
+      "files": 3493,
+      "bytes": 52423776,
+      "zipBytes": 53241398,
+      "sha256": "c05cd595b13d3c9ceb9641fa4d7ed6cda369023c48fb288aa926a9324ce50e43"
+    },
+    {
+      "name": "spellpal-voice-20261123-part3of3.zip",
+      "files": 2386,
+      "bytes": 35695008,
+      "zipBytes": 36379790,
+      "sha256": "267f99bef8dba22f6c6534f89f1d4a98bcc9c85ab3973ce5230a8d7c9688c64b"
+    }
+  ]
+}
