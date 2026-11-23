@@ -324,6 +324,7 @@ EXTRA = {
     'swimsuit': ('名词', '游泳衣'), 'gatekeeper': ('名词', '门卫'), 'pod': ('名词', '豆荚'),
     'mind': ('名词', '头脑'), 'eggshell': ('名词', '蛋壳'), 'yoyo': ('名词', '悠悠球'),
     'text': ('名词', '课文'), 'goalkeeper': ('名词', '守门员'), 'schoolwork': ('名词', '学校作业'),
+    'buckingham': ('名词', '白金汉'), 'kangaroo': ('名词', '袋鼠'), 'stripe': ('名词', '条纹'),
 }
 
 
