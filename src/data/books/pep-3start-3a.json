@@ -9,7 +9,7 @@
   "edition": "2024 秋 · 新课标修订版",
   "stage": "primary",
   "wordCount": 106,
-  "sentenceCount": 0,
+  "sentenceCount": 59,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -1897,5 +1897,2178 @@
       "unit": 6
     }
   ],
-  "sentences": []
+  "sentences": [
+    {
+      "id": "pep-3start-3a-u1-s01",
+      "unit": 1,
+      "cn": "你好，我叫萨拉。",
+      "en": "Hello, my name is Sarah.",
+      "tokens": [
+        {
+          "en": "Hello,",
+          "cn": "你好",
+          "pos": "感叹词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Sarah.",
+          "cn": "萨拉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u1-s02",
+      "unit": 1,
+      "cn": "你能把书分给我看看吗？",
+      "en": "Can you share your book with me?",
+      "tokens": [
+        {
+          "en": "Can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "share",
+          "cn": "分享",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "book",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "me?",
+          "cn": "我",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u1-s03",
+      "unit": 1,
+      "cn": "看看我的眼睛和耳朵。",
+      "en": "Look at my eye and my ear.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "eye",
+          "cn": "眼睛",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "ear.",
+          "cn": "耳朵",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u1-s04",
+      "unit": 1,
+      "cn": "挥挥手，笑一笑！",
+      "en": "Wave your hand and smile!",
+      "tokens": [
+        {
+          "en": "Wave",
+          "cn": "波浪",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "hand",
+          "cn": "指针",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "smile!",
+          "cn": "笑",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u1-s05",
+      "unit": 1,
+      "cn": "张开嘴巴说“你好”。",
+      "en": "Open your mouth and say \"Hello\".",
+      "tokens": [
+        {
+          "en": "Open",
+          "cn": "开放",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "mouth",
+          "cn": "嘴",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "say",
+          "cn": "说",
+          "pos": "名词"
+        },
+        {
+          "en": "\"Hello\".",
+          "cn": "你好",
+          "pos": "感叹词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u1-s06",
+      "unit": 1,
+      "cn": "你的胳膊真结实！",
+      "en": "Your arm is so strong!",
+      "tokens": [
+        {
+          "en": "Your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "arm",
+          "cn": "手臂",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "so",
+          "cn": "所以",
+          "pos": "连词"
+        },
+        {
+          "en": "strong!",
+          "cn": "健壮的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u1-s07",
+      "unit": 1,
+      "cn": "请听老师讲。",
+      "en": "Listen to the teacher, please.",
+      "tokens": [
+        {
+          "en": "Listen",
+          "cn": "听",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "teacher,",
+          "cn": "教师",
+          "pos": "名词"
+        },
+        {
+          "en": "please.",
+          "cn": "请",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u1-s08",
+      "unit": 1,
+      "cn": "我的朋友对我很友好。",
+      "en": "My friend is nice to me.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "friend",
+          "cn": "朋友",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "nice",
+          "cn": "令人愉快的",
+          "pos": "形容词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "me.",
+          "cn": "我",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u1-s09",
+      "unit": 1,
+      "cn": "莉莉，我来帮你。",
+      "en": "Let me help you, Lily.",
+      "tokens": [
+        {
+          "en": "Let",
+          "cn": "让",
+          "pos": "名词"
+        },
+        {
+          "en": "me",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "help",
+          "cn": "帮助",
+          "pos": "动词"
+        },
+        {
+          "en": "you,",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "Lily.",
+          "cn": "莉莉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u1-s10",
+      "unit": 1,
+      "cn": "我们是好朋友。",
+      "en": "We are good friends.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "friends.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u2-s01",
+      "unit": 2,
+      "cn": "这是我的家。",
+      "en": "This is my family.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "family.",
+          "cn": "家庭",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u2-s02",
+      "unit": 2,
+      "cn": "我妈妈和爸爸都是老师。",
+      "en": "My mum and dad are teachers.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "mum",
+          "cn": "妈妈",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "dad",
+          "cn": "爸爸",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "teachers.",
+          "cn": "教师",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u2-s03",
+      "unit": 2,
+      "cn": "我有一个大家庭。",
+      "en": "I have a big family.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "big",
+          "cn": "大的",
+          "pos": "形容词"
+        },
+        {
+          "en": "family.",
+          "cn": "家庭",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u2-s04",
+      "unit": 2,
+      "cn": "我爷爷和奶奶住在农场。",
+      "en": "My grandpa and grandma live on a farm.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "grandpa",
+          "cn": "爷爷",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "grandma",
+          "cn": "奶奶",
+          "pos": "名词"
+        },
+        {
+          "en": "live",
+          "cn": "居住",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "farm.",
+          "cn": "农场",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u2-s05",
+      "unit": 2,
+      "cn": "我的祖父和祖母年纪大了。",
+      "en": "My grandfather and grandmother are old.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "grandfather",
+          "cn": "爷爷",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "grandmother",
+          "cn": "奶奶",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "old.",
+          "cn": "年老的年轻的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u2-s06",
+      "unit": 2,
+      "cn": "我妈妈有一只小狗。",
+      "en": "My mother has a small dog.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "mother",
+          "cn": "母亲",
+          "pos": "名词"
+        },
+        {
+          "en": "has",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "small",
+          "cn": "小的",
+          "pos": "形容词"
+        },
+        {
+          "en": "dog.",
+          "cn": "狗",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u2-s07",
+      "unit": 2,
+      "cn": "我姐姐和弟弟是双胞胎。",
+      "en": "My sister and brother are twins.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "sister",
+          "cn": "姐姐",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "brother",
+          "cn": "哥哥",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "twins.",
+          "cn": "双胞胎",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u2-s08",
+      "unit": 2,
+      "cn": "这个宝宝是我的表弟。",
+      "en": "The baby is my cousin.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "baby",
+          "cn": "婴儿",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "cousin.",
+          "cn": "堂（或表）兄弟",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u2-s09",
+      "unit": 2,
+      "cn": "我叔叔和阿姨住在北京。",
+      "en": "My uncle and aunt live in Beijing.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "uncle",
+          "cn": "伯父",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "aunt",
+          "cn": "姑母",
+          "pos": "名词"
+        },
+        {
+          "en": "live",
+          "cn": "居住",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "Beijing.",
+          "cn": "北京",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u2-s10",
+      "unit": 2,
+      "cn": "我爸爸会做饭。",
+      "en": "My father can cook.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "father",
+          "cn": "父亲",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "cook.",
+          "cn": "做饭",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u3-s01",
+      "unit": 3,
+      "cn": "我喜欢动物。",
+      "en": "I like animals.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "animals.",
+          "cn": "动物",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u3-s02",
+      "unit": 3,
+      "cn": "我有一只宠物猫。",
+      "en": "I have a pet cat.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "pet",
+          "cn": "宠物",
+          "pos": "名词"
+        },
+        {
+          "en": "cat.",
+          "cn": "猫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u3-s03",
+      "unit": 3,
+      "cn": "我的狗非常可爱。",
+      "en": "My dog is very cute.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "dog",
+          "cn": "狗",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "很",
+          "pos": "副词"
+        },
+        {
+          "en": "cute.",
+          "cn": "逗人喜爱的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u3-s04",
+      "unit": 3,
+      "cn": "鸟会飞。",
+      "en": "The bird can fly.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bird",
+          "cn": "鸟",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "fly.",
+          "cn": "飞",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u3-s05",
+      "unit": 3,
+      "cn": "看水里的鱼。",
+      "en": "Look at the fish in the water.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "fish",
+          "cn": "鱼",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "water.",
+          "cn": "水",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u3-s06",
+      "unit": 3,
+      "cn": "我们去动物园吧！",
+      "en": "Let's go to the zoo!",
+      "tokens": [
+        {
+          "en": "Let's",
+          "cn": "让我们",
+          "pos": "缩略"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "zoo!",
+          "cn": "动物园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u3-s07",
+      "unit": 3,
+      "cn": "小熊猫不是狐狸。",
+      "en": "The red panda is not a fox.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "red",
+          "cn": "红色",
+          "pos": "名词"
+        },
+        {
+          "en": "panda",
+          "cn": "熊猫",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "not",
+          "cn": "不",
+          "pos": "副词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "fox.",
+          "cn": "狐狸",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u3-s08",
+      "unit": 3,
+      "cn": "李老师喜欢熊猫。",
+      "en": "Miss Li likes the panda.",
+      "tokens": [
+        {
+          "en": "Miss",
+          "cn": "小姐",
+          "pos": "名词"
+        },
+        {
+          "en": "Li",
+          "cn": "李",
+          "pos": "名词"
+        },
+        {
+          "en": "likes",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "panda.",
+          "cn": "熊猫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u3-s09",
+      "unit": 3,
+      "cn": "猴子在树上。",
+      "en": "The monkey is in the tree.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "monkey",
+          "cn": "猴子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "tree.",
+          "cn": "树",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u3-s10",
+      "unit": 3,
+      "cn": "老虎和狮子都很大。",
+      "en": "The tiger and the lion are big.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "tiger",
+          "cn": "老虎",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "lion",
+          "cn": "狮子",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "big.",
+          "cn": "大的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u3-s11",
+      "unit": 3,
+      "cn": "大象有长长的鼻子。",
+      "en": "An elephant has a long nose.",
+      "tokens": [
+        {
+          "en": "An",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "elephant",
+          "cn": "大象",
+          "pos": "名词"
+        },
+        {
+          "en": "has",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "long",
+          "cn": "长的",
+          "pos": "形容词"
+        },
+        {
+          "en": "nose.",
+          "cn": "鼻子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u3-s12",
+      "unit": 3,
+      "cn": "长颈鹿很高，兔子跑得很快。",
+      "en": "The giraffe is tall and the rabbit is fast.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "giraffe",
+          "cn": "长颈鹿",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "tall",
+          "cn": "高大的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "rabbit",
+          "cn": "兔子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "fast.",
+          "cn": "快速地",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u4-s01",
+      "unit": 4,
+      "cn": "我需要水和空气。",
+      "en": "I need water and air.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "need",
+          "cn": "需要",
+          "pos": "名词"
+        },
+        {
+          "en": "water",
+          "cn": "水",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "air.",
+          "cn": "空气",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u4-s02",
+      "unit": 4,
+      "cn": "苹果和香蕉在桌上。",
+      "en": "The apple and the banana are on the table.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "apple",
+          "cn": "苹果",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "banana",
+          "cn": "香蕉",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "table.",
+          "cn": "桌子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u4-s03",
+      "unit": 4,
+      "cn": "我的学校有一个花园。",
+      "en": "My school has a garden.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "school",
+          "cn": "学校",
+          "pos": "名词"
+        },
+        {
+          "en": "has",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "garden.",
+          "cn": "花园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u4-s04",
+      "unit": 4,
+      "cn": "看这株新植物。",
+      "en": "Look at the new plant.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "plant.",
+          "cn": "植物",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u4-s05",
+      "unit": 4,
+      "cn": "花需要阳光和水。",
+      "en": "The flower needs sun and water.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "flower",
+          "cn": "花",
+          "pos": "名词"
+        },
+        {
+          "en": "needs",
+          "cn": "需要",
+          "pos": "名词"
+        },
+        {
+          "en": "sun",
+          "cn": "孙",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "water.",
+          "cn": "水",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u4-s06",
+      "unit": 4,
+      "cn": "草是绿色的。",
+      "en": "The grass is green.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "grass",
+          "cn": "草",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "green.",
+          "cn": "绿色的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u4-s07",
+      "unit": 4,
+      "cn": "农场里有橙子树。",
+      "en": "There are orange trees on the farm.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "orange",
+          "cn": "橙子",
+          "pos": "名词"
+        },
+        {
+          "en": "trees",
+          "cn": "树",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "farm.",
+          "cn": "农场",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u4-s08",
+      "unit": 4,
+      "cn": "葡萄在花园里。",
+      "en": "The grapes are in the garden.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "grapes",
+          "cn": "葡萄",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "garden.",
+          "cn": "花园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u4-s09",
+      "unit": 4,
+      "cn": "请给它们浇点水。",
+      "en": "Please give them some water.",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "give",
+          "cn": "给",
+          "pos": "名词"
+        },
+        {
+          "en": "them",
+          "cn": "他们",
+          "pos": "代词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "water.",
+          "cn": "水",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u5-s01",
+      "unit": 5,
+      "cn": "它是什么颜色的？",
+      "en": "What colour is it?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "colour",
+          "cn": "颜色",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "it?",
+          "cn": "它",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u5-s02",
+      "unit": 5,
+      "cn": "草是绿的，花是红的。",
+      "en": "The grass is green and the flower is red.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "grass",
+          "cn": "草",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "green",
+          "cn": "绿色的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "flower",
+          "cn": "花",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "red.",
+          "cn": "红色",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u5-s03",
+      "unit": 5,
+      "cn": "海是蓝色的。",
+      "en": "The sea is blue.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sea",
+          "cn": "海",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "blue.",
+          "cn": "蓝色的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u5-s04",
+      "unit": 5,
+      "cn": "我会做卡片。",
+      "en": "I can make a card.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "make",
+          "cn": "制作（过去式 made）",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "card.",
+          "cn": "贺卡",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u5-s05",
+      "unit": 5,
+      "cn": "我的裙子是紫色和粉色的。",
+      "en": "My skirt is purple and pink.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "skirt",
+          "cn": "裙子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "purple",
+          "cn": "紫色的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "pink.",
+          "cn": "粉红色的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u5-s06",
+      "unit": 5,
+      "cn": "熊是棕色的。",
+      "en": "The bear is brown.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bear",
+          "cn": "熊",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "brown.",
+          "cn": "布朗",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u5-s07",
+      "unit": 5,
+      "cn": "鸭子是黄色的。",
+      "en": "The duck is yellow.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "duck",
+          "cn": "鸭子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "yellow.",
+          "cn": "黄色",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u5-s08",
+      "unit": 5,
+      "cn": "有些苹果是红色的。",
+      "en": "Some apples are red.",
+      "tokens": [
+        {
+          "en": "Some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "apples",
+          "cn": "苹果",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "red.",
+          "cn": "红色",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u5-s09",
+      "unit": 5,
+      "cn": "画一朵白云和一只黑猫。",
+      "en": "Draw a white cloud and a black cat.",
+      "tokens": [
+        {
+          "en": "Draw",
+          "cn": "画",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "white",
+          "cn": "怀特",
+          "pos": "名词"
+        },
+        {
+          "en": "cloud",
+          "cn": "云",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "black",
+          "cn": "黑色",
+          "pos": "名词"
+        },
+        {
+          "en": "cat.",
+          "cn": "猫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u6-s01",
+      "unit": 6,
+      "cn": "我十岁了。",
+      "en": "I am ten years old.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "ten",
+          "cn": "十",
+          "pos": "数词"
+        },
+        {
+          "en": "years",
+          "cn": "年",
+          "pos": "名词"
+        },
+        {
+          "en": "old.",
+          "cn": "年老的年轻的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u6-s02",
+      "unit": 6,
+      "cn": "我家有五口人。",
+      "en": "There are five people in my family.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "five",
+          "cn": "五",
+          "pos": "数词"
+        },
+        {
+          "en": "people",
+          "cn": "人们",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "family.",
+          "cn": "家庭",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u6-s03",
+      "unit": 6,
+      "cn": "我有一个苹果和两个梨。",
+      "en": "I have one apple and two pears.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "one",
+          "cn": "一",
+          "pos": "数词"
+        },
+        {
+          "en": "apple",
+          "cn": "苹果",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "two",
+          "cn": "二",
+          "pos": "数词"
+        },
+        {
+          "en": "pears.",
+          "cn": "梨子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u6-s04",
+      "unit": 6,
+      "cn": "有三只鸟和四只鸭子。",
+      "en": "There are three birds and four ducks.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "three",
+          "cn": "三",
+          "pos": "数词"
+        },
+        {
+          "en": "birds",
+          "cn": "鸟",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "four",
+          "cn": "四",
+          "pos": "数词"
+        },
+        {
+          "en": "ducks.",
+          "cn": "鸭子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u6-s05",
+      "unit": 6,
+      "cn": "我有六本书和七支笔。",
+      "en": "I have six books and seven pens.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "six",
+          "cn": "六",
+          "pos": "数词"
+        },
+        {
+          "en": "books",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "seven",
+          "cn": "七",
+          "pos": "数词"
+        },
+        {
+          "en": "pens.",
+          "cn": "钢笔",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u6-s06",
+      "unit": 6,
+      "cn": "现在八点了。",
+      "en": "It is eight o'clock now.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "eight",
+          "cn": "八",
+          "pos": "数词"
+        },
+        {
+          "en": "o'clock",
+          "cn": "……点钟",
+          "pos": "名词"
+        },
+        {
+          "en": "now.",
+          "cn": "现在",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u6-s07",
+      "unit": 6,
+      "cn": "桌上有九块蛋糕。",
+      "en": "There are nine cakes on the table.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "nine",
+          "cn": "九",
+          "pos": "数词"
+        },
+        {
+          "en": "cakes",
+          "cn": "蛋糕",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "table.",
+          "cn": "桌子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u6-s08",
+      "unit": 6,
+      "cn": "我们把蛋糕切开吃吧。",
+      "en": "Let's cut the cake and eat it.",
+      "tokens": [
+        {
+          "en": "Let's",
+          "cn": "让我们",
+          "pos": "缩略"
+        },
+        {
+          "en": "cut",
+          "cn": "剪",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "cake",
+          "cn": "蛋糕",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "eat",
+          "cn": "吃",
+          "pos": "名词"
+        },
+        {
+          "en": "it.",
+          "cn": "它",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "pep-3start-3a-u2-s11",
+      "unit": 2,
+      "cn": "看看我和我的大家庭。",
+      "en": "Look at me and my big family.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "me",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "big",
+          "cn": "大的",
+          "pos": "形容词"
+        },
+        {
+          "en": "family.",
+          "cn": "家庭",
+          "pos": "名词"
+        }
+      ]
+    }
+  ]
 }
