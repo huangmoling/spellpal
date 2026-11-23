@@ -9,7 +9,7 @@
   "edition": "2025 秋 · 新课标修订版",
   "stage": "primary",
   "wordCount": 101,
-  "sentenceCount": 30,
+  "sentenceCount": 107,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -1947,8 +1947,8 @@
       "tokens": [
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "am",
@@ -2077,8 +2077,8 @@
         },
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "can.",
@@ -2100,8 +2100,8 @@
         },
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "can’t.",
@@ -2151,8 +2151,8 @@
         },
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "can",
@@ -2357,8 +2357,8 @@
       "tokens": [
         {
           "en": "He",
-          "cn": "他",
-          "pos": "代词"
+          "cn": "和",
+          "pos": "名词"
         },
         {
           "en": "is",
@@ -2624,8 +2624,8 @@
         },
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "help",
@@ -2647,8 +2647,8 @@
       "tokens": [
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "am",
@@ -2744,6 +2744,2067 @@
         {
           "en": "happy.",
           "cn": "高兴的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u1-s08",
+      "unit": 1,
+      "cn": "这是我奶奶。",
+      "en": "This is my grandma.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "grandma.",
+          "cn": "奶奶",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u1-s09",
+      "unit": 1,
+      "cn": "这是我爷爷。",
+      "en": "This is my grandpa.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "grandpa.",
+          "cn": "爷爷",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u1-s10",
+      "unit": 1,
+      "cn": "他是我的兄弟。",
+      "en": "He is my brother.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "brother.",
+          "cn": "哥哥",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u1-s11",
+      "unit": 1,
+      "cn": "她是我的姐妹。",
+      "en": "She is my sister.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "sister.",
+          "cn": "姐姐",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u1-s12",
+      "unit": 1,
+      "cn": "是的，先生。",
+      "en": "Yes, sir.",
+      "tokens": [
+        {
+          "en": "Yes,",
+          "cn": "是的",
+          "pos": "副词"
+        },
+        {
+          "en": "sir.",
+          "cn": "先生",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u2-s04",
+      "unit": 2,
+      "cn": "她来自英国。",
+      "en": "She is from the UK.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "from",
+          "cn": "从",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "UK.",
+          "cn": "英国",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u2-s05",
+      "unit": 2,
+      "cn": "他是一个男孩。",
+      "en": "He is a boy.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "boy.",
+          "cn": "男孩",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u2-s06",
+      "unit": 2,
+      "cn": "他们是男孩们。",
+      "en": "They are boys.",
+      "tokens": [
+        {
+          "en": "They",
+          "cn": "他们",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "boys.",
+          "cn": "男孩们",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u2-s07",
+      "unit": 2,
+      "cn": "她是一个女孩。",
+      "en": "She is a girl.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "girl.",
+          "cn": "女孩",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u2-s08",
+      "unit": 2,
+      "cn": "她们是女孩们。",
+      "en": "They are girls.",
+      "tokens": [
+        {
+          "en": "They",
+          "cn": "他们",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "girls.",
+          "cn": "女孩们",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u2-s09",
+      "unit": 2,
+      "cn": "格林先生是我的老师。",
+      "en": "Mr Green is my teacher.",
+      "tokens": [
+        {
+          "en": "Mr",
+          "cn": "先生",
+          "pos": "名词"
+        },
+        {
+          "en": "Green",
+          "cn": "绿色的",
+          "pos": "形容词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "teacher.",
+          "cn": "教师",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u2-s10",
+      "unit": 2,
+      "cn": "格林夫人是我的老师。",
+      "en": "Mrs Green is my teacher.",
+      "tokens": [
+        {
+          "en": "Mrs",
+          "cn": "夫人",
+          "pos": "名词"
+        },
+        {
+          "en": "Green",
+          "cn": "绿色的",
+          "pos": "形容词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "teacher.",
+          "cn": "教师",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s05",
+      "unit": 3,
+      "cn": "这个小孩很高兴。",
+      "en": "The kid is happy.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "kid",
+          "cn": "小孩",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "happy.",
+          "cn": "高兴的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s06",
+      "unit": 3,
+      "cn": "听我说。",
+      "en": "Listen to me.",
+      "tokens": [
+        {
+          "en": "Listen",
+          "cn": "听",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "me.",
+          "cn": "我",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s07",
+      "unit": 3,
+      "cn": "我写我的名字。",
+      "en": "I write my name.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "write",
+          "cn": "写",
+          "pos": "名词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name.",
+          "cn": "名字",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s08",
+      "unit": 3,
+      "cn": "我读一本书。",
+      "en": "I read a book.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "read",
+          "cn": "读",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "book.",
+          "cn": "书",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s09",
+      "unit": 3,
+      "cn": "我画一只猫。",
+      "en": "I draw a cat.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "draw",
+          "cn": "画",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "cat.",
+          "cn": "猫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s10",
+      "unit": 3,
+      "cn": "我会跳舞。",
+      "en": "I can dance.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "dance.",
+          "cn": "跳舞",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s11",
+      "unit": 3,
+      "cn": "这只小猫是白色的。",
+      "en": "The little cat is white.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "little",
+          "cn": "小的",
+          "pos": "形容词"
+        },
+        {
+          "en": "cat",
+          "cn": "猫",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "white.",
+          "cn": "怀特",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s12",
+      "unit": 3,
+      "cn": "我们是朋友。",
+      "en": "We are friends.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "friends.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s13",
+      "unit": 3,
+      "cn": "我的书在哪儿？",
+      "en": "Where is my book?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "book?",
+          "cn": "书",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s14",
+      "unit": 3,
+      "cn": "我不累。",
+      "en": "I am not tired.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "not",
+          "cn": "不",
+          "pos": "副词"
+        },
+        {
+          "en": "tired.",
+          "cn": "疲惫的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s15",
+      "unit": 3,
+      "cn": "我也喜欢它。",
+      "en": "I like it, too.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "it,",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "too.",
+          "cn": "也",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s16",
+      "unit": 3,
+      "cn": "我寻找我的钢笔。",
+      "en": "I look for my pen.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "look",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "pen.",
+          "cn": "钢笔",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s17",
+      "unit": 3,
+      "cn": "鱼妈妈在这里。",
+      "en": "Mummy Fish is here.",
+      "tokens": [
+        {
+          "en": "Mummy",
+          "cn": "妈妈",
+          "pos": "名词"
+        },
+        {
+          "en": "Fish",
+          "cn": "鱼",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "here.",
+          "cn": "这里",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s18",
+      "unit": 3,
+      "cn": "对不起！",
+      "en": "Sorry!",
+      "tokens": [
+        {
+          "en": "Sorry!",
+          "cn": "抱歉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s19",
+      "unit": 3,
+      "cn": "鸭妈妈很大。",
+      "en": "Mummy Duck is big.",
+      "tokens": [
+        {
+          "en": "Mummy",
+          "cn": "妈妈",
+          "pos": "名词"
+        },
+        {
+          "en": "Duck",
+          "cn": "鸭子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "big.",
+          "cn": "大的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u4-s03",
+      "unit": 4,
+      "cn": "它是红色的。",
+      "en": "It is red.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "red.",
+          "cn": "红色",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u4-s04",
+      "unit": 4,
+      "cn": "它是橙色的。",
+      "en": "It is orange.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "orange.",
+          "cn": "橙子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u4-s05",
+      "unit": 4,
+      "cn": "它是黄色的。",
+      "en": "It is yellow.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "yellow.",
+          "cn": "黄色",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u4-s06",
+      "unit": 4,
+      "cn": "它是绿色的。",
+      "en": "It is green.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "green.",
+          "cn": "绿色的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u4-s07",
+      "unit": 4,
+      "cn": "它是蓝色的。",
+      "en": "It is blue.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "blue.",
+          "cn": "蓝色的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u4-s08",
+      "unit": 4,
+      "cn": "它是紫色的。",
+      "en": "It is purple.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "purple.",
+          "cn": "紫色的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u4-s09",
+      "unit": 4,
+      "cn": "它是黑色的。",
+      "en": "It is black.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "black.",
+          "cn": "黑色",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u5-s03",
+      "unit": 5,
+      "cn": "这是我的图画。",
+      "en": "This is my picture.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "picture.",
+          "cn": "照片",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u5-s04",
+      "unit": 5,
+      "cn": "这是我的房子。",
+      "en": "This is my house.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "house.",
+          "cn": "房屋",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u5-s05",
+      "unit": 5,
+      "cn": "树很高。",
+      "en": "The tree is tall.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "tree",
+          "cn": "树",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "tall.",
+          "cn": "高大的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u5-s06",
+      "unit": 5,
+      "cn": "猫很小。",
+      "en": "The cat is small.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "cat",
+          "cn": "猫",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "small.",
+          "cn": "小的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u5-s07",
+      "unit": 5,
+      "cn": "狗是黑色的。",
+      "en": "The dog is black.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "dog",
+          "cn": "狗",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "black.",
+          "cn": "黑色",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u5-s08",
+      "unit": 5,
+      "cn": "它是白色的。",
+      "en": "It is white.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "white.",
+          "cn": "怀特",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u5-s09",
+      "unit": 5,
+      "cn": "它是棕色的。",
+      "en": "It is brown.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "brown.",
+          "cn": "布朗",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u5-s10",
+      "unit": 5,
+      "cn": "它是粉红色的。",
+      "en": "It is pink.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "pink.",
+          "cn": "粉红色的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u5-s11",
+      "unit": 5,
+      "cn": "我把树涂成绿色。",
+      "en": "I colour the tree green.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "colour",
+          "cn": "颜色",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "tree",
+          "cn": "树",
+          "pos": "名词"
+        },
+        {
+          "en": "green.",
+          "cn": "绿色的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s07",
+      "unit": 6,
+      "cn": "这是我们的课。",
+      "en": "This is our class.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "our",
+          "cn": "我们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "class.",
+          "cn": "课",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s08",
+      "unit": 6,
+      "cn": "这是你的书。",
+      "en": "This is your book.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "book.",
+          "cn": "书",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s09",
+      "unit": 6,
+      "cn": "我最喜欢的颜色是蓝色。",
+      "en": "My favourite colour is blue.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "favourite",
+          "cn": "最喜爱的",
+          "pos": "形容词"
+        },
+        {
+          "en": "colour",
+          "cn": "颜色",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "blue.",
+          "cn": "蓝色的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s10",
+      "unit": 6,
+      "cn": "她的书是新的。",
+      "en": "Her book is new.",
+      "tokens": [
+        {
+          "en": "Her",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "book",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "new.",
+          "cn": "新的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s11",
+      "unit": 6,
+      "cn": "他的书是旧的。",
+      "en": "His book is old.",
+      "tokens": [
+        {
+          "en": "His",
+          "cn": "他的",
+          "pos": "限定词"
+        },
+        {
+          "en": "book",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "old.",
+          "cn": "年老的年轻的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s12",
+      "unit": 6,
+      "cn": "他们的学校很大。",
+      "en": "Their school is big.",
+      "tokens": [
+        {
+          "en": "Their",
+          "cn": "他们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "school",
+          "cn": "学校",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "big.",
+          "cn": "大的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s13",
+      "unit": 6,
+      "cn": "它的名字叫咪咪。",
+      "en": "Its name is Mimi.",
+      "tokens": [
+        {
+          "en": "Its",
+          "cn": "它的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Mimi.",
+          "cn": "咪咪",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s14",
+      "unit": 6,
+      "cn": "他生气了。",
+      "en": "He is angry.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "angry.",
+          "cn": "生气的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s15",
+      "unit": 6,
+      "cn": "我害怕。",
+      "en": "I am afraid.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "afraid.",
+          "cn": "害怕的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s16",
+      "unit": 6,
+      "cn": "怪物很大。",
+      "en": "The monster is big.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "monster",
+          "cn": "怪物",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "big.",
+          "cn": "大的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s17",
+      "unit": 6,
+      "cn": "我懂你的情绪。",
+      "en": "I know your feeling.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "know",
+          "cn": "知道",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "feeling.",
+          "cn": "情绪",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s18",
+      "unit": 6,
+      "cn": "你是对的。",
+      "en": "You are right.",
+      "tokens": [
+        {
+          "en": "You",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "right.",
+          "cn": "正确的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s19",
+      "unit": 6,
+      "cn": "这是一个瓶子。",
+      "en": "This is a bottle.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "bottle.",
+          "cn": "瓶子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s20",
+      "unit": 6,
+      "cn": "我感到高兴。",
+      "en": "I feel happy.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "feel",
+          "cn": "感到",
+          "pos": "名词"
+        },
+        {
+          "en": "happy.",
+          "cn": "高兴的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s21",
+      "unit": 6,
+      "cn": "再试一次。",
+      "en": "Try again.",
+      "tokens": [
+        {
+          "en": "Try",
+          "cn": "试",
+          "pos": "名词"
+        },
+        {
+          "en": "again.",
+          "cn": "再一次",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s22",
+      "unit": 6,
+      "cn": "我感觉好多了。",
+      "en": "I feel much better.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "feel",
+          "cn": "感到",
+          "pos": "名词"
+        },
+        {
+          "en": "much",
+          "cn": "许多",
+          "pos": "限定词"
+        },
+        {
+          "en": "better.",
+          "cn": "更好的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u7-s05",
+      "unit": 7,
+      "cn": "1、2、3、4、5。",
+      "en": "One, two, three, four, five.",
+      "tokens": [
+        {
+          "en": "One,",
+          "cn": "一",
+          "pos": "数词"
+        },
+        {
+          "en": "two,",
+          "cn": "二",
+          "pos": "数词"
+        },
+        {
+          "en": "three,",
+          "cn": "三",
+          "pos": "数词"
+        },
+        {
+          "en": "four,",
+          "cn": "四",
+          "pos": "数词"
+        },
+        {
+          "en": "five.",
+          "cn": "五",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u7-s06",
+      "unit": 7,
+      "cn": "6、7、8、9、10。",
+      "en": "Six, seven, eight, nine, ten.",
+      "tokens": [
+        {
+          "en": "Six,",
+          "cn": "六",
+          "pos": "数词"
+        },
+        {
+          "en": "seven,",
+          "cn": "七",
+          "pos": "数词"
+        },
+        {
+          "en": "eight,",
+          "cn": "八",
+          "pos": "数词"
+        },
+        {
+          "en": "nine,",
+          "cn": "九",
+          "pos": "数词"
+        },
+        {
+          "en": "ten.",
+          "cn": "十",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u7-s07",
+      "unit": 7,
+      "cn": "你的年龄是多少？",
+      "en": "What is your age?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "age?",
+          "cn": "年龄",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u8-s01",
+      "unit": 8,
+      "cn": "我喜欢水果。",
+      "en": "I like fruit.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "fruit.",
+          "cn": "水果",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u8-s02",
+      "unit": 8,
+      "cn": "这是一个苹果。",
+      "en": "This is an apple.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "apple.",
+          "cn": "苹果",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u8-s03",
+      "unit": 8,
+      "cn": "我吃一根香蕉。",
+      "en": "I eat a banana.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "eat",
+          "cn": "吃",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "banana.",
+          "cn": "香蕉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u8-s04",
+      "unit": 8,
+      "cn": "这是一个梨子。",
+      "en": "This is a pear.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "pear.",
+          "cn": "梨子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u8-s05",
+      "unit": 8,
+      "cn": "这是一个橙子。",
+      "en": "This is an orange.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "orange.",
+          "cn": "橙子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u8-s06",
+      "unit": 8,
+      "cn": "我吃葡萄。",
+      "en": "I eat grapes.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "eat",
+          "cn": "吃",
+          "pos": "名词"
+        },
+        {
+          "en": "grapes.",
+          "cn": "葡萄",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u8-s07",
+      "unit": 8,
+      "cn": "这是一个柠檬。",
+      "en": "This is a lemon.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "lemon.",
+          "cn": "柠檬",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u9-s03",
+      "unit": 9,
+      "cn": "这是一份沙拉。",
+      "en": "This is a salad.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "salad.",
+          "cn": "沙拉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u9-s04",
+      "unit": 9,
+      "cn": "西瓜很大。",
+      "en": "The watermelon is big.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "watermelon",
+          "cn": "西瓜",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "big.",
+          "cn": "大的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u9-s05",
+      "unit": 9,
+      "cn": "我喜欢草莓。",
+      "en": "I like strawberries.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "strawberries.",
+          "cn": "草莓",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u9-s06",
+      "unit": 9,
+      "cn": "我喝果汁。",
+      "en": "I drink juice.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "drink",
+          "cn": "饮料",
+          "pos": "名词"
+        },
+        {
+          "en": "juice.",
+          "cn": "果汁",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u9-s07",
+      "unit": 9,
+      "cn": "我们做一份水果沙拉吧。",
+      "en": "Let's make a fruit salad.",
+      "tokens": [
+        {
+          "en": "Let's",
+          "cn": "让我们",
+          "pos": "缩略"
+        },
+        {
+          "en": "make",
+          "cn": "制作（过去式 made）",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "fruit",
+          "cn": "水果",
+          "pos": "名词"
+        },
+        {
+          "en": "salad.",
+          "cn": "沙拉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u9-s08",
+      "unit": 9,
+      "cn": "我住在村庄里。",
+      "en": "I live in a village.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "live",
+          "cn": "居住",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "village.",
+          "cn": "村庄",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u9-s09",
+      "unit": 9,
+      "cn": "星期日紧跟星期六。",
+      "en": "Sunday comes after Saturday.",
+      "tokens": [
+        {
+          "en": "Sunday",
+          "cn": "星期日",
+          "pos": "名词"
+        },
+        {
+          "en": "comes",
+          "cn": "来",
+          "pos": "名词"
+        },
+        {
+          "en": "after",
+          "cn": "在……之后",
+          "pos": "介词"
+        },
+        {
+          "en": "Saturday.",
+          "cn": "星期六",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u9-s10",
+      "unit": 9,
+      "cn": "这本书没用。",
+      "en": "This book is useless.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "book",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "useless.",
+          "cn": "无用的",
           "pos": "形容词"
         }
       ]

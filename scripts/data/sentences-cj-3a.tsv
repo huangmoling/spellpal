@@ -1,21 +1,21 @@
 1	妈妈，早上好！	Good morning, Mum!	形容词|名词|名词	好的|早晨，上午|妈妈
 1	爸爸，早上好！	Good morning, Dad!	形容词|名词|名词	好的|早晨，上午|爸爸
-1	我是桑尼。	I am Sunny.	代词|动词|名词	我|是|桑尼
+1	我是桑尼。	I am Sunny.	名词|动词|名词	I|是|桑尼
 1	李叔叔，晚上好！	Good evening, Uncle Li!	形容词|名词|名词|名词	好的|晚上|伯父|李
 1	钟阿姨，晚上好！	Good evening, Aunt Zhong!	形容词|名词|名词|名词	好的|晚上|姑母|钟
 1	婷婷，晚上好！	Good evening, Tingting!	形容词|名词|名词	好的|晚上|婷婷
 1	婷婷，下午好！	Good afternoon, Tingting!	形容词|名词|名词	好的|下午，午后|婷婷
-2	是的，我会。	Yes, I can.	副词|代词|情态动词	是的|我|能
-2	不，我不会。	No, I can’t.	副词|代词|助动词	不|我|不能
+2	是的，我会。	Yes, I can.	副词|名词|情态动词	是的|I|能
+2	不，我不会。	No, I can’t.	副词|名词|助动词	不|I|不能
 2	杨老师，早上好！	Good morning, Miss Yang!	形容词|名词|名词|名词	好的|早晨，上午|小姐，女士（用于未婚女子姓氏前）|杨
-3	是的，我现在会唱了。	Yes, I can sing now.	副词|代词|情态动词|名词|副词	是的|我|能|唱|现在
+3	是的，我现在会唱了。	Yes, I can sing now.	副词|名词|情态动词|名词|副词	是的|I|能|唱|现在
 3	乐乐，你现在会唱《字母歌》了吗？	Lele, can you sing The ABC Song now?	名词|情态动词|代词|名词|冠词|名词|名词|副词	乐乐|能|你|唱|这|ABC|歌|现在
 3	桑尼，晚上好！	Good evening, Sunny!	形容词|名词|名词	好的|晚上|桑尼
 3	哦，你是婷婷。	Oh, you’re Tingting.	感叹词|缩略|名词	哦|你是|婷婷
 4	它是什么颜色的？	What Colour Is It?	疑问词|名词|动词|代词	什么|颜色|是|它
 4	桑尼是色彩小怪兽。	Sunny is the Colour Monster.	名词|动词|冠词|名词|名词	桑尼|是|这|颜色|怪物
 5	她是罗丝。	She is Rose.	代词|动词|名词	她|是|罗斯
-5	他是李乐。	He is Li Le.	代词|动词|名词|名词	他|是|李|乐
+5	他是李乐。	He is Li Le.	名词|动词|名词|名词	和|是|李|乐
 6	我叫李乐。	My name is Li Le.	限定词|名词|动词|名词|名词	我的|名字|是|李|乐
 6	我叫王婷。	My name is Wang Ting.	限定词|名词|动词|名词|名词	我的|名字|是|王|婷
 6	会好起来的。	It will be OK.	代词|情态动词|动词|感叹词	它|将会|是|好
@@ -24,7 +24,84 @@
 6	开心一点吧，零。	Be happy, Zero.	动词|形容词|数词	是|高兴的|零
 7	你还好吗？	Are you OK?	动词|代词|感叹词	是|你|好
 7	你几岁了？	How Old Are You?	疑问词|形容词|动词|代词	怎样|年老的年轻的，幼|是|你
-7	需要我帮忙吗？	Can I help you?	情态动词|代词|动词|代词	能|我|帮助|你
-7	我是零。	I am Zero.	代词|动词|数词	我|是|零
+7	需要我帮忙吗？	Can I help you?	情态动词|名词|动词|代词	能|I|帮助|你
+7	我是零。	I am Zero.	名词|动词|数词	I|是|零
 9	今天是元旦。	Today is New Year’s Day.	名词|动词|形容词|名词|名词	今天|是|新的|年的|天
 9	可是所有的数字朋友都希望零开心起来。	But all number friends want Zero to be happy.	连词|限定词|名词|名词|名词|数词|介词|动词|形容词	但是|全部|编号|朋友|想要|零|到|是|高兴的
+1	这是我奶奶。	This is my grandma.	代词|动词|限定词|名词	这个|是|我的|奶奶，（外）祖母
+1	这是我爷爷。	This is my grandpa.	代词|动词|限定词|名词	这个|是|我的|爷爷，（外）祖父
+1	他是我的兄弟。	He is my brother.	名词|动词|限定词|名词	和|是|我的|哥哥
+1	她是我的姐妹。	She is my sister.	代词|动词|限定词|名词	她|是|我的|姐姐
+1	是的，先生。	Yes, sir.	副词|名词	是的|先生
+2	她来自英国。	She is from the UK.	代词|动词|介词|冠词|名词	她|是|从|这|英国
+2	他是一个男孩。	He is a boy.	名词|动词|名词|名词	和|是|A|男孩
+2	他们是男孩们。	They are boys.	代词|动词|名词	他们|是|男孩们
+2	她是一个女孩。	She is a girl.	代词|动词|名词|名词	她|是|A|女孩
+2	她们是女孩们。	They are girls.	代词|动词|名词	他们|是|女孩们
+2	格林先生是我的老师。	Mr Green is my teacher.	名词|形容词|动词|限定词|名词	先生|绿色的|是|我的|教师，老师
+2	格林夫人是我的老师。	Mrs Green is my teacher.	名词|形容词|动词|限定词|名词	夫人|绿色的|是|我的|教师，老师
+3	这个小孩很高兴。	The kid is happy.	冠词|名词|动词|形容词	这|小孩|是|高兴的
+3	听我说。	Listen to me.	名词|介词|代词	听|到|我
+3	我写我的名字。	I write my name.	名词|名词|限定词|名词	I|写|我的|名字
+3	我读一本书。	I read a book.	名词|名词|名词|名词	I|读|A|书，书籍
+3	我画一只猫。	I draw a cat.	名词|名词|名词|名词	I|画|A|猫
+3	我会跳舞。	I can dance.	名词|情态动词|名词	I|能|跳舞
+3	这只小猫是白色的。	The little cat is white.	冠词|形容词|名词|动词|名词	这|小的|猫|是|怀特
+3	我们是朋友。	We are friends.	代词|动词|名词	我们|是|朋友
+3	我的书在哪儿？	Where is my book?	疑问词|动词|限定词|名词	哪里|是|我的|书，书籍
+3	我不累。	I am not tired.	名词|动词|副词|形容词	I|是|不|疲惫的
+3	我也喜欢它。	I like it, too.	名词|名词|代词|副词	I|喜欢|它|也
+3	我寻找我的钢笔。	I look for my pen.	名词|名词|介词|限定词|名词	I|看|为|我的|钢笔
+3	鱼妈妈在这里。	Mummy Fish is here.	名词|名词|动词|副词	妈妈|鱼|是|这里
+3	对不起！	Sorry!	名词	抱歉
+3	鸭妈妈很大。	Mummy Duck is big.	名词|名词|动词|形容词	妈妈|鸭子|是|大的
+4	它是红色的。	It is red.	代词|动词|名词	它|是|红色
+4	它是橙色的。	It is orange.	代词|动词|名词	它|是|橙子
+4	它是黄色的。	It is yellow.	代词|动词|名词	它|是|黄色
+4	它是绿色的。	It is green.	代词|动词|形容词	它|是|绿色的
+4	它是蓝色的。	It is blue.	代词|动词|形容词	它|是|蓝色的
+4	它是紫色的。	It is purple.	代词|动词|形容词	它|是|紫色的
+4	它是黑色的。	It is black.	代词|动词|名词	它|是|黑色
+5	这是我的图画。	This is my picture.	代词|动词|限定词|名词	这个|是|我的|照片
+5	这是我的房子。	This is my house.	代词|动词|限定词|名词	这个|是|我的|房屋
+5	树很高。	The tree is tall.	冠词|名词|动词|形容词	这|树|是|高大的
+5	猫很小。	The cat is small.	冠词|名词|动词|形容词	这|猫|是|小的
+5	狗是黑色的。	The dog is black.	冠词|名词|动词|名词	这|狗|是|黑色
+5	它是白色的。	It is white.	代词|动词|名词	它|是|怀特
+5	它是棕色的。	It is brown.	代词|动词|名词	它|是|布朗
+5	它是粉红色的。	It is pink.	代词|动词|形容词	它|是|粉红色的
+5	我把树涂成绿色。	I colour the tree green.	名词|名词|冠词|名词|形容词	I|颜色|这|树|绿色的
+6	这是我们的课。	This is our class.	代词|动词|限定词|名词	这个|是|我们的|课
+6	这是你的书。	This is your book.	代词|动词|限定词|名词	这个|是|你的|书，书籍
+6	我最喜欢的颜色是蓝色。	My favourite colour is blue.	限定词|形容词|名词|动词|形容词	我的|最喜爱的|颜色|是|蓝色的
+6	她的书是新的。	Her book is new.	代词|名词|动词|形容词	她|书，书籍|是|新的
+6	他的书是旧的。	His book is old.	限定词|名词|动词|形容词	他的|书，书籍|是|年老的年轻的，幼
+6	他们的学校很大。	Their school is big.	限定词|名词|动词|形容词	他们的|学校|是|大的
+6	它的名字叫咪咪。	Its name is Mimi.	限定词|名词|动词|名词	它的|名字|是|咪咪
+6	他生气了。	He is angry.	名词|动词|形容词	和|是|生气的，愤怒的
+6	我害怕。	I am afraid.	名词|动词|形容词	I|是|害怕的
+6	怪物很大。	The monster is big.	冠词|名词|动词|形容词	这|怪物|是|大的
+6	我懂你的情绪。	I know your feeling.	名词|名词|限定词|名词	I|知道|你的|情绪
+6	你是对的。	You are right.	代词|动词|形容词	你|是|正确的
+6	这是一个瓶子。	This is a bottle.	代词|动词|名词|名词	这个|是|A|瓶子
+6	我感到高兴。	I feel happy.	名词|名词|形容词	I|感到|高兴的
+6	再试一次。	Try again.	名词|名词	试，试做|再一次
+6	我感觉好多了。	I feel much better.	名词|名词|限定词|形容词	I|感到|许多|更好的，较好的
+7	1、2、3、4、5。	One, two, three, four, five.	数词|数词|数词|数词|数词	一|二|三|四|五
+7	6、7、8、9、10。	Six, seven, eight, nine, ten.	数词|数词|数词|数词|数词	六|七|八|九|十
+7	你的年龄是多少？	What is your age?	疑问词|动词|限定词|名词	什么|是|你的|年龄
+8	我喜欢水果。	I like fruit.	名词|名词|名词	I|喜欢|水果
+8	这是一个苹果。	This is an apple.	代词|动词|冠词|名词	这个|是|一个|苹果
+8	我吃一根香蕉。	I eat a banana.	名词|名词|名词|名词	I|吃|A|香蕉
+8	这是一个梨子。	This is a pear.	代词|动词|名词|名词	这个|是|A|梨子
+8	这是一个橙子。	This is an orange.	代词|动词|冠词|名词	这个|是|一个|橙子
+8	我吃葡萄。	I eat grapes.	名词|名词|名词	I|吃|葡萄
+8	这是一个柠檬。	This is a lemon.	代词|动词|名词|名词	这个|是|A|柠檬
+9	这是一份沙拉。	This is a salad.	代词|动词|名词|名词	这个|是|A|沙拉
+9	西瓜很大。	The watermelon is big.	冠词|名词|动词|形容词	这|西瓜|是|大的
+9	我喜欢草莓。	I like strawberries.	名词|名词|名词	I|喜欢|草莓
+9	我喝果汁。	I drink juice.	名词|名词|名词	I|饮料|果汁
+9	我们做一份水果沙拉吧。	Let's make a fruit salad.	缩略|名词|名词|名词|名词	让我们|制作（过去式 made）|A|水果|沙拉
+9	我住在村庄里。	I live in a village.	名词|名词|介词|名词|名词	I|居住|在……里|A|村庄
+9	星期日紧跟星期六。	Sunday comes after Saturday.	名词|名词|介词|名词	星期日|来|在……之后|星期六
+9	这本书没用。	This book is useless.	代词|名词|动词|形容词	这个|书，书籍|是|无用的
