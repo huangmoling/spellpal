@@ -9,7 +9,7 @@
   "edition": "L2 · 主题词",
   "stage": "starter",
   "wordCount": 53,
-  "sentenceCount": 0,
+  "sentenceCount": 31,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -958,5 +958,849 @@
       "unit": 6
     }
   ],
-  "sentences": []
+  "sentences": [
+    {
+      "id": "pep-1start-1a-u1-s01",
+      "unit": 1,
+      "cn": "我有一本书。",
+      "en": "I have a book.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "book.",
+          "cn": "书",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u1-s02",
+      "unit": 1,
+      "cn": "我有一支铅笔和一把尺子。",
+      "en": "I have a pencil and a ruler.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "pencil",
+          "cn": "铅笔",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "ruler.",
+          "cn": "尺子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u1-s03",
+      "unit": 1,
+      "cn": "这是我的书包。",
+      "en": "This is my schoolbag.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "schoolbag.",
+          "cn": "书包",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u1-s04",
+      "unit": 1,
+      "cn": "老师有一个苹果。",
+      "en": "The teacher has an apple.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "teacher",
+          "cn": "教师",
+          "pos": "名词"
+        },
+        {
+          "en": "has",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "apple.",
+          "cn": "苹果",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u2-s01",
+      "unit": 2,
+      "cn": "这是我的脸。",
+      "en": "This is my face.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "face.",
+          "cn": "脸",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u2-s02",
+      "unit": 2,
+      "cn": "这是我的鼻子。",
+      "en": "This is my nose.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "nose.",
+          "cn": "鼻子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u2-s03",
+      "unit": 2,
+      "cn": "这是我的嘴。",
+      "en": "This is my mouth.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "mouth.",
+          "cn": "嘴",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u2-s04",
+      "unit": 2,
+      "cn": "这是我的耳朵。",
+      "en": "This is my ear.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "ear.",
+          "cn": "耳朵",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u2-s05",
+      "unit": 2,
+      "cn": "这是我的眼睛。",
+      "en": "This is my eye.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "eye.",
+          "cn": "眼睛",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u3-s01",
+      "unit": 3,
+      "cn": "它是什么？",
+      "en": "What is it?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "it?",
+          "cn": "它",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u3-s02",
+      "unit": 3,
+      "cn": "它是一只猫。",
+      "en": "It is a cat.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "cat.",
+          "cn": "猫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u3-s03",
+      "unit": 3,
+      "cn": "它是一只狗。",
+      "en": "It is a dog.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "dog.",
+          "cn": "狗",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u3-s04",
+      "unit": 3,
+      "cn": "它是一只鸟。",
+      "en": "It is a bird.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "bird.",
+          "cn": "鸟",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u3-s05",
+      "unit": 3,
+      "cn": "它是一只猴子。",
+      "en": "It is a monkey.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "monkey.",
+          "cn": "猴子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u3-s06",
+      "unit": 3,
+      "cn": "它是一只老虎。",
+      "en": "It is a tiger.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "tiger.",
+          "cn": "老虎",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u4-s01",
+      "unit": 4,
+      "cn": "有多少本书？",
+      "en": "How many books?",
+      "tokens": [
+        {
+          "en": "How",
+          "cn": "怎样",
+          "pos": "疑问词"
+        },
+        {
+          "en": "many",
+          "cn": "许多",
+          "pos": "限定词"
+        },
+        {
+          "en": "books?",
+          "cn": "书",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u4-s02",
+      "unit": 4,
+      "cn": "一、二、三、四、五。",
+      "en": "One, two, three, four, five.",
+      "tokens": [
+        {
+          "en": "One,",
+          "cn": "一",
+          "pos": "数词"
+        },
+        {
+          "en": "two,",
+          "cn": "二",
+          "pos": "数词"
+        },
+        {
+          "en": "three,",
+          "cn": "三",
+          "pos": "数词"
+        },
+        {
+          "en": "four,",
+          "cn": "四",
+          "pos": "数词"
+        },
+        {
+          "en": "five.",
+          "cn": "五",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u4-s03",
+      "unit": 4,
+      "cn": "六、七、八、九、十。",
+      "en": "Six, seven, eight, nine, ten.",
+      "tokens": [
+        {
+          "en": "Six,",
+          "cn": "六",
+          "pos": "数词"
+        },
+        {
+          "en": "seven,",
+          "cn": "七",
+          "pos": "数词"
+        },
+        {
+          "en": "eight,",
+          "cn": "八",
+          "pos": "数词"
+        },
+        {
+          "en": "nine,",
+          "cn": "九",
+          "pos": "数词"
+        },
+        {
+          "en": "ten.",
+          "cn": "十",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u4-s04",
+      "unit": 4,
+      "cn": "那里有十本书。",
+      "en": "There are ten books.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "ten",
+          "cn": "十",
+          "pos": "数词"
+        },
+        {
+          "en": "books.",
+          "cn": "书",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u5-s01",
+      "unit": 5,
+      "cn": "它是什么颜色？",
+      "en": "What colour is it?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "colour",
+          "cn": "颜色",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "it?",
+          "cn": "它",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u5-s02",
+      "unit": 5,
+      "cn": "它是红色的。",
+      "en": "It is red.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "red.",
+          "cn": "红色",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u5-s03",
+      "unit": 5,
+      "cn": "它是蓝色的。",
+      "en": "It is blue.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "blue.",
+          "cn": "蓝色的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u5-s04",
+      "unit": 5,
+      "cn": "它是绿色的。",
+      "en": "It is green.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "green.",
+          "cn": "绿色的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u5-s05",
+      "unit": 5,
+      "cn": "它是黄色的。",
+      "en": "It is yellow.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "yellow.",
+          "cn": "黄色",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u5-s06",
+      "unit": 5,
+      "cn": "它是黑色的。",
+      "en": "It is black.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "black.",
+          "cn": "黑色",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u6-s01",
+      "unit": 6,
+      "cn": "你喜欢苹果吗？",
+      "en": "Do you like apples?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "apples?",
+          "cn": "苹果",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u6-s02",
+      "unit": 6,
+      "cn": "是的，我喜欢。",
+      "en": "Yes, I do.",
+      "tokens": [
+        {
+          "en": "Yes,",
+          "cn": "是的",
+          "pos": "副词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "do.",
+          "cn": "做",
+          "pos": "助动词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u6-s03",
+      "unit": 6,
+      "cn": "不，我不喜欢。",
+      "en": "No, I do not.",
+      "tokens": [
+        {
+          "en": "No,",
+          "cn": "不",
+          "pos": "副词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "not.",
+          "cn": "不",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u6-s04",
+      "unit": 6,
+      "cn": "我喜欢香蕉。",
+      "en": "I like bananas.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "bananas.",
+          "cn": "香蕉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u6-s05",
+      "unit": 6,
+      "cn": "我喜欢橙子。",
+      "en": "I like oranges.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "oranges.",
+          "cn": "橙子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1a-u6-s06",
+      "unit": 6,
+      "cn": "我喜欢梨。",
+      "en": "I like pears.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "pears.",
+          "cn": "梨子",
+          "pos": "名词"
+        }
+      ]
+    }
+  ]
 }

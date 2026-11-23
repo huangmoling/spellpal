@@ -9,7 +9,7 @@
   "edition": "L3 · 主题词",
   "stage": "starter",
   "wordCount": 45,
-  "sentenceCount": 0,
+  "sentenceCount": 35,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -823,5 +823,1016 @@
       "unit": 6
     }
   ],
-  "sentences": []
+  "sentences": [
+    {
+      "id": "pep-1start-1b-u1-s01",
+      "unit": 1,
+      "cn": "我的书在哪儿？",
+      "en": "Where is my book?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "book?",
+          "cn": "书",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u1-s02",
+      "unit": 1,
+      "cn": "它在书桌上。",
+      "en": "It is on the desk.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "desk.",
+          "cn": "书桌",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u1-s03",
+      "unit": 1,
+      "cn": "它在书包里。",
+      "en": "It is in the schoolbag.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "schoolbag.",
+          "cn": "书包",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u1-s04",
+      "unit": 1,
+      "cn": "它在椅子下面。",
+      "en": "It is under the chair.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "under",
+          "cn": "在……下",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "chair.",
+          "cn": "椅子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u1-s05",
+      "unit": 1,
+      "cn": "这是黑板。",
+      "en": "This is the blackboard.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "blackboard.",
+          "cn": "黑板",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u2-s01",
+      "unit": 2,
+      "cn": "这是我的床。",
+      "en": "This is my bed.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "bed.",
+          "cn": "床",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u2-s02",
+      "unit": 2,
+      "cn": "盒子在门后面。",
+      "en": "The box is behind the door.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "box",
+          "cn": "盒子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "behind",
+          "cn": "在……之后",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "door.",
+          "cn": "门",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u2-s03",
+      "unit": 2,
+      "cn": "电灯在床旁边。",
+      "en": "The light is near the bed.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "light",
+          "cn": "灯",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "near",
+          "cn": "在……附近",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bed.",
+          "cn": "床",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u3-s01",
+      "unit": 3,
+      "cn": "这是一个球。",
+      "en": "This is a ball.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "ball.",
+          "cn": "球",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u3-s02",
+      "unit": 3,
+      "cn": "这是一只熊。",
+      "en": "This is a bear.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "bear.",
+          "cn": "熊",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u3-s03",
+      "unit": 3,
+      "cn": "这是一辆小汽车。",
+      "en": "This is a car.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "car.",
+          "cn": "小汽车",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u3-s04",
+      "unit": 3,
+      "cn": "这是一个洋娃娃。",
+      "en": "This is a doll.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "doll.",
+          "cn": "洋娃娃",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u3-s05",
+      "unit": 3,
+      "cn": "这是一架飞机。",
+      "en": "This is a plane.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "plane.",
+          "cn": "飞机",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u3-s06",
+      "unit": 3,
+      "cn": "这是一列火车。",
+      "en": "This is a train.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "train.",
+          "cn": "火车",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u3-s07",
+      "unit": 3,
+      "cn": "我可以玩这个球吗？",
+      "en": "Can I play with the ball?",
+      "tokens": [
+        {
+          "en": "Can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "ball?",
+          "cn": "球",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u3-s08",
+      "unit": 3,
+      "cn": "对不起，你不可以。",
+      "en": "Sorry, you can not.",
+      "tokens": [
+        {
+          "en": "Sorry,",
+          "cn": "抱歉",
+          "pos": "名词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "not.",
+          "cn": "不",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u3-s09",
+      "unit": 3,
+      "cn": "当然！给你。",
+      "en": "Sure! Here you are.",
+      "tokens": [
+        {
+          "en": "Sure!",
+          "cn": "当然",
+          "pos": "名词"
+        },
+        {
+          "en": "Here",
+          "cn": "这里",
+          "pos": "副词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "are.",
+          "cn": "是",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u4-s01",
+      "unit": 4,
+      "cn": "我饿了。",
+      "en": "I am hungry.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "hungry.",
+          "cn": "饥饿的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u4-s02",
+      "unit": 4,
+      "cn": "我要一些米饭。",
+      "en": "I want some rice.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "rice.",
+          "cn": "米饭",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u4-s03",
+      "unit": 4,
+      "cn": "我要一个鸡蛋。",
+      "en": "I want an egg.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "egg.",
+          "cn": "鸡蛋",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u4-s04",
+      "unit": 4,
+      "cn": "我要一些鸡肉和鱼。",
+      "en": "I want some chicken and fish.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "chicken",
+          "cn": "鸡肉",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "fish.",
+          "cn": "鱼",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u4-s05",
+      "unit": 4,
+      "cn": "我要一些面条。",
+      "en": "I want some noodles.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "noodles.",
+          "cn": "面条",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u4-s06",
+      "unit": 4,
+      "cn": "我要一些蔬菜。",
+      "en": "I want some vegetables.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "vegetables.",
+          "cn": "蔬菜",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u5-s01",
+      "unit": 5,
+      "cn": "我渴了。",
+      "en": "I am thirsty.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "thirsty.",
+          "cn": "口渴的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u5-s02",
+      "unit": 5,
+      "cn": "我要一些水。",
+      "en": "I want some water.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "water.",
+          "cn": "水",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u5-s03",
+      "unit": 5,
+      "cn": "我要一些果汁。",
+      "en": "I want some juice.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "juice.",
+          "cn": "果汁",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u5-s04",
+      "unit": 5,
+      "cn": "我要一些牛奶。",
+      "en": "I want some milk.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "milk.",
+          "cn": "牛奶",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u5-s05",
+      "unit": 5,
+      "cn": "我要一些茶。",
+      "en": "I want some tea.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "tea.",
+          "cn": "茶",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u5-s06",
+      "unit": 5,
+      "cn": "谢谢！",
+      "en": "Thanks!",
+      "tokens": [
+        {
+          "en": "Thanks!",
+          "cn": "感谢",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u6-s01",
+      "unit": 6,
+      "cn": "这是你的T恤。",
+      "en": "This is your T-shirt.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "T-shirt.",
+          "cn": "T-衬衫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u6-s02",
+      "unit": 6,
+      "cn": "这是你的连衣裙。",
+      "en": "This is your dress.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "dress.",
+          "cn": "服装",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u6-s03",
+      "unit": 6,
+      "cn": "这是你的衬衫。",
+      "en": "This is your shirt.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "shirt.",
+          "cn": "衬衫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u6-s04",
+      "unit": 6,
+      "cn": "这些是你的短裤。",
+      "en": "These are your shorts.",
+      "tokens": [
+        {
+          "en": "These",
+          "cn": "这些",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "shorts.",
+          "cn": "短裤",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u6-s05",
+      "unit": 6,
+      "cn": "这是你的裙子。",
+      "en": "This is your skirt.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "skirt.",
+          "cn": "裙子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "pep-1start-1b-u6-s06",
+      "unit": 6,
+      "cn": "这些是你的袜子。",
+      "en": "These are your socks.",
+      "tokens": [
+        {
+          "en": "These",
+          "cn": "这些",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "socks.",
+          "cn": "短袜",
+          "pos": "名词"
+        }
+      ]
+    }
+  ]
 }
