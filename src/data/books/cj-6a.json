@@ -8,8 +8,8 @@
   "term": "up",
   "edition": "2025 秋 · 新课标修订版",
   "stage": "primary",
-  "wordCount": 134,
-  "sentenceCount": 102,
+  "wordCount": 135,
+  "sentenceCount": 103,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -60,7 +60,8 @@
         "cj-6a-u1-41",
         "cj-6a-u1-42",
         "cj-6a-u1-43",
-        "cj-6a-u1-44"
+        "cj-6a-u1-44",
+        "cj-6a-u1-45"
       ]
     },
     {
@@ -863,14 +864,16 @@
     {
       "id": "cj-6a-u1-39",
       "word": "send cards",
-      "phoneticUK": "/send ˈkɑːdz",
+      "phoneticUK": "/send kɑːdz/",
       "syllables": [
-        "send cards"
+        "s",
+        "end c",
+        "ards"
       ],
       "senses": [
         {
-          "cn": "送卡片、鲜花",
-          "cnFull": "送卡片、鲜花"
+          "cn": "送卡片",
+          "cnFull": "送卡片"
         }
       ],
       "grade": 6,
@@ -878,6 +881,24 @@
     },
     {
       "id": "cj-6a-u1-40",
+      "word": "flowers",
+      "phoneticUK": "/ˈflaʊəz/",
+      "syllables": [
+        "fl",
+        "ow",
+        "ers"
+      ],
+      "senses": [
+        {
+          "cn": "鲜花",
+          "cnFull": "鲜花"
+        }
+      ],
+      "grade": 6,
+      "unit": 1
+    },
+    {
+      "id": "cj-6a-u1-41",
       "word": "usually",
       "phoneticUK": "/ˈjuːʒuəli/",
       "syllables": [
@@ -894,7 +915,7 @@
       "unit": 1
     },
     {
-      "id": "cj-6a-u1-41",
+      "id": "cj-6a-u1-42",
       "word": "maybe",
       "phoneticUK": "/ˈmeɪbi/",
       "syllables": [
@@ -911,7 +932,7 @@
       "unit": 1
     },
     {
-      "id": "cj-6a-u1-42",
+      "id": "cj-6a-u1-43",
       "word": "think",
       "phoneticUK": "/θɪŋk/",
       "syllables": [
@@ -928,7 +949,7 @@
       "unit": 1
     },
     {
-      "id": "cj-6a-u1-43",
+      "id": "cj-6a-u1-44",
       "word": "wrong",
       "phoneticUK": "/rɒŋ/",
       "syllables": [
@@ -945,7 +966,7 @@
       "unit": 1
     },
     {
-      "id": "cj-6a-u1-44",
+      "id": "cj-6a-u1-45",
       "word": "in fact",
       "phoneticUK": "/ɪn ˈfækt/",
       "syllables": [
@@ -3733,6 +3754,54 @@
         {
           "en": "class.",
           "cn": "课",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-6a-u1-s28",
+      "unit": 1,
+      "cn": "我给老师送卡片和鲜花。",
+      "en": "I send cards and flowers to my teacher.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "send",
+          "cn": "寄",
+          "pos": "动词"
+        },
+        {
+          "en": "cards",
+          "cn": "贺卡",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "flowers",
+          "cn": "鲜花",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "teacher.",
+          "cn": "教师",
           "pos": "名词"
         }
       ]
