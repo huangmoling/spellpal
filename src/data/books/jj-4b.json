@@ -9,7 +9,7 @@
   "edition": "2025 春 · 新课标修订版",
   "stage": "primary",
   "wordCount": 93,
-  "sentenceCount": 0,
+  "sentenceCount": 57,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -1753,5 +1753,2362 @@
       "unit": 6
     }
   ],
-  "sentences": []
+  "sentences": [
+    {
+      "id": "jj-4b-u1-s01",
+      "unit": 1,
+      "cn": "夏天太阳很热。",
+      "en": "The sun is hot in summer.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sun",
+          "cn": "孙",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "hot",
+          "cn": "热的",
+          "pos": "形容词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "summer.",
+          "cn": "夏天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u1-s02",
+      "unit": 1,
+      "cn": "今天雨很大。",
+      "en": "The rain is strong today.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "rain",
+          "cn": "雨",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "strong",
+          "cn": "健壮的",
+          "pos": "形容词"
+        },
+        {
+          "en": "today.",
+          "cn": "今天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u1-s03",
+      "unit": 1,
+      "cn": "冬天有雪，天气很冷。",
+      "en": "In winter there is snow and it is cold.",
+      "tokens": [
+        {
+          "en": "In",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "winter",
+          "cn": "冬天",
+          "pos": "名词"
+        },
+        {
+          "en": "there",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "snow",
+          "cn": "雪",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "it",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "cold.",
+          "cn": "冷的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u1-s04",
+      "unit": 1,
+      "cn": "我今天很高兴，可她很伤心。",
+      "en": "I feel happy today, but she feels sad.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "feel",
+          "cn": "感到",
+          "pos": "名词"
+        },
+        {
+          "en": "happy",
+          "cn": "高兴的",
+          "pos": "形容词"
+        },
+        {
+          "en": "today,",
+          "cn": "今天",
+          "pos": "名词"
+        },
+        {
+          "en": "but",
+          "cn": "但是",
+          "pos": "连词"
+        },
+        {
+          "en": "she",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "feels",
+          "cn": "感到",
+          "pos": "名词"
+        },
+        {
+          "en": "sad.",
+          "cn": "伤心的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u1-s05",
+      "unit": 1,
+      "cn": "请关窗，开门。",
+      "en": "Please close the window and open the door.",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "close",
+          "cn": "接近的",
+          "pos": "形容词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "window",
+          "cn": "窗",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "open",
+          "cn": "开放",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "door.",
+          "cn": "门",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u1-s06",
+      "unit": 1,
+      "cn": "秋天凉爽，春天温暖。",
+      "en": "It is cool in autumn and warm in spring.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "cool",
+          "cn": "凉爽的",
+          "pos": "形容词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "autumn",
+          "cn": "秋天",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "warm",
+          "cn": "温暖的",
+          "pos": "形容词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "spring.",
+          "cn": "春天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u1-s07",
+      "unit": 1,
+      "cn": "这节课八点开始。",
+      "en": "The class will begin at eight.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "class",
+          "cn": "课",
+          "pos": "名词"
+        },
+        {
+          "en": "will",
+          "cn": "将会",
+          "pos": "情态动词"
+        },
+        {
+          "en": "begin",
+          "cn": "开始",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "eight.",
+          "cn": "八",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u1-s08",
+      "unit": 1,
+      "cn": "今天刮风，多云。",
+      "en": "It is windy and cloudy today.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "windy",
+          "cn": "有风的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "cloudy",
+          "cn": "多云的",
+          "pos": "形容词"
+        },
+        {
+          "en": "today.",
+          "cn": "今天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u1-s09",
+      "unit": 1,
+      "cn": "昨天下了雪，今天是晴天。",
+      "en": "It was snowy yesterday, and today it is sunny.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "was",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "snowy",
+          "cn": "下雪的",
+          "pos": "形容词"
+        },
+        {
+          "en": "yesterday,",
+          "cn": "昨天",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "today",
+          "cn": "今天",
+          "pos": "名词"
+        },
+        {
+          "en": "it",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "sunny.",
+          "cn": "晴朗的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u1-s10",
+      "unit": 1,
+      "cn": "热天我穿T恤和短裤。",
+      "en": "I wear a T-shirt and shorts on a hot day.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "wear",
+          "cn": "穿",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "T-shirt",
+          "cn": "T-衬衫",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "shorts",
+          "cn": "短裤",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "hot",
+          "cn": "热的",
+          "pos": "形容词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u1-s11",
+      "unit": 1,
+      "cn": "穿上你的大衣，戴上帽子，穿上裤子。",
+      "en": "Put on your coat, cap and trousers.",
+      "tokens": [
+        {
+          "en": "Put",
+          "cn": "放",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "coat,",
+          "cn": "上衣",
+          "pos": "名词"
+        },
+        {
+          "en": "cap",
+          "cn": "帽子",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "trousers.",
+          "cn": "长裤",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u1-s12",
+      "unit": 1,
+      "cn": "她的连衣裙和毛衣是新的。",
+      "en": "Her dress and sweater are new.",
+      "tokens": [
+        {
+          "en": "Her",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "dress",
+          "cn": "服装",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "sweater",
+          "cn": "毛衣",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "new.",
+          "cn": "新的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u1-s13",
+      "unit": 1,
+      "cn": "我左边的鞋在床下。",
+      "en": "My left shoe is under the bed.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "left",
+          "cn": "左边的",
+          "pos": "形容词"
+        },
+        {
+          "en": "shoe",
+          "cn": "鞋",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "under",
+          "cn": "在……下",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bed.",
+          "cn": "床",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u2-s01",
+      "unit": 2,
+      "cn": "天气怎么样？是雨天。",
+      "en": "What is the weather like? It is rainy.",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "weather",
+          "cn": "天气",
+          "pos": "名词"
+        },
+        {
+          "en": "like?",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "rainy.",
+          "cn": "下雨的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u3-s01",
+      "unit": 3,
+      "cn": "一年有四个季节。",
+      "en": "There are four seasons in a year.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "four",
+          "cn": "四",
+          "pos": "数词"
+        },
+        {
+          "en": "seasons",
+          "cn": "季节",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "year.",
+          "cn": "年",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u3-s02",
+      "unit": 3,
+      "cn": "春、夏、秋、冬是四个季节。",
+      "en": "Spring, summer, autumn and winter are the four seasons.",
+      "tokens": [
+        {
+          "en": "Spring,",
+          "cn": "春天",
+          "pos": "名词"
+        },
+        {
+          "en": "summer,",
+          "cn": "夏天",
+          "pos": "名词"
+        },
+        {
+          "en": "autumn",
+          "cn": "秋天",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "winter",
+          "cn": "冬天",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "four",
+          "cn": "四",
+          "pos": "数词"
+        },
+        {
+          "en": "seasons.",
+          "cn": "季节",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u3-s03",
+      "unit": 3,
+      "cn": "一年有十二个月。",
+      "en": "There are twelve months in a year.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "twelve",
+          "cn": "十二",
+          "pos": "数词"
+        },
+        {
+          "en": "months",
+          "cn": "月",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "year.",
+          "cn": "年",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u3-s04",
+      "unit": 3,
+      "cn": "一月和二月是冬季的月份。",
+      "en": "January and February are winter months.",
+      "tokens": [
+        {
+          "en": "January",
+          "cn": "一月",
+          "pos": "数词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "February",
+          "cn": "二月",
+          "pos": "数词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "winter",
+          "cn": "冬天",
+          "pos": "名词"
+        },
+        {
+          "en": "months.",
+          "cn": "月",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u3-s05",
+      "unit": 3,
+      "cn": "三月、四月和五月是春季的月份。",
+      "en": "March, April and May are spring months.",
+      "tokens": [
+        {
+          "en": "March,",
+          "cn": "三月",
+          "pos": "数词"
+        },
+        {
+          "en": "April",
+          "cn": "四月",
+          "pos": "数词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "May",
+          "cn": "可以",
+          "pos": "情态动词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "spring",
+          "cn": "春天",
+          "pos": "名词"
+        },
+        {
+          "en": "months.",
+          "cn": "月",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u3-s06",
+      "unit": 3,
+      "cn": "六月、七月和八月是夏季的月份。",
+      "en": "June, July and August are summer months.",
+      "tokens": [
+        {
+          "en": "June,",
+          "cn": "六月",
+          "pos": "数词"
+        },
+        {
+          "en": "July",
+          "cn": "七月",
+          "pos": "数词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "August",
+          "cn": "八月",
+          "pos": "数词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "summer",
+          "cn": "夏天",
+          "pos": "名词"
+        },
+        {
+          "en": "months.",
+          "cn": "月",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u3-s07",
+      "unit": 3,
+      "cn": "九月、十月和十一月是秋季的月份。",
+      "en": "September, October and November are autumn months.",
+      "tokens": [
+        {
+          "en": "September,",
+          "cn": "九月",
+          "pos": "数词"
+        },
+        {
+          "en": "October",
+          "cn": "十月",
+          "pos": "数词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "November",
+          "cn": "十一月",
+          "pos": "数词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "autumn",
+          "cn": "秋天",
+          "pos": "名词"
+        },
+        {
+          "en": "months.",
+          "cn": "月",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u3-s08",
+      "unit": 3,
+      "cn": "十二月是一年中最后一个月。",
+      "en": "December is the last month of the year.",
+      "tokens": [
+        {
+          "en": "December",
+          "cn": "十二月",
+          "pos": "数词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "last",
+          "cn": "最后",
+          "pos": "名词"
+        },
+        {
+          "en": "month",
+          "cn": "月",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "year.",
+          "cn": "年",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u4-s01",
+      "unit": 4,
+      "cn": "新年是一月一日。",
+      "en": "New Year's Day is on January 1st.",
+      "tokens": [
+        {
+          "en": "New",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "Year's",
+          "cn": "年的",
+          "pos": "名词"
+        },
+        {
+          "en": "Day",
+          "cn": "天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "January",
+          "cn": "一月",
+          "pos": "数词"
+        },
+        {
+          "en": "1st.",
+          "cn": "1st",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u4-s02",
+      "unit": 4,
+      "cn": "儿童节是六月一日。",
+      "en": "Children's Day is on June 1st.",
+      "tokens": [
+        {
+          "en": "Children's",
+          "cn": "的复数形式)的",
+          "pos": "名词"
+        },
+        {
+          "en": "Day",
+          "cn": "天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "June",
+          "cn": "六月",
+          "pos": "数词"
+        },
+        {
+          "en": "1st.",
+          "cn": "1st",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u4-s03",
+      "unit": 4,
+      "cn": "我们在中秋节吃月饼。",
+      "en": "We eat mooncakes on Mid-Autumn Day.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "eat",
+          "cn": "吃",
+          "pos": "名词"
+        },
+        {
+          "en": "mooncakes",
+          "cn": "月饼",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "Mid-Autumn",
+          "cn": "中秋",
+          "pos": "名词"
+        },
+        {
+          "en": "Day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u4-s04",
+      "unit": 4,
+      "cn": "我要去参加聚会。",
+      "en": "I will go to the party.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "will",
+          "cn": "将会",
+          "pos": "情态动词"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "party.",
+          "cn": "聚会",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u4-s05",
+      "unit": 4,
+      "cn": "我们在聚会上唱一首歌。",
+      "en": "We sing a song at the party.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "sing",
+          "cn": "唱",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "song",
+          "cn": "歌",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "party.",
+          "cn": "聚会",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u4-s06",
+      "unit": 4,
+      "cn": "今天是一个月的第三天。",
+      "en": "Today is the third day of the month.",
+      "tokens": [
+        {
+          "en": "Today",
+          "cn": "今天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "third",
+          "cn": "第三",
+          "pos": "数词"
+        },
+        {
+          "en": "day",
+          "cn": "天",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "month.",
+          "cn": "月",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u4-s07",
+      "unit": 4,
+      "cn": "这是我的第四节英语课。",
+      "en": "This is my fourth English lesson.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "fourth",
+          "cn": "第四",
+          "pos": "数词"
+        },
+        {
+          "en": "English",
+          "cn": "英文的",
+          "pos": "形容词"
+        },
+        {
+          "en": "lesson.",
+          "cn": "课",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u4-s08",
+      "unit": 4,
+      "cn": "她上五年级。",
+      "en": "She is in the fifth grade.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "fifth",
+          "cn": "第五",
+          "pos": "数词"
+        },
+        {
+          "en": "grade.",
+          "cn": "年级",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u4-s09",
+      "unit": 4,
+      "cn": "我的座位在第六排。",
+      "en": "My seat is in the sixth row.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "seat",
+          "cn": "座位",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sixth",
+          "cn": "第六",
+          "pos": "数词"
+        },
+        {
+          "en": "row.",
+          "cn": "划船",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u4-s10",
+      "unit": 4,
+      "cn": "七月是第七个月。",
+      "en": "July is the seventh month.",
+      "tokens": [
+        {
+          "en": "July",
+          "cn": "七月",
+          "pos": "数词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "seventh",
+          "cn": "第七",
+          "pos": "数词"
+        },
+        {
+          "en": "month.",
+          "cn": "月",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u4-s11",
+      "unit": 4,
+      "cn": "他住在八楼。",
+      "en": "He lives on the eighth floor.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "lives",
+          "cn": "居住",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "eighth",
+          "cn": "第八",
+          "pos": "数词"
+        },
+        {
+          "en": "floor.",
+          "cn": "地板",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u4-s12",
+      "unit": 4,
+      "cn": "请翻到第九页。",
+      "en": "Please turn to the ninth page.",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "turn",
+          "cn": "转弯",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "ninth",
+          "cn": "第九",
+          "pos": "数词"
+        },
+        {
+          "en": "page.",
+          "cn": "页",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u4-s13",
+      "unit": 4,
+      "cn": "十月是第十个月。",
+      "en": "October is the tenth month.",
+      "tokens": [
+        {
+          "en": "October",
+          "cn": "十月",
+          "pos": "数词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "tenth",
+          "cn": "第十",
+          "pos": "数词"
+        },
+        {
+          "en": "month.",
+          "cn": "月",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u4-s14",
+      "unit": 4,
+      "cn": "他的生日是五月十一日。",
+      "en": "His birthday is on the eleventh of May.",
+      "tokens": [
+        {
+          "en": "His",
+          "cn": "他的",
+          "pos": "限定词"
+        },
+        {
+          "en": "birthday",
+          "cn": "生日",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "eleventh",
+          "cn": "第十一",
+          "pos": "数词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "May.",
+          "cn": "可以",
+          "pos": "情态动词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u4-s15",
+      "unit": 4,
+      "cn": "六月十二日是假日。",
+      "en": "The twelfth of June is a holiday.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "twelfth",
+          "cn": "第十二",
+          "pos": "数词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "June",
+          "cn": "六月",
+          "pos": "数词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "holiday.",
+          "cn": "假期",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u5-s01",
+      "unit": 5,
+      "cn": "公园紧邻超市。",
+      "en": "The park is next to the supermarket.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "park",
+          "cn": "公园",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "next",
+          "cn": "接下来的",
+          "pos": "形容词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "supermarket.",
+          "cn": "超市",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u5-s02",
+      "unit": 5,
+      "cn": "我们在电影院看电影。",
+      "en": "We see a film at the cinema.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "see",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "film",
+          "cn": "电影",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "cinema.",
+          "cn": "电影院",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u5-s03",
+      "unit": 5,
+      "cn": "银行在商店和公园之间。",
+      "en": "The bank is between the shop and the park.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bank",
+          "cn": "银行",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "between",
+          "cn": "在……之间",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "shop",
+          "cn": "商店",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "park.",
+          "cn": "公园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u5-s04",
+      "unit": 5,
+      "cn": "树在房子前面。",
+      "en": "The tree is in front of the house.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "tree",
+          "cn": "树",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "front",
+          "cn": "前面的",
+          "pos": "形容词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "house.",
+          "cn": "房屋",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u5-s05",
+      "unit": 5,
+      "cn": "我们的学校在这条街上。",
+      "en": "Our school is on this street.",
+      "tokens": [
+        {
+          "en": "Our",
+          "cn": "我们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "school",
+          "cn": "学校",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "this",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "street.",
+          "cn": "街道",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u5-s06",
+      "unit": 5,
+      "cn": "在拐角处右转。",
+      "en": "Turn right at the corner.",
+      "tokens": [
+        {
+          "en": "Turn",
+          "cn": "转弯",
+          "pos": "名词"
+        },
+        {
+          "en": "right",
+          "cn": "正确的",
+          "pos": "形容词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "corner.",
+          "cn": "角",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u5-s07",
+      "unit": 5,
+      "cn": "商店在左边。",
+      "en": "The shop is on the left.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "shop",
+          "cn": "商店",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "left.",
+          "cn": "左边的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u5-s08",
+      "unit": 5,
+      "cn": "他穿着白衬衫。",
+      "en": "He wears a white shirt.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "wears",
+          "cn": "穿",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "white",
+          "cn": "怀特",
+          "pos": "名词"
+        },
+        {
+          "en": "shirt.",
+          "cn": "衬衫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u6-s01",
+      "unit": 6,
+      "cn": "我坐公交车上学。",
+      "en": "I go to school by bus.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "school",
+          "cn": "学校",
+          "pos": "名词"
+        },
+        {
+          "en": "by",
+          "cn": "乘",
+          "pos": "介词"
+        },
+        {
+          "en": "bus.",
+          "cn": "公共汽车",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u6-s02",
+      "unit": 6,
+      "cn": "我步行上学。",
+      "en": "I go to school on foot.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "school",
+          "cn": "学校",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "foot.",
+          "cn": "脚",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u6-s03",
+      "unit": 6,
+      "cn": "我爸爸会开小汽车。",
+      "en": "My father can drive a car.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "father",
+          "cn": "父亲",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "drive",
+          "cn": "驾驶",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "car.",
+          "cn": "小汽车",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u6-s04",
+      "unit": 6,
+      "cn": "我骑自行车去公园。",
+      "en": "I ride a bike to the park.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "ride",
+          "cn": "(乘车或骑车的)短途旅程",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "bike",
+          "cn": "自行车",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "park.",
+          "cn": "公园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u6-s05",
+      "unit": 6,
+      "cn": "我们可以坐出租车。",
+      "en": "We can take a taxi.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "take",
+          "cn": "拿",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "taxi.",
+          "cn": "出租车",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u6-s06",
+      "unit": 6,
+      "cn": "交通灯是红的。",
+      "en": "The traffic light is red.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "traffic",
+          "cn": "交通",
+          "pos": "名词"
+        },
+        {
+          "en": "light",
+          "cn": "灯",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "red.",
+          "cn": "红色",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u6-s07",
+      "unit": 6,
+      "cn": "在这里走路很安全。",
+      "en": "It is safe to walk here.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "safe",
+          "cn": "安全的",
+          "pos": "形容词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "walk",
+          "cn": "步行",
+          "pos": "名词"
+        },
+        {
+          "en": "here.",
+          "cn": "这里",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u6-s08",
+      "unit": 6,
+      "cn": "公交车站在那边。",
+      "en": "The bus stop is over there.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bus",
+          "cn": "公共汽车",
+          "pos": "名词"
+        },
+        {
+          "en": "stop",
+          "cn": "停止",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "over",
+          "cn": "在……上方",
+          "pos": "介词"
+        },
+        {
+          "en": "there.",
+          "cn": "那里",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u6-s09",
+      "unit": 6,
+      "cn": "在马路上要当心。",
+      "en": "Be careful on the road.",
+      "tokens": [
+        {
+          "en": "Be",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "careful",
+          "cn": "小心的",
+          "pos": "形容词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "road.",
+          "cn": "马路",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u6-s10",
+      "unit": 6,
+      "cn": "请等等我。",
+      "en": "Please wait for me.",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "wait",
+          "cn": "等待",
+          "pos": "名词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "me.",
+          "cn": "我",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u6-s11",
+      "unit": 6,
+      "cn": "我们应该向左向右看。",
+      "en": "We should look left and right.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "should",
+          "cn": "应该",
+          "pos": "情态动词"
+        },
+        {
+          "en": "look",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "left",
+          "cn": "左边的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "right.",
+          "cn": "正确的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "jj-4b-u6-s12",
+      "unit": 6,
+      "cn": "看那辆公交车的后面。",
+      "en": "Look at the back of the bus.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "back",
+          "cn": "回来",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bus.",
+          "cn": "公共汽车",
+          "pos": "名词"
+        }
+      ]
+    }
+  ]
 }
