@@ -9,18 +9,9 @@
   "edition": "2025 春 · 新课标修订版",
   "stage": "primary",
   "wordCount": 111,
-  "sentenceCount": 73,
+  "sentenceCount": 132,
   "updatedAt": "2026-11-23",
   "units": [
-    {
-      "no": 0,
-      "title": "Unit 0",
-      "theme": "",
-      "wordIds": [
-        "qh-6b-u0-01",
-        "qh-6b-u0-02"
-      ]
-    },
     {
       "no": 1,
       "title": "Unit 1",
@@ -86,7 +77,8 @@
         "qh-6b-u2-19",
         "qh-6b-u2-20",
         "qh-6b-u2-21",
-        "qh-6b-u2-22"
+        "qh-6b-u2-22",
+        "qh-6b-u2-23"
       ]
     },
     {
@@ -130,7 +122,8 @@
         "qh-6b-u3-34",
         "qh-6b-u3-35",
         "qh-6b-u3-36",
-        "qh-6b-u3-37"
+        "qh-6b-u3-37",
+        "qh-6b-u3-38"
       ]
     },
     {
@@ -160,49 +153,6 @@
     }
   ],
   "words": [
-    {
-      "id": "qh-6b-u0-01",
-      "word": "universal gravitation",
-      "phoneticUK": "/ˌjuːnɪˈvɜːsl̩ ˌɡɹævɪˈteɪ̯ʃən/",
-      "syllables": [
-        "un",
-        "iv",
-        "ers",
-        "al gr",
-        "av",
-        "it",
-        "ati",
-        "on"
-      ],
-      "senses": [
-        {
-          "cn": "万有引力 (34)",
-          "cnFull": "万有引力 (34)"
-        }
-      ],
-      "grade": 6,
-      "unit": 0
-    },
-    {
-      "id": "qh-6b-u0-02",
-      "word": "Valentine’s Day",
-      "phoneticUK": "/ˈvæləntaɪnz deɪ/",
-      "syllables": [
-        "v",
-        "al",
-        "ent",
-        "in",
-        "e’s day"
-      ],
-      "senses": [
-        {
-          "cn": "情人节，爱心节",
-          "cnFull": "情人节，爱心节"
-        }
-      ],
-      "grade": 6,
-      "unit": 0
-    },
     {
       "id": "qh-6b-u1-01",
       "word": "agree",
@@ -749,8 +699,8 @@
       ],
       "senses": [
         {
-          "cn": "你的，你们的注释：带* 的单词不要求掌握，只需要在上下文中理解。",
-          "cnFull": "你的，你们的注释：带* 的单词不要求掌握，只需要在上下文中理解。"
+          "cn": "你的，你们的",
+          "cnFull": "你的，你们的"
         }
       ],
       "grade": 6,
@@ -758,6 +708,26 @@
     },
     {
       "id": "qh-6b-u2-01",
+      "word": "Valentine’s Day",
+      "phoneticUK": "/ˈvæləntaɪnz deɪ/",
+      "syllables": [
+        "v",
+        "al",
+        "ent",
+        "in",
+        "e’s day"
+      ],
+      "senses": [
+        {
+          "cn": "情人节，爱心节",
+          "cnFull": "情人节，爱心节"
+        }
+      ],
+      "grade": 6,
+      "unit": 2
+    },
+    {
+      "id": "qh-6b-u2-02",
       "word": "bar",
       "phoneticUK": "/bɑː(r)/",
       "syllables": [
@@ -773,7 +743,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-02",
+      "id": "qh-6b-u2-03",
       "word": "bumper car",
       "phoneticUK": "/ˈbʌmpə kɑː(r)/",
       "syllables": [
@@ -791,7 +761,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-03",
+      "id": "qh-6b-u2-04",
       "word": "bunny",
       "phoneticUK": "/ˈbʌni/",
       "syllables": [
@@ -808,7 +778,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-04",
+      "id": "qh-6b-u2-05",
       "word": "dear",
       "phoneticUK": "/dɪə(r)/",
       "syllables": [
@@ -825,7 +795,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-05",
+      "id": "qh-6b-u2-06",
       "word": "dragon",
       "phoneticUK": "/ˈdɹæɡən/",
       "syllables": [
@@ -843,7 +813,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-06",
+      "id": "qh-6b-u2-07",
       "word": "drown",
       "phoneticUK": "/dɹaʊn/",
       "syllables": [
@@ -860,7 +830,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-07",
+      "id": "qh-6b-u2-08",
       "word": "Easter",
       "phoneticUK": "/ˈiː.stə/",
       "syllables": [
@@ -878,7 +848,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-08",
+      "id": "qh-6b-u2-09",
       "word": "electricity",
       "phoneticUK": "/ˌiːlɛkˈtɹɪsɪti/",
       "syllables": [
@@ -897,7 +867,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-09",
+      "id": "qh-6b-u2-10",
       "word": "filling",
       "phoneticUK": "/ˈfɪlɪŋ/",
       "syllables": [
@@ -915,7 +885,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-10",
+      "id": "qh-6b-u2-11",
       "word": "greeting",
       "phoneticUK": "/ˈɡriːtɪŋ/",
       "syllables": [
@@ -933,7 +903,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-11",
+      "id": "qh-6b-u2-12",
       "word": "hug",
       "phoneticUK": "/hʌɡ/",
       "syllables": [
@@ -949,7 +919,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-12",
+      "id": "qh-6b-u2-13",
       "word": "hunt",
       "phoneticUK": "/hʌnt/",
       "syllables": [
@@ -966,7 +936,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-13",
+      "id": "qh-6b-u2-14",
       "word": "national",
       "phoneticUK": "/ˈnæʃnəl/",
       "syllables": [
@@ -985,7 +955,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-14",
+      "id": "qh-6b-u2-15",
       "word": "poet",
       "phoneticUK": "/ˈpəʊ.ɪt/",
       "syllables": [
@@ -1002,7 +972,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-15",
+      "id": "qh-6b-u2-16",
       "word": "pollute",
       "phoneticUK": "/pəˈluːt/",
       "syllables": [
@@ -1020,7 +990,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-16",
+      "id": "qh-6b-u2-17",
       "word": "poster",
       "phoneticUK": "/ˈpəʊstə(r)/",
       "syllables": [
@@ -1038,7 +1008,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-17",
+      "id": "qh-6b-u2-18",
       "word": "remember",
       "phoneticUK": "/rɪˈmembə(r)/",
       "syllables": [
@@ -1057,7 +1027,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-18",
+      "id": "qh-6b-u2-19",
       "word": "rose",
       "phoneticUK": "/ɹəʊz/",
       "syllables": [
@@ -1074,7 +1044,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-19",
+      "id": "qh-6b-u2-20",
       "word": "steam",
       "phoneticUK": "/stiːm/",
       "syllables": [
@@ -1091,7 +1061,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-20",
+      "id": "qh-6b-u2-21",
       "word": "sticky",
       "phoneticUK": "/ˈstɪki/",
       "syllables": [
@@ -1108,7 +1078,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-21",
+      "id": "qh-6b-u2-22",
       "word": "understand",
       "phoneticUK": "/ˌʌndəˈstænd/",
       "syllables": [
@@ -1126,7 +1096,7 @@
       "unit": 2
     },
     {
-      "id": "qh-6b-u2-22",
+      "id": "qh-6b-u2-23",
       "word": "wrap",
       "phoneticUK": "/ɹæp/",
       "syllables": [
@@ -1144,6 +1114,29 @@
     },
     {
       "id": "qh-6b-u3-01",
+      "word": "universal gravitation",
+      "phoneticUK": "/ˌjuːnɪˈvɜːsl̩ ˌɡɹævɪˈteɪ̯ʃən/",
+      "syllables": [
+        "un",
+        "iv",
+        "ers",
+        "al gr",
+        "av",
+        "it",
+        "ati",
+        "on"
+      ],
+      "senses": [
+        {
+          "cn": "万有引力 (34)",
+          "cnFull": "万有引力 (34)"
+        }
+      ],
+      "grade": 6,
+      "unit": 3
+    },
+    {
+      "id": "qh-6b-u3-02",
       "word": "afford",
       "phoneticUK": "/əˈfɔːd/",
       "syllables": [
@@ -1160,7 +1153,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-02",
+      "id": "qh-6b-u3-03",
       "word": "almost",
       "phoneticUK": "/ˈɔːl.məʊst/",
       "syllables": [
@@ -1177,7 +1170,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-03",
+      "id": "qh-6b-u3-04",
       "word": "artist",
       "phoneticUK": "/ˈɑːtɪst/",
       "syllables": [
@@ -1194,7 +1187,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-04",
+      "id": "qh-6b-u3-05",
       "word": "blind",
       "phoneticUK": "/ˈblaɪ̯nd/",
       "syllables": [
@@ -1211,7 +1204,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-05",
+      "id": "qh-6b-u3-06",
       "word": "continue",
       "phoneticUK": "/kənˈtɪn.juː/",
       "syllables": [
@@ -1229,7 +1222,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-06",
+      "id": "qh-6b-u3-07",
       "word": "deaf",
       "phoneticUK": "/dɛf/",
       "syllables": [
@@ -1246,7 +1239,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-07",
+      "id": "qh-6b-u3-08",
       "word": "England",
       "phoneticUK": "/ˈɪŋɡlənd/",
       "syllables": [
@@ -1263,7 +1256,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-08",
+      "id": "qh-6b-u3-09",
       "word": "famous",
       "phoneticUK": "/ˈfeɪməs/",
       "syllables": [
@@ -1281,7 +1274,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-09",
+      "id": "qh-6b-u3-10",
       "word": "Germany",
       "phoneticUK": "/ˈdʒɜːməni/",
       "syllables": [
@@ -1299,7 +1292,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-10",
+      "id": "qh-6b-u3-11",
       "word": "half",
       "phoneticUK": "/hɑːf/",
       "syllables": [
@@ -1316,7 +1309,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-11",
+      "id": "qh-6b-u3-12",
       "word": "however",
       "phoneticUK": "/haʊˈɛvə/",
       "syllables": [
@@ -1335,7 +1328,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-12",
+      "id": "qh-6b-u3-13",
       "word": "interested",
       "phoneticUK": "/ˈɪn.t(ə.)ɹɛs.tɪd/",
       "syllables": [
@@ -1354,7 +1347,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-13",
+      "id": "qh-6b-u3-14",
       "word": "invention",
       "phoneticUK": "/ɪnˈvɛnʃən/",
       "syllables": [
@@ -1372,7 +1365,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-14",
+      "id": "qh-6b-u3-15",
       "word": "inventor",
       "phoneticUK": "/ɪnˈvɛntə/",
       "syllables": [
@@ -1390,7 +1383,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-15",
+      "id": "qh-6b-u3-16",
       "word": "Italy",
       "phoneticUK": "/ˈɪtəli/",
       "syllables": [
@@ -1407,7 +1400,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-16",
+      "id": "qh-6b-u3-17",
       "word": "lab",
       "phoneticUK": "/læːb/",
       "syllables": [
@@ -1423,7 +1416,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-17",
+      "id": "qh-6b-u3-18",
       "word": "law",
       "phoneticUK": "/lɔː/",
       "syllables": [
@@ -1439,7 +1432,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-18",
+      "id": "qh-6b-u3-19",
       "word": "lifetime",
       "phoneticUK": "/ˈlaɪf.taɪm/",
       "syllables": [
@@ -1458,7 +1451,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-19",
+      "id": "qh-6b-u3-20",
       "word": "listener",
       "phoneticUK": "/ˈlɪsənə/",
       "syllables": [
@@ -1477,7 +1470,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-20",
+      "id": "qh-6b-u3-21",
       "word": "luckily",
       "phoneticUK": "/ˈlʌk.ɪ.li/",
       "syllables": [
@@ -1495,7 +1488,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-21",
+      "id": "qh-6b-u3-22",
       "word": "lucky",
       "phoneticUK": "/ˈlʌki/",
       "syllables": [
@@ -1512,7 +1505,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-22",
+      "id": "qh-6b-u3-23",
       "word": "mathematician",
       "phoneticUK": "/ˌmæθ.(ə.)məˈtɪʃ.ən/",
       "syllables": [
@@ -1533,7 +1526,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-23",
+      "id": "qh-6b-u3-24",
       "word": "mathematics",
       "phoneticUK": "/mæθ(.ə)ˈmæt.ɪks/",
       "syllables": [
@@ -1553,7 +1546,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-24",
+      "id": "qh-6b-u3-25",
       "word": "mistake",
       "phoneticUK": "/mɪˈsteɪk/",
       "syllables": [
@@ -1571,7 +1564,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-25",
+      "id": "qh-6b-u3-26",
       "word": "physicist",
       "phoneticUK": "/ˈfɪzɪsɪst/",
       "syllables": [
@@ -1590,7 +1583,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-26",
+      "id": "qh-6b-u3-27",
       "word": "physics",
       "phoneticUK": "/ˈfɪz.ɪks/",
       "syllables": [
@@ -1608,7 +1601,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-27",
+      "id": "qh-6b-u3-28",
       "word": "plate",
       "phoneticUK": "/pleɪt/",
       "syllables": [
@@ -1625,7 +1618,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-28",
+      "id": "qh-6b-u3-29",
       "word": "prize",
       "phoneticUK": "/ˈpɹaɪ̯z/",
       "syllables": [
@@ -1642,7 +1635,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-29",
+      "id": "qh-6b-u3-30",
       "word": "Nobel Prize",
       "phoneticUK": "/nəʊˈbel praɪz/",
       "syllables": [
@@ -1661,7 +1654,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-30",
+      "id": "qh-6b-u3-31",
       "word": "problem",
       "phoneticUK": "/ˈprɒbləm/",
       "syllables": [
@@ -1679,7 +1672,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-31",
+      "id": "qh-6b-u3-32",
       "word": "research",
       "phoneticUK": "/ɹɪˈsɜːt͡ʃ/",
       "syllables": [
@@ -1697,7 +1690,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-32",
+      "id": "qh-6b-u3-33",
       "word": "solution",
       "phoneticUK": "/səˈl(j)uːʃən/",
       "syllables": [
@@ -1716,7 +1709,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-33",
+      "id": "qh-6b-u3-34",
       "word": "spell",
       "phoneticUK": "/spel/",
       "syllables": [
@@ -1733,7 +1726,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-34",
+      "id": "qh-6b-u3-35",
       "word": "success",
       "phoneticUK": "/səkˈsɛs/",
       "syllables": [
@@ -1751,7 +1744,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-35",
+      "id": "qh-6b-u3-36",
       "word": "talent",
       "phoneticUK": "/ˈtæl.ənt/",
       "syllables": [
@@ -1769,7 +1762,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-36",
+      "id": "qh-6b-u3-37",
       "word": "theory",
       "phoneticUK": "/ˈθɪə.ɹi/",
       "syllables": [
@@ -1786,7 +1779,7 @@
       "unit": 3
     },
     {
-      "id": "qh-6b-u3-37",
+      "id": "qh-6b-u3-38",
       "word": "unbelievable",
       "phoneticUK": "/ˌʌnbɪˈliːvəbl̩/",
       "syllables": [
@@ -2121,8 +2114,8 @@
   ],
   "sentences": [
     {
-      "id": "qh-6b-u0-s01",
-      "unit": 0,
+      "id": "qh-6b-u1-s01",
+      "unit": 1,
       "cn": "这是星期五晚上。",
       "en": "It’s Friday evening.",
       "tokens": [
@@ -2144,8 +2137,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s02",
-      "unit": 0,
+      "id": "qh-6b-u1-s02",
+      "unit": 1,
       "cn": "李正在给朋友迈克打电话。",
       "en": "Lee is calling his friend, Mike.",
       "tokens": [
@@ -2182,8 +2175,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s03",
-      "unit": 0,
+      "id": "qh-6b-u1-s03",
+      "unit": 1,
       "cn": "我是李。",
       "en": "This is Lee.",
       "tokens": [
@@ -2205,8 +2198,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s04",
-      "unit": 0,
+      "id": "qh-6b-u1-s04",
+      "unit": 1,
       "cn": "这个星期六我们去看电影好吗？",
       "en": "Shall we see a film this Saturday?",
       "tokens": [
@@ -2248,8 +2241,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s05",
-      "unit": 0,
+      "id": "qh-6b-u1-s05",
+      "unit": 1,
       "cn": "《海底总动员》怎么样？",
       "en": "How about Finding Nemo?",
       "tokens": [
@@ -2276,8 +2269,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s06",
-      "unit": 0,
+      "id": "qh-6b-u1-s06",
+      "unit": 1,
       "cn": "你想和我一起去看电影吗？",
       "en": "Would You Like to See a Film with Me?",
       "tokens": [
@@ -2329,15 +2322,15 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s07",
-      "unit": 0,
+      "id": "qh-6b-u1-s07",
+      "unit": 1,
       "cn": "他正在给朋友琳达打电话。",
       "en": "He is calling his friend, Linda.",
       "tokens": [
         {
           "en": "He",
-          "cn": "他",
-          "pos": "代词"
+          "cn": "和",
+          "pos": "名词"
         },
         {
           "en": "is",
@@ -2367,8 +2360,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s08",
-      "unit": 0,
+      "id": "qh-6b-u1-s08",
+      "unit": 1,
       "cn": "我的生日是三月十五日。",
       "en": "My birthday is on March 15.",
       "tokens": [
@@ -2405,8 +2398,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s09",
-      "unit": 0,
+      "id": "qh-6b-u1-s09",
+      "unit": 1,
       "cn": "可我没有那本书。",
       "en": "But I don’t have it.",
       "tokens": [
@@ -2438,15 +2431,15 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s10",
-      "unit": 0,
+      "id": "qh-6b-u1-s10",
+      "unit": 1,
       "cn": "我去你家的时候把它带上。",
       "en": "I’ll bring it with me when I go to your home.",
       "tokens": [
         {
           "en": "I’ll",
-          "cn": "我将",
-          "pos": "缩略"
+          "cn": "会",
+          "pos": "助动词"
         },
         {
           "en": "bring",
@@ -2501,8 +2494,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s11",
-      "unit": 0,
+      "id": "qh-6b-u1-s11",
+      "unit": 1,
       "cn": "这是星期六晚上。",
       "en": "It’s Saturday evening.",
       "tokens": [
@@ -2524,8 +2517,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s12",
-      "unit": 0,
+      "id": "qh-6b-u1-s12",
+      "unit": 1,
       "cn": "李正在给朋友弗雷德打电话。",
       "en": "Lee is calling his friend, Fred.",
       "tokens": [
@@ -2562,8 +2555,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s13",
-      "unit": 0,
+      "id": "qh-6b-u1-s13",
+      "unit": 1,
       "cn": "请问弗雷德在吗？",
       "en": "May I speak to Fred, please?",
       "tokens": [
@@ -2600,15 +2593,15 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s14",
-      "unit": 0,
+      "id": "qh-6b-u1-s14",
+      "unit": 1,
       "cn": "我去叫弗雷德。",
       "en": "I’ll call Fred.",
       "tokens": [
         {
           "en": "I’ll",
-          "cn": "我将",
-          "pos": "缩略"
+          "cn": "会",
+          "pos": "助动词"
         },
         {
           "en": "call",
@@ -2623,8 +2616,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s15",
-      "unit": 0,
+      "id": "qh-6b-u1-s15",
+      "unit": 1,
       "cn": "请转告他我会再打过来。",
       "en": "Please tell him I’ll call him back.",
       "tokens": [
@@ -2645,8 +2638,8 @@
         },
         {
           "en": "I’ll",
-          "cn": "我将",
-          "pos": "缩略"
+          "cn": "会",
+          "pos": "助动词"
         },
         {
           "en": "call",
@@ -2666,15 +2659,15 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s16",
-      "unit": 0,
+      "id": "qh-6b-u1-s16",
+      "unit": 1,
       "cn": "他正在拨 18-2046-3868 找李。",
       "en": "He is calling Lee at 18-2046-3868.",
       "tokens": [
         {
           "en": "He",
-          "cn": "他",
-          "pos": "代词"
+          "cn": "和",
+          "pos": "名词"
         },
         {
           "en": "is",
@@ -2704,8 +2697,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s17",
-      "unit": 0,
+      "id": "qh-6b-u1-s17",
+      "unit": 1,
       "cn": "我是弗雷德。",
       "en": "It’s Fred.",
       "tokens": [
@@ -2722,8 +2715,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s18",
-      "unit": 0,
+      "id": "qh-6b-u1-s18",
+      "unit": 1,
       "cn": "他正在给朋友莉莉打电话，告诉她这个好消息。",
       "en": "He’s calling his friend, Lily, to tell her the good news.",
       "tokens": [
@@ -2785,8 +2778,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s19",
-      "unit": 0,
+      "id": "qh-6b-u1-s19",
+      "unit": 1,
       "cn": "请问莉莉在吗？",
       "en": "May I speak to Lily, please?",
       "tokens": [
@@ -2823,8 +2816,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s20",
-      "unit": 0,
+      "id": "qh-6b-u1-s20",
+      "unit": 1,
       "cn": "我该怎么办？",
       "en": "What can I do?",
       "tokens": [
@@ -2851,8 +2844,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s21",
-      "unit": 0,
+      "id": "qh-6b-u1-s21",
+      "unit": 1,
       "cn": "为什么不去找苏珊和简，跟她们说声对不起呢？",
       "en": "Why not go to Susan and Jane to say you are sorry?",
       "tokens": [
@@ -2919,8 +2912,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s22",
-      "unit": 0,
+      "id": "qh-6b-u1-s22",
+      "unit": 1,
       "cn": "她正在给朋友李打电话。",
       "en": "She’s calling her friend, Lee.",
       "tokens": [
@@ -2952,8 +2945,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s23",
-      "unit": 0,
+      "id": "qh-6b-u1-s23",
+      "unit": 1,
       "cn": "凯茜打算向苏珊和简道歉。",
       "en": "Cathy is going to say she is sorry to Susan and Jane.",
       "tokens": [
@@ -3020,8 +3013,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s24",
-      "unit": 0,
+      "id": "qh-6b-u1-s24",
+      "unit": 1,
       "cn": "蒂娜有一只宠物狗叫比特。",
       "en": "Tina has a pet dog, Bit.",
       "tokens": [
@@ -3058,8 +3051,8 @@
       ]
     },
     {
-      "id": "qh-6b-u0-s25",
-      "unit": 0,
+      "id": "qh-6b-u1-s25",
+      "unit": 1,
       "cn": "蒂娜和比特是好朋友。",
       "en": "Tina and Bit are good friends.",
       "tokens": [
@@ -3096,7 +3089,7 @@
       ]
     },
     {
-      "id": "qh-6b-u1-s01",
+      "id": "qh-6b-u1-s26",
       "unit": 1,
       "cn": "工作日指星期一到星期五的任何一天。",
       "en": "A weekday is any day from Monday to Friday.",
@@ -3149,7 +3142,7 @@
       ]
     },
     {
-      "id": "qh-6b-u1-s02",
+      "id": "qh-6b-u1-s27",
       "unit": 1,
       "cn": "我打算邀请迈克、弗雷德、莉莉和凯茜。",
       "en": "I’m going to invite Mike, Fred, Lily and Cathy.",
@@ -3202,7 +3195,7 @@
       ]
     },
     {
-      "id": "qh-6b-u1-s03",
+      "id": "qh-6b-u1-s28",
       "unit": 1,
       "cn": "弗雷德的妈妈叫弗雷德来接电话。",
       "en": "Fred’s mother calls Fred to answer the phone.",
@@ -3250,7 +3243,7 @@
       ]
     },
     {
-      "id": "qh-6b-u1-s04",
+      "id": "qh-6b-u1-s29",
       "unit": 1,
       "cn": "弗雷德的妈妈又在电话里跟李说话。",
       "en": "Fred’s mother speaks to Lee over the phone again.",
@@ -3303,7 +3296,7 @@
       ]
     },
     {
-      "id": "qh-6b-u1-s05",
+      "id": "qh-6b-u1-s30",
       "unit": 1,
       "cn": "我是布朗太太。",
       "en": "This is Mrs Brown.",
@@ -3331,7 +3324,7 @@
       ]
     },
     {
-      "id": "qh-6b-u1-s06",
+      "id": "qh-6b-u1-s31",
       "unit": 1,
       "cn": "妈妈，我在洗澡。",
       "en": "I’m taking a shower, Mom.",
@@ -3364,8 +3357,641 @@
       ]
     },
     {
-      "id": "qh-6b-u1-s07",
+      "id": "qh-6b-u1-s32",
       "unit": 1,
+      "cn": "我同意你的看法。",
+      "en": "I agree with you.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "agree",
+          "cn": "同意",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "you.",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u1-s33",
+      "unit": 1,
+      "cn": "我们周末去水族馆吧。",
+      "en": "Let’s go to the aquarium on the weekend.",
+      "tokens": [
+        {
+          "en": "Let’s",
+          "cn": "让我们",
+          "pos": "缩略"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "aquarium",
+          "cn": "水族馆",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "weekend.",
+          "cn": "周末",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u1-s34",
+      "unit": 1,
+      "cn": "别怪我，也别忘了发邮件。",
+      "en": "Don’t blame me, and don’t forget to send the email.",
+      "tokens": [
+        {
+          "en": "Don’t",
+          "cn": "不",
+          "pos": "助动词"
+        },
+        {
+          "en": "blame",
+          "cn": "责备",
+          "pos": "名词"
+        },
+        {
+          "en": "me,",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "don’t",
+          "cn": "不",
+          "pos": "助动词"
+        },
+        {
+          "en": "forget",
+          "cn": "忘记",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "send",
+          "cn": "安排去",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "email.",
+          "cn": "电子邮件",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u1-s35",
+      "unit": 1,
+      "cn": "请原谅我迟到了。",
+      "en": "Please forgive me for being late.",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "forgive",
+          "cn": "原谅",
+          "pos": "名词"
+        },
+        {
+          "en": "me",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "being",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "late.",
+          "cn": "晚的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u1-s36",
+      "unit": 1,
+      "cn": "先再见啦，祝你好运！",
+      "en": "Bye for now, and good luck!",
+      "tokens": [
+        {
+          "en": "Bye",
+          "cn": "再见",
+          "pos": "名词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "now,",
+          "cn": "现在",
+          "pos": "副词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "luck!",
+          "cn": "好运",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u1-s37",
+      "unit": 1,
+      "cn": "再见，明天见。",
+      "en": "Goodbye, see you tomorrow.",
+      "tokens": [
+        {
+          "en": "Goodbye,",
+          "cn": "再见",
+          "pos": "名词"
+        },
+        {
+          "en": "see",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "tomorrow.",
+          "cn": "明天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u1-s38",
+      "unit": 1,
+      "cn": "没有别人知道比分。",
+      "en": "Nobody else knows the score.",
+      "tokens": [
+        {
+          "en": "Nobody",
+          "cn": "没有人",
+          "pos": "名词"
+        },
+        {
+          "en": "else",
+          "cn": "别的",
+          "pos": "形容词"
+        },
+        {
+          "en": "knows",
+          "cn": "知道",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "score.",
+          "cn": "比分",
+          "pos": "介词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u1-s39",
+      "unit": 1,
+      "cn": "我出生在北京。",
+      "en": "I was born in Beijing.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "was",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "born",
+          "cn": "出生",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "Beijing.",
+          "cn": "北京",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u1-s40",
+      "unit": 1,
+      "cn": "最后一切都好。",
+      "en": "Everything is fine at the end.",
+      "tokens": [
+        {
+          "en": "Everything",
+          "cn": "一切",
+          "pos": "数词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "fine",
+          "cn": "健康的",
+          "pos": "形容词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "end.",
+          "cn": "结尾",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u1-s41",
+      "unit": 1,
+      "cn": "我收到了演出的邀请。",
+      "en": "I got an invitation to the show.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "got",
+          "cn": "准备",
+          "pos": "名词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "invitation",
+          "cn": "邀请",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "show.",
+          "cn": "显露",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u1-s42",
+      "unit": 1,
+      "cn": "把你的礼物藏起来，我会找到的。",
+      "en": "Hide your gift, and I will find it.",
+      "tokens": [
+        {
+          "en": "Hide",
+          "cn": "躲藏",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "gift,",
+          "cn": "礼物",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "will",
+          "cn": "将会",
+          "pos": "情态动词"
+        },
+        {
+          "en": "find",
+          "cn": "找到",
+          "pos": "名词"
+        },
+        {
+          "en": "it.",
+          "cn": "它",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u1-s43",
+      "unit": 1,
+      "cn": "这条路比那条长。",
+      "en": "This road is longer than that one.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "road",
+          "cn": "马路",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "longer",
+          "cn": "更长的",
+          "pos": "形容词"
+        },
+        {
+          "en": "than",
+          "cn": "比",
+          "pos": "连词"
+        },
+        {
+          "en": "that",
+          "cn": "那个",
+          "pos": "代词"
+        },
+        {
+          "en": "one.",
+          "cn": "一",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u1-s44",
+      "unit": 1,
+      "cn": "没有地方再放一把椅子了。",
+      "en": "There is no space for another chair.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "no",
+          "cn": "不",
+          "pos": "副词"
+        },
+        {
+          "en": "space",
+          "cn": "太空",
+          "pos": "名词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "another",
+          "cn": "另一",
+          "pos": "名词"
+        },
+        {
+          "en": "chair.",
+          "cn": "椅子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u1-s45",
+      "unit": 1,
+      "cn": "我们队星期天踢足球。",
+      "en": "Our team plays football on Sunday.",
+      "tokens": [
+        {
+          "en": "Our",
+          "cn": "我们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "team",
+          "cn": "（游戏或运动的）队",
+          "pos": "名词"
+        },
+        {
+          "en": "plays",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "football",
+          "cn": "足球",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "Sunday.",
+          "cn": "星期日",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u1-s46",
+      "unit": 1,
+      "cn": "有时候我给老师发邮件。",
+      "en": "Sometimes I send emails to my teacher.",
+      "tokens": [
+        {
+          "en": "Sometimes",
+          "cn": "有时",
+          "pos": "名词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "send",
+          "cn": "安排去",
+          "pos": "名词"
+        },
+        {
+          "en": "emails",
+          "cn": "电子邮件",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "teacher.",
+          "cn": "教师",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u1-s47",
+      "unit": 1,
+      "cn": "你的是蓝色的那个。",
+      "en": "Yours is the blue one.",
+      "tokens": [
+        {
+          "en": "Yours",
+          "cn": "你（们）的",
+          "pos": "形容词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "blue",
+          "cn": "蓝色的",
+          "pos": "形容词"
+        },
+        {
+          "en": "one.",
+          "cn": "一",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u2-s01",
+      "unit": 2,
       "cn": "我们能去看海狮表演吗？",
       "en": "Can We Go to See a Sea Lion Show?",
       "tokens": [
@@ -3417,8 +4043,8 @@
       ]
     },
     {
-      "id": "qh-6b-u1-s08",
-      "unit": 1,
+      "id": "qh-6b-u2-s02",
+      "unit": 2,
       "cn": "我们的地球正处在危险之中。",
       "en": "Our Earth is in danger.",
       "tokens": [
@@ -3450,8 +4076,8 @@
       ]
     },
     {
-      "id": "qh-6b-u1-s09",
-      "unit": 1,
+      "id": "qh-6b-u2-s03",
+      "unit": 2,
       "cn": "全世界都在庆祝地球日。",
       "en": "Earth Day is celebrated around the world.",
       "tokens": [
@@ -3493,8 +4119,8 @@
       ]
     },
     {
-      "id": "qh-6b-u1-s10",
-      "unit": 1,
+      "id": "qh-6b-u2-s04",
+      "unit": 2,
       "cn": "地球日就要到了。",
       "en": "Earth Day is coming.",
       "tokens": [
@@ -3521,8 +4147,8 @@
       ]
     },
     {
-      "id": "qh-6b-u1-s11",
-      "unit": 1,
+      "id": "qh-6b-u2-s05",
+      "unit": 2,
       "cn": "地球日你打算做什么？",
       "en": "What are you going to do on Earth Day?",
       "tokens": [
@@ -3574,8 +4200,8 @@
       ]
     },
     {
-      "id": "qh-6b-u1-s12",
-      "unit": 1,
+      "id": "qh-6b-u2-s06",
+      "unit": 2,
       "cn": "我们班要去儿童公园捡垃圾。",
       "en": "My class is going to the Children’s Park to pick up trash.",
       "tokens": [
@@ -3611,7 +4237,7 @@
         },
         {
           "en": "Children’s",
-          "cn": "的复数形式)的",
+          "cn": "孩子们的",
           "pos": "名词"
         },
         {
@@ -3642,126 +4268,7 @@
       ]
     },
     {
-      "id": "qh-6b-u1-s13",
-      "unit": 1,
-      "cn": "他 1642 年出生在英国。",
-      "en": "He was born in 1642 in England.",
-      "tokens": [
-        {
-          "en": "He",
-          "cn": "他",
-          "pos": "代词"
-        },
-        {
-          "en": "was",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "born",
-          "cn": "出生",
-          "pos": "名词"
-        },
-        {
-          "en": "in",
-          "cn": "在……里",
-          "pos": "介词"
-        },
-        {
-          "en": "1642",
-          "cn": "1642",
-          "pos": "数词"
-        },
-        {
-          "en": "in",
-          "cn": "在……里",
-          "pos": "介词"
-        },
-        {
-          "en": "England.",
-          "cn": "英国",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "qh-6b-u1-s14",
-      "unit": 1,
-      "cn": "牛顿出生在哪里？",
-      "en": "Where was Newton born?",
-      "tokens": [
-        {
-          "en": "Where",
-          "cn": "哪里",
-          "pos": "疑问词"
-        },
-        {
-          "en": "was",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "Newton",
-          "cn": "牛顿",
-          "pos": "名词"
-        },
-        {
-          "en": "born?",
-          "cn": "出生",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "qh-6b-u1-s15",
-      "unit": 1,
-      "cn": "华罗庚出生在一个贫苦的家庭。",
-      "en": "Hua Luogeng was born in a poor family.",
-      "tokens": [
-        {
-          "en": "Hua",
-          "cn": "华",
-          "pos": "名词"
-        },
-        {
-          "en": "Luogeng",
-          "cn": "罗庚",
-          "pos": "名词"
-        },
-        {
-          "en": "was",
-          "cn": "是",
-          "pos": "动词"
-        },
-        {
-          "en": "born",
-          "cn": "出生",
-          "pos": "名词"
-        },
-        {
-          "en": "in",
-          "cn": "在……里",
-          "pos": "介词"
-        },
-        {
-          "en": "a",
-          "cn": "A",
-          "pos": "名词"
-        },
-        {
-          "en": "poor",
-          "cn": "可怜的",
-          "pos": "形容词"
-        },
-        {
-          "en": "family.",
-          "cn": "家庭",
-          "pos": "名词"
-        }
-      ]
-    },
-    {
-      "id": "qh-6b-u2-s01",
+      "id": "qh-6b-u2-s07",
       "unit": 2,
       "cn": "对孩子们来说，复活节是玩游戏的时节。",
       "en": "For children, Easter is a time for games.",
@@ -3773,7 +4280,7 @@
         },
         {
           "en": "children,",
-          "cn": "的复数形式)",
+          "cn": "孩子们",
           "pos": "名词"
         },
         {
@@ -3809,7 +4316,7 @@
       ]
     },
     {
-      "id": "qh-6b-u2-s02",
+      "id": "qh-6b-u2-s08",
       "unit": 2,
       "cn": "复活节兔子是另一个复活节的象征。",
       "en": "The Easter Bunny is another Easter symbol.",
@@ -3852,7 +4359,7 @@
       ]
     },
     {
-      "id": "qh-6b-u2-s03",
+      "id": "qh-6b-u2-s09",
       "unit": 2,
       "cn": "妈妈，你为什么爱我？",
       "en": "Why do you love me, Mom?",
@@ -3890,7 +4397,7 @@
       ]
     },
     {
-      "id": "qh-6b-u2-s04",
+      "id": "qh-6b-u2-s10",
       "unit": 2,
       "cn": "你觉得我为什么爱你？",
       "en": "Why do you think I love you?",
@@ -3933,7 +4440,7 @@
       ]
     },
     {
-      "id": "qh-6b-u2-s05",
+      "id": "qh-6b-u2-s11",
       "unit": 2,
       "cn": "还是因为我作业写得快？",
       "en": "Or because I do my homework fast?",
@@ -3976,7 +4483,7 @@
       ]
     },
     {
-      "id": "qh-6b-u2-s06",
+      "id": "qh-6b-u2-s12",
       "unit": 2,
       "cn": "戴维的妈妈不关心戴维做什么。",
       "en": "David’s mother does not care about what David does.",
@@ -4029,7 +4536,7 @@
       ]
     },
     {
-      "id": "qh-6b-u2-s07",
+      "id": "qh-6b-u2-s13",
       "unit": 2,
       "cn": "那天是父亲节。",
       "en": "It was Father’s Day.",
@@ -4057,7 +4564,7 @@
       ]
     },
     {
-      "id": "qh-6b-u2-s08",
+      "id": "qh-6b-u2-s14",
       "unit": 2,
       "cn": "爸爸和基蒂正在回家的路上。",
       "en": "Dad and Kitty were on the way home.",
@@ -4105,7 +4612,7 @@
       ]
     },
     {
-      "id": "qh-6b-u2-s09",
+      "id": "qh-6b-u2-s15",
       "unit": 2,
       "cn": "那是一个美好的父亲节！",
       "en": "It was a wonderful Father’s Day!",
@@ -4143,7 +4650,7 @@
       ]
     },
     {
-      "id": "qh-6b-u2-s10",
+      "id": "qh-6b-u2-s16",
       "unit": 2,
       "cn": "基蒂和爸爸在儿童公园做了什么？",
       "en": "What did Kitty and her father do in the Children’s Park?",
@@ -4195,7 +4702,7 @@
         },
         {
           "en": "Children’s",
-          "cn": "的复数形式)的",
+          "cn": "孩子们的",
           "pos": "名词"
         },
         {
@@ -4206,7 +4713,7 @@
       ]
     },
     {
-      "id": "qh-6b-u2-s11",
+      "id": "qh-6b-u2-s17",
       "unit": 2,
       "cn": "基蒂为什么让爸爸做这些事？",
       "en": "Why did Kitty ask her father to do these things?",
@@ -4264,7 +4771,819 @@
       ]
     },
     {
+      "id": "qh-6b-u2-s18",
+      "unit": 2,
+      "cn": "情人节那天我送给妈妈一朵红玫瑰。",
+      "en": "On Valentine’s Day I give my mother a red rose.",
+      "tokens": [
+        {
+          "en": "On",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "Valentine’s",
+          "cn": "情人节贺卡的",
+          "pos": "名词"
+        },
+        {
+          "en": "Day",
+          "cn": "天",
+          "pos": "名词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "give",
+          "cn": "给",
+          "pos": "名词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "mother",
+          "cn": "母亲",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "red",
+          "cn": "红色",
+          "pos": "名词"
+        },
+        {
+          "en": "rose.",
+          "cn": "罗斯",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u2-s19",
+      "unit": 2,
+      "cn": "亲爱的妈妈，这张卡片送给你。",
+      "en": "Dear Mom, this card is for you.",
+      "tokens": [
+        {
+          "en": "Dear",
+          "cn": "亲爱的",
+          "pos": "形容词"
+        },
+        {
+          "en": "Mom,",
+          "cn": "妈妈（美语）",
+          "pos": "名词"
+        },
+        {
+          "en": "this",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "card",
+          "cn": "贺卡",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "you.",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u2-s20",
+      "unit": 2,
+      "cn": "我们在全国性的节日里看龙舟比赛。",
+      "en": "We watch the dragon boat race on a national holiday.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "watch",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "dragon",
+          "cn": "龙",
+          "pos": "名词"
+        },
+        {
+          "en": "boat",
+          "cn": "小船",
+          "pos": "名词"
+        },
+        {
+          "en": "race",
+          "cn": "赛跑",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "national",
+          "cn": "全国的",
+          "pos": "形容词"
+        },
+        {
+          "en": "holiday.",
+          "cn": "假期",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u2-s21",
+      "unit": 2,
+      "cn": "小心点，不然你可能会淹死在河里。",
+      "en": "Be careful, or you may drown in the river.",
+      "tokens": [
+        {
+          "en": "Be",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "careful,",
+          "cn": "小心的",
+          "pos": "形容词"
+        },
+        {
+          "en": "or",
+          "cn": "或者",
+          "pos": "连词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "may",
+          "cn": "可以",
+          "pos": "情态动词"
+        },
+        {
+          "en": "drown",
+          "cn": "淹死",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "river.",
+          "cn": "河",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u2-s22",
+      "unit": 2,
+      "cn": "电让机器运转起来。",
+      "en": "Electricity makes the machine work.",
+      "tokens": [
+        {
+          "en": "Electricity",
+          "cn": "电",
+          "pos": "名词"
+        },
+        {
+          "en": "makes",
+          "cn": "制作（过去式 made）",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "machine",
+          "cn": "机器",
+          "pos": "名词"
+        },
+        {
+          "en": "work.",
+          "cn": "工作",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u2-s23",
+      "unit": 2,
+      "cn": "蛋糕的馅又黏又甜。",
+      "en": "The filling of the cake is sticky and sweet.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "filling",
+          "cn": "馅",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "cake",
+          "cn": "蛋糕",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "sticky",
+          "cn": "粘的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "sweet.",
+          "cn": "甜的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u2-s24",
+      "unit": 2,
+      "cn": "我们送上一张问候卡，还有一个大大的拥抱。",
+      "en": "We send a greeting card and a big hug.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "send",
+          "cn": "安排去",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "greeting",
+          "cn": "问候",
+          "pos": "名词"
+        },
+        {
+          "en": "card",
+          "cn": "贺卡",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "big",
+          "cn": "大的",
+          "pos": "形容词"
+        },
+        {
+          "en": "hug.",
+          "cn": "拥抱",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u2-s25",
+      "unit": 2,
+      "cn": "那天他们会去找彩蛋。",
+      "en": "They hunt for eggs on that day.",
+      "tokens": [
+        {
+          "en": "They",
+          "cn": "他们",
+          "pos": "代词"
+        },
+        {
+          "en": "hunt",
+          "cn": "搜寻",
+          "pos": "名词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "eggs",
+          "cn": "鸡蛋",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "that",
+          "cn": "那个",
+          "pos": "代词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u2-s26",
+      "unit": 2,
+      "cn": "诗人写了一首关于月亮的诗。",
+      "en": "The poet writes a poem about the moon.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "poet",
+          "cn": "诗人",
+          "pos": "名词"
+        },
+        {
+          "en": "writes",
+          "cn": "写",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "poem",
+          "cn": "诗",
+          "pos": "名词"
+        },
+        {
+          "en": "about",
+          "cn": "关于",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "moon.",
+          "cn": "月亮",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u2-s27",
+      "unit": 2,
+      "cn": "不要污染河流。",
+      "en": "Do not pollute the river.",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "not",
+          "cn": "不",
+          "pos": "副词"
+        },
+        {
+          "en": "pollute",
+          "cn": "污染",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "river.",
+          "cn": "河",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u2-s28",
+      "unit": 2,
+      "cn": "在墙上贴一张海报。",
+      "en": "Put up a poster on the wall.",
+      "tokens": [
+        {
+          "en": "Put",
+          "cn": "放",
+          "pos": "名词"
+        },
+        {
+          "en": "up",
+          "cn": "向上",
+          "pos": "副词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "poster",
+          "cn": "海报",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "wall.",
+          "cn": "墙",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u2-s29",
+      "unit": 2,
+      "cn": "我记得你的生日。",
+      "en": "I remember your birthday.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "remember",
+          "cn": "记住",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "birthday.",
+          "cn": "生日",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u2-s30",
+      "unit": 2,
+      "cn": "我们用蒸的方式做鱼。",
+      "en": "We cook the fish with steam.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "cook",
+          "cn": "做饭",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "fish",
+          "cn": "鱼",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "steam.",
+          "cn": "水蒸气",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u2-s31",
+      "unit": 2,
+      "cn": "你听懂这个问题了吗？",
+      "en": "Do you understand the question?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "understand",
+          "cn": "懂",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "question?",
+          "cn": "问题",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u2-s32",
+      "unit": 2,
+      "cn": "请用纸把礼物包起来。",
+      "en": "Please wrap the gift with paper.",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "wrap",
+          "cn": "包",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "gift",
+          "cn": "礼物",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "paper.",
+          "cn": "纸",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u2-s33",
+      "unit": 2,
+      "cn": "碰碰车撞到了横杆上。",
+      "en": "The bumper car hits the bar.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bumper",
+          "cn": "缓冲器",
+          "pos": "名词"
+        },
+        {
+          "en": "car",
+          "cn": "小汽车",
+          "pos": "名词"
+        },
+        {
+          "en": "hits",
+          "cn": "击",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bar.",
+          "cn": "杆",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
       "id": "qh-6b-u3-s01",
+      "unit": 3,
+      "cn": "他 1642 年出生在英国。",
+      "en": "He was born in 1642 in England.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "was",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "born",
+          "cn": "出生",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "1642",
+          "cn": "1642",
+          "pos": "数词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "England.",
+          "cn": "英国",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s02",
+      "unit": 3,
+      "cn": "牛顿出生在哪里？",
+      "en": "Where was Newton born?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "was",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Newton",
+          "cn": "牛顿",
+          "pos": "名词"
+        },
+        {
+          "en": "born?",
+          "cn": "出生",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s03",
+      "unit": 3,
+      "cn": "华罗庚出生在一个贫苦的家庭。",
+      "en": "Hua Luogeng was born in a poor family.",
+      "tokens": [
+        {
+          "en": "Hua",
+          "cn": "华",
+          "pos": "名词"
+        },
+        {
+          "en": "Luogeng",
+          "cn": "罗庚",
+          "pos": "名词"
+        },
+        {
+          "en": "was",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "born",
+          "cn": "出生",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "poor",
+          "cn": "可怜的",
+          "pos": "形容词"
+        },
+        {
+          "en": "family.",
+          "cn": "家庭",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s04",
       "unit": 3,
       "cn": "艾萨克·牛顿是一位伟大的物理学家。",
       "en": "Isaac Newton was a great physicist.",
@@ -4302,7 +5621,7 @@
       ]
     },
     {
-      "id": "qh-6b-u3-s02",
+      "id": "qh-6b-u3-s05",
       "unit": 3,
       "cn": "托马斯·爱迪生是一位伟大的发明家。",
       "en": "Thomas Edison was a great inventor.",
@@ -4340,7 +5659,7 @@
       ]
     },
     {
-      "id": "qh-6b-u3-s03",
+      "id": "qh-6b-u3-s06",
       "unit": 3,
       "cn": "幸运的是，爱迪生的妈妈是老师。",
       "en": "Luckily, Edison’s mother was a teacher.",
@@ -4378,7 +5697,7 @@
       ]
     },
     {
-      "id": "qh-6b-u3-s04",
+      "id": "qh-6b-u3-s07",
       "unit": 3,
       "cn": "阿尔伯特·爱因斯坦是一位伟大的物理学家。",
       "en": "Albert Einstein was a great physicist.",
@@ -4416,7 +5735,7 @@
       ]
     },
     {
-      "id": "qh-6b-u3-s05",
+      "id": "qh-6b-u3-s08",
       "unit": 3,
       "cn": "列奥纳多·达·芬奇是一位伟大的艺术家。",
       "en": "Leonardo da Vinci was a great artist.",
@@ -4459,7 +5778,7 @@
       ]
     },
     {
-      "id": "qh-6b-u3-s06",
+      "id": "qh-6b-u3-s09",
       "unit": 3,
       "cn": "他最著名的画作是《蒙娜丽莎》。",
       "en": "His most famous painting was the Mona Lisa.",
@@ -4507,7 +5826,7 @@
       ]
     },
     {
-      "id": "qh-6b-u3-s07",
+      "id": "qh-6b-u3-s10",
       "unit": 3,
       "cn": "他们把那抹微笑称为“蒙娜丽莎的微笑”。",
       "en": "They named the smile Mona Lisa’s Smile.",
@@ -4550,7 +5869,7 @@
       ]
     },
     {
-      "id": "qh-6b-u3-s08",
+      "id": "qh-6b-u3-s11",
       "unit": 3,
       "cn": "达·芬奇以做蛋糕而闻名。",
       "en": "Da Vinci was famous for making cakes.",
@@ -4593,7 +5912,7 @@
       ]
     },
     {
-      "id": "qh-6b-u3-s09",
+      "id": "qh-6b-u3-s12",
       "unit": 3,
       "cn": "《蒙娜丽莎》是一幅名画。",
       "en": "The Mona Lisa is a famous painting.",
@@ -4636,7 +5955,7 @@
       ]
     },
     {
-      "id": "qh-6b-u3-s10",
+      "id": "qh-6b-u3-s13",
       "unit": 3,
       "cn": "齐白石是一位伟大的画家。",
       "en": "Qi Baishi was a great artist.",
@@ -4674,7 +5993,7 @@
       ]
     },
     {
-      "id": "qh-6b-u3-s11",
+      "id": "qh-6b-u3-s14",
       "unit": 3,
       "cn": "我现在可以看电视吗？",
       "en": "Can I watch TV now?",
@@ -4707,7 +6026,7 @@
       ]
     },
     {
-      "id": "qh-6b-u3-s12",
+      "id": "qh-6b-u3-s15",
       "unit": 3,
       "cn": "华罗庚是一位伟大的中国数学家。",
       "en": "Hua Luogeng was a great Chinese mathematician.",
@@ -4750,7 +6069,7 @@
       ]
     },
     {
-      "id": "qh-6b-u3-s13",
+      "id": "qh-6b-u3-s16",
       "unit": 3,
       "cn": "华罗庚对数学非常感兴趣。",
       "en": "Hua Luogeng was very interested in math.",
@@ -4793,7 +6112,7 @@
       ]
     },
     {
-      "id": "qh-6b-u3-s14",
+      "id": "qh-6b-u3-s17",
       "unit": 3,
       "cn": "我在读一位伟大的中国数学家的故事。",
       "en": "I’m reading about a great Chinese mathematician.",
@@ -4836,7 +6155,7 @@
       ]
     },
     {
-      "id": "qh-6b-u3-s15",
+      "id": "qh-6b-u3-s18",
       "unit": 3,
       "cn": "他叫华罗庚。",
       "en": "His name is Hua Luogeng.",
@@ -4869,7 +6188,7 @@
       ]
     },
     {
-      "id": "qh-6b-u3-s16",
+      "id": "qh-6b-u3-s19",
       "unit": 3,
       "cn": "我也能读读这本书吗？",
       "en": "Can I read the book, too?",
@@ -4907,7 +6226,7 @@
       ]
     },
     {
-      "id": "qh-6b-u3-s17",
+      "id": "qh-6b-u3-s20",
       "unit": 3,
       "cn": "安妮·沙利文在她七岁那年成了她的老师。",
       "en": "When she was seven, Anne Sullivan became her teacher.",
@@ -4960,7 +6279,7 @@
       ]
     },
     {
-      "id": "qh-6b-u3-s18",
+      "id": "qh-6b-u3-s21",
       "unit": 3,
       "cn": "这是牛顿。",
       "en": "This is Newton.",
@@ -4978,6 +6297,745 @@
         {
           "en": "Newton.",
           "cn": "牛顿",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s22",
+      "unit": 3,
+      "cn": "牛顿发现了万有引力定律。",
+      "en": "Newton found the law of universal gravitation.",
+      "tokens": [
+        {
+          "en": "Newton",
+          "cn": "牛顿",
+          "pos": "名词"
+        },
+        {
+          "en": "found",
+          "cn": "发现（find的过去式）",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "law",
+          "cn": "定律",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "universal",
+          "cn": "普遍的",
+          "pos": "形容词"
+        },
+        {
+          "en": "gravitation.",
+          "cn": "引力",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s23",
+      "unit": 3,
+      "cn": "爱因斯坦以他的物理学理论闻名。",
+      "en": "Einstein is famous for his theory of physics.",
+      "tokens": [
+        {
+          "en": "Einstein",
+          "cn": "爱因斯坦",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "famous",
+          "cn": "著名的",
+          "pos": "形容词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "his",
+          "cn": "他的",
+          "pos": "限定词"
+        },
+        {
+          "en": "theory",
+          "cn": "理论",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "physics.",
+          "cn": "物理学",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s24",
+      "unit": 3,
+      "cn": "她在实验室里研究数学。",
+      "en": "She studies mathematics in a lab.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "studies",
+          "cn": "学习",
+          "pos": "名词"
+        },
+        {
+          "en": "mathematics",
+          "cn": "数学",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "lab.",
+          "cn": "实验室",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s25",
+      "unit": 3,
+      "cn": "他因这项研究获得了诺贝尔奖。",
+      "en": "He won the Nobel Prize for his research.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "won",
+          "cn": "赢(win的过去式)",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Nobel",
+          "cn": "诺贝尔",
+          "pos": "名词"
+        },
+        {
+          "en": "Prize",
+          "cn": "奖品",
+          "pos": "名词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "his",
+          "cn": "他的",
+          "pos": "限定词"
+        },
+        {
+          "en": "research.",
+          "cn": "研究",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s26",
+      "unit": 3,
+      "cn": "这个问题没有简单的解决办法。",
+      "en": "The problem has no easy solution.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "problem",
+          "cn": "问题",
+          "pos": "名词"
+        },
+        {
+          "en": "has",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "no",
+          "cn": "不",
+          "pos": "副词"
+        },
+        {
+          "en": "easy",
+          "cn": "容易的",
+          "pos": "形容词"
+        },
+        {
+          "en": "solution.",
+          "cn": "解决办法",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s27",
+      "unit": 3,
+      "cn": "这只盘子很好看，我也买得起。",
+      "en": "This plate is nice, and I can afford it.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "plate",
+          "cn": "盘子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "nice,",
+          "cn": "令人愉快的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "afford",
+          "cn": "支付得起……",
+          "pos": "名词"
+        },
+        {
+          "en": "it.",
+          "cn": "它",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s28",
+      "unit": 3,
+      "cn": "班里几乎有一半人喜欢物理。",
+      "en": "Almost half of the class like physics.",
+      "tokens": [
+        {
+          "en": "Almost",
+          "cn": "几乎",
+          "pos": "数词"
+        },
+        {
+          "en": "half",
+          "cn": "半",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "class",
+          "cn": "课",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "physics.",
+          "cn": "物理学",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s29",
+      "unit": 3,
+      "cn": "然而，他从未放弃。",
+      "en": "However, he never gave up.",
+      "tokens": [
+        {
+          "en": "However,",
+          "cn": "然而",
+          "pos": "名词"
+        },
+        {
+          "en": "he",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "never",
+          "cn": "从不",
+          "pos": "介词"
+        },
+        {
+          "en": "gave",
+          "cn": "给",
+          "pos": "名词"
+        },
+        {
+          "en": "up.",
+          "cn": "向上",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s30",
+      "unit": 3,
+      "cn": "电话是一项伟大的发明。",
+      "en": "The telephone is a great invention.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "telephone",
+          "cn": "电话",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "great",
+          "cn": "很好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "invention.",
+          "cn": "发明",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s31",
+      "unit": 3,
+      "cn": "他把一生都用在教学上。",
+      "en": "He spent his lifetime teaching.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "spent",
+          "cn": "花钱",
+          "pos": "名词"
+        },
+        {
+          "en": "his",
+          "cn": "他的",
+          "pos": "限定词"
+        },
+        {
+          "en": "lifetime",
+          "cn": "一生",
+          "pos": "数词"
+        },
+        {
+          "en": "teaching.",
+          "cn": "讲",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s32",
+      "unit": 3,
+      "cn": "她是个好的倾听者，也很有音乐天赋。",
+      "en": "She is a good listener with a real talent for music.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "listener",
+          "cn": "听者",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "real",
+          "cn": "真的",
+          "pos": "形容词"
+        },
+        {
+          "en": "talent",
+          "cn": "才艺",
+          "pos": "名词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "music.",
+          "cn": "音乐",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s33",
+      "unit": 3,
+      "cn": "盲人和聋人需要我们的帮助。",
+      "en": "Blind and deaf people need our help.",
+      "tokens": [
+        {
+          "en": "Blind",
+          "cn": "盲的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "deaf",
+          "cn": "聋的不同的",
+          "pos": "形容词"
+        },
+        {
+          "en": "people",
+          "cn": "人们",
+          "pos": "名词"
+        },
+        {
+          "en": "need",
+          "cn": "需要",
+          "pos": "名词"
+        },
+        {
+          "en": "our",
+          "cn": "我们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "help.",
+          "cn": "帮助",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s34",
+      "unit": 3,
+      "cn": "你的名字怎么拼？",
+      "en": "How do you spell your name?",
+      "tokens": [
+        {
+          "en": "How",
+          "cn": "怎样",
+          "pos": "疑问词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "spell",
+          "cn": "拼写",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name?",
+          "cn": "名字",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s35",
+      "unit": 3,
+      "cn": "每个人都会犯错。",
+      "en": "Everyone makes a mistake.",
+      "tokens": [
+        {
+          "en": "Everyone",
+          "cn": "每个人",
+          "pos": "名词"
+        },
+        {
+          "en": "makes",
+          "cn": "制作（过去式 made）",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "mistake.",
+          "cn": "错误",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s36",
+      "unit": 3,
+      "cn": "意大利和德国在欧洲。",
+      "en": "Italy and Germany are in Europe.",
+      "tokens": [
+        {
+          "en": "Italy",
+          "cn": "意大利",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "Germany",
+          "cn": "德国",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "Europe.",
+          "cn": "欧洲",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s37",
+      "unit": 3,
+      "cn": "你有这样的朋友真幸运。",
+      "en": "You are lucky to have such a friend.",
+      "tokens": [
+        {
+          "en": "You",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "lucky",
+          "cn": "幸运的",
+          "pos": "形容词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "such",
+          "cn": "如此",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "friend.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s38",
+      "unit": 3,
+      "cn": "他的成功令人难以置信。",
+      "en": "His success is unbelievable.",
+      "tokens": [
+        {
+          "en": "His",
+          "cn": "他的",
+          "pos": "限定词"
+        },
+        {
+          "en": "success",
+          "cn": "成功",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "unbelievable.",
+          "cn": "难以置信的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u3-s39",
+      "unit": 3,
+      "cn": "午饭后我们继续做研究。",
+      "en": "We continue our research after lunch.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "continue",
+          "cn": "继续",
+          "pos": "名词"
+        },
+        {
+          "en": "our",
+          "cn": "我们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "research",
+          "cn": "研究",
+          "pos": "名词"
+        },
+        {
+          "en": "after",
+          "cn": "在……之后",
+          "pos": "介词"
+        },
+        {
+          "en": "lunch.",
+          "cn": "午餐",
           "pos": "名词"
         }
       ]
@@ -5151,6 +7209,363 @@
           "en": "peppers?",
           "cn": "（复数）甜椒",
           "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u4-s05",
+      "unit": 4,
+      "cn": "樵夫把斧子掉进了水里。",
+      "en": "The woodcutter drops his axe into the water.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "woodcutter",
+          "cn": "伐木者",
+          "pos": "名词"
+        },
+        {
+          "en": "drops",
+          "cn": "使落下",
+          "pos": "名词"
+        },
+        {
+          "en": "his",
+          "cn": "他的",
+          "pos": "限定词"
+        },
+        {
+          "en": "axe",
+          "cn": "斧子",
+          "pos": "名词"
+        },
+        {
+          "en": "into",
+          "cn": "进入",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "water.",
+          "cn": "水",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u4-s06",
+      "unit": 4,
+      "cn": "一只鹤站在水里。",
+      "en": "A crane stands in the water.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "crane",
+          "cn": "鹤",
+          "pos": "名词"
+        },
+        {
+          "en": "stands",
+          "cn": "站",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "water.",
+          "cn": "水",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u4-s07",
+      "unit": 4,
+      "cn": "蚱蜢整天唱着歌。",
+      "en": "The grasshopper sings all day.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "grasshopper",
+          "cn": "蚱蜢",
+          "pos": "名词"
+        },
+        {
+          "en": "sings",
+          "cn": "唱",
+          "pos": "名词"
+        },
+        {
+          "en": "all",
+          "cn": "全部",
+          "pos": "限定词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u4-s08",
+      "unit": 4,
+      "cn": "他假装死了。",
+      "en": "He pretends to be dead.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "pretends",
+          "cn": "佯装",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "be",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "dead.",
+          "cn": "死的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u4-s09",
+      "unit": 4,
+      "cn": "金子和银子都很重。",
+      "en": "Gold and silver are heavy.",
+      "tokens": [
+        {
+          "en": "Gold",
+          "cn": "金子",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "silver",
+          "cn": "银",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "heavy.",
+          "cn": "重的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u4-s10",
+      "unit": 4,
+      "cn": "这枚戒指是铁做的。",
+      "en": "This ring is made of iron.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "ring",
+          "cn": "响",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "made",
+          "cn": "制造（make 的过去式）",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "iron.",
+          "cn": "铁",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u4-s11",
+      "unit": 4,
+      "cn": "水手躺在木头上。",
+      "en": "The sailor lies on the wood.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sailor",
+          "cn": "海员",
+          "pos": "名词"
+        },
+        {
+          "en": "lies",
+          "cn": "李",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "wood.",
+          "cn": "木头",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u4-s12",
+      "unit": 4,
+      "cn": "快点，不然强盗轻易就跑了。",
+      "en": "Be quick, or the robber will get away easily.",
+      "tokens": [
+        {
+          "en": "Be",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "quick,",
+          "cn": "快的",
+          "pos": "形容词"
+        },
+        {
+          "en": "or",
+          "cn": "或者",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "robber",
+          "cn": "抢劫者",
+          "pos": "名词"
+        },
+        {
+          "en": "will",
+          "cn": "将会",
+          "pos": "情态动词"
+        },
+        {
+          "en": "get",
+          "cn": "准备",
+          "pos": "名词"
+        },
+        {
+          "en": "away",
+          "cn": "离开",
+          "pos": "名词"
+        },
+        {
+          "en": "easily.",
+          "cn": "容易地",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "qh-6b-u4-s13",
+      "unit": 4,
+      "cn": "丑小鸭住在向日葵旁边。",
+      "en": "The ugly duck lives near the sunflower.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "ugly",
+          "cn": "丑陋的",
+          "pos": "形容词"
+        },
+        {
+          "en": "duck",
+          "cn": "鸭子",
+          "pos": "名词"
+        },
+        {
+          "en": "lives",
+          "cn": "居住",
+          "pos": "名词"
+        },
+        {
+          "en": "near",
+          "cn": "在……附近",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sunflower.",
+          "cn": "向日葵",
+          "pos": "介词"
         }
       ]
     }
