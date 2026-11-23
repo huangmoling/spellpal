@@ -1721,6 +1721,13 @@ function parse(file) {
  * 格式（TAB 分隔）：unit \t 中文整句 \t 英文句子 \t 词性1|词性2… \t 中文1|中文2…
  * 英文按空格切词，词性与中文用 | 分段，段数必须与切词结果一致。
  */
+function shortCn(cn) {
+  // 词块下方只放一个简短义项：多义项被 、，； 分隔时取第一个
+  const s = String(cn || '').trim()
+  const first = s.split(/[、，；;]/)[0].trim()
+  return first || s
+}
+
 function parseSentences(file, bookId, unitThemes) {
   if (!fs.existsSync(file)) return []
   const raw = fs.readFileSync(file, 'utf8').replace(/^\uFEFF/, '')
@@ -1747,7 +1754,7 @@ function parseSentences(file, bookId, unitThemes) {
       unit,
       cn: cn.trim(),
       en: parts.join(' '),
-      tokens: parts.map((p, k) => ({ en: p, cn: cns[k], pos: poses[k] })),
+      tokens: parts.map((p, k) => ({ en: p, cn: shortCn(cns[k]), pos: poses[k] })),
       _theme: unitThemes?.[unit] || '',
     })
   })

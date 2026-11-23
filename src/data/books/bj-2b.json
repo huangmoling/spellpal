@@ -9,7 +9,7 @@
   "edition": "2025 春 · 新课标修订版",
   "stage": "primary",
   "wordCount": 74,
-  "sentenceCount": 0,
+  "sentenceCount": 16,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -1378,5 +1378,559 @@
       "unit": 6
     }
   ],
-  "sentences": []
+  "sentences": [
+    {
+      "id": "bj-2b-u1-s01",
+      "unit": 1,
+      "cn": "现在几点了？",
+      "en": "WHAT TIME IS IT?",
+      "tokens": [
+        {
+          "en": "WHAT",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "TIME",
+          "cn": "时间",
+          "pos": "名词"
+        },
+        {
+          "en": "IS",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "IT?",
+          "cn": "它",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "bj-2b-u1-s02",
+      "unit": 1,
+      "cn": "我们打开电视吧。",
+      "en": "Let’s turn on the TV.",
+      "tokens": [
+        {
+          "en": "Let’s",
+          "cn": "让我们",
+          "pos": "缩略"
+        },
+        {
+          "en": "turn",
+          "cn": "转弯",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "TV.",
+          "cn": "电视",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bj-2b-u1-s03",
+      "unit": 1,
+      "cn": "我没有嘴，可我能报时。",
+      "en": "I have no mouth but I can tell.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "no",
+          "cn": "不",
+          "pos": "副词"
+        },
+        {
+          "en": "mouth",
+          "cn": "嘴",
+          "pos": "名词"
+        },
+        {
+          "en": "but",
+          "cn": "但是",
+          "pos": "连词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "tell.",
+          "cn": "告诉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bj-2b-u1-s04",
+      "unit": 1,
+      "cn": "我能报的就是时间。",
+      "en": "It’s the time that I can tell.",
+      "tokens": [
+        {
+          "en": "It’s",
+          "cn": "它是",
+          "pos": "缩略"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "time",
+          "cn": "时间",
+          "pos": "名词"
+        },
+        {
+          "en": "that",
+          "cn": "那个",
+          "pos": "代词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "tell.",
+          "cn": "告诉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bj-2b-u1-s05",
+      "unit": 1,
+      "cn": "爸爸，现在几点了？",
+      "en": "What time is it, Dad?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "time",
+          "cn": "时间",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "it,",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "Dad?",
+          "cn": "爸爸",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bj-2b-u1-s06",
+      "unit": 1,
+      "cn": "它们对露丝有好处！",
+      "en": "They are good for Ruth!",
+      "tokens": [
+        {
+          "en": "They",
+          "cn": "他们",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "Ruth!",
+          "cn": "露丝",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bj-2b-u2-s01",
+      "unit": 2,
+      "cn": "请给我鱼和米饭好吗？",
+      "en": "Can I have fish and rice, please?",
+      "tokens": [
+        {
+          "en": "Can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "fish",
+          "cn": "鱼",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "rice,",
+          "cn": "米饭",
+          "pos": "名词"
+        },
+        {
+          "en": "please?",
+          "cn": "请",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bj-2b-u2-s02",
+      "unit": 2,
+      "cn": "爸爸，晚上好！",
+      "en": "Good evening, Dad!",
+      "tokens": [
+        {
+          "en": "Good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "evening,",
+          "cn": "晚上",
+          "pos": "名词"
+        },
+        {
+          "en": "Dad!",
+          "cn": "爸爸",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bj-2b-u3-s01",
+      "unit": 3,
+      "cn": "请问我可以用一下卫生间吗？",
+      "en": "Can I use the bathroom, please?",
+      "tokens": [
+        {
+          "en": "Can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "use",
+          "cn": "使用",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bathroom,",
+          "cn": "卫生间",
+          "pos": "名词"
+        },
+        {
+          "en": "please?",
+          "cn": "请",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bj-2b-u4-s01",
+      "unit": 4,
+      "cn": "我的衬衫在哪儿？",
+      "en": "WHERE IS MY SHIRT?",
+      "tokens": [
+        {
+          "en": "WHERE",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "IS",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "MY",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "SHIRT?",
+          "cn": "衬衫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bj-2b-u4-s02",
+      "unit": 4,
+      "cn": "爸爸，我的外套在哪儿？",
+      "en": "Where is my coat, Dad?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "coat,",
+          "cn": "上衣",
+          "pos": "名词"
+        },
+        {
+          "en": "Dad?",
+          "cn": "爸爸",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bj-2b-u5-s01",
+      "unit": 5,
+      "cn": "你怎么去上学？",
+      "en": "HOW DO YOU GO TO SCHOOL?",
+      "tokens": [
+        {
+          "en": "HOW",
+          "cn": "怎样",
+          "pos": "疑问词"
+        },
+        {
+          "en": "DO",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "YOU",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "GO",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "TO",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "SCHOOL?",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bj-2b-u5-s02",
+      "unit": 5,
+      "cn": "我希望我能飞。",
+      "en": "I hope I can fly.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "hope",
+          "cn": "希望",
+          "pos": "名词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "fly.",
+          "cn": "飞",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bj-2b-u6-s01",
+      "unit": 6,
+      "cn": "你喜欢哪个季节？",
+      "en": "WHICH SEASON DO YOU LIKE?",
+      "tokens": [
+        {
+          "en": "WHICH",
+          "cn": "哪个",
+          "pos": "疑问词"
+        },
+        {
+          "en": "SEASON",
+          "cn": "季节",
+          "pos": "名词"
+        },
+        {
+          "en": "DO",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "YOU",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "LIKE?",
+          "cn": "喜欢",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bj-2b-u6-s02",
+      "unit": 6,
+      "cn": "我希望我能摸到天空。",
+      "en": "I hope I can touch the sky.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "hope",
+          "cn": "希望",
+          "pos": "名词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "touch",
+          "cn": "触摸",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sky.",
+          "cn": "天空",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bj-2b-u6-s03",
+      "unit": 6,
+      "cn": "它的意思是“酷”。",
+      "en": "It is \"COOL\".",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "\"COOL\".",
+          "cn": "凉爽的",
+          "pos": "形容词"
+        }
+      ]
+    }
+  ]
 }

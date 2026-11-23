@@ -9,7 +9,7 @@
   "edition": "2025 秋 · 新课标修订版",
   "stage": "primary",
   "wordCount": 113,
-  "sentenceCount": 0,
+  "sentenceCount": 26,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -2095,5 +2095,899 @@
       "unit": 6
     }
   ],
-  "sentences": []
+  "sentences": [
+    {
+      "id": "ls-3a-u1-s01",
+      "unit": 1,
+      "cn": "王先生，早上好！",
+      "en": "Good morning, Mr Wang!",
+      "tokens": [
+        {
+          "en": "Good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "morning,",
+          "cn": "早晨",
+          "pos": "名词"
+        },
+        {
+          "en": "Mr",
+          "cn": "先生",
+          "pos": "名词"
+        },
+        {
+          "en": "Wang!",
+          "cn": "王",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u1-s02",
+      "unit": 1,
+      "cn": "杨老师，晚上好！",
+      "en": "Good evening, Miss Yang!",
+      "tokens": [
+        {
+          "en": "Good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "evening,",
+          "cn": "晚上",
+          "pos": "名词"
+        },
+        {
+          "en": "Miss",
+          "cn": "小姐",
+          "pos": "名词"
+        },
+        {
+          "en": "Yang!",
+          "cn": "杨",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u1-s03",
+      "unit": 1,
+      "cn": "比利，早上好！",
+      "en": "Good morning, Billy!",
+      "tokens": [
+        {
+          "en": "Good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "morning,",
+          "cn": "早晨",
+          "pos": "名词"
+        },
+        {
+          "en": "Billy!",
+          "cn": "比利",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u1-s04",
+      "unit": 1,
+      "cn": "我叫嘉轩。",
+      "en": "My name is Jiaxuan.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Jiaxuan.",
+          "cn": "嘉轩",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u1-s05",
+      "unit": 1,
+      "cn": "怀特先生是比利的爸爸！",
+      "en": "Mr White is Billy’s father!",
+      "tokens": [
+        {
+          "en": "Mr",
+          "cn": "先生",
+          "pos": "名词"
+        },
+        {
+          "en": "White",
+          "cn": "怀特",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Billy’s",
+          "cn": "比利的",
+          "pos": "名词"
+        },
+        {
+          "en": "father!",
+          "cn": "父亲",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u1-s06",
+      "unit": 1,
+      "cn": "手指妈妈，手指妈妈，你在哪儿？",
+      "en": "Mummy Finger, Mummy Finger, where are you?",
+      "tokens": [
+        {
+          "en": "Mummy",
+          "cn": "妈妈",
+          "pos": "名词"
+        },
+        {
+          "en": "Finger,",
+          "cn": "手指",
+          "pos": "名词"
+        },
+        {
+          "en": "Mummy",
+          "cn": "妈妈",
+          "pos": "名词"
+        },
+        {
+          "en": "Finger,",
+          "cn": "手指",
+          "pos": "名词"
+        },
+        {
+          "en": "where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "you?",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u1-s07",
+      "unit": 1,
+      "cn": "手指哥哥，手指哥哥，你在哪儿？",
+      "en": "Brother Finger, Brother Finger, where are you?",
+      "tokens": [
+        {
+          "en": "Brother",
+          "cn": "哥哥",
+          "pos": "名词"
+        },
+        {
+          "en": "Finger,",
+          "cn": "手指",
+          "pos": "名词"
+        },
+        {
+          "en": "Brother",
+          "cn": "哥哥",
+          "pos": "名词"
+        },
+        {
+          "en": "Finger,",
+          "cn": "手指",
+          "pos": "名词"
+        },
+        {
+          "en": "where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "you?",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u1-s08",
+      "unit": 1,
+      "cn": "辛迪，你来自美国吗？",
+      "en": "Cindy, are you from the USA?",
+      "tokens": [
+        {
+          "en": "Cindy,",
+          "cn": "辛迪",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "from",
+          "cn": "从",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "USA?",
+          "cn": "美国",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u1-s09",
+      "unit": 1,
+      "cn": "林老师非常好。",
+      "en": "Miss Lin is very nice.",
+      "tokens": [
+        {
+          "en": "Miss",
+          "cn": "小姐",
+          "pos": "名词"
+        },
+        {
+          "en": "Lin",
+          "cn": "林",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "很",
+          "pos": "副词"
+        },
+        {
+          "en": "nice.",
+          "cn": "令人愉快的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u1-s10",
+      "unit": 1,
+      "cn": "这是林老师。",
+      "en": "This is Miss Lin.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Miss",
+          "cn": "小姐",
+          "pos": "名词"
+        },
+        {
+          "en": "Lin.",
+          "cn": "林",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u1-s11",
+      "unit": 1,
+      "cn": "早上，我在公园里。",
+      "en": "In the morning, I’m in the park.",
+      "tokens": [
+        {
+          "en": "In",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "morning,",
+          "cn": "早晨",
+          "pos": "名词"
+        },
+        {
+          "en": "I’m",
+          "cn": "我是",
+          "pos": "缩略"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "park.",
+          "cn": "公园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u1-s12",
+      "unit": 1,
+      "cn": "我可以问你一个问题吗？",
+      "en": "May I ask you a question?",
+      "tokens": [
+        {
+          "en": "May",
+          "cn": "可以",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "ask",
+          "cn": "问",
+          "pos": "名词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "question?",
+          "cn": "问题",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u2-s01",
+      "unit": 2,
+      "cn": "这是比利。",
+      "en": "This is Billy.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Billy.",
+          "cn": "比利",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u2-s02",
+      "unit": 2,
+      "cn": "这是奶奶。",
+      "en": "This is Grandma.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Grandma.",
+          "cn": "奶奶",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u2-s03",
+      "unit": 2,
+      "cn": "它们里面我都能听到“E”。",
+      "en": "I can hear \"E\" in them all.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "hear",
+          "cn": "听见",
+          "pos": "名词"
+        },
+        {
+          "en": "\"E\"",
+          "cn": "E",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "them",
+          "cn": "他们",
+          "pos": "代词"
+        },
+        {
+          "en": "all.",
+          "cn": "全部",
+          "pos": "限定词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u2-s04",
+      "unit": 2,
+      "cn": "我在这儿，我在这儿！",
+      "en": "Here I am, here I am!",
+      "tokens": [
+        {
+          "en": "Here",
+          "cn": "这里",
+          "pos": "副词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am,",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "here",
+          "cn": "这里",
+          "pos": "副词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am!",
+          "cn": "是",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u2-s05",
+      "unit": 2,
+      "cn": "爸爸，你是谁？",
+      "en": "Who are you, Dad?",
+      "tokens": [
+        {
+          "en": "Who",
+          "cn": "谁",
+          "pos": "疑问词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "you,",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "Dad?",
+          "cn": "爸爸",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u2-s06",
+      "unit": 2,
+      "cn": "这是中国！",
+      "en": "This is China!",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "China!",
+          "cn": "中国",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u2-s07",
+      "unit": 2,
+      "cn": "我可以整天跳舞、玩耍。",
+      "en": "All day long I can dance and play.",
+      "tokens": [
+        {
+          "en": "All",
+          "cn": "全部",
+          "pos": "限定词"
+        },
+        {
+          "en": "day",
+          "cn": "天",
+          "pos": "名词"
+        },
+        {
+          "en": "long",
+          "cn": "长的",
+          "pos": "形容词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "dance",
+          "cn": "跳舞",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "play.",
+          "cn": "玩",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u2-s08",
+      "unit": 2,
+      "cn": "爸爸，现在几点了？",
+      "en": "What time is it, Dad?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "time",
+          "cn": "时间",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "it,",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "Dad?",
+          "cn": "爸爸",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u2-s09",
+      "unit": 2,
+      "cn": "这是英国的。",
+      "en": "This is in the UK.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "UK.",
+          "cn": "英国",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u3-s01",
+      "unit": 3,
+      "cn": "我是郑和。",
+      "en": "I am Zheng He.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Zheng",
+          "cn": "郑",
+          "pos": "名词"
+        },
+        {
+          "en": "He.",
+          "cn": "和",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u3-s02",
+      "unit": 3,
+      "cn": "我在家可以听英语。",
+      "en": "I can listen to English at home.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "listen",
+          "cn": "听",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "English",
+          "cn": "英文的",
+          "pos": "形容词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "home.",
+          "cn": "回家",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u3-s03",
+      "unit": 3,
+      "cn": "课后我可以和老师说英语。",
+      "en": "I can speak English with my teacher after class.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "speak",
+          "cn": "说",
+          "pos": "名词"
+        },
+        {
+          "en": "English",
+          "cn": "英文的",
+          "pos": "形容词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "teacher",
+          "cn": "教师",
+          "pos": "名词"
+        },
+        {
+          "en": "after",
+          "cn": "在……之后",
+          "pos": "介词"
+        },
+        {
+          "en": "class.",
+          "cn": "课",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u3-s04",
+      "unit": 3,
+      "cn": "我们办一场英语演出吧。",
+      "en": "Let’s have an English show.",
+      "tokens": [
+        {
+          "en": "Let’s",
+          "cn": "让我们",
+          "pos": "缩略"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "English",
+          "cn": "英文的",
+          "pos": "形容词"
+        },
+        {
+          "en": "show.",
+          "cn": "显露",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3a-u4-s01",
+      "unit": 4,
+      "cn": "那样我就能游到那边去。",
+      "en": "Then I can swim over there.",
+      "tokens": [
+        {
+          "en": "Then",
+          "cn": "然后",
+          "pos": "副词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "swim",
+          "cn": "游泳",
+          "pos": "名词"
+        },
+        {
+          "en": "over",
+          "cn": "在……上方",
+          "pos": "介词"
+        },
+        {
+          "en": "there.",
+          "cn": "那里",
+          "pos": "副词"
+        }
+      ]
+    }
+  ]
 }

@@ -97,6 +97,7 @@ CTX = {
     'the wus are my neighbours.': {1: ('名词', '吴一家')},
     'her name is candy.': {3: ('名词', '坎迪')},
     'his name is tiger.': {3: ('名词', '泰格')},
+    'a-ma temple is the oldest temple in macao.': {0: ('名词', '妈阁')},
 }
 
 
@@ -132,8 +133,8 @@ def lookup(k, lex):
     if re.fullmatch(r'\d+[a-z]', k):
         return ('名词', k.upper())
     # 连字符合成词：tree-planting / T-shirt / yel-low（逐段查，都能查到才认）
-    if '-' in k:
-        segs = [s for s in k.split('-') if s]
+    if re.search(r'[-\u2014\u2013]', k):
+        segs = [s for s in re.split(r'[-\u2014\u2013]', k) if s]
         got = [lookup(s, lex) for s in segs]
         if segs and all(got):
             return (got[0][0], '-'.join(g[1] for g in got))
