@@ -127,7 +127,10 @@ def lookup(k, lex):
     if k.endswith("'ll"):
         return ('助动词', '会')
     # 单个字母（字母教学句：the letter D / letter O）
+    # 注意 a / I 这类本身就是单词，必须走词库，不能当成字母
     if len(k) == 1 and k.isalpha():
+        if k in lex and lex[k]:
+            return lex[k].most_common(1)[0][0]
         return ('名词', k.upper())
     # 班级代号 6A / 4B
     if re.fullmatch(r'\d+[a-z]', k):

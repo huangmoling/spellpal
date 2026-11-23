@@ -308,6 +308,17 @@ EXTRA = {
     'fried': ('形容词', '油炸的'), 'junk': ('名词', '垃圾'),
     'wings': ('名词', '翅膀'), 'wing': ('名词', '翅膀'), 'fuji': ('名词', '富士'),
     'bulletin': ('名词', '公告'), 'wag': ('动词', '摇'), 'lid': ('名词', '盖子'),
+    # 释义清洗：串行/脏取/词性错标
+    'mouse': ('名词', '老鼠'), 'against': ('介词', '与……对抗'),
+    'beside': ('介词', '在……旁边'), 'line': ('名词', '线；排；行'),
+    'umbrella': ('名词', '雨伞'), 'make': ('动词', '制作'),
+    'worry': ('动词', '担心'), 'ride': ('动词', '骑'),
+    'get': ('动词', '得到，取得'), 'send': ('动词', '寄，发送'),
+    'show': ('动词', '给……看；展示'), 'turn': ('动词', '转动；转弯'),
+    'rise': ('动词', '上升，升起'), 'fall': ('动词', '落下，跌倒'),
+    'close': ('动词', '关；近的'), 'cross': ('动词', '穿过，越过'),
+    'shall': ('情态动词', '好吗'), 'dress up as': ('动词', '打扮成'),
+    'make a list of': ('动词', '列出……的清单'), 'net': ('名词', '网'),
     'valentine': ('名词', '情人节贺卡'), 'poem': ('名词', '诗'), 'bumper': ('名词', '缓冲器'),
     'universal': ('形容词', '普遍的'), 'gravitation': ('名词', '引力'), 'nobel': ('名词', '诺贝尔'),
     'railway': ('名词', '铁路'), 'runner': ('名词', '赛跑者'), 'step': ('名词', '脚步；台阶'), 'roll': ('名词', '卷'), 'takeaway': ('形容词', '外卖的'), 'double': ('形容词', '双的；双倍的'),
@@ -356,8 +367,13 @@ def bad(k, v):
     return cn.lower() == k.lower()
 
 
-def guess_pos(cn):
-    """从中文释义粗判词性（词块标注用）"""
+def guess_pos(cn, w=''):
+    """从中文释义 + 词表粗判词性（词块标注用）"""
+    w = (w or '').strip().lower()
+    if w in VERBS or w in IRREG_VERBS:
+        return '动词'
+    if w in ADJS:
+        return '形容词'
     if not cn:
         return '名词'
     c = re.split(r'[；;，,。、/]', cn)[0].strip()
@@ -374,6 +390,56 @@ def guess_pos(cn):
     return '名词'
 
 
+# 动词词表：单词表里不带词性，靠这张表兜住小学阶段的高频动词
+VERBS = set('''
+accept add agree allow answer appear arrive ask avoid bake bark beat become begin
+believe belong bend bite blow boil borrow bounce break breathe bring brush build
+burn bury buy call camp care carry catch celebrate change charge chase chat check
+cheer choose clap clean climb close collect come compare complete cook copy count
+cover crawl cry cut dance decide deliver describe design die dig discover dive do
+draw dream dress drink drive drop dry eat end enjoy enter examine exercise explain
+explore fall feed feel fetch fight fill find finish fit fix fly fold follow forget
+forgive get give go grab greet grow guess hang happen hate have hear heat help hide
+hit hold hop hope hug hunt hurry hurt invent invite join jog jump keep kick kill
+kiss knock know laugh lay learn leave lend let lick lie lift like listen live look
+lose love make match mean meet melt mend mind miss mix move need nod notice open
+order pack paint pass pay peel perform pick plan plant play please point pollute
+pour practise prefer prepare press pretend print protect pull push put race rain
+raise reach read receive record recycle remember remind remove repeat reply report
+rescue rest return reuse ride ring rise run save say scream search see sell send
+serve set sew shake share shine shop shout show shut sing sink sit skate ski skip
+sleep slide smell smile smoke snow sound speak spell spend splash stand start stay
+steal step stick sting stop store study swim swing take talk taste teach tell thank
+think throw tick tidy tie touch travel try turn type understand use visit wait wake
+walk want warm wash waste watch water wave wear welcome whisper win wish wonder work
+worry wrap write yell yelp
+'''.split())
+
+# 常用不规则过去式，跟原形同词性
+IRREG_VERBS = set('''
+ate began became bent bit blew broke brought built bought caught chose came did drew
+drank drove fell fed felt fought found flew forgot got gave went grew had heard hid
+held kept knew laid learnt left lent lost made meant met paid rode rang rose ran said
+saw sold sent shook shone sang sat slept spoke spent stood stole swam took taught told
+thought threw understood woke wore won wrote eaten ridden spoken taken given written
+broken chosen driven fallen forgotten hidden
+'''.split())
+
+ADJS = set('''
+afraid alive angry bad beautiful best better big black blue brave bright brown busy
+careful cheap clean clever cloudy cold cool correct cute dangerous dark dead deep
+delicious different difficult dirty dry early easy empty exciting expensive famous
+far fast fat favourite fine flat free fresh friendly full funny glad golden good great
+green happy hard healthy heavy high honest hot hungry ill important interesting kind
+large last late lazy light little long loud lovely low lucky magic messy modern narrow
+near neat new next nice old poor popular pretty purple quick quiet ready red rich right
+round sad safe same serious sharp short shy sick silly sleepy slow small smart smooth
+snowy soft sorry special sticky straight strong sunny sure sweet tall terrible thick
+thin thirsty tidy tired true ugly warm weak wet white wide windy wonderful wrong yellow
+young
+'''.split())
+
+
 def main():
     lex = {}
     stat = Counter()
@@ -388,7 +454,7 @@ def main():
     for k, cn in bank.items():
         if k in lex:
             continue
-        lex[k] = (guess_pos(cn), re.split(r'[；;]', cn)[0].strip())
+        lex[k] = (guess_pos(cn, k), re.split(r'[；;]', cn)[0].strip())
         stat['wordbank'] += 1
 
     # 历史语料：token 级标注（词性更准），覆盖在单词表之上
@@ -432,6 +498,10 @@ def main():
         if form not in lex and base in lex:
             lex[form] = lex[base]
             stat['irregular'] += 1
+    # 已有独立释义的过去式/复数，词性跟随原形
+    for form, base in IRREG.items():
+        if form in lex and base in lex and lex[base][0] == '动词' and lex[form][0] != '动词':
+            lex[form] = ('动词', lex[form][1])
 
     # 教材常见词补充
     for k, v in EXTRA.items():

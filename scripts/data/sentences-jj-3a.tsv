@@ -1,13 +1,13 @@
-0	我是珍妮。	I am Jenny.	名词|动词|名词	I|是|珍妮
-0	我是丹尼。	I am Danny.	名词|动词|名词	I|是|丹尼
-0	我今天真开心。	I am so happy today.	名词|动词|连词|形容词|名词	I|是|所以|高兴的|今天
+0	我是珍妮。	I am Jenny.	代词|动词|名词	我|是|珍妮
+0	我是丹尼。	I am Danny.	代词|动词|名词	我|是|丹尼
+0	我今天真开心。	I am so happy today.	代词|动词|连词|形容词|名词	我|是|所以|高兴的|今天
 0	这把尺子很短。	The ruler is short.	冠词|名词|动词|形容词	这|尺子|是|短的
 1	我叫珍妮。	My name is Jenny.	限定词|名词|动词|名词	我的|名字|是|珍妮
 1	我叫李明。	My name is Li Ming.	限定词|名词|动词|名词|名词	我的|名字|是|李|明
 1	我叫丹尼。	My name is Danny.	限定词|名词|动词|名词	我的|名字|是|丹尼
 1	我叫郭阳。	My name is Guo Yang.	限定词|名词|动词|名词|名词	我的|名字|是|郭|杨
 1	我叫王红。	My name is Wang Hong.	限定词|名词|动词|名词|名词	我的|名字|是|王|红
-1	我做得怎么样？	How am I doing?	疑问词|动词|名词|助动词	怎样|是|I|做
+1	我做得怎么样？	How am I doing?	疑问词|动词|代词|助动词	怎样|是|我|做
 1	字母 O 是什么颜色？	What colour is the letter O?	疑问词|名词|动词|冠词|名词|名词	什么|颜色|是|这|字母|O
 1	她叫玛丽。	Her name is Mary.	代词|名词|动词|名词	她|名字|是|玛丽
 1	他叫李明。	His name is Li Ming.	限定词|名词|动词|名词|名词	他的|名字|是|李|明
@@ -22,15 +22,15 @@
 1	他叫吉姆·史密斯。	His name is Jim Smith.	限定词|名词|动词|名词|名词	他的|名字|是|吉姆|史密斯
 1	她叫玛丽·史密斯。	Her name is Mary Smith.	代词|名词|动词|名词|名词	她|名字|是|玛丽|史密斯
 1	你们好！早上好，男孩女孩们。	Hello! Good morning, boys and girls.	感叹词|形容词|名词|名词|连词|名词	你好|好的|早晨，上午|男孩们|和|女孩们
-1	我很好，谢谢。	I am fine, thank you.	名词|动词|形容词|名词|代词	I|是|健康的|谢谢|你
-1	很高兴见到你。	Nice to meet you.	形容词|介词|名词|代词	令人愉快的，令人高兴的|到|会面|你
-1	再见！回头见。	Goodbye! See you later.	名词|名词|代词|名词	再见|看，看见|你|后来
-1	再见！明天见。	Bye! See you tomorrow.	名词|名词|代词|名词	再见|看，看见|你|明天
-1	非常感谢。	Thanks a lot.	名词|名词|名词	感谢|A|许多
-1	我们去你的教室吧。	Let’s go to your classroom.	缩略|名词|介词|限定词|名词	让我们|走|到|你的|教室
-1	让我看看你的书。	Let me see your book.	名词|代词|名词|限定词|名词	让，允许|我|看，看见|你的|书，书籍
+1	我很好，谢谢。	I am fine, thank you.	代词|动词|形容词|动词|代词	我|是|健康的|谢谢|你
+1	很高兴见到你。	Nice to meet you.	形容词|介词|动词|代词	令人愉快的，令人高兴的|到|会面|你
+1	再见！回头见。	Goodbye! See you later.	名词|动词|代词|名词	再见|看，看见|你|后来
+1	再见！明天见。	Bye! See you tomorrow.	名词|动词|代词|名词	再见|看，看见|你|明天
+1	非常感谢。	Thanks a lot.	名词|冠词|名词	感谢|一个|许多
+1	我们去你的教室吧。	Let’s go to your classroom.	缩略|动词|介词|限定词|名词	让我们|走|到|你的|教室
+1	让我看看你的书。	Let me see your book.	动词|代词|动词|限定词|名词	让，允许|我|看，看见|你的|书，书籍
 1	你的工作是什么？	What is your job?	疑问词|动词|限定词|名词	什么|是|你的|工作
-1	我也喜欢它。	I like it too.	名词|名词|代词|副词	I|喜欢|它|也
+1	我也喜欢它。	I like it too.	代词|动词|代词|副词	我|喜欢|它|也
 2	丹尼，这是哪个字母？	What letter is this, Danny?	疑问词|名词|动词|代词|名词	什么|字母|是|这个|丹尼
 2	这是字母 D。	This is the letter D.	代词|动词|冠词|名词|名词	这个|是|这|字母|D
 2	这是珍妮。	This is Jenny.	代词|动词|名词	这个|是|珍妮
@@ -39,113 +39,113 @@
 2	这是丹尼一家。	This is Danny’s family.	代词|动词|名词|名词	这个|是|丹尼的|家庭
 2	这是孔融。	This is Kong Rong.	代词|动词|名词|名词	这个|是|孔|融
 2	桌上有一个苹果，那只猫很可爱。	An apple is on the desk, and the cat is cute.	冠词|名词|动词|介词|冠词|名词|连词|冠词|名词|动词|形容词	一个|苹果|是|在……上|这|书桌|和|这|猫|是|逗人喜爱的
-2	看那个空盒子。	Look at the empty box.	名词|介词|冠词|形容词|名词	看|在|这|空的|盒子
-2	我们的教室又大又整洁。	Our classroom is big and tidy.	限定词|名词|动词|形容词|连词|名词	我们的|教室|是|大的|和|整理，收拾
+2	看那个空盒子。	Look at the empty box.	动词|介词|冠词|形容词|名词	看|在|这|空的|盒子
+2	我们的教室又大又整洁。	Our classroom is big and tidy.	限定词|名词|动词|形容词|连词|动词	我们的|教室|是|大的|和|整理，收拾
 2	蛋壳是白色的。	An eggshell is white.	冠词|名词|动词|名词	一个|蛋壳|是|怀特
-2	我能找到我的钢笔。	I can find my pen.	名词|情态动词|名词|限定词|名词	I|能|找到，发现|我的|钢笔
+2	我能找到我的钢笔。	I can find my pen.	代词|情态动词|动词|限定词|名词	我|能|找到，发现|我的|钢笔
 2	这是我的手指。	This is my finger.	代词|动词|限定词|名词	这个|是|我的|手指
-2	鱼能在水里游。	A fish can swim in the water.	名词|名词|情态动词|名词|介词|冠词|名词	A|鱼|能|游泳|在……里|这|水
+2	鱼能在水里游。	A fish can swim in the water.	冠词|名词|情态动词|动词|介词|冠词|动词	一个|鱼|能|游泳|在……里|这|水
 2	这本书是给你的。	This book is for you.	代词|名词|动词|介词|代词	这个|书，书籍|是|为|你
-2	在这里玩很有趣。	It is fun to play here.	代词|动词|形容词|介词|名词|副词	它|是|有趣的|到|玩|这里
-2	请帮帮我。	Please help me.	名词|动词|代词	请|帮助|我
+2	在这里玩很有趣。	It is fun to play here.	代词|动词|形容词|介词|动词|副词	它|是|有趣的|到|玩|这里
+2	请帮帮我。	Please help me.	动词|动词|代词	请|帮助|我
 2	你真乐于助人。	You are helpful.	代词|动词|形容词	你|是|有帮助的
 2	果酱在罐子里，墨水是蓝色的。	The jam is in the jar, and the ink is blue.	冠词|名词|动词|介词|冠词|名词|连词|冠词|名词|动词|形容词	这|果酱|是|在……里|这|广口瓶|和|这|墨水|是|蓝色的
 2	这个小孩会功夫。	The kid can do kung fu.	冠词|名词|情态动词|助动词|名词|名词	这|小孩|能|做|功|夫
-2	图书馆在左边。	The library is on the left.	冠词|名词|动词|介词|冠词|形容词	这|图书馆|是|在……上|这|左边的
-2	我们在操场上玩。	We play on the playground.	代词|名词|介词|冠词|名词	我们|玩|在……上|这|操场
+2	图书馆在左边。	The library is on the left.	冠词|名词|动词|介词|冠词|动词	这|图书馆|是|在……上|这|左边的
+2	我们在操场上玩。	We play on the playground.	代词|动词|介词|冠词|名词	我们|玩|在……上|这|操场
 2	我们的学校很大。	Our school is big.	限定词|名词|动词|形容词	我们的|学校|是|大的
 2	他们是我的朋友。	They are my friends.	代词|动词|限定词|名词	他们|是|我的|朋友
-2	跟我们一起来。	Come with us.	名词|介词|代词	来|和……一起|我们
+2	跟我们一起来。	Come with us.	动词|介词|代词	来|和……一起|我们
 2	哇！好多书！	Wow! Many books!	名词|限定词|名词	哇|许多|书
-2	是的，我准备好了。	Yes, I am ready.	副词|名词|动词|名词	是的|I|是|准备好
+2	是的，我准备好了。	Yes, I am ready.	副词|代词|动词|形容词	是的|我|是|准备好
 2	这是我的思维导图。	This is my mind map.	代词|动词|限定词|名词|名词	这个|是|我的|头脑|图
 3	颜色处处围绕在我们身边。	Colours are all around us.	名词|动词|限定词|介词|代词	颜色|是|全部|在……周围|我们
 3	天空是蓝色的，草是绿色的。	The sky is blue and the grass is green.	冠词|名词|动词|形容词|连词|冠词|名词|动词|形容词	这|天空|是|蓝色的|和|这|草|是|绿色的
-3	我会唱歌。	I can sing a song.	名词|情态动词|名词|名词|名词	I|能|唱|A|歌
+3	我会唱歌。	I can sing a song.	代词|情态动词|动词|冠词|名词	我|能|唱|一个|歌
 3	它是什么颜色？	What colour is it?	疑问词|名词|动词|代词	什么|颜色|是|它
 3	盒子在桌子上。	The box is on the desk.	冠词|名词|动词|介词|冠词|名词	这|盒子|是|在……上|这|书桌
-3	太妙了！我喜欢它。	Cool! I like it.	形容词|名词|名词|代词	凉爽的|I|喜欢|它
+3	太妙了！我喜欢它。	Cool! I like it.	形容词|代词|动词|代词	凉爽的|我|喜欢|它
 3	春天到处是花。	Flowers are everywhere in spring.	名词|动词|名词|介词|名词	花|是|处处，到处|在……里|春天
 3	不，它不是我的。	No, it is not mine.	副词|代词|动词|副词|形容词	不|它|是|不|我的
-3	现在我们走吧。	Now let’s go.	副词|缩略|名词	现在|让我们|走
+3	现在我们走吧。	Now let’s go.	副词|缩略|动词	现在|让我们|走
 3	橙子是橙色的。	The orange is orange.	冠词|名词|动词|名词	这|橙子|是|橙子
-3	她喜欢紫色。	She likes purple.	代词|名词|形容词	她|喜欢|紫色的
-3	女王在一个安静的区域里。	The queen is in a quiet zone.	冠词|名词|动词|介词|名词|形容词|名词	这|王后|是|在……里|A|安静的|区域
-3	苹果是红色的。	The apple is red.	冠词|名词|动词|名词	这|苹果|是|红色
-3	我喜欢茶。	I like tea.	名词|名词|名词	I|喜欢|茶
+3	她喜欢紫色。	She likes purple.	代词|动词|形容词	她|喜欢|紫色的
+3	女王在一个安静的区域里。	The queen is in a quiet zone.	冠词|名词|动词|介词|冠词|形容词|名词	这|王后|是|在……里|一个|安静的|区域
+3	苹果是红色的。	The apple is red.	冠词|名词|动词|形容词	这|苹果|是|红色
+3	我喜欢茶。	I like tea.	代词|动词|名词	我|喜欢|茶
 3	那是我的书。	That is my book.	代词|动词|限定词|名词	那个|是|我的|书，书籍
-3	该走了。	It is time to go.	代词|动词|名词|介词|名词	它|是|时间|到|走
-3	带上你的雨伞。	Take your umbrella.	名词|限定词|名词	拿|你的|雨伞be（amare）是
-3	我叔叔是司机。	My uncle is a driver.	限定词|名词|动词|名词|名词	我的|伯父|是|A|司机，驾驶员
+3	该走了。	It is time to go.	代词|动词|名词|介词|动词	它|是|时间|到|走
+3	带上你的雨伞。	Take your umbrella.	动词|限定词|名词	拿|你的|雨伞
+3	我叔叔是司机。	My uncle is a driver.	限定词|名词|动词|冠词|名词	我的|伯父|是|一个|司机，驾驶员
 3	客货车是白色的。	The van is white.	冠词|名词|动词|名词	这|客货车|是|怀特
-3	我每天吃蔬菜。	I eat vegetables every day.	名词|名词|名词|名词|名词	I|吃|蔬菜|每一个|天
+3	我每天吃蔬菜。	I eat vegetables every day.	代词|动词|名词|名词|名词	我|吃|蔬菜|每一个|天
 3	冬天风很冷。	The wind is cold in winter.	冠词|名词|动词|形容词|介词|名词	这|风|是|冷的|在……里|冬天
-3	X 光片照出了我的手。	The X-ray shows my hand.	冠词|名词|名词|限定词|名词	这|X 光|显露|我的|指针
-3	香蕉是黄色的。	The banana is yellow.	冠词|名词|动词|名词	这|香蕉|是|黄色
-3	这是一个悠悠球。	This is a yo-yo.	代词|动词|名词|名词	这个|是|A|悠悠球
-3	斑马是黑白相间的。	A zebra is black and white.	名词|名词|动词|名词|连词|名词	A|斑马|是|黑色|和|怀特
-4	我可以借一个吗？	May I borrow one?	情态动词|名词|名词|数词	可以|I|借|一
-4	我是玛丽。	I am Mary.	名词|动词|名词	I|是|玛丽
+3	X 光片照出了我的手。	The X-ray shows my hand.	冠词|名词|动词|限定词|名词	这|X 光|给……看；展示|我的|指针
+3	香蕉是黄色的。	The banana is yellow.	冠词|名词|动词|形容词	这|香蕉|是|黄色
+3	这是一个悠悠球。	This is a yo-yo.	代词|动词|冠词|名词	这个|是|一个|悠悠球
+3	斑马是黑白相间的。	A zebra is black and white.	冠词|名词|动词|形容词|连词|名词	一个|斑马|是|黑色|和|怀特
+4	我可以借一个吗？	May I borrow one?	情态动词|代词|动词|数词	可以|我|借|一
+4	我是玛丽。	I am Mary.	代词|动词|名词	我|是|玛丽
 4	我们是史密斯一家。	We are the Smith family.	代词|动词|冠词|名词|名词	我们|是|这|史密斯|家庭
-4	有水吗？	Is there any water?	动词|副词|限定词|名词	是|那里|任何|水
-4	那只猫是黑色的。	The cat is black.	冠词|名词|动词|名词	这|猫|是|黑色
+4	有水吗？	Is there any water?	动词|副词|限定词|动词	是|那里|任何|水
+4	那只猫是黑色的。	The cat is black.	冠词|名词|动词|形容词	这|猫|是|黑色
 4	这本书是我的。	This book is mine.	代词|名词|动词|形容词	这个|书，书籍|是|我的
 4	帽子在椅子上。	The cap is on the chair.	冠词|名词|动词|介词|冠词|名词	这|帽子|是|在……上|这|椅子
-4	我们互相关心。	We care about each other.	代词|名词|介词|名词|形容词	我们|照顾|关于|每个|其他的
-4	我们数一数：一、二、三、四、五。	Let us count one, two, three, four, five.	名词|代词|名词|数词|数词|数词|数词|数词	让，允许|我们|数数|一|二|三|四|五
+4	我们互相关心。	We care about each other.	代词|动词|介词|名词|形容词	我们|照顾|关于|每个|其他的
+4	我们数一数：一、二、三、四、五。	Let us count one, two, three, four, five.	动词|代词|动词|数词|数词|数词|数词|数词	让，允许|我们|数数|一|二|三|四|五
 4	她是我的朋友。	She is my friend.	代词|动词|限定词|名词	她|是|我的|朋友
 4	他也是我的朋友。	He is my friend too.	名词|动词|限定词|名词|副词	和|是|我的|朋友|也
 4	这是她的书，那是他的。	This is her book, and that is his.	代词|动词|代词|名词|连词|代词|动词|限定词	这个|是|她|书，书籍|和|那个|是|他的
 4	钢笔在铅笔盒里。	The pen is in the pencil box.	冠词|名词|动词|介词|冠词|名词|名词	这|钢笔|是|在……里|这|铅笔|盒子
-4	请给我一支铅笔。	Please give me a pencil.	名词|名词|代词|名词|名词	请|给|我|A|铅笔
-4	我有一把尺子和一个书包。	I have a ruler and a schoolbag.	名词|动词|名词|名词|连词|名词|名词	I|有|A|尺子|和|A|书包
-4	我们分这个苹果吧。	Let’s share the apple.	缩略|名词|冠词|名词	让我们|分享|这|苹果
-4	当然！我们一起玩吧。	Sure! Let’s play together.	名词|缩略|名词|数词	当然|让我们|玩|一起
+4	请给我一支铅笔。	Please give me a pencil.	动词|动词|代词|冠词|名词	请|给|我|一个|铅笔
+4	我有一把尺子和一个书包。	I have a ruler and a schoolbag.	代词|动词|冠词|名词|连词|冠词|名词	我|有|一个|尺子|和|一个|书包
+4	我们分这个苹果吧。	Let’s share the apple.	缩略|动词|冠词|名词	让我们|分享|这|苹果
+4	当然！我们一起玩吧。	Sure! Let’s play together.	形容词|缩略|动词|数词	当然|让我们|玩|一起
 4	球在椅子下面。	The ball is under the chair.	冠词|名词|动词|介词|冠词|名词	这|球|是|在……下|这|椅子
 4	我的书包在哪里？	Where is my schoolbag?	疑问词|动词|限定词|名词	哪里|是|我的|书包
-4	别担心。	Don’t worry.	助动词|名词	不|担心（复数 worries）
+4	别担心。	Don’t worry.	助动词|动词	不|担心
 5	与众不同也没关系。	It’s OK to be different.	缩略|感叹词|介词|动词|形容词	它是|好|到|是|不同的
-5	我是李明。	I am Li Ming.	名词|动词|名词|名词	I|是|李|明
-5	可我能听见。	But I can hear.	连词|名词|情态动词|名词	但是|I|能|听见
-5	可我会说话。	But I can talk.	连词|名词|情态动词|名词	但是|I|能|谈话，交谈
-5	哦，我没有鼻子。	Oh, I have no nose.	感叹词|名词|动词|副词|名词	哦|I|有|不|鼻子
-5	可我能闻见气味。	But I can smell.	连词|名词|情态动词|名词	但是|I|能|闻
+5	我是李明。	I am Li Ming.	代词|动词|名词|名词	我|是|李|明
+5	可我能听见。	But I can hear.	连词|代词|情态动词|动词	但是|我|能|听见
+5	可我会说话。	But I can talk.	连词|代词|情态动词|动词	但是|我|能|谈话，交谈
+5	哦，我没有鼻子。	Oh, I have no nose.	感叹词|代词|动词|副词|名词	哦|我|有|不|鼻子
+5	可我能闻见气味。	But I can smell.	连词|代词|情态动词|动词	但是|我|能|闻
 5	可是与众不同也没关系。	But it’s OK to be different.	连词|缩略|感叹词|介词|动词|形容词	但是|它是|好|到|是|不同的
-5	这本书是关于机器人的。	This book is about a robot.	代词|名词|动词|介词|名词|名词	这个|书，书籍|是|关于|A|机器人
+5	这本书是关于机器人的。	This book is about a robot.	代词|名词|动词|介词|冠词|名词	这个|书，书籍|是|关于|一个|机器人
 5	我的手臂和腿很长。	My arm and my leg are long.	限定词|名词|连词|限定词|名词|动词|形容词	我的|手臂|和|我的|腿|是|长的
-5	这个机器人身体很大。	The robot has a big body.	冠词|名词|动词|名词|形容词|名词	这|机器人|有|A|大的|身体
+5	这个机器人身体很大。	The robot has a big body.	冠词|名词|动词|冠词|形容词|名词	这|机器人|有|一个|大的|身体
 5	她有一头卷发。	She has curly hair.	代词|动词|形容词|名词	她|有|拳曲状的|头发
-5	做好了！我会做机器人。	Done! I can make a robot.	名词|名词|情态动词|名词|名词|名词	做好了！|I|能|制作（过去式 made）|A|机器人
-5	我有两只耳朵和一张嘴。	I have two ears and one mouth.	名词|动词|数词|名词|连词|数词|名词	I|有|二|耳朵|和|一|嘴
-5	我能用眼睛看。	I can see with my eyes.	名词|情态动词|名词|介词|限定词|名词	I|能|看，看见|和……一起|我的|眼睛
-5	洗脸洗手。	Wash your face and your hands.	名词|限定词|名词|连词|限定词|名词	洗|你的|脸|和|你的|指针
+5	做好了！我会做机器人。	Done! I can make a robot.	名词|代词|情态动词|动词|冠词|名词	做好了！|我|能|制作|一个|机器人
+5	我有两只耳朵和一张嘴。	I have two ears and one mouth.	代词|动词|数词|名词|连词|数词|名词	我|有|二|耳朵|和|一|嘴
+5	我能用眼睛看。	I can see with my eyes.	代词|情态动词|动词|介词|限定词|名词	我|能|看，看见|和……一起|我的|眼睛
+5	洗脸洗手。	Wash your face and your hands.	动词|限定词|名词|连词|限定词|名词	洗|你的|脸|和|你的|指针
 5	我的脚很小。	My foot is small.	限定词|名词|动词|形容词	我的|脚，足|是|小的
-5	我十岁，我弟弟八岁。	I am ten, and my brother is eight.	名词|动词|数词|连词|限定词|名词|动词|数词	I|是|十|和|我的|哥哥|是|八
+5	我十岁，我弟弟八岁。	I am ten, and my brother is eight.	代词|动词|数词|连词|限定词|名词|动词|数词	我|是|十|和|我的|哥哥|是|八
 5	我妹妹九岁，我表弟七岁。	My sister is nine, and my cousin is seven.	限定词|名词|动词|数词|连词|限定词|名词|动词|数词	我的|姐姐|是|九|和|我的|堂（或表）兄弟|是|七
 5	六加二等于八。	Six and two is eight.	数词|连词|数词|动词|数词	六|和|二|是|八
-5	这是我身体的一部分。	This is a part of my body.	代词|动词|名词|名词|介词|限定词|名词	这个|是|A|部分|的|我的|身体
-5	他惯用左手，她惯用右手。	He is left-handed, and she is right-handed.	名词|动词|形容词|连词|代词|动词|形容词	和|是|左边的-指针|和|她|是|正确的-指针
-5	狗有一条长尾巴。	The dog has a long tail.	冠词|名词|动词|名词|形容词|名词	这|狗|有|A|长的|尾巴
-5	这条线是直的。	The line is straight.	冠词|名词|动词|形容词	这|线哇(表示惊讶,赞赏等)|是|直的
+5	这是我身体的一部分。	This is a part of my body.	代词|动词|冠词|名词|介词|限定词|名词	这个|是|一个|部分|的|我的|身体
+5	他惯用左手，她惯用右手。	He is left-handed, and she is right-handed.	名词|动词|动词|连词|代词|动词|形容词	和|是|左边的-指针|和|她|是|正确的-指针
+5	狗有一条长尾巴。	The dog has a long tail.	冠词|名词|动词|冠词|形容词|名词	这|狗|有|一个|长的|尾巴
+5	这条线是直的。	The line is straight.	冠词|名词|动词|形容词	这|线；排；行|是|直的
 5	她的头发又短又直。	Her hair is short and straight.	代词|名词|动词|形容词|连词|形容词	她|头发|是|短的|和|直的
-5	把手放在你的头上。	Put your hand on your head.	名词|限定词|名词|介词|限定词|名词	放|你的|指针|在……上|你的|头
-6	吉姆有个妹妹叫吉尔。	Jim has a sister, Jill.	名词|动词|名词|名词|名词	吉姆|有|A|姐姐|吉尔
-6	蒂姆有个弟弟叫比尔。	Tim has a brother, Bill.	名词|动词|名词|名词|名词	蒂姆|有|A|哥哥|比尔
+5	把手放在你的头上。	Put your hand on your head.	动词|限定词|名词|介词|限定词|名词	放|你的|指针|在……上|你的|头
+6	吉姆有个妹妹叫吉尔。	Jim has a sister, Jill.	名词|动词|冠词|名词|名词	吉姆|有|一个|姐姐|吉尔
+6	蒂姆有个弟弟叫比尔。	Tim has a brother, Bill.	名词|动词|冠词|名词|名词	蒂姆|有|一个|哥哥|比尔
 6	我的家人都在家。	My family is at home.	限定词|名词|动词|介词|名词	我的|家庭|是|在|回家
-6	我爸爸是公共汽车司机。	My father is a bus driver.	限定词|名词|动词|名词|名词|名词	我的|父亲，爸爸|是|A|公共汽车|司机，驾驶员
-6	我妈妈是收银员。	My mother is a cashier.	限定词|名词|动词|名词|名词	我的|母亲，妈妈|是|A|收银员
-6	我们用筷子吃饭。	We eat with chopsticks.	代词|名词|介词|名词	我们|吃|和……一起|筷子
-6	加油！我们能赢。	Come on! We can win.	名词|介词|代词|情态动词|名词	来|在……上|我们|能|赢
-6	我爸爸会做饭。	My dad can cook.	限定词|名词|情态动词|名词	我的|爸爸|能|做饭
-6	请洗盘子。	Please wash the dishes.	名词|名词|冠词|名词	请|洗|这|盘子
+6	我爸爸是公共汽车司机。	My father is a bus driver.	限定词|名词|动词|冠词|名词|名词	我的|父亲，爸爸|是|一个|公共汽车|司机，驾驶员
+6	我妈妈是收银员。	My mother is a cashier.	限定词|名词|动词|冠词|名词	我的|母亲，妈妈|是|一个|收银员
+6	我们用筷子吃饭。	We eat with chopsticks.	代词|动词|介词|名词	我们|吃|和……一起|筷子
+6	加油！我们能赢。	Come on! We can win.	动词|介词|代词|情态动词|动词	来|在……上|我们|能|赢
+6	我爸爸会做饭。	My dad can cook.	限定词|名词|情态动词|动词	我的|爸爸|能|做饭
+6	请洗盘子。	Please wash the dishes.	动词|动词|冠词|名词	请|洗|这|盘子
 6	医生帮助人们。	The doctor helps people.	冠词|名词|动词|名词	这|医生，大夫|帮助|人们
 6	我们互相帮助。	We help each other.	代词|动词|名词|形容词	我们|帮助|每个|其他的
-6	农夫在农场干活。	The farmer works on a farm.	冠词|名词|名词|介词|名词|名词	这|农民|工作|在……上|A|农场
-6	看这张我全家的照片。	Look at this picture of my family.	名词|介词|代词|名词|介词|限定词|名词	看|在|这个|照片|的|我的|家庭
-6	我爱我的家人。	I love my family.	名词|名词|限定词|名词	I|喜爱|我的|家庭
-6	我妈妈是老师。	My mum is a teacher.	限定词|名词|动词|名词|名词	我的|妈妈|是|A|教师，老师
-6	孩子们一起玩。	The children play together.	冠词|名词|名词|数词	这|的复数形式)|玩|一起
+6	农夫在农场干活。	The farmer works on a farm.	冠词|名词|动词|介词|冠词|名词	这|农民|工作|在……上|一个|农场
+6	看这张我全家的照片。	Look at this picture of my family.	动词|介词|代词|名词|介词|限定词|名词	看|在|这个|照片|的|我的|家庭
+6	我爱我的家人。	I love my family.	代词|动词|限定词|名词	我|喜爱|我的|家庭
+6	我妈妈是老师。	My mum is a teacher.	限定词|名词|动词|冠词|名词	我的|妈妈|是|一个|教师，老师
+6	孩子们一起玩。	The children play together.	冠词|名词|动词|数词	这|孩子们|玩|一起
 6	警察帮助我们。	The policeman helps us.	冠词|名词|动词|代词	这|男警察|帮助|我们
-6	他是一名学生。	He is a student.	名词|动词|名词|名词	和|是|A|学生
+6	他是一名学生。	He is a student.	名词|动词|冠词|名词	和|是|一个|学生
 6	我哥哥很高。	My brother is tall.	限定词|名词|动词|形容词	我的|哥哥|是|高大的
-6	我叔叔是工人。	My uncle is a worker.	限定词|名词|动词|名词|名词	我的|伯父|是|A|工人
+6	我叔叔是工人。	My uncle is a worker.	限定词|名词|动词|冠词|名词	我的|伯父|是|一个|工人
