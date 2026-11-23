@@ -8290,8 +8290,8 @@
     {
       "id": "jj-5a-u2-s41",
       "unit": 2,
-      "cn": "树上有一片叶子。",
-      "en": "A leaf is on the tree.",
+      "cn": "一片叶子从树上落下来。",
+      "en": "A leaf falls down from the tree.",
       "tokens": [
         {
           "en": "A",
@@ -8304,13 +8304,18 @@
           "pos": "名词"
         },
         {
-          "en": "is",
-          "cn": "是",
-          "pos": "动词"
+          "en": "falls",
+          "cn": "瀑布",
+          "pos": "名词"
         },
         {
-          "en": "on",
-          "cn": "在……上",
+          "en": "down",
+          "cn": "向下",
+          "pos": "副词"
+        },
+        {
+          "en": "from",
+          "cn": "从",
           "pos": "介词"
         },
         {
