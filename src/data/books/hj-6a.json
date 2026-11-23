@@ -8,8 +8,8 @@
   "term": "up",
   "edition": "2025 秋 · 新课标修订版",
   "stage": "primary",
-  "wordCount": 130,
-  "sentenceCount": 42,
+  "wordCount": 132,
+  "sentenceCount": 132,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -25,7 +25,8 @@
         "hj-6a-u1-06",
         "hj-6a-u1-07",
         "hj-6a-u1-08",
-        "hj-6a-u1-09"
+        "hj-6a-u1-09",
+        "hj-6a-u1-10"
       ]
     },
     {
@@ -151,7 +152,8 @@
         "hj-6a-u8-08",
         "hj-6a-u8-09",
         "hj-6a-u8-10",
-        "hj-6a-u8-11"
+        "hj-6a-u8-11",
+        "hj-6a-u8-12"
       ]
     },
     {
@@ -377,8 +379,25 @@
       ],
       "senses": [
         {
-          "cn": "初级中学(be) born 出生",
-          "cnFull": "初级中学(be) born 出生"
+          "cn": "初级中学",
+          "cnFull": "初级中学"
+        }
+      ],
+      "grade": 6,
+      "unit": 1
+    },
+    {
+      "id": "hj-6a-u1-10",
+      "word": "born",
+      "phoneticUK": "/bɔːn/",
+      "syllables": [
+        "b",
+        "orn"
+      ],
+      "senses": [
+        {
+          "cn": "出生",
+          "cnFull": "出生"
         }
       ],
       "grade": 6,
@@ -1377,8 +1396,8 @@
       ],
       "senses": [
         {
-          "cn": "警察（复数 policemen）",
-          "cnFull": "警察（复数 policemen）"
+          "cn": "警察",
+          "cnFull": "警察"
         }
       ],
       "grade": 6,
@@ -1620,8 +1639,8 @@
       ],
       "senses": [
         {
-          "cn": "种类finger 手指",
-          "cnFull": "种类finger 手指"
+          "cn": "种类",
+          "cnFull": "种类"
         }
       ],
       "grade": 6,
@@ -1629,6 +1648,24 @@
     },
     {
       "id": "hj-6a-u8-06",
+      "word": "finger",
+      "phoneticUK": "/ˈfɪŋɡə(r)/",
+      "syllables": [
+        "f",
+        "ing",
+        "er"
+      ],
+      "senses": [
+        {
+          "cn": "手指",
+          "cnFull": "手指"
+        }
+      ],
+      "grade": 6,
+      "unit": 8
+    },
+    {
+      "id": "hj-6a-u8-07",
       "word": "dancer",
       "phoneticUK": "/ˈdɑːnsə(ɹ)/",
       "syllables": [
@@ -1646,7 +1683,7 @@
       "unit": 8
     },
     {
-      "id": "hj-6a-u8-07",
+      "id": "hj-6a-u8-08",
       "word": "insect museum",
       "phoneticUK": "/ˈɪn.sɛkt mjuˈziːəm/",
       "syllables": [
@@ -1665,7 +1702,7 @@
       "unit": 8
     },
     {
-      "id": "hj-6a-u8-08",
+      "id": "hj-6a-u8-09",
       "word": "car museum",
       "phoneticUK": "/kɑː(r) mjuˈziːəm/",
       "syllables": [
@@ -1683,7 +1720,7 @@
       "unit": 8
     },
     {
-      "id": "hj-6a-u8-09",
+      "id": "hj-6a-u8-10",
       "word": "model car",
       "phoneticUK": "/ˈmɒdl kɑː(r)/",
       "syllables": [
@@ -1701,7 +1738,7 @@
       "unit": 8
     },
     {
-      "id": "hj-6a-u8-10",
+      "id": "hj-6a-u8-11",
       "word": "science museum",
       "phoneticUK": "/ˈsaɪəns mjuˈziːəm/",
       "syllables": [
@@ -1720,7 +1757,7 @@
       "unit": 8
     },
     {
-      "id": "hj-6a-u8-11",
+      "id": "hj-6a-u8-12",
       "word": "many kinds of",
       "phoneticUK": "/ˈmeni kaɪndz ɒv/",
       "syllables": [
@@ -1905,8 +1942,8 @@
       ],
       "senses": [
         {
-          "cn": "寿司（日本食物）",
-          "cnFull": "寿司（日本食物）"
+          "cn": "寿司",
+          "cnFull": "寿司"
         }
       ],
       "grade": 6,
@@ -2009,8 +2046,8 @@
       ],
       "senses": [
         {
-          "cn": "气球上海教育出版社上海教育出版社",
-          "cnFull": "气球上海教育出版社上海教育出版社"
+          "cn": "气球",
+          "cnFull": "气球"
         }
       ],
       "grade": 6,
@@ -2491,8 +2528,8 @@
       ],
       "senses": [
         {
-          "cn": "塑料袋上海教育出版社上海教育出版社",
-          "cnFull": "塑料袋上海教育出版社上海教育出版社"
+          "cn": "塑料袋",
+          "cnFull": "塑料袋"
         }
       ],
       "grade": 6,
@@ -2754,6 +2791,352 @@
       ]
     },
     {
+      "id": "hj-6a-u1-s07",
+      "unit": 1,
+      "cn": "我们明年上初级中学。",
+      "en": "We will go to junior high school next year.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "will",
+          "cn": "将会",
+          "pos": "情态动词"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "junior",
+          "cn": "初级的",
+          "pos": "形容词"
+        },
+        {
+          "en": "high",
+          "cn": "高的",
+          "pos": "形容词"
+        },
+        {
+          "en": "school",
+          "cn": "学校",
+          "pos": "名词"
+        },
+        {
+          "en": "next",
+          "cn": "接下来的",
+          "pos": "形容词"
+        },
+        {
+          "en": "year.",
+          "cn": "年",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u1-s08",
+      "unit": 1,
+      "cn": "这朵花很漂亮，那个男孩很英俊。",
+      "en": "This is a pretty flower, and that boy is handsome.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "pretty",
+          "cn": "漂亮的",
+          "pos": "形容词"
+        },
+        {
+          "en": "flower,",
+          "cn": "花",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "that",
+          "cn": "那个",
+          "pos": "代词"
+        },
+        {
+          "en": "boy",
+          "cn": "男孩",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "handsome.",
+          "cn": "英俊的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u1-s09",
+      "unit": 1,
+      "cn": "乌龟能生活在水里。",
+      "en": "A turtle can live in the water.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "turtle",
+          "cn": "海龟",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "live",
+          "cn": "居住",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "water.",
+          "cn": "水",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u1-s10",
+      "unit": 1,
+      "cn": "猫想逮住那只老鼠。",
+      "en": "The cat wants to catch the mouse.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "cat",
+          "cn": "猫",
+          "pos": "名词"
+        },
+        {
+          "en": "wants",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "catch",
+          "cn": "接住",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "mouse.",
+          "cn": "鼠狗",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u1-s11",
+      "unit": 1,
+      "cn": "苍蝇能在空中飞。",
+      "en": "A fly can fly in the air.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "fly",
+          "cn": "飞",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "fly",
+          "cn": "飞",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "air.",
+          "cn": "空气",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u1-s12",
+      "unit": 1,
+      "cn": "我长大了想当医生。",
+      "en": "When I grow up, I want to be a doctor.",
+      "tokens": [
+        {
+          "en": "When",
+          "cn": "当……时",
+          "pos": "连词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "grow",
+          "cn": "生长",
+          "pos": "名词"
+        },
+        {
+          "en": "up,",
+          "cn": "向上",
+          "pos": "副词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "be",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "doctor.",
+          "cn": "医生",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u1-s13",
+      "unit": 1,
+      "cn": "一月是一年中的第一个月。",
+      "en": "January is the first month of the year.",
+      "tokens": [
+        {
+          "en": "January",
+          "cn": "一月",
+          "pos": "数词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "first",
+          "cn": "第一",
+          "pos": "数词"
+        },
+        {
+          "en": "month",
+          "cn": "月",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "year.",
+          "cn": "年",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
       "id": "hj-6a-u2-s01",
       "unit": 2,
       "cn": "基蒂，你的暑假过得怎么样？",
@@ -2845,6 +3228,229 @@
       ]
     },
     {
+      "id": "hj-6a-u2-s03",
+      "unit": 2,
+      "cn": "北京是一座著名的城市。",
+      "en": "Beijing is a famous city.",
+      "tokens": [
+        {
+          "en": "Beijing",
+          "cn": "北京",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "famous",
+          "cn": "著名的",
+          "pos": "形容词"
+        },
+        {
+          "en": "city.",
+          "cn": "城市",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u2-s04",
+      "unit": 2,
+      "cn": "夏天我们有一个长假。",
+      "en": "We have a long holiday during the summer.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "long",
+          "cn": "长的",
+          "pos": "形容词"
+        },
+        {
+          "en": "holiday",
+          "cn": "假期",
+          "pos": "名词"
+        },
+        {
+          "en": "during",
+          "cn": "在……期间",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "summer.",
+          "cn": "夏天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u2-s05",
+      "unit": 2,
+      "cn": "我们和家人一起度过假期。",
+      "en": "We spend the holiday with our family.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "spend",
+          "cn": "花钱",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "holiday",
+          "cn": "假期",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "our",
+          "cn": "我们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "family.",
+          "cn": "家庭",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u2-s06",
+      "unit": 2,
+      "cn": "今天每个人都很开心。",
+      "en": "Everyone is happy today.",
+      "tokens": [
+        {
+          "en": "Everyone",
+          "cn": "每个人",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "happy",
+          "cn": "高兴的",
+          "pos": "形容词"
+        },
+        {
+          "en": "today.",
+          "cn": "今天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u2-s07",
+      "unit": 2,
+      "cn": "我的祖父母住在乡村。",
+      "en": "My grandparents live in the countryside.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "grandparents",
+          "cn": "祖父",
+          "pos": "名词"
+        },
+        {
+          "en": "live",
+          "cn": "居住",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "countryside.",
+          "cn": "乡村",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u2-s08",
+      "unit": 2,
+      "cn": "我们在秋天采摘苹果。",
+      "en": "We pick apples in autumn.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "pick",
+          "cn": "摘（花",
+          "pos": "名词"
+        },
+        {
+          "en": "apples",
+          "cn": "苹果",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "autumn.",
+          "cn": "秋天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
       "id": "hj-6a-u3-s01",
       "unit": 3,
       "cn": "这是简。",
@@ -2927,6 +3533,188 @@
           "en": "healthy?",
           "cn": "健康的",
           "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u3-s03",
+      "unit": 3,
+      "cn": "可乐和汉堡包是不健康的。",
+      "en": "Cola and hamburgers are unhealthy.",
+      "tokens": [
+        {
+          "en": "Cola",
+          "cn": "可乐",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "hamburgers",
+          "cn": "汉堡包",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "unhealthy.",
+          "cn": "不健康的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u3-s04",
+      "unit": 3,
+      "cn": "昨天我吃了一个三明治、一个馅饼和一些炸鱼薯条。",
+      "en": "Yesterday I ate a sandwich, a pie and some fish and chips.",
+      "tokens": [
+        {
+          "en": "Yesterday",
+          "cn": "昨天",
+          "pos": "名词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "ate",
+          "cn": "吃（eat的过去式）",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "sandwich,",
+          "cn": "三明治",
+          "pos": "数词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "pie",
+          "cn": "馅饼",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "fish",
+          "cn": "鱼",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "chips.",
+          "cn": "薯条",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u3-s05",
+      "unit": 3,
+      "cn": "我喜欢比萨饼、水果和蔬菜。",
+      "en": "I like pizza, fruit and vegetables.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "pizza,",
+          "cn": "比萨饼",
+          "pos": "介词"
+        },
+        {
+          "en": "fruit",
+          "cn": "水果",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "vegetables.",
+          "cn": "蔬菜",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u3-s06",
+      "unit": 3,
+      "cn": "我吃鸡肉和少量巧克力。",
+      "en": "I eat chicken and a little chocolate.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "eat",
+          "cn": "吃",
+          "pos": "名词"
+        },
+        {
+          "en": "chicken",
+          "cn": "鸡肉",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "little",
+          "cn": "小的",
+          "pos": "形容词"
+        },
+        {
+          "en": "chocolate.",
+          "cn": "巧克力",
+          "pos": "名词"
         }
       ]
     },
@@ -3237,6 +4025,211 @@
       ]
     },
     {
+      "id": "hj-6a-u4-s08",
+      "unit": 4,
+      "cn": "他们的儿子和女儿都是学生。",
+      "en": "Their son and daughter are students.",
+      "tokens": [
+        {
+          "en": "Their",
+          "cn": "他们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "son",
+          "cn": "儿子",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "daughter",
+          "cn": "女儿",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "students.",
+          "cn": "学生",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u4-s09",
+      "unit": 4,
+      "cn": "这条街晚上很吵。",
+      "en": "The street is noisy at night.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "street",
+          "cn": "街道",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "noisy",
+          "cn": "嘈杂的",
+          "pos": "形容词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "night.",
+          "cn": "夜晚",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u4-s10",
+      "unit": 4,
+      "cn": "猫头鹰在黑暗中能看见。",
+      "en": "An owl can see in the dark.",
+      "tokens": [
+        {
+          "en": "An",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "owl",
+          "cn": "猫头鹰",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "dark.",
+          "cn": "黑暗的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u4-s11",
+      "unit": 4,
+      "cn": "狗喜欢在花园里挖土。",
+      "en": "The dog likes to dig in the garden.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "dog",
+          "cn": "狗",
+          "pos": "名词"
+        },
+        {
+          "en": "likes",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "dig",
+          "cn": "挖（土）",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "garden.",
+          "cn": "花园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u4-s12",
+      "unit": 4,
+      "cn": "上课时请不要制造噪音。",
+      "en": "Please don't make noise in class.",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "don't",
+          "cn": "不",
+          "pos": "助动词"
+        },
+        {
+          "en": "make",
+          "cn": "制作（过去式 made）",
+          "pos": "名词"
+        },
+        {
+          "en": "noise",
+          "cn": "噪音",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "class.",
+          "cn": "课",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
       "id": "hj-6a-u5-s01",
       "unit": 5,
       "cn": "埃尔莎的妈妈去世了，于是乔伊照顾她。",
@@ -3286,6 +4279,567 @@
           "en": "her.",
           "cn": "她",
           "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u5-s02",
+      "unit": 5,
+      "cn": "我们年级大约有一百名学生，全校有一千名。",
+      "en": "There are about one hundred pupils in our grade, and one thousand in our school.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "about",
+          "cn": "关于",
+          "pos": "介词"
+        },
+        {
+          "en": "one",
+          "cn": "一",
+          "pos": "数词"
+        },
+        {
+          "en": "hundred",
+          "cn": "一百",
+          "pos": "数词"
+        },
+        {
+          "en": "pupils",
+          "cn": "小学生",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "our",
+          "cn": "我们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "grade,",
+          "cn": "年级",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "one",
+          "cn": "一",
+          "pos": "数词"
+        },
+        {
+          "en": "thousand",
+          "cn": "一千",
+          "pos": "数词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "our",
+          "cn": "我们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u5-s03",
+      "unit": 5,
+      "cn": "野生动物生活在森林里。",
+      "en": "Wild animals live in the forest.",
+      "tokens": [
+        {
+          "en": "Wild",
+          "cn": "野生环境",
+          "pos": "名词"
+        },
+        {
+          "en": "animals",
+          "cn": "动物",
+          "pos": "名词"
+        },
+        {
+          "en": "live",
+          "cn": "居住",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "forest.",
+          "cn": "森林",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u5-s04",
+      "unit": 5,
+      "cn": "华南虎正面临危险。",
+      "en": "A South China tiger is in danger.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "South",
+          "cn": "南方",
+          "pos": "名词"
+        },
+        {
+          "en": "China",
+          "cn": "中国",
+          "pos": "名词"
+        },
+        {
+          "en": "tiger",
+          "cn": "老虎",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "danger.",
+          "cn": "危险",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u5-s05",
+      "unit": 5,
+      "cn": "蓝鲸是海里最大的动物。",
+      "en": "A blue whale is the biggest animal in the sea.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "blue",
+          "cn": "蓝色的",
+          "pos": "形容词"
+        },
+        {
+          "en": "whale",
+          "cn": "鲸鱼",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "biggest",
+          "cn": "最大的",
+          "pos": "形容词"
+        },
+        {
+          "en": "animal",
+          "cn": "动物",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sea.",
+          "cn": "海",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u5-s06",
+      "unit": 5,
+      "cn": "你能告诉我去动物园的路吗？",
+      "en": "Can you tell me the way to the zoo?",
+      "tokens": [
+        {
+          "en": "Can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "tell",
+          "cn": "告诉",
+          "pos": "名词"
+        },
+        {
+          "en": "me",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "way",
+          "cn": "路",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "zoo?",
+          "cn": "动物园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u5-s07",
+      "unit": 5,
+      "cn": "我们在学校学英语。",
+      "en": "We learn English at school.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "learn",
+          "cn": "学习",
+          "pos": "名词"
+        },
+        {
+          "en": "English",
+          "cn": "英文的",
+          "pos": "形容词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u5-s08",
+      "unit": 5,
+      "cn": "请把这封信寄给他。",
+      "en": "Please send this letter to him.",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "send",
+          "cn": "安排去",
+          "pos": "名词"
+        },
+        {
+          "en": "this",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "letter",
+          "cn": "字母",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "him.",
+          "cn": "他",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u5-s09",
+      "unit": 5,
+      "cn": "犀牛有一个大角。",
+      "en": "A rhino has a big horn.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "rhino",
+          "cn": "犀牛",
+          "pos": "名词"
+        },
+        {
+          "en": "has",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "big",
+          "cn": "大的",
+          "pos": "形容词"
+        },
+        {
+          "en": "horn.",
+          "cn": "角",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u5-s10",
+      "unit": 5,
+      "cn": "过去这里有很多老虎。",
+      "en": "In the past, there were many tigers here.",
+      "tokens": [
+        {
+          "en": "In",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "past,",
+          "cn": "过去的",
+          "pos": "形容词"
+        },
+        {
+          "en": "there",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "were",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "many",
+          "cn": "许多",
+          "pos": "限定词"
+        },
+        {
+          "en": "tigers",
+          "cn": "老虎",
+          "pos": "名词"
+        },
+        {
+          "en": "here.",
+          "cn": "这里",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u5-s11",
+      "unit": 5,
+      "cn": "我们必须照顾动物。",
+      "en": "We must take care of the animals.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "must",
+          "cn": "必须",
+          "pos": "情态动词"
+        },
+        {
+          "en": "take",
+          "cn": "拿",
+          "pos": "名词"
+        },
+        {
+          "en": "care",
+          "cn": "照顾",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "animals.",
+          "cn": "动物",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u5-s12",
+      "unit": 5,
+      "cn": "晚饭后我们去散步吧。",
+      "en": "Let's go for a walk after dinner.",
+      "tokens": [
+        {
+          "en": "Let's",
+          "cn": "让我们",
+          "pos": "缩略"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "walk",
+          "cn": "步行",
+          "pos": "名词"
+        },
+        {
+          "en": "after",
+          "cn": "在……之后",
+          "pos": "介词"
+        },
+        {
+          "en": "dinner.",
+          "cn": "晚餐",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u5-s13",
+      "unit": 5,
+      "cn": "狗能赶走那些鸟。",
+      "en": "The dog can drive away the birds.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "dog",
+          "cn": "狗",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "drive",
+          "cn": "驾驶",
+          "pos": "名词"
+        },
+        {
+          "en": "away",
+          "cn": "离开",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "birds.",
+          "cn": "鸟",
+          "pos": "名词"
         }
       ]
     },
@@ -3407,6 +4961,247 @@
       ]
     },
     {
+      "id": "hj-6a-u6-s05",
+      "unit": 6,
+      "cn": "我在英国有一个网友。",
+      "en": "I have an e-friend in the UK.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "e-friend",
+          "cn": "E-朋友",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "UK.",
+          "cn": "英国",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u6-s06",
+      "unit": 6,
+      "cn": "中国是一个大国。",
+      "en": "China is a big country.",
+      "tokens": [
+        {
+          "en": "China",
+          "cn": "中国",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "big",
+          "cn": "大的",
+          "pos": "形容词"
+        },
+        {
+          "en": "country.",
+          "cn": "乡村",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u6-s07",
+      "unit": 6,
+      "cn": "其他学生喜欢踢足球。",
+      "en": "Other students like to play football.",
+      "tokens": [
+        {
+          "en": "Other",
+          "cn": "其他的",
+          "pos": "形容词"
+        },
+        {
+          "en": "students",
+          "cn": "学生",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "football.",
+          "cn": "足球",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u6-s08",
+      "unit": 6,
+      "cn": "我们队赢了比赛。",
+      "en": "Our team wins the game.",
+      "tokens": [
+        {
+          "en": "Our",
+          "cn": "我们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "team",
+          "cn": "（游戏或运动的）队",
+          "pos": "名词"
+        },
+        {
+          "en": "wins",
+          "cn": "赢",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "game.",
+          "cn": "游戏",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u6-s09",
+      "unit": 6,
+      "cn": "我的爱好是阅读。",
+      "en": "My hobby is reading.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "hobby",
+          "cn": "爱好",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "reading.",
+          "cn": "在读书",
+          "pos": "介词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u6-s10",
+      "unit": 6,
+      "cn": "请说说你自己。",
+      "en": "Please tell me about yourself.",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "tell",
+          "cn": "告诉",
+          "pos": "名词"
+        },
+        {
+          "en": "me",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "about",
+          "cn": "关于",
+          "pos": "介词"
+        },
+        {
+          "en": "yourself.",
+          "cn": "你自己",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u6-s11",
+      "unit": 6,
+      "cn": "我想喝点茶。",
+      "en": "I would like some tea.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "would",
+          "cn": "将会",
+          "pos": "情态动词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "tea.",
+          "cn": "茶",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
       "id": "hj-6a-u7-s01",
       "unit": 7,
       "cn": "星期天下午我们去看《白雪公主》吧。",
@@ -3503,6 +5298,839 @@
         {
           "en": "Ben?",
           "cn": "本",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u7-s03",
+      "unit": 7,
+      "cn": "我们去公园好吗？",
+      "en": "Shall we go to the park?",
+      "tokens": [
+        {
+          "en": "Shall",
+          "cn": "··好吗（表示提出或征求意见）",
+          "pos": "名词"
+        },
+        {
+          "en": "we",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "park?",
+          "cn": "公园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u7-s04",
+      "unit": 7,
+      "cn": "公主和王后住在王宫里。",
+      "en": "The princess and the queen live in the palace.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "princess",
+          "cn": "公主",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "queen",
+          "cn": "王后",
+          "pos": "名词"
+        },
+        {
+          "en": "live",
+          "cn": "居住",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "palace.",
+          "cn": "王宫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u7-s05",
+      "unit": 7,
+      "cn": "警方和警察帮助人们。",
+      "en": "The police and the policeman help people.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "police",
+          "cn": "警察",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "policeman",
+          "cn": "男警察",
+          "pos": "名词"
+        },
+        {
+          "en": "help",
+          "cn": "帮助",
+          "pos": "动词"
+        },
+        {
+          "en": "people.",
+          "cn": "人们",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u7-s06",
+      "unit": 7,
+      "cn": "这是一个关于勇敢男孩的激动人心的故事。",
+      "en": "This is an exciting story about a brave boy.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "exciting",
+          "cn": "使人激动的",
+          "pos": "形容词"
+        },
+        {
+          "en": "story",
+          "cn": "故事",
+          "pos": "名词"
+        },
+        {
+          "en": "about",
+          "cn": "关于",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "brave",
+          "cn": "勇敢的",
+          "pos": "形容词"
+        },
+        {
+          "en": "boy.",
+          "cn": "男孩",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u7-s07",
+      "unit": 7,
+      "cn": "这本书没趣。",
+      "en": "This book is boring.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "book",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "boring.",
+          "cn": "无趣的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u7-s08",
+      "unit": 7,
+      "cn": "王后照镜子。",
+      "en": "The queen looks in the mirror.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "queen",
+          "cn": "王后",
+          "pos": "名词"
+        },
+        {
+          "en": "looks",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "mirror.",
+          "cn": "镜子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u7-s09",
+      "unit": 7,
+      "cn": "她是世界上最美丽的。",
+      "en": "She is the fairest in the world.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "fairest",
+          "cn": "最美丽的",
+          "pos": "形容词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "world.",
+          "cn": "世界",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u7-s10",
+      "unit": 7,
+      "cn": "不要杀死那只鸟。",
+      "en": "Don't kill the bird.",
+      "tokens": [
+        {
+          "en": "Don't",
+          "cn": "不",
+          "pos": "助动词"
+        },
+        {
+          "en": "kill",
+          "cn": "杀死",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bird.",
+          "cn": "鸟",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u7-s11",
+      "unit": 7,
+      "cn": "宝宝现在睡着了。",
+      "en": "The baby is asleep now.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "baby",
+          "cn": "婴儿",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "asleep",
+          "cn": "睡着的",
+          "pos": "形容词"
+        },
+        {
+          "en": "now.",
+          "cn": "现在",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u7-s12",
+      "unit": 7,
+      "cn": "下次见。",
+      "en": "See you next time.",
+      "tokens": [
+        {
+          "en": "See",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "next",
+          "cn": "接下来的",
+          "pos": "形容词"
+        },
+        {
+          "en": "time.",
+          "cn": "时间",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u7-s13",
+      "unit": 7,
+      "cn": "从前，有一位国王。",
+      "en": "Once upon a time, there was a king.",
+      "tokens": [
+        {
+          "en": "Once",
+          "cn": "一次",
+          "pos": "数词"
+        },
+        {
+          "en": "upon",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "time,",
+          "cn": "时间",
+          "pos": "名词"
+        },
+        {
+          "en": "there",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "was",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "king.",
+          "cn": "国王",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u7-s14",
+      "unit": 7,
+      "cn": "男孩很快会睡着。",
+      "en": "The boy will fall asleep soon.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "boy",
+          "cn": "男孩",
+          "pos": "名词"
+        },
+        {
+          "en": "will",
+          "cn": "将会",
+          "pos": "情态动词"
+        },
+        {
+          "en": "fall",
+          "cn": "掉进",
+          "pos": "名词"
+        },
+        {
+          "en": "asleep",
+          "cn": "睡着的",
+          "pos": "形容词"
+        },
+        {
+          "en": "soon.",
+          "cn": "不久",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u8-s01",
+      "unit": 8,
+      "cn": "蜜蜂和蚂蚁都是昆虫。",
+      "en": "A bee and an ant are insects.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "bee",
+          "cn": "蜜蜂",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "ant",
+          "cn": "蚂蚁",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "insects.",
+          "cn": "昆虫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u8-s02",
+      "unit": 8,
+      "cn": "我在盒子里什么也看不见。",
+      "en": "I can't see anything in the box.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can't",
+          "cn": "不能",
+          "pos": "助动词"
+        },
+        {
+          "en": "see",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "anything",
+          "cn": "任何东西",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "box.",
+          "cn": "盒子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u8-s03",
+      "unit": 8,
+      "cn": "这种花是红色的。",
+      "en": "This kind of flower is red.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "kind",
+          "cn": "种类",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "flower",
+          "cn": "花",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "red.",
+          "cn": "红色",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u8-s04",
+      "unit": 8,
+      "cn": "我有十个手指。",
+      "en": "I have ten fingers.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "ten",
+          "cn": "十",
+          "pos": "数词"
+        },
+        {
+          "en": "fingers.",
+          "cn": "手指",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u8-s05",
+      "unit": 8,
+      "cn": "她是个好舞者。",
+      "en": "She is a good dancer.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "dancer.",
+          "cn": "舞蹈演员",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u8-s06",
+      "unit": 8,
+      "cn": "我们参观了昆虫博物馆和汽车博物馆。",
+      "en": "We visit the insect museum and the car museum.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "visit",
+          "cn": "拜访",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "insect",
+          "cn": "昆虫",
+          "pos": "名词"
+        },
+        {
+          "en": "museum",
+          "cn": "博物馆",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "car",
+          "cn": "小汽车",
+          "pos": "名词"
+        },
+        {
+          "en": "museum.",
+          "cn": "博物馆",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u8-s07",
+      "unit": 8,
+      "cn": "这是一辆汽车模型。",
+      "en": "This is a model car.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "model",
+          "cn": "模型",
+          "pos": "名词"
+        },
+        {
+          "en": "car.",
+          "cn": "小汽车",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u8-s08",
+      "unit": 8,
+      "cn": "我们星期天去科学博物馆。",
+      "en": "We go to the science museum on Sunday.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "science",
+          "cn": "科学",
+          "pos": "名词"
+        },
+        {
+          "en": "museum",
+          "cn": "博物馆",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "Sunday.",
+          "cn": "星期日",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u8-s09",
+      "unit": 8,
+      "cn": "这家店卖各种各样的水果。",
+      "en": "The shop sells many kinds of fruit.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "shop",
+          "cn": "商店",
+          "pos": "名词"
+        },
+        {
+          "en": "sells",
+          "cn": "卖",
+          "pos": "名词"
+        },
+        {
+          "en": "many",
+          "cn": "许多",
+          "pos": "限定词"
+        },
+        {
+          "en": "kinds",
+          "cn": "种类",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "fruit.",
+          "cn": "水果",
           "pos": "名词"
         }
       ]
@@ -3863,6 +6491,287 @@
       ]
     },
     {
+      "id": "hj-6a-u9-s11",
+      "unit": 9,
+      "cn": "北京在中国北部。",
+      "en": "Beijing is in the north of China.",
+      "tokens": [
+        {
+          "en": "Beijing",
+          "cn": "北京",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "north",
+          "cn": "北方",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "China.",
+          "cn": "中国",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u9-s12",
+      "unit": 9,
+      "cn": "上海在中国东部。",
+      "en": "Shanghai is in the east of China.",
+      "tokens": [
+        {
+          "en": "Shanghai",
+          "cn": "上海",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "east",
+          "cn": "东",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "China.",
+          "cn": "中国",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u9-s13",
+      "unit": 9,
+      "cn": "太阳从西边落下。",
+      "en": "The sun goes down in the west.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sun",
+          "cn": "孙",
+          "pos": "名词"
+        },
+        {
+          "en": "goes",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "down",
+          "cn": "向下",
+          "pos": "副词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "west.",
+          "cn": "西方",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u9-s14",
+      "unit": 9,
+      "cn": "三亚在中国南部。",
+      "en": "Sanya is in the south of China.",
+      "tokens": [
+        {
+          "en": "Sanya",
+          "cn": "三亚",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "south",
+          "cn": "南方",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "China.",
+          "cn": "中国",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u9-s15",
+      "unit": 9,
+      "cn": "国王住在王宫里。",
+      "en": "The king lives in the palace.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "king",
+          "cn": "国王",
+          "pos": "名词"
+        },
+        {
+          "en": "lives",
+          "cn": "居住",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "palace.",
+          "cn": "王宫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u9-s16",
+      "unit": 9,
+      "cn": "大多数日本人喜欢寿司。",
+      "en": "Most people in Japan like sushi.",
+      "tokens": [
+        {
+          "en": "Most",
+          "cn": "大部分",
+          "pos": "名词"
+        },
+        {
+          "en": "people",
+          "cn": "人们",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "Japan",
+          "cn": "日本",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "sushi.",
+          "cn": "寿司",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u9-s17",
+      "unit": 9,
+      "cn": "这座建筑物很高。",
+      "en": "This building is very tall.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "building",
+          "cn": "房子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "很",
+          "pos": "副词"
+        },
+        {
+          "en": "tall.",
+          "cn": "高大的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
       "id": "hj-6a-u10-s01",
       "unit": 10,
       "cn": "吉尔，那是什么？",
@@ -3929,6 +6838,285 @@
       ]
     },
     {
+      "id": "hj-6a-u10-s03",
+      "unit": 10,
+      "cn": "公园里的空气很清新。",
+      "en": "The air in the park is fresh.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "air",
+          "cn": "空气",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "park",
+          "cn": "公园",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "fresh.",
+          "cn": "清新的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u10-s04",
+      "unit": 10,
+      "cn": "到处都有垃圾。",
+      "en": "There is rubbish everywhere.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "rubbish",
+          "cn": "垃圾",
+          "pos": "名词"
+        },
+        {
+          "en": "everywhere.",
+          "cn": "处处",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u10-s05",
+      "unit": 10,
+      "cn": "这条鱼还活着吗？",
+      "en": "Is the fish still alive?",
+      "tokens": [
+        {
+          "en": "Is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "fish",
+          "cn": "鱼",
+          "pos": "名词"
+        },
+        {
+          "en": "still",
+          "cn": "仍然",
+          "pos": "名词"
+        },
+        {
+          "en": "alive?",
+          "cn": "活着的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u10-s06",
+      "unit": 10,
+      "cn": "气球在天上。",
+      "en": "The balloon is in the sky.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "balloon",
+          "cn": "气球",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sky.",
+          "cn": "天空",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u10-s07",
+      "unit": 10,
+      "cn": "这家工厂制造汽车。",
+      "en": "The factory makes cars.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "factory",
+          "cn": "工厂",
+          "pos": "名词"
+        },
+        {
+          "en": "makes",
+          "cn": "制作（过去式 made）",
+          "pos": "名词"
+        },
+        {
+          "en": "cars.",
+          "cn": "小汽车",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u10-s08",
+      "unit": 10,
+      "cn": "工厂冒的烟使空气变脏。",
+      "en": "Smoke from the factory makes the air dirty.",
+      "tokens": [
+        {
+          "en": "Smoke",
+          "cn": "烟",
+          "pos": "名词"
+        },
+        {
+          "en": "from",
+          "cn": "从",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "factory",
+          "cn": "工厂",
+          "pos": "名词"
+        },
+        {
+          "en": "makes",
+          "cn": "制作（过去式 made）",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "air",
+          "cn": "空气",
+          "pos": "名词"
+        },
+        {
+          "en": "dirty.",
+          "cn": "脏的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u10-s09",
+      "unit": 10,
+      "cn": "不要伤害动物。",
+      "en": "Don't hurt the animals.",
+      "tokens": [
+        {
+          "en": "Don't",
+          "cn": "不",
+          "pos": "助动词"
+        },
+        {
+          "en": "hurt",
+          "cn": "受伤",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "animals.",
+          "cn": "动物",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u10-s10",
+      "unit": 10,
+      "cn": "我们每年植树。",
+      "en": "We plant trees every year.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "plant",
+          "cn": "植物",
+          "pos": "名词"
+        },
+        {
+          "en": "trees",
+          "cn": "树",
+          "pos": "名词"
+        },
+        {
+          "en": "every",
+          "cn": "每一个",
+          "pos": "名词"
+        },
+        {
+          "en": "year.",
+          "cn": "年",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
       "id": "hj-6a-u11-s01",
       "unit": 11,
       "cn": "我在找我的朋友树先生。",
@@ -3968,6 +7156,186 @@
           "en": "Tree.",
           "cn": "树",
           "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u11-s02",
+      "unit": 11,
+      "cn": "这张桌子是木头做的。",
+      "en": "The table is made of wood.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "table",
+          "cn": "桌子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "made",
+          "cn": "制造（make 的过去式）",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "wood.",
+          "cn": "木头",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u11-s03",
+      "unit": 11,
+      "cn": "雨能使空气变凉。",
+      "en": "The rain can cool the air.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "rain",
+          "cn": "雨",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "cool",
+          "cn": "凉爽的",
+          "pos": "形容词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "air.",
+          "cn": "空气",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u11-s04",
+      "unit": 11,
+      "cn": "不要玩火柴。",
+      "en": "Don't play with a match.",
+      "tokens": [
+        {
+          "en": "Don't",
+          "cn": "不",
+          "pos": "助动词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "match.",
+          "cn": "比赛",
+          "pos": "介词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u11-s05",
+      "unit": 11,
+      "cn": "我想念我的老朋友。",
+      "en": "I miss my old friends.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "miss",
+          "cn": "小姐",
+          "pos": "名词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "old",
+          "cn": "年老的年轻的",
+          "pos": "形容词"
+        },
+        {
+          "en": "friends.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u11-s06",
+      "unit": 11,
+      "cn": "我现在得回家了。",
+      "en": "I have to go home now.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "home",
+          "cn": "回家",
+          "pos": "名词"
+        },
+        {
+          "en": "now.",
+          "cn": "现在",
+          "pos": "副词"
         }
       ]
     },
@@ -4173,6 +7541,345 @@
           "en": "sick!",
           "cn": "不适的",
           "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u12-s06",
+      "unit": 12,
+      "cn": "城市的这个地区很干净。",
+      "en": "This part of the city is very clean.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "part",
+          "cn": "部分",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "city",
+          "cn": "城市",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "很",
+          "pos": "副词"
+        },
+        {
+          "en": "clean.",
+          "cn": "打扫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u12-s07",
+      "unit": 12,
+      "cn": "很多动物生活在森林里。",
+      "en": "Many animals live in the forest.",
+      "tokens": [
+        {
+          "en": "Many",
+          "cn": "许多",
+          "pos": "限定词"
+        },
+        {
+          "en": "animals",
+          "cn": "动物",
+          "pos": "名词"
+        },
+        {
+          "en": "live",
+          "cn": "居住",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "forest.",
+          "cn": "森林",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u12-s08",
+      "unit": 12,
+      "cn": "鸟能在陆地上走。",
+      "en": "Birds can walk on the land.",
+      "tokens": [
+        {
+          "en": "Birds",
+          "cn": "鸟",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "walk",
+          "cn": "步行",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "land.",
+          "cn": "陆地",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u12-s09",
+      "unit": 12,
+      "cn": "海洋又深又蓝。",
+      "en": "The ocean is deep and blue.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "ocean",
+          "cn": "海洋",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "deep",
+          "cn": "深的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "blue.",
+          "cn": "蓝色的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u12-s10",
+      "unit": 12,
+      "cn": "我们可以回收这个塑料袋。",
+      "en": "We can recycle this plastic bag.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "recycle",
+          "cn": "回收利用",
+          "pos": "名词"
+        },
+        {
+          "en": "this",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "plastic",
+          "cn": "塑料",
+          "pos": "名词"
+        },
+        {
+          "en": "bag.",
+          "cn": "包",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u12-s11",
+      "unit": 12,
+      "cn": "我有自己的购物袋。",
+      "en": "I have my own shopping bag.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "own",
+          "cn": "自己的",
+          "pos": "形容词"
+        },
+        {
+          "en": "shopping",
+          "cn": "商店",
+          "pos": "名词"
+        },
+        {
+          "en": "bag.",
+          "cn": "包",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u12-s12",
+      "unit": 12,
+      "cn": "不要用这么多塑料袋。",
+      "en": "Don't use so many plastic bags.",
+      "tokens": [
+        {
+          "en": "Don't",
+          "cn": "不",
+          "pos": "助动词"
+        },
+        {
+          "en": "use",
+          "cn": "使用",
+          "pos": "名词"
+        },
+        {
+          "en": "so",
+          "cn": "所以",
+          "pos": "连词"
+        },
+        {
+          "en": "many",
+          "cn": "许多",
+          "pos": "限定词"
+        },
+        {
+          "en": "plastic",
+          "cn": "塑料",
+          "pos": "名词"
+        },
+        {
+          "en": "bags.",
+          "cn": "包",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6a-u12-s13",
+      "unit": 12,
+      "cn": "请把垃圾捡起来放进垃圾箱。",
+      "en": "Please pick up the rubbish and put it in the bin.",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "pick",
+          "cn": "摘（花",
+          "pos": "名词"
+        },
+        {
+          "en": "up",
+          "cn": "向上",
+          "pos": "副词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "rubbish",
+          "cn": "垃圾",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "put",
+          "cn": "放",
+          "pos": "名词"
+        },
+        {
+          "en": "it",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bin.",
+          "cn": "垃圾箱",
+          "pos": "名词"
         }
       ]
     }
