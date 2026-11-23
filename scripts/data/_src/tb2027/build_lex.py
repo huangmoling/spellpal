@@ -310,7 +310,7 @@ EXTRA = {
     'bulletin': ('名词', '公告'), 'wag': ('动词', '摇'), 'lid': ('名词', '盖子'),
     'valentine': ('名词', '情人节贺卡'), 'poem': ('名词', '诗'), 'bumper': ('名词', '缓冲器'),
     'universal': ('形容词', '普遍的'), 'gravitation': ('名词', '引力'), 'nobel': ('名词', '诺贝尔'),
-    'railway': ('名词', '铁路'), 'runner': ('名词', '赛跑者'),
+    'railway': ('名词', '铁路'), 'runner': ('名词', '赛跑者'), 'step': ('名词', '脚步；台阶'),
     'fifteenth': ('数词', '第十五'), 'sixteenth': ('数词', '第十六'),
     'eighteenth': ('数词', '第十八'), 'nineteenth': ('数词', '第十九'),
     'twentieth': ('数词', '第二十'), 'mobile': ('形容词', '移动的'),
