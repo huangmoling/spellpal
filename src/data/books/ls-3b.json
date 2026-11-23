@@ -9,7 +9,7 @@
   "edition": "2025 春 · 新课标修订版",
   "stage": "primary",
   "wordCount": 84,
-  "sentenceCount": 18,
+  "sentenceCount": 52,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -1626,6 +1626,191 @@
       ]
     },
     {
+      "id": "ls-3b-u1-s04",
+      "unit": 1,
+      "cn": "我能看见太阳。",
+      "en": "I can see the sun.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sun.",
+          "cn": "孙",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u1-s05",
+      "unit": 1,
+      "cn": "教室里冬天很冷。",
+      "en": "The classroom is cold in winter.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "classroom",
+          "cn": "教室",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "cold",
+          "cn": "冷的",
+          "pos": "形容词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "winter.",
+          "cn": "冬天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u1-s06",
+      "unit": 1,
+      "cn": "家里很热。",
+      "en": "It is hot at home.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "hot",
+          "cn": "热的",
+          "pos": "形容词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "home.",
+          "cn": "回家",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u1-s07",
+      "unit": 1,
+      "cn": "那是个好主意。",
+      "en": "That is a good idea.",
+      "tokens": [
+        {
+          "en": "That",
+          "cn": "那个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "idea.",
+          "cn": "主意",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u1-s08",
+      "unit": 1,
+      "cn": "我喜欢下雪天的雪。",
+      "en": "I like the snow on a snowy day.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "snow",
+          "cn": "雪",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "snowy",
+          "cn": "下雪的",
+          "pos": "形容词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
       "id": "ls-3b-u2-s01",
       "unit": 2,
       "cn": "春天很美。",
@@ -1656,8 +1841,8 @@
       "tokens": [
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "like",
@@ -1705,6 +1890,199 @@
       ]
     },
     {
+      "id": "ls-3b-u2-s04",
+      "unit": 2,
+      "cn": "春天三月开始。",
+      "en": "Spring will begin in March.",
+      "tokens": [
+        {
+          "en": "Spring",
+          "cn": "春天",
+          "pos": "名词"
+        },
+        {
+          "en": "will",
+          "cn": "将会",
+          "pos": "情态动词"
+        },
+        {
+          "en": "begin",
+          "cn": "开始",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "March.",
+          "cn": "三月",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u2-s05",
+      "unit": 2,
+      "cn": "这朵花很美。",
+      "en": "The flower is beautiful.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "flower",
+          "cn": "花",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "beautiful.",
+          "cn": "美丽的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u2-s06",
+      "unit": 2,
+      "cn": "夏天我很高兴。",
+      "en": "I am happy in summer.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "happy",
+          "cn": "高兴的",
+          "pos": "形容词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "summer.",
+          "cn": "夏天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u2-s07",
+      "unit": 2,
+      "cn": "我们每天努力。",
+      "en": "We work hard every day.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "work",
+          "cn": "工作",
+          "pos": "名词"
+        },
+        {
+          "en": "hard",
+          "cn": "困难的",
+          "pos": "形容词"
+        },
+        {
+          "en": "every",
+          "cn": "每一个",
+          "pos": "名词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u2-s08",
+      "unit": 2,
+      "cn": "我吃一个冰激凌。",
+      "en": "I have an ice cream.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "ice",
+          "cn": "冰",
+          "pos": "名词"
+        },
+        {
+          "en": "cream.",
+          "cn": "奶油",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u2-s09",
+      "unit": 2,
+      "cn": "夏天是我最喜欢的季节。",
+      "en": "Summer is my favourite season.",
+      "tokens": [
+        {
+          "en": "Summer",
+          "cn": "夏天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "favourite",
+          "cn": "最喜爱的",
+          "pos": "形容词"
+        },
+        {
+          "en": "season.",
+          "cn": "季节",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
       "id": "ls-3b-u3-s01",
       "unit": 3,
       "cn": "我们来画一所医院吧。",
@@ -1722,8 +2100,8 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "hospital.",
@@ -1740,8 +2118,8 @@
       "tokens": [
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "like",
@@ -1794,6 +2172,209 @@
       ]
     },
     {
+      "id": "ls-3b-u3-s04",
+      "unit": 3,
+      "cn": "一只蜜蜂在玫瑰上。",
+      "en": "A bee is on the rose.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "bee",
+          "cn": "蜜蜂",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "rose.",
+          "cn": "罗斯",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u3-s05",
+      "unit": 3,
+      "cn": "书店在城里。",
+      "en": "The bookshop is in the city.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bookshop",
+          "cn": "书店",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "city.",
+          "cn": "城市",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u3-s06",
+      "unit": 3,
+      "cn": "青蛙会跳。",
+      "en": "A frog can jump.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "frog",
+          "cn": "青蛙",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "jump.",
+          "cn": "跳",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u3-s07",
+      "unit": 3,
+      "cn": "把手给我。",
+      "en": "Give me your hand.",
+      "tokens": [
+        {
+          "en": "Give",
+          "cn": "给",
+          "pos": "名词"
+        },
+        {
+          "en": "me",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "hand.",
+          "cn": "指针",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u3-s08",
+      "unit": 3,
+      "cn": "城里有很多人。",
+      "en": "Many people are in the city.",
+      "tokens": [
+        {
+          "en": "Many",
+          "cn": "许多",
+          "pos": "限定词"
+        },
+        {
+          "en": "people",
+          "cn": "人们",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "city.",
+          "cn": "城市",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u3-s09",
+      "unit": 3,
+      "cn": "那棵树很高。",
+      "en": "The tree is very tall.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "tree",
+          "cn": "树",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "很",
+          "pos": "副词"
+        },
+        {
+          "en": "tall.",
+          "cn": "高大的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
       "id": "ls-3b-u4-s01",
       "unit": 4,
       "cn": "你起得早吗？",
@@ -1834,8 +2415,8 @@
       "tokens": [
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "make",
@@ -1883,6 +2464,204 @@
       ]
     },
     {
+      "id": "ls-3b-u4-s04",
+      "unit": 4,
+      "cn": "饭前洗手。",
+      "en": "Wash your hands before dinner.",
+      "tokens": [
+        {
+          "en": "Wash",
+          "cn": "洗",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "hands",
+          "cn": "指针",
+          "pos": "名词"
+        },
+        {
+          "en": "before",
+          "cn": "在……之前",
+          "pos": "介词"
+        },
+        {
+          "en": "dinner.",
+          "cn": "晚餐",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u4-s05",
+      "unit": 4,
+      "cn": "我睡前读一个故事。",
+      "en": "I read a story before bed.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "read",
+          "cn": "读",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "story",
+          "cn": "故事",
+          "pos": "名词"
+        },
+        {
+          "en": "before",
+          "cn": "在……之前",
+          "pos": "介词"
+        },
+        {
+          "en": "bed.",
+          "cn": "床",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u4-s06",
+      "unit": 4,
+      "cn": "这本书很好。",
+      "en": "This book is good.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "book",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "good.",
+          "cn": "好的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u4-s07",
+      "unit": 4,
+      "cn": "我每天早上整理床铺。",
+      "en": "I make the bed every morning.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "make",
+          "cn": "制作（过去式 made）",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bed",
+          "cn": "床",
+          "pos": "名词"
+        },
+        {
+          "en": "every",
+          "cn": "每一个",
+          "pos": "名词"
+        },
+        {
+          "en": "morning.",
+          "cn": "早晨",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u4-s08",
+      "unit": 4,
+      "cn": "这是个好习惯。",
+      "en": "It is a good habit.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "habit.",
+          "cn": "习惯",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u4-s09",
+      "unit": 4,
+      "cn": "我的房间很干净。",
+      "en": "My room is clean.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "room",
+          "cn": "房间",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "clean.",
+          "cn": "打扫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
       "id": "ls-3b-u5-s01",
       "unit": 5,
       "cn": "请给我一个生日蛋糕。",
@@ -1900,8 +2679,8 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "birthday",
@@ -1938,8 +2717,8 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "pencil",
@@ -1987,6 +2766,264 @@
       ]
     },
     {
+      "id": "ls-3b-u5-s04",
+      "unit": 5,
+      "cn": "那个男孩有一些蜡笔。",
+      "en": "The boy has some crayons.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "boy",
+          "cn": "男孩",
+          "pos": "名词"
+        },
+        {
+          "en": "has",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "crayons.",
+          "cn": "有色粉笔",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u5-s05",
+      "unit": 5,
+      "cn": "这辆汽车是什么颜色？",
+      "en": "What colour is the car?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "colour",
+          "cn": "颜色",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "car?",
+          "cn": "小汽车",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u5-s06",
+      "unit": 5,
+      "cn": "汽车是黑色的，玩偶是粉色的。",
+      "en": "The car is black and the doll is pink.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "car",
+          "cn": "小汽车",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "black",
+          "cn": "黑色",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "doll",
+          "cn": "洋娃娃",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "pink.",
+          "cn": "粉红色的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u5-s07",
+      "unit": 5,
+      "cn": "天空是蓝色的，草是绿色的。",
+      "en": "The sky is blue and the grass is green.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sky",
+          "cn": "天空",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "blue",
+          "cn": "蓝色的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "grass",
+          "cn": "草",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "green.",
+          "cn": "绿色的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u5-s08",
+      "unit": 5,
+      "cn": "她的头发是褐色的，玫瑰是红色的。",
+      "en": "Her hair is brown, and the rose is red.",
+      "tokens": [
+        {
+          "en": "Her",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "hair",
+          "cn": "头发",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "brown,",
+          "cn": "布朗",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "rose",
+          "cn": "罗斯",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "red.",
+          "cn": "红色",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u5-s09",
+      "unit": 5,
+      "cn": "这是一张老照片。",
+      "en": "This is an old photo.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "old",
+          "cn": "年老的年轻的",
+          "pos": "形容词"
+        },
+        {
+          "en": "photo.",
+          "cn": "相片",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
       "id": "ls-3b-u6-s01",
       "unit": 6,
       "cn": "我们休息一会儿吧。",
@@ -2004,8 +3041,8 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "rest.",
@@ -2047,7 +3084,7 @@
         },
         {
           "en": "children?",
-          "cn": "的复数形式)",
+          "cn": "孩子们",
           "pos": "名词"
         }
       ]
@@ -2065,7 +3102,7 @@
         },
         {
           "en": "set",
-          "cn": "摆",
+          "cn": "摆放",
           "pos": "动词"
         },
         {
@@ -2076,6 +3113,161 @@
         {
           "en": "table.",
           "cn": "桌子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u6-s04",
+      "unit": 6,
+      "cn": "有人知道答案吗？",
+      "en": "Does anyone know the answer?",
+      "tokens": [
+        {
+          "en": "Does",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "anyone",
+          "cn": "任何人",
+          "pos": "名词"
+        },
+        {
+          "en": "know",
+          "cn": "知道",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "answer?",
+          "cn": "回答",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u6-s05",
+      "unit": 6,
+      "cn": "加油！你能做到。",
+      "en": "Come on! You can do it.",
+      "tokens": [
+        {
+          "en": "Come",
+          "cn": "来",
+          "pos": "名词"
+        },
+        {
+          "en": "on!",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "You",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "it.",
+          "cn": "它",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u6-s06",
+      "unit": 6,
+      "cn": "请关门。",
+      "en": "Please close the door.",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "close",
+          "cn": "接近的",
+          "pos": "形容词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "door.",
+          "cn": "门",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u6-s07",
+      "unit": 6,
+      "cn": "我们互相帮助。",
+      "en": "We help each other.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "help",
+          "cn": "帮助",
+          "pos": "动词"
+        },
+        {
+          "en": "each",
+          "cn": "每个",
+          "pos": "名词"
+        },
+        {
+          "en": "other.",
+          "cn": "其他的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "ls-3b-u6-s08",
+      "unit": 6,
+      "cn": "我今天感觉很高兴。",
+      "en": "I feel happy today.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "feel",
+          "cn": "感到",
+          "pos": "名词"
+        },
+        {
+          "en": "happy",
+          "cn": "高兴的",
+          "pos": "形容词"
+        },
+        {
+          "en": "today.",
+          "cn": "今天",
           "pos": "名词"
         }
       ]
