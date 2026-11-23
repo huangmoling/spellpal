@@ -373,16 +373,30 @@ Electron 33 · React 18 · TypeScript 5 · Vite 6 · Tailwind CSS 3 · Zustand
 
 现在改成预生成音频：
 
-- `scripts/tts_pack.py` 把全库 981 个词 + 548 个句子批量合成成 mp3，产物放 `public/voice/`，同时写一份 `src/data/voice-index.json`（英文原文 → 文件名 hash）。**这些产物已进仓库**，正常构建不需要再跑。
-- 运行时 `src/utils/voice.ts` 用 Web Audio 播放：每条按有声段 RMS 归一化到 -18 dBFS，词与词响度一致；首尾静音裁掉（神经语音每条尾巴挂着近 1 秒空白）；末端串一个 -9 dB / 比 8 的压缩器兜住峰值，实测峰值 0.85，满音量不削波。
-- 打包后页面在 `file://` 下，fetch 读不到本地文件，音频由主进程读出来经 `voice:read` 这个 IPC 交给渲染进程（`electron/voice-io.cjs`，主进程和自测脚本共用）。
-
-以后加了新教材，重新生成一次即可（增量、已存在的会跳过）：
+- `scripts/tts_pack.py` 是语音包的**生成与打包程序**，一条命令管全流程：
 
 ```bash
 pip install edge-tts
-python scripts/tts_pack.py --voice en-US-AriaNeural
+
+python scripts/tts_pack.py collect             # 先看要合成多少段（带体积/耗时预估）
+python scripts/tts_pack.py synth               # 增量合成，完好且已存在的自动跳过
+python scripts/tts_pack.py verify              # 索引 / 文件一致性体检
+python scripts/tts_pack.py pack --split-mb 50  # 打成可分发的分卷语音包
+python scripts/tts_pack.py all                 # 合成 → 校验 → 打包
 ```
+
+| 子命令 | 作用 |
+|---|---|
+| `collect` | 从全部教材 JSON 收集词与句，去重后统计工作量、预估体积与耗时 |
+| `synth` | 并发合成 mp3（默认 6 并发、失败重试 3 次、指数退避）；先写 `.part` 再改名，中途断掉不会留下半截文件被当成已完成；`--limit` 试跑、`--only words/sentences` 分开做、`--force` 全量重生成 |
+| `verify` | 查「索引指向的文件缺失」「文件损坏」「教材已删的过期条目」「没有索引引用的孤儿文件」，`--prune` 顺手永久删除孤儿 |
+| `pack` | 打成 zip（STORE，mp3 本身已压缩），支持 `--split-mb` 切卷，附 `manifest.json` + `SHA256SUMS.txt`，索引也塞进包里 |
+| `stats` | 覆盖率、总体积、单条大小区间 |
+
+- 产物分工：`public/voice/<hash>.mp3` 每段一个文件（约 14 KB，**已进仓库**，正常构建不用再跑）；`src/data/voice-index.json` 是英文原文 → hash 的索引；`release/voice-pack/*.zip` 是分发用语音包（`release/` 在 .gitignore 里，单独分发，不进仓库）。
+- 文件名取文本 sha1 前 12 位，避开空格、大小写、标点在文件系统上的差异；索引键就是英文原句，运行时拿整句直接查，不额外占内存。词比句读得慢（`-10%` / `-5%`），同一段文本既是词又是句时按词处理。
+- 运行时 `src/utils/voice.ts` 用 Web Audio 播放：每条按有声段 RMS 归一化到 -18 dBFS，词与词响度一致；首尾静音裁掉（神经语音每条尾巴挂着近 1 秒空白）；末端串一个 -9 dB / 比 8 的压缩器兜住峰值，实测峰值 0.85，满音量不削波。
+- 打包后页面在 `file://` 下，fetch 读不到本地文件，音频由主进程读出来经 `voice:read` 这个 IPC 交给渲染进程（`electron/voice-io.cjs`，主进程和自测脚本共用）。
 
 用到的接口是 Edge「朗读」功能的非公开接口，攒成音频自用没问题，正式商用请换成 Azure 订阅或开源模型。
 
