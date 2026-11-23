@@ -9,18 +9,9 @@
   "edition": "2025 秋 · 新课标修订版",
   "stage": "primary",
   "wordCount": 91,
-  "sentenceCount": 0,
+  "sentenceCount": 44,
   "updatedAt": "2026-11-23",
   "units": [
-    {
-      "no": 0,
-      "title": "Unit 0",
-      "theme": "",
-      "wordIds": [
-        "qh-4a-u0-01",
-        "qh-4a-u0-02"
-      ]
-    },
     {
       "no": 1,
       "title": "Unit 1",
@@ -37,7 +28,9 @@
         "qh-4a-u1-09",
         "qh-4a-u1-10",
         "qh-4a-u1-11",
-        "qh-4a-u1-12"
+        "qh-4a-u1-12",
+        "qh-4a-u1-13",
+        "qh-4a-u1-14"
       ]
     },
     {
@@ -141,7 +134,7 @@
   ],
   "words": [
     {
-      "id": "qh-4a-u0-01",
+      "id": "qh-4a-u1-01",
       "word": "check-up",
       "phoneticUK": "/tʃek-ʌp/",
       "syllables": [
@@ -156,10 +149,10 @@
         }
       ],
       "grade": 4,
-      "unit": 0
+      "unit": 1
     },
     {
-      "id": "qh-4a-u0-02",
+      "id": "qh-4a-u1-02",
       "word": "their",
       "phoneticUK": "/ðeə(r)/",
       "syllables": [
@@ -173,10 +166,10 @@
         }
       ],
       "grade": 4,
-      "unit": 0
+      "unit": 1
     },
     {
-      "id": "qh-4a-u1-01",
+      "id": "qh-4a-u1-03",
       "word": "bell",
       "phoneticUK": "/bel/",
       "syllables": [
@@ -193,7 +186,7 @@
       "unit": 1
     },
     {
-      "id": "qh-4a-u1-02",
+      "id": "qh-4a-u1-04",
       "word": "bottle",
       "phoneticUK": "/ˈbɒtl/",
       "syllables": [
@@ -210,7 +203,7 @@
       "unit": 1
     },
     {
-      "id": "qh-4a-u1-03",
+      "id": "qh-4a-u1-05",
       "word": "bowl",
       "phoneticUK": "/bəʊl/",
       "syllables": [
@@ -227,7 +220,7 @@
       "unit": 1
     },
     {
-      "id": "qh-4a-u1-04",
+      "id": "qh-4a-u1-06",
       "word": "cut",
       "phoneticUK": "/kʌt/",
       "syllables": [
@@ -243,7 +236,7 @@
       "unit": 1
     },
     {
-      "id": "qh-4a-u1-05",
+      "id": "qh-4a-u1-07",
       "word": "farm",
       "phoneticUK": "/fɑːm/",
       "syllables": [
@@ -260,12 +253,12 @@
       "unit": 1
     },
     {
-      "id": "qh-4a-u1-06",
+      "id": "qh-4a-u1-08",
       "word": "hurry up",
       "phoneticUK": "/ˈhʌri ʌp/",
       "syllables": [
-        "h",
-        "urry up"
+        "hur",
+        "ry up"
       ],
       "senses": [
         {
@@ -277,7 +270,7 @@
       "unit": 1
     },
     {
-      "id": "qh-4a-u1-07",
+      "id": "qh-4a-u1-09",
       "word": "out",
       "phoneticUK": "/ˈäʊ̯t/",
       "syllables": [
@@ -293,7 +286,7 @@
       "unit": 1
     },
     {
-      "id": "qh-4a-u1-08",
+      "id": "qh-4a-u1-10",
       "word": "shop",
       "phoneticUK": "/ʃɒp/",
       "syllables": [
@@ -310,7 +303,7 @@
       "unit": 1
     },
     {
-      "id": "qh-4a-u1-09",
+      "id": "qh-4a-u1-11",
       "word": "street",
       "phoneticUK": "/striːt/",
       "syllables": [
@@ -327,7 +320,7 @@
       "unit": 1
     },
     {
-      "id": "qh-4a-u1-10",
+      "id": "qh-4a-u1-12",
       "word": "table",
       "phoneticUK": "/ˈteɪbl/",
       "syllables": [
@@ -344,12 +337,11 @@
       "unit": 1
     },
     {
-      "id": "qh-4a-u1-11",
+      "id": "qh-4a-u1-13",
       "word": "tie",
       "phoneticUK": "/taɪ/",
       "syllables": [
-        "tie (ty",
-        "ing)"
+        "tie"
       ],
       "senses": [
         {
@@ -361,7 +353,7 @@
       "unit": 1
     },
     {
-      "id": "qh-4a-u1-12",
+      "id": "qh-4a-u1-14",
       "word": "worm",
       "phoneticUK": "/wɜːm/",
       "syllables": [
@@ -708,9 +700,8 @@
       "word": "teddy bear",
       "phoneticUK": "/ˈtedi beə(r)/",
       "syllables": [
-        "t",
-        "eddy be",
-        "ar"
+        "ted",
+        "dy bear"
       ],
       "senses": [
         {
@@ -742,8 +733,7 @@
       "word": "will",
       "phoneticUK": "/wɪl/",
       "syllables": [
-        "w",
-        "ill ('ll)"
+        "will"
       ],
       "senses": [
         {
@@ -877,8 +867,7 @@
       "syllables": [
         "l",
         "ist",
-        "en (t",
-        "o)"
+        "en"
       ],
       "senses": [
         {
@@ -984,8 +973,8 @@
       ],
       "senses": [
         {
-          "cn": "哆嗪",
-          "cnFull": "哆嗪"
+          "cn": "哆嗦",
+          "cnFull": "哆嗦"
         }
       ],
       "grade": 4,
@@ -1088,8 +1077,8 @@
       ],
       "senses": [
         {
-          "cn": "大叫上下文中理解。后记清华版小学《英语》（一年级起点）教材是由清华大学“大、中、小学一条龙英语",
-          "cnFull": "大叫上下文中理解。后记清华版小学《英语》（一年级起点）教材是由清华大学“大、中、小学一条龙英语"
+          "cn": "大叫",
+          "cnFull": "大叫"
         }
       ],
       "grade": 4,
@@ -1633,10 +1622,9 @@
       "word": "table tennis",
       "phoneticUK": "/ˈteɪbl tenɪs/",
       "syllables": [
-        "t",
-        "able t",
-        "enn",
-        "is"
+        "ta",
+        "ble ten",
+        "nis"
       ],
       "senses": [
         {
@@ -1701,5 +1689,2043 @@
       "unit": 4
     }
   ],
-  "sentences": []
+  "sentences": [
+    {
+      "id": "qh-4a-u1-s01",
+      "unit": 1,
+      "cn": "铃响了，他们的商店开门了。",
+      "en": "The bell rings and their shop is open.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bell",
+          "cn": "贝尔",
+          "pos": "名词"
+        },
+        {
+          "en": "rings",
+          "cn": "响",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "their",
+          "cn": "他们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "shop",
+          "cn": "商店",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "open.",
+          "cn": "开放",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u1-s02",
+      "unit": 1,
+      "cn": "快点，把瓶子和碗放到桌子上。",
+      "en": "Hurry up and put the bottle and the bowl on the table.",
+      "tokens": [
+        {
+          "en": "Hurry",
+          "cn": "匆忙",
+          "pos": "名词"
+        },
+        {
+          "en": "up",
+          "cn": "向上",
+          "pos": "副词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "put",
+          "cn": "放",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bottle",
+          "cn": "瓶子",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bowl",
+          "cn": "碗",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "table.",
+          "cn": "桌子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u1-s03",
+      "unit": 1,
+      "cn": "他们的农场就在这条街上。",
+      "en": "Their farm is on this street.",
+      "tokens": [
+        {
+          "en": "Their",
+          "cn": "他们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "farm",
+          "cn": "农场",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "this",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "street.",
+          "cn": "街道",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u1-s04",
+      "unit": 1,
+      "cn": "把苹果切开，用绳子把盒子系上。",
+      "en": "Cut the apple and tie the box with a string.",
+      "tokens": [
+        {
+          "en": "Cut",
+          "cn": "剪",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "apple",
+          "cn": "苹果",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "tie",
+          "cn": "领带",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "box",
+          "cn": "盒子",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "string.",
+          "cn": "细绳",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u1-s05",
+      "unit": 1,
+      "cn": "我们出去找条虫子吧。",
+      "en": "Let’s go out and look for a worm.",
+      "tokens": [
+        {
+          "en": "Let’s",
+          "cn": "让我们",
+          "pos": "缩略"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "out",
+          "cn": "向外",
+          "pos": "副词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "look",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "worm.",
+          "cn": "虫子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u1-s06",
+      "unit": 1,
+      "cn": "我今天要去医生那里做检查。",
+      "en": "I have a check-up with the doctor today.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "check-up",
+          "cn": "核查",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "doctor",
+          "cn": "医生",
+          "pos": "名词"
+        },
+        {
+          "en": "today.",
+          "cn": "今天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u2-s01",
+      "unit": 2,
+      "cn": "熊猫在花园里吃竹子。",
+      "en": "The panda eats bamboo in the garden.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "panda",
+          "cn": "熊猫",
+          "pos": "名词"
+        },
+        {
+          "en": "eats",
+          "cn": "吃",
+          "pos": "名词"
+        },
+        {
+          "en": "bamboo",
+          "cn": "竹子",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "garden.",
+          "cn": "花园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u2-s02",
+      "unit": 2,
+      "cn": "一只蝴蝶在鹿的后面。",
+      "en": "A butterfly is behind the deer.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "butterfly",
+          "cn": "蝴蝶",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "behind",
+          "cn": "在……之后",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "deer.",
+          "cn": "鸟兔鹿狮虎猴",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u2-s03",
+      "unit": 2,
+      "cn": "松鼠把坚果放进洞里。",
+      "en": "The squirrel puts a nut in the hole.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "squirrel",
+          "cn": "松鼠",
+          "pos": "名词"
+        },
+        {
+          "en": "puts",
+          "cn": "放",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "nut",
+          "cn": "坚果",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "hole.",
+          "cn": "洞",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u2-s04",
+      "unit": 2,
+      "cn": "我要去田里收桃子和梨。",
+      "en": "I’ll collect peaches and pears in the field.",
+      "tokens": [
+        {
+          "en": "I’ll",
+          "cn": "会",
+          "pos": "助动词"
+        },
+        {
+          "en": "collect",
+          "cn": "收集",
+          "pos": "名词"
+        },
+        {
+          "en": "peaches",
+          "cn": "桃子",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "pears",
+          "cn": "梨子",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "field.",
+          "cn": "田地",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u2-s05",
+      "unit": 2,
+      "cn": "蚂蚁能爬进那个小洞。",
+      "en": "The ant can crawl into the small hole.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "ant",
+          "cn": "蚂蚁",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "crawl",
+          "cn": "爬",
+          "pos": "名词"
+        },
+        {
+          "en": "into",
+          "cn": "进入",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "small",
+          "cn": "小的",
+          "pos": "形容词"
+        },
+        {
+          "en": "hole.",
+          "cn": "洞",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u2-s06",
+      "unit": 2,
+      "cn": "你能找到去花园的路吗？",
+      "en": "Can you find the way to the garden?",
+      "tokens": [
+        {
+          "en": "Can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "find",
+          "cn": "找到",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "way",
+          "cn": "路",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "garden?",
+          "cn": "花园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u2-s07",
+      "unit": 2,
+      "cn": "用蜡笔画一只蝴蝶吧。",
+      "en": "Use a crayon to draw a butterfly.",
+      "tokens": [
+        {
+          "en": "Use",
+          "cn": "使用",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "crayon",
+          "cn": "有色粉笔",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "draw",
+          "cn": "画",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "butterfly.",
+          "cn": "蝴蝶",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u2-s08",
+      "unit": 2,
+      "cn": "蜜蜂从花里采到花蜜。",
+      "en": "The bee gets nectar from the flower.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bee",
+          "cn": "蜜蜂",
+          "pos": "名词"
+        },
+        {
+          "en": "gets",
+          "cn": "准备",
+          "pos": "名词"
+        },
+        {
+          "en": "nectar",
+          "cn": "花蜜",
+          "pos": "名词"
+        },
+        {
+          "en": "from",
+          "cn": "从",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "flower.",
+          "cn": "花",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u2-s09",
+      "unit": 2,
+      "cn": "我会找到我的玩具熊。",
+      "en": "I will find my teddy bear.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "will",
+          "cn": "将会",
+          "pos": "情态动词"
+        },
+        {
+          "en": "find",
+          "cn": "找到",
+          "pos": "名词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "teddy",
+          "cn": "泰迪",
+          "pos": "名词"
+        },
+        {
+          "en": "bear.",
+          "cn": "熊",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u2-s10",
+      "unit": 2,
+      "cn": "我们学习有关花和蜜蜂的知识。",
+      "en": "We learn about flowers and bees.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "learn",
+          "cn": "学习",
+          "pos": "名词"
+        },
+        {
+          "en": "about",
+          "cn": "关于",
+          "pos": "介词"
+        },
+        {
+          "en": "flowers",
+          "cn": "花",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "bees.",
+          "cn": "是",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u3-s01",
+      "unit": 3,
+      "cn": "坐在椅子上听我说。",
+      "en": "Sit on the chair and listen to me.",
+      "tokens": [
+        {
+          "en": "Sit",
+          "cn": "坐",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "chair",
+          "cn": "椅子",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "listen",
+          "cn": "听",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "me.",
+          "cn": "我",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u3-s02",
+      "unit": 3,
+      "cn": "天很热，所以我打开风扇。",
+      "en": "It is hot, so I turn on the fan.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "hot,",
+          "cn": "热的",
+          "pos": "形容词"
+        },
+        {
+          "en": "so",
+          "cn": "所以",
+          "pos": "连词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "turn",
+          "cn": "转弯",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "fan.",
+          "cn": "狂热爱好者",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u3-s03",
+      "unit": 3,
+      "cn": "请用布把西瓜盖起来。",
+      "en": "Please cover the watermelon with a cloth.",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "cover",
+          "cn": "盖",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "watermelon",
+          "cn": "西瓜",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "cloth.",
+          "cn": "布料",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u3-s04",
+      "unit": 3,
+      "cn": "我要一个热狗和一杯冷饮。",
+      "en": "I want a hot dog and a cold drink.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "hot",
+          "cn": "热的",
+          "pos": "形容词"
+        },
+        {
+          "en": "dog",
+          "cn": "狗",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "cold",
+          "cn": "冷的",
+          "pos": "形容词"
+        },
+        {
+          "en": "drink.",
+          "cn": "饮料",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u3-s05",
+      "unit": 3,
+      "cn": "拉绳子，但别尖叫。",
+      "en": "Pull the rope, but do not scream.",
+      "tokens": [
+        {
+          "en": "Pull",
+          "cn": "拔出",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "rope,",
+          "cn": "绳",
+          "pos": "名词"
+        },
+        {
+          "en": "but",
+          "cn": "但是",
+          "pos": "连词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "not",
+          "cn": "不",
+          "pos": "副词"
+        },
+        {
+          "en": "scream.",
+          "cn": "尖叫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u3-s06",
+      "unit": 3,
+      "cn": "别哭，也别对妹妹大喊。",
+      "en": "Do not cry and do not yell at your sister.",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "not",
+          "cn": "不",
+          "pos": "副词"
+        },
+        {
+          "en": "cry",
+          "cn": "哭",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "not",
+          "cn": "不",
+          "pos": "副词"
+        },
+        {
+          "en": "yell",
+          "cn": "喊叫安妮",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "sister.",
+          "cn": "姐姐",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u3-s07",
+      "unit": 3,
+      "cn": "他很冷，开始哆嗦起来。",
+      "en": "He is cold and starts to shiver.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "cold",
+          "cn": "冷的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "starts",
+          "cn": "开始",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "shiver.",
+          "cn": "哆嗪",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u3-s08",
+      "unit": 3,
+      "cn": "搓搓手，笑一笑。",
+      "en": "Rub your hands together and smile.",
+      "tokens": [
+        {
+          "en": "Rub",
+          "cn": "揉擦",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "hands",
+          "cn": "指针",
+          "pos": "名词"
+        },
+        {
+          "en": "together",
+          "cn": "一起",
+          "pos": "数词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "smile.",
+          "cn": "笑",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u3-s09",
+      "unit": 3,
+      "cn": "我们在树下休息一下，聊聊天。",
+      "en": "Let’s rest under the tree and talk.",
+      "tokens": [
+        {
+          "en": "Let’s",
+          "cn": "让我们",
+          "pos": "缩略"
+        },
+        {
+          "en": "rest",
+          "cn": "休息",
+          "pos": "名词"
+        },
+        {
+          "en": "under",
+          "cn": "在……下",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "tree",
+          "cn": "树",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "talk.",
+          "cn": "谈话",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u3-s10",
+      "unit": 3,
+      "cn": "宝宝看着我，开始打哈欠。",
+      "en": "The baby looks at me and starts to yawn.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "baby",
+          "cn": "婴儿",
+          "pos": "名词"
+        },
+        {
+          "en": "looks",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "me",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "starts",
+          "cn": "开始",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "yawn.",
+          "cn": "打哈欠",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u3-s11",
+      "unit": 3,
+      "cn": "雨点重重地打在屋顶上，但我们很开心。",
+      "en": "The rain pounds on the roof, but we are happy.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "rain",
+          "cn": "雨",
+          "pos": "名词"
+        },
+        {
+          "en": "pounds",
+          "cn": "连续重击",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "roof,",
+          "cn": "屋顶",
+          "pos": "名词"
+        },
+        {
+          "en": "but",
+          "cn": "但是",
+          "pos": "连词"
+        },
+        {
+          "en": "we",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "happy.",
+          "cn": "高兴的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u4-s01",
+      "unit": 4,
+      "cn": "运动之后，我常常吃点小吃。",
+      "en": "After sports, I often eat a snack.",
+      "tokens": [
+        {
+          "en": "After",
+          "cn": "在……之后",
+          "pos": "介词"
+        },
+        {
+          "en": "sports,",
+          "cn": "运动",
+          "pos": "名词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "often",
+          "cn": "常常",
+          "pos": "名词"
+        },
+        {
+          "en": "eat",
+          "cn": "吃",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "snack.",
+          "cn": "零食",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u4-s02",
+      "unit": 4,
+      "cn": "吃东西前先洗手。",
+      "en": "Wash your hands before you eat.",
+      "tokens": [
+        {
+          "en": "Wash",
+          "cn": "洗",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "hands",
+          "cn": "指针",
+          "pos": "名词"
+        },
+        {
+          "en": "before",
+          "cn": "在……之前",
+          "pos": "介词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "eat.",
+          "cn": "吃",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u4-s03",
+      "unit": 4,
+      "cn": "我的身体很健康，因为我一直坚持运动。",
+      "en": "My body is healthy because I keep moving.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "body",
+          "cn": "身体",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "healthy",
+          "cn": "健康的",
+          "pos": "形容词"
+        },
+        {
+          "en": "because",
+          "cn": "因为",
+          "pos": "连词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "keep",
+          "cn": "保持",
+          "pos": "名词"
+        },
+        {
+          "en": "moving.",
+          "cn": "移动",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u4-s04",
+      "unit": 4,
+      "cn": "健康很重要，所以我吃各种不同的蔬菜。",
+      "en": "Health is important, so I eat different vegetables.",
+      "tokens": [
+        {
+          "en": "Health",
+          "cn": "健康",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "important,",
+          "cn": "重要的",
+          "pos": "形容词"
+        },
+        {
+          "en": "so",
+          "cn": "所以",
+          "pos": "连词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "eat",
+          "cn": "吃",
+          "pos": "名词"
+        },
+        {
+          "en": "different",
+          "cn": "不同的",
+          "pos": "形容词"
+        },
+        {
+          "en": "vegetables.",
+          "cn": "蔬菜",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u4-s05",
+      "unit": 4,
+      "cn": "我喜欢胡萝卜、豆子和卷心菜。",
+      "en": "I like carrots, beans and cabbage.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "carrots,",
+          "cn": "胡萝卜",
+          "pos": "名词"
+        },
+        {
+          "en": "beans",
+          "cn": "（复数）豆",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "cabbage.",
+          "cn": "卷心菜",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u4-s06",
+      "unit": 4,
+      "cn": "往汤里放一个洋葱和一个土豆。",
+      "en": "Put an onion and a potato in the soup.",
+      "tokens": [
+        {
+          "en": "Put",
+          "cn": "放",
+          "pos": "名词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "onion",
+          "cn": "葱头",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "potato",
+          "cn": "土豆",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "soup.",
+          "cn": "汤",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u4-s07",
+      "unit": 4,
+      "cn": "奶酪和饼干是我最爱的小吃。",
+      "en": "Cheese and cookies are my favourite snack.",
+      "tokens": [
+        {
+          "en": "Cheese",
+          "cn": "奶酪",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "cookies",
+          "cn": "小甜饼",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "favourite",
+          "cn": "最喜爱的",
+          "pos": "形容词"
+        },
+        {
+          "en": "snack.",
+          "cn": "零食",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u4-s08",
+      "unit": 4,
+      "cn": "牙医说我的牙齿没问题。",
+      "en": "The dentist says my teeth are fine.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "dentist",
+          "cn": "牙医",
+          "pos": "名词"
+        },
+        {
+          "en": "says",
+          "cn": "说",
+          "pos": "名词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "teeth",
+          "cn": "牙齿(tooth的复数)",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "fine.",
+          "cn": "健康的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u4-s09",
+      "unit": 4,
+      "cn": "如果你生病了，就去看医生。",
+      "en": "If you are ill, go and see a doctor.",
+      "tokens": [
+        {
+          "en": "If",
+          "cn": "如果",
+          "pos": "连词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "ill,",
+          "cn": "生病的",
+          "pos": "形容词"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "see",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "doctor.",
+          "cn": "医生",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u4-s10",
+      "unit": 4,
+      "cn": "没有水植物会死，有了水它们才会生长。",
+      "en": "Plants die without water, but they grow with it.",
+      "tokens": [
+        {
+          "en": "Plants",
+          "cn": "植物",
+          "pos": "名词"
+        },
+        {
+          "en": "die",
+          "cn": "死",
+          "pos": "名词"
+        },
+        {
+          "en": "without",
+          "cn": "没有",
+          "pos": "名词"
+        },
+        {
+          "en": "water,",
+          "cn": "水",
+          "pos": "名词"
+        },
+        {
+          "en": "but",
+          "cn": "但是",
+          "pos": "连词"
+        },
+        {
+          "en": "they",
+          "cn": "他们",
+          "pos": "代词"
+        },
+        {
+          "en": "grow",
+          "cn": "生长",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "it.",
+          "cn": "它",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u4-s11",
+      "unit": 4,
+      "cn": "很少有孩子喜欢这项运动。",
+      "en": "Few kids like this sport.",
+      "tokens": [
+        {
+          "en": "Few",
+          "cn": "少数的",
+          "pos": "形容词"
+        },
+        {
+          "en": "kids",
+          "cn": "小孩",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "this",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "sport.",
+          "cn": "体育运动",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u4-s12",
+      "unit": 4,
+      "cn": "你喜欢哪种运动？",
+      "en": "What kind of sport do you like?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "kind",
+          "cn": "种类",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "sport",
+          "cn": "体育运动",
+          "pos": "名词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "like?",
+          "cn": "喜欢",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u4-s13",
+      "unit": 4,
+      "cn": "羽毛球和乒乓球都很有趣。",
+      "en": "Badminton and table tennis are interesting.",
+      "tokens": [
+        {
+          "en": "Badminton",
+          "cn": "羽毛球",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "table",
+          "cn": "桌子",
+          "pos": "名词"
+        },
+        {
+          "en": "tennis",
+          "cn": "网球",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "interesting.",
+          "cn": "有趣的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u4-s14",
+      "unit": 4,
+      "cn": "放学后我也打网球。",
+      "en": "I also play tennis after school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "also",
+          "cn": "也",
+          "pos": "副词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "tennis",
+          "cn": "网球",
+          "pos": "名词"
+        },
+        {
+          "en": "after",
+          "cn": "在……之后",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u4-s15",
+      "unit": 4,
+      "cn": "我去看望奶奶，她帮我检查作业。",
+      "en": "I visit my grandma and she checks my homework.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "visit",
+          "cn": "拜访",
+          "pos": "名词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "grandma",
+          "cn": "奶奶",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "she",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "checks",
+          "cn": "核查",
+          "pos": "名词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "homework.",
+          "cn": "家庭作业",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u4-s16",
+      "unit": 4,
+      "cn": "我困了，所以早早去睡觉。",
+      "en": "I am sleepy, so I go to bed early.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "sleepy,",
+          "cn": "困的",
+          "pos": "形容词"
+        },
+        {
+          "en": "so",
+          "cn": "所以",
+          "pos": "连词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "bed",
+          "cn": "床",
+          "pos": "名词"
+        },
+        {
+          "en": "early.",
+          "cn": "早的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "qh-4a-u4-s17",
+      "unit": 4,
+      "cn": "我爸爸在一家大商店工作。",
+      "en": "My father works in a big shop.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "father",
+          "cn": "父亲",
+          "pos": "名词"
+        },
+        {
+          "en": "works",
+          "cn": "工作",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "big",
+          "cn": "大的",
+          "pos": "形容词"
+        },
+        {
+          "en": "shop.",
+          "cn": "商店",
+          "pos": "名词"
+        }
+      ]
+    }
+  ]
 }
