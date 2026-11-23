@@ -9,7 +9,7 @@
   "edition": "2025 秋 · 新课标修订版",
   "stage": "primary",
   "wordCount": 196,
-  "sentenceCount": 0,
+  "sentenceCount": 40,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -3578,5 +3578,1211 @@
       "unit": 6
     }
   ],
-  "sentences": []
+  "sentences": [
+    {
+      "id": "jj-3a-u0-s01",
+      "unit": 0,
+      "cn": "我是珍妮。",
+      "en": "I am Jenny.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Jenny.",
+          "cn": "珍妮",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u0-s02",
+      "unit": 0,
+      "cn": "我是丹尼。",
+      "en": "I am Danny.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Danny.",
+          "cn": "丹尼",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s01",
+      "unit": 1,
+      "cn": "我叫珍妮。",
+      "en": "My name is Jenny.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Jenny.",
+          "cn": "珍妮",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s02",
+      "unit": 1,
+      "cn": "我叫李明。",
+      "en": "My name is Li Ming.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Li",
+          "cn": "李",
+          "pos": "名词"
+        },
+        {
+          "en": "Ming.",
+          "cn": "明",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s03",
+      "unit": 1,
+      "cn": "我叫丹尼。",
+      "en": "My name is Danny.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Danny.",
+          "cn": "丹尼",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s04",
+      "unit": 1,
+      "cn": "我叫郭阳。",
+      "en": "My name is Guo Yang.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Guo",
+          "cn": "郭",
+          "pos": "名词"
+        },
+        {
+          "en": "Yang.",
+          "cn": "杨",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s05",
+      "unit": 1,
+      "cn": "我叫王红。",
+      "en": "My name is Wang Hong.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Wang",
+          "cn": "王",
+          "pos": "名词"
+        },
+        {
+          "en": "Hong.",
+          "cn": "红",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s06",
+      "unit": 1,
+      "cn": "我做得怎么样？",
+      "en": "How am I doing?",
+      "tokens": [
+        {
+          "en": "How",
+          "cn": "怎样",
+          "pos": "疑问词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "doing?",
+          "cn": "做",
+          "pos": "助动词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s07",
+      "unit": 1,
+      "cn": "字母 O 是什么颜色？",
+      "en": "What colour is the letter O?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "colour",
+          "cn": "颜色",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "letter",
+          "cn": "字母",
+          "pos": "名词"
+        },
+        {
+          "en": "O?",
+          "cn": "O",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s08",
+      "unit": 1,
+      "cn": "她叫玛丽。",
+      "en": "Her name is Mary.",
+      "tokens": [
+        {
+          "en": "Her",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Mary.",
+          "cn": "玛丽",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s09",
+      "unit": 1,
+      "cn": "他叫李明。",
+      "en": "His name is Li Ming.",
+      "tokens": [
+        {
+          "en": "His",
+          "cn": "他的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Li",
+          "cn": "李",
+          "pos": "名词"
+        },
+        {
+          "en": "Ming.",
+          "cn": "明",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s10",
+      "unit": 1,
+      "cn": "她叫珍妮。",
+      "en": "Her name is Jenny.",
+      "tokens": [
+        {
+          "en": "Her",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Jenny.",
+          "cn": "珍妮",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s11",
+      "unit": 1,
+      "cn": "萨姆和帕特是好朋友。",
+      "en": "Sam and Pat are good friends.",
+      "tokens": [
+        {
+          "en": "Sam",
+          "cn": "萨姆",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "Pat",
+          "cn": "帕特",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "friends.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s12",
+      "unit": 1,
+      "cn": "我叫西西。",
+      "en": "My name is Xixi.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Xixi.",
+          "cn": "西西",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s13",
+      "unit": 1,
+      "cn": "你还好吗？",
+      "en": "Are you OK?",
+      "tokens": [
+        {
+          "en": "Are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "OK?",
+          "cn": "好",
+          "pos": "感叹词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s14",
+      "unit": 1,
+      "cn": "我叫尼克。",
+      "en": "My name is Nick.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Nick.",
+          "cn": "尼克",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s15",
+      "unit": 1,
+      "cn": "她叫李梦。",
+      "en": "Her name is Li Meng.",
+      "tokens": [
+        {
+          "en": "Her",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Li",
+          "cn": "李",
+          "pos": "名词"
+        },
+        {
+          "en": "Meng.",
+          "cn": "梦",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s16",
+      "unit": 1,
+      "cn": "她叫琳恩·史密斯。",
+      "en": "Her name is Lynn Smith.",
+      "tokens": [
+        {
+          "en": "Her",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Lynn",
+          "cn": "林恩",
+          "pos": "名词"
+        },
+        {
+          "en": "Smith.",
+          "cn": "史密斯",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s17",
+      "unit": 1,
+      "cn": "他叫鲍勃·史密斯。",
+      "en": "His name is Bob Smith.",
+      "tokens": [
+        {
+          "en": "His",
+          "cn": "他的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Bob",
+          "cn": "鲍勃",
+          "pos": "名词"
+        },
+        {
+          "en": "Smith.",
+          "cn": "史密斯",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s18",
+      "unit": 1,
+      "cn": "他叫吉姆·史密斯。",
+      "en": "His name is Jim Smith.",
+      "tokens": [
+        {
+          "en": "His",
+          "cn": "他的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Jim",
+          "cn": "吉姆",
+          "pos": "名词"
+        },
+        {
+          "en": "Smith.",
+          "cn": "史密斯",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u1-s19",
+      "unit": 1,
+      "cn": "她叫玛丽·史密斯。",
+      "en": "Her name is Mary Smith.",
+      "tokens": [
+        {
+          "en": "Her",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Mary",
+          "cn": "玛丽",
+          "pos": "名词"
+        },
+        {
+          "en": "Smith.",
+          "cn": "史密斯",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u2-s01",
+      "unit": 2,
+      "cn": "丹尼，这是哪个字母？",
+      "en": "What letter is this, Danny?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "letter",
+          "cn": "字母",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "this,",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "Danny?",
+          "cn": "丹尼",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u2-s02",
+      "unit": 2,
+      "cn": "这是字母 D。",
+      "en": "This is the letter D.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "letter",
+          "cn": "字母",
+          "pos": "名词"
+        },
+        {
+          "en": "D.",
+          "cn": "D",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u2-s03",
+      "unit": 2,
+      "cn": "这是珍妮。",
+      "en": "This is Jenny.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Jenny.",
+          "cn": "珍妮",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u2-s04",
+      "unit": 2,
+      "cn": "这是李明。",
+      "en": "This is Li Ming.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Li",
+          "cn": "李",
+          "pos": "名词"
+        },
+        {
+          "en": "Ming.",
+          "cn": "明",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u2-s05",
+      "unit": 2,
+      "cn": "这是珍妮一家。",
+      "en": "This is Jenny’s family.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Jenny’s",
+          "cn": "珍妮的",
+          "pos": "名词"
+        },
+        {
+          "en": "family.",
+          "cn": "家庭",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u2-s06",
+      "unit": 2,
+      "cn": "这是丹尼一家。",
+      "en": "This is Danny’s family.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Danny’s",
+          "cn": "丹尼的",
+          "pos": "名词"
+        },
+        {
+          "en": "family.",
+          "cn": "家庭",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u2-s07",
+      "unit": 2,
+      "cn": "这是孔融。",
+      "en": "This is Kong Rong.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Kong",
+          "cn": "孔",
+          "pos": "名词"
+        },
+        {
+          "en": "Rong.",
+          "cn": "融",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u4-s01",
+      "unit": 4,
+      "cn": "我可以借一个吗？",
+      "en": "May I borrow one?",
+      "tokens": [
+        {
+          "en": "May",
+          "cn": "可以",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "borrow",
+          "cn": "借",
+          "pos": "名词"
+        },
+        {
+          "en": "one?",
+          "cn": "一",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u4-s02",
+      "unit": 4,
+      "cn": "我是玛丽。",
+      "en": "I am Mary.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Mary.",
+          "cn": "玛丽",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u4-s03",
+      "unit": 4,
+      "cn": "我们是史密斯一家。",
+      "en": "We are the Smith family.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Smith",
+          "cn": "史密斯",
+          "pos": "名词"
+        },
+        {
+          "en": "family.",
+          "cn": "家庭",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u5-s01",
+      "unit": 5,
+      "cn": "与众不同也没关系。",
+      "en": "It’s OK to be different.",
+      "tokens": [
+        {
+          "en": "It’s",
+          "cn": "它是",
+          "pos": "缩略"
+        },
+        {
+          "en": "OK",
+          "cn": "好",
+          "pos": "感叹词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "be",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "different.",
+          "cn": "不同的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u5-s02",
+      "unit": 5,
+      "cn": "我是李明。",
+      "en": "I am Li Ming.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Li",
+          "cn": "李",
+          "pos": "名词"
+        },
+        {
+          "en": "Ming.",
+          "cn": "明",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u5-s03",
+      "unit": 5,
+      "cn": "可我能听见。",
+      "en": "But I can hear.",
+      "tokens": [
+        {
+          "en": "But",
+          "cn": "但是",
+          "pos": "连词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "hear.",
+          "cn": "听见",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u5-s04",
+      "unit": 5,
+      "cn": "可我会说话。",
+      "en": "But I can talk.",
+      "tokens": [
+        {
+          "en": "But",
+          "cn": "但是",
+          "pos": "连词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "talk.",
+          "cn": "谈话，交谈",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u5-s05",
+      "unit": 5,
+      "cn": "哦，我没有鼻子。",
+      "en": "Oh, I have no nose.",
+      "tokens": [
+        {
+          "en": "Oh,",
+          "cn": "哦",
+          "pos": "感叹词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "no",
+          "cn": "不",
+          "pos": "副词"
+        },
+        {
+          "en": "nose.",
+          "cn": "鼻子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u5-s06",
+      "unit": 5,
+      "cn": "可我能闻见气味。",
+      "en": "But I can smell.",
+      "tokens": [
+        {
+          "en": "But",
+          "cn": "但是",
+          "pos": "连词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "smell.",
+          "cn": "闻",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u5-s07",
+      "unit": 5,
+      "cn": "可是与众不同也没关系。",
+      "en": "But it’s OK to be different.",
+      "tokens": [
+        {
+          "en": "But",
+          "cn": "但是",
+          "pos": "连词"
+        },
+        {
+          "en": "it’s",
+          "cn": "它是",
+          "pos": "缩略"
+        },
+        {
+          "en": "OK",
+          "cn": "好",
+          "pos": "感叹词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "be",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "different.",
+          "cn": "不同的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u6-s01",
+      "unit": 6,
+      "cn": "吉姆有个妹妹叫吉尔。",
+      "en": "Jim has a sister, Jill.",
+      "tokens": [
+        {
+          "en": "Jim",
+          "cn": "吉姆",
+          "pos": "名词"
+        },
+        {
+          "en": "has",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "sister,",
+          "cn": "姐姐",
+          "pos": "名词"
+        },
+        {
+          "en": "Jill.",
+          "cn": "吉尔",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "jj-3a-u6-s02",
+      "unit": 6,
+      "cn": "蒂姆有个弟弟叫比尔。",
+      "en": "Tim has a brother, Bill.",
+      "tokens": [
+        {
+          "en": "Tim",
+          "cn": "蒂姆",
+          "pos": "名词"
+        },
+        {
+          "en": "has",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "brother,",
+          "cn": "哥哥",
+          "pos": "名词"
+        },
+        {
+          "en": "Bill.",
+          "cn": "比尔",
+          "pos": "名词"
+        }
+      ]
+    }
+  ]
 }

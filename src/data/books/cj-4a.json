@@ -9,7 +9,7 @@
   "edition": "2025 秋 · 新课标修订版",
   "stage": "primary",
   "wordCount": 141,
-  "sentenceCount": 0,
+  "sentenceCount": 33,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -2673,5 +2673,1210 @@
       "unit": 9
     }
   ],
-  "sentences": []
+  "sentences": [
+    {
+      "id": "cj-4a-u1-s01",
+      "unit": 1,
+      "cn": "爸爸，我可以摘花吗？",
+      "en": "Can I pick the flowers, Dad?",
+      "tokens": [
+        {
+          "en": "Can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "pick",
+          "cn": "摘（花，果）",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "flowers,",
+          "cn": "花",
+          "pos": "名词"
+        },
+        {
+          "en": "Dad?",
+          "cn": "爸爸",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u1-s02",
+      "unit": 1,
+      "cn": "请勿摘花！",
+      "en": "Please Do Not Pick the Flowers!",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Not",
+          "cn": "不",
+          "pos": "副词"
+        },
+        {
+          "en": "Pick",
+          "cn": "摘（花，果）",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Flowers!",
+          "cn": "花",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u1-s03",
+      "unit": 1,
+      "cn": "我可以闻一闻吗？",
+      "en": "Can I smell them?",
+      "tokens": [
+        {
+          "en": "Can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "smell",
+          "cn": "闻",
+          "pos": "名词"
+        },
+        {
+          "en": "them?",
+          "cn": "他们",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u1-s04",
+      "unit": 1,
+      "cn": "我可以进来吗？",
+      "en": "May I come in?",
+      "tokens": [
+        {
+          "en": "May",
+          "cn": "可以",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "come",
+          "cn": "来",
+          "pos": "名词"
+        },
+        {
+          "en": "in?",
+          "cn": "在……里",
+          "pos": "介词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u1-s05",
+      "unit": 1,
+      "cn": "今天是五一劳动节。",
+      "en": "It is May Day.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "May",
+          "cn": "可以",
+          "pos": "情态动词"
+        },
+        {
+          "en": "Day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u1-s06",
+      "unit": 1,
+      "cn": "爸爸，爸爸，我可以看书吗？",
+      "en": "Dad, Dad, can I read a book?",
+      "tokens": [
+        {
+          "en": "Dad,",
+          "cn": "爸爸",
+          "pos": "名词"
+        },
+        {
+          "en": "Dad,",
+          "cn": "爸爸",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "read",
+          "cn": "读",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "book?",
+          "cn": "书，书籍",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u1-s07",
+      "unit": 1,
+      "cn": "妈妈，妈妈，我可以看电视吗？",
+      "en": "Mom, Mom, can I watch TV?",
+      "tokens": [
+        {
+          "en": "Mom,",
+          "cn": "妈妈（美语）",
+          "pos": "名词"
+        },
+        {
+          "en": "Mom,",
+          "cn": "妈妈（美语）",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "watch",
+          "cn": "看，观看",
+          "pos": "名词"
+        },
+        {
+          "en": "TV?",
+          "cn": "电视",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u2-s01",
+      "unit": 2,
+      "cn": "爸爸，爸爸，我可以玩玩具吗？",
+      "en": "Dad, Dad, can I play with toys?",
+      "tokens": [
+        {
+          "en": "Dad,",
+          "cn": "爸爸",
+          "pos": "名词"
+        },
+        {
+          "en": "Dad,",
+          "cn": "爸爸",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "toys?",
+          "cn": "玩具",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u2-s02",
+      "unit": 2,
+      "cn": "我是王婷。",
+      "en": "I am Wang Ting.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Wang",
+          "cn": "王",
+          "pos": "名词"
+        },
+        {
+          "en": "Ting.",
+          "cn": "婷",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u2-s03",
+      "unit": 2,
+      "cn": "我是里奇。",
+      "en": "I am Rich.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Rich.",
+          "cn": "里奇",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u2-s04",
+      "unit": 2,
+      "cn": "你遵守规则吗？",
+      "en": "Do You Follow the Rules?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "You",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "Follow",
+          "cn": "跟随",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Rules?",
+          "cn": "规则",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u3-s01",
+      "unit": 3,
+      "cn": "我们该怎么办？",
+      "en": "What Should We Do?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "Should",
+          "cn": "应该",
+          "pos": "情态动词"
+        },
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "Do?",
+          "cn": "做",
+          "pos": "助动词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u4-s01",
+      "unit": 4,
+      "cn": "昆明阳光明媚。",
+      "en": "It’s sunny in Kunming.",
+      "tokens": [
+        {
+          "en": "It’s",
+          "cn": "它是",
+          "pos": "缩略"
+        },
+        {
+          "en": "sunny",
+          "cn": "晴朗的",
+          "pos": "形容词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "Kunming.",
+          "cn": "昆明",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u4-s02",
+      "unit": 4,
+      "cn": "北京正在下雪。",
+      "en": "It’s snowy in Beijing.",
+      "tokens": [
+        {
+          "en": "It’s",
+          "cn": "它是",
+          "pos": "缩略"
+        },
+        {
+          "en": "snowy",
+          "cn": "下雪的",
+          "pos": "形容词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "Beijing.",
+          "cn": "北京",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u5-s01",
+      "unit": 5,
+      "cn": "现在是什么季节？",
+      "en": "What Season Is It?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "Season",
+          "cn": "季节",
+          "pos": "名词"
+        },
+        {
+          "en": "Is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "It?",
+          "cn": "它",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u5-s02",
+      "unit": 5,
+      "cn": "悉尼是夏天。",
+      "en": "It is summer in Sydney.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "summer",
+          "cn": "夏天",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "Sydney.",
+          "cn": "悉尼",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u5-s03",
+      "unit": 5,
+      "cn": "扬正在婷婷家和她们一起过春节。",
+      "en": "Young is celebrating the Spring Festival with Tingting’s family.",
+      "tokens": [
+        {
+          "en": "Young",
+          "cn": "扬",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "celebrating",
+          "cn": "庆祝",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Spring",
+          "cn": "春天",
+          "pos": "名词"
+        },
+        {
+          "en": "Festival",
+          "cn": "节日",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "Tingting’s",
+          "cn": "婷婷的",
+          "pos": "名词"
+        },
+        {
+          "en": "family.",
+          "cn": "家庭",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u5-s04",
+      "unit": 5,
+      "cn": "秋天的中秋节我们过得很开心。",
+      "en": "We have fun at the Mid-Autumn Festival in autumn.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "fun",
+          "cn": "有趣的",
+          "pos": "形容词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Mid-Autumn",
+          "cn": "中秋",
+          "pos": "名词"
+        },
+        {
+          "en": "Festival",
+          "cn": "节日",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "autumn.",
+          "cn": "秋天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u5-s05",
+      "unit": 5,
+      "cn": "王秋在秋天做什么？",
+      "en": "What does Wang Qiu do in autumn?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "does",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Wang",
+          "cn": "王",
+          "pos": "名词"
+        },
+        {
+          "en": "Qiu",
+          "cn": "秋",
+          "pos": "名词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "autumn?",
+          "cn": "秋天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u5-s06",
+      "unit": 5,
+      "cn": "王秋觉得秋天怎么样？",
+      "en": "What does Wang Qiu think of autumn?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "does",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Wang",
+          "cn": "王",
+          "pos": "名词"
+        },
+        {
+          "en": "Qiu",
+          "cn": "秋",
+          "pos": "名词"
+        },
+        {
+          "en": "think",
+          "cn": "认为，以为",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "autumn?",
+          "cn": "秋天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u5-s07",
+      "unit": 5,
+      "cn": "王秋的父母喜欢秋天吗？",
+      "en": "Do Wang Qiu’s parents like autumn?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Wang",
+          "cn": "王",
+          "pos": "名词"
+        },
+        {
+          "en": "Qiu’s",
+          "cn": "秋的",
+          "pos": "名词"
+        },
+        {
+          "en": "parents",
+          "cn": "父母",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "autumn?",
+          "cn": "秋天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u6-s01",
+      "unit": 6,
+      "cn": "我最喜欢冬天，因为可以滑冰。",
+      "en": "I like winter best because I can skate.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "winter",
+          "cn": "冬天",
+          "pos": "名词"
+        },
+        {
+          "en": "best",
+          "cn": "最好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "because",
+          "cn": "因为",
+          "pos": "连词"
+        },
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "skate.",
+          "cn": "滑冰",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u6-s02",
+      "unit": 6,
+      "cn": "我最喜欢秋天，因为可以去远足、吃月饼。",
+      "en": "I like autumn best because I can go hiking and eat moon cakes.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "autumn",
+          "cn": "秋天",
+          "pos": "名词"
+        },
+        {
+          "en": "best",
+          "cn": "最好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "because",
+          "cn": "因为",
+          "pos": "连词"
+        },
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "hiking",
+          "cn": "徒步旅行，远足",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "eat",
+          "cn": "吃",
+          "pos": "名词"
+        },
+        {
+          "en": "moon",
+          "cn": "月亮，月球",
+          "pos": "名词"
+        },
+        {
+          "en": "cakes.",
+          "cn": "蛋糕",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u7-s01",
+      "unit": 7,
+      "cn": "他们会做什么？",
+      "en": "What Will They Do?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "Will",
+          "cn": "将会",
+          "pos": "情态动词"
+        },
+        {
+          "en": "They",
+          "cn": "他们",
+          "pos": "代词"
+        },
+        {
+          "en": "Do?",
+          "cn": "做",
+          "pos": "助动词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u7-s02",
+      "unit": 7,
+      "cn": "乐乐会做什么？",
+      "en": "What can Lele do?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "Lele",
+          "cn": "乐乐",
+          "pos": "名词"
+        },
+        {
+          "en": "do?",
+          "cn": "做",
+          "pos": "助动词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u7-s03",
+      "unit": 7,
+      "cn": "乐乐喜欢什么？",
+      "en": "What does Lele like?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "does",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Lele",
+          "cn": "乐乐",
+          "pos": "名词"
+        },
+        {
+          "en": "like?",
+          "cn": "喜欢",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u7-s04",
+      "unit": 7,
+      "cn": "乐乐不会做什么？",
+      "en": "What can’t Lele do?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "can’t",
+          "cn": "不能",
+          "pos": "助动词"
+        },
+        {
+          "en": "Lele",
+          "cn": "乐乐",
+          "pos": "名词"
+        },
+        {
+          "en": "do?",
+          "cn": "做",
+          "pos": "助动词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u7-s05",
+      "unit": 7,
+      "cn": "你身体有多健康？",
+      "en": "How Healthy Are You?",
+      "tokens": [
+        {
+          "en": "How",
+          "cn": "怎样",
+          "pos": "疑问词"
+        },
+        {
+          "en": "Healthy",
+          "cn": "健康的",
+          "pos": "形容词"
+        },
+        {
+          "en": "Are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "You?",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u8-s01",
+      "unit": 8,
+      "cn": "你喜欢运动吗？",
+      "en": "Do You Like Sports?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "You",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "Like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "Sports?",
+          "cn": "运动",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u8-s02",
+      "unit": 8,
+      "cn": "乐乐、扬和罗斯都是我的朋友。",
+      "en": "Lele, Young and Rose are my friends.",
+      "tokens": [
+        {
+          "en": "Lele,",
+          "cn": "乐乐",
+          "pos": "名词"
+        },
+        {
+          "en": "Young",
+          "cn": "扬",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "Rose",
+          "cn": "罗斯",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "friends.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u8-s03",
+      "unit": 8,
+      "cn": "你可以用不同的方法学英语单词。",
+      "en": "You can learn English words through different ways.",
+      "tokens": [
+        {
+          "en": "You",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "learn",
+          "cn": "学习",
+          "pos": "名词"
+        },
+        {
+          "en": "English",
+          "cn": "英文的",
+          "pos": "形容词"
+        },
+        {
+          "en": "words",
+          "cn": "字，词，单词",
+          "pos": "名词"
+        },
+        {
+          "en": "through",
+          "cn": "穿过",
+          "pos": "名词"
+        },
+        {
+          "en": "different",
+          "cn": "不同的",
+          "pos": "形容词"
+        },
+        {
+          "en": "ways.",
+          "cn": "路，道路",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u8-s04",
+      "unit": 8,
+      "cn": "你和我是朋友。",
+      "en": "You and I are friends.",
+      "tokens": [
+        {
+          "en": "You",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "friends.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-4a-u9-s01",
+      "unit": 9,
+      "cn": "桑尼的朋友们现在可能会对他说什么？",
+      "en": "What may Sunny’s friends say to him now?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "may",
+          "cn": "可以",
+          "pos": "情态动词"
+        },
+        {
+          "en": "Sunny’s",
+          "cn": "桑尼",
+          "pos": "名词"
+        },
+        {
+          "en": "friends",
+          "cn": "朋友",
+          "pos": "名词"
+        },
+        {
+          "en": "say",
+          "cn": "说",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "him",
+          "cn": "他",
+          "pos": "代词"
+        },
+        {
+          "en": "now?",
+          "cn": "现在",
+          "pos": "副词"
+        }
+      ]
+    }
+  ]
 }

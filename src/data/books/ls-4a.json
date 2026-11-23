@@ -9,7 +9,7 @@
   "edition": "2025 秋 · 新课标修订版",
   "stage": "primary",
   "wordCount": 132,
-  "sentenceCount": 0,
+  "sentenceCount": 42,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -2448,5 +2448,1497 @@
       "unit": 6
     }
   ],
-  "sentences": []
+  "sentences": [
+    {
+      "id": "ls-4a-u1-s01",
+      "unit": 1,
+      "cn": "小鸟们在唱“你好”。",
+      "en": "Little birds are singing \"Hello\".",
+      "tokens": [
+        {
+          "en": "Little",
+          "cn": "小的",
+          "pos": "形容词"
+        },
+        {
+          "en": "birds",
+          "cn": "鸟",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "singing",
+          "cn": "在唱歌",
+          "pos": "介词"
+        },
+        {
+          "en": "\"Hello\".",
+          "cn": "你好",
+          "pos": "感叹词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s02",
+      "unit": 1,
+      "cn": "我可以试一试吗？",
+      "en": "Can I try it?",
+      "tokens": [
+        {
+          "en": "Can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "try",
+          "cn": "试，试做",
+          "pos": "名词"
+        },
+        {
+          "en": "it?",
+          "cn": "它",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s03",
+      "unit": 1,
+      "cn": "我们在下中国象棋。",
+      "en": "We are playing Chinese chess.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "playing",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "Chinese",
+          "cn": "中国的",
+          "pos": "形容词"
+        },
+        {
+          "en": "chess.",
+          "cn": "国际象棋",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s04",
+      "unit": 1,
+      "cn": "我想做什么？",
+      "en": "What do I want to do?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "do?",
+          "cn": "做",
+          "pos": "助动词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s05",
+      "unit": 1,
+      "cn": "我想什么时候去做？",
+      "en": "When do I want to do it?",
+      "tokens": [
+        {
+          "en": "When",
+          "cn": "当……时",
+          "pos": "连词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "it?",
+          "cn": "它",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s06",
+      "unit": 1,
+      "cn": "库克斯先生，您在看书吗？",
+      "en": "Are you reading a book, Mr Cooks?",
+      "tokens": [
+        {
+          "en": "Are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "reading",
+          "cn": "在读书",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "book,",
+          "cn": "书，书籍",
+          "pos": "名词"
+        },
+        {
+          "en": "Mr",
+          "cn": "先生",
+          "pos": "名词"
+        },
+        {
+          "en": "Cooks?",
+          "cn": "库克斯",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s07",
+      "unit": 1,
+      "cn": "库克斯太太，您在看书吗？",
+      "en": "Are you reading a book, Mrs Cooks?",
+      "tokens": [
+        {
+          "en": "Are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "reading",
+          "cn": "在读书",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "book,",
+          "cn": "书，书籍",
+          "pos": "名词"
+        },
+        {
+          "en": "Mrs",
+          "cn": "夫人",
+          "pos": "名词"
+        },
+        {
+          "en": "Cooks?",
+          "cn": "库克斯",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s08",
+      "unit": 1,
+      "cn": "是的，我一向如此。",
+      "en": "Yes, I always do.",
+      "tokens": [
+        {
+          "en": "Yes,",
+          "cn": "是的",
+          "pos": "副词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "always",
+          "cn": "总是，一直",
+          "pos": "名词"
+        },
+        {
+          "en": "do.",
+          "cn": "做",
+          "pos": "助动词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s09",
+      "unit": 1,
+      "cn": "你用什么学英语？",
+      "en": "What do you use to learn English?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "use",
+          "cn": "使用",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "learn",
+          "cn": "学习",
+          "pos": "名词"
+        },
+        {
+          "en": "English?",
+          "cn": "英文的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s10",
+      "unit": 1,
+      "cn": "莉莉，你在做什么？",
+      "en": "What are you doing, Lily?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "doing,",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Lily?",
+          "cn": "莉莉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s11",
+      "unit": 1,
+      "cn": "比利，你在做什么？",
+      "en": "What are you doing, Billy?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "doing,",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Billy?",
+          "cn": "比利",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s12",
+      "unit": 1,
+      "cn": "杨明在做什么？",
+      "en": "What is Yang Ming doing?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Yang",
+          "cn": "杨",
+          "pos": "名词"
+        },
+        {
+          "en": "Ming",
+          "cn": "明",
+          "pos": "名词"
+        },
+        {
+          "en": "doing?",
+          "cn": "做",
+          "pos": "助动词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s13",
+      "unit": 1,
+      "cn": "我在做什么？",
+      "en": "What am I doing?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "doing?",
+          "cn": "做",
+          "pos": "助动词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s14",
+      "unit": 1,
+      "cn": "你在做什么？",
+      "en": "What Are You Doing?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "Are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "You",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "Doing?",
+          "cn": "做",
+          "pos": "助动词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s15",
+      "unit": 1,
+      "cn": "小猪在做什么？",
+      "en": "What is Piggy doing?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Piggy",
+          "cn": "小猪",
+          "pos": "名词"
+        },
+        {
+          "en": "doing?",
+          "cn": "做",
+          "pos": "助动词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s16",
+      "unit": 1,
+      "cn": "他们星期六上午做运动。",
+      "en": "They do sports on Saturday morning.",
+      "tokens": [
+        {
+          "en": "They",
+          "cn": "他们",
+          "pos": "代词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "sports",
+          "cn": "运动",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "Saturday",
+          "cn": "星期六",
+          "pos": "名词"
+        },
+        {
+          "en": "morning.",
+          "cn": "早晨，上午",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s17",
+      "unit": 1,
+      "cn": "我能做什么？",
+      "en": "What can I do?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "do?",
+          "cn": "做",
+          "pos": "助动词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s18",
+      "unit": 1,
+      "cn": "小猪该怎么办？",
+      "en": "What should Piggy do?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "should",
+          "cn": "应该",
+          "pos": "情态动词"
+        },
+        {
+          "en": "Piggy",
+          "cn": "小猪",
+          "pos": "名词"
+        },
+        {
+          "en": "do?",
+          "cn": "做",
+          "pos": "助动词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s19",
+      "unit": 1,
+      "cn": "阿尔伯特在做什么？",
+      "en": "What is Albert doing?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Albert",
+          "cn": "阿尔伯特",
+          "pos": "名词"
+        },
+        {
+          "en": "doing?",
+          "cn": "做",
+          "pos": "助动词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s20",
+      "unit": 1,
+      "cn": "你每天读英语吗？",
+      "en": "Do you read English every day?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "read",
+          "cn": "读",
+          "pos": "名词"
+        },
+        {
+          "en": "English",
+          "cn": "英文的",
+          "pos": "形容词"
+        },
+        {
+          "en": "every",
+          "cn": "每一个",
+          "pos": "名词"
+        },
+        {
+          "en": "day?",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s21",
+      "unit": 1,
+      "cn": "课后你做什么来学英语？",
+      "en": "What do you do to learn English after class?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "learn",
+          "cn": "学习",
+          "pos": "名词"
+        },
+        {
+          "en": "English",
+          "cn": "英文的",
+          "pos": "形容词"
+        },
+        {
+          "en": "after",
+          "cn": "在……之后",
+          "pos": "介词"
+        },
+        {
+          "en": "class?",
+          "cn": "课",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u1-s22",
+      "unit": 1,
+      "cn": "小惠，那是件新毛衣吗？",
+      "en": "Is that a new sweater, Xiaohui?",
+      "tokens": [
+        {
+          "en": "Is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "that",
+          "cn": "那个",
+          "pos": "代词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "new",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "sweater,",
+          "cn": "毛衣，线衣",
+          "pos": "名词"
+        },
+        {
+          "en": "Xiaohui?",
+          "cn": "小惠",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u2-s01",
+      "unit": 2,
+      "cn": "你在睡觉吗？",
+      "en": "Are You Sleeping?",
+      "tokens": [
+        {
+          "en": "Are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "You",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "Sleeping?",
+          "cn": "在睡觉",
+          "pos": "介词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u2-s02",
+      "unit": 2,
+      "cn": "照片里你是在看英语节目吗？",
+      "en": "Are you watching English TV in the photo?",
+      "tokens": [
+        {
+          "en": "Are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "watching",
+          "cn": "看，观看",
+          "pos": "名词"
+        },
+        {
+          "en": "English",
+          "cn": "英文的",
+          "pos": "形容词"
+        },
+        {
+          "en": "TV",
+          "cn": "电视",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "photo?",
+          "cn": "相片，照片",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u2-s03",
+      "unit": 2,
+      "cn": "我在用耳朵和眼睛学英语。",
+      "en": "I am using my ears and eyes to learn English.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "using",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "ears",
+          "cn": "耳朵",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "eyes",
+          "cn": "眼睛",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "learn",
+          "cn": "学习",
+          "pos": "名词"
+        },
+        {
+          "en": "English.",
+          "cn": "英文的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u2-s04",
+      "unit": 2,
+      "cn": "我现在没在读英语。",
+      "en": "I am not reading English now.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "not",
+          "cn": "不",
+          "pos": "副词"
+        },
+        {
+          "en": "reading",
+          "cn": "在读书",
+          "pos": "介词"
+        },
+        {
+          "en": "English",
+          "cn": "英文的",
+          "pos": "形容词"
+        },
+        {
+          "en": "now.",
+          "cn": "现在",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u2-s05",
+      "unit": 2,
+      "cn": "感谢我拥有的一切。",
+      "en": "Thanks for the things I have.",
+      "tokens": [
+        {
+          "en": "Thanks",
+          "cn": "感谢",
+          "pos": "名词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "things",
+          "cn": "东西",
+          "pos": "名词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have.",
+          "cn": "有",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u4-s01",
+      "unit": 4,
+      "cn": "可我会骑马。",
+      "en": "But I can ride a horse.",
+      "tokens": [
+        {
+          "en": "But",
+          "cn": "但是",
+          "pos": "连词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "ride",
+          "cn": "(乘车或骑车的)短途旅程",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "horse.",
+          "cn": "马",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u4-s02",
+      "unit": 4,
+      "cn": "我在跟比利玩。",
+      "en": "I am playing with Billy.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "playing",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "Billy.",
+          "cn": "比利",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u4-s03",
+      "unit": 4,
+      "cn": "我在跟莉莉玩。",
+      "en": "I am playing with Lily.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "playing",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "Lily.",
+          "cn": "莉莉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u4-s04",
+      "unit": 4,
+      "cn": "哦，比利在跟莉莉玩。",
+      "en": "Oh, Billy is playing with Lily.",
+      "tokens": [
+        {
+          "en": "Oh,",
+          "cn": "哦",
+          "pos": "感叹词"
+        },
+        {
+          "en": "Billy",
+          "cn": "比利",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "playing",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "Lily.",
+          "cn": "莉莉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u4-s05",
+      "unit": 4,
+      "cn": "莉莉又在跟比利玩。",
+      "en": "And Lily is playing with Billy.",
+      "tokens": [
+        {
+          "en": "And",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "Lily",
+          "cn": "莉莉",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "playing",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "Billy.",
+          "cn": "比利",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u4-s06",
+      "unit": 4,
+      "cn": "小猪，我们去踢足球吧！",
+      "en": "Let’s play football, Piggy!",
+      "tokens": [
+        {
+          "en": "Let’s",
+          "cn": "让我们",
+          "pos": "缩略"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "football,",
+          "cn": "足球",
+          "pos": "名词"
+        },
+        {
+          "en": "Piggy!",
+          "cn": "小猪",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u4-s07",
+      "unit": 4,
+      "cn": "他在英国，对吧？",
+      "en": "He is in the UK, right?",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "他",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "UK,",
+          "cn": "英国",
+          "pos": "名词"
+        },
+        {
+          "en": "right?",
+          "cn": "正确的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u5-s01",
+      "unit": 5,
+      "cn": "我现在正在读英语。",
+      "en": "I am reading English now.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "reading",
+          "cn": "在读书",
+          "pos": "介词"
+        },
+        {
+          "en": "English",
+          "cn": "英文的",
+          "pos": "形容词"
+        },
+        {
+          "en": "now.",
+          "cn": "现在",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u5-s02",
+      "unit": 5,
+      "cn": "你现在正在读英语吗？",
+      "en": "Are you reading English now?",
+      "tokens": [
+        {
+          "en": "Are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "reading",
+          "cn": "在读书",
+          "pos": "介词"
+        },
+        {
+          "en": "English",
+          "cn": "英文的",
+          "pos": "形容词"
+        },
+        {
+          "en": "now?",
+          "cn": "现在",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u6-s01",
+      "unit": 6,
+      "cn": "你用笔学英语吗？",
+      "en": "Do you use your pen to learn English?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "use",
+          "cn": "使用",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "pen",
+          "cn": "钢笔",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "learn",
+          "cn": "学习",
+          "pos": "名词"
+        },
+        {
+          "en": "English?",
+          "cn": "英文的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u6-s02",
+      "unit": 6,
+      "cn": "是的，林老师，我们正在读。",
+      "en": "Yes, we are, Miss Lin.",
+      "tokens": [
+        {
+          "en": "Yes,",
+          "cn": "是的",
+          "pos": "副词"
+        },
+        {
+          "en": "we",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "are,",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Miss",
+          "cn": "小姐，女士（用于未婚女子姓氏前）",
+          "pos": "名词"
+        },
+        {
+          "en": "Lin.",
+          "cn": "林",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u6-s03",
+      "unit": 6,
+      "cn": "这是我奶奶送的。",
+      "en": "It is from my Grandma.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "from",
+          "cn": "从",
+          "pos": "介词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "Grandma.",
+          "cn": "奶奶",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u6-s04",
+      "unit": 6,
+      "cn": "这是我爷爷送的。",
+      "en": "It is from my Grandpa.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "from",
+          "cn": "从",
+          "pos": "介词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "Grandpa.",
+          "cn": "爷爷",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u6-s05",
+      "unit": 6,
+      "cn": "我可以用你的笔吗？",
+      "en": "May I use your pen?",
+      "tokens": [
+        {
+          "en": "May",
+          "cn": "可以",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "use",
+          "cn": "使用",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "pen?",
+          "cn": "钢笔",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-4a-u6-s06",
+      "unit": 6,
+      "cn": "我可以读一读吗？",
+      "en": "Can I read it?",
+      "tokens": [
+        {
+          "en": "Can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "read",
+          "cn": "读",
+          "pos": "名词"
+        },
+        {
+          "en": "it?",
+          "cn": "它",
+          "pos": "代词"
+        }
+      ]
+    }
+  ]
 }

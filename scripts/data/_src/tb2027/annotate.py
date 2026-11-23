@@ -86,6 +86,25 @@ CTX = {
     "let's take a look.": {1: ('动词', '做'), 3: ('名词', '看')},
     'thank you very much.': {3: ('副词', '多')},
     'i want to be a teacher.': {3: ('动词', '成为')},
+    # Sunny 在 cj 系列里是角色名（不是"晴朗的"）
+    'i am sunny.': {2: ('名词', '桑尼')},
+    'good evening, sunny!': {2: ('名词', '桑尼')},
+    'sunny is the colour monster.': {0: ('名词', '桑尼')},
+    "what may sunny's friends say to him now?": {2: ('名词', '桑尼')},
+    # 姓氏复数作"一家人"（The Greens / The Wus）
+    'the greens are my neighbours.': {1: ('名词', '格林一家')},
+    'mr green is a writer, and mrs green is a teacher.': {1: ('名词', '格林'), 7: ('名词', '格林')},
+    'the wus are my neighbours.': {1: ('名词', '吴一家')},
+    'her name is candy.': {3: ('名词', '坎迪')},
+}
+
+
+# 否定缩写词块（整块当一个词，中文给否定义）
+NEG = {
+    "don't": '不', "doesn't": '不', "didn't": '没有', "isn't": '不是',
+    "aren't": '不是', "wasn't": '不是', "weren't": '不是', "can't": '不能',
+    'cannot': '不能', "couldn't": '不能', "won't": '不会', "wouldn't": '不会',
+    "shouldn't": '不应该', "haven't": '没有', "hasn't": '没有', "mustn't": '不可以',
 }
 
 
@@ -96,6 +115,24 @@ def lookup(k, lex):
     # 纯数字/时间（3 / 11:00 / 20）
     if re.fullmatch(r'[\d:.,]+', k):
         return ('数词', k)
+    # 序数词 12th / 1st / 31st / 3rd / 2nd
+    if re.fullmatch(r'\d+(st|nd|rd|th)', k):
+        return ('数词', k)
+    # 否定缩写：didn't / can't / isn't ...
+    if k in NEG:
+        return ('助动词', NEG[k])
+    # 单个字母（字母教学句：the letter D / letter O）
+    if len(k) == 1 and k.isalpha():
+        return ('名词', k.upper())
+    # 班级代号 6A / 4B
+    if re.fullmatch(r'\d+[a-z]', k):
+        return ('名词', k.upper())
+    # 连字符合成词：tree-planting / T-shirt / yel-low（逐段查，都能查到才认）
+    if '-' in k:
+        segs = [s for s in k.split('-') if s]
+        got = [lookup(s, lex) for s in segs]
+        if segs and all(got):
+            return (got[0][0], '-'.join(g[1] for g in got))
     if k in lex and lex[k]:
         return lex[k].most_common(1)[0][0]
     # 所有格 / 缩写：susan's → susan, it's → it
@@ -114,12 +151,12 @@ def lookup(k, lex):
         cands.append(k[:-3] + 'y')
     if k.endswith('ied') and len(k) > 4:
         cands.append(k[:-3] + 'y')
-    if k.endswith('ing') and len(k) > 5:
+    if k.endswith('ing') and len(k) > 4:
         stem = k[:-3]
         cands += [stem, stem + 'e']
         if len(stem) > 2 and stem[-1] == stem[-2]:
             cands.append(stem[:-1])
-    if k.endswith('ed') and len(k) > 4:
+    if k.endswith('ed') and len(k) > 3:
         stem = k[:-2]
         cands += [stem, stem + 'e', k[:-1]]
         if len(stem) > 2 and stem[-1] == stem[-2]:

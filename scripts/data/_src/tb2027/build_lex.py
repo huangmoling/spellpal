@@ -186,7 +186,60 @@ EXTRA = {
     'offer': ('动词', '提供'), 'annie': ('名词', '安妮'), 'qiang': ('名词', '强'),
     'julia': ('名词', '朱莉娅'), 'shandong': ('名词', '山东'), 'liang': ('名词', '良'),
     'cao': ('名词', '曹'), 'chong': ('名词', '冲'),
+    # 拼音名 / 童话角色 / 字母缩写（真句抽取中逐册发现后补入）
+    'le': ('名词', '乐'), 'zhong': ('名词', '钟'), 'ting': ('名词', '婷'),
+    'hui': ('名词', '惠'), 'hood': ('名词', '兜帽'),
+    'abc': ('名词', 'ABC'),
+    'qiu': ('名词', '秋'), 'rich': ('名词', '里奇'), 'dick': ('名词', '迪克'),
+    'young': ('名词', '扬'),
+    'tree-planting': ('名词', '植树'), 'planting': ('名词', '种植'),
+    'duanwu': ('名词', '端午'),
+    'muffin': ('名词', '松饼'), 'beg': ('动词', '恳求'), 'wise': ('形容词', '明智的'),
+    'serve': ('动词', '服务'), 'serving': ('动词', '服务'), 'counter': ('名词', '柜台'),
+    'jones': ('名词', '琼斯'), 'dongguo': ('名词', '东郭'),
+    'white': ('名词', '怀特'), 'bell': ('名词', '贝尔'),
+    'zero': ('数词', '零'),
+    'mid-autumn': ('名词', '中秋'), 'york': ('名词', '约克'), 'mount': ('名词', '山峰'),
+    "tian'anmen": ('名词', '天安门'), 'niagara': ('名词', '尼亚加拉'), 'cn': ('名词', '加拿大'),
+    'pat': ('名词', '帕特'), 'xixi': ('名词', '西西'), 'meng': ('名词', '梦'),
+    'kong': ('名词', '孔'), 'rong': ('名词', '融'), 'bill': ('名词', '比尔'),
+    'yao': ('名词', '姚'), 'mira': ('名词', '米拉'), 'kai': ('名词', '凯'),
+    'zhongshan': ('名词', '中山'), 'tiyu': ('名词', '体育'), 'maddy': ('名词', '玛迪'),
+    'jimmy': ('名词', '吉米'), 'justin': ('名词', '贾斯廷'), 'nancy': ('名词', '南希'),
+    'joy': ('名词', '乔伊'), 'charles': ('名词', '查尔斯'), 'elsa': ('名词', '埃尔莎'),
+    'traditional': ('形容词', '传统的'), 'ancient': ('形容词', '古代的'),
+    'george': ('名词', '乔治'), 'lu': ('名词', '鲁'), 'ban': ('名词', '班'),
+    'wen': ('名词', '温'), 'grimm': ('名词', '格林'), 'german': ('形容词', '德国的'),
+    'leo': ('名词', '利奥'), 'vincent': ('名词', '文森特'), 'gogh': ('名词', '高'),
+    'aesop': ('名词', '伊索'), 'fables': ('名词', '寓言'), 'eve': ('名词', '前夜'),
+    'rudolf': ('名词', '鲁道夫'), 'aiwen': ('名词', '艾文'), 'yafei': ('名词', '亚菲'),
+    'ana': ('名词', '安娜'), 'lee': ('名词', '李'),
+    'explain': ('动词', '解释'), 'advice': ('名词', '建议'),
+    'piggy': ('名词', '小猪'), 'albert': ('名词', '阿尔伯特'), 'william': ('名词', '威廉'),
+    'brandon': ('名词', '布兰登'), 'frank': ('名词', '弗兰克'), 'pump': ('名词', '彭普'),
+    'cooks': ('名词', '库克斯'), 'candy': ('名词', '坎迪'),
+    'pole': ('名词', '极'), 'jolly': ('名词', '乔利'), 'coke': ('名词', '可乐'),
+    'sandy': ('名词', '桑迪'), 'jerry': ('名词', '杰里'), 'pierre': ('名词', '皮埃尔'),
+    'nile': ('名词', '尼尔'), 'congo': ('名词', '刚果'),
+    'yunnan': ('名词', '云南'), 'puppy': ('名词', '小狗'), 'yuanyuan': ('名词', '圆圆'),
+    'cricket': ('名词', '蟋蟀'),
+    'finland': ('名词', '芬兰'), 'spain': ('名词', '西班牙'), 'toronto': ('名词', '多伦多'),
 }
+
+
+def bad(k, v):
+    """脏词条判定：空 / 释义=英文原文 / 没有汉字（历史语料自指污染）"""
+    pos, cn = v[0], (v[1] or '').strip()
+    if pos == '标点':
+        return False
+    if not cn:
+        return True
+    if not re.search(r'[\u4e00-\u9fff]', cn):
+        # 允许 ABC / USA 这类纯缩写释义
+        if re.fullmatch(r'[A-Z0-9][A-Z0-9&.]*', cn) and cn.upper() == k.upper():
+            return False
+        return True
+    return cn.lower() == k.lower()
 
 
 def guess_pos(cn):
@@ -247,6 +300,11 @@ def main():
         # 功能词保持手写值（语料里可能把 the 标成"这个"之类）
         if k in FUNC:
             continue
+        # 已有可读释义时不让语料覆盖（历史语料里混了大量"释义=英文原文"的脏数据）
+        if k in lex and not bad(k, lex[k]):
+            continue
+        if bad(k, ('名词', best[1])):
+            continue
         lex[k] = best
         stat['corpus'] += 1
 
@@ -269,6 +327,15 @@ def main():
     # 标点（破折号等单独成 token 时不要留 ?）
     for punct in ['—', '–', '-', '&']:
         lex[punct] = ('标点', punct)
+
+    # 清洗：丢掉"释义=英文原文/空/无汉字"的脏词条（历史语料里的自指污染）
+    dirty = [(k, v) for k, v in lex.items() if bad(k, v)]
+    for k, v in dirty:
+        del lex[k]
+    if dirty:
+        print(f'清洗脏词条 {len(dirty)}')
+        for k, v in sorted(dirty)[:40]:
+            print('   -', k, '=>', v)
 
     out = os.path.join(HERE, 'token_lex.json')
     with open(out, 'w', encoding='utf-8') as f:

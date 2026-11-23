@@ -9,7 +9,7 @@
   "edition": "2025 秋 · 新课标修订版",
   "stage": "primary",
   "wordCount": 101,
-  "sentenceCount": 0,
+  "sentenceCount": 30,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -1892,5 +1892,861 @@
       "unit": 9
     }
   ],
-  "sentences": []
+  "sentences": [
+    {
+      "id": "cj-3a-u1-s01",
+      "unit": 1,
+      "cn": "妈妈，早上好！",
+      "en": "Good morning, Mum!",
+      "tokens": [
+        {
+          "en": "Good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "morning,",
+          "cn": "早晨，上午",
+          "pos": "名词"
+        },
+        {
+          "en": "Mum!",
+          "cn": "妈妈",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u1-s02",
+      "unit": 1,
+      "cn": "爸爸，早上好！",
+      "en": "Good morning, Dad!",
+      "tokens": [
+        {
+          "en": "Good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "morning,",
+          "cn": "早晨，上午",
+          "pos": "名词"
+        },
+        {
+          "en": "Dad!",
+          "cn": "爸爸",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u1-s03",
+      "unit": 1,
+      "cn": "我是桑尼。",
+      "en": "I am Sunny.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Sunny.",
+          "cn": "桑尼",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u1-s04",
+      "unit": 1,
+      "cn": "李叔叔，晚上好！",
+      "en": "Good evening, Uncle Li!",
+      "tokens": [
+        {
+          "en": "Good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "evening,",
+          "cn": "晚上",
+          "pos": "名词"
+        },
+        {
+          "en": "Uncle",
+          "cn": "伯父",
+          "pos": "名词"
+        },
+        {
+          "en": "Li!",
+          "cn": "李",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u1-s05",
+      "unit": 1,
+      "cn": "钟阿姨，晚上好！",
+      "en": "Good evening, Aunt Zhong!",
+      "tokens": [
+        {
+          "en": "Good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "evening,",
+          "cn": "晚上",
+          "pos": "名词"
+        },
+        {
+          "en": "Aunt",
+          "cn": "姑母",
+          "pos": "名词"
+        },
+        {
+          "en": "Zhong!",
+          "cn": "钟",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u1-s06",
+      "unit": 1,
+      "cn": "婷婷，晚上好！",
+      "en": "Good evening, Tingting!",
+      "tokens": [
+        {
+          "en": "Good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "evening,",
+          "cn": "晚上",
+          "pos": "名词"
+        },
+        {
+          "en": "Tingting!",
+          "cn": "婷婷",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u1-s07",
+      "unit": 1,
+      "cn": "婷婷，下午好！",
+      "en": "Good afternoon, Tingting!",
+      "tokens": [
+        {
+          "en": "Good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "afternoon,",
+          "cn": "下午，午后",
+          "pos": "名词"
+        },
+        {
+          "en": "Tingting!",
+          "cn": "婷婷",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u2-s01",
+      "unit": 2,
+      "cn": "是的，我会。",
+      "en": "Yes, I can.",
+      "tokens": [
+        {
+          "en": "Yes,",
+          "cn": "是的",
+          "pos": "副词"
+        },
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can.",
+          "cn": "能",
+          "pos": "情态动词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u2-s02",
+      "unit": 2,
+      "cn": "不，我不会。",
+      "en": "No, I can’t.",
+      "tokens": [
+        {
+          "en": "No,",
+          "cn": "不",
+          "pos": "副词"
+        },
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can’t.",
+          "cn": "不能",
+          "pos": "助动词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u2-s03",
+      "unit": 2,
+      "cn": "杨老师，早上好！",
+      "en": "Good morning, Miss Yang!",
+      "tokens": [
+        {
+          "en": "Good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "morning,",
+          "cn": "早晨，上午",
+          "pos": "名词"
+        },
+        {
+          "en": "Miss",
+          "cn": "小姐，女士（用于未婚女子姓氏前）",
+          "pos": "名词"
+        },
+        {
+          "en": "Yang!",
+          "cn": "杨",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s01",
+      "unit": 3,
+      "cn": "是的，我现在会唱了。",
+      "en": "Yes, I can sing now.",
+      "tokens": [
+        {
+          "en": "Yes,",
+          "cn": "是的",
+          "pos": "副词"
+        },
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "sing",
+          "cn": "唱",
+          "pos": "名词"
+        },
+        {
+          "en": "now.",
+          "cn": "现在",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s02",
+      "unit": 3,
+      "cn": "乐乐，你现在会唱《字母歌》了吗？",
+      "en": "Lele, can you sing The ABC Song now?",
+      "tokens": [
+        {
+          "en": "Lele,",
+          "cn": "乐乐",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "sing",
+          "cn": "唱",
+          "pos": "名词"
+        },
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "ABC",
+          "cn": "ABC",
+          "pos": "名词"
+        },
+        {
+          "en": "Song",
+          "cn": "歌",
+          "pos": "名词"
+        },
+        {
+          "en": "now?",
+          "cn": "现在",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s03",
+      "unit": 3,
+      "cn": "桑尼，晚上好！",
+      "en": "Good evening, Sunny!",
+      "tokens": [
+        {
+          "en": "Good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "evening,",
+          "cn": "晚上",
+          "pos": "名词"
+        },
+        {
+          "en": "Sunny!",
+          "cn": "桑尼",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u3-s04",
+      "unit": 3,
+      "cn": "哦，你是婷婷。",
+      "en": "Oh, you’re Tingting.",
+      "tokens": [
+        {
+          "en": "Oh,",
+          "cn": "哦",
+          "pos": "感叹词"
+        },
+        {
+          "en": "you’re",
+          "cn": "你是",
+          "pos": "缩略"
+        },
+        {
+          "en": "Tingting.",
+          "cn": "婷婷",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u4-s01",
+      "unit": 4,
+      "cn": "它是什么颜色的？",
+      "en": "What Colour Is It?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "Colour",
+          "cn": "颜色",
+          "pos": "名词"
+        },
+        {
+          "en": "Is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "It?",
+          "cn": "它",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u4-s02",
+      "unit": 4,
+      "cn": "桑尼是色彩小怪兽。",
+      "en": "Sunny is the Colour Monster.",
+      "tokens": [
+        {
+          "en": "Sunny",
+          "cn": "桑尼",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Colour",
+          "cn": "颜色",
+          "pos": "名词"
+        },
+        {
+          "en": "Monster.",
+          "cn": "怪物",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u5-s01",
+      "unit": 5,
+      "cn": "她是罗丝。",
+      "en": "She is Rose.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Rose.",
+          "cn": "罗斯",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u5-s02",
+      "unit": 5,
+      "cn": "他是李乐。",
+      "en": "He is Li Le.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "他",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Li",
+          "cn": "李",
+          "pos": "名词"
+        },
+        {
+          "en": "Le.",
+          "cn": "乐",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s01",
+      "unit": 6,
+      "cn": "我叫李乐。",
+      "en": "My name is Li Le.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Li",
+          "cn": "李",
+          "pos": "名词"
+        },
+        {
+          "en": "Le.",
+          "cn": "乐",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s02",
+      "unit": 6,
+      "cn": "我叫王婷。",
+      "en": "My name is Wang Ting.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Wang",
+          "cn": "王",
+          "pos": "名词"
+        },
+        {
+          "en": "Ting.",
+          "cn": "婷",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s03",
+      "unit": 6,
+      "cn": "会好起来的。",
+      "en": "It will be OK.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "will",
+          "cn": "将会",
+          "pos": "情态动词"
+        },
+        {
+          "en": "be",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "OK.",
+          "cn": "好",
+          "pos": "感叹词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s04",
+      "unit": 6,
+      "cn": "春节快乐！",
+      "en": "Happy Spring Festival!",
+      "tokens": [
+        {
+          "en": "Happy",
+          "cn": "高兴的",
+          "pos": "形容词"
+        },
+        {
+          "en": "Spring",
+          "cn": "春天",
+          "pos": "名词"
+        },
+        {
+          "en": "Festival!",
+          "cn": "节日",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s05",
+      "unit": 6,
+      "cn": "我们很开心，可零很难过。",
+      "en": "We are happy, but Zero is sad.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "happy,",
+          "cn": "高兴的",
+          "pos": "形容词"
+        },
+        {
+          "en": "but",
+          "cn": "但是",
+          "pos": "连词"
+        },
+        {
+          "en": "Zero",
+          "cn": "零",
+          "pos": "数词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "sad.",
+          "cn": "伤心的，难过的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u6-s06",
+      "unit": 6,
+      "cn": "开心一点吧，零。",
+      "en": "Be happy, Zero.",
+      "tokens": [
+        {
+          "en": "Be",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "happy,",
+          "cn": "高兴的",
+          "pos": "形容词"
+        },
+        {
+          "en": "Zero.",
+          "cn": "零",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u7-s01",
+      "unit": 7,
+      "cn": "你还好吗？",
+      "en": "Are you OK?",
+      "tokens": [
+        {
+          "en": "Are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "OK?",
+          "cn": "好",
+          "pos": "感叹词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u7-s02",
+      "unit": 7,
+      "cn": "你几岁了？",
+      "en": "How Old Are You?",
+      "tokens": [
+        {
+          "en": "How",
+          "cn": "怎样",
+          "pos": "疑问词"
+        },
+        {
+          "en": "Old",
+          "cn": "年老的年轻的，幼",
+          "pos": "形容词"
+        },
+        {
+          "en": "Are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "You?",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u7-s03",
+      "unit": 7,
+      "cn": "需要我帮忙吗？",
+      "en": "Can I help you?",
+      "tokens": [
+        {
+          "en": "Can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "help",
+          "cn": "帮助",
+          "pos": "动词"
+        },
+        {
+          "en": "you?",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u7-s04",
+      "unit": 7,
+      "cn": "我是零。",
+      "en": "I am Zero.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Zero.",
+          "cn": "零",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u9-s01",
+      "unit": 9,
+      "cn": "今天是元旦。",
+      "en": "Today is New Year’s Day.",
+      "tokens": [
+        {
+          "en": "Today",
+          "cn": "今天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "New",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "Year’s",
+          "cn": "年的",
+          "pos": "名词"
+        },
+        {
+          "en": "Day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "cj-3a-u9-s02",
+      "unit": 9,
+      "cn": "可是所有的数字朋友都希望零开心起来。",
+      "en": "But all number friends want Zero to be happy.",
+      "tokens": [
+        {
+          "en": "But",
+          "cn": "但是",
+          "pos": "连词"
+        },
+        {
+          "en": "all",
+          "cn": "全部",
+          "pos": "限定词"
+        },
+        {
+          "en": "number",
+          "cn": "编号",
+          "pos": "名词"
+        },
+        {
+          "en": "friends",
+          "cn": "朋友",
+          "pos": "名词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "Zero",
+          "cn": "零",
+          "pos": "数词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "be",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "happy.",
+          "cn": "高兴的",
+          "pos": "形容词"
+        }
+      ]
+    }
+  ]
 }

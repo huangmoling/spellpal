@@ -9,7 +9,7 @@
   "edition": "2025 春 · 新课标修订版",
   "stage": "primary",
   "wordCount": 131,
-  "sentenceCount": 0,
+  "sentenceCount": 32,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -2520,5 +2520,1267 @@
       "unit": 12
     }
   ],
-  "sentences": []
+  "sentences": [
+    {
+      "id": "hj-6b-u1-s01",
+      "unit": 1,
+      "cn": "乔正在乡下看望他的表哥乔治。",
+      "en": "Joe is visiting his cousin George in the countryside.",
+      "tokens": [
+        {
+          "en": "Joe",
+          "cn": "乔",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "visiting",
+          "cn": "拜访",
+          "pos": "名词"
+        },
+        {
+          "en": "his",
+          "cn": "他的",
+          "pos": "限定词"
+        },
+        {
+          "en": "cousin",
+          "cn": "堂（或表）兄弟",
+          "pos": "名词"
+        },
+        {
+          "en": "George",
+          "cn": "乔治",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "countryside.",
+          "cn": "乡村",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u1-s02",
+      "unit": 1,
+      "cn": "乔治，你有多重？",
+      "en": "How much do you weigh, George?",
+      "tokens": [
+        {
+          "en": "How",
+          "cn": "怎样",
+          "pos": "疑问词"
+        },
+        {
+          "en": "much",
+          "cn": "许多",
+          "pos": "限定词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "weigh,",
+          "cn": "重量是……",
+          "pos": "名词"
+        },
+        {
+          "en": "George?",
+          "cn": "乔治",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u2-s01",
+      "unit": 2,
+      "cn": "温女士是作家。",
+      "en": "Ms Wen is a writer.",
+      "tokens": [
+        {
+          "en": "Ms",
+          "cn": "女士",
+          "pos": "名词"
+        },
+        {
+          "en": "Wen",
+          "cn": "温",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "writer.",
+          "cn": "作家",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u2-s02",
+      "unit": 2,
+      "cn": "张先生是摄影师。",
+      "en": "Mr Zhang is a photographer.",
+      "tokens": [
+        {
+          "en": "Mr",
+          "cn": "先生",
+          "pos": "名词"
+        },
+        {
+          "en": "Zhang",
+          "cn": "张",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "photographer.",
+          "cn": "摄影师",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u2-s03",
+      "unit": 2,
+      "cn": "杨先生是环卫工人。",
+      "en": "Mr Yang is a street cleaner.",
+      "tokens": [
+        {
+          "en": "Mr",
+          "cn": "先生",
+          "pos": "名词"
+        },
+        {
+          "en": "Yang",
+          "cn": "杨",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "street",
+          "cn": "街道",
+          "pos": "名词"
+        },
+        {
+          "en": "cleaner.",
+          "cn": "清洁工",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u2-s04",
+      "unit": 2,
+      "cn": "洪太太是农民。",
+      "en": "Mrs Hong is a farmer.",
+      "tokens": [
+        {
+          "en": "Mrs",
+          "cn": "夫人",
+          "pos": "名词"
+        },
+        {
+          "en": "Hong",
+          "cn": "红",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "farmer.",
+          "cn": "农民",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u2-s05",
+      "unit": 2,
+      "cn": "有个穷苦的农夫叫弗雷德。",
+      "en": "There’s a poor farmer called Fred.",
+      "tokens": [
+        {
+          "en": "There’s",
+          "cn": "有",
+          "pos": "缩略"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "poor",
+          "cn": "可怜的",
+          "pos": "形容词"
+        },
+        {
+          "en": "farmer",
+          "cn": "农民",
+          "pos": "名词"
+        },
+        {
+          "en": "called",
+          "cn": "打电话",
+          "pos": "名词"
+        },
+        {
+          "en": "Fred.",
+          "cn": "弗雷德",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u2-s06",
+      "unit": 2,
+      "cn": "格林兄弟是德国作家。",
+      "en": "The Grimm brothers were German writers.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Grimm",
+          "cn": "格林",
+          "pos": "名词"
+        },
+        {
+          "en": "brothers",
+          "cn": "哥哥",
+          "pos": "名词"
+        },
+        {
+          "en": "were",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "German",
+          "cn": "德国的",
+          "pos": "形容词"
+        },
+        {
+          "en": "writers.",
+          "cn": "作家",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u3-s01",
+      "unit": 3,
+      "cn": "我们是六（1）班的学生。",
+      "en": "We are students from Class 6A.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "students",
+          "cn": "学生",
+          "pos": "名词"
+        },
+        {
+          "en": "from",
+          "cn": "从",
+          "pos": "介词"
+        },
+        {
+          "en": "Class",
+          "cn": "课",
+          "pos": "名词"
+        },
+        {
+          "en": "6A.",
+          "cn": "6A",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u3-s02",
+      "unit": 3,
+      "cn": "一天，鲁班在山上干活。",
+      "en": "One day, Lu Ban was at work on a mountain.",
+      "tokens": [
+        {
+          "en": "One",
+          "cn": "一",
+          "pos": "数词"
+        },
+        {
+          "en": "day,",
+          "cn": "天",
+          "pos": "名词"
+        },
+        {
+          "en": "Lu",
+          "cn": "鲁",
+          "pos": "名词"
+        },
+        {
+          "en": "Ban",
+          "cn": "班",
+          "pos": "名词"
+        },
+        {
+          "en": "was",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "work",
+          "cn": "工作",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "mountain.",
+          "cn": "山，山脉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u4-s01",
+      "unit": 4,
+      "cn": "这是一幅中国水墨画。",
+      "en": "This is a Chinese ink painting.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "Chinese",
+          "cn": "中国的",
+          "pos": "形容词"
+        },
+        {
+          "en": "ink",
+          "cn": "墨水",
+          "pos": "名词"
+        },
+        {
+          "en": "painting.",
+          "cn": "绘画",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u4-s02",
+      "unit": 4,
+      "cn": "基蒂为什么喜欢那幅油画？",
+      "en": "Why does Kitty like the oil painting?",
+      "tokens": [
+        {
+          "en": "Why",
+          "cn": "为什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "does",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Kitty",
+          "cn": "基蒂",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "oil",
+          "cn": "油",
+          "pos": "名词"
+        },
+        {
+          "en": "painting?",
+          "cn": "绘画",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u4-s03",
+      "unit": 4,
+      "cn": "乔为什么喜欢那幅中国水墨画？",
+      "en": "Why does Joe like the Chinese ink painting?",
+      "tokens": [
+        {
+          "en": "Why",
+          "cn": "为什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "does",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Joe",
+          "cn": "乔",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Chinese",
+          "cn": "中国的",
+          "pos": "形容词"
+        },
+        {
+          "en": "ink",
+          "cn": "墨水",
+          "pos": "名词"
+        },
+        {
+          "en": "painting?",
+          "cn": "绘画",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u4-s04",
+      "unit": 4,
+      "cn": "小利奥在上另一节课。",
+      "en": "Little Leo is in another lesson.",
+      "tokens": [
+        {
+          "en": "Little",
+          "cn": "小的",
+          "pos": "形容词"
+        },
+        {
+          "en": "Leo",
+          "cn": "利奥",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "another",
+          "cn": "另一，又一",
+          "pos": "名词"
+        },
+        {
+          "en": "lesson.",
+          "cn": "课",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u5-s01",
+      "unit": 5,
+      "cn": "这是文森特·凡·高的一幅画。",
+      "en": "This is a picture by Vincent van Gogh.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "picture",
+          "cn": "照片",
+          "pos": "名词"
+        },
+        {
+          "en": "by",
+          "cn": "乘",
+          "pos": "介词"
+        },
+        {
+          "en": "Vincent",
+          "cn": "文森特",
+          "pos": "名词"
+        },
+        {
+          "en": "van",
+          "cn": "客货车",
+          "pos": "名词"
+        },
+        {
+          "en": "Gogh.",
+          "cn": "高",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u5-s02",
+      "unit": 5,
+      "cn": "郭老师正在帮他们。",
+      "en": "Ms Guo is helping them.",
+      "tokens": [
+        {
+          "en": "Ms",
+          "cn": "女士",
+          "pos": "名词"
+        },
+        {
+          "en": "Guo",
+          "cn": "郭",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "helping",
+          "cn": "帮助",
+          "pos": "动词"
+        },
+        {
+          "en": "them.",
+          "cn": "他们",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u5-s03",
+      "unit": 5,
+      "cn": "吉尔，你想做什么？",
+      "en": "What do you want to make, Jill?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "make,",
+          "cn": "制作（过去式 made）",
+          "pos": "名词"
+        },
+        {
+          "en": "Jill?",
+          "cn": "吉尔",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u5-s04",
+      "unit": 5,
+      "cn": "乔、爱丽丝，你们在做什么？",
+      "en": "What are you making, Joe and Alice?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "making,",
+          "cn": "制作（过去式 made）",
+          "pos": "名词"
+        },
+        {
+          "en": "Joe",
+          "cn": "乔",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "Alice?",
+          "cn": "爱丽丝",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u5-s05",
+      "unit": 5,
+      "cn": "他的名字叫鲁班。",
+      "en": "His name was Lu Ban.",
+      "tokens": [
+        {
+          "en": "His",
+          "cn": "他的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "was",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Lu",
+          "cn": "鲁",
+          "pos": "名词"
+        },
+        {
+          "en": "Ban.",
+          "cn": "班",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u6-s01",
+      "unit": 6,
+      "cn": "我们学校每周有两节体育课。",
+      "en": "We have two PE lessons at school every week.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "two",
+          "cn": "二",
+          "pos": "数词"
+        },
+        {
+          "en": "PE",
+          "cn": "（学科）体育",
+          "pos": "名词"
+        },
+        {
+          "en": "lessons",
+          "cn": "课",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "school",
+          "cn": "学校",
+          "pos": "名词"
+        },
+        {
+          "en": "every",
+          "cn": "每一个",
+          "pos": "名词"
+        },
+        {
+          "en": "week.",
+          "cn": "星期，周",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u6-s02",
+      "unit": 6,
+      "cn": "风先生和太阳先生，谁更强？",
+      "en": "Who is stronger, Mr Wind or Mr Sun?",
+      "tokens": [
+        {
+          "en": "Who",
+          "cn": "谁",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "stronger,",
+          "cn": "更强大的",
+          "pos": "形容词"
+        },
+        {
+          "en": "Mr",
+          "cn": "先生",
+          "pos": "名词"
+        },
+        {
+          "en": "Wind",
+          "cn": "风",
+          "pos": "名词"
+        },
+        {
+          "en": "or",
+          "cn": "或者",
+          "pos": "连词"
+        },
+        {
+          "en": "Mr",
+          "cn": "先生",
+          "pos": "名词"
+        },
+        {
+          "en": "Sun?",
+          "cn": "孙",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u7-s01",
+      "unit": 7,
+      "cn": "今天是星期天。",
+      "en": "Today is Sunday.",
+      "tokens": [
+        {
+          "en": "Today",
+          "cn": "今天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Sunday.",
+          "cn": "星期日",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u7-s02",
+      "unit": 7,
+      "cn": "萨莉和彼得在公园里。",
+      "en": "Sally and Peter are in the park.",
+      "tokens": [
+        {
+          "en": "Sally",
+          "cn": "萨莉",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "Peter",
+          "cn": "彼得",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "park.",
+          "cn": "公园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u8-s01",
+      "unit": 8,
+      "cn": "她叫白雪。",
+      "en": "Her name is Snow.",
+      "tokens": [
+        {
+          "en": "Her",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Snow.",
+          "cn": "雪",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u8-s02",
+      "unit": 8,
+      "cn": "在英国，这个标志是一个红色的大圆圈。",
+      "en": "In the UK, the sign is a big red circle.",
+      "tokens": [
+        {
+          "en": "In",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "UK,",
+          "cn": "英国",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sign",
+          "cn": "标识",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "big",
+          "cn": "大的",
+          "pos": "形容词"
+        },
+        {
+          "en": "red",
+          "cn": "红色",
+          "pos": "名词"
+        },
+        {
+          "en": "circle.",
+          "cn": "圆",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u8-s03",
+      "unit": 8,
+      "cn": "我住在五月街。",
+      "en": "I live on May Street.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "live",
+          "cn": "居住",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "May",
+          "cn": "可以",
+          "pos": "情态动词"
+        },
+        {
+          "en": "Street.",
+          "cn": "街道",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u9-s01",
+      "unit": 9,
+      "cn": "我可以问你一个问题吗？",
+      "en": "Can I ask you a question?",
+      "tokens": [
+        {
+          "en": "Can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "ask",
+          "cn": "问，询问",
+          "pos": "名词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "question?",
+          "cn": "问题",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u11-s01",
+      "unit": 11,
+      "cn": "《伊索寓言》是另一本好书。",
+      "en": "Aesop’s Fables is another great book.",
+      "tokens": [
+        {
+          "en": "Aesop’s",
+          "cn": "伊索的",
+          "pos": "名词"
+        },
+        {
+          "en": "Fables",
+          "cn": "寓言",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "another",
+          "cn": "另一，又一",
+          "pos": "名词"
+        },
+        {
+          "en": "great",
+          "cn": "很好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "book.",
+          "cn": "书，书籍",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u11-s02",
+      "unit": 11,
+      "cn": "乔最喜欢的故事是《丑小鸭》。",
+      "en": "Joe’s favourite story is \"The ugly duckling\".",
+      "tokens": [
+        {
+          "en": "Joe’s",
+          "cn": "乔的",
+          "pos": "名词"
+        },
+        {
+          "en": "favourite",
+          "cn": "最喜爱的",
+          "pos": "形容词"
+        },
+        {
+          "en": "story",
+          "cn": "故事",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "\"The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "ugly",
+          "cn": "丑陋的",
+          "pos": "形容词"
+        },
+        {
+          "en": "duckling\".",
+          "cn": "小鸭子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u12-s01",
+      "unit": 12,
+      "cn": "那是圣诞前夜。",
+      "en": "It was Christmas Eve.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "was",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Christmas",
+          "cn": "圣诞节",
+          "pos": "名词"
+        },
+        {
+          "en": "Eve.",
+          "cn": "前夜",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u12-s02",
+      "unit": 12,
+      "cn": "我在哪儿？",
+      "en": "Where am I?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "I?",
+          "cn": "I",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-6b-u12-s03",
+      "unit": 12,
+      "cn": "鲁道夫，你的鼻子真了不起。",
+      "en": "You have a great nose, Rudolf.",
+      "tokens": [
+        {
+          "en": "You",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "great",
+          "cn": "很好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "nose,",
+          "cn": "鼻子",
+          "pos": "名词"
+        },
+        {
+          "en": "Rudolf.",
+          "cn": "鲁道夫",
+          "pos": "名词"
+        }
+      ]
+    }
+  ]
 }
