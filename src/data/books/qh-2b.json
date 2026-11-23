@@ -13,18 +13,10 @@
   "updatedAt": "2026-11-23",
   "units": [
     {
-      "no": 0,
-      "title": "Unit 0",
-      "theme": "",
-      "wordIds": [
-        "qh-2b-u0-01",
-        "qh-2b-u0-02"
-      ]
-    },
-    {
       "no": 1,
       "title": "Unit 1",
-      "theme": "SHAPES",
+      "theme": "形状",
+      "themeEn": "Shapes",
       "wordIds": [
         "qh-2b-u1-01",
         "qh-2b-u1-02",
@@ -35,7 +27,8 @@
     {
       "no": 2,
       "title": "Unit 2",
-      "theme": "FEELINGS",
+      "theme": "感觉和情绪",
+      "themeEn": "Feelings",
       "wordIds": [
         "qh-2b-u2-01",
         "qh-2b-u2-02",
@@ -49,13 +42,16 @@
         "qh-2b-u2-10",
         "qh-2b-u2-11",
         "qh-2b-u2-12",
-        "qh-2b-u2-13"
+        "qh-2b-u2-13",
+        "qh-2b-u2-14",
+        "qh-2b-u2-15"
       ]
     },
     {
       "no": 3,
       "title": "Unit 3",
-      "theme": "JOBS",
+      "theme": "职业",
+      "themeEn": "Jobs",
       "wordIds": [
         "qh-2b-u3-01",
         "qh-2b-u3-02",
@@ -72,7 +68,8 @@
     {
       "no": 4,
       "title": "Unit 4",
-      "theme": "SEASONS",
+      "theme": "季节",
+      "themeEn": "Seasons",
       "wordIds": [
         "qh-2b-u4-01",
         "qh-2b-u4-02",
@@ -88,7 +85,7 @@
   ],
   "words": [
     {
-      "id": "qh-2b-u0-01",
+      "id": "qh-2b-u2-01",
       "word": "angry",
       "phoneticUK": "/ˈæŋɡri/",
       "syllables": [
@@ -101,10 +98,10 @@
         }
       ],
       "grade": 2,
-      "unit": 0
+      "unit": 2
     },
     {
-      "id": "qh-2b-u0-02",
+      "id": "qh-2b-u2-02",
       "word": "future",
       "phoneticUK": "/ˈfjuːtʃə(r)/",
       "syllables": [
@@ -119,7 +116,7 @@
         }
       ],
       "grade": 2,
-      "unit": 0
+      "unit": 2
     },
     {
       "id": "qh-2b-u1-01",
@@ -190,7 +187,7 @@
       "unit": 1
     },
     {
-      "id": "qh-2b-u2-01",
+      "id": "qh-2b-u2-03",
       "word": "afraid",
       "phoneticUK": "/əˈfreɪd/",
       "syllables": [
@@ -207,7 +204,7 @@
       "unit": 2
     },
     {
-      "id": "qh-2b-u2-02",
+      "id": "qh-2b-u2-04",
       "word": "away",
       "phoneticUK": "/əˈweɪ/",
       "syllables": [
@@ -223,7 +220,7 @@
       "unit": 2
     },
     {
-      "id": "qh-2b-u2-03",
+      "id": "qh-2b-u2-05",
       "word": "bad",
       "phoneticUK": "/bæd/",
       "syllables": [
@@ -239,7 +236,7 @@
       "unit": 2
     },
     {
-      "id": "qh-2b-u2-04",
+      "id": "qh-2b-u2-06",
       "word": "bone",
       "phoneticUK": "/bəʊn/",
       "syllables": [
@@ -256,7 +253,7 @@
       "unit": 2
     },
     {
-      "id": "qh-2b-u2-05",
+      "id": "qh-2b-u2-07",
       "word": "come",
       "phoneticUK": "/kʌm/",
       "syllables": [
@@ -273,7 +270,7 @@
       "unit": 2
     },
     {
-      "id": "qh-2b-u2-06",
+      "id": "qh-2b-u2-08",
       "word": "cow",
       "phoneticUK": "/kaʊ/",
       "syllables": [
@@ -289,7 +286,7 @@
       "unit": 2
     },
     {
-      "id": "qh-2b-u2-07",
+      "id": "qh-2b-u2-09",
       "word": "drink",
       "phoneticUK": "/drɪŋk/",
       "syllables": [
@@ -306,7 +303,7 @@
       "unit": 2
     },
     {
-      "id": "qh-2b-u2-08",
+      "id": "qh-2b-u2-10",
       "word": "friend",
       "phoneticUK": "/frend/",
       "syllables": [
@@ -323,7 +320,7 @@
       "unit": 2
     },
     {
-      "id": "qh-2b-u2-09",
+      "id": "qh-2b-u2-11",
       "word": "from",
       "phoneticUK": "/frɒm/",
       "syllables": [
@@ -340,7 +337,7 @@
       "unit": 2
     },
     {
-      "id": "qh-2b-u2-10",
+      "id": "qh-2b-u2-12",
       "word": "hamburger",
       "phoneticUK": "/ˈhæmbɜːɡə(r)/",
       "syllables": [
@@ -359,7 +356,7 @@
       "unit": 2
     },
     {
-      "id": "qh-2b-u2-11",
+      "id": "qh-2b-u2-13",
       "word": "horse",
       "phoneticUK": "/hɔːs/",
       "syllables": [
@@ -376,7 +373,7 @@
       "unit": 2
     },
     {
-      "id": "qh-2b-u2-12",
+      "id": "qh-2b-u2-14",
       "word": "hungry",
       "phoneticUK": "/ˈhʌŋɡri/",
       "syllables": [
@@ -393,7 +390,7 @@
       "unit": 2
     },
     {
-      "id": "qh-2b-u2-13",
+      "id": "qh-2b-u2-15",
       "word": "lion",
       "phoneticUK": "/ˈlaɪən/",
       "syllables": [
@@ -740,8 +737,8 @@
   ],
   "sentences": [
     {
-      "id": "qh-2b-u0-s01",
-      "unit": 0,
+      "id": "qh-2b-u2-s01",
+      "unit": 2,
       "cn": "妈妈生气了。",
       "en": "Mother is angry.",
       "tokens": [
@@ -763,8 +760,8 @@
       ]
     },
     {
-      "id": "qh-2b-u0-s02",
-      "unit": 0,
+      "id": "qh-2b-u2-s02",
+      "unit": 2,
       "cn": "我将来想当医生。",
       "en": "I want to be a doctor in the future.",
       "tokens": [
@@ -915,7 +912,7 @@
       ]
     },
     {
-      "id": "qh-2b-u2-s01",
+      "id": "qh-2b-u2-s03",
       "unit": 2,
       "cn": "我害怕狮子。",
       "en": "I am afraid of the lion.",
@@ -953,7 +950,7 @@
       ]
     },
     {
-      "id": "qh-2b-u2-s02",
+      "id": "qh-2b-u2-s04",
       "unit": 2,
       "cn": "请离开。",
       "en": "Please go away.",
@@ -976,7 +973,7 @@
       ]
     },
     {
-      "id": "qh-2b-u2-s03",
+      "id": "qh-2b-u2-s05",
       "unit": 2,
       "cn": "天气很坏。",
       "en": "The weather is bad.",
@@ -1004,7 +1001,7 @@
       ]
     },
     {
-      "id": "qh-2b-u2-s04",
+      "id": "qh-2b-u2-s06",
       "unit": 2,
       "cn": "狗有一根骨头。",
       "en": "The dog has a bone.",
@@ -1037,7 +1034,7 @@
       ]
     },
     {
-      "id": "qh-2b-u2-s05",
+      "id": "qh-2b-u2-s07",
       "unit": 2,
       "cn": "请过来。",
       "en": "Come here, please.",
@@ -1060,7 +1057,7 @@
       ]
     },
     {
-      "id": "qh-2b-u2-s06",
+      "id": "qh-2b-u2-s08",
       "unit": 2,
       "cn": "母牛和马在农场里。",
       "en": "The cow and the horse are on the farm.",
@@ -1113,7 +1110,7 @@
       ]
     },
     {
-      "id": "qh-2b-u2-s07",
+      "id": "qh-2b-u2-s09",
       "unit": 2,
       "cn": "我想喝点水。",
       "en": "I want to drink some water.",
@@ -1151,7 +1148,7 @@
       ]
     },
     {
-      "id": "qh-2b-u2-s08",
+      "id": "qh-2b-u2-s10",
       "unit": 2,
       "cn": "她是我的朋友。",
       "en": "She is my friend.",
@@ -1179,7 +1176,7 @@
       ]
     },
     {
-      "id": "qh-2b-u2-s09",
+      "id": "qh-2b-u2-s11",
       "unit": 2,
       "cn": "我来自中国。",
       "en": "I am from China.",
@@ -1207,7 +1204,7 @@
       ]
     },
     {
-      "id": "qh-2b-u2-s10",
+      "id": "qh-2b-u2-s12",
       "unit": 2,
       "cn": "我吃一个汉堡包。",
       "en": "I eat a hamburger.",
@@ -1235,7 +1232,7 @@
       ]
     },
     {
-      "id": "qh-2b-u2-s11",
+      "id": "qh-2b-u2-s13",
       "unit": 2,
       "cn": "我饿了。",
       "en": "I am hungry.",

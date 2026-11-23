@@ -7,7 +7,7 @@ import fs from 'node:fs'
 const out = process.argv[2] || 'shot.png'
 const expr = process.argv[3] || '1'
 const wait = Number(process.argv[4] || 900)
-const port = Number(process.env.CDP_PORT || 9222)
+const port = Number(process.env.CDP_PORT || 9223)
 
 const list = await (await fetch(`http://127.0.0.1:${port}/json`)).json()
 const page =

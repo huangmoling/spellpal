@@ -34,7 +34,10 @@ const UNIT_COLORS = [
   '#F0A23A',
   '#FF7A6B',
 ]
-const unitColor = (no: number) => UNIT_COLORS[(no - 1) % UNIT_COLORS.length]
+const unitColor = (no: number) => {
+  const n = UNIT_COLORS.length
+  return UNIT_COLORS[(((no - 1) % n) + n) % n]
+}
 
 /**
  * 书 → 系列 key。跟 SERIES 的分组规则同源，出版社分开认，别再互相兜底：
@@ -267,8 +270,15 @@ export default function BookShelf({
                 >
                   {u.no}
                 </span>
-                <div className="mt-1.5 line-clamp-2 text-[16.5px] font-semibold leading-tight tracking-[0.02em] text-ink/85">
-                  {u.theme}
+                <div className="mt-1.5 min-w-0">
+                  <div className="line-clamp-2 text-[16px] font-semibold leading-tight tracking-[0.02em] text-ink/90">
+                    {u.theme || u.title}
+                  </div>
+                  {u.themeEn && (
+                    <div className="mt-0.5 line-clamp-1 text-[11.5px] leading-tight tracking-[0.01em] text-ink/50">
+                      {u.themeEn}
+                    </div>
+                  )}
                 </div>
                 {/* 正确率就是进度条的填充量；没练过的单元不画这条线 */}
                 {p && (

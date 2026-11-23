@@ -13,31 +13,26 @@
   "updatedAt": "2026-11-23",
   "units": [
     {
-      "no": 0,
-      "title": "Unit 0",
-      "theme": "",
-      "wordIds": [
-        "jk-3b-u0-01",
-        "jk-3b-u0-02",
-        "jk-3b-u0-03",
-        "jk-3b-u0-04"
-      ]
-    },
-    {
       "no": 1,
       "title": "Unit 1",
-      "theme": "",
+      "theme": "起床和上学准备",
+      "themeEn": "Getting ready for school",
       "wordIds": [
         "jk-3b-u1-01",
         "jk-3b-u1-02",
         "jk-3b-u1-03",
-        "jk-3b-u1-04"
+        "jk-3b-u1-04",
+        "jk-3b-u1-05",
+        "jk-3b-u1-06",
+        "jk-3b-u1-07",
+        "jk-3b-u1-08"
       ]
     },
     {
       "no": 2,
       "title": "Unit 2",
-      "theme": "",
+      "theme": "上学和回家",
+      "themeEn": "Going to school and home",
       "wordIds": [
         "jk-3b-u2-01",
         "jk-3b-u2-02",
@@ -51,7 +46,8 @@
     {
       "no": 3,
       "title": "Unit 3",
-      "theme": "",
+      "theme": "时间与作息",
+      "themeEn": "Telling the time",
       "wordIds": [
         "jk-3b-u3-01",
         "jk-3b-u3-02",
@@ -68,7 +64,8 @@
     {
       "no": 4,
       "title": "Unit 4",
-      "theme": "",
+      "theme": "课堂用语",
+      "themeEn": "In class",
       "wordIds": [
         "jk-3b-u4-01"
       ]
@@ -76,7 +73,8 @@
     {
       "no": 5,
       "title": "Unit 5",
-      "theme": "",
+      "theme": "班规和黑板报",
+      "themeEn": "Class rules",
       "wordIds": [
         "jk-3b-u5-01",
         "jk-3b-u5-02",
@@ -92,7 +90,8 @@
     {
       "no": 6,
       "title": "Unit 6",
-      "theme": "",
+      "theme": "午餐小帮手",
+      "themeEn": "Lunch helpers",
       "wordIds": [
         "jk-3b-u6-01",
         "jk-3b-u6-02",
@@ -108,7 +107,8 @@
     {
       "no": 7,
       "title": "Unit 7",
-      "theme": "",
+      "theme": "课间和走廊",
+      "themeEn": "Between classes",
       "wordIds": [
         "jk-3b-u7-01",
         "jk-3b-u7-02",
@@ -125,7 +125,8 @@
     {
       "no": 8,
       "title": "Unit 8",
-      "theme": "",
+      "theme": "校园安全",
+      "themeEn": "Safety at school",
       "wordIds": [
         "jk-3b-u8-01",
         "jk-3b-u8-02",
@@ -150,7 +151,7 @@
   ],
   "words": [
     {
-      "id": "jk-3b-u0-01",
+      "id": "jk-3b-u1-01",
       "word": "get up",
       "phoneticUK": "/ˌɡet ˈʌp/",
       "syllables": [
@@ -163,10 +164,10 @@
         }
       ],
       "grade": 3,
-      "unit": 0
+      "unit": 1
     },
     {
-      "id": "jk-3b-u0-02",
+      "id": "jk-3b-u1-02",
       "word": "hand out food",
       "phoneticUK": "/hænd ˈäʊ̯t fuːd/",
       "syllables": [
@@ -181,10 +182,10 @@
         }
       ],
       "grade": 3,
-      "unit": 0
+      "unit": 1
     },
     {
-      "id": "jk-3b-u0-03",
+      "id": "jk-3b-u1-03",
       "word": "on duty",
       "phoneticUK": "/ɒn ˈdjuː.ti/",
       "syllables": [
@@ -198,10 +199,10 @@
         }
       ],
       "grade": 3,
-      "unit": 0
+      "unit": 1
     },
     {
-      "id": "jk-3b-u0-04",
+      "id": "jk-3b-u1-04",
       "word": "polite",
       "phoneticUK": "/pəˈlaɪt/",
       "syllables": [
@@ -216,10 +217,10 @@
         }
       ],
       "grade": 3,
-      "unit": 0
+      "unit": 1
     },
     {
-      "id": "jk-3b-u1-01",
+      "id": "jk-3b-u1-05",
       "word": "brush my teeth",
       "phoneticUK": "/brʌʃ maɪ ˈtiːθ/",
       "syllables": [
@@ -237,7 +238,7 @@
       "unit": 1
     },
     {
-      "id": "jk-3b-u1-02",
+      "id": "jk-3b-u1-06",
       "word": "comb my hair",
       "phoneticUK": "/kəʊm maɪ heə(r)/",
       "syllables": [
@@ -255,7 +256,7 @@
       "unit": 1
     },
     {
-      "id": "jk-3b-u1-03",
+      "id": "jk-3b-u1-07",
       "word": "get dressed",
       "phoneticUK": "/ɡet drest/",
       "syllables": [
@@ -273,7 +274,7 @@
       "unit": 1
     },
     {
-      "id": "jk-3b-u1-04",
+      "id": "jk-3b-u1-08",
       "word": "have breakfast",
       "phoneticUK": "/hæv ˈbrekfəst/",
       "syllables": [
@@ -1448,8 +1449,8 @@
   ],
   "sentences": [
     {
-      "id": "jk-3b-u0-s01",
-      "unit": 0,
+      "id": "jk-3b-u1-s01",
+      "unit": 1,
       "cn": "我早上六点起床。",
       "en": "I get up at six in the morning.",
       "tokens": [
@@ -1496,8 +1497,8 @@
       ]
     },
     {
-      "id": "jk-3b-u0-s02",
-      "unit": 0,
+      "id": "jk-3b-u1-s02",
+      "unit": 1,
       "cn": "值日的时候我分发食物。",
       "en": "I hand out food when I am on duty.",
       "tokens": [
@@ -1549,8 +1550,8 @@
       ]
     },
     {
-      "id": "jk-3b-u0-s03",
-      "unit": 0,
+      "id": "jk-3b-u1-s03",
+      "unit": 1,
       "cn": "请对每个人有礼貌。",
       "en": "Please be polite to everyone.",
       "tokens": [
@@ -1582,7 +1583,7 @@
       ]
     },
     {
-      "id": "jk-3b-u1-s01",
+      "id": "jk-3b-u1-s04",
       "unit": 1,
       "cn": "我刷牙、梳头。",
       "en": "I brush my teeth and comb my hair.",
@@ -1630,7 +1631,7 @@
       ]
     },
     {
-      "id": "jk-3b-u1-s02",
+      "id": "jk-3b-u1-s05",
       "unit": 1,
       "cn": "我穿好衣服，七点吃早饭。",
       "en": "I get dressed and have breakfast at seven.",

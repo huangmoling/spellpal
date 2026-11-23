@@ -211,6 +211,69 @@ function createVoicePack({ app, ipcMain, distDir, manifestFile, getWindow }) {
     })
   }
 
+  /**
+   * 静默测速：对某个源发一个 64 KB 的 Range 探测，返回「首字节到达」的毫秒数。
+   * 不通 / 超时 / 404 一律返回 Infinity，排序时自然沉到最后。
+   * 全程不发进度事件，用户看不到，只是下载快一点。
+   */
+  function probeMirror(url, timeoutMs) {
+    return new Promise((resolve) => {
+      const started = Date.now()
+      let settled = false
+      const done = (ms) => {
+        if (settled) return
+        settled = true
+        resolve(ms)
+      }
+      const timer = setTimeout(() => done(Infinity), timeoutMs)
+      try {
+        const req = net.request({ url, method: 'GET', redirect: 'follow' })
+        req.setHeader('Range', 'bytes=0-65535')
+        req.setHeader('Cache-Control', 'no-cache')
+        req.on('response', (res) => {
+          const code = res.statusCode || 0
+          if (code >= 200 && code < 400) {
+            res.once('data', () => {
+              clearTimeout(timer)
+              done(Date.now() - started)
+              try {
+                req.abort()
+              } catch {}
+            })
+            res.once('end', () => {
+              clearTimeout(timer)
+              done(Date.now() - started)
+            })
+          } else {
+            clearTimeout(timer)
+            done(Infinity)
+          }
+        })
+        req.on('error', () => {
+          clearTimeout(timer)
+          done(Infinity)
+        })
+        req.end()
+      } catch {
+        clearTimeout(timer)
+        done(Infinity)
+      }
+    })
+  }
+
+  /**
+   * 自动优选：所有候选源并发探一次，按首字节耗时升序排。
+   * 探不通的排最后（还会当兜底试一次），保证「哪个节点快用哪个」。
+   */
+  async function rankMirrors(mirrors, sampleName) {
+    const sample = sampleName ? `/${encodeURIComponent(sampleName)}` : ''
+    const probed = await Promise.all(
+      mirrors.map(async (base, i) => ({ base, i, ms: await probeMirror(base + sample, 4000) })),
+    )
+    probed.sort((a, b) => (a.ms === b.ms ? a.i - b.i : a.ms - b.ms))
+    return probed.map((p) => p.base)
+  }
+
   /** 从若干候选地址里挑一个能用的（下载到第一块数据就算通） */
   async function downloadAll(opts) {
     const mirrors = []
@@ -223,6 +286,9 @@ function createVoicePack({ app, ipcMain, distDir, manifestFile, getWindow }) {
 
     const parts = manifest.parts || []
     if (!parts.length) throw new Error('语音包清单是空的，请先重新打包')
+
+    /* 用户手动指定了源就不测速了，直接按他给的顺序走 */
+    const ordered = opts.mirror ? mirrors : await rankMirrors(mirrors, parts[0].name)
 
     fs.mkdirSync(tmpDir, { recursive: true })
     /* 一卷的真实字节数 = zip 文件大小。清单里的 bytes 是卷内 mp3 之和，
@@ -280,7 +346,7 @@ function createVoicePack({ app, ipcMain, distDir, manifestFile, getWindow }) {
 
     let mirrorUsed = ''
     let lastError = null
-    for (const base of mirrors) {
+    for (const base of ordered) {
       try {
         for (let i = 0; i < parts.length; i += 1) {
           const part = parts[i]
@@ -322,7 +388,7 @@ function createVoicePack({ app, ipcMain, distDir, manifestFile, getWindow }) {
       } catch (e) {
         lastError = e
         /* 这个源不行；已下完整的卷留着，换源接着续传 */
-        if (base === mirrors[mirrors.length - 1]) throw e
+        if (base === ordered[ordered.length - 1]) throw e
         let host = base
         try {
           host = new URL(base).host

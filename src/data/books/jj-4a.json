@@ -13,25 +13,10 @@
   "updatedAt": "2026-11-23",
   "units": [
     {
-      "no": 0,
-      "title": "Unit 0",
-      "theme": "",
-      "wordIds": [
-        "jj-4a-u0-01",
-        "jj-4a-u0-02",
-        "jj-4a-u0-03",
-        "jj-4a-u0-04",
-        "jj-4a-u0-05",
-        "jj-4a-u0-06",
-        "jj-4a-u0-07",
-        "jj-4a-u0-08",
-        "jj-4a-u0-09"
-      ]
-    },
-    {
       "no": 1,
       "title": "Unit 1",
-      "theme": "School life",
+      "theme": "学校生活",
+      "themeEn": "School life",
       "wordIds": [
         "jj-4a-u1-01",
         "jj-4a-u1-02",
@@ -70,7 +55,8 @@
     {
       "no": 2,
       "title": "Unit 2",
-      "theme": "School rules",
+      "theme": "学校规则",
+      "themeEn": "School rules",
       "wordIds": [
         "jj-4a-u2-01",
         "jj-4a-u2-02",
@@ -110,7 +96,8 @@
     {
       "no": 3,
       "title": "Unit 3",
-      "theme": "Sports",
+      "theme": "运动",
+      "themeEn": "Sports",
       "wordIds": [
         "jj-4a-u3-01",
         "jj-4a-u3-02",
@@ -131,13 +118,23 @@
         "jj-4a-u3-17",
         "jj-4a-u3-18",
         "jj-4a-u3-19",
-        "jj-4a-u3-20"
+        "jj-4a-u3-20",
+        "jj-4a-u3-21",
+        "jj-4a-u3-22",
+        "jj-4a-u3-23",
+        "jj-4a-u3-24",
+        "jj-4a-u3-25",
+        "jj-4a-u3-26",
+        "jj-4a-u3-27",
+        "jj-4a-u3-28",
+        "jj-4a-u3-29"
       ]
     },
     {
       "no": 4,
       "title": "Unit 4",
-      "theme": "Jobs",
+      "theme": "职业",
+      "themeEn": "Jobs",
       "wordIds": [
         "jj-4a-u4-01",
         "jj-4a-u4-02",
@@ -180,7 +177,8 @@
     {
       "no": 5,
       "title": "Unit 5",
-      "theme": "Meet my family",
+      "theme": "我的家人",
+      "themeEn": "Meet my family",
       "wordIds": [
         "jj-4a-u5-01",
         "jj-4a-u5-02",
@@ -218,7 +216,8 @@
     {
       "no": 6,
       "title": "Unit 6",
-      "theme": "More about me",
+      "theme": "更多关于我",
+      "themeEn": "More about me",
       "wordIds": [
         "jj-4a-u6-01",
         "jj-4a-u6-02",
@@ -241,7 +240,7 @@
   ],
   "words": [
     {
-      "id": "jj-4a-u0-01",
+      "id": "jj-4a-u3-01",
       "word": "amazing",
       "phoneticUK": "/əˈmeɪzɪŋ/",
       "syllables": [
@@ -256,10 +255,10 @@
         }
       ],
       "grade": 4,
-      "unit": 0
+      "unit": 3
     },
     {
-      "id": "jj-4a-u0-02",
+      "id": "jj-4a-u3-02",
       "word": "basketball",
       "phoneticUK": "/ˈbɑːskɪtbɔːl/",
       "syllables": [
@@ -275,10 +274,10 @@
         }
       ],
       "grade": 4,
-      "unit": 0
+      "unit": 3
     },
     {
-      "id": "jj-4a-u0-03",
+      "id": "jj-4a-u3-03",
       "word": "cheer",
       "phoneticUK": "/tʃɪə(r)/",
       "syllables": [
@@ -292,10 +291,10 @@
         }
       ],
       "grade": 4,
-      "unit": 0
+      "unit": 3
     },
     {
-      "id": "jj-4a-u0-04",
+      "id": "jj-4a-u3-04",
       "word": "football",
       "phoneticUK": "/ˈfʊtbɔːl/",
       "syllables": [
@@ -310,10 +309,10 @@
         }
       ],
       "grade": 4,
-      "unit": 0
+      "unit": 3
     },
     {
-      "id": "jj-4a-u0-05",
+      "id": "jj-4a-u3-05",
       "word": "me",
       "phoneticUK": "/miː/",
       "syllables": [
@@ -326,10 +325,10 @@
         }
       ],
       "grade": 4,
-      "unit": 0
+      "unit": 3
     },
     {
-      "id": "jj-4a-u0-06",
+      "id": "jj-4a-u3-06",
       "word": "police",
       "phoneticUK": "/pəˈliːs/",
       "syllables": [
@@ -344,10 +343,10 @@
         }
       ],
       "grade": 4,
-      "unit": 0
+      "unit": 3
     },
     {
-      "id": "jj-4a-u0-07",
+      "id": "jj-4a-u3-07",
       "word": "proud",
       "phoneticUK": "/praʊd/",
       "syllables": [
@@ -361,10 +360,10 @@
         }
       ],
       "grade": 4,
-      "unit": 0
+      "unit": 3
     },
     {
-      "id": "jj-4a-u0-08",
+      "id": "jj-4a-u3-08",
       "word": "to",
       "phoneticUK": "/tuː/",
       "syllables": [
@@ -377,10 +376,10 @@
         }
       ],
       "grade": 4,
-      "unit": 0
+      "unit": 3
     },
     {
-      "id": "jj-4a-u0-09",
+      "id": "jj-4a-u3-09",
       "word": "traffic police officer",
       "phoneticUK": "/ˈtɹæfɪk pəˈliːs ˈɒf.ɪ.sə/",
       "syllables": [
@@ -399,7 +398,7 @@
         }
       ],
       "grade": 4,
-      "unit": 0
+      "unit": 3
     },
     {
       "id": "jj-4a-u1-01",
@@ -1513,7 +1512,7 @@
       "unit": 2
     },
     {
-      "id": "jj-4a-u3-01",
+      "id": "jj-4a-u3-10",
       "word": "against",
       "phoneticUK": "/əˈɡɛnst/",
       "syllables": [
@@ -1530,7 +1529,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-02",
+      "id": "jj-4a-u3-11",
       "word": "exciting",
       "phoneticUK": "/ɪkˈsaɪtɪŋ/",
       "syllables": [
@@ -1548,7 +1547,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-03",
+      "id": "jj-4a-u3-12",
       "word": "first",
       "phoneticUK": "/fɜːst/",
       "syllables": [
@@ -1565,7 +1564,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-04",
+      "id": "jj-4a-u3-13",
       "word": "heavy",
       "phoneticUK": "/ˈhevi/",
       "syllables": [
@@ -1582,7 +1581,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-05",
+      "id": "jj-4a-u3-14",
       "word": "high",
       "phoneticUK": "/haɪ/",
       "syllables": [
@@ -1599,7 +1598,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-06",
+      "id": "jj-4a-u3-15",
       "word": "high jump",
       "phoneticUK": "/haɪ dʒʌmp/",
       "syllables": [
@@ -1617,7 +1616,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-07",
+      "id": "jj-4a-u3-16",
       "word": "hooray",
       "phoneticUK": "/həˈreɪ/",
       "syllables": [
@@ -1634,7 +1633,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-08",
+      "id": "jj-4a-u3-17",
       "word": "light",
       "phoneticUK": "/laɪt/",
       "syllables": [
@@ -1651,7 +1650,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-09",
+      "id": "jj-4a-u3-18",
       "word": "now",
       "phoneticUK": "/naʊ/",
       "syllables": [
@@ -1667,7 +1666,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-10",
+      "id": "jj-4a-u3-19",
       "word": "ping-pong",
       "phoneticUK": "/ˈpɪŋ pɒŋ/",
       "syllables": [
@@ -1686,7 +1685,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-11",
+      "id": "jj-4a-u3-20",
       "word": "player",
       "phoneticUK": "/ˈpleɪə(r)/",
       "syllables": [
@@ -1703,7 +1702,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-12",
+      "id": "jj-4a-u3-21",
       "word": "save",
       "phoneticUK": "/seɪv/",
       "syllables": [
@@ -1720,7 +1719,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-13",
+      "id": "jj-4a-u3-22",
       "word": "second",
       "phoneticUK": "/ˈsɛk.ənd/",
       "syllables": [
@@ -1738,7 +1737,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-14",
+      "id": "jj-4a-u3-23",
       "word": "sport",
       "phoneticUK": "/spɔːt/",
       "syllables": [
@@ -1755,7 +1754,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-15",
+      "id": "jj-4a-u3-24",
       "word": "sports meet",
       "phoneticUK": "/spɔːɹts miːt/",
       "syllables": [
@@ -1773,7 +1772,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-16",
+      "id": "jj-4a-u3-25",
       "word": "team",
       "phoneticUK": "/tiːm/",
       "syllables": [
@@ -1790,7 +1789,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-17",
+      "id": "jj-4a-u3-26",
       "word": "they",
       "phoneticUK": "/ðeɪ/",
       "syllables": [
@@ -1806,7 +1805,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-18",
+      "id": "jj-4a-u3-27",
       "word": "very",
       "phoneticUK": "/ˈveri/",
       "syllables": [
@@ -1823,7 +1822,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-19",
+      "id": "jj-4a-u3-28",
       "word": "volleyball",
       "phoneticUK": "/ˈvɒlibɔːl/",
       "syllables": [
@@ -1842,7 +1841,7 @@
       "unit": 3
     },
     {
-      "id": "jj-4a-u3-20",
+      "id": "jj-4a-u3-29",
       "word": "watch",
       "phoneticUK": "/wɒtʃ/",
       "syllables": [
@@ -3299,8 +3298,8 @@
   ],
   "sentences": [
     {
-      "id": "jj-4a-u0-s01",
-      "unit": 0,
+      "id": "jj-4a-u3-s01",
+      "unit": 3,
       "cn": "你还好吗？",
       "en": "Are you OK?",
       "tokens": [
@@ -3322,8 +3321,8 @@
       ]
     },
     {
-      "id": "jj-4a-u0-s02",
-      "unit": 0,
+      "id": "jj-4a-u3-s02",
+      "unit": 3,
       "cn": "他们在为王红加油。",
       "en": "They are cheering for Wang Hong.",
       "tokens": [
@@ -3360,8 +3359,8 @@
       ]
     },
     {
-      "id": "jj-4a-u0-s03",
-      "unit": 0,
+      "id": "jj-4a-u3-s03",
+      "unit": 3,
       "cn": "我最喜欢的篮球运动员是姚明。",
       "en": "My favourite basketball player is Yao Ming.",
       "tokens": [
@@ -3403,8 +3402,8 @@
       ]
     },
     {
-      "id": "jj-4a-u0-s04",
-      "unit": 0,
+      "id": "jj-4a-u3-s04",
+      "unit": 3,
       "cn": "李明和丹尼在跑步。",
       "en": "Li Ming and Danny are running.",
       "tokens": [
@@ -3441,8 +3440,8 @@
       ]
     },
     {
-      "id": "jj-4a-u0-s05",
-      "unit": 0,
+      "id": "jj-4a-u3-s05",
+      "unit": 3,
       "cn": "我叫李明。",
       "en": "My name is Li Ming.",
       "tokens": [
@@ -3474,8 +3473,8 @@
       ]
     },
     {
-      "id": "jj-4a-u0-s06",
-      "unit": 0,
+      "id": "jj-4a-u3-s06",
+      "unit": 3,
       "cn": "多么令人惊奇的足球赛啊！",
       "en": "What an amazing football game!",
       "tokens": [
@@ -3507,8 +3506,8 @@
       ]
     },
     {
-      "id": "jj-4a-u0-s07",
-      "unit": 0,
+      "id": "jj-4a-u3-s07",
+      "unit": 3,
       "cn": "警察和交通警察帮助我们。",
       "en": "The police and the traffic police officer help us.",
       "tokens": [
@@ -3560,8 +3559,8 @@
       ]
     },
     {
-      "id": "jj-4a-u0-s08",
-      "unit": 0,
+      "id": "jj-4a-u3-s08",
+      "unit": 3,
       "cn": "我为做你的朋友而自豪。",
       "en": "I am proud to be your friend.",
       "tokens": [
@@ -5009,7 +5008,7 @@
       ]
     },
     {
-      "id": "jj-4a-u3-s01",
+      "id": "jj-4a-u3-s09",
       "unit": 3,
       "cn": "丹尼，你做什么运动吗？",
       "en": "Do you play any sports, Danny?",
@@ -5047,7 +5046,7 @@
       ]
     },
     {
-      "id": "jj-4a-u3-s02",
+      "id": "jj-4a-u3-s10",
       "unit": 3,
       "cn": "王红跑第一。",
       "en": "Wang Hong is first.",
@@ -5075,7 +5074,7 @@
       ]
     },
     {
-      "id": "jj-4a-u3-s03",
+      "id": "jj-4a-u3-s11",
       "unit": 3,
       "cn": "我现在多高了？",
       "en": "How tall am I now?",
@@ -5108,7 +5107,7 @@
       ]
     },
     {
-      "id": "jj-4a-u3-s04",
+      "id": "jj-4a-u3-s12",
       "unit": 3,
       "cn": "我们队将和二班比赛。",
       "en": "Our team will play against Class Two.",
@@ -5151,7 +5150,7 @@
       ]
     },
     {
-      "id": "jj-4a-u3-s05",
+      "id": "jj-4a-u3-s13",
       "unit": 3,
       "cn": "运动会非常令人兴奋。",
       "en": "The sports meet is very exciting.",
@@ -5189,7 +5188,7 @@
       ]
     },
     {
-      "id": "jj-4a-u3-s06",
+      "id": "jj-4a-u3-s14",
       "unit": 3,
       "cn": "箱子很重，球很轻。",
       "en": "The box is heavy, but the ball is light.",
@@ -5242,7 +5241,7 @@
       ]
     },
     {
-      "id": "jj-4a-u3-s07",
+      "id": "jj-4a-u3-s15",
       "unit": 3,
       "cn": "他会跳高。",
       "en": "He can do the high jump.",
@@ -5280,7 +5279,7 @@
       ]
     },
     {
-      "id": "jj-4a-u3-s08",
+      "id": "jj-4a-u3-s16",
       "unit": 3,
       "cn": "好极了！我们赢了比赛。",
       "en": "Hooray! We win the game.",
@@ -5313,7 +5312,7 @@
       ]
     },
     {
-      "id": "jj-4a-u3-s09",
+      "id": "jj-4a-u3-s17",
       "unit": 3,
       "cn": "我喜欢乒乓球和排球。",
       "en": "I like ping-pong and volleyball.",
@@ -5346,7 +5345,7 @@
       ]
     },
     {
-      "id": "jj-4a-u3-s10",
+      "id": "jj-4a-u3-s18",
       "unit": 3,
       "cn": "他是个好足球运动员。",
       "en": "He is a good football player.",
@@ -5384,7 +5383,7 @@
       ]
     },
     {
-      "id": "jj-4a-u3-s11",
+      "id": "jj-4a-u3-s19",
       "unit": 3,
       "cn": "守门员能救球。",
       "en": "The goalkeeper can save the ball.",
@@ -5422,7 +5421,7 @@
       ]
     },
     {
-      "id": "jj-4a-u3-s12",
+      "id": "jj-4a-u3-s20",
       "unit": 3,
       "cn": "她在比赛中是第二名。",
       "en": "She is the second in the race.",
@@ -5465,7 +5464,7 @@
       ]
     },
     {
-      "id": "jj-4a-u3-s13",
+      "id": "jj-4a-u3-s21",
       "unit": 3,
       "cn": "他们观看比赛。",
       "en": "They watch the game.",

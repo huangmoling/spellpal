@@ -15,7 +15,8 @@
     {
       "no": 1,
       "title": "Unit 1",
-      "theme": "",
+      "theme": "农场和山",
+      "themeEn": "On the farm",
       "wordIds": [
         "bj-6a-u1-01",
         "bj-6a-u1-02",
@@ -33,7 +34,8 @@
     {
       "no": 2,
       "title": "Unit 2",
-      "theme": "",
+      "theme": "比赛和心情",
+      "themeEn": "Matches and feelings",
       "wordIds": [
         "bj-6a-u2-01",
         "bj-6a-u2-02",
@@ -50,7 +52,8 @@
     {
       "no": 3,
       "title": "Unit 3",
-      "theme": "",
+      "theme": "出游",
+      "themeEn": "A trip out",
       "wordIds": [
         "bj-6a-u3-01",
         "bj-6a-u3-02",
@@ -66,9 +69,29 @@
       ]
     },
     {
+      "no": 4,
+      "title": "Unit 4",
+      "theme": "过去和现在",
+      "themeEn": "Then and now",
+      "wordIds": [
+        "bj-6a-u4-01",
+        "bj-6a-u4-02",
+        "bj-6a-u4-03",
+        "bj-6a-u4-04",
+        "bj-6a-u4-05",
+        "bj-6a-u4-06",
+        "bj-6a-u4-07",
+        "bj-6a-u4-08",
+        "bj-6a-u4-09",
+        "bj-6a-u4-10",
+        "bj-6a-u4-11"
+      ]
+    },
+    {
       "no": 5,
       "title": "Unit 5",
-      "theme": "",
+      "theme": "衣服和爱好",
+      "themeEn": "Clothes and hobbies",
       "wordIds": [
         "bj-6a-u5-01",
         "bj-6a-u5-02",
@@ -86,7 +109,8 @@
     {
       "no": 6,
       "title": "Unit 6",
-      "theme": "",
+      "theme": "动物和收藏",
+      "themeEn": "Animals and collections",
       "wordIds": [
         "bj-6a-u6-01",
         "bj-6a-u6-02",
@@ -98,28 +122,10 @@
         "bj-6a-u6-08",
         "bj-6a-u6-09",
         "bj-6a-u6-10",
-        "bj-6a-u6-11"
-      ]
-    },
-    {
-      "no": 7,
-      "title": "Unit 7",
-      "theme": "",
-      "wordIds": [
-        "bj-6a-u7-01",
-        "bj-6a-u7-02",
-        "bj-6a-u7-03",
-        "bj-6a-u7-04",
-        "bj-6a-u7-05",
-        "bj-6a-u7-06",
-        "bj-6a-u7-07",
-        "bj-6a-u7-08",
-        "bj-6a-u7-09",
-        "bj-6a-u7-10",
-        "bj-6a-u7-11",
-        "bj-6a-u7-12",
-        "bj-6a-u7-13",
-        "bj-6a-u7-14"
+        "bj-6a-u6-11",
+        "bj-6a-u6-12",
+        "bj-6a-u6-13",
+        "bj-6a-u6-14"
       ]
     }
   ],
@@ -672,7 +678,7 @@
       "unit": 3
     },
     {
-      "id": "bj-6a-u5-01",
+      "id": "bj-6a-u4-01",
       "word": "ago",
       "phoneticUK": "/əˈɡəʊ/",
       "syllables": [
@@ -685,10 +691,10 @@
         }
       ],
       "grade": 6,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-6a-u5-02",
+      "id": "bj-6a-u4-02",
       "word": "history",
       "phoneticUK": "/ˈhɪst(ə)ri/",
       "syllables": [
@@ -703,10 +709,10 @@
         }
       ],
       "grade": 6,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-6a-u5-03",
+      "id": "bj-6a-u4-03",
       "word": "hold",
       "phoneticUK": "/həʊld/",
       "syllables": [
@@ -720,10 +726,10 @@
         }
       ],
       "grade": 6,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-6a-u5-04",
+      "id": "bj-6a-u4-04",
       "word": "modern",
       "phoneticUK": "/ˈmɒd.ən/",
       "syllables": [
@@ -738,10 +744,10 @@
         }
       ],
       "grade": 6,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-6a-u5-05",
+      "id": "bj-6a-u4-05",
       "word": "number",
       "phoneticUK": "/ˈnʌmbə(r)/",
       "syllables": [
@@ -756,10 +762,10 @@
         }
       ],
       "grade": 6,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-6a-u5-06",
+      "id": "bj-6a-u4-06",
       "word": "PE",
       "phoneticUK": "/ˌpiː ˈiː/",
       "syllables": [
@@ -772,10 +778,10 @@
         }
       ],
       "grade": 6,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-6a-u5-07",
+      "id": "bj-6a-u4-07",
       "word": "stop",
       "phoneticUK": "/stɒp/",
       "syllables": [
@@ -789,10 +795,10 @@
         }
       ],
       "grade": 6,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-6a-u5-08",
+      "id": "bj-6a-u4-08",
       "word": "take part in",
       "phoneticUK": "/teɪk pɑːt ɪn/",
       "syllables": [
@@ -807,10 +813,10 @@
         }
       ],
       "grade": 6,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-6a-u5-09",
+      "id": "bj-6a-u4-09",
       "word": "those",
       "phoneticUK": "/ðəʊz/",
       "syllables": [
@@ -824,10 +830,10 @@
         }
       ],
       "grade": 6,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-6a-u5-10",
+      "id": "bj-6a-u4-10",
       "word": "visitor",
       "phoneticUK": "/ˈvɪzɪtə/",
       "syllables": [
@@ -843,10 +849,10 @@
         }
       ],
       "grade": 6,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-6a-u5-11",
+      "id": "bj-6a-u4-11",
       "word": "world",
       "phoneticUK": "/wɜːld/",
       "syllables": [
@@ -860,10 +866,10 @@
         }
       ],
       "grade": 6,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-6a-u6-01",
+      "id": "bj-6a-u5-01",
       "word": "clothes",
       "phoneticUK": "/kləʊðz/",
       "syllables": [
@@ -878,10 +884,10 @@
         }
       ],
       "grade": 6,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-6a-u6-02",
+      "id": "bj-6a-u5-02",
       "word": "colour",
       "phoneticUK": "/ˈkʌlə(r)/",
       "syllables": [
@@ -896,10 +902,10 @@
         }
       ],
       "grade": 6,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-6a-u6-03",
+      "id": "bj-6a-u5-03",
       "word": "dress",
       "phoneticUK": "/dres/",
       "syllables": [
@@ -913,10 +919,10 @@
         }
       ],
       "grade": 6,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-6a-u6-04",
+      "id": "bj-6a-u5-04",
       "word": "goodbye",
       "phoneticUK": "/ˌɡʊdˈbaɪ/",
       "syllables": [
@@ -930,10 +936,10 @@
         }
       ],
       "grade": 6,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-6a-u6-05",
+      "id": "bj-6a-u5-05",
       "word": "hobby",
       "phoneticUK": "/ˈhɒbi/",
       "syllables": [
@@ -947,10 +953,10 @@
         }
       ],
       "grade": 6,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-6a-u6-06",
+      "id": "bj-6a-u5-06",
       "word": "like",
       "phoneticUK": "/laɪk/",
       "syllables": [
@@ -964,10 +970,10 @@
         }
       ],
       "grade": 6,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-6a-u6-07",
+      "id": "bj-6a-u5-07",
       "word": "Mr",
       "phoneticUK": "/ˈmɪstə(r)/",
       "syllables": [
@@ -980,10 +986,10 @@
         }
       ],
       "grade": 6,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-6a-u6-08",
+      "id": "bj-6a-u5-08",
       "word": "sing",
       "phoneticUK": "/sɪŋ/",
       "syllables": [
@@ -997,10 +1003,10 @@
         }
       ],
       "grade": 6,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-6a-u6-09",
+      "id": "bj-6a-u5-09",
       "word": "singer",
       "phoneticUK": "/ˈsɪŋə(r)/",
       "syllables": [
@@ -1015,10 +1021,10 @@
         }
       ],
       "grade": 6,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-6a-u6-10",
+      "id": "bj-6a-u5-10",
       "word": "stage",
       "phoneticUK": "/steɪd͡ʒ/",
       "syllables": [
@@ -1032,10 +1038,10 @@
         }
       ],
       "grade": 6,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-6a-u6-11",
+      "id": "bj-6a-u5-11",
       "word": "tie",
       "phoneticUK": "/taɪ/",
       "syllables": [
@@ -1048,10 +1054,10 @@
         }
       ],
       "grade": 6,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-6a-u7-01",
+      "id": "bj-6a-u6-01",
       "word": "animal",
       "phoneticUK": "/ˈænɪməl/",
       "syllables": [
@@ -1066,10 +1072,10 @@
         }
       ],
       "grade": 6,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-6a-u7-02",
+      "id": "bj-6a-u6-02",
       "word": "choose",
       "phoneticUK": "/tʃuːz/",
       "syllables": [
@@ -1083,10 +1089,10 @@
         }
       ],
       "grade": 6,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-6a-u7-03",
+      "id": "bj-6a-u6-03",
       "word": "collect",
       "phoneticUK": "/ˈkɒlɪkt/",
       "syllables": [
@@ -1101,10 +1107,10 @@
         }
       ],
       "grade": 6,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-6a-u7-04",
+      "id": "bj-6a-u6-04",
       "word": "decide",
       "phoneticUK": "/dɪˈsaɪd/",
       "syllables": [
@@ -1119,10 +1125,10 @@
         }
       ],
       "grade": 6,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-6a-u7-05",
+      "id": "bj-6a-u6-05",
       "word": "order",
       "phoneticUK": "/ˈɔː.də/",
       "syllables": [
@@ -1136,10 +1142,10 @@
         }
       ],
       "grade": 6,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-6a-u7-06",
+      "id": "bj-6a-u6-06",
       "word": "ox",
       "phoneticUK": "/ɒks/",
       "syllables": [
@@ -1152,10 +1158,10 @@
         }
       ],
       "grade": 6,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-6a-u7-07",
+      "id": "bj-6a-u6-07",
       "word": "rabbit",
       "phoneticUK": "/ˈræbɪt/",
       "syllables": [
@@ -1170,10 +1176,10 @@
         }
       ],
       "grade": 6,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-6a-u7-08",
+      "id": "bj-6a-u6-08",
       "word": "rat",
       "phoneticUK": "/ɹæt/",
       "syllables": [
@@ -1186,10 +1192,10 @@
         }
       ],
       "grade": 6,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-6a-u7-09",
+      "id": "bj-6a-u6-09",
       "word": "show",
       "phoneticUK": "/ʃəʊ/",
       "syllables": [
@@ -1203,10 +1209,10 @@
         }
       ],
       "grade": 6,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-6a-u7-10",
+      "id": "bj-6a-u6-10",
       "word": "stamp",
       "phoneticUK": "/stæmp/",
       "syllables": [
@@ -1220,10 +1226,10 @@
         }
       ],
       "grade": 6,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-6a-u7-11",
+      "id": "bj-6a-u6-11",
       "word": "start",
       "phoneticUK": "/stɑːt/",
       "syllables": [
@@ -1237,10 +1243,10 @@
         }
       ],
       "grade": 6,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-6a-u7-12",
+      "id": "bj-6a-u6-12",
       "word": "tiger",
       "phoneticUK": "/ˈtaɪɡə(r)/",
       "syllables": [
@@ -1255,10 +1261,10 @@
         }
       ],
       "grade": 6,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-6a-u7-13",
+      "id": "bj-6a-u6-13",
       "word": "twelve",
       "phoneticUK": "/twelv/",
       "syllables": [
@@ -1272,10 +1278,10 @@
         }
       ],
       "grade": 6,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-6a-u7-14",
+      "id": "bj-6a-u6-14",
       "word": "worker",
       "phoneticUK": "/ˈwɜːkə(r)/",
       "syllables": [
@@ -1290,7 +1296,7 @@
         }
       ],
       "grade": 6,
-      "unit": 7
+      "unit": 6
     }
   ],
   "sentences": [
@@ -3014,8 +3020,8 @@
       ]
     },
     {
-      "id": "bj-6a-u5-s01",
-      "unit": 5,
+      "id": "bj-6a-u4-s01",
+      "unit": 4,
       "cn": "呃，那些是现代奥运会。",
       "en": "Well, those are the modern Olympic Games.",
       "tokens": [
@@ -3057,8 +3063,8 @@
       ]
     },
     {
-      "id": "bj-6a-u5-s02",
-      "unit": 5,
+      "id": "bj-6a-u4-s02",
+      "unit": 4,
       "cn": "男女都能参加奥运会吗？",
       "en": "Could both men and women take part in the Games?",
       "tokens": [
@@ -3115,8 +3121,8 @@
       ]
     },
     {
-      "id": "bj-6a-u5-s03",
-      "unit": 5,
+      "id": "bj-6a-u4-s03",
+      "unit": 4,
       "cn": "你知道现代奥运会的口号吗？",
       "en": "Do you know the motto of the modern Olympics?",
       "tokens": [
@@ -3168,8 +3174,8 @@
       ]
     },
     {
-      "id": "bj-6a-u5-s04",
-      "unit": 5,
+      "id": "bj-6a-u4-s04",
+      "unit": 4,
       "cn": "关于奥运会你了解多少？",
       "en": "How much do you know about the Olympics?",
       "tokens": [
@@ -3216,8 +3222,8 @@
       ]
     },
     {
-      "id": "bj-6a-u5-s05",
-      "unit": 5,
+      "id": "bj-6a-u4-s05",
+      "unit": 4,
       "cn": "萨拉，你表哥做什么工作？",
       "en": "What does your cousin do, Sara?",
       "tokens": [
@@ -3254,8 +3260,8 @@
       ]
     },
     {
-      "id": "bj-6a-u5-s06",
-      "unit": 5,
+      "id": "bj-6a-u4-s06",
+      "unit": 4,
       "cn": "我的尺码也是大号。",
       "en": "My size is Large, too.",
       "tokens": [
@@ -3287,8 +3293,8 @@
       ]
     },
     {
-      "id": "bj-6a-u6-s01",
-      "unit": 6,
+      "id": "bj-6a-u5-s01",
+      "unit": 5,
       "cn": "是的，他就是布朗先生。",
       "en": "Yes, he is Mr Brown.",
       "tokens": [
@@ -3320,8 +3326,8 @@
       ]
     },
     {
-      "id": "bj-6a-u6-s02",
-      "unit": 6,
+      "id": "bj-6a-u5-s02",
+      "unit": 5,
       "cn": "我希望能站在舞台上唱歌。",
       "en": "I wish I could sing on stage.",
       "tokens": [
@@ -3363,8 +3369,8 @@
       ]
     },
     {
-      "id": "bj-6a-u6-s03",
-      "unit": 6,
+      "id": "bj-6a-u5-s03",
+      "unit": 5,
       "cn": "我有一份新年礼物给你。",
       "en": "I have a New Year gift for you.",
       "tokens": [
@@ -3411,8 +3417,8 @@
       ]
     },
     {
-      "id": "bj-6a-u6-s04",
-      "unit": 6,
+      "id": "bj-6a-u5-s04",
+      "unit": 5,
       "cn": "2008 年，中国运动员第一个进入体育场。",
       "en": "In 2008, athletes from China entered the stadium first.",
       "tokens": [
@@ -3464,8 +3470,8 @@
       ]
     },
     {
-      "id": "bj-6a-u6-s05",
-      "unit": 6,
+      "id": "bj-6a-u5-s05",
+      "unit": 5,
       "cn": "北京于 2008 年举办了第二十九届奥运会。",
       "en": "Beijing held the 29th Olympic Games in 2008.",
       "tokens": [
@@ -3512,8 +3518,8 @@
       ]
     },
     {
-      "id": "bj-6a-u6-s06",
-      "unit": 6,
+      "id": "bj-6a-u5-s06",
+      "unit": 5,
       "cn": "我最喜欢的老师是李老师。",
       "en": "My favourite teacher is Mr Li.",
       "tokens": [
@@ -3550,8 +3556,8 @@
       ]
     },
     {
-      "id": "bj-6a-u6-s07",
-      "unit": 6,
+      "id": "bj-6a-u5-s07",
+      "unit": 5,
       "cn": "马克的朋友还喜欢他吗？",
       "en": "Do Mark’s friends still like him?",
       "tokens": [
@@ -3588,8 +3594,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s01",
-      "unit": 7,
+      "id": "bj-6a-u6-s01",
+      "unit": 6,
       "cn": "十二生肖是哪些动物？",
       "en": "WHAT ARE THE TWELVE ANIMALS?",
       "tokens": [
@@ -3621,8 +3627,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s02",
-      "unit": 7,
+      "id": "bj-6a-u6-s02",
+      "unit": 6,
       "cn": "阳阳，是谁决定了生肖的顺序？",
       "en": "Who decided the order of the birth-year animals, Yangyang?",
       "tokens": [
@@ -3674,8 +3680,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s03",
-      "unit": 7,
+      "id": "bj-6a-u6-s03",
+      "unit": 6,
       "cn": "迈克，你的属相是什么？",
       "en": "What is your birth-year animal, Mike?",
       "tokens": [
@@ -3712,8 +3718,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s04",
-      "unit": 7,
+      "id": "bj-6a-u6-s04",
+      "unit": 6,
       "cn": "这个女孩是艾玛。",
       "en": "This girl is Emma.",
       "tokens": [
@@ -3740,8 +3746,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s05",
-      "unit": 7,
+      "id": "bj-6a-u6-s05",
+      "unit": 6,
       "cn": "那个女孩是劳拉。",
       "en": "That girl is Laura.",
       "tokens": [
@@ -3768,8 +3774,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s06",
-      "unit": 7,
+      "id": "bj-6a-u6-s06",
+      "unit": 6,
       "cn": "曹冲想了又想。",
       "en": "Cao Chong was thinking and thinking.",
       "tokens": [
@@ -3806,8 +3812,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s07",
-      "unit": 7,
+      "id": "bj-6a-u6-s07",
+      "unit": 6,
       "cn": "曹冲用什么称大象？",
       "en": "What did Cao Chong use to weigh the elephant?",
       "tokens": [
@@ -3859,8 +3865,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s08",
-      "unit": 7,
+      "id": "bj-6a-u6-s08",
+      "unit": 6,
       "cn": "他修好了弗兰克的船。",
       "en": "He fixed Frank’s ship.",
       "tokens": [
@@ -3887,8 +3893,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s09",
-      "unit": 7,
+      "id": "bj-6a-u6-s09",
+      "unit": 6,
       "cn": "木兰为什么知道自己必须上战场？",
       "en": "Why did Mulan know she had to fight in the war?",
       "tokens": [
@@ -3950,8 +3956,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s10",
-      "unit": 7,
+      "id": "bj-6a-u6-s10",
+      "unit": 6,
       "cn": "军中没人知道木兰是女子。",
       "en": "No one in the army knew that Mulan was a woman.",
       "tokens": [
@@ -4013,8 +4019,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s11",
-      "unit": 7,
+      "id": "bj-6a-u6-s11",
+      "unit": 6,
       "cn": "你从花木兰的故事里学到了什么？",
       "en": "What can you learn from Hua Mulan’s story?",
       "tokens": [
@@ -4061,8 +4067,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s12",
-      "unit": 7,
+      "id": "bj-6a-u6-s12",
+      "unit": 6,
       "cn": "是她们的朋友木兰。",
       "en": "It was their friend, Mulan.",
       "tokens": [
@@ -4759,8 +4765,8 @@
       ]
     },
     {
-      "id": "bj-6a-u5-s07",
-      "unit": 5,
+      "id": "bj-6a-u4-s07",
+      "unit": 4,
       "cn": "我两年前来这里。",
       "en": "I came here two years ago.",
       "tokens": [
@@ -4797,8 +4803,8 @@
       ]
     },
     {
-      "id": "bj-6a-u5-s08",
-      "unit": 5,
+      "id": "bj-6a-u4-s08",
+      "unit": 4,
       "cn": "我喜欢历史。",
       "en": "I like history.",
       "tokens": [
@@ -4820,8 +4826,8 @@
       ]
     },
     {
-      "id": "bj-6a-u5-s09",
-      "unit": 5,
+      "id": "bj-6a-u4-s09",
+      "unit": 4,
       "cn": "拿着我的手。",
       "en": "Hold my hand.",
       "tokens": [
@@ -4843,8 +4849,8 @@
       ]
     },
     {
-      "id": "bj-6a-u5-s10",
-      "unit": 5,
+      "id": "bj-6a-u4-s10",
+      "unit": 4,
       "cn": "你的编号是多少？",
       "en": "What is your number?",
       "tokens": [
@@ -4871,8 +4877,8 @@
       ]
     },
     {
-      "id": "bj-6a-u5-s11",
-      "unit": 5,
+      "id": "bj-6a-u4-s11",
+      "unit": 4,
       "cn": "体育课很有趣。",
       "en": "PE is fun.",
       "tokens": [
@@ -4894,8 +4900,8 @@
       ]
     },
     {
-      "id": "bj-6a-u5-s12",
-      "unit": 5,
+      "id": "bj-6a-u4-s12",
+      "unit": 4,
       "cn": "停在这里。",
       "en": "Stop here.",
       "tokens": [
@@ -4912,8 +4918,8 @@
       ]
     },
     {
-      "id": "bj-6a-u5-s13",
-      "unit": 5,
+      "id": "bj-6a-u4-s13",
+      "unit": 4,
       "cn": "访问者来了。",
       "en": "The visitor is here.",
       "tokens": [
@@ -4940,8 +4946,8 @@
       ]
     },
     {
-      "id": "bj-6a-u5-s14",
-      "unit": 5,
+      "id": "bj-6a-u4-s14",
+      "unit": 4,
       "cn": "世界很大。",
       "en": "The world is big.",
       "tokens": [
@@ -4968,8 +4974,8 @@
       ]
     },
     {
-      "id": "bj-6a-u6-s08",
-      "unit": 6,
+      "id": "bj-6a-u5-s08",
+      "unit": 5,
       "cn": "这些是我的衣服。",
       "en": "These are my clothes.",
       "tokens": [
@@ -4996,8 +5002,8 @@
       ]
     },
     {
-      "id": "bj-6a-u6-s09",
-      "unit": 6,
+      "id": "bj-6a-u5-s09",
+      "unit": 5,
       "cn": "它是什么颜色？",
       "en": "What colour is it?",
       "tokens": [
@@ -5024,8 +5030,8 @@
       ]
     },
     {
-      "id": "bj-6a-u6-s10",
-      "unit": 6,
+      "id": "bj-6a-u5-s10",
+      "unit": 5,
       "cn": "这是我的服装。",
       "en": "This is my dress.",
       "tokens": [
@@ -5052,8 +5058,8 @@
       ]
     },
     {
-      "id": "bj-6a-u6-s11",
-      "unit": 6,
+      "id": "bj-6a-u5-s11",
+      "unit": 5,
       "cn": "再见！",
       "en": "Goodbye!",
       "tokens": [
@@ -5065,8 +5071,8 @@
       ]
     },
     {
-      "id": "bj-6a-u6-s12",
-      "unit": 6,
+      "id": "bj-6a-u5-s12",
+      "unit": 5,
       "cn": "我的业余爱好是读书。",
       "en": "My hobby is reading.",
       "tokens": [
@@ -5093,8 +5099,8 @@
       ]
     },
     {
-      "id": "bj-6a-u6-s13",
-      "unit": 6,
+      "id": "bj-6a-u5-s13",
+      "unit": 5,
       "cn": "她是歌手。",
       "en": "She is a singer.",
       "tokens": [
@@ -5121,8 +5127,8 @@
       ]
     },
     {
-      "id": "bj-6a-u6-s14",
-      "unit": 6,
+      "id": "bj-6a-u5-s14",
+      "unit": 5,
       "cn": "他系着领带。",
       "en": "He wears a tie.",
       "tokens": [
@@ -5149,8 +5155,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s13",
-      "unit": 7,
+      "id": "bj-6a-u6-s13",
+      "unit": 6,
       "cn": "选择一个。",
       "en": "Choose one.",
       "tokens": [
@@ -5167,8 +5173,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s14",
-      "unit": 7,
+      "id": "bj-6a-u6-s14",
+      "unit": 6,
       "cn": "我收集邮票。",
       "en": "I collect stamps.",
       "tokens": [
@@ -5190,8 +5196,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s15",
-      "unit": 7,
+      "id": "bj-6a-u6-s15",
+      "unit": 6,
       "cn": "公牛很强壮。",
       "en": "The ox is strong.",
       "tokens": [
@@ -5218,8 +5224,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s16",
-      "unit": 7,
+      "id": "bj-6a-u6-s16",
+      "unit": 6,
       "cn": "兔子是白色的。",
       "en": "The rabbit is white.",
       "tokens": [
@@ -5246,8 +5252,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s17",
-      "unit": 7,
+      "id": "bj-6a-u6-s17",
+      "unit": 6,
       "cn": "老鼠很小。",
       "en": "The rat is small.",
       "tokens": [
@@ -5274,8 +5280,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s18",
-      "unit": 7,
+      "id": "bj-6a-u6-s18",
+      "unit": 6,
       "cn": "把你的邮票给我看。",
       "en": "Show me your stamps.",
       "tokens": [
@@ -5302,8 +5308,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s19",
-      "unit": 7,
+      "id": "bj-6a-u6-s19",
+      "unit": 6,
       "cn": "开始吧。",
       "en": "Let's start.",
       "tokens": [
@@ -5320,8 +5326,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s20",
-      "unit": 7,
+      "id": "bj-6a-u6-s20",
+      "unit": 6,
       "cn": "老虎很大。",
       "en": "The tiger is big.",
       "tokens": [
@@ -5348,8 +5354,8 @@
       ]
     },
     {
-      "id": "bj-6a-u7-s21",
-      "unit": 7,
+      "id": "bj-6a-u6-s21",
+      "unit": 6,
       "cn": "他是工人。",
       "en": "He is a worker.",
       "tokens": [

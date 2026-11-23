@@ -21,7 +21,10 @@ export interface Word {
 export interface Unit {
   no: number
   title: string
+  /** 单元要点（中文，界面主显示） */
   theme: string
+  /** 单元要点英文副标题，显示在中文下方 */
+  themeEn?: string
   wordIds: string[]
 }
 

@@ -17,3 +17,7 @@ Thumbs.db
 # Python 字节码
 __pycache__/
 *.pyc
+
+# 临时推送仓与旧构建备份
+.voicepush/
+dist-old-1992/

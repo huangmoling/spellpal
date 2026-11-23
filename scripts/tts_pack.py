@@ -93,13 +93,36 @@ MIN_MP3_BYTES = 600
 
 PACK_FORMAT = "spellpal-voice-pack"
 REPO_URL = "https://github.com/huangmoling/spellpal"
-# 客户端拼下载地址的模板，{version} 会被清单里的版本号替换
+GIT_USER = "huangmoling"
+GIT_REPO = "spellpal"
+# 语音包另存一份在仓库的 voice-{version} 分支/标签上，这样 jsDelivr / raw 这类
+# 「只认仓库文件、不认 Release 附件」的 CDN 也能供源。
+# 注意：jsDelivr 只索引 semver 形式的标签（2026.11.23 可以，voice-20261123 不行），
+# 所以 CDN 用 {cdn} 占位符，由版本号推导出 2026.11.23 这种写法。
+GIT_TAG = "voice-{version}"
+# 客户端拼下载地址的模板，{version} → 20261123，{cdn} → 2026.11.23
 DEFAULT_BASE_URL = REPO_URL + "/releases/download/voice-{version}"
-# 国内直连 GitHub Release 经常龟速/超时，给几个公共加速前缀做兜底
 DEFAULT_MIRRORS = [
+    # 仓库文件走 CDN（jsDelivr 单文件 20 MB 上限，所以默认按 18 MB 切卷）
+    f"https://cdn.jsdelivr.net/gh/{GIT_USER}/{GIT_REPO}@{{cdn}}",
+    f"https://fastly.jsdelivr.net/gh/{GIT_USER}/{GIT_REPO}@{{cdn}}",
+    f"https://gcore.jsdelivr.net/gh/{GIT_USER}/{GIT_REPO}@{{cdn}}",
+    f"https://raw.githubusercontent.com/{GIT_USER}/{GIT_REPO}/{{cdn}}",
+    # Release 直连 + 两个公共反代
+    REPO_URL + "/releases/download/voice-{version}",
     "https://ghfast.top/" + REPO_URL + "/releases/download/voice-{version}",
     "https://gh-proxy.com/" + REPO_URL + "/releases/download/voice-{version}",
 ]
+# jsDelivr 对单文件有 20 MB 硬上限，默认切卷留一点余量
+DEFAULT_SPLIT_MB = 18
+
+
+def cdn_ref(version: str) -> str:
+    """20261123 → 2026.11.23（jsDelivr 只认 semver 标签）"""
+    v = str(version).strip()
+    if len(v) == 8 and v.isdigit():
+        return f"{v[0:4]}.{v[4:6]}.{v[6:8]}"
+    return v
 
 
 # ---------------------------------------------------------------- 小工具
@@ -347,7 +370,17 @@ async def synth_all(items: list[tuple[str, str]], args: argparse.Namespace, inde
     async def worker(text: str, kind: str) -> None:
         rate = args.word_rate if kind == "word" else args.sent_rate
         path = os.path.join(VOICE_DIR, key_of(text) + ".mp3")
-        ok = await synth_one(text, path, args.voice, rate, sem, progress)
+        ok = False
+        for attempt in range(4):
+            try:
+                ok = await asyncio.wait_for(
+                    synth_one(text, path, args.voice, rate, sem, progress), timeout=60
+                )
+            except Exception:
+                ok = False
+            if ok:
+                break
+            await asyncio.sleep(1.5 * (attempt + 1))
         if not ok:
             failed.append(text)
 
@@ -650,7 +683,10 @@ def cmd_pack(args: argparse.Namespace) -> None:
         "bytes": total_bytes,
         "indexEntries": len(index),
         "baseUrl": base_url.replace("{version}", version),
-        "mirrors": [m.replace("{version}", version) for m in DEFAULT_MIRRORS],
+        "mirrors": [
+            m.replace("{version}", version).replace("{cdn}", cdn_ref(version))
+            for m in DEFAULT_MIRRORS
+        ],
         "parts": [],
     }
 
@@ -747,7 +783,8 @@ def build_parser() -> argparse.ArgumentParser:
     p.set_defaults(func=cmd_verify)
 
     p = sub.add_parser("pack", help="打成分发音频包", parents=[common])
-    p.add_argument("--split-mb", type=float, default=0, help="按 MB 切卷，0 表示单卷")
+    p.add_argument("--split-mb", type=float, default=DEFAULT_SPLIT_MB,
+                   help=f"按 MB 切卷，默认 {DEFAULT_SPLIT_MB}（jsDelivr 单文件上限 20 MB）")
     p.add_argument("--out", help="输出目录，默认 release/voice-pack")
     p.add_argument("--pack-version", dest="pack_version", default="",
                    help="语音包版本号，默认当天日期 YYYYMMDD；客户端靠它决定是否更新")
@@ -760,7 +797,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     p = sub.add_parser("all", help="synth → verify → pack", parents=[common])
     p.add_argument("--limit", type=int, default=0)
-    p.add_argument("--split-mb", type=float, default=0)
+    p.add_argument("--split-mb", type=float, default=DEFAULT_SPLIT_MB)
     p.add_argument("--out")
     p.set_defaults(func=None)  # 特殊处理
 

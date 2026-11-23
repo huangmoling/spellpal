@@ -15,7 +15,8 @@
     {
       "no": 1,
       "title": "Unit 1",
-      "theme": "",
+      "theme": "爱好和练习",
+      "themeEn": "Hobbies and practice",
       "wordIds": [
         "bj-5b-u1-01",
         "bj-5b-u1-02",
@@ -31,7 +32,8 @@
     {
       "no": 2,
       "title": "Unit 2",
-      "theme": "",
+      "theme": "工作和地球",
+      "themeEn": "Jobs and our earth",
       "wordIds": [
         "bj-5b-u2-01",
         "bj-5b-u2-02",
@@ -49,7 +51,8 @@
     {
       "no": 3,
       "title": "Unit 3",
-      "theme": "",
+      "theme": "森林和食物",
+      "themeEn": "In the forest",
       "wordIds": [
         "bj-5b-u3-01",
         "bj-5b-u3-02",
@@ -65,9 +68,30 @@
       ]
     },
     {
+      "no": 4,
+      "title": "Unit 4",
+      "theme": "家人和亲戚",
+      "themeEn": "Family and relatives",
+      "wordIds": [
+        "bj-5b-u4-01",
+        "bj-5b-u4-02",
+        "bj-5b-u4-03",
+        "bj-5b-u4-04",
+        "bj-5b-u4-05",
+        "bj-5b-u4-06",
+        "bj-5b-u4-07",
+        "bj-5b-u4-08",
+        "bj-5b-u4-09",
+        "bj-5b-u4-10",
+        "bj-5b-u4-11",
+        "bj-5b-u4-12"
+      ]
+    },
+    {
       "no": 5,
       "title": "Unit 5",
-      "theme": "",
+      "theme": "职业和锻炼",
+      "themeEn": "Jobs and exercise",
       "wordIds": [
         "bj-5b-u5-01",
         "bj-5b-u5-02",
@@ -77,16 +101,14 @@
         "bj-5b-u5-06",
         "bj-5b-u5-07",
         "bj-5b-u5-08",
-        "bj-5b-u5-09",
-        "bj-5b-u5-10",
-        "bj-5b-u5-11",
-        "bj-5b-u5-12"
+        "bj-5b-u5-09"
       ]
     },
     {
       "no": 6,
       "title": "Unit 6",
-      "theme": "",
+      "theme": "旅行见闻",
+      "themeEn": "Travel fun",
       "wordIds": [
         "bj-5b-u6-01",
         "bj-5b-u6-02",
@@ -96,24 +118,8 @@
         "bj-5b-u6-06",
         "bj-5b-u6-07",
         "bj-5b-u6-08",
-        "bj-5b-u6-09"
-      ]
-    },
-    {
-      "no": 7,
-      "title": "Unit 7",
-      "theme": "",
-      "wordIds": [
-        "bj-5b-u7-01",
-        "bj-5b-u7-02",
-        "bj-5b-u7-03",
-        "bj-5b-u7-04",
-        "bj-5b-u7-05",
-        "bj-5b-u7-06",
-        "bj-5b-u7-07",
-        "bj-5b-u7-08",
-        "bj-5b-u7-09",
-        "bj-5b-u7-10"
+        "bj-5b-u6-09",
+        "bj-5b-u6-10"
       ]
     }
   ],
@@ -651,7 +657,7 @@
       "unit": 3
     },
     {
-      "id": "bj-5b-u5-01",
+      "id": "bj-5b-u4-01",
       "word": "daughter",
       "phoneticUK": "/ˈdɔːtə/",
       "syllables": [
@@ -666,10 +672,10 @@
         }
       ],
       "grade": 5,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-5b-u5-02",
+      "id": "bj-5b-u4-02",
       "word": "eighteen",
       "phoneticUK": "/ˈeɪ.tiːn/",
       "syllables": [
@@ -684,10 +690,10 @@
         }
       ],
       "grade": 5,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-5b-u5-03",
+      "id": "bj-5b-u4-03",
       "word": "kid",
       "phoneticUK": "/kɪd/",
       "syllables": [
@@ -700,10 +706,10 @@
         }
       ],
       "grade": 5,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-5b-u5-04",
+      "id": "bj-5b-u4-04",
       "word": "lovely",
       "phoneticUK": "/ˈlʌvli/",
       "syllables": [
@@ -718,10 +724,10 @@
         }
       ],
       "grade": 5,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-5b-u5-05",
+      "id": "bj-5b-u4-05",
       "word": "lucky",
       "phoneticUK": "/ˈlʌki/",
       "syllables": [
@@ -735,10 +741,10 @@
         }
       ],
       "grade": 5,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-5b-u5-06",
+      "id": "bj-5b-u4-06",
       "word": "nephew",
       "phoneticUK": "/ˈnɛv.ju/",
       "syllables": [
@@ -753,10 +759,10 @@
         }
       ],
       "grade": 5,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-5b-u5-07",
+      "id": "bj-5b-u4-07",
       "word": "niece",
       "phoneticUK": "/niːs/",
       "syllables": [
@@ -770,10 +776,10 @@
         }
       ],
       "grade": 5,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-5b-u5-08",
+      "id": "bj-5b-u4-08",
       "word": "often",
       "phoneticUK": "/ˈɒfən/",
       "syllables": [
@@ -787,10 +793,10 @@
         }
       ],
       "grade": 5,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-5b-u5-09",
+      "id": "bj-5b-u4-09",
       "word": "same",
       "phoneticUK": "/seɪm/",
       "syllables": [
@@ -804,10 +810,10 @@
         }
       ],
       "grade": 5,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-5b-u5-10",
+      "id": "bj-5b-u4-10",
       "word": "seven",
       "phoneticUK": "/ˈsevn/",
       "syllables": [
@@ -822,10 +828,10 @@
         }
       ],
       "grade": 5,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-5b-u5-11",
+      "id": "bj-5b-u4-11",
       "word": "sister",
       "phoneticUK": "/ˈsɪstə(r)/",
       "syllables": [
@@ -840,10 +846,10 @@
         }
       ],
       "grade": 5,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-5b-u5-12",
+      "id": "bj-5b-u4-12",
       "word": "son",
       "phoneticUK": "/sʌn/",
       "syllables": [
@@ -856,10 +862,10 @@
         }
       ],
       "grade": 5,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-5b-u6-01",
+      "id": "bj-5b-u5-01",
       "word": "birthday",
       "phoneticUK": "/ˈbɜːθdeɪ/",
       "syllables": [
@@ -873,10 +879,10 @@
         }
       ],
       "grade": 5,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-5b-u6-02",
+      "id": "bj-5b-u5-02",
       "word": "build",
       "phoneticUK": "/bɪld/",
       "syllables": [
@@ -890,10 +896,10 @@
         }
       ],
       "grade": 5,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-5b-u6-03",
+      "id": "bj-5b-u5-03",
       "word": "cap",
       "phoneticUK": "/kæp/",
       "syllables": [
@@ -906,10 +912,10 @@
         }
       ],
       "grade": 5,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-5b-u6-04",
+      "id": "bj-5b-u5-04",
       "word": "engineer",
       "phoneticUK": "/ˌɛn(d)ʒɪˈnɪə/",
       "syllables": [
@@ -924,10 +930,10 @@
         }
       ],
       "grade": 5,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-5b-u6-05",
+      "id": "bj-5b-u5-05",
       "word": "exercise",
       "phoneticUK": "/ˈeksəsaɪz/",
       "syllables": [
@@ -942,10 +948,10 @@
         }
       ],
       "grade": 5,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-5b-u6-06",
+      "id": "bj-5b-u5-06",
       "word": "pilot",
       "phoneticUK": "/ˈpaɪ.lət/",
       "syllables": [
@@ -960,10 +966,10 @@
         }
       ],
       "grade": 5,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-5b-u6-07",
+      "id": "bj-5b-u5-07",
       "word": "should",
       "phoneticUK": "/ʃəd/",
       "syllables": [
@@ -977,10 +983,10 @@
         }
       ],
       "grade": 5,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-5b-u6-08",
+      "id": "bj-5b-u5-08",
       "word": "study",
       "phoneticUK": "/ˈstʌdi/",
       "syllables": [
@@ -994,10 +1000,10 @@
         }
       ],
       "grade": 5,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-5b-u6-09",
+      "id": "bj-5b-u5-09",
       "word": "teach",
       "phoneticUK": "/tiːtʃ/",
       "syllables": [
@@ -1011,10 +1017,10 @@
         }
       ],
       "grade": 5,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-5b-u7-01",
+      "id": "bj-5b-u6-01",
       "word": "beach",
       "phoneticUK": "/biːtʃ/",
       "syllables": [
@@ -1028,10 +1034,10 @@
         }
       ],
       "grade": 5,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-5b-u7-02",
+      "id": "bj-5b-u6-02",
       "word": "camera",
       "phoneticUK": "/ˈkæməɹə/",
       "syllables": [
@@ -1046,10 +1052,10 @@
         }
       ],
       "grade": 5,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-5b-u7-03",
+      "id": "bj-5b-u6-03",
       "word": "email",
       "phoneticUK": "/ˈiːmeɪl/",
       "syllables": [
@@ -1063,10 +1069,10 @@
         }
       ],
       "grade": 5,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-5b-u7-04",
+      "id": "bj-5b-u6-04",
       "word": "enjoy",
       "phoneticUK": "/ɪnˈdʒɔɪ/",
       "syllables": [
@@ -1079,10 +1085,10 @@
         }
       ],
       "grade": 5,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-5b-u7-05",
+      "id": "bj-5b-u6-05",
       "word": "excited",
       "phoneticUK": "/ɪkˈsaɪtɪd/",
       "syllables": [
@@ -1097,10 +1103,10 @@
         }
       ],
       "grade": 5,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-5b-u7-06",
+      "id": "bj-5b-u6-06",
       "word": "exciting",
       "phoneticUK": "/ɪkˈsaɪtɪŋ/",
       "syllables": [
@@ -1115,10 +1121,10 @@
         }
       ],
       "grade": 5,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-5b-u7-07",
+      "id": "bj-5b-u6-07",
       "word": "famous",
       "phoneticUK": "/ˈfeɪməs/",
       "syllables": [
@@ -1133,10 +1139,10 @@
         }
       ],
       "grade": 5,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-5b-u7-08",
+      "id": "bj-5b-u6-08",
       "word": "hour",
       "phoneticUK": "/ˈaʊə(r)/",
       "syllables": [
@@ -1150,10 +1156,10 @@
         }
       ],
       "grade": 5,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-5b-u7-09",
+      "id": "bj-5b-u6-09",
       "word": "its",
       "phoneticUK": "/ɪts/",
       "syllables": [
@@ -1166,10 +1172,10 @@
         }
       ],
       "grade": 5,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-5b-u7-10",
+      "id": "bj-5b-u6-10",
       "word": "sea",
       "phoneticUK": "/siː/",
       "syllables": [
@@ -1182,7 +1188,7 @@
         }
       ],
       "grade": 5,
-      "unit": 7
+      "unit": 6
     }
   ],
   "sentences": [
@@ -1606,8 +1612,8 @@
       ]
     },
     {
-      "id": "bj-5b-u5-s01",
-      "unit": 5,
+      "id": "bj-5b-u4-s01",
+      "unit": 4,
       "cn": "他比我大十八岁。",
       "en": "He is eighteen years older than I am.",
       "tokens": [
@@ -1654,8 +1660,8 @@
       ]
     },
     {
-      "id": "bj-5b-u5-s02",
-      "unit": 5,
+      "id": "bj-5b-u4-s02",
+      "unit": 4,
       "cn": "汤姆是萨拉的表哥。",
       "en": "Tom is Sara’s cousin.",
       "tokens": [
@@ -1682,8 +1688,8 @@
       ]
     },
     {
-      "id": "bj-5b-u5-s03",
-      "unit": 5,
+      "id": "bj-5b-u4-s03",
+      "unit": 4,
       "cn": "他比萨拉大十八岁。",
       "en": "He is eighteen years older than Sara.",
       "tokens": [
@@ -1725,8 +1731,8 @@
       ]
     },
     {
-      "id": "bj-5b-u5-s04",
-      "unit": 5,
+      "id": "bj-5b-u4-s04",
+      "unit": 4,
       "cn": "他的儿子是杰克，也就是萨拉的侄子。",
       "en": "His son is Jack, Sara’s nephew.",
       "tokens": [
@@ -1763,8 +1769,8 @@
       ]
     },
     {
-      "id": "bj-5b-u5-s05",
-      "unit": 5,
+      "id": "bj-5b-u4-s05",
+      "unit": 4,
       "cn": "迈克和宝宝将来会做什么？",
       "en": "What will Mike and Baobao be in the future?",
       "tokens": [
@@ -1816,8 +1822,8 @@
       ]
     },
     {
-      "id": "bj-5b-u5-s06",
-      "unit": 5,
+      "id": "bj-5b-u4-s06",
+      "unit": 4,
       "cn": "简和玛丽星期天下午常做什么？",
       "en": "What do Jane and Mary often do on Sunday afternoon?",
       "tokens": [
@@ -1874,8 +1880,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s01",
-      "unit": 6,
+      "id": "bj-5b-u5-s01",
+      "unit": 5,
       "cn": "怀特先生要为冬天画一件棕色毛衣。",
       "en": "Mr White will draw a brown sweater for the winter.",
       "tokens": [
@@ -1932,8 +1938,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s02",
-      "unit": 6,
+      "id": "bj-5b-u5-s02",
+      "unit": 5,
       "cn": "玲玲的爸爸在纽约工作。",
       "en": "Lingling’s father is working in New York.",
       "tokens": [
@@ -1975,8 +1981,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s03",
-      "unit": 6,
+      "id": "bj-5b-u5-s03",
+      "unit": 5,
       "cn": "从北京坐飞机到纽约要多长时间？",
       "en": "How long does it take to go from Beijing to New York by plane?",
       "tokens": [
@@ -2053,8 +2059,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s04",
-      "unit": 6,
+      "id": "bj-5b-u5-s04",
+      "unit": 5,
       "cn": "暑假谁要去三亚？",
       "en": "Who will go to Sanya during the summer holiday?",
       "tokens": [
@@ -2106,8 +2112,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s05",
-      "unit": 6,
+      "id": "bj-5b-u5-s05",
+      "unit": 5,
       "cn": "我爸爸是司机，可我要当足球运动员。",
       "en": "My father is a driver, but I will be a football player.",
       "tokens": [
@@ -2174,8 +2180,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s06",
-      "unit": 6,
+      "id": "bj-5b-u5-s06",
+      "unit": 5,
       "cn": "妈阁庙是中国澳门最古老的庙宇。",
       "en": "A-Ma temple is the oldest temple in Macao.",
       "tokens": [
@@ -2222,8 +2228,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s07",
-      "unit": 6,
+      "id": "bj-5b-u5-s07",
+      "unit": 5,
       "cn": "澳门博物馆对所有参观者免费开放。",
       "en": "The Macao Museum is free to all visitors.",
       "tokens": [
@@ -2270,8 +2276,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s08",
-      "unit": 6,
+      "id": "bj-5b-u5-s08",
+      "unit": 5,
       "cn": "陈华是作家。",
       "en": "Chen Hua is a writer.",
       "tokens": [
@@ -2303,8 +2309,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s09",
-      "unit": 6,
+      "id": "bj-5b-u5-s09",
+      "unit": 5,
       "cn": "志茹是跳水运动员。",
       "en": "Zhi Ru is a diver.",
       "tokens": [
@@ -2336,8 +2342,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s10",
-      "unit": 6,
+      "id": "bj-5b-u5-s10",
+      "unit": 5,
       "cn": "胡明是出纳员。",
       "en": "Hu Ming is a teller.",
       "tokens": [
@@ -2369,8 +2375,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s11",
-      "unit": 6,
+      "id": "bj-5b-u5-s11",
+      "unit": 5,
       "cn": "弗兰克为什么该拿一条鲑鱼而不是几条鳟鱼？",
       "en": "Why should Frank get a salmon instead of trouts?",
       "tokens": [
@@ -2422,8 +2428,8 @@
       ]
     },
     {
-      "id": "bj-5b-u7-s01",
-      "unit": 7,
+      "id": "bj-5b-u6-s01",
+      "unit": 6,
       "cn": "在这里我们可以欣赏中国的艺术和文化。",
       "en": "Here we can enjoy Chinese art and culture.",
       "tokens": [
@@ -2470,8 +2476,8 @@
       ]
     },
     {
-      "id": "bj-5b-u7-s02",
-      "unit": 7,
+      "id": "bj-5b-u6-s02",
+      "unit": 6,
       "cn": "贝蒂怎么去上班？",
       "en": "How does Betty go to work?",
       "tokens": [
@@ -2508,8 +2514,8 @@
       ]
     },
     {
-      "id": "bj-5b-u7-s03",
-      "unit": 7,
+      "id": "bj-5b-u6-s03",
+      "unit": 6,
       "cn": "胡明住在哪儿？",
       "en": "Where does Hu Ming live?",
       "tokens": [
@@ -2541,8 +2547,8 @@
       ]
     },
     {
-      "id": "bj-5b-u7-s04",
-      "unit": 7,
+      "id": "bj-5b-u6-s04",
+      "unit": 6,
       "cn": "弗兰克为什么喜欢钓鱼？",
       "en": "Why does Frank enjoy fishing?",
       "tokens": [
@@ -2574,8 +2580,8 @@
       ]
     },
     {
-      "id": "bj-5b-u7-s05",
-      "unit": 7,
+      "id": "bj-5b-u6-s05",
+      "unit": 6,
       "cn": "不过，他不愿意向妻子珍妮承认这一点。",
       "en": "However, he does not like to admit this to his wife, Jenny.",
       "tokens": [
@@ -2642,8 +2648,8 @@
       ]
     },
     {
-      "id": "bj-5b-u7-s06",
-      "unit": 7,
+      "id": "bj-5b-u6-s06",
+      "unit": 6,
       "cn": "司马光是怎么救出缸里的孩子的？",
       "en": "How did Sima Guang save the boy in the vat?",
       "tokens": [
@@ -2700,8 +2706,8 @@
       ]
     },
     {
-      "id": "bj-5b-u7-s07",
-      "unit": 7,
+      "id": "bj-5b-u6-s07",
+      "unit": 6,
       "cn": "我是谁？",
       "en": "Who am I?",
       "tokens": [
@@ -2723,8 +2729,8 @@
       ]
     },
     {
-      "id": "bj-5b-u7-s08",
-      "unit": 7,
+      "id": "bj-5b-u6-s08",
+      "unit": 6,
       "cn": "我小时候长什么样？",
       "en": "What do I look like when I am young?",
       "tokens": [
@@ -2776,8 +2782,8 @@
       ]
     },
     {
-      "id": "bj-5b-u7-s09",
-      "unit": 7,
+      "id": "bj-5b-u6-s09",
+      "unit": 6,
       "cn": "土豆是欧洲和美洲人的主要食物。",
       "en": "Potatoes are the main food for people in Europe and America.",
       "tokens": [
@@ -3588,8 +3594,8 @@
       ]
     },
     {
-      "id": "bj-5b-u5-s07",
-      "unit": 5,
+      "id": "bj-5b-u4-s07",
+      "unit": 4,
       "cn": "她是我的女儿。",
       "en": "She is my daughter.",
       "tokens": [
@@ -3616,8 +3622,8 @@
       ]
     },
     {
-      "id": "bj-5b-u5-s08",
-      "unit": 5,
+      "id": "bj-5b-u4-s08",
+      "unit": 4,
       "cn": "这个小孩很高兴。",
       "en": "The kid is happy.",
       "tokens": [
@@ -3644,8 +3650,8 @@
       ]
     },
     {
-      "id": "bj-5b-u5-s09",
-      "unit": 5,
+      "id": "bj-5b-u4-s09",
+      "unit": 4,
       "cn": "她很可爱。",
       "en": "She is lovely.",
       "tokens": [
@@ -3667,8 +3673,8 @@
       ]
     },
     {
-      "id": "bj-5b-u5-s10",
-      "unit": 5,
+      "id": "bj-5b-u4-s10",
+      "unit": 4,
       "cn": "我很幸运。",
       "en": "I am lucky.",
       "tokens": [
@@ -3690,8 +3696,8 @@
       ]
     },
     {
-      "id": "bj-5b-u5-s11",
-      "unit": 5,
+      "id": "bj-5b-u4-s11",
+      "unit": 4,
       "cn": "她是我的外甥女。",
       "en": "She is my niece.",
       "tokens": [
@@ -3718,8 +3724,8 @@
       ]
     },
     {
-      "id": "bj-5b-u5-s12",
-      "unit": 5,
+      "id": "bj-5b-u4-s12",
+      "unit": 4,
       "cn": "我们在同一个班。",
       "en": "We are in the same class.",
       "tokens": [
@@ -3756,8 +3762,8 @@
       ]
     },
     {
-      "id": "bj-5b-u5-s13",
-      "unit": 5,
+      "id": "bj-5b-u4-s13",
+      "unit": 4,
       "cn": "我有七本书。",
       "en": "I have seven books.",
       "tokens": [
@@ -3784,8 +3790,8 @@
       ]
     },
     {
-      "id": "bj-5b-u5-s14",
-      "unit": 5,
+      "id": "bj-5b-u4-s14",
+      "unit": 4,
       "cn": "她是我的姐姐。",
       "en": "She is my sister.",
       "tokens": [
@@ -3812,8 +3818,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s12",
-      "unit": 6,
+      "id": "bj-5b-u5-s12",
+      "unit": 5,
       "cn": "生日快乐！",
       "en": "Happy birthday!",
       "tokens": [
@@ -3830,8 +3836,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s13",
-      "unit": 6,
+      "id": "bj-5b-u5-s13",
+      "unit": 5,
       "cn": "他们建筑一座房子。",
       "en": "They build a house.",
       "tokens": [
@@ -3858,8 +3864,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s14",
-      "unit": 6,
+      "id": "bj-5b-u5-s14",
+      "unit": 5,
       "cn": "这顶帽子是红色的。",
       "en": "This cap is red.",
       "tokens": [
@@ -3886,8 +3892,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s15",
-      "unit": 6,
+      "id": "bj-5b-u5-s15",
+      "unit": 5,
       "cn": "他是工程师。",
       "en": "He is an engineer.",
       "tokens": [
@@ -3914,8 +3920,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s16",
-      "unit": 6,
+      "id": "bj-5b-u5-s16",
+      "unit": 5,
       "cn": "锻炼很好。",
       "en": "Exercise is good.",
       "tokens": [
@@ -3937,8 +3943,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s17",
-      "unit": 6,
+      "id": "bj-5b-u5-s17",
+      "unit": 5,
       "cn": "他是飞行员。",
       "en": "He is a pilot.",
       "tokens": [
@@ -3965,8 +3971,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s18",
-      "unit": 6,
+      "id": "bj-5b-u5-s18",
+      "unit": 5,
       "cn": "我学习英语。",
       "en": "I study English.",
       "tokens": [
@@ -3988,8 +3994,8 @@
       ]
     },
     {
-      "id": "bj-5b-u6-s19",
-      "unit": 6,
+      "id": "bj-5b-u5-s19",
+      "unit": 5,
       "cn": "她教我们。",
       "en": "She teaches us.",
       "tokens": [
@@ -4011,8 +4017,8 @@
       ]
     },
     {
-      "id": "bj-5b-u7-s10",
-      "unit": 7,
+      "id": "bj-5b-u6-s10",
+      "unit": 6,
       "cn": "海滩很美。",
       "en": "The beach is beautiful.",
       "tokens": [
@@ -4039,8 +4045,8 @@
       ]
     },
     {
-      "id": "bj-5b-u7-s11",
-      "unit": 7,
+      "id": "bj-5b-u6-s11",
+      "unit": 6,
       "cn": "这是我的照相机。",
       "en": "This is my camera.",
       "tokens": [
@@ -4067,8 +4073,8 @@
       ]
     },
     {
-      "id": "bj-5b-u7-s12",
-      "unit": 7,
+      "id": "bj-5b-u6-s12",
+      "unit": 6,
       "cn": "我写一封电子邮件。",
       "en": "I write an email.",
       "tokens": [
@@ -4095,8 +4101,8 @@
       ]
     },
     {
-      "id": "bj-5b-u7-s13",
-      "unit": 7,
+      "id": "bj-5b-u6-s13",
+      "unit": 6,
       "cn": "我很激动。",
       "en": "I am excited.",
       "tokens": [
@@ -4118,8 +4124,8 @@
       ]
     },
     {
-      "id": "bj-5b-u7-s14",
-      "unit": 7,
+      "id": "bj-5b-u6-s14",
+      "unit": 6,
       "cn": "这个故事使人激动。",
       "en": "The story is exciting.",
       "tokens": [
@@ -4146,8 +4152,8 @@
       ]
     },
     {
-      "id": "bj-5b-u7-s15",
-      "unit": 7,
+      "id": "bj-5b-u6-s15",
+      "unit": 6,
       "cn": "这座城市很有名。",
       "en": "This city is famous.",
       "tokens": [
@@ -4174,8 +4180,8 @@
       ]
     },
     {
-      "id": "bj-5b-u7-s16",
-      "unit": 7,
+      "id": "bj-5b-u6-s16",
+      "unit": 6,
       "cn": "我读一小时。",
       "en": "I read for an hour.",
       "tokens": [
@@ -4207,8 +4213,8 @@
       ]
     },
     {
-      "id": "bj-5b-u7-s17",
-      "unit": 7,
+      "id": "bj-5b-u6-s17",
+      "unit": 6,
       "cn": "猫喜欢它的食物。",
       "en": "The cat likes its food.",
       "tokens": [
@@ -4240,8 +4246,8 @@
       ]
     },
     {
-      "id": "bj-5b-u7-s18",
-      "unit": 7,
+      "id": "bj-5b-u6-s18",
+      "unit": 6,
       "cn": "海洋是蓝色的。",
       "en": "The sea is blue.",
       "tokens": [

@@ -13,21 +13,10 @@
   "updatedAt": "2026-11-23",
   "units": [
     {
-      "no": 0,
-      "title": "Unit 0",
-      "theme": "",
-      "wordIds": [
-        "qh-3a-u0-01",
-        "qh-3a-u0-02",
-        "qh-3a-u0-03",
-        "qh-3a-u0-04",
-        "qh-3a-u0-05"
-      ]
-    },
-    {
       "no": 1,
       "title": "Unit 1",
-      "theme": "OUR SCHOOL",
+      "theme": "我们的学校",
+      "themeEn": "Our school",
       "wordIds": [
         "qh-3a-u1-01",
         "qh-3a-u1-02",
@@ -56,13 +45,19 @@
         "qh-3a-u1-25",
         "qh-3a-u1-26",
         "qh-3a-u1-27",
-        "qh-3a-u1-28"
+        "qh-3a-u1-28",
+        "qh-3a-u1-29",
+        "qh-3a-u1-30",
+        "qh-3a-u1-31",
+        "qh-3a-u1-32",
+        "qh-3a-u1-33"
       ]
     },
     {
       "no": 2,
       "title": "Unit 2",
-      "theme": "OUR COMMUNITY",
+      "theme": "我们的社区",
+      "themeEn": "Our community",
       "wordIds": [
         "qh-3a-u2-01",
         "qh-3a-u2-02",
@@ -132,7 +127,8 @@
     {
       "no": 3,
       "title": "Unit 3",
-      "theme": "OUR LIFE",
+      "theme": "我们的生活",
+      "themeEn": "Our life",
       "wordIds": [
         "qh-3a-u3-01",
         "qh-3a-u3-02",
@@ -160,7 +156,8 @@
     {
       "no": 4,
       "title": "Unit 4",
-      "theme": "SEASONS",
+      "theme": "季节",
+      "themeEn": "Seasons",
       "wordIds": [
         "qh-3a-u4-01",
         "qh-3a-u4-02",
@@ -202,7 +199,7 @@
   ],
   "words": [
     {
-      "id": "qh-3a-u0-01",
+      "id": "qh-3a-u1-01",
       "word": "am",
       "phoneticUK": "/ˌeɪ ˈem/",
       "syllables": [
@@ -215,10 +212,10 @@
         }
       ],
       "grade": 3,
-      "unit": 0
+      "unit": 1
     },
     {
-      "id": "qh-3a-u0-02",
+      "id": "qh-3a-u1-02",
       "word": "are",
       "phoneticUK": "/ɑː(r)/",
       "syllables": [
@@ -231,10 +228,10 @@
         }
       ],
       "grade": 3,
-      "unit": 0
+      "unit": 1
     },
     {
-      "id": "qh-3a-u0-03",
+      "id": "qh-3a-u1-03",
       "word": "great",
       "phoneticUK": "/ɡreɪt/",
       "syllables": [
@@ -248,10 +245,10 @@
         }
       ],
       "grade": 3,
-      "unit": 0
+      "unit": 1
     },
     {
-      "id": "qh-3a-u0-04",
+      "id": "qh-3a-u1-04",
       "word": "has",
       "phoneticUK": "/hæz/",
       "syllables": [
@@ -264,10 +261,10 @@
         }
       ],
       "grade": 3,
-      "unit": 0
+      "unit": 1
     },
     {
-      "id": "qh-3a-u0-05",
+      "id": "qh-3a-u1-05",
       "word": "play",
       "phoneticUK": "/pleɪ/",
       "syllables": [
@@ -280,10 +277,10 @@
         }
       ],
       "grade": 3,
-      "unit": 0
+      "unit": 1
     },
     {
-      "id": "qh-3a-u1-01",
+      "id": "qh-3a-u1-06",
       "word": "and",
       "phoneticUK": "/ænd/",
       "syllables": [
@@ -299,7 +296,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-02",
+      "id": "qh-3a-u1-07",
       "word": "bird",
       "phoneticUK": "/bɜːd/",
       "syllables": [
@@ -316,7 +313,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-03",
+      "id": "qh-3a-u1-08",
       "word": "boy",
       "phoneticUK": "/bɔɪ/",
       "syllables": [
@@ -332,7 +329,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-04",
+      "id": "qh-3a-u1-09",
       "word": "bye",
       "phoneticUK": "/baɪ/",
       "syllables": [
@@ -348,7 +345,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-05",
+      "id": "qh-3a-u1-10",
       "word": "dad",
       "phoneticUK": "/dæd/",
       "syllables": [
@@ -364,7 +361,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-06",
+      "id": "qh-3a-u1-11",
       "word": "excuse",
       "phoneticUK": "/ɪkˈskjuːz/",
       "syllables": [
@@ -381,7 +378,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-07",
+      "id": "qh-3a-u1-12",
       "word": "girl",
       "phoneticUK": "/ɡɜːl/",
       "syllables": [
@@ -398,7 +395,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-08",
+      "id": "qh-3a-u1-13",
       "word": "good",
       "phoneticUK": "/ɡʊd/",
       "syllables": [
@@ -415,7 +412,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-09",
+      "id": "qh-3a-u1-14",
       "word": "goodbye",
       "phoneticUK": "/ˌɡʊdˈbaɪ/",
       "syllables": [
@@ -432,7 +429,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-10",
+      "id": "qh-3a-u1-15",
       "word": "how",
       "phoneticUK": "/haʊ/",
       "syllables": [
@@ -448,7 +445,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-11",
+      "id": "qh-3a-u1-16",
       "word": "I’m",
       "phoneticUK": "/aɪm/",
       "syllables": [
@@ -464,7 +461,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-12",
+      "id": "qh-3a-u1-17",
       "word": "is",
       "phoneticUK": "/ɪz/",
       "syllables": [
@@ -480,7 +477,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-13",
+      "id": "qh-3a-u1-18",
       "word": "it",
       "phoneticUK": "/ɪt/",
       "syllables": [
@@ -496,7 +493,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-14",
+      "id": "qh-3a-u1-19",
       "word": "me",
       "phoneticUK": "/miː/",
       "syllables": [
@@ -512,7 +509,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-15",
+      "id": "qh-3a-u1-20",
       "word": "mom",
       "phoneticUK": "/mɒm/",
       "syllables": [
@@ -528,7 +525,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-16",
+      "id": "qh-3a-u1-21",
       "word": "morning",
       "phoneticUK": "/ˈmɔːnɪŋ/",
       "syllables": [
@@ -546,7 +543,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-17",
+      "id": "qh-3a-u1-22",
       "word": "Mr",
       "phoneticUK": "/ˈmɪstə(r)/",
       "syllables": [
@@ -562,7 +559,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-18",
+      "id": "qh-3a-u1-23",
       "word": "Ms",
       "phoneticUK": "/mɪz/",
       "syllables": [
@@ -578,7 +575,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-19",
+      "id": "qh-3a-u1-24",
       "word": "no",
       "phoneticUK": "/nəʊ/",
       "syllables": [
@@ -594,7 +591,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-20",
+      "id": "qh-3a-u1-25",
       "word": "please",
       "phoneticUK": "/pliːz/",
       "syllables": [
@@ -611,7 +608,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-21",
+      "id": "qh-3a-u1-26",
       "word": "sorry",
       "phoneticUK": "/ˈsɒri/",
       "syllables": [
@@ -628,7 +625,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-22",
+      "id": "qh-3a-u1-27",
       "word": "thank",
       "phoneticUK": "/θæŋk/",
       "syllables": [
@@ -645,7 +642,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-23",
+      "id": "qh-3a-u1-28",
       "word": "too",
       "phoneticUK": "/tuː/",
       "syllables": [
@@ -661,7 +658,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-24",
+      "id": "qh-3a-u1-29",
       "word": "welcome",
       "phoneticUK": "/ˈwelkəm/",
       "syllables": [
@@ -679,7 +676,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-25",
+      "id": "qh-3a-u1-30",
       "word": "what",
       "phoneticUK": "/wɒt/",
       "syllables": [
@@ -696,7 +693,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-26",
+      "id": "qh-3a-u1-31",
       "word": "worry",
       "phoneticUK": "/ˈwʌri/",
       "syllables": [
@@ -713,7 +710,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-27",
+      "id": "qh-3a-u1-32",
       "word": "yes",
       "phoneticUK": "/jes/",
       "syllables": [
@@ -729,7 +726,7 @@
       "unit": 1
     },
     {
-      "id": "qh-3a-u1-28",
+      "id": "qh-3a-u1-33",
       "word": "you",
       "phoneticUK": "/juː/",
       "syllables": [
@@ -2747,8 +2744,8 @@
   ],
   "sentences": [
     {
-      "id": "qh-3a-u0-s01",
-      "unit": 0,
+      "id": "qh-3a-u1-s01",
+      "unit": 1,
       "cn": "我是小学生。",
       "en": "I am a pupil.",
       "tokens": [
@@ -2775,8 +2772,8 @@
       ]
     },
     {
-      "id": "qh-3a-u0-s02",
-      "unit": 0,
+      "id": "qh-3a-u1-s02",
+      "unit": 1,
       "cn": "我们是朋友。",
       "en": "We are friends.",
       "tokens": [
@@ -2798,8 +2795,8 @@
       ]
     },
     {
-      "id": "qh-3a-u0-s03",
-      "unit": 0,
+      "id": "qh-3a-u1-s03",
+      "unit": 1,
       "cn": "你很棒。",
       "en": "You are great.",
       "tokens": [
@@ -2821,8 +2818,8 @@
       ]
     },
     {
-      "id": "qh-3a-u0-s04",
-      "unit": 0,
+      "id": "qh-3a-u1-s04",
+      "unit": 1,
       "cn": "她有一本书。",
       "en": "She has a book.",
       "tokens": [
@@ -2849,8 +2846,8 @@
       ]
     },
     {
-      "id": "qh-3a-u0-s05",
-      "unit": 0,
+      "id": "qh-3a-u1-s05",
+      "unit": 1,
       "cn": "我们踢足球吧。",
       "en": "Let's play football.",
       "tokens": [
@@ -2872,7 +2869,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s01",
+      "id": "qh-3a-u1-s06",
       "unit": 1,
       "cn": "你好吗？",
       "en": "How are You?",
@@ -2895,7 +2892,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s02",
+      "id": "qh-3a-u1-s07",
       "unit": 1,
       "cn": "你知道英语字母表吗？",
       "en": "Do you know the English alphabet?",
@@ -2933,7 +2930,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s03",
+      "id": "qh-3a-u1-s08",
       "unit": 1,
       "cn": "凯特女士，早上好！",
       "en": "Good morning, Ms Kate!",
@@ -2961,7 +2958,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s04",
+      "id": "qh-3a-u1-s09",
       "unit": 1,
       "cn": "谢谢你，庆庆！",
       "en": "Thank you, Qingqing!",
@@ -2984,7 +2981,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s05",
+      "id": "qh-3a-u1-s10",
       "unit": 1,
       "cn": "我是庆庆。",
       "en": "I’m Qingqing.",
@@ -3002,7 +2999,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s06",
+      "id": "qh-3a-u1-s11",
       "unit": 1,
       "cn": "这是凯特女士。",
       "en": "This is Ms Kate.",
@@ -3030,7 +3027,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s07",
+      "id": "qh-3a-u1-s12",
       "unit": 1,
       "cn": "这是彼得和我。",
       "en": "This is Peter and me.",
@@ -3063,7 +3060,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s08",
+      "id": "qh-3a-u1-s13",
       "unit": 1,
       "cn": "今天是圣诞节。",
       "en": "Today is Christmas.",
@@ -3086,7 +3083,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s09",
+      "id": "qh-3a-u1-s14",
       "unit": 1,
       "cn": "这是一棵圣诞树。",
       "en": "This is a Christmas tree.",
@@ -3119,7 +3116,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s10",
+      "id": "qh-3a-u1-s15",
       "unit": 1,
       "cn": "鸟和男孩都在这里。",
       "en": "The bird and the boy are here.",
@@ -3162,7 +3159,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s11",
+      "id": "qh-3a-u1-s16",
       "unit": 1,
       "cn": "再见！再见！",
       "en": "Bye! Goodbye!",
@@ -3180,7 +3177,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s12",
+      "id": "qh-3a-u1-s17",
       "unit": 1,
       "cn": "我爸爸和妈妈都在家。",
       "en": "My dad and mom are at home.",
@@ -3223,7 +3220,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s13",
+      "id": "qh-3a-u1-s18",
       "unit": 1,
       "cn": "请原谅，李先生。",
       "en": "Excuse me, Mr Li.",
@@ -3251,7 +3248,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s14",
+      "id": "qh-3a-u1-s19",
       "unit": 1,
       "cn": "那个女孩在这里，这是她的书。",
       "en": "The girl is here, and it is her book.",
@@ -3304,7 +3301,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s15",
+      "id": "qh-3a-u1-s20",
       "unit": 1,
       "cn": "不，谢谢。",
       "en": "No, thank you.",
@@ -3327,7 +3324,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s16",
+      "id": "qh-3a-u1-s21",
       "unit": 1,
       "cn": "请进。",
       "en": "Please come in.",
@@ -3350,7 +3347,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s17",
+      "id": "qh-3a-u1-s22",
       "unit": 1,
       "cn": "对不起，我迟到了。",
       "en": "Sorry, I am late.",
@@ -3378,7 +3375,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s18",
+      "id": "qh-3a-u1-s23",
       "unit": 1,
       "cn": "我也喜欢它。",
       "en": "I like it too.",
@@ -3406,7 +3403,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s19",
+      "id": "qh-3a-u1-s24",
       "unit": 1,
       "cn": "欢迎来到我们学校。",
       "en": "Welcome to our school.",
@@ -3434,7 +3431,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s20",
+      "id": "qh-3a-u1-s25",
       "unit": 1,
       "cn": "你叫什么名字？",
       "en": "What is your name?",
@@ -3462,7 +3459,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s21",
+      "id": "qh-3a-u1-s26",
       "unit": 1,
       "cn": "别担心。",
       "en": "Don't worry.",
@@ -3480,7 +3477,7 @@
       ]
     },
     {
-      "id": "qh-3a-u1-s22",
+      "id": "qh-3a-u1-s27",
       "unit": 1,
       "cn": "是的，我在这里。",
       "en": "Yes, I am here.",

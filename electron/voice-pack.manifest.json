@@ -1,40 +1,80 @@
 {
   "format": "spellpal-voice-pack",
   "formatVersion": 2,
-  "version": "20261123",
-  "generatedAt": "2026-11-23T14:26:04+08:00",
+  "version": "20261124",
+  "generatedAt": "2026-11-24T03:16:51+08:00",
   "voice": "en-US-AriaNeural",
   "wordRate": "-10%",
   "sentRate": "-5%",
-  "count": 9374,
-  "bytes": 140534064,
-  "indexEntries": 9374,
-  "baseUrl": "https://github.com/huangmoling/spellpal/releases/download/voice-20261123",
+  "count": 9875,
+  "bytes": 147339024,
+  "indexEntries": 9875,
+  "baseUrl": "https://github.com/huangmoling/spellpal/releases/download/voice-20261124",
   "mirrors": [
-    "https://ghfast.top/https://github.com/huangmoling/spellpal/releases/download/voice-20261123",
-    "https://gh-proxy.com/https://github.com/huangmoling/spellpal/releases/download/voice-20261123"
+    "https://cdn.jsdelivr.net/gh/huangmoling/spellpal@2026.11.24",
+    "https://fastly.jsdelivr.net/gh/huangmoling/spellpal@2026.11.24",
+    "https://gcore.jsdelivr.net/gh/huangmoling/spellpal@2026.11.24",
+    "https://raw.githubusercontent.com/huangmoling/spellpal/2026.11.24",
+    "https://github.com/huangmoling/spellpal/releases/download/voice-20261124",
+    "https://ghfast.top/https://github.com/huangmoling/spellpal/releases/download/voice-20261124",
+    "https://gh-proxy.com/https://github.com/huangmoling/spellpal/releases/download/voice-20261124"
   ],
   "parts": [
     {
-      "name": "spellpal-voice-20261123-part1of3.zip",
-      "files": 3495,
-      "bytes": 52415280,
-      "zipBytes": 53233142,
-      "sha256": "01e4197855d9b76651ffe14bde130de533d98d76737950d74e791ee0e5fc4014"
+      "name": "spellpal-voice-20261124-part1of8.zip",
+      "files": 1273,
+      "bytes": 18861504,
+      "zipBytes": 19431626,
+      "sha256": "d1cf521effdcdf62f2d6c63276ae2537d98b72ce5c72ae98dd35c5ec8d264893"
     },
     {
-      "name": "spellpal-voice-20261123-part2of3.zip",
-      "files": 3493,
-      "bytes": 52423776,
-      "zipBytes": 53241398,
-      "sha256": "c05cd595b13d3c9ceb9641fa4d7ed6cda369023c48fb288aa926a9324ce50e43"
+      "name": "spellpal-voice-20261124-part2of8.zip",
+      "files": 1257,
+      "bytes": 18866304,
+      "zipBytes": 19434506,
+      "sha256": "3a20b5650c0c93542508178bf75dce2e187c927e0d3cd1c5ab634390237dce7c"
     },
     {
-      "name": "spellpal-voice-20261123-part3of3.zip",
-      "files": 2386,
-      "bytes": 35695008,
-      "zipBytes": 36379790,
-      "sha256": "267f99bef8dba22f6c6534f89f1d4a98bcc9c85ab3973ce5230a8d7c9688c64b"
+      "name": "spellpal-voice-20261124-part3of8.zip",
+      "files": 1256,
+      "bytes": 18862512,
+      "zipBytes": 19430594,
+      "sha256": "6e018d62ab9bbf80c1f7936fcaeb6ae7696ce2559b7bd6de8c30186f7221b175"
+    },
+    {
+      "name": "spellpal-voice-20261124-part4of8.zip",
+      "files": 1272,
+      "bytes": 18865152,
+      "zipBytes": 19435154,
+      "sha256": "53f7e1f7564a4f91d8ea2be540be07e7d19aff714c160cb7c026cacdbd4dbee9"
+    },
+    {
+      "name": "spellpal-voice-20261124-part5of8.zip",
+      "files": 1254,
+      "bytes": 18872448,
+      "zipBytes": 19440290,
+      "sha256": "ea06094ae4eb3a00b2af559837e913a89e2a1dd882c756c86d4224f316cf2b70"
+    },
+    {
+      "name": "spellpal-voice-20261124-part6of8.zip",
+      "files": 1274,
+      "bytes": 18864288,
+      "zipBytes": 19434530,
+      "sha256": "93ed856504bb6c965c65d246c1f16097ff5c86b80ba6b4b51df01838e6465183"
+    },
+    {
+      "name": "spellpal-voice-20261124-part7of8.zip",
+      "files": 1254,
+      "bytes": 18871968,
+      "zipBytes": 19439810,
+      "sha256": "c2fab52cdef8c6c1ff4d2c5f9cdef39bc6880f13e08dc456d77d60d0c232def3"
+    },
+    {
+      "name": "spellpal-voice-20261124-part8of8.zip",
+      "files": 1035,
+      "bytes": 15274848,
+      "zipBytes": 15816410,
+      "sha256": "e21b6f9289aba10be9511c3fa869cf0caa7858adb4b4dc7f34af111075d80732"
     }
   ]
 }

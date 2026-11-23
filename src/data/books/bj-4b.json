@@ -15,7 +15,8 @@
     {
       "no": 1,
       "title": "Unit 1",
-      "theme": "",
+      "theme": "兴趣爱好",
+      "themeEn": "Hobbies and clubs",
       "wordIds": [
         "bj-4b-u1-01",
         "bj-4b-u1-02",
@@ -37,7 +38,8 @@
     {
       "no": 2,
       "title": "Unit 2",
-      "theme": "",
+      "theme": "安全玩耍",
+      "themeEn": "Playing safely",
       "wordIds": [
         "bj-4b-u2-01",
         "bj-4b-u2-02",
@@ -65,7 +67,8 @@
     {
       "no": 3,
       "title": "Unit 3",
-      "theme": "",
+      "theme": "游戏和比赛",
+      "themeEn": "Games and matches",
       "wordIds": [
         "bj-4b-u3-01",
         "bj-4b-u3-02",
@@ -88,9 +91,42 @@
       ]
     },
     {
+      "no": 4,
+      "title": "Unit 4",
+      "theme": "节日和假期",
+      "themeEn": "Holidays",
+      "wordIds": [
+        "bj-4b-u4-01",
+        "bj-4b-u4-02",
+        "bj-4b-u4-03",
+        "bj-4b-u4-04",
+        "bj-4b-u4-05",
+        "bj-4b-u4-06",
+        "bj-4b-u4-07",
+        "bj-4b-u4-08",
+        "bj-4b-u4-09",
+        "bj-4b-u4-10",
+        "bj-4b-u4-11",
+        "bj-4b-u4-12",
+        "bj-4b-u4-13",
+        "bj-4b-u4-14",
+        "bj-4b-u4-15",
+        "bj-4b-u4-16",
+        "bj-4b-u4-17",
+        "bj-4b-u4-18",
+        "bj-4b-u4-19",
+        "bj-4b-u4-20",
+        "bj-4b-u4-21",
+        "bj-4b-u4-22",
+        "bj-4b-u4-23",
+        "bj-4b-u4-24"
+      ]
+    },
+    {
       "no": 5,
       "title": "Unit 5",
-      "theme": "",
+      "theme": "周末和家人",
+      "themeEn": "Weekend with family",
       "wordIds": [
         "bj-4b-u5-01",
         "bj-4b-u5-02",
@@ -112,16 +148,14 @@
         "bj-4b-u5-18",
         "bj-4b-u5-19",
         "bj-4b-u5-20",
-        "bj-4b-u5-21",
-        "bj-4b-u5-22",
-        "bj-4b-u5-23",
-        "bj-4b-u5-24"
+        "bj-4b-u5-21"
       ]
     },
     {
       "no": 6,
       "title": "Unit 6",
-      "theme": "",
+      "theme": "购物和问路",
+      "themeEn": "Shopping and asking the way",
       "wordIds": [
         "bj-4b-u6-01",
         "bj-4b-u6-02",
@@ -143,40 +177,12 @@
         "bj-4b-u6-18",
         "bj-4b-u6-19",
         "bj-4b-u6-20",
-        "bj-4b-u6-21"
-      ]
-    },
-    {
-      "no": 7,
-      "title": "Unit 7",
-      "theme": "",
-      "wordIds": [
-        "bj-4b-u7-01",
-        "bj-4b-u7-02",
-        "bj-4b-u7-03",
-        "bj-4b-u7-04",
-        "bj-4b-u7-05",
-        "bj-4b-u7-06",
-        "bj-4b-u7-07",
-        "bj-4b-u7-08",
-        "bj-4b-u7-09",
-        "bj-4b-u7-10",
-        "bj-4b-u7-11",
-        "bj-4b-u7-12",
-        "bj-4b-u7-13",
-        "bj-4b-u7-14",
-        "bj-4b-u7-15",
-        "bj-4b-u7-16",
-        "bj-4b-u7-17",
-        "bj-4b-u7-18",
-        "bj-4b-u7-19",
-        "bj-4b-u7-20",
-        "bj-4b-u7-21",
-        "bj-4b-u7-22",
-        "bj-4b-u7-23",
-        "bj-4b-u7-24",
-        "bj-4b-u7-25",
-        "bj-4b-u7-26"
+        "bj-4b-u6-21",
+        "bj-4b-u6-22",
+        "bj-4b-u6-23",
+        "bj-4b-u6-24",
+        "bj-4b-u6-25",
+        "bj-4b-u6-26"
       ]
     }
   ],
@@ -1106,7 +1112,7 @@
       "unit": 3
     },
     {
-      "id": "bj-4b-u5-01",
+      "id": "bj-4b-u4-01",
       "word": "Labour Day",
       "phoneticUK": "/ˈleɪbə(r) deɪ/",
       "syllables": [
@@ -1121,10 +1127,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-02",
+      "id": "bj-4b-u4-02",
       "word": "holiday",
       "phoneticUK": "/ˈhɒlədeɪ/",
       "syllables": [
@@ -1139,10 +1145,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-03",
+      "id": "bj-4b-u4-03",
       "word": "May",
       "phoneticUK": "/meɪ/",
       "syllables": [
@@ -1155,10 +1161,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-04",
+      "id": "bj-4b-u4-04",
       "word": "chore",
       "phoneticUK": "/tʃɔː(r)/",
       "syllables": [
@@ -1172,10 +1178,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-05",
+      "id": "bj-4b-u4-05",
       "word": "the USA",
       "phoneticUK": "/ðə ˌjuː es ˈeɪ/",
       "syllables": [
@@ -1188,10 +1194,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-06",
+      "id": "bj-4b-u4-06",
       "word": "September",
       "phoneticUK": "/sepˈtembə(r)/",
       "syllables": [
@@ -1207,10 +1213,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-07",
+      "id": "bj-4b-u4-07",
       "word": "June",
       "phoneticUK": "/dʒuːn/",
       "syllables": [
@@ -1224,10 +1230,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-08",
+      "id": "bj-4b-u4-08",
       "word": "November",
       "phoneticUK": "/nəʊˈvembə(r)/",
       "syllables": [
@@ -1243,10 +1249,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-09",
+      "id": "bj-4b-u4-09",
       "word": "Canada",
       "phoneticUK": "/ˈkænədə/",
       "syllables": [
@@ -1261,10 +1267,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-10",
+      "id": "bj-4b-u4-10",
       "word": "often",
       "phoneticUK": "/ˈɒfən/",
       "syllables": [
@@ -1278,10 +1284,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-11",
+      "id": "bj-4b-u4-11",
       "word": "cinema",
       "phoneticUK": "/ˈsɪnəmə/",
       "syllables": [
@@ -1296,10 +1302,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-12",
+      "id": "bj-4b-u4-12",
       "word": "zoo",
       "phoneticUK": "/zuː/",
       "syllables": [
@@ -1312,10 +1318,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-13",
+      "id": "bj-4b-u4-13",
       "word": "National Day",
       "phoneticUK": "/ˈnæʃnəl deɪ/",
       "syllables": [
@@ -1331,10 +1337,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-14",
+      "id": "bj-4b-u4-14",
       "word": "October",
       "phoneticUK": "/ɒkˈtəʊbə(r)/",
       "syllables": [
@@ -1349,10 +1355,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-15",
+      "id": "bj-4b-u4-15",
       "word": "flag",
       "phoneticUK": "/flæɡ/",
       "syllables": [
@@ -1366,10 +1372,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-16",
+      "id": "bj-4b-u4-16",
       "word": "watch",
       "phoneticUK": "/wɒtʃ/",
       "syllables": [
@@ -1383,10 +1389,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-17",
+      "id": "bj-4b-u4-17",
       "word": "early",
       "phoneticUK": "/ˈɜːli/",
       "syllables": [
@@ -1400,10 +1406,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-18",
+      "id": "bj-4b-u4-18",
       "word": "special",
       "phoneticUK": "/ˈspɛʃ.əl/",
       "syllables": [
@@ -1418,10 +1424,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-19",
+      "id": "bj-4b-u4-19",
       "word": "Water-Splashing Festival",
       "phoneticUK": "/ˈwɔːtə ˈsplæʃɪŋ ˈfestɪvl/",
       "syllables": [
@@ -1442,10 +1448,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-20",
+      "id": "bj-4b-u4-20",
       "word": "April",
       "phoneticUK": "/ˈeɪprəl/",
       "syllables": [
@@ -1459,10 +1465,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-21",
+      "id": "bj-4b-u4-21",
       "word": "Inner Mongolia",
       "phoneticUK": "/ˌɪnə mɒŋˈɡəʊliə/",
       "syllables": [
@@ -1478,10 +1484,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-22",
+      "id": "bj-4b-u4-22",
       "word": "Naadam",
       "phoneticUK": "/ˈnɑːdɑːm/",
       "syllables": [
@@ -1496,10 +1502,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-23",
+      "id": "bj-4b-u4-23",
       "word": "July",
       "phoneticUK": "/dʒuˈlaɪ/",
       "syllables": [
@@ -1513,10 +1519,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u5-24",
+      "id": "bj-4b-u4-24",
       "word": "August",
       "phoneticUK": "/ɔːˈɡʌst/",
       "syllables": [
@@ -1531,10 +1537,10 @@
         }
       ],
       "grade": 4,
-      "unit": 5
+      "unit": 4
     },
     {
-      "id": "bj-4b-u6-01",
+      "id": "bj-4b-u5-01",
       "word": "grandma",
       "phoneticUK": "/ˈɡrænmɑː/",
       "syllables": [
@@ -1548,10 +1554,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-02",
+      "id": "bj-4b-u5-02",
       "word": "dear",
       "phoneticUK": "/dɪə(r)/",
       "syllables": [
@@ -1565,10 +1571,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-03",
+      "id": "bj-4b-u5-03",
       "word": "TV",
       "phoneticUK": "/ˌtiː ˈviː/",
       "syllables": [
@@ -1581,10 +1587,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-04",
+      "id": "bj-4b-u5-04",
       "word": "grandpa",
       "phoneticUK": "/ˈɡrænpɑː/",
       "syllables": [
@@ -1598,10 +1604,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-05",
+      "id": "bj-4b-u5-05",
       "word": "plant",
       "phoneticUK": "/plɑːnt/",
       "syllables": [
@@ -1615,10 +1621,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-06",
+      "id": "bj-4b-u5-06",
       "word": "kitchen",
       "phoneticUK": "/ˈkɪtʃɪn/",
       "syllables": [
@@ -1633,10 +1639,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-07",
+      "id": "bj-4b-u5-07",
       "word": "weekend",
       "phoneticUK": "/ˌwiːkˈend/",
       "syllables": [
@@ -1651,10 +1657,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-08",
+      "id": "bj-4b-u5-08",
       "word": "people",
       "phoneticUK": "/ˈpiːpl/",
       "syllables": [
@@ -1668,10 +1674,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-09",
+      "id": "bj-4b-u5-09",
       "word": "they",
       "phoneticUK": "/ðeɪ/",
       "syllables": [
@@ -1684,10 +1690,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-10",
+      "id": "bj-4b-u5-10",
       "word": "sky",
       "phoneticUK": "/skaɪ/",
       "syllables": [
@@ -1700,10 +1706,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-11",
+      "id": "bj-4b-u5-11",
       "word": "fly",
       "phoneticUK": "/flaɪ/",
       "syllables": [
@@ -1716,10 +1722,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-12",
+      "id": "bj-4b-u5-12",
       "word": "put",
       "phoneticUK": "/pʊt/",
       "syllables": [
@@ -1732,10 +1738,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-13",
+      "id": "bj-4b-u5-13",
       "word": "role",
       "phoneticUK": "/rəʊl/",
       "syllables": [
@@ -1749,10 +1755,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-14",
+      "id": "bj-4b-u5-14",
       "word": "paint",
       "phoneticUK": "/peɪnt/",
       "syllables": [
@@ -1766,10 +1772,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-15",
+      "id": "bj-4b-u5-15",
       "word": "funny",
       "phoneticUK": "/ˈfʌni/",
       "syllables": [
@@ -1783,10 +1789,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-16",
+      "id": "bj-4b-u5-16",
       "word": "brave",
       "phoneticUK": "/bɹeɪv/",
       "syllables": [
@@ -1800,10 +1806,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-17",
+      "id": "bj-4b-u5-17",
       "word": "enjoy",
       "phoneticUK": "/ɪnˈdʒɔɪ/",
       "syllables": [
@@ -1816,10 +1822,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-18",
+      "id": "bj-4b-u5-18",
       "word": "world",
       "phoneticUK": "/wɜːld/",
       "syllables": [
@@ -1833,10 +1839,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-19",
+      "id": "bj-4b-u5-19",
       "word": "woman",
       "phoneticUK": "/ˈwʊmən/",
       "syllables": [
@@ -1851,10 +1857,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-20",
+      "id": "bj-4b-u5-20",
       "word": "tea",
       "phoneticUK": "/tiː/",
       "syllables": [
@@ -1867,10 +1873,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u6-21",
+      "id": "bj-4b-u5-21",
       "word": "rabbit",
       "phoneticUK": "/ˈræbɪt/",
       "syllables": [
@@ -1885,10 +1891,10 @@
         }
       ],
       "grade": 4,
-      "unit": 6
+      "unit": 5
     },
     {
-      "id": "bj-4b-u7-01",
+      "id": "bj-4b-u6-01",
       "word": "glad",
       "phoneticUK": "/ɡlæd/",
       "syllables": [
@@ -1902,10 +1908,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-02",
+      "id": "bj-4b-u6-02",
       "word": "need",
       "phoneticUK": "/niːd/",
       "syllables": [
@@ -1919,10 +1925,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-03",
+      "id": "bj-4b-u6-03",
       "word": "buy",
       "phoneticUK": "/baɪ/",
       "syllables": [
@@ -1935,10 +1941,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-04",
+      "id": "bj-4b-u6-04",
       "word": "tell",
       "phoneticUK": "/tel/",
       "syllables": [
@@ -1952,10 +1958,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-05",
+      "id": "bj-4b-u6-05",
       "word": "way",
       "phoneticUK": "/weɪ/",
       "syllables": [
@@ -1968,10 +1974,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-06",
+      "id": "bj-4b-u6-06",
       "word": "shop",
       "phoneticUK": "/ʃɒp/",
       "syllables": [
@@ -1985,10 +1991,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-07",
+      "id": "bj-4b-u6-07",
       "word": "near",
       "phoneticUK": "/nɪə(r)/",
       "syllables": [
@@ -2002,10 +2008,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-08",
+      "id": "bj-4b-u6-08",
       "word": "front",
       "phoneticUK": "/frʌnt/",
       "syllables": [
@@ -2019,10 +2025,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-09",
+      "id": "bj-4b-u6-09",
       "word": "in front of",
       "phoneticUK": "/ɪn frʌnt ɒv/",
       "syllables": [
@@ -2036,10 +2042,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-10",
+      "id": "bj-4b-u6-10",
       "word": "building",
       "phoneticUK": "/ˈbɪldɪŋ/",
       "syllables": [
@@ -2054,10 +2060,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-11",
+      "id": "bj-4b-u6-11",
       "word": "far",
       "phoneticUK": "/fɑː(r)/",
       "syllables": [
@@ -2070,10 +2076,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-12",
+      "id": "bj-4b-u6-12",
       "word": "robot",
       "phoneticUK": "/ˈrəʊbɒt/",
       "syllables": [
@@ -2088,10 +2094,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-13",
+      "id": "bj-4b-u6-13",
       "word": "know",
       "phoneticUK": "/nəʊ/",
       "syllables": [
@@ -2105,10 +2111,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-14",
+      "id": "bj-4b-u6-14",
       "word": "third",
       "phoneticUK": "/θɜːd/",
       "syllables": [
@@ -2122,10 +2128,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-15",
+      "id": "bj-4b-u6-15",
       "word": "letter",
       "phoneticUK": "/ˈletə(r)/",
       "syllables": [
@@ -2140,10 +2146,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-16",
+      "id": "bj-4b-u6-16",
       "word": "second",
       "phoneticUK": "/ˈsɛk.ənd/",
       "syllables": [
@@ -2158,10 +2164,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-17",
+      "id": "bj-4b-u6-17",
       "word": "beside",
       "phoneticUK": "/bɪˈsaɪd/",
       "syllables": [
@@ -2176,10 +2182,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-18",
+      "id": "bj-4b-u6-18",
       "word": "centre",
       "phoneticUK": "/ˈsentə(r)/",
       "syllables": [
@@ -2193,10 +2199,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-19",
+      "id": "bj-4b-u6-19",
       "word": "smart",
       "phoneticUK": "/smɑːt/",
       "syllables": [
@@ -2210,10 +2216,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-20",
+      "id": "bj-4b-u6-20",
       "word": "community",
       "phoneticUK": "/kəˈmjuːnəti/",
       "syllables": [
@@ -2229,10 +2235,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-21",
+      "id": "bj-4b-u6-21",
       "word": "themselves",
       "phoneticUK": "/ðɛmˈsɛlvz/",
       "syllables": [
@@ -2248,10 +2254,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-22",
+      "id": "bj-4b-u6-22",
       "word": "dark",
       "phoneticUK": "/dɑːk/",
       "syllables": [
@@ -2265,10 +2271,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-23",
+      "id": "bj-4b-u6-23",
       "word": "toilet",
       "phoneticUK": "/ˈtɔɪlət/",
       "syllables": [
@@ -2283,10 +2289,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-24",
+      "id": "bj-4b-u6-24",
       "word": "between",
       "phoneticUK": "/bɪˈtwiːn/",
       "syllables": [
@@ -2301,10 +2307,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-25",
+      "id": "bj-4b-u6-25",
       "word": "supermarket",
       "phoneticUK": "/ˈsuːpəmɑːkɪt/",
       "syllables": [
@@ -2321,10 +2327,10 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     },
     {
-      "id": "bj-4b-u7-26",
+      "id": "bj-4b-u6-26",
       "word": "quickly",
       "phoneticUK": "/ˈkwɪk.li/",
       "syllables": [
@@ -2338,7 +2344,7 @@
         }
       ],
       "grade": 4,
-      "unit": 7
+      "unit": 6
     }
   ],
   "sentences": [
@@ -3627,8 +3633,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s01",
-      "unit": 5,
+      "id": "bj-4b-u4-s01",
+      "unit": 4,
       "cn": "劳动节在五月。",
       "en": "Labour Day is in May.",
       "tokens": [
@@ -3660,8 +3666,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s02",
-      "unit": 5,
+      "id": "bj-4b-u4-s02",
+      "unit": 4,
       "cn": "假期很长。",
       "en": "The holiday is long.",
       "tokens": [
@@ -3688,8 +3694,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s03",
-      "unit": 5,
+      "id": "bj-4b-u4-s03",
+      "unit": 4,
       "cn": "我在家做家务。",
       "en": "I do chores at home.",
       "tokens": [
@@ -3721,8 +3727,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s04",
-      "unit": 5,
+      "id": "bj-4b-u4-s04",
+      "unit": 4,
       "cn": "她来自美国。",
       "en": "She is from the USA.",
       "tokens": [
@@ -3754,8 +3760,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s05",
-      "unit": 5,
+      "id": "bj-4b-u4-s05",
+      "unit": 4,
       "cn": "现在是九月。",
       "en": "It is September.",
       "tokens": [
@@ -3777,8 +3783,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s06",
-      "unit": 5,
+      "id": "bj-4b-u4-s06",
+      "unit": 4,
       "cn": "我们六月游泳。",
       "en": "We swim in June.",
       "tokens": [
@@ -3805,8 +3811,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s07",
-      "unit": 5,
+      "id": "bj-4b-u4-s07",
+      "unit": 4,
       "cn": "现在是十一月。",
       "en": "It is November.",
       "tokens": [
@@ -3828,8 +3834,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s08",
-      "unit": 5,
+      "id": "bj-4b-u4-s08",
+      "unit": 4,
       "cn": "她住在加拿大。",
       "en": "She lives in Canada.",
       "tokens": [
@@ -3856,8 +3862,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s09",
-      "unit": 5,
+      "id": "bj-4b-u4-s09",
+      "unit": 4,
       "cn": "我经常去电影院。",
       "en": "I often go to the cinema.",
       "tokens": [
@@ -3894,8 +3900,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s10",
-      "unit": 5,
+      "id": "bj-4b-u4-s10",
+      "unit": 4,
       "cn": "我们去动物园。",
       "en": "We go to the zoo.",
       "tokens": [
@@ -3927,8 +3933,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s11",
-      "unit": 5,
+      "id": "bj-4b-u4-s11",
+      "unit": 4,
       "cn": "国庆节在十月。",
       "en": "National Day is in October.",
       "tokens": [
@@ -3960,8 +3966,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s12",
-      "unit": 5,
+      "id": "bj-4b-u4-s12",
+      "unit": 4,
       "cn": "旗子是红色的。",
       "en": "The flag is red.",
       "tokens": [
@@ -3988,8 +3994,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s13",
-      "unit": 5,
+      "id": "bj-4b-u4-s13",
+      "unit": 4,
       "cn": "我们看电视。",
       "en": "We watch TV.",
       "tokens": [
@@ -4011,8 +4017,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s14",
-      "unit": 5,
+      "id": "bj-4b-u4-s14",
+      "unit": 4,
       "cn": "我起得早。",
       "en": "I get up early.",
       "tokens": [
@@ -4039,8 +4045,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s15",
-      "unit": 5,
+      "id": "bj-4b-u4-s15",
+      "unit": 4,
       "cn": "今天是特别的一天。",
       "en": "Today is a special day.",
       "tokens": [
@@ -4072,8 +4078,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s16",
-      "unit": 5,
+      "id": "bj-4b-u4-s16",
+      "unit": 4,
       "cn": "泼水节在四月。",
       "en": "The Water-Splashing Festival is in April.",
       "tokens": [
@@ -4110,8 +4116,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s17",
-      "unit": 5,
+      "id": "bj-4b-u4-s17",
+      "unit": 4,
       "cn": "内蒙古在中国。",
       "en": "Inner Mongolia is in China.",
       "tokens": [
@@ -4143,8 +4149,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s18",
-      "unit": 5,
+      "id": "bj-4b-u4-s18",
+      "unit": 4,
       "cn": "那达慕在七月。",
       "en": "Naadam is in July.",
       "tokens": [
@@ -4171,8 +4177,8 @@
       ]
     },
     {
-      "id": "bj-4b-u5-s19",
-      "unit": 5,
+      "id": "bj-4b-u4-s19",
+      "unit": 4,
       "cn": "现在是八月。",
       "en": "It is August.",
       "tokens": [
@@ -4194,8 +4200,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s01",
-      "unit": 6,
+      "id": "bj-4b-u5-s01",
+      "unit": 5,
       "cn": "我奶奶很和善。",
       "en": "My grandma is kind.",
       "tokens": [
@@ -4222,8 +4228,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s02",
-      "unit": 6,
+      "id": "bj-4b-u5-s02",
+      "unit": 5,
       "cn": "亲爱的妈妈，我很好。",
       "en": "Dear Mum, I am fine.",
       "tokens": [
@@ -4255,8 +4261,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s03",
-      "unit": 6,
+      "id": "bj-4b-u5-s03",
+      "unit": 5,
       "cn": "我看电视。",
       "en": "I watch TV.",
       "tokens": [
@@ -4278,8 +4284,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s04",
-      "unit": 6,
+      "id": "bj-4b-u5-s04",
+      "unit": 5,
       "cn": "我爷爷年纪大了。",
       "en": "My grandpa is old.",
       "tokens": [
@@ -4306,8 +4312,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s05",
-      "unit": 6,
+      "id": "bj-4b-u5-s05",
+      "unit": 5,
       "cn": "这株植物是绿色的。",
       "en": "This plant is green.",
       "tokens": [
@@ -4334,8 +4340,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s06",
-      "unit": 6,
+      "id": "bj-4b-u5-s06",
+      "unit": 5,
       "cn": "这是厨房。",
       "en": "This is the kitchen.",
       "tokens": [
@@ -4362,8 +4368,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s07",
-      "unit": 6,
+      "id": "bj-4b-u5-s07",
+      "unit": 5,
       "cn": "我周末休息。",
       "en": "I rest at the weekend.",
       "tokens": [
@@ -4395,8 +4401,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s08",
-      "unit": 6,
+      "id": "bj-4b-u5-s08",
+      "unit": 5,
       "cn": "人们很和善。",
       "en": "People are kind.",
       "tokens": [
@@ -4418,8 +4424,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s09",
-      "unit": 6,
+      "id": "bj-4b-u5-s09",
+      "unit": 5,
       "cn": "他们是我的朋友。",
       "en": "They are my friends.",
       "tokens": [
@@ -4446,8 +4452,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s10",
-      "unit": 6,
+      "id": "bj-4b-u5-s10",
+      "unit": 5,
       "cn": "天空是蓝色的。",
       "en": "The sky is blue.",
       "tokens": [
@@ -4474,8 +4480,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s11",
-      "unit": 6,
+      "id": "bj-4b-u5-s11",
+      "unit": 5,
       "cn": "鸟会飞。",
       "en": "Birds can fly.",
       "tokens": [
@@ -4497,8 +4503,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s12",
-      "unit": 6,
+      "id": "bj-4b-u5-s12",
+      "unit": 5,
       "cn": "把它放这里。",
       "en": "Put it here.",
       "tokens": [
@@ -4520,8 +4526,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s13",
-      "unit": 6,
+      "id": "bj-4b-u5-s13",
+      "unit": 5,
       "cn": "我扮演国王的角色。",
       "en": "I play the role of a king.",
       "tokens": [
@@ -4563,8 +4569,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s14",
-      "unit": 6,
+      "id": "bj-4b-u5-s14",
+      "unit": 5,
       "cn": "我画一幅画。",
       "en": "I paint a picture.",
       "tokens": [
@@ -4591,8 +4597,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s15",
-      "unit": 6,
+      "id": "bj-4b-u5-s15",
+      "unit": 5,
       "cn": "这个故事很滑稽。",
       "en": "The story is funny.",
       "tokens": [
@@ -4619,8 +4625,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s16",
-      "unit": 6,
+      "id": "bj-4b-u5-s16",
+      "unit": 5,
       "cn": "他很勇敢。",
       "en": "He is brave.",
       "tokens": [
@@ -4642,8 +4648,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s17",
-      "unit": 6,
+      "id": "bj-4b-u5-s17",
+      "unit": 5,
       "cn": "我喜爱这音乐。",
       "en": "I enjoy the music.",
       "tokens": [
@@ -4670,8 +4676,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s18",
-      "unit": 6,
+      "id": "bj-4b-u5-s18",
+      "unit": 5,
       "cn": "世界很大。",
       "en": "The world is big.",
       "tokens": [
@@ -4698,8 +4704,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s19",
-      "unit": 6,
+      "id": "bj-4b-u5-s19",
+      "unit": 5,
       "cn": "这位成年女子是医生。",
       "en": "The woman is a doctor.",
       "tokens": [
@@ -4731,8 +4737,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s20",
-      "unit": 6,
+      "id": "bj-4b-u5-s20",
+      "unit": 5,
       "cn": "我喝茶。",
       "en": "I drink tea.",
       "tokens": [
@@ -4754,8 +4760,8 @@
       ]
     },
     {
-      "id": "bj-4b-u6-s21",
-      "unit": 6,
+      "id": "bj-4b-u5-s21",
+      "unit": 5,
       "cn": "兔子是白色的。",
       "en": "The rabbit is white.",
       "tokens": [
@@ -4782,8 +4788,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s01",
-      "unit": 7,
+      "id": "bj-4b-u6-s01",
+      "unit": 6,
       "cn": "见到你很高兴。",
       "en": "I am glad to see you.",
       "tokens": [
@@ -4820,8 +4826,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s02",
-      "unit": 7,
+      "id": "bj-4b-u6-s02",
+      "unit": 6,
       "cn": "我需要一支笔。",
       "en": "I need a pen.",
       "tokens": [
@@ -4848,8 +4854,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s03",
-      "unit": 7,
+      "id": "bj-4b-u6-s03",
+      "unit": 6,
       "cn": "我买一本书。",
       "en": "I buy a book.",
       "tokens": [
@@ -4876,8 +4882,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s04",
-      "unit": 7,
+      "id": "bj-4b-u6-s04",
+      "unit": 6,
       "cn": "给我讲个故事。",
       "en": "Tell me a story.",
       "tokens": [
@@ -4904,8 +4910,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s05",
-      "unit": 7,
+      "id": "bj-4b-u6-s05",
+      "unit": 6,
       "cn": "这是回家的路。",
       "en": "This is the way home.",
       "tokens": [
@@ -4937,8 +4943,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s06",
-      "unit": 7,
+      "id": "bj-4b-u6-s06",
+      "unit": 6,
       "cn": "商店在附近。",
       "en": "The shop is near.",
       "tokens": [
@@ -4965,8 +4971,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s07",
-      "unit": 7,
+      "id": "bj-4b-u6-s07",
+      "unit": 6,
       "cn": "坐在前面。",
       "en": "Sit in the front.",
       "tokens": [
@@ -4993,8 +4999,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s08",
-      "unit": 7,
+      "id": "bj-4b-u6-s08",
+      "unit": 6,
       "cn": "树在房子前面。",
       "en": "The tree is in front of the building.",
       "tokens": [
@@ -5041,8 +5047,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s09",
-      "unit": 7,
+      "id": "bj-4b-u6-s09",
+      "unit": 6,
       "cn": "学校较远。",
       "en": "The school is far.",
       "tokens": [
@@ -5069,8 +5075,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s10",
-      "unit": 7,
+      "id": "bj-4b-u6-s10",
+      "unit": 6,
       "cn": "这是一个机器人。",
       "en": "This is a robot.",
       "tokens": [
@@ -5097,8 +5103,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s11",
-      "unit": 7,
+      "id": "bj-4b-u6-s11",
+      "unit": 6,
       "cn": "我知道答案。",
       "en": "I know the answer.",
       "tokens": [
@@ -5125,8 +5131,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s12",
-      "unit": 7,
+      "id": "bj-4b-u6-s12",
+      "unit": 6,
       "cn": "他是第三个。",
       "en": "He is the third.",
       "tokens": [
@@ -5153,8 +5159,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s13",
-      "unit": 7,
+      "id": "bj-4b-u6-s13",
+      "unit": 6,
       "cn": "这封信给你。",
       "en": "This letter is for you.",
       "tokens": [
@@ -5186,8 +5192,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s14",
-      "unit": 7,
+      "id": "bj-4b-u6-s14",
+      "unit": 6,
       "cn": "她是第二个。",
       "en": "She is the second.",
       "tokens": [
@@ -5214,8 +5220,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s15",
-      "unit": 7,
+      "id": "bj-4b-u6-s15",
+      "unit": 6,
       "cn": "坐在我旁边。",
       "en": "Sit beside me.",
       "tokens": [
@@ -5237,8 +5243,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s16",
-      "unit": 7,
+      "id": "bj-4b-u6-s16",
+      "unit": 6,
       "cn": "中心很大。",
       "en": "The centre is big.",
       "tokens": [
@@ -5265,8 +5271,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s17",
-      "unit": 7,
+      "id": "bj-4b-u6-s17",
+      "unit": 6,
       "cn": "这是一部智能手机。",
       "en": "This is a smart phone.",
       "tokens": [
@@ -5298,8 +5304,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s18",
-      "unit": 7,
+      "id": "bj-4b-u6-s18",
+      "unit": 6,
       "cn": "我们社区很干净。",
       "en": "Our community is clean.",
       "tokens": [
@@ -5326,8 +5332,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s19",
-      "unit": 7,
+      "id": "bj-4b-u6-s19",
+      "unit": 6,
       "cn": "他们自己帮忙。",
       "en": "They help themselves.",
       "tokens": [
@@ -5349,8 +5355,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s20",
-      "unit": 7,
+      "id": "bj-4b-u6-s20",
+      "unit": 6,
       "cn": "房间很黑。",
       "en": "The room is dark.",
       "tokens": [
@@ -5377,8 +5383,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s21",
-      "unit": 7,
+      "id": "bj-4b-u6-s21",
+      "unit": 6,
       "cn": "马桶在哪儿？",
       "en": "Where is the toilet?",
       "tokens": [
@@ -5405,8 +5411,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s22",
-      "unit": 7,
+      "id": "bj-4b-u6-s22",
+      "unit": 6,
       "cn": "坐在我们之间。",
       "en": "Sit between us.",
       "tokens": [
@@ -5428,8 +5434,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s23",
-      "unit": 7,
+      "id": "bj-4b-u6-s23",
+      "unit": 6,
       "cn": "超市是新的。",
       "en": "The supermarket is new.",
       "tokens": [
@@ -5456,8 +5462,8 @@
       ]
     },
     {
-      "id": "bj-4b-u7-s24",
-      "unit": 7,
+      "id": "bj-4b-u6-s24",
+      "unit": 6,
       "cn": "他跑得快。",
       "en": "He runs quickly.",
       "tokens": [

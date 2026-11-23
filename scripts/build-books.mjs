@@ -16,6 +16,55 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, '..')
 const SRC_DIR = path.join(__dirname, 'data')
 const OUT_DIR = path.join(ROOT, 'src', 'data', 'books')
+const THEME_DIR = path.join(SRC_DIR, '_src', 'themes')
+
+/**
+ * 单元要点表：scripts/data/_src/themes/*.tsv
+ * 每行 bookId \t 单元号 \t 中文要点 \t 英文要点
+ * 中文是界面主标题，英文做副标题（参考人教 PEP / 外研新标准两套的写法）。
+ */
+const THEMES = (() => {
+  const map = new Map()
+  if (!fs.existsSync(THEME_DIR)) return map
+  for (const f of fs.readdirSync(THEME_DIR)) {
+    if (!f.endsWith('.tsv')) continue
+    const raw = fs.readFileSync(path.join(THEME_DIR, f), 'utf8').replace(/^\uFEFF/, '')
+    for (const line of raw.split(/\r?\n/)) {
+      if (!line.trim() || line.startsWith('#')) continue
+      const [book, no, cn, en] = line.split('\t')
+      if (!book || !no) continue
+      map.set(`${book.trim()}#${Number(no)}`, {
+        cn: (cn || '').trim(),
+        en: (en || '').trim(),
+      })
+    }
+  }
+  return map
+})()
+
+/** 打印时提示哪些单元还没写要点，避免静默漏掉 */
+const missingTheme = new Set()
+
+function themeOf(bookId, meta, no) {
+  const hit = THEMES.get(`${bookId}#${no}`)
+  const cn = hit?.cn || meta.unitThemes?.[no] || ''
+  const en = hit?.en || ''
+  if (!cn) missingTheme.add(`${bookId} u${no}`)
+  return { cn, en }
+}
+
+/**
+ * 孤立单元归并：unit 0 是 PDF 解析时落在外面的零散词，按语义并进正片单元。
+ * 归并之后再统一重排成 1..N，保证界面上不会出现 0 号或跳号。
+ */
+const UNIT_MERGE = {
+  'jj-3a': { 0: 5 }, // happy / short / so → About me
+  'jj-4a': { 0: 3 }, // cheer / proud / basketball → Sports
+  'qh-2b': { 0: 2 }, // angry / future → FEELINGS
+  'qh-3a': { 0: 1 }, // am / are / has / play → OUR SCHOOL
+  'jk-3b': { 0: 1 }, // 起居与值日短语 → 日常作息
+}
+
 
 /** 教材元信息 + 单元主题 */
 const BOOKS = {
@@ -251,6 +300,18 @@ const BOOKS = {
   /* ===== 外研版《英语》（新标准）小学修订版 =====
    * 词表来源：家长提供的 2026 秋分层教学设计课件，每课时【核心词汇】段
    * 单元号按课件出现顺序编，Unit 1 起 */
+  'pep-6b': {
+    id: 'pep-6start-6b',
+    title: '义务教育教科书·英语（PEP）六年级下册',
+    shortTitle: '六年级下册',
+    publisher: '人民教育出版社',
+    series: 'PEP（三年级起点）',
+    grade: 6,
+    term: 'down',
+    edition: '新课标修订版',
+    stage: 'primary',
+  },
+
   'fltrp-3a': {
     id: 'fltrp-3a',
     title: '义务教育教科书·英语（新标准）三年级上册',
@@ -385,6 +446,18 @@ const BOOKS = {
       6: '文化和旅行',
     },
   },
+  'fltrp-6b': {
+    id: 'fltrp-6b',
+    title: '义务教育教科书·英语（新标准）六年级下册',
+    shortTitle: '六下·外研',
+    publisher: '外语教学与研究出版社',
+    series: '外研版（新标准）',
+    grade: 6,
+    term: 'down',
+    edition: '新课标修订版',
+    stage: 'primary',
+  },
+
   'yilin-3a': {
     id: 'yilin-3a',
     title: '义务教育教科书·英语（译林版）三年级上册',
@@ -1615,31 +1688,10 @@ const BOOKS = {
       9: '',
     },
   },
-  'yl-3b': {
-    id: 'yl-3b',
-    title: '义务教育教科书·英语（译林）三年级下册',
-    shortTitle: '三年级下册',
-    publisher: '译林出版社',
-    series: '译林版（三年级起点）',
-    grade: 3,
-    term: 'down',
-    edition: '2025 春 · 新课标修订版',
-    stage: 'primary',
-    unitThemes: {
-      1: 'School things',
-      2: 'Clean our classroom',
-      3: 'School rules',
-      4: 'Have fun after school',
-      5: 'Fruit',
-      6: 'On the farm',
-      7: 'Animals',
-      8: 'Colours',
-    },
-  },
   'yl-4b': {
     id: 'yl-4b',
     title: '义务教育教科书·英语（译林）四年级下册',
-    shortTitle: '四年级下册',
+    shortTitle: '四下·译林',
     publisher: '译林出版社',
     series: '译林版（三年级起点）',
     grade: 4,
@@ -1660,7 +1712,7 @@ const BOOKS = {
   'yl-5b': {
     id: 'yl-5b',
     title: '义务教育教科书·英语（译林）五年级下册',
-    shortTitle: '五年级下册',
+    shortTitle: '五下·译林',
     publisher: '译林出版社',
     series: '译林版（三年级起点）',
     grade: 5,
@@ -1676,10 +1728,22 @@ const BOOKS = {
       6: 'In the kitchen',
     },
   },
+  'yl-6a': {
+    id: 'yl-6a',
+    title: '义务教育教科书·英语（译林）六年级上册',
+    shortTitle: '六上·译林',
+    publisher: '译林出版社',
+    series: '译林版（三年级起点）',
+    grade: 6,
+    term: 'up',
+    edition: '新课标修订版',
+    stage: 'primary',
+  },
+
   'yl-6b': {
     id: 'yl-6b',
     title: '义务教育教科书·英语（译林）六年级下册',
-    shortTitle: '六年级下册',
+    shortTitle: '六下·译林',
     publisher: '译林出版社',
     series: '译林版（三年级起点）',
     grade: 6,
@@ -1696,6 +1760,183 @@ const BOOKS = {
     },
   },
 
+  // ---- 2026 秋补齐的上册（词表来自 _src/tb2026，要点见 _src/themes/newbooks.tsv）----
+  'bj-3a': {
+    id: 'bj-3a',
+    title: '义务教育教科书·英语（北京）三年级上册',
+    shortTitle: '三年级上册',
+    publisher: '北京出版社',
+    series: '北京版',
+    grade: 3,
+    term: 'up',
+    edition: '2026 秋 · 新课标修订版',
+    stage: 'primary',
+  },
+  'bj-4a': {
+    id: 'bj-4a',
+    title: '义务教育教科书·英语（北京）四年级上册',
+    shortTitle: '四年级上册',
+    publisher: '北京出版社',
+    series: '北京版',
+    grade: 4,
+    term: 'up',
+    edition: '2026 秋 · 新课标修订版',
+    stage: 'primary',
+  },
+  'bj-5a': {
+    id: 'bj-5a',
+    title: '义务教育教科书·英语（北京）五年级上册',
+    shortTitle: '五年级上册',
+    publisher: '北京出版社',
+    series: '北京版',
+    grade: 5,
+    term: 'up',
+    edition: '2026 秋 · 新课标修订版',
+    stage: 'primary',
+  },
+  'hj-3a': {
+    id: 'hj-3a',
+    title: '义务教育教科书·英语（沪教版）三年级上册',
+    shortTitle: '三上·沪教',
+    publisher: '上海教育出版社',
+    series: '沪教版（三年级起点）',
+    grade: 3,
+    term: 'up',
+    edition: '2026 秋 · 新课标修订版',
+    stage: 'primary',
+  },
+  'hj-4a': {
+    id: 'hj-4a',
+    title: '义务教育教科书·英语（沪教）四年级上册',
+    shortTitle: '四年级上册',
+    publisher: '上海教育出版社',
+    series: '沪教版（三年级起点）',
+    grade: 4,
+    term: 'up',
+    edition: '2026 秋 · 新课标修订版',
+    stage: 'primary',
+  },
+  'hj-5a': {
+    id: 'hj-5a',
+    title: '义务教育教科书·英语（沪教）五年级上册',
+    shortTitle: '五年级上册',
+    publisher: '上海教育出版社',
+    series: '沪教版（三年级起点）',
+    grade: 5,
+    term: 'up',
+    edition: '2026 秋 · 新课标修订版',
+    stage: 'primary',
+  },
+  'jk-3a': {
+    id: 'jk-3a',
+    title: '义务教育教科书·英语（教科）三年级上册',
+    shortTitle: '三年级上册',
+    publisher: '教育科学出版社',
+    series: '教科版（三年级起点）',
+    grade: 3,
+    term: 'up',
+    edition: '2026 秋 · 新课标修订版',
+    stage: 'primary',
+  },
+  'jk-4a': {
+    id: 'jk-4a',
+    title: '义务教育教科书·英语（教科）四年级上册',
+    shortTitle: '四年级上册',
+    publisher: '教育科学出版社',
+    series: '教科版（三年级起点）',
+    grade: 4,
+    term: 'up',
+    edition: '2026 秋 · 新课标修订版',
+    stage: 'primary',
+  },
+  'jk-5a': {
+    id: 'jk-5a',
+    title: '义务教育教科书·英语（教科）五年级上册',
+    shortTitle: '五年级上册',
+    publisher: '教育科学出版社',
+    series: '教科版（三年级起点）',
+    grade: 5,
+    term: 'up',
+    edition: '2026 秋 · 新课标修订版',
+    stage: 'primary',
+  },
+  'jk-6a': {
+    id: 'jk-6a',
+    title: '义务教育教科书·英语（教科）六年级上册',
+    shortTitle: '六年级上册',
+    publisher: '教育科学出版社',
+    series: '教科版（三年级起点）',
+    grade: 6,
+    term: 'up',
+    edition: '2026 秋 · 新课标修订版',
+    stage: 'primary',
+  },
+  'xs-3a': {
+    id: 'xs-3a',
+    title: '义务教育教科书·英语（湘少版）三年级上册',
+    shortTitle: '三上·湘少',
+    publisher: '湖南少年儿童出版社',
+    series: '湘少版（三年级起点）',
+    grade: 3,
+    term: 'up',
+    edition: '2026 秋 · 新课标修订版',
+    stage: 'primary',
+  },
+  'xs-4a': {
+    id: 'xs-4a',
+    title: '义务教育教科书·英语（湘少）四年级上册',
+    shortTitle: '四年级上册',
+    publisher: '湖南少年儿童出版社',
+    series: '湘少版（三年级起点）',
+    grade: 4,
+    term: 'up',
+    edition: '2026 秋 · 新课标修订版',
+    stage: 'primary',
+  },
+  'xs-5a': {
+    id: 'xs-5a',
+    title: '义务教育教科书·英语（湘少）五年级上册',
+    shortTitle: '五年级上册',
+    publisher: '湖南少年儿童出版社',
+    series: '湘少版（三年级起点）',
+    grade: 5,
+    term: 'up',
+    edition: '2026 秋 · 新课标修订版',
+    stage: 'primary',
+  },
+  'xs-6a': {
+    id: 'xs-6a',
+    title: '义务教育教科书·英语（湘少）六年级上册',
+    shortTitle: '六年级上册',
+    publisher: '湖南少年儿童出版社',
+    series: '湘少版（三年级起点）',
+    grade: 6,
+    term: 'up',
+    edition: '2026 秋 · 新课标修订版',
+    stage: 'primary',
+  },
+  'yl-4a': {
+    id: 'yl-4a',
+    title: '义务教育教科书·英语（译林）四年级上册',
+    shortTitle: '四上·译林',
+    publisher: '译林出版社',
+    series: '译林版（三年级起点）',
+    grade: 4,
+    term: 'up',
+    edition: '2026 秋 · 新课标修订版',
+    stage: 'primary',
+  },
+  'yl-5a': {
+    id: 'yl-5a',
+    title: '义务教育教科书·英语（译林）五年级上册',
+    shortTitle: '五上·译林',
+    publisher: '译林出版社',
+    series: '译林版（三年级起点）',
+    grade: 5,
+    term: 'up',
+    edition: '2026 秋 · 新课标修订版',
+    stage: 'primary',
+  },
 }
 
 function parse(file) {
@@ -1766,6 +2007,19 @@ function build(bookId) {
   if (!meta) throw new Error(`未定义的教材: ${bookId}`)
   const rows = parse(path.join(SRC_DIR, `${bookId}.tsv`))
 
+  // ---- 单元号归一：先并孤立单元，再压成 1..N ----
+  const merge = UNIT_MERGE[bookId] || {}
+  rows.forEach((r) => {
+    if (merge[r.unit] !== undefined) r.unit = merge[r.unit]
+  })
+  const rawNos = [...new Set(rows.map((r) => r.unit))].sort((a, b) => a - b)
+  const numMap = new Map(rawNos.map((n, i) => [n, i + 1]))
+  /** 新号 → 原号：要点表是按教材原单元号写的，重排后要回查 */
+  const oldOf = new Map([...numMap].map(([old, no]) => [no, old]))
+  rows.forEach((r) => {
+    r.unit = numMap.get(r.unit)
+  })
+
   /** 同单元内序号，处理 orange 这类跨单元重复词 */
   const seq = {}
   const words = rows.map((r) => {
@@ -1783,12 +2037,16 @@ function build(bookId) {
   })
 
   const unitNos = [...new Set(rows.map((r) => r.unit))].sort((a, b) => a - b)
-  const units = unitNos.map((no) => ({
-    no,
-    title: `Unit ${no}`,
-    theme: meta.unitThemes?.[no] || '',
-    wordIds: words.filter((w) => w.unit === no).map((w) => w.id),
-  }))
+  const units = unitNos.map((no) => {
+    const { cn, en } = themeOf(bookId, meta, oldOf.get(no) ?? no)
+    return {
+      no,
+      title: `Unit ${no}`,
+      theme: cn,
+      ...(en ? { themeEn: en } : {}),
+      wordIds: words.filter((w) => w.unit === no).map((w) => w.id),
+    }
+  })
 
   const sentences = parseSentences(
     path.join(SRC_DIR, `sentences-${bookId}.tsv`),
@@ -1796,6 +2054,17 @@ function build(bookId) {
     meta.unitThemes,
   )
   sentences.forEach((s) => delete s._theme)
+
+  // 句子跟单元一起重排（id 里的 uN 也重建，避免出现 u0）
+  const sentSeq = {}
+  sentences.forEach((s) => {
+    const old = merge[s.unit] !== undefined ? merge[s.unit] : s.unit
+    const no = numMap.get(old)
+    if (no === undefined) return
+    s.unit = no
+    sentSeq[no] = (sentSeq[no] || 0) + 1
+    s.id = `${meta.id}-u${no}-s${String(sentSeq[no]).padStart(2, '0')}`
+  })
 
   // ---- 校验 ----
   const errs = []
@@ -1862,10 +2131,15 @@ function build(bookId) {
   )
   units.forEach((u) => {
     const n = sentences.filter((s) => s.unit === u.no).length
-    console.log(`   Unit ${u.no}  ${u.theme}  ${u.wordIds.length} 词 / ${n} 句`)
+    console.log(`   Unit ${u.no}  ${u.theme}${u.themeEn ? ` / ${u.themeEn}` : ''}  ${u.wordIds.length} 词 / ${n} 句`)
   })
 }
 
 const targets = process.argv.slice(2)
 if (targets.length === 0) Object.keys(BOOKS).forEach(build)
 else targets.forEach(build)
+
+if (missingTheme.size) {
+  console.warn(`⚠ ${missingTheme.size} 个单元还没有中文要点：`)
+  console.warn('  ' + [...missingTheme].join(', '))
+}

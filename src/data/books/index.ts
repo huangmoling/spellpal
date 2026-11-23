@@ -11,6 +11,7 @@ import pep4b from './pep-4start-4b.json'
 import pep5a from './pep-5start-5a.json'
 import pep5b from './pep-5start-5b.json'
 import pep6a from './pep-6start-6a.json'
+import pep6b from './pep-6start-6b.json'
 import fltrp3a from './fltrp-3a.json'
 import fltrp3b from './fltrp-3b.json'
 import fltrp4a from './fltrp-4a.json'
@@ -18,6 +19,7 @@ import fltrp4b from './fltrp-4b.json'
 import fltrp5a from './fltrp-5a.json'
 import fltrp5b from './fltrp-5b.json'
 import fltrp6a from './fltrp-6a.json'
+import fltrp6b from './fltrp-6b.json'
 import yilin3a from './yilin-3a.json'
 import yilin3b from './yilin-3b.json'
 import jj3b from './jj-3b.json'
@@ -26,6 +28,9 @@ import qh3b from './qh-3b.json'
 import hj3b from './hj-3b.json'
 import xs3b from './xs-3b.json'
 import ls3b from './ls-3b.json'
+import bj3a from './bj-3a.json'
+import bj4a from './bj-4a.json'
+import bj5a from './bj-5a.json'
 import bj2a from './bj-2a.json'
 import bj2b from './bj-2b.json'
 import bj3b from './bj-3b.json'
@@ -82,10 +87,23 @@ import qh6b from './qh-6b.json'
 import xs4b from './xs-4b.json'
 import xs5b from './xs-5b.json'
 import xs6b from './xs-6b.json'
-import yl3b from './yl-3b.json'
 import yl4b from './yl-4b.json'
 import yl5b from './yl-5b.json'
+import yl6a from './yl-6a.json'
 import yl6b from './yl-6b.json'
+import hj3a from './hj-3a.json'
+import hj4a from './hj-4a.json'
+import hj5a from './hj-5a.json'
+import jk3a from './jk-3a.json'
+import jk4a from './jk-4a.json'
+import jk5a from './jk-5a.json'
+import jk6a from './jk-6a.json'
+import xs3a from './xs-3a.json'
+import xs4a from './xs-4a.json'
+import xs5a from './xs-5a.json'
+import xs6a from './xs-6a.json'
+import yl4a from './yl-4a.json'
+import yl5a from './yl-5a.json'
 
 /**
  * 已收录的教材。加新册只需生成 JSON 后在这里 import 一行。
@@ -104,6 +122,7 @@ export const BOOKS = [
   pep5a as unknown as Book,
   pep5b as unknown as Book,
   pep6a as unknown as Book,
+  pep6b as unknown as Book,
   fltrp3a as unknown as Book,
   fltrp3b as unknown as Book,
   fltrp4a as unknown as Book,
@@ -111,18 +130,24 @@ export const BOOKS = [
   fltrp5a as unknown as Book,
   fltrp5b as unknown as Book,
   fltrp6a as unknown as Book,
+  fltrp6b as unknown as Book,
   yilin3a as unknown as Book,
   yilin3b as unknown as Book,
   jj3b as unknown as Book,
   cj3b as unknown as Book,
   qh3b as unknown as Book,
+  hj3a as unknown as Book,
   hj3b as unknown as Book,
+  xs3a as unknown as Book,
   xs3b as unknown as Book,
   ls3b as unknown as Book,
   bj2a as unknown as Book,
   bj2b as unknown as Book,
+  bj3a as unknown as Book,
   bj3b as unknown as Book,
+  bj4a as unknown as Book,
   bj4b as unknown as Book,
+  bj5a as unknown as Book,
   bj5b as unknown as Book,
   bj6a as unknown as Book,
   bj6b as unknown as Book,
@@ -141,7 +166,9 @@ export const BOOKS = [
   cj5b as unknown as Book,
   cj6a as unknown as Book,
   cj6b as unknown as Book,
+  hj4a as unknown as Book,
   hj4b as unknown as Book,
+  hj5a as unknown as Book,
   hj5b as unknown as Book,
   hj6a as unknown as Book,
   hj6b as unknown as Book,
@@ -152,9 +179,13 @@ export const BOOKS = [
   jj5b as unknown as Book,
   jj6a as unknown as Book,
   jj6b as unknown as Book,
+  jk3a as unknown as Book,
   jk3b as unknown as Book,
+  jk4a as unknown as Book,
   jk4b as unknown as Book,
+  jk5a as unknown as Book,
   jk5b as unknown as Book,
+  jk6a as unknown as Book,
   jk6b as unknown as Book,
   ls3a as unknown as Book,
   ls4a as unknown as Book,
@@ -172,12 +203,17 @@ export const BOOKS = [
   qh5b as unknown as Book,
   qh6a as unknown as Book,
   qh6b as unknown as Book,
+  xs4a as unknown as Book,
   xs4b as unknown as Book,
+  xs5a as unknown as Book,
   xs5b as unknown as Book,
+  xs6a as unknown as Book,
   xs6b as unknown as Book,
-  yl3b as unknown as Book,
+  yl4a as unknown as Book,
   yl4b as unknown as Book,
+  yl5a as unknown as Book,
   yl5b as unknown as Book,
+  yl6a as unknown as Book,
   yl6b as unknown as Book,
 ]
 
