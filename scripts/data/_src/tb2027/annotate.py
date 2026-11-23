@@ -13,7 +13,7 @@ ROOT = os.path.abspath(os.path.join(HERE, '..', '..', '..', '..'))
 SRC = os.path.join(ROOT, 'scripts', 'data')
 
 POS_OK = {'名词', '动词', '形容词', '副词', '代词', '介词', '连词', '冠词', '数词',
-          '感叹词', '助动词', '缩略', '情态动词', '量词', '限定词', '疑问词'}
+          '感叹词', '助动词', '缩略', '情态动词', '量词', '限定词', '疑问词', '标点'}
 
 # 历史语料没覆盖到的词块，人工补（逐条核过）
 LEX = {
@@ -89,6 +89,51 @@ CTX = {
 }
 
 
+def lookup(k, lex):
+    """词形还原后查词：calling→call / says→say / brothers→brother / ming's→ming"""
+    if not k:
+        return None
+    # 纯数字/时间（3 / 11:00 / 20）
+    if re.fullmatch(r'[\d:.,]+', k):
+        return ('数词', k)
+    if k in lex and lex[k]:
+        return lex[k].most_common(1)[0][0]
+    # 所有格 / 缩写：susan's → susan, it's → it
+    if k.endswith("'s") and len(k) > 3:
+        base = k[:-2]
+        if base in lex and lex[base]:
+            pos, cn = lex[base].most_common(1)[0][0]
+            return (pos, cn + '的')
+    if k.endswith("s'") and len(k) > 3:
+        base = k[:-2]
+        if base in lex and lex[base]:
+            pos, cn = lex[base].most_common(1)[0][0]
+            return (pos, cn + '的')
+    cands = []
+    if k.endswith('ies') and len(k) > 4:
+        cands.append(k[:-3] + 'y')
+    if k.endswith('ied') and len(k) > 4:
+        cands.append(k[:-3] + 'y')
+    if k.endswith('ing') and len(k) > 5:
+        stem = k[:-3]
+        cands += [stem, stem + 'e']
+        if len(stem) > 2 and stem[-1] == stem[-2]:
+            cands.append(stem[:-1])
+    if k.endswith('ed') and len(k) > 4:
+        stem = k[:-2]
+        cands += [stem, stem + 'e', k[:-1]]
+        if len(stem) > 2 and stem[-1] == stem[-2]:
+            cands.append(stem[:-1])
+    if k.endswith('es') and len(k) > 4:
+        cands += [k[:-2], k[:-1]]
+    if k.endswith('s') and len(k) > 3:
+        cands.append(k[:-1])
+    for c in cands:
+        if c in lex and lex[c]:
+            return lex[c].most_common(1)[0][0]
+    return None
+
+
 def key(tok):
     t = tok.lower().replace('’', "'")
     t = re.sub(r"^[^a-z0-9']+|[^a-z0-9']+$", '', t)
@@ -97,6 +142,15 @@ def key(tok):
 
 def load_lex():
     lex = defaultdict(Counter)
+    # 首选静态词库（由 build_lex.py 从功能词 + 单词表 + 历史语料提炼）
+    p = os.path.join(HERE, 'token_lex.json')
+    if os.path.exists(p):
+        with open(p, encoding='utf-8') as f:
+            for k, v in json.load(f).items():
+                lex[k][tuple(v)] += 1
+        if lex:
+            return lex
+    # 兜底：扫已生成的例句文件（注意：清空例句时会失效）
     for f in glob.glob(os.path.join(SRC, 'sentences-*.tsv')):
         for ln in open(f, encoding='utf-8'):
             cols = ln.rstrip('\n').split('\t')
@@ -131,10 +185,15 @@ def main(books):
             poses, cns = [], []
             for i, t in enumerate(parts):
                 k = key(t)
+                if not k:
+                    # 纯标点 token（— / – 等）
+                    poses.append('标点')
+                    cns.append(t)
+                    continue
                 if i in over:
                     pos, c = over[i]
-                elif k and lex.get(k):
-                    pos, c = lex[k].most_common(1)[0][0]
+                elif k and lookup(k, lex):
+                    pos, c = lookup(k, lex)
                 elif k in LEX:
                     pos, c = LEX[k]
                 else:
