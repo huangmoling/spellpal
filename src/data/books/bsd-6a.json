@@ -9,7 +9,7 @@
   "edition": "2025 秋 · 新课标修订版",
   "stage": "primary",
   "wordCount": 96,
-  "sentenceCount": 0,
+  "sentenceCount": 93,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -1746,5 +1746,2560 @@
       "unit": 6
     }
   ],
-  "sentences": []
+  "sentences": [
+    {
+      "id": "bsd-6a-u1-s01",
+      "unit": 1,
+      "cn": "这是一艘宇宙飞船。",
+      "en": "This is a spaceship.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "spaceship.",
+          "cn": "宇宙飞船",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u1-s02",
+      "unit": 1,
+      "cn": "月亮很亮。",
+      "en": "The moon is bright.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "moon",
+          "cn": "月亮",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "bright.",
+          "cn": "聪明的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u1-s03",
+      "unit": 1,
+      "cn": "他是宇航员。",
+      "en": "He is an astronaut.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "astronaut.",
+          "cn": "宇航员",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u1-s04",
+      "unit": 1,
+      "cn": "我有一个梦想。",
+      "en": "I have a dream.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "dream.",
+          "cn": "梦想",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u1-s05",
+      "unit": 1,
+      "cn": "我昨夜看了一部电影。",
+      "en": "I saw a film last night.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "saw",
+          "cn": "锯",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "film",
+          "cn": "电影",
+          "pos": "名词"
+        },
+        {
+          "en": "last",
+          "cn": "最后",
+          "pos": "名词"
+        },
+        {
+          "en": "night.",
+          "cn": "夜晚",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u1-s06",
+      "unit": 1,
+      "cn": "我想当老师。",
+      "en": "I want to be a teacher.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "be",
+          "cn": "成为",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "teacher.",
+          "cn": "教师",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u1-s07",
+      "unit": 1,
+      "cn": "我们需要空气。",
+      "en": "We need air.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "need",
+          "cn": "需要",
+          "pos": "名词"
+        },
+        {
+          "en": "air.",
+          "cn": "空气",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u1-s08",
+      "unit": 1,
+      "cn": "这里的人很友好。",
+      "en": "The people here are friendly.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "people",
+          "cn": "人们",
+          "pos": "名词"
+        },
+        {
+          "en": "here",
+          "cn": "这里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "friendly.",
+          "cn": "友好的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u1-s09",
+      "unit": 1,
+      "cn": "地球是我们的家。",
+      "en": "The Earth is our home.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Earth",
+          "cn": "地球",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "our",
+          "cn": "我们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "home.",
+          "cn": "回家",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u1-s10",
+      "unit": 1,
+      "cn": "我昨天在家。",
+      "en": "I was at home yesterday.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "was",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "home",
+          "cn": "回家",
+          "pos": "名词"
+        },
+        {
+          "en": "yesterday.",
+          "cn": "昨天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u1-s11",
+      "unit": 1,
+      "cn": "这是一个游泳池。",
+      "en": "This is a swimming pool.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "swimming",
+          "cn": "在游泳",
+          "pos": "介词"
+        },
+        {
+          "en": "pool.",
+          "cn": "游泳池",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u2-s01",
+      "unit": 2,
+      "cn": "我打扫房间。",
+      "en": "I clean my room.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "clean",
+          "cn": "打扫",
+          "pos": "名词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "room.",
+          "cn": "房间",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u2-s02",
+      "unit": 2,
+      "cn": "我们看电影。",
+      "en": "We watch a film.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "watch",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "film.",
+          "cn": "电影",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u2-s03",
+      "unit": 2,
+      "cn": "我拜访姑母。",
+      "en": "I visit my aunt.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "visit",
+          "cn": "拜访",
+          "pos": "名词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "aunt.",
+          "cn": "姑母",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u2-s04",
+      "unit": 2,
+      "cn": "我们回家吧。",
+      "en": "Let's go home.",
+      "tokens": [
+        {
+          "en": "Let's",
+          "cn": "让我们",
+          "pos": "缩略"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "home.",
+          "cn": "回家",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u2-s05",
+      "unit": 2,
+      "cn": "海龟慢慢地走。",
+      "en": "The turtle walks slowly.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "turtle",
+          "cn": "海龟",
+          "pos": "名词"
+        },
+        {
+          "en": "walks",
+          "cn": "步行",
+          "pos": "名词"
+        },
+        {
+          "en": "slowly.",
+          "cn": "缓慢地",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u2-s06",
+      "unit": 2,
+      "cn": "我要一些水。",
+      "en": "I want some water.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "water.",
+          "cn": "水",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u2-s07",
+      "unit": 2,
+      "cn": "把球传给我。",
+      "en": "Pass me the ball.",
+      "tokens": [
+        {
+          "en": "Pass",
+          "cn": "传",
+          "pos": "名词"
+        },
+        {
+          "en": "me",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "ball.",
+          "cn": "球",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u2-s08",
+      "unit": 2,
+      "cn": "我吃一个苹果。",
+      "en": "I eat an apple.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "eat",
+          "cn": "吃",
+          "pos": "名词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "apple.",
+          "cn": "苹果",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u2-s09",
+      "unit": 2,
+      "cn": "他跑得很快。",
+      "en": "He runs quickly.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "runs",
+          "cn": "跑",
+          "pos": "动词"
+        },
+        {
+          "en": "quickly.",
+          "cn": "快速地",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u2-s10",
+      "unit": 2,
+      "cn": "给我另一本书。",
+      "en": "Give me another book.",
+      "tokens": [
+        {
+          "en": "Give",
+          "cn": "给",
+          "pos": "名词"
+        },
+        {
+          "en": "me",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "another",
+          "cn": "另一",
+          "pos": "名词"
+        },
+        {
+          "en": "book.",
+          "cn": "书",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u2-s11",
+      "unit": 2,
+      "cn": "突然下雨了。",
+      "en": "Suddenly, it rains.",
+      "tokens": [
+        {
+          "en": "Suddenly,",
+          "cn": "突然",
+          "pos": "名词"
+        },
+        {
+          "en": "it",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "rains.",
+          "cn": "雨",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u2-s12",
+      "unit": 2,
+      "cn": "你看起来很累。",
+      "en": "You look tired.",
+      "tokens": [
+        {
+          "en": "You",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "look",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "tired.",
+          "cn": "疲惫的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u2-s13",
+      "unit": 2,
+      "cn": "宝宝不舒服。",
+      "en": "The baby is sick.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "baby",
+          "cn": "婴儿",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "sick.",
+          "cn": "不适的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u2-s14",
+      "unit": 2,
+      "cn": "他咳嗽。",
+      "en": "He has a cough.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "has",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "cough.",
+          "cn": "咳嗽",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u2-s15",
+      "unit": 2,
+      "cn": "到处都是水。",
+      "en": "There is water everywhere.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "water",
+          "cn": "水",
+          "pos": "名词"
+        },
+        {
+          "en": "everywhere.",
+          "cn": "处处",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u2-s16",
+      "unit": 2,
+      "cn": "你能帮我吗？",
+      "en": "Can you help me?",
+      "tokens": [
+        {
+          "en": "Can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "help",
+          "cn": "帮助",
+          "pos": "动词"
+        },
+        {
+          "en": "me?",
+          "cn": "我",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u2-s17",
+      "unit": 2,
+      "cn": "小心！",
+      "en": "Be careful!",
+      "tokens": [
+        {
+          "en": "Be",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "careful!",
+          "cn": "小心的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s01",
+      "unit": 3,
+      "cn": "我们赢了比赛。",
+      "en": "We win the game.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "win",
+          "cn": "赢",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "game.",
+          "cn": "游戏",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s02",
+      "unit": 3,
+      "cn": "现在是七月。",
+      "en": "It is July.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "July.",
+          "cn": "七月",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s03",
+      "unit": 3,
+      "cn": "我很兴奋。",
+      "en": "I am excited.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "excited.",
+          "cn": "激动的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s04",
+      "unit": 3,
+      "cn": "春季很暖和。",
+      "en": "Spring is warm.",
+      "tokens": [
+        {
+          "en": "Spring",
+          "cn": "春天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "warm.",
+          "cn": "温暖的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s05",
+      "unit": 3,
+      "cn": "这是我的最后一本书。",
+      "en": "This is my last book.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "last",
+          "cn": "最后",
+          "pos": "名词"
+        },
+        {
+          "en": "book.",
+          "cn": "书",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s06",
+      "unit": 3,
+      "cn": "现在是三月。",
+      "en": "It is March.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "March.",
+          "cn": "三月",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s07",
+      "unit": 3,
+      "cn": "这是奖品。",
+      "en": "This is the prize.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "prize.",
+          "cn": "奖品",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s08",
+      "unit": 3,
+      "cn": "核查你的答案。",
+      "en": "Check your answers.",
+      "tokens": [
+        {
+          "en": "Check",
+          "cn": "核查",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "answers.",
+          "cn": "回答",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s09",
+      "unit": 3,
+      "cn": "她很伤心。",
+      "en": "She is sad.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "sad.",
+          "cn": "伤心的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s10",
+      "unit": 3,
+      "cn": "我决定去。",
+      "en": "I decide to go.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "decide",
+          "cn": "决定",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "go.",
+          "cn": "走",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s11",
+      "unit": 3,
+      "cn": "秋季很凉爽。",
+      "en": "Autumn is cool.",
+      "tokens": [
+        {
+          "en": "Autumn",
+          "cn": "秋天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "cool.",
+          "cn": "凉爽的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s12",
+      "unit": 3,
+      "cn": "塔很高。",
+      "en": "The tower is high.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "tower",
+          "cn": "塔",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "high.",
+          "cn": "高的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s13",
+      "unit": 3,
+      "cn": "我也不喜欢它。",
+      "en": "I don't like it either.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "don't",
+          "cn": "不",
+          "pos": "助动词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "it",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "either.",
+          "cn": "（用于否定）都不",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s14",
+      "unit": 3,
+      "cn": "我很高兴。",
+      "en": "I am happy.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "happy.",
+          "cn": "高兴的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s15",
+      "unit": 3,
+      "cn": "他是第六个。",
+      "en": "He is the sixth.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sixth.",
+          "cn": "第六",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s16",
+      "unit": 3,
+      "cn": "请打电话给我。",
+      "en": "Call me, please.",
+      "tokens": [
+        {
+          "en": "Call",
+          "cn": "打电话",
+          "pos": "名词"
+        },
+        {
+          "en": "me,",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "please.",
+          "cn": "请",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s17",
+      "unit": 3,
+      "cn": "她是第七个。",
+      "en": "She is the seventh.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "seventh.",
+          "cn": "第七",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s18",
+      "unit": 3,
+      "cn": "我们在课上谈话。",
+      "en": "We talk in class.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "talk",
+          "cn": "谈话",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "class.",
+          "cn": "课",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s19",
+      "unit": 3,
+      "cn": "这是第八个。",
+      "en": "This is the eighth.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "eighth.",
+          "cn": "第八",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s20",
+      "unit": 3,
+      "cn": "现在是十二月。",
+      "en": "It is December.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "December.",
+          "cn": "十二月",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s21",
+      "unit": 3,
+      "cn": "他是第九个。",
+      "en": "He is the ninth.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "ninth.",
+          "cn": "第九",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s22",
+      "unit": 3,
+      "cn": "夏季很热。",
+      "en": "Summer is hot.",
+      "tokens": [
+        {
+          "en": "Summer",
+          "cn": "夏天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "hot.",
+          "cn": "热的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s23",
+      "unit": 3,
+      "cn": "这是第十个。",
+      "en": "This is the tenth.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "tenth.",
+          "cn": "第十",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s24",
+      "unit": 3,
+      "cn": "现在是十月。",
+      "en": "It is October.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "October.",
+          "cn": "十月",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s25",
+      "unit": 3,
+      "cn": "现在是一月。",
+      "en": "It is January.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "January.",
+          "cn": "一月",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s26",
+      "unit": 3,
+      "cn": "他是第一个。",
+      "en": "He is the first.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "first.",
+          "cn": "第一",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s27",
+      "unit": 3,
+      "cn": "她是第二个。",
+      "en": "She is the second.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "second.",
+          "cn": "第二",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s28",
+      "unit": 3,
+      "cn": "这是第三个。",
+      "en": "This is the third.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "third.",
+          "cn": "第三",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s29",
+      "unit": 3,
+      "cn": "这是第四个。",
+      "en": "This is the fourth.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "fourth.",
+          "cn": "第四",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s30",
+      "unit": 3,
+      "cn": "这是第五个。",
+      "en": "This is the fifth.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "fifth.",
+          "cn": "第五",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s31",
+      "unit": 3,
+      "cn": "我在公园跑步。",
+      "en": "I run in the park.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "run",
+          "cn": "跑",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "park.",
+          "cn": "公园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s32",
+      "unit": 3,
+      "cn": "我们有一场赛跑。",
+      "en": "We have a race.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "race.",
+          "cn": "赛跑",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u3-s33",
+      "unit": 3,
+      "cn": "这个房间五米长。",
+      "en": "The room is five meters long.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "room",
+          "cn": "房间",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "five",
+          "cn": "五",
+          "pos": "数词"
+        },
+        {
+          "en": "meters",
+          "cn": "米",
+          "pos": "名词"
+        },
+        {
+          "en": "long.",
+          "cn": "长的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u4-s01",
+      "unit": 4,
+      "cn": "我的生日在二月。",
+      "en": "My birthday is in February.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "birthday",
+          "cn": "生日",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "February.",
+          "cn": "二月",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u4-s02",
+      "unit": 4,
+      "cn": "现在是四月。",
+      "en": "It is April.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "April.",
+          "cn": "四月",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u4-s03",
+      "unit": 4,
+      "cn": "我们六月游泳。",
+      "en": "We swim in June.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "swim",
+          "cn": "游泳",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "June.",
+          "cn": "六月",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u4-s04",
+      "unit": 4,
+      "cn": "现在是八月。",
+      "en": "It is August.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "August.",
+          "cn": "八月",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u4-s05",
+      "unit": 4,
+      "cn": "现在是五月。",
+      "en": "It is May.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "May.",
+          "cn": "可以",
+          "pos": "情态动词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u4-s06",
+      "unit": 4,
+      "cn": "冬季很冷。",
+      "en": "Winter is cold.",
+      "tokens": [
+        {
+          "en": "Winter",
+          "cn": "冬天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "cold.",
+          "cn": "冷的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u4-s07",
+      "unit": 4,
+      "cn": "九月开学。",
+      "en": "School starts in September.",
+      "tokens": [
+        {
+          "en": "School",
+          "cn": "学校",
+          "pos": "名词"
+        },
+        {
+          "en": "starts",
+          "cn": "开始",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "September.",
+          "cn": "九月",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u4-s08",
+      "unit": 4,
+      "cn": "春天是我最喜欢的季节。",
+      "en": "Spring is my favourite season.",
+      "tokens": [
+        {
+          "en": "Spring",
+          "cn": "春天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "favourite",
+          "cn": "最喜爱的",
+          "pos": "形容词"
+        },
+        {
+          "en": "season.",
+          "cn": "季节",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u4-s09",
+      "unit": 4,
+      "cn": "现在是十一月。",
+      "en": "It is November.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "November.",
+          "cn": "十一月",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u5-s01",
+      "unit": 5,
+      "cn": "你的身高是多少？",
+      "en": "What is your height?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "height?",
+          "cn": "身高",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u5-s02",
+      "unit": 5,
+      "cn": "你的体重是多少？",
+      "en": "What is your weight?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "weight?",
+          "cn": "体重",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u5-s03",
+      "unit": 5,
+      "cn": "他一百三十厘米高。",
+      "en": "He is 130 centimeters tall.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "130",
+          "cn": "130",
+          "pos": "数词"
+        },
+        {
+          "en": "centimeters",
+          "cn": "厘米",
+          "pos": "名词"
+        },
+        {
+          "en": "tall.",
+          "cn": "高大的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u5-s04",
+      "unit": 5,
+      "cn": "他重三十千克。",
+      "en": "He weighs 30 kilograms.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "weighs",
+          "cn": "重量是……",
+          "pos": "名词"
+        },
+        {
+          "en": "30",
+          "cn": "30",
+          "pos": "数词"
+        },
+        {
+          "en": "kilograms.",
+          "cn": "千克",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u5-s05",
+      "unit": 5,
+      "cn": "带上这个包。",
+      "en": "Take this bag.",
+      "tokens": [
+        {
+          "en": "Take",
+          "cn": "拿",
+          "pos": "名词"
+        },
+        {
+          "en": "this",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "bag.",
+          "cn": "包",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u5-s06",
+      "unit": 5,
+      "cn": "中心很大。",
+      "en": "The center is big.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "center",
+          "cn": "中心",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "big.",
+          "cn": "大的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u5-s07",
+      "unit": 5,
+      "cn": "他很高。",
+      "en": "He is tall.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "tall.",
+          "cn": "高大的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u5-s08",
+      "unit": 5,
+      "cn": "她很矮。",
+      "en": "She is short.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "short.",
+          "cn": "短的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u5-s09",
+      "unit": 5,
+      "cn": "他比我高。",
+      "en": "He is taller than me.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "taller",
+          "cn": "更高的",
+          "pos": "形容词"
+        },
+        {
+          "en": "than",
+          "cn": "比",
+          "pos": "连词"
+        },
+        {
+          "en": "me.",
+          "cn": "我",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u5-s10",
+      "unit": 5,
+      "cn": "这个盒子很重。",
+      "en": "The box is heavy.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "box",
+          "cn": "盒子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "heavy.",
+          "cn": "重的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u5-s11",
+      "unit": 5,
+      "cn": "我有东西给你。",
+      "en": "I have something for you.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "something",
+          "cn": "某物（事）",
+          "pos": "名词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "you.",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u5-s12",
+      "unit": 5,
+      "cn": "这个答案是错的。",
+      "en": "This answer is wrong.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "answer",
+          "cn": "回答",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "wrong.",
+          "cn": "错误的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u5-s13",
+      "unit": 5,
+      "cn": "球很大。",
+      "en": "The ball is big.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "ball",
+          "cn": "球",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "big.",
+          "cn": "大的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u5-s14",
+      "unit": 5,
+      "cn": "杯子很小。",
+      "en": "The cup is small.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "cup",
+          "cn": "杯子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "small.",
+          "cn": "小的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u5-s15",
+      "unit": 5,
+      "cn": "这条河很长。",
+      "en": "The river is long.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "river",
+          "cn": "河",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "long.",
+          "cn": "长的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u5-s16",
+      "unit": 5,
+      "cn": "她年轻。",
+      "en": "She is young.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "young.",
+          "cn": "扬",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u5-s17",
+      "unit": 5,
+      "cn": "我爷爷年老。",
+      "en": "My grandpa is old.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "grandpa",
+          "cn": "爷爷",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "old.",
+          "cn": "年老的年轻的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u5-s18",
+      "unit": 5,
+      "cn": "他很瘦。",
+      "en": "He is thin.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "thin.",
+          "cn": "薄的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u6-s01",
+      "unit": 6,
+      "cn": "今天日期是几号？",
+      "en": "What is the date today?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "date",
+          "cn": "日期",
+          "pos": "名词"
+        },
+        {
+          "en": "today?",
+          "cn": "今天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u6-s02",
+      "unit": 6,
+      "cn": "月亮围绕地球转。",
+      "en": "The moon goes around the Earth.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "moon",
+          "cn": "月亮",
+          "pos": "名词"
+        },
+        {
+          "en": "goes",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "around",
+          "cn": "在……周围",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Earth.",
+          "cn": "地球",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u6-s03",
+      "unit": 6,
+      "cn": "火星是一颗行星。",
+      "en": "Mars is a planet.",
+      "tokens": [
+        {
+          "en": "Mars",
+          "cn": "火星",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "planet.",
+          "cn": "行星",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u6-s04",
+      "unit": 6,
+      "cn": "太阳很亮。",
+      "en": "The sun is bright.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sun",
+          "cn": "孙",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "bright.",
+          "cn": "聪明的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "bsd-6a-u6-s05",
+      "unit": 6,
+      "cn": "他是美国人。",
+      "en": "He is American.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "American.",
+          "cn": "美国的",
+          "pos": "形容词"
+        }
+      ]
+    }
+  ]
 }

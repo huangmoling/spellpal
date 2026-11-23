@@ -176,7 +176,7 @@ def lookup(k, lex):
         cands += [stem, stem + 'e']
         if len(stem) > 2 and stem[-1] == stem[-2]:
             cands.append(stem[:-1])
-    if k.endswith('es') and len(k) > 4:
+    if k.endswith('es') and len(k) > 3:
         cands += [k[:-2], k[:-1]]
     if k.endswith('s') and len(k) > 3:
         cands.append(k[:-1])
