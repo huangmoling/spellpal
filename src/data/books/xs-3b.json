@@ -9,7 +9,7 @@
   "edition": "2025 春 · 新课标修订版",
   "stage": "primary",
   "wordCount": 106,
-  "sentenceCount": 31,
+  "sentenceCount": 59,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -2034,6 +2034,170 @@
       ]
     },
     {
+      "id": "xs-3b-u1-s04",
+      "unit": 1,
+      "cn": "你好吗？我很好，谢谢。",
+      "en": "How are you? I am fine, thank you.",
+      "tokens": [
+        {
+          "en": "How",
+          "cn": "怎样",
+          "pos": "疑问词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "you?",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "fine,",
+          "cn": "健康的",
+          "pos": "形容词"
+        },
+        {
+          "en": "thank",
+          "cn": "谢谢",
+          "pos": "名词"
+        },
+        {
+          "en": "you.",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u1-s05",
+      "unit": 1,
+      "cn": "这个男孩和这个女孩是我的好朋友。",
+      "en": "The boy and the girl are my good friends.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "boy",
+          "cn": "男孩",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "girl",
+          "cn": "女孩",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "friends.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u1-s06",
+      "unit": 1,
+      "cn": "这位男士是我爸爸，这位女士是我妈妈。",
+      "en": "The man is my father, and the woman is my mother.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "man",
+          "cn": "男人",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "father,",
+          "cn": "父亲",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "woman",
+          "cn": "成年女子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "mother.",
+          "cn": "母亲",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
       "id": "xs-3b-u2-s01",
       "unit": 2,
       "cn": "到睡觉的时间了。",
@@ -2108,6 +2272,130 @@
       ]
     },
     {
+      "id": "xs-3b-u2-s04",
+      "unit": 2,
+      "cn": "请八点到学校来。",
+      "en": "Please come to school at eight.",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "come",
+          "cn": "来",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "school",
+          "cn": "学校",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "eight.",
+          "cn": "八",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u2-s05",
+      "unit": 2,
+      "cn": "时钟指着十一点。",
+      "en": "The clock says eleven o’clock.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "clock",
+          "cn": "钟",
+          "pos": "名词"
+        },
+        {
+          "en": "says",
+          "cn": "说",
+          "pos": "名词"
+        },
+        {
+          "en": "eleven",
+          "cn": "十一",
+          "pos": "数词"
+        },
+        {
+          "en": "o’clock.",
+          "cn": "……点钟",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u2-s06",
+      "unit": 2,
+      "cn": "我晚上看书，白天玩。",
+      "en": "I read at night and play in the day.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "read",
+          "cn": "读",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "night",
+          "cn": "夜晚",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
       "id": "xs-3b-u3-s01",
       "unit": 3,
       "cn": "今天天气怎么样？",
@@ -2171,8 +2459,8 @@
       "tokens": [
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "don’t",
@@ -2215,6 +2503,110 @@
         {
           "en": "today.",
           "cn": "今天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u3-s05",
+      "unit": 3,
+      "cn": "今天又下雨又冷。",
+      "en": "It is rainy and cold today.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "rainy",
+          "cn": "下雨的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "cold",
+          "cn": "冷的",
+          "pos": "形容词"
+        },
+        {
+          "en": "today.",
+          "cn": "今天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u3-s06",
+      "unit": 3,
+      "cn": "天气晴朗，还刮着风。",
+      "en": "It is sunny and windy.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "sunny",
+          "cn": "晴朗的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "windy.",
+          "cn": "有风的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u3-s07",
+      "unit": 3,
+      "cn": "看看多云的天空。",
+      "en": "Look at the cloudy sky.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "cloudy",
+          "cn": "多云的",
+          "pos": "形容词"
+        },
+        {
+          "en": "sky.",
+          "cn": "天空",
           "pos": "名词"
         }
       ]
@@ -2319,6 +2711,150 @@
       ]
     },
     {
+      "id": "xs-3b-u4-s04",
+      "unit": 4,
+      "cn": "我喜欢这件T恤和这条长裤。",
+      "en": "I like this T-shirt and these trousers.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "this",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "T-shirt",
+          "cn": "T-衬衫",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "these",
+          "cn": "这些",
+          "pos": "代词"
+        },
+        {
+          "en": "trousers.",
+          "cn": "长裤",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u4-s05",
+      "unit": 4,
+      "cn": "戴上帽子，穿上衬衫和裙子。",
+      "en": "Put on your cap, your shirt and your skirt.",
+      "tokens": [
+        {
+          "en": "Put",
+          "cn": "放",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "cap,",
+          "cn": "帽子",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "shirt",
+          "cn": "衬衫",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "skirt.",
+          "cn": "裙子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u4-s06",
+      "unit": 4,
+      "cn": "这双鞋很好看，我喜欢它们。",
+      "en": "These shoes are nice, and I like them.",
+      "tokens": [
+        {
+          "en": "These",
+          "cn": "这些",
+          "pos": "代词"
+        },
+        {
+          "en": "shoes",
+          "cn": "鞋子",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "nice,",
+          "cn": "令人愉快的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "them.",
+          "cn": "他们",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
       "id": "xs-3b-u5-s01",
       "unit": 5,
       "cn": "那儿有多少个苹果？",
@@ -2413,6 +2949,173 @@
       ]
     },
     {
+      "id": "xs-3b-u5-s04",
+      "unit": 5,
+      "cn": "树上有十三只鸟。",
+      "en": "There are thirteen birds in the tree.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "thirteen",
+          "cn": "十三",
+          "pos": "数词"
+        },
+        {
+          "en": "birds",
+          "cn": "鸟",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "tree.",
+          "cn": "树",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u5-s05",
+      "unit": 5,
+      "cn": "我有十四个苹果和十五个梨。",
+      "en": "I have fourteen apples and fifteen pears.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "fourteen",
+          "cn": "十四",
+          "pos": "数词"
+        },
+        {
+          "en": "apples",
+          "cn": "苹果",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "fifteen",
+          "cn": "十五",
+          "pos": "数词"
+        },
+        {
+          "en": "pears.",
+          "cn": "梨子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u5-s06",
+      "unit": 5,
+      "cn": "那儿有十六只、十七只和十八只风筝。",
+      "en": "There are sixteen, seventeen and eighteen kites.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "sixteen,",
+          "cn": "十六",
+          "pos": "数词"
+        },
+        {
+          "en": "seventeen",
+          "cn": "十七",
+          "pos": "数词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "eighteen",
+          "cn": "十八",
+          "pos": "数词"
+        },
+        {
+          "en": "kites.",
+          "cn": "风筝",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u5-s07",
+      "unit": 5,
+      "cn": "公园里有二十个孩子。",
+      "en": "Twenty children are in the park.",
+      "tokens": [
+        {
+          "en": "Twenty",
+          "cn": "二十",
+          "pos": "数词"
+        },
+        {
+          "en": "children",
+          "cn": "孩子们",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "park.",
+          "cn": "公园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
       "id": "xs-3b-u6-s01",
       "unit": 6,
       "cn": "这儿有三个小土豆。",
@@ -2463,8 +3166,8 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "big",
@@ -2512,6 +3215,82 @@
       ]
     },
     {
+      "id": "xs-3b-u6-s04",
+      "unit": 6,
+      "cn": "这儿有很多鸡蛋、西红柿和胡萝卜。",
+      "en": "There are many eggs, tomatoes and carrots.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "many",
+          "cn": "许多",
+          "pos": "限定词"
+        },
+        {
+          "en": "eggs,",
+          "cn": "鸡蛋",
+          "pos": "名词"
+        },
+        {
+          "en": "tomatoes",
+          "cn": "（复数）西红柿",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "carrots.",
+          "cn": "胡萝卜",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u6-s05",
+      "unit": 6,
+      "cn": "我非常喜欢葡萄。",
+      "en": "I like grapes very much.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "grapes",
+          "cn": "葡萄",
+          "pos": "名词"
+        },
+        {
+          "en": "very",
+          "cn": "很",
+          "pos": "副词"
+        },
+        {
+          "en": "much.",
+          "cn": "许多",
+          "pos": "限定词"
+        }
+      ]
+    },
+    {
       "id": "xs-3b-u7-s01",
       "unit": 7,
       "cn": "洗洗你的脸。",
@@ -2542,7 +3321,7 @@
       "tokens": [
         {
           "en": "Brush",
-          "cn": "画笔",
+          "cn": "刷牙",
           "pos": "名词"
         },
         {
@@ -2586,6 +3365,105 @@
       ]
     },
     {
+      "id": "xs-3b-u7-s04",
+      "unit": 7,
+      "cn": "过来，我饿了。",
+      "en": "Come here, I am hungry.",
+      "tokens": [
+        {
+          "en": "Come",
+          "cn": "来",
+          "pos": "名词"
+        },
+        {
+          "en": "here,",
+          "cn": "这里",
+          "pos": "副词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "hungry.",
+          "cn": "饥饿的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u7-s05",
+      "unit": 7,
+      "cn": "好的，洗洗你的胳膊和脖子。",
+      "en": "OK, wash your arm and your neck.",
+      "tokens": [
+        {
+          "en": "OK,",
+          "cn": "好",
+          "pos": "感叹词"
+        },
+        {
+          "en": "wash",
+          "cn": "洗",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "arm",
+          "cn": "手臂",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "neck.",
+          "cn": "脖子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u7-s06",
+      "unit": 7,
+      "cn": "我的牙疼。",
+      "en": "My tooth hurts.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "tooth",
+          "cn": "牙",
+          "pos": "名词"
+        },
+        {
+          "en": "hurts.",
+          "cn": "受伤",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
       "id": "xs-3b-u8-s01",
       "unit": 8,
       "cn": "我们班开了一个聚会。",
@@ -2603,8 +3481,8 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "class",
@@ -2674,12 +3552,98 @@
         },
         {
           "en": "Children’s",
-          "cn": "的复数形式)的",
+          "cn": "孩子们的",
           "pos": "名词"
         },
         {
           "en": "Day.",
           "cn": "节",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u8-s04",
+      "unit": 8,
+      "cn": "每个孩子都喜欢画画和涂色。",
+      "en": "Every child likes to draw and paint.",
+      "tokens": [
+        {
+          "en": "Every",
+          "cn": "每一个",
+          "pos": "名词"
+        },
+        {
+          "en": "child",
+          "cn": "孩子",
+          "pos": "名词"
+        },
+        {
+          "en": "likes",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "draw",
+          "cn": "画",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "paint.",
+          "cn": "把……描绘成",
+          "pos": "介词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u8-s05",
+      "unit": 8,
+      "cn": "我们在聚会上看表演。",
+      "en": "We watch a show at the party.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "watch",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "show",
+          "cn": "显露",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "party.",
+          "cn": "聚会",
           "pos": "名词"
         }
       ]
@@ -2692,8 +3656,8 @@
       "tokens": [
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "go",
@@ -2730,8 +3694,8 @@
       "tokens": [
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "go",
@@ -2794,6 +3758,132 @@
         {
           "en": "underground.",
           "cn": "地铁",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u9-s04",
+      "unit": 9,
+      "cn": "我坐火车上学，我爸爸开车去。",
+      "en": "I go to school by train, and my father goes by car.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "school",
+          "cn": "学校",
+          "pos": "名词"
+        },
+        {
+          "en": "by",
+          "cn": "乘",
+          "pos": "介词"
+        },
+        {
+          "en": "train,",
+          "cn": "火车",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "father",
+          "cn": "父亲",
+          "pos": "名词"
+        },
+        {
+          "en": "goes",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "by",
+          "cn": "乘",
+          "pos": "介词"
+        },
+        {
+          "en": "car.",
+          "cn": "小汽车",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u9-s05",
+      "unit": 9,
+      "cn": "我们可以坐出租车、坐飞机或者骑自行车去。",
+      "en": "We can go by taxi, by plane or by bike.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "by",
+          "cn": "乘",
+          "pos": "介词"
+        },
+        {
+          "en": "taxi,",
+          "cn": "出租车",
+          "pos": "名词"
+        },
+        {
+          "en": "by",
+          "cn": "乘",
+          "pos": "介词"
+        },
+        {
+          "en": "plane",
+          "cn": "飞机",
+          "pos": "名词"
+        },
+        {
+          "en": "or",
+          "cn": "或者",
+          "pos": "连词"
+        },
+        {
+          "en": "by",
+          "cn": "乘",
+          "pos": "介词"
+        },
+        {
+          "en": "bike.",
+          "cn": "自行车",
           "pos": "名词"
         }
       ]
@@ -2877,7 +3967,7 @@
         },
         {
           "en": "woman",
-          "cn": "妇女",
+          "cn": "成年女子",
           "pos": "名词"
         },
         {
@@ -2899,6 +3989,150 @@
           "en": "too.",
           "cn": "也",
           "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u10-s04",
+      "unit": 10,
+      "cn": "我爸爸是司机，我妈妈是护士。",
+      "en": "My father is a driver and my mother is a nurse.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "father",
+          "cn": "父亲",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "driver",
+          "cn": "司机",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "mother",
+          "cn": "母亲",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "nurse.",
+          "cn": "护士",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u10-s05",
+      "unit": 10,
+      "cn": "农民、工人和医生都在这儿。",
+      "en": "The farmer, the worker and the doctor are here.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "farmer,",
+          "cn": "农民",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "worker",
+          "cn": "工人",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "doctor",
+          "cn": "医生",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "here.",
+          "cn": "这里",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "xs-3b-u10-s06",
+      "unit": 10,
+      "cn": "我是一名学生。",
+      "en": "I am a student.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "student.",
+          "cn": "学生",
+          "pos": "名词"
         }
       ]
     }
