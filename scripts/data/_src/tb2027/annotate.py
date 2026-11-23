@@ -96,6 +96,7 @@ CTX = {
     'mr green is a writer, and mrs green is a teacher.': {1: ('名词', '格林'), 7: ('名词', '格林')},
     'the wus are my neighbours.': {1: ('名词', '吴一家')},
     'her name is candy.': {3: ('名词', '坎迪')},
+    'his name is tiger.': {3: ('名词', '泰格')},
 }
 
 
@@ -121,6 +122,9 @@ def lookup(k, lex):
     # 否定缩写：didn't / can't / isn't ...
     if k in NEG:
         return ('助动词', NEG[k])
+    # 将来时缩写：I'll / he'll / we'll
+    if k.endswith("'ll"):
+        return ('助动词', '会')
     # 单个字母（字母教学句：the letter D / letter O）
     if len(k) == 1 and k.isalpha():
         return ('名词', k.upper())
@@ -159,6 +163,16 @@ def lookup(k, lex):
     if k.endswith('ed') and len(k) > 3:
         stem = k[:-2]
         cands += [stem, stem + 'e', k[:-1]]
+        if len(stem) > 2 and stem[-1] == stem[-2]:
+            cands.append(stem[:-1])
+    if k.endswith('er') and len(k) > 4:
+        stem = k[:-2]
+        cands += [stem, stem + 'e']
+        if len(stem) > 2 and stem[-1] == stem[-2]:
+            cands.append(stem[:-1])
+    if k.endswith('est') and len(k) > 5:
+        stem = k[:-3]
+        cands += [stem, stem + 'e']
         if len(stem) > 2 and stem[-1] == stem[-2]:
             cands.append(stem[:-1])
     if k.endswith('es') and len(k) > 4:

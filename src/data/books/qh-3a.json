@@ -9,7 +9,7 @@
   "edition": "2025 秋 · 新课标修订版",
   "stage": "primary",
   "wordCount": 152,
-  "sentenceCount": 0,
+  "sentenceCount": 21,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -2745,5 +2745,654 @@
       "unit": 4
     }
   ],
-  "sentences": []
+  "sentences": [
+    {
+      "id": "qh-3a-u1-s01",
+      "unit": 1,
+      "cn": "你好吗？",
+      "en": "How are You?",
+      "tokens": [
+        {
+          "en": "How",
+          "cn": "怎样",
+          "pos": "疑问词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "You?",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u1-s02",
+      "unit": 1,
+      "cn": "你知道英语字母表吗？",
+      "en": "Do you know the English alphabet?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "know",
+          "cn": "知道",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "English",
+          "cn": "英文的",
+          "pos": "形容词"
+        },
+        {
+          "en": "alphabet?",
+          "cn": "字母表",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u1-s03",
+      "unit": 1,
+      "cn": "凯特女士，早上好！",
+      "en": "Good morning, Ms Kate!",
+      "tokens": [
+        {
+          "en": "Good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "morning,",
+          "cn": "早晨，上午",
+          "pos": "名词"
+        },
+        {
+          "en": "Ms",
+          "cn": "女士",
+          "pos": "名词"
+        },
+        {
+          "en": "Kate!",
+          "cn": "凯特",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u1-s04",
+      "unit": 1,
+      "cn": "谢谢你，庆庆！",
+      "en": "Thank you, Qingqing!",
+      "tokens": [
+        {
+          "en": "Thank",
+          "cn": "谢谢，感谢（某人）",
+          "pos": "名词"
+        },
+        {
+          "en": "you,",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "Qingqing!",
+          "cn": "庆庆",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u1-s05",
+      "unit": 1,
+      "cn": "我是庆庆。",
+      "en": "I’m Qingqing.",
+      "tokens": [
+        {
+          "en": "I’m",
+          "cn": "我是",
+          "pos": "缩略"
+        },
+        {
+          "en": "Qingqing.",
+          "cn": "庆庆",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u1-s06",
+      "unit": 1,
+      "cn": "这是凯特女士。",
+      "en": "This is Ms Kate.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Ms",
+          "cn": "女士",
+          "pos": "名词"
+        },
+        {
+          "en": "Kate.",
+          "cn": "凯特",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u1-s07",
+      "unit": 1,
+      "cn": "这是彼得和我。",
+      "en": "This is Peter and me.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Peter",
+          "cn": "彼得",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "me.",
+          "cn": "我",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u1-s08",
+      "unit": 1,
+      "cn": "今天是圣诞节。",
+      "en": "Today is Christmas.",
+      "tokens": [
+        {
+          "en": "Today",
+          "cn": "今天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Christmas.",
+          "cn": "圣诞节",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u1-s09",
+      "unit": 1,
+      "cn": "这是一棵圣诞树。",
+      "en": "This is a Christmas tree.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "Christmas",
+          "cn": "圣诞节",
+          "pos": "名词"
+        },
+        {
+          "en": "tree.",
+          "cn": "树",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u2-s01",
+      "unit": 2,
+      "cn": "这是我的英语字母卡。",
+      "en": "This is my English alphabet card.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "English",
+          "cn": "英文的",
+          "pos": "形容词"
+        },
+        {
+          "en": "alphabet",
+          "cn": "字母表",
+          "pos": "名词"
+        },
+        {
+          "en": "card.",
+          "cn": "贺卡",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u2-s02",
+      "unit": 2,
+      "cn": "我叫彼得。",
+      "en": "My name is Peter.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Peter.",
+          "cn": "彼得",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u2-s03",
+      "unit": 2,
+      "cn": "庆庆，你的爱好是什么？",
+      "en": "What’s your hobby, Qingqing?",
+      "tokens": [
+        {
+          "en": "What’s",
+          "cn": "是什么",
+          "pos": "缩略"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "hobby,",
+          "cn": "爱好",
+          "pos": "名词"
+        },
+        {
+          "en": "Qingqing?",
+          "cn": "庆庆",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u2-s04",
+      "unit": 2,
+      "cn": "彼得，这是我的朋友李平。",
+      "en": "Peter, this is my friend, Li Ping.",
+      "tokens": [
+        {
+          "en": "Peter,",
+          "cn": "彼得",
+          "pos": "名词"
+        },
+        {
+          "en": "this",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "friend,",
+          "cn": "朋友",
+          "pos": "名词"
+        },
+        {
+          "en": "Li",
+          "cn": "李",
+          "pos": "名词"
+        },
+        {
+          "en": "Ping.",
+          "cn": "平",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u2-s05",
+      "unit": 2,
+      "cn": "我们在超级美术社。",
+      "en": "We are in the Super Art Club.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Super",
+          "cn": "超级的",
+          "pos": "形容词"
+        },
+        {
+          "en": "Art",
+          "cn": "艺术",
+          "pos": "名词"
+        },
+        {
+          "en": "Club.",
+          "cn": "俱乐部，社团",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u2-s06",
+      "unit": 2,
+      "cn": "这是我的朋友伟芳。",
+      "en": "This is my friend, Wei Fang.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "friend,",
+          "cn": "朋友",
+          "pos": "名词"
+        },
+        {
+          "en": "Wei",
+          "cn": "伟",
+          "pos": "名词"
+        },
+        {
+          "en": "Fang.",
+          "cn": "芳",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u2-s07",
+      "unit": 2,
+      "cn": "生日快乐，庆庆！",
+      "en": "Happy birthday, Qingqing!",
+      "tokens": [
+        {
+          "en": "Happy",
+          "cn": "高兴的",
+          "pos": "形容词"
+        },
+        {
+          "en": "birthday,",
+          "cn": "生日",
+          "pos": "名词"
+        },
+        {
+          "en": "Qingqing!",
+          "cn": "庆庆",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u2-s08",
+      "unit": 2,
+      "cn": "生日快乐，亲爱的庆庆！",
+      "en": "Happy birthday, dear Qingqing!",
+      "tokens": [
+        {
+          "en": "Happy",
+          "cn": "高兴的",
+          "pos": "形容词"
+        },
+        {
+          "en": "birthday,",
+          "cn": "生日",
+          "pos": "名词"
+        },
+        {
+          "en": "dear",
+          "cn": "亲爱的",
+          "pos": "形容词"
+        },
+        {
+          "en": "Qingqing!",
+          "cn": "庆庆",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u4-s01",
+      "unit": 4,
+      "cn": "今天是教师节。",
+      "en": "Today is Teachers’ Day.",
+      "tokens": [
+        {
+          "en": "Today",
+          "cn": "今天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Teachers’",
+          "cn": "教师，老师的",
+          "pos": "名词"
+        },
+        {
+          "en": "Day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u4-s02",
+      "unit": 4,
+      "cn": "今天是我们的国庆节。",
+      "en": "Today is our National Day.",
+      "tokens": [
+        {
+          "en": "Today",
+          "cn": "今天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "our",
+          "cn": "我们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "National",
+          "cn": "全国的",
+          "pos": "形容词"
+        },
+        {
+          "en": "Day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u4-s03",
+      "unit": 4,
+      "cn": "今天是元旦。",
+      "en": "Today is New Year’s Day.",
+      "tokens": [
+        {
+          "en": "Today",
+          "cn": "今天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "New",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "Year’s",
+          "cn": "年的",
+          "pos": "名词"
+        },
+        {
+          "en": "Day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-3a-u4-s04",
+      "unit": 4,
+      "cn": "我最喜欢的节日是新年。",
+      "en": "My favorite holiday is New Year.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "favorite",
+          "cn": "最喜爱的",
+          "pos": "形容词"
+        },
+        {
+          "en": "holiday",
+          "cn": "假期",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "New",
+          "cn": "新的",
+          "pos": "形容词"
+        },
+        {
+          "en": "Year.",
+          "cn": "年",
+          "pos": "名词"
+        }
+      ]
+    }
+  ]
 }

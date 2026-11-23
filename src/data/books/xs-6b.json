@@ -9,7 +9,7 @@
   "edition": "2025 春 · 新课标修订版",
   "stage": "primary",
   "wordCount": 41,
-  "sentenceCount": 0,
+  "sentenceCount": 63,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -834,5 +834,2435 @@
       "unit": 9
     }
   ],
-  "sentences": []
+  "sentences": [
+    {
+      "id": "xs-6b-u1-s01",
+      "unit": 1,
+      "cn": "刘先生一家在公园野餐。",
+      "en": "Mr Liu’s family has a picnic at the park.",
+      "tokens": [
+        {
+          "en": "Mr",
+          "cn": "先生",
+          "pos": "名词"
+        },
+        {
+          "en": "Liu’s",
+          "cn": "刘的",
+          "pos": "名词"
+        },
+        {
+          "en": "family",
+          "cn": "家庭",
+          "pos": "名词"
+        },
+        {
+          "en": "has",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "picnic",
+          "cn": "野餐",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "park.",
+          "cn": "公园",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u1-s02",
+      "unit": 1,
+      "cn": "安妮喜欢哪一类书？",
+      "en": "What kind of books does Anne like?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "kind",
+          "cn": "种类",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "books",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "does",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Anne",
+          "cn": "安妮",
+          "pos": "名词"
+        },
+        {
+          "en": "like?",
+          "cn": "喜欢",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u1-s03",
+      "unit": 1,
+      "cn": "李老师让孩子们做什么？",
+      "en": "What does Miss Li ask the children to do?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "does",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Miss",
+          "cn": "小姐，女士（用于未婚女子姓氏前）",
+          "pos": "名词"
+        },
+        {
+          "en": "Li",
+          "cn": "李",
+          "pos": "名词"
+        },
+        {
+          "en": "ask",
+          "cn": "问，询问",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "children",
+          "cn": "的复数形式)",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "do?",
+          "cn": "做",
+          "pos": "助动词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u1-s04",
+      "unit": 1,
+      "cn": "彼得喜欢哪一类书？",
+      "en": "What kind of books does Peter like?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "kind",
+          "cn": "种类",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "books",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "does",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Peter",
+          "cn": "彼得",
+          "pos": "名词"
+        },
+        {
+          "en": "like?",
+          "cn": "喜欢",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u1-s05",
+      "unit": 1,
+      "cn": "安妮喜欢什么书？",
+      "en": "What books does Anne like?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "books",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "does",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Anne",
+          "cn": "安妮",
+          "pos": "名词"
+        },
+        {
+          "en": "like?",
+          "cn": "喜欢",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u1-s06",
+      "unit": 1,
+      "cn": "玲玲喜欢什么书？",
+      "en": "What books does Lingling like?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "books",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "does",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Lingling",
+          "cn": "玲玲",
+          "pos": "名词"
+        },
+        {
+          "en": "like?",
+          "cn": "喜欢",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u1-s07",
+      "unit": 1,
+      "cn": "林先生是一位八十岁的老人。",
+      "en": "Mr Lin is an 80-year-old man.",
+      "tokens": [
+        {
+          "en": "Mr",
+          "cn": "先生",
+          "pos": "名词"
+        },
+        {
+          "en": "Lin",
+          "cn": "林",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "80-year-old",
+          "cn": "80-年-年老的年轻的，幼",
+          "pos": "数词"
+        },
+        {
+          "en": "man.",
+          "cn": "男人",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u1-s08",
+      "unit": 1,
+      "cn": "你从林先生身上学到了什么？",
+      "en": "What do you learn from Mr Lin?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "learn",
+          "cn": "学习",
+          "pos": "名词"
+        },
+        {
+          "en": "from",
+          "cn": "从",
+          "pos": "介词"
+        },
+        {
+          "en": "Mr",
+          "cn": "先生",
+          "pos": "名词"
+        },
+        {
+          "en": "Lin?",
+          "cn": "林",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u3-s01",
+      "unit": 3,
+      "cn": "一月的中国是什么季节？",
+      "en": "What is the season in China in January?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "season",
+          "cn": "季节",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "China",
+          "cn": "中国",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "January?",
+          "cn": "一月",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u3-s02",
+      "unit": 3,
+      "cn": "“我们再来一次吧。”玲玲笑着说。",
+      "en": "Let’s do it again,\" smiled Lingling.",
+      "tokens": [
+        {
+          "en": "Let’s",
+          "cn": "让我们",
+          "pos": "缩略"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "it",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "again,\"",
+          "cn": "再一次",
+          "pos": "名词"
+        },
+        {
+          "en": "smiled",
+          "cn": "笑",
+          "pos": "名词"
+        },
+        {
+          "en": "Lingling.",
+          "cn": "玲玲",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u3-s03",
+      "unit": 3,
+      "cn": "彼得和明明在排练他们的歌舞。",
+      "en": "Peter and Mingming are practising their dance and song.",
+      "tokens": [
+        {
+          "en": "Peter",
+          "cn": "彼得",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "Mingming",
+          "cn": "明明",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "practising",
+          "cn": "练习",
+          "pos": "名词"
+        },
+        {
+          "en": "their",
+          "cn": "他们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "dance",
+          "cn": "跳舞",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "song.",
+          "cn": "歌",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u3-s04",
+      "unit": 3,
+      "cn": "彼得把图片放在哪儿？",
+      "en": "Where does Peter keep the pictures?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "does",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Peter",
+          "cn": "彼得",
+          "pos": "名词"
+        },
+        {
+          "en": "keep",
+          "cn": "保持",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "pictures?",
+          "cn": "图画",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u4-s01",
+      "unit": 4,
+      "cn": "今天是植树节。",
+      "en": "It’s Tree Planting Day today.",
+      "tokens": [
+        {
+          "en": "It’s",
+          "cn": "它是",
+          "pos": "缩略"
+        },
+        {
+          "en": "Tree",
+          "cn": "树",
+          "pos": "名词"
+        },
+        {
+          "en": "Planting",
+          "cn": "种植",
+          "pos": "名词"
+        },
+        {
+          "en": "Day",
+          "cn": "天",
+          "pos": "名词"
+        },
+        {
+          "en": "today.",
+          "cn": "今天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u4-s02",
+      "unit": 4,
+      "cn": "中国的植树节是三月十二日。",
+      "en": "Tree Planting Day in China is on 12th March.",
+      "tokens": [
+        {
+          "en": "Tree",
+          "cn": "树",
+          "pos": "名词"
+        },
+        {
+          "en": "Planting",
+          "cn": "种植",
+          "pos": "名词"
+        },
+        {
+          "en": "Day",
+          "cn": "天",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "China",
+          "cn": "中国",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "12th",
+          "cn": "12th",
+          "pos": "数词"
+        },
+        {
+          "en": "March.",
+          "cn": "三月",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u4-s03",
+      "unit": 4,
+      "cn": "树木会让地球变得更美好。",
+      "en": "Trees will help to make the Earth a better place.",
+      "tokens": [
+        {
+          "en": "Trees",
+          "cn": "树",
+          "pos": "名词"
+        },
+        {
+          "en": "will",
+          "cn": "将会",
+          "pos": "情态动词"
+        },
+        {
+          "en": "help",
+          "cn": "帮助",
+          "pos": "动词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "make",
+          "cn": "制作（过去式 made）",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Earth",
+          "cn": "地球",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "better",
+          "cn": "更好的，较好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "place.",
+          "cn": "地方，场所",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u4-s04",
+      "unit": 4,
+      "cn": "查理在英国的伦敦。",
+      "en": "Charlie is in London, England.",
+      "tokens": [
+        {
+          "en": "Charlie",
+          "cn": "查理",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "London,",
+          "cn": "伦敦",
+          "pos": "名词"
+        },
+        {
+          "en": "England.",
+          "cn": "英国",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u4-s05",
+      "unit": 4,
+      "cn": "默文在澳大利亚的悉尼。",
+      "en": "Mervin is in Sydney, Australia.",
+      "tokens": [
+        {
+          "en": "Mervin",
+          "cn": "默文",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "Sydney,",
+          "cn": "悉尼",
+          "pos": "名词"
+        },
+        {
+          "en": "Australia.",
+          "cn": "澳大利亚",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u4-s06",
+      "unit": 4,
+      "cn": "是的，圣诞节就在下周。",
+      "en": "Yes, Christmas is next week.",
+      "tokens": [
+        {
+          "en": "Yes,",
+          "cn": "是的",
+          "pos": "副词"
+        },
+        {
+          "en": "Christmas",
+          "cn": "圣诞节",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "next",
+          "cn": "接下来的",
+          "pos": "形容词"
+        },
+        {
+          "en": "week.",
+          "cn": "星期，周",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u4-s07",
+      "unit": 4,
+      "cn": "晓晓在中国长沙。",
+      "en": "Xiaoxiao is in Changsha, China.",
+      "tokens": [
+        {
+          "en": "Xiaoxiao",
+          "cn": "晓晓",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "Changsha,",
+          "cn": "长沙",
+          "pos": "名词"
+        },
+        {
+          "en": "China.",
+          "cn": "中国",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u4-s08",
+      "unit": 4,
+      "cn": "今天是三月十二日。",
+      "en": "Today is 12th March.",
+      "tokens": [
+        {
+          "en": "Today",
+          "cn": "今天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "12th",
+          "cn": "12th",
+          "pos": "数词"
+        },
+        {
+          "en": "March.",
+          "cn": "三月",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u4-s09",
+      "unit": 4,
+      "cn": "陈太太是怎么让东东感到安全的？",
+      "en": "How did Mrs Chen make Dongdong feel safe?",
+      "tokens": [
+        {
+          "en": "How",
+          "cn": "怎样",
+          "pos": "疑问词"
+        },
+        {
+          "en": "did",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Mrs",
+          "cn": "夫人",
+          "pos": "名词"
+        },
+        {
+          "en": "Chen",
+          "cn": "陈",
+          "pos": "名词"
+        },
+        {
+          "en": "make",
+          "cn": "制作（过去式 made）",
+          "pos": "名词"
+        },
+        {
+          "en": "Dongdong",
+          "cn": "东东",
+          "pos": "名词"
+        },
+        {
+          "en": "feel",
+          "cn": "感到",
+          "pos": "名词"
+        },
+        {
+          "en": "safe?",
+          "cn": "安全的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u4-s10",
+      "unit": 4,
+      "cn": "今天是安妮的生日。",
+      "en": "Today is Anne’s birthday.",
+      "tokens": [
+        {
+          "en": "Today",
+          "cn": "今天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Anne’s",
+          "cn": "安妮的",
+          "pos": "名词"
+        },
+        {
+          "en": "birthday.",
+          "cn": "生日",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u4-s11",
+      "unit": 4,
+      "cn": "玲玲和安妮没吃午饭。",
+      "en": "Lingling and Anne don’t have lunch.",
+      "tokens": [
+        {
+          "en": "Lingling",
+          "cn": "玲玲",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "Anne",
+          "cn": "安妮",
+          "pos": "名词"
+        },
+        {
+          "en": "don’t",
+          "cn": "不",
+          "pos": "助动词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "lunch.",
+          "cn": "午餐",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u5-s01",
+      "unit": 5,
+      "cn": "地球正变得越来越热。",
+      "en": "The Earth is getting hotter and hotter.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Earth",
+          "cn": "地球",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "getting",
+          "cn": "准备",
+          "pos": "名词"
+        },
+        {
+          "en": "hotter",
+          "cn": "热的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "hotter.",
+          "cn": "热的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u5-s02",
+      "unit": 5,
+      "cn": "国际儿童节这天孩子们非常开心。",
+      "en": "Children are very happy on International Children’s Day.",
+      "tokens": [
+        {
+          "en": "Children",
+          "cn": "的复数形式)",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "很",
+          "pos": "副词"
+        },
+        {
+          "en": "happy",
+          "cn": "高兴的",
+          "pos": "形容词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "International",
+          "cn": "国际的",
+          "pos": "形容词"
+        },
+        {
+          "en": "Children’s",
+          "cn": "的复数形式)的",
+          "pos": "名词"
+        },
+        {
+          "en": "Day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u5-s03",
+      "unit": 5,
+      "cn": "安妮一家去年去了哪里？",
+      "en": "Where did Anne’s family go last year?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "did",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Anne’s",
+          "cn": "安妮的",
+          "pos": "名词"
+        },
+        {
+          "en": "family",
+          "cn": "家庭",
+          "pos": "名词"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "last",
+          "cn": "最后",
+          "pos": "名词"
+        },
+        {
+          "en": "year?",
+          "cn": "年",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u5-s04",
+      "unit": 5,
+      "cn": "安妮给朋友们看了什么？",
+      "en": "What does Anne show to her friends?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "does",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Anne",
+          "cn": "安妮",
+          "pos": "名词"
+        },
+        {
+          "en": "show",
+          "cn": "显露",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "her",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "friends?",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u5-s05",
+      "unit": 5,
+      "cn": "在太空博物馆里，他能看到火箭。",
+      "en": "At the Space Museum, he can see a rocket.",
+      "tokens": [
+        {
+          "en": "At",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Space",
+          "cn": "太空",
+          "pos": "名词"
+        },
+        {
+          "en": "Museum,",
+          "cn": "博物馆",
+          "pos": "名词"
+        },
+        {
+          "en": "he",
+          "cn": "他",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看，看见",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "rocket.",
+          "cn": "火箭",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u5-s06",
+      "unit": 5,
+      "cn": "地球像一个球。",
+      "en": "The Earth is like a ball.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Earth",
+          "cn": "地球",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "ball.",
+          "cn": "球",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u5-s07",
+      "unit": 5,
+      "cn": "地球上有水和陆地。",
+      "en": "The Earth has water and land.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Earth",
+          "cn": "地球",
+          "pos": "名词"
+        },
+        {
+          "en": "has",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "water",
+          "cn": "水",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "land.",
+          "cn": "陆地",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u5-s08",
+      "unit": 5,
+      "cn": "动物和植物能在地球上生活。",
+      "en": "Animals and plants can live on the Earth.",
+      "tokens": [
+        {
+          "en": "Animals",
+          "cn": "动物",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "plants",
+          "cn": "植物",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "live",
+          "cn": "居住",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Earth.",
+          "cn": "地球",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u6-s01",
+      "unit": 6,
+      "cn": "玩得开心！",
+      "en": "HAVE A GREAT TIME!",
+      "tokens": [
+        {
+          "en": "HAVE",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "GREAT",
+          "cn": "很好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "TIME!",
+          "cn": "时间",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u6-s02",
+      "unit": 6,
+      "cn": "国际儿童节就要到了。",
+      "en": "International Children’s Day is coming.",
+      "tokens": [
+        {
+          "en": "International",
+          "cn": "国际的",
+          "pos": "形容词"
+        },
+        {
+          "en": "Children’s",
+          "cn": "的复数形式)的",
+          "pos": "名词"
+        },
+        {
+          "en": "Day",
+          "cn": "天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "coming.",
+          "cn": "来",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u6-s03",
+      "unit": 6,
+      "cn": "很久很久以前，德国有一座很脏的城市。",
+      "en": "Long, long ago, there was a very dirty city in Germany.",
+      "tokens": [
+        {
+          "en": "Long,",
+          "cn": "长的",
+          "pos": "形容词"
+        },
+        {
+          "en": "long",
+          "cn": "长的",
+          "pos": "形容词"
+        },
+        {
+          "en": "ago,",
+          "cn": "以往的，以前的",
+          "pos": "形容词"
+        },
+        {
+          "en": "there",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "was",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "very",
+          "cn": "很",
+          "pos": "副词"
+        },
+        {
+          "en": "dirty",
+          "cn": "脏的",
+          "pos": "形容词"
+        },
+        {
+          "en": "city",
+          "cn": "城市，都市",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "Germany.",
+          "cn": "德国",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u6-s04",
+      "unit": 6,
+      "cn": "国王说：“当然可以！”",
+      "en": "The king said, \"Sure!\"",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "king",
+          "cn": "国王",
+          "pos": "名词"
+        },
+        {
+          "en": "said,",
+          "cn": "说",
+          "pos": "名词"
+        },
+        {
+          "en": "\"Sure!\"",
+          "cn": "当然",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u6-s05",
+      "unit": 6,
+      "cn": "我想当太空人！",
+      "en": "I Want to Be a Spaceman!",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "Want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "Be",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "Spaceman!",
+          "cn": "太空人",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u7-s01",
+      "unit": 7,
+      "cn": "可是我累了。",
+      "en": "But I’m tired.",
+      "tokens": [
+        {
+          "en": "But",
+          "cn": "但是",
+          "pos": "连词"
+        },
+        {
+          "en": "I’m",
+          "cn": "我是",
+          "pos": "缩略"
+        },
+        {
+          "en": "tired.",
+          "cn": "疲惫的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u7-s02",
+      "unit": 7,
+      "cn": "东东害怕什么？",
+      "en": "What was Dongdong afraid of?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "was",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Dongdong",
+          "cn": "东东",
+          "pos": "名词"
+        },
+        {
+          "en": "afraid",
+          "cn": "害怕的",
+          "pos": "形容词"
+        },
+        {
+          "en": "of?",
+          "cn": "的",
+          "pos": "介词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u7-s03",
+      "unit": 7,
+      "cn": "吉姆和库尔特是兄弟。",
+      "en": "Jim and Kurt are brothers.",
+      "tokens": [
+        {
+          "en": "Jim",
+          "cn": "吉姆",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "Kurt",
+          "cn": "库尔特",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "brothers.",
+          "cn": "哥哥",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u7-s04",
+      "unit": 7,
+      "cn": "吉姆和库尔特是好兄弟。",
+      "en": "Jim and Kurt are good brothers.",
+      "tokens": [
+        {
+          "en": "Jim",
+          "cn": "吉姆",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "Kurt",
+          "cn": "库尔特",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "brothers.",
+          "cn": "哥哥",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u7-s05",
+      "unit": 7,
+      "cn": "吉姆为什么是个好哥哥？",
+      "en": "Why is Jim a good brother?",
+      "tokens": [
+        {
+          "en": "Why",
+          "cn": "为什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Jim",
+          "cn": "吉姆",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "brother?",
+          "cn": "哥哥",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u7-s06",
+      "unit": 7,
+      "cn": "库尔特为什么是个好哥哥？",
+      "en": "Why is Kurt a good brother?",
+      "tokens": [
+        {
+          "en": "Why",
+          "cn": "为什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Kurt",
+          "cn": "库尔特",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "brother?",
+          "cn": "哥哥",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u7-s07",
+      "unit": 7,
+      "cn": "李伟和周杰是好朋友。",
+      "en": "Li Wei and Zhou Jie are good friends.",
+      "tokens": [
+        {
+          "en": "Li",
+          "cn": "李",
+          "pos": "名词"
+        },
+        {
+          "en": "Wei",
+          "cn": "伟",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "Zhou",
+          "cn": "周",
+          "pos": "名词"
+        },
+        {
+          "en": "Jie",
+          "cn": "杰",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "friends.",
+          "cn": "朋友",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u7-s08",
+      "unit": 7,
+      "cn": "周杰的爸爸是医生。",
+      "en": "Zhou Jie’s father is a doctor.",
+      "tokens": [
+        {
+          "en": "Zhou",
+          "cn": "周",
+          "pos": "名词"
+        },
+        {
+          "en": "Jie’s",
+          "cn": "杰的",
+          "pos": "名词"
+        },
+        {
+          "en": "father",
+          "cn": "父亲，爸爸",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "doctor.",
+          "cn": "医生，大夫",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u7-s09",
+      "unit": 7,
+      "cn": "请给我发电子邮件，好吗？",
+      "en": "Please email me, OK?",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "email",
+          "cn": "电子邮件",
+          "pos": "名词"
+        },
+        {
+          "en": "me,",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "OK?",
+          "cn": "好",
+          "pos": "感叹词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u7-s10",
+      "unit": 7,
+      "cn": "你在网上给朋友发电子邮件吗？",
+      "en": "Do you email your friends on the Internet?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "email",
+          "cn": "电子邮件",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "friends",
+          "cn": "朋友",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Internet?",
+          "cn": "互联网",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u7-s11",
+      "unit": 7,
+      "cn": "本尼的帽子是什么颜色？",
+      "en": "What colour is Benny’s cap?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "colour",
+          "cn": "颜色",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Benny’s",
+          "cn": "本尼的",
+          "pos": "名词"
+        },
+        {
+          "en": "cap?",
+          "cn": "帽子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u7-s12",
+      "unit": 7,
+      "cn": "海伦的妈妈做什么工作？",
+      "en": "What does Helen’s mother do?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "does",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Helen’s",
+          "cn": "海伦的",
+          "pos": "名词"
+        },
+        {
+          "en": "mother",
+          "cn": "母亲，妈妈",
+          "pos": "名词"
+        },
+        {
+          "en": "do?",
+          "cn": "做",
+          "pos": "助动词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u7-s13",
+      "unit": 7,
+      "cn": "史密斯先生每天几点起床？",
+      "en": "What time does Mr Smith get up every day?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "time",
+          "cn": "时间",
+          "pos": "名词"
+        },
+        {
+          "en": "does",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Mr",
+          "cn": "先生",
+          "pos": "名词"
+        },
+        {
+          "en": "Smith",
+          "cn": "史密斯",
+          "pos": "名词"
+        },
+        {
+          "en": "get",
+          "cn": "准备",
+          "pos": "名词"
+        },
+        {
+          "en": "up",
+          "cn": "向上",
+          "pos": "副词"
+        },
+        {
+          "en": "every",
+          "cn": "每一个",
+          "pos": "名词"
+        },
+        {
+          "en": "day?",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u7-s14",
+      "unit": 7,
+      "cn": "杰克有多少只羊？",
+      "en": "How many sheep does Jack have?",
+      "tokens": [
+        {
+          "en": "How",
+          "cn": "怎样",
+          "pos": "疑问词"
+        },
+        {
+          "en": "many",
+          "cn": "许多",
+          "pos": "限定词"
+        },
+        {
+          "en": "sheep",
+          "cn": "羊，绵羊",
+          "pos": "名词"
+        },
+        {
+          "en": "does",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Jack",
+          "cn": "杰克",
+          "pos": "名词"
+        },
+        {
+          "en": "have?",
+          "cn": "有",
+          "pos": "动词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u7-s15",
+      "unit": 7,
+      "cn": "今天是星期天。",
+      "en": "Today is Sunday.",
+      "tokens": [
+        {
+          "en": "Today",
+          "cn": "今天",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Sunday.",
+          "cn": "星期日",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u7-s16",
+      "unit": 7,
+      "cn": "你好，我叫埃里克。",
+      "en": "Hello, my name is Eric.",
+      "tokens": [
+        {
+          "en": "Hello,",
+          "cn": "你好",
+          "pos": "感叹词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Eric.",
+          "cn": "埃里克",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u8-s01",
+      "unit": 8,
+      "cn": "需要我帮忙吗？",
+      "en": "Can I help you?",
+      "tokens": [
+        {
+          "en": "Can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "help",
+          "cn": "帮助",
+          "pos": "动词"
+        },
+        {
+          "en": "you?",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u8-s02",
+      "unit": 8,
+      "cn": "她叫凯莉。",
+      "en": "Her name is Kelly.",
+      "tokens": [
+        {
+          "en": "Her",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Kelly.",
+          "cn": "凯莉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u8-s03",
+      "unit": 8,
+      "cn": "汤姆比莉莉高。",
+      "en": "Tom is taller than Lily.",
+      "tokens": [
+        {
+          "en": "Tom",
+          "cn": "汤姆",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "taller",
+          "cn": "更高的",
+          "pos": "形容词"
+        },
+        {
+          "en": "than",
+          "cn": "比",
+          "pos": "连词"
+        },
+        {
+          "en": "Lily.",
+          "cn": "莉莉",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u8-s04",
+      "unit": 8,
+      "cn": "莉莉比简高。",
+      "en": "Lily is taller than Jane.",
+      "tokens": [
+        {
+          "en": "Lily",
+          "cn": "莉莉",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "taller",
+          "cn": "更高的",
+          "pos": "形容词"
+        },
+        {
+          "en": "than",
+          "cn": "比",
+          "pos": "连词"
+        },
+        {
+          "en": "Jane.",
+          "cn": "简",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u8-s05",
+      "unit": 8,
+      "cn": "简比爱丽丝高。",
+      "en": "Jane is taller than Alice.",
+      "tokens": [
+        {
+          "en": "Jane",
+          "cn": "简",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "taller",
+          "cn": "更高的",
+          "pos": "形容词"
+        },
+        {
+          "en": "than",
+          "cn": "比",
+          "pos": "连词"
+        },
+        {
+          "en": "Alice.",
+          "cn": "爱丽丝",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u8-s06",
+      "unit": 8,
+      "cn": "爱丽丝比托尼高。",
+      "en": "Alice is taller than Tony.",
+      "tokens": [
+        {
+          "en": "Alice",
+          "cn": "爱丽丝",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "taller",
+          "cn": "更高的",
+          "pos": "形容词"
+        },
+        {
+          "en": "than",
+          "cn": "比",
+          "pos": "连词"
+        },
+        {
+          "en": "Tony.",
+          "cn": "托尼",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u8-s07",
+      "unit": 8,
+      "cn": "托尼比蒂姆高。",
+      "en": "Tony is taller than Tim.",
+      "tokens": [
+        {
+          "en": "Tony",
+          "cn": "托尼",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "taller",
+          "cn": "更高的",
+          "pos": "形容词"
+        },
+        {
+          "en": "than",
+          "cn": "比",
+          "pos": "连词"
+        },
+        {
+          "en": "Tim.",
+          "cn": "蒂姆",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u8-s08",
+      "unit": 8,
+      "cn": "我怎么做才能做到呢？",
+      "en": "How can I do that?",
+      "tokens": [
+        {
+          "en": "How",
+          "cn": "怎样",
+          "pos": "疑问词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "that?",
+          "cn": "那个",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u8-s09",
+      "unit": 8,
+      "cn": "那我就看起来更吓人了。",
+      "en": "Then I’ll look more frightening.",
+      "tokens": [
+        {
+          "en": "Then",
+          "cn": "然后",
+          "pos": "副词"
+        },
+        {
+          "en": "I’ll",
+          "cn": "我将",
+          "pos": "缩略"
+        },
+        {
+          "en": "look",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "more",
+          "cn": "更多",
+          "pos": "限定词"
+        },
+        {
+          "en": "frightening.",
+          "cn": "吓人的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u9-s01",
+      "unit": 9,
+      "cn": "明天是国际儿童节。",
+      "en": "Tomorrow will be International Children’s Day.",
+      "tokens": [
+        {
+          "en": "Tomorrow",
+          "cn": "明天",
+          "pos": "名词"
+        },
+        {
+          "en": "will",
+          "cn": "将会",
+          "pos": "情态动词"
+        },
+        {
+          "en": "be",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "International",
+          "cn": "国际的",
+          "pos": "形容词"
+        },
+        {
+          "en": "Children’s",
+          "cn": "的复数形式)的",
+          "pos": "名词"
+        },
+        {
+          "en": "Day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "xs-6b-u9-s02",
+      "unit": 9,
+      "cn": "我有一张埃菲尔铁塔的图片。",
+      "en": "I have a picture of the Eiffel Tower.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "picture",
+          "cn": "照片",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Eiffel",
+          "cn": "埃菲尔",
+          "pos": "名词"
+        },
+        {
+          "en": "Tower.",
+          "cn": "塔",
+          "pos": "名词"
+        }
+      ]
+    }
+  ]
 }

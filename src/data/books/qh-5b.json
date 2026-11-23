@@ -9,7 +9,7 @@
   "edition": "2025 春 · 新课标修订版",
   "stage": "primary",
   "wordCount": 99,
-  "sentenceCount": 0,
+  "sentenceCount": 30,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -1870,5 +1870,1081 @@
       "unit": 4
     }
   ],
-  "sentences": []
+  "sentences": [
+    {
+      "id": "qh-5b-u1-s01",
+      "unit": 1,
+      "cn": "我叫李明。",
+      "en": "My name is Li Ming.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Li",
+          "cn": "李",
+          "pos": "名词"
+        },
+        {
+          "en": "Ming.",
+          "cn": "明",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u1-s02",
+      "unit": 1,
+      "cn": "这是美术教室。",
+      "en": "This is the Art Room.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Art",
+          "cn": "艺术",
+          "pos": "名词"
+        },
+        {
+          "en": "Room.",
+          "cn": "房间",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u1-s03",
+      "unit": 1,
+      "cn": "这是音乐教室。",
+      "en": "This is the Music Room.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Music",
+          "cn": "音乐",
+          "pos": "名词"
+        },
+        {
+          "en": "Room.",
+          "cn": "房间",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u1-s04",
+      "unit": 1,
+      "cn": "这是电脑教室。",
+      "en": "This is the Computer Room.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Computer",
+          "cn": "计算机，，电脑",
+          "pos": "名词"
+        },
+        {
+          "en": "Room.",
+          "cn": "房间",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u1-s05",
+      "unit": 1,
+      "cn": "赵小梅是我们这个月的班长。",
+      "en": "Zhao Xiaomei is our monitor this month.",
+      "tokens": [
+        {
+          "en": "Zhao",
+          "cn": "赵",
+          "pos": "名词"
+        },
+        {
+          "en": "Xiaomei",
+          "cn": "小梅",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "our",
+          "cn": "我们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "monitor",
+          "cn": "班长",
+          "pos": "名词"
+        },
+        {
+          "en": "this",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "month.",
+          "cn": "月",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u1-s06",
+      "unit": 1,
+      "cn": "我的左边是李宽。",
+      "en": "To my left is Li Kuan.",
+      "tokens": [
+        {
+          "en": "To",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "left",
+          "cn": "左边的",
+          "pos": "形容词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Li",
+          "cn": "李",
+          "pos": "名词"
+        },
+        {
+          "en": "Kuan.",
+          "cn": "宽",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u1-s07",
+      "unit": 1,
+      "cn": "我的右边是高小强。",
+      "en": "To my right is Gao Xiaoqiang.",
+      "tokens": [
+        {
+          "en": "To",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "right",
+          "cn": "正确的",
+          "pos": "形容词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Gao",
+          "cn": "高",
+          "pos": "名词"
+        },
+        {
+          "en": "Xiaoqiang.",
+          "cn": "小强",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u1-s08",
+      "unit": 1,
+      "cn": "妈妈说她是我的表姐苏珊。",
+      "en": "Mom said she was my cousin, Susan.",
+      "tokens": [
+        {
+          "en": "Mom",
+          "cn": "妈妈（美语）",
+          "pos": "名词"
+        },
+        {
+          "en": "said",
+          "cn": "说",
+          "pos": "名词"
+        },
+        {
+          "en": "she",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "was",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "cousin,",
+          "cn": "堂（或表）兄弟",
+          "pos": "名词"
+        },
+        {
+          "en": "Susan.",
+          "cn": "苏珊",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u1-s09",
+      "unit": 1,
+      "cn": "我最喜欢的科目是体育。",
+      "en": "My favorite subject is P.E.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "favorite",
+          "cn": "最喜爱的",
+          "pos": "形容词"
+        },
+        {
+          "en": "subject",
+          "cn": "学科，科目",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "P.E.",
+          "cn": "体育",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u1-s10",
+      "unit": 1,
+      "cn": "你学英语吗？",
+      "en": "Do you study English?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "study",
+          "cn": "学习",
+          "pos": "名词"
+        },
+        {
+          "en": "English?",
+          "cn": "英文的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u1-s11",
+      "unit": 1,
+      "cn": "课间你们做什么？",
+      "en": "What do You Do Between Classes?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "You",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "Between",
+          "cn": "在……之间",
+          "pos": "介词"
+        },
+        {
+          "en": "Classes?",
+          "cn": "课",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u1-s12",
+      "unit": 1,
+      "cn": "伟芳和家人正在吃晚饭。",
+      "en": "Wei Fang and her family are having dinner.",
+      "tokens": [
+        {
+          "en": "Wei",
+          "cn": "伟",
+          "pos": "名词"
+        },
+        {
+          "en": "Fang",
+          "cn": "芳",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "her",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "family",
+          "cn": "家庭",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "having",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "dinner.",
+          "cn": "晚餐",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u1-s13",
+      "unit": 1,
+      "cn": "我可以从你开始吗？",
+      "en": "Can I begin with you?",
+      "tokens": [
+        {
+          "en": "Can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "begin",
+          "cn": "开始",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "you?",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u2-s01",
+      "unit": 2,
+      "cn": "鸟儿很漂亮，我喜欢看鸟。",
+      "en": "Birds are beautiful and I love to watch them.",
+      "tokens": [
+        {
+          "en": "Birds",
+          "cn": "鸟",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "beautiful",
+          "cn": "美丽的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "love",
+          "cn": "喜爱",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "watch",
+          "cn": "看，观看",
+          "pos": "名词"
+        },
+        {
+          "en": "them.",
+          "cn": "他们",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u2-s02",
+      "unit": 2,
+      "cn": "下次我可以跟你一起去吗？",
+      "en": "Can I go with you next time?",
+      "tokens": [
+        {
+          "en": "Can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "next",
+          "cn": "接下来的",
+          "pos": "形容词"
+        },
+        {
+          "en": "time?",
+          "cn": "时间",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u2-s03",
+      "unit": 2,
+      "cn": "地球是我们居住的地方。",
+      "en": "The Earth is where we live.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Earth",
+          "cn": "地球",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "we",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "live.",
+          "cn": "居住",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u2-s04",
+      "unit": 2,
+      "cn": "我是什么？",
+      "en": "What am I?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "I?",
+          "cn": "I",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u3-s01",
+      "unit": 3,
+      "cn": "空气是什么？",
+      "en": "What is AIR?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "AIR?",
+          "cn": "空气",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u3-s02",
+      "unit": 3,
+      "cn": "他叫比利。",
+      "en": "His name is Billy.",
+      "tokens": [
+        {
+          "en": "His",
+          "cn": "他的",
+          "pos": "限定词"
+        },
+        {
+          "en": "name",
+          "cn": "名字",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "Billy.",
+          "cn": "比利",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u3-s03",
+      "unit": 3,
+      "cn": "你想读读关于比利的故事吗？",
+      "en": "Do you want to read about Billy?",
+      "tokens": [
+        {
+          "en": "Do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "read",
+          "cn": "读",
+          "pos": "名词"
+        },
+        {
+          "en": "about",
+          "cn": "关于",
+          "pos": "介词"
+        },
+        {
+          "en": "Billy?",
+          "cn": "比利",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u4-s01",
+      "unit": 4,
+      "cn": "比利怎样才能回到地面？",
+      "en": "How can Billy return to the ground?",
+      "tokens": [
+        {
+          "en": "How",
+          "cn": "怎样",
+          "pos": "疑问词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "Billy",
+          "cn": "比利",
+          "pos": "名词"
+        },
+        {
+          "en": "return",
+          "cn": "归还",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "ground?",
+          "cn": "地，地面",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u4-s02",
+      "unit": 4,
+      "cn": "猫儿比利正在看电视。",
+      "en": "Billy the Cat was watching TV.",
+      "tokens": [
+        {
+          "en": "Billy",
+          "cn": "比利",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Cat",
+          "cn": "猫",
+          "pos": "名词"
+        },
+        {
+          "en": "was",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "watching",
+          "cn": "看，观看",
+          "pos": "名词"
+        },
+        {
+          "en": "TV.",
+          "cn": "电视",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u4-s03",
+      "unit": 4,
+      "cn": "比利正在看电视。",
+      "en": "Billy was watching TV.",
+      "tokens": [
+        {
+          "en": "Billy",
+          "cn": "比利",
+          "pos": "名词"
+        },
+        {
+          "en": "was",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "watching",
+          "cn": "看，观看",
+          "pos": "名词"
+        },
+        {
+          "en": "TV.",
+          "cn": "电视",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u4-s04",
+      "unit": 4,
+      "cn": "猫儿比利有一辆自行车。",
+      "en": "Billy the Cat had a bike.",
+      "tokens": [
+        {
+          "en": "Billy",
+          "cn": "比利",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "Cat",
+          "cn": "猫",
+          "pos": "名词"
+        },
+        {
+          "en": "had",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "bike.",
+          "cn": "自行车",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u4-s05",
+      "unit": 4,
+      "cn": "白雪公主待人很善良。",
+      "en": "Snow White is kind to people.",
+      "tokens": [
+        {
+          "en": "Snow",
+          "cn": "雪",
+          "pos": "名词"
+        },
+        {
+          "en": "White",
+          "cn": "怀特",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "kind",
+          "cn": "种类",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "people.",
+          "cn": "人们",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u4-s06",
+      "unit": 4,
+      "cn": "“那我自己来。”农夫说。",
+      "en": "Then I will do it myself,\" said the farmer.",
+      "tokens": [
+        {
+          "en": "Then",
+          "cn": "然后",
+          "pos": "副词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "will",
+          "cn": "将会",
+          "pos": "情态动词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "it",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "myself,\"",
+          "cn": "我自己，亲自",
+          "pos": "名词"
+        },
+        {
+          "en": "said",
+          "cn": "说",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "farmer.",
+          "cn": "农民",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u4-s07",
+      "unit": 4,
+      "cn": "白雪公主很伤心。",
+      "en": "Snow White was sad.",
+      "tokens": [
+        {
+          "en": "Snow",
+          "cn": "雪",
+          "pos": "名词"
+        },
+        {
+          "en": "White",
+          "cn": "怀特",
+          "pos": "名词"
+        },
+        {
+          "en": "was",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "sad.",
+          "cn": "伤心的，难过的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u4-s08",
+      "unit": 4,
+      "cn": "我能去哪儿呢？",
+      "en": "Where can I go?",
+      "tokens": [
+        {
+          "en": "Where",
+          "cn": "哪里",
+          "pos": "疑问词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "go?",
+          "cn": "走",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u4-s09",
+      "unit": 4,
+      "cn": "我可以进来吗？",
+      "en": "May I come in?",
+      "tokens": [
+        {
+          "en": "May",
+          "cn": "可以",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "come",
+          "cn": "来",
+          "pos": "名词"
+        },
+        {
+          "en": "in?",
+          "cn": "在……里",
+          "pos": "介词"
+        }
+      ]
+    },
+    {
+      "id": "qh-5b-u4-s10",
+      "unit": 4,
+      "cn": "哦，我太累了。",
+      "en": "Oh, I’m so tired.",
+      "tokens": [
+        {
+          "en": "Oh,",
+          "cn": "哦",
+          "pos": "感叹词"
+        },
+        {
+          "en": "I’m",
+          "cn": "我是",
+          "pos": "缩略"
+        },
+        {
+          "en": "so",
+          "cn": "所以",
+          "pos": "连词"
+        },
+        {
+          "en": "tired.",
+          "cn": "疲惫的",
+          "pos": "形容词"
+        }
+      ]
+    }
+  ]
 }
