@@ -8,8 +8,8 @@
   "term": "down",
   "edition": "2025 春 · 新课标修订版",
   "stage": "primary",
-  "wordCount": 61,
-  "sentenceCount": 77,
+  "wordCount": 60,
+  "sentenceCount": 117,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -111,8 +111,7 @@
         "ls-6b-u6-07",
         "ls-6b-u6-08",
         "ls-6b-u6-09",
-        "ls-6b-u6-10",
-        "ls-6b-u6-11"
+        "ls-6b-u6-10"
       ]
     }
   ],
@@ -211,8 +210,8 @@
       ],
       "senses": [
         {
-          "cn": "担心（复数 worries）",
-          "cnFull": "担心（复数 worries）"
+          "cn": "担心",
+          "cnFull": "担心"
         }
       ],
       "grade": 6,
@@ -630,10 +629,10 @@
     },
     {
       "id": "ls-6b-u3-09",
-      "word": "be born",
-      "phoneticUK": "/biː bɔːn/",
+      "word": "born",
+      "phoneticUK": "/bɔːn/",
       "syllables": [
-        "be b",
+        "b",
         "orn"
       ],
       "senses": [
@@ -978,15 +977,14 @@
     {
       "id": "ls-6b-u5-07",
       "word": "read",
-      "phoneticUK": "/riːd/",
+      "phoneticUK": "/red/",
       "syllables": [
-        "re",
-        "ad"
+        "read"
       ],
       "senses": [
         {
-          "cn": "的过去式",
-          "cnFull": "的过去式"
+          "cn": "读（read 的过去式）",
+          "cnFull": "读（read 的过去式）"
         }
       ],
       "grade": 6,
@@ -1185,23 +1183,6 @@
       ],
       "grade": 6,
       "unit": 6
-    },
-    {
-      "id": "ls-6b-u6-11",
-      "word": "fan",
-      "phoneticUK": "/fæn/",
-      "syllables": [
-        "f",
-        "an."
-      ],
-      "senses": [
-        {
-          "cn": "我是英格兰队的球迷。",
-          "cnFull": "我是英格兰队的球迷。"
-        }
-      ],
-      "grade": 6,
-      "unit": 6
     }
   ],
   "sentences": [
@@ -1372,8 +1353,8 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "race.",
@@ -1390,8 +1371,8 @@
       "tokens": [
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "will.",
@@ -1413,8 +1394,8 @@
         },
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "have",
@@ -1423,8 +1404,8 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "look?",
@@ -1474,8 +1455,8 @@
         },
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "often",
@@ -1489,8 +1470,8 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "toothache.",
@@ -1523,6 +1504,181 @@
         {
           "en": "Feel?",
           "cn": "感到",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u1-s10",
+      "unit": 1,
+      "cn": "我今天很幸福，可他很难过。",
+      "en": "I am happy today, but he is sad.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "happy",
+          "cn": "高兴的",
+          "pos": "形容词"
+        },
+        {
+          "en": "today,",
+          "cn": "今天",
+          "pos": "名词"
+        },
+        {
+          "en": "but",
+          "cn": "但是",
+          "pos": "连词"
+        },
+        {
+          "en": "he",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "sad.",
+          "cn": "伤心的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u1-s11",
+      "unit": 1,
+      "cn": "别担心。",
+      "en": "Don't worry.",
+      "tokens": [
+        {
+          "en": "Don't",
+          "cn": "不",
+          "pos": "助动词"
+        },
+        {
+          "en": "worry.",
+          "cn": "担心（复数 worries）",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u1-s12",
+      "unit": 1,
+      "cn": "妈妈生我的气。",
+      "en": "Mother is angry with me.",
+      "tokens": [
+        {
+          "en": "Mother",
+          "cn": "母亲",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "angry",
+          "cn": "生气的",
+          "pos": "形容词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "me.",
+          "cn": "我",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u1-s13",
+      "unit": 1,
+      "cn": "比赛后我很累。",
+      "en": "I am tired after the game.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "tired",
+          "cn": "疲惫的",
+          "pos": "形容词"
+        },
+        {
+          "en": "after",
+          "cn": "在……之后",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "game.",
+          "cn": "游戏",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u1-s14",
+      "unit": 1,
+      "cn": "我对这部电影感到枯燥。",
+      "en": "I am bored with this film.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "bored",
+          "cn": "枯燥的",
+          "pos": "形容词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "this",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "film.",
+          "cn": "电影",
           "pos": "名词"
         }
       ]
@@ -1685,6 +1841,306 @@
       ]
     },
     {
+      "id": "ls-6b-u2-s05",
+      "unit": 2,
+      "cn": "天气很糟糕。",
+      "en": "The weather is terrible.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "weather",
+          "cn": "天气",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "terrible.",
+          "cn": "糟糕的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u2-s06",
+      "unit": 2,
+      "cn": "出什么事了？",
+      "en": "What is the matter?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "matter?",
+          "cn": "不要紧。",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u2-s07",
+      "unit": 2,
+      "cn": "这个答案是错误的。",
+      "en": "This answer is wrong.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "answer",
+          "cn": "回答",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "wrong.",
+          "cn": "错误的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u2-s08",
+      "unit": 2,
+      "cn": "吃这个药，休息一下。",
+      "en": "Take this medicine and have a rest.",
+      "tokens": [
+        {
+          "en": "Take",
+          "cn": "拿",
+          "pos": "名词"
+        },
+        {
+          "en": "this",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "medicine",
+          "cn": "药",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "rest.",
+          "cn": "休息",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u2-s09",
+      "unit": 2,
+      "cn": "我现在感觉好些了。",
+      "en": "I feel better now.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "feel",
+          "cn": "感到",
+          "pos": "名词"
+        },
+        {
+          "en": "better",
+          "cn": "更好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "now.",
+          "cn": "现在",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u2-s10",
+      "unit": 2,
+      "cn": "这是我的快乐。",
+      "en": "It is my pleasure.",
+      "tokens": [
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "pleasure.",
+          "cn": "快乐",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u2-s11",
+      "unit": 2,
+      "cn": "我头疼。",
+      "en": "I have a headache.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "headache.",
+          "cn": "头痛",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u2-s12",
+      "unit": 2,
+      "cn": "我发烧。",
+      "en": "I have a fever.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "fever.",
+          "cn": "发烧",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u2-s13",
+      "unit": 2,
+      "cn": "我还感冒了。",
+      "en": "I have a cold too.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "cold",
+          "cn": "冷的",
+          "pos": "形容词"
+        },
+        {
+          "en": "too.",
+          "cn": "也",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u2-s14",
+      "unit": 2,
+      "cn": "他今天生病了。",
+      "en": "He is ill today.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "ill",
+          "cn": "生病的",
+          "pos": "形容词"
+        },
+        {
+          "en": "today.",
+          "cn": "今天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
       "id": "ls-6b-u3-s01",
       "unit": 3,
       "cn": "在中国，每个人都有一个生肖。",
@@ -1811,8 +2267,8 @@
       "tokens": [
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "was",
@@ -1887,8 +2343,8 @@
       "tokens": [
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "was",
@@ -1978,8 +2434,8 @@
       "tokens": [
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "was",
@@ -2198,8 +2654,8 @@
         },
         {
           "en": "he",
-          "cn": "他",
-          "pos": "代词"
+          "cn": "和",
+          "pos": "名词"
         },
         {
           "en": "born,",
@@ -2274,8 +2730,8 @@
         },
         {
           "en": "Brown?",
-          "cn": "棕色的",
-          "pos": "形容词"
+          "cn": "布朗",
+          "pos": "名词"
         }
       ]
     },
@@ -2490,8 +2946,8 @@
         },
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "are",
@@ -2505,8 +2961,8 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "vacation",
@@ -2566,8 +3022,8 @@
       "tokens": [
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "had",
@@ -2576,8 +3032,8 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "good",
@@ -2642,8 +3098,8 @@
       "tokens": [
         {
           "en": "He",
-          "cn": "他",
-          "pos": "代词"
+          "cn": "和",
+          "pos": "名词"
         },
         {
           "en": "was",
@@ -2675,8 +3131,8 @@
         },
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "would",
@@ -2713,8 +3169,8 @@
         },
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "would",
@@ -2845,8 +3301,8 @@
         },
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "was",
@@ -2860,8 +3316,8 @@
         },
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "was",
@@ -2870,8 +3326,8 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "small",
@@ -2887,6 +3343,191 @@
           "en": "egg.",
           "cn": "鸡蛋",
           "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u3-s33",
+      "unit": 3,
+      "cn": "多么好的一天！",
+      "en": "What a wonderful day!",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "wonderful",
+          "cn": "美妙的",
+          "pos": "形容词"
+        },
+        {
+          "en": "day!",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u3-s34",
+      "unit": 3,
+      "cn": "我剪 纸 做剪纸。",
+      "en": "I cut the paper for paper cutting.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "cut",
+          "cn": "剪",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "paper",
+          "cn": "纸",
+          "pos": "名词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "paper",
+          "cn": "纸",
+          "pos": "名词"
+        },
+        {
+          "en": "cutting.",
+          "cn": "剪",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u3-s35",
+      "unit": 3,
+      "cn": "我出生在2013年。",
+      "en": "I was born in 2013.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "was",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "born",
+          "cn": "出生",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "2013.",
+          "cn": "2013",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u3-s36",
+      "unit": 3,
+      "cn": "今年是2026年。",
+      "en": "This year is 2026.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "year",
+          "cn": "年",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "2026.",
+          "cn": "2026",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u3-s37",
+      "unit": 3,
+      "cn": "老鼠很小，蛇却很长。",
+      "en": "A mouse is small, but a snake is long.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "mouse",
+          "cn": "鼠狗",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "small,",
+          "cn": "小的",
+          "pos": "形容词"
+        },
+        {
+          "en": "but",
+          "cn": "但是",
+          "pos": "连词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "snake",
+          "cn": "蛇",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "long.",
+          "cn": "长的",
+          "pos": "形容词"
         }
       ]
     },
@@ -2931,8 +3572,8 @@
         },
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "did.",
@@ -3040,8 +3681,8 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "tree?",
@@ -3091,8 +3732,8 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "Man!",
@@ -3147,8 +3788,8 @@
         },
         {
           "en": "he",
-          "cn": "他",
-          "pos": "代词"
+          "cn": "和",
+          "pos": "名词"
         },
         {
           "en": "Zhang",
@@ -3175,8 +3816,8 @@
         },
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "can",
@@ -3208,8 +3849,8 @@
       "tokens": [
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "hope",
@@ -3279,8 +3920,8 @@
         },
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "wish",
@@ -3370,8 +4011,8 @@
         },
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "become",
@@ -3380,12 +4021,164 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "butterfly?",
           "cn": "蝴蝶",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u4-s16",
+      "unit": 4,
+      "cn": "我昨天晚上看了动画片。",
+      "en": "I watched cartoons last night.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "watched",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "cartoons",
+          "cn": "动画片",
+          "pos": "名词"
+        },
+        {
+          "en": "last",
+          "cn": "最后",
+          "pos": "名词"
+        },
+        {
+          "en": "night.",
+          "cn": "夜晚",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u4-s17",
+      "unit": 4,
+      "cn": "一个小女孩待在家里。",
+      "en": "A little girl stayed at home.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "little",
+          "cn": "小的",
+          "pos": "形容词"
+        },
+        {
+          "en": "girl",
+          "cn": "女孩",
+          "pos": "名词"
+        },
+        {
+          "en": "stayed",
+          "cn": "停留（stay的过去式）",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "home.",
+          "cn": "回家",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u4-s18",
+      "unit": 4,
+      "cn": "我做家务、洗衣服。",
+      "en": "I did housework and washed clothes.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "did",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "housework",
+          "cn": "家务劳动",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "washed",
+          "cn": "洗",
+          "pos": "名词"
+        },
+        {
+          "en": "clothes.",
+          "cn": "衣服",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u4-s19",
+      "unit": 4,
+      "cn": "她做了饭、浇了花。",
+      "en": "She cooked dinner and watered the flowers.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "cooked",
+          "cn": "做饭",
+          "pos": "名词"
+        },
+        {
+          "en": "dinner",
+          "cn": "晚餐",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "watered",
+          "cn": "水",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "flowers.",
+          "cn": "花",
           "pos": "名词"
         }
       ]
@@ -3423,8 +4216,8 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "talent",
@@ -3512,8 +4305,8 @@
         },
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "doing?",
@@ -3603,12 +4396,210 @@
         },
         {
           "en": "T-shirts",
-          "cn": "T恤衫",
+          "cn": "T-衬衫",
           "pos": "名词"
         },
         {
           "en": "today.",
           "cn": "今天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u5-s07",
+      "unit": 5,
+      "cn": "我们去参加了聚会。",
+      "en": "We went to a party.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "went",
+          "cn": "去",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "party.",
+          "cn": "聚会",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u5-s08",
+      "unit": 5,
+      "cn": "我的邻居很友善。",
+      "en": "My neighbor is kind.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "neighbor",
+          "cn": "邻居",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "kind.",
+          "cn": "种类",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u5-s09",
+      "unit": 5,
+      "cn": "我们又唱歌又跳舞，还做了游戏。",
+      "en": "We sang and danced and played games.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "sang",
+          "cn": "唱",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "danced",
+          "cn": "跳舞",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "played",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "games.",
+          "cn": "游戏",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u5-s10",
+      "unit": 5,
+      "cn": "这两本书不同。",
+      "en": "The two books are different.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "two",
+          "cn": "二",
+          "pos": "数词"
+        },
+        {
+          "en": "books",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "different.",
+          "cn": "不同的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u5-s11",
+      "unit": 5,
+      "cn": "我昨天读了一本书。",
+      "en": "I read a book yesterday.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "read",
+          "cn": "读",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "book",
+          "cn": "书",
+          "pos": "名词"
+        },
+        {
+          "en": "yesterday.",
+          "cn": "昨天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u5-s12",
+      "unit": 5,
+      "cn": "我们看了电影。",
+      "en": "We saw a film.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "saw",
+          "cn": "锯",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "film.",
+          "cn": "电影",
           "pos": "名词"
         }
       ]
@@ -3621,8 +4612,8 @@
       "tokens": [
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "know,",
@@ -3704,8 +4695,8 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "hero.",
@@ -3722,8 +4713,8 @@
       "tokens": [
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "believe",
@@ -3732,8 +4723,8 @@
         },
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "will",
@@ -3747,8 +4738,8 @@
         },
         {
           "en": "a",
-          "cn": "一个",
-          "pos": "冠词"
+          "cn": "A",
+          "pos": "名词"
         },
         {
           "en": "hero.",
@@ -3904,8 +4895,8 @@
         },
         {
           "en": "I",
-          "cn": "我",
-          "pos": "代词"
+          "cn": "I",
+          "pos": "名词"
         },
         {
           "en": "take?",
@@ -4048,6 +5039,311 @@
           "en": "English?",
           "cn": "英文的",
           "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u6-s12",
+      "unit": 6,
+      "cn": "我昨天晚上看了一场比赛。",
+      "en": "I watched a match last night.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "watched",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "match",
+          "cn": "比赛",
+          "pos": "介词"
+        },
+        {
+          "en": "last",
+          "cn": "最后",
+          "pos": "名词"
+        },
+        {
+          "en": "night.",
+          "cn": "夜晚",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u6-s13",
+      "unit": 6,
+      "cn": "我们等到六点。",
+      "en": "We waited until six.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "waited",
+          "cn": "等待",
+          "pos": "名词"
+        },
+        {
+          "en": "until",
+          "cn": "直到……为止",
+          "pos": "名词"
+        },
+        {
+          "en": "six.",
+          "cn": "六",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u6-s14",
+      "unit": 6,
+      "cn": "比赛令人兴奋。",
+      "en": "The match is exciting.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "match",
+          "cn": "比赛",
+          "pos": "介词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "exciting.",
+          "cn": "使人激动的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u6-s15",
+      "unit": 6,
+      "cn": "他是冠军。",
+      "en": "He is the champion.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "champion.",
+          "cn": "冠军",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u6-s16",
+      "unit": 6,
+      "cn": "我是个足球迷。",
+      "en": "I am a football fan.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "football",
+          "cn": "足球",
+          "pos": "名词"
+        },
+        {
+          "en": "fan.",
+          "cn": "狂热爱好者",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u6-s17",
+      "unit": 6,
+      "cn": "我六点起床。",
+      "en": "I got up at six.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "got",
+          "cn": "准备",
+          "pos": "名词"
+        },
+        {
+          "en": "up",
+          "cn": "向上",
+          "pos": "副词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "six.",
+          "cn": "六",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u6-s18",
+      "unit": 6,
+      "cn": "我们去购物了。",
+      "en": "We went shopping.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "went",
+          "cn": "去",
+          "pos": "名词"
+        },
+        {
+          "en": "shopping.",
+          "cn": "商店",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u6-s19",
+      "unit": 6,
+      "cn": "我做了作业。",
+      "en": "I did homework.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "did",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "homework.",
+          "cn": "家庭作业",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u6-s20",
+      "unit": 6,
+      "cn": "我七点吃了早餐。",
+      "en": "I had breakfast at seven.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "had",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "breakfast",
+          "cn": "早餐",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "seven.",
+          "cn": "七",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "ls-6b-u6-s21",
+      "unit": 6,
+      "cn": "我们八点去上学。",
+      "en": "We went to school at eight.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "went",
+          "cn": "去",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "school",
+          "cn": "学校",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "eight.",
+          "cn": "八",
+          "pos": "数词"
         }
       ]
     }
