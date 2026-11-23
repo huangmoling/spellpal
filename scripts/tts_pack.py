@@ -396,8 +396,8 @@ def cmd_synth(args: argparse.Namespace) -> None:
     cost = time.time() - t0
 
     ok = len(queue) - len(failed)
-    print(f"\n完成 {ok} 段，失败 {len(failed)} 段，耗时 {fmt_dur(cost)}"
-          f"（{ok / cost:.1f} 段/秒）" if cost > 0 else "")
+    rate = ok / cost if cost > 0 else 0.0
+    print(f"\n完成 {ok} 段，失败 {len(failed)} 段，耗时 {fmt_dur(cost)}（{rate:.1f} 段/秒）")
 
     _refresh_index(texts, index, prune=args.prune)
 
