@@ -9,7 +9,7 @@
   "edition": "2025 春 · 新课标修订版",
   "stage": "primary",
   "wordCount": 157,
-  "sentenceCount": 0,
+  "sentenceCount": 108,
   "updatedAt": "2026-11-23",
   "units": [
     {
@@ -576,18 +576,17 @@
     },
     {
       "id": "hj-4b-u1-21",
-      "word": "Good night, kids",
-      "phoneticUK": "/ɡʊd naɪt kɪdz/",
+      "word": "Good night",
+      "phoneticUK": "/ɡʊd naɪt/",
       "syllables": [
         "go",
         "od n",
-        "ight, k",
-        "ids!"
+        "ight"
       ],
       "senses": [
         {
-          "cn": "晚安，孩子们！",
-          "cnFull": "晚安，孩子们！"
+          "cn": "晚安",
+          "cnFull": "晚安"
         }
       ],
       "grade": 4,
@@ -2221,7 +2220,7 @@
     {
       "id": "hj-4b-u6-14",
       "word": "What time is it",
-      "phoneticUK": "/waɪ taɪm ɪz ɪt/",
+      "phoneticUK": "/wɒt taɪm ɪz ɪt/",
       "syllables": [
         "wh",
         "at t",
@@ -2965,5 +2964,4365 @@
       "unit": 8
     }
   ],
-  "sentences": []
+  "sentences": [
+    {
+      "id": "hj-4b-u1-s01",
+      "unit": 1,
+      "cn": "我六点起床。",
+      "en": "I get up at six o'clock.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "get",
+          "cn": "准备",
+          "pos": "名词"
+        },
+        {
+          "en": "up",
+          "cn": "向上",
+          "pos": "副词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "six",
+          "cn": "六",
+          "pos": "数词"
+        },
+        {
+          "en": "o'clock.",
+          "cn": "……点钟",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u1-s02",
+      "unit": 1,
+      "cn": "然后我刷牙、洗脸。",
+      "en": "Then I brush my teeth and wash my face.",
+      "tokens": [
+        {
+          "en": "Then",
+          "cn": "然后",
+          "pos": "副词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "brush",
+          "cn": "刷牙",
+          "pos": "名词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "teeth",
+          "cn": "牙齿(tooth的复数)",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "wash",
+          "cn": "洗",
+          "pos": "名词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "face.",
+          "cn": "脸",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u1-s03",
+      "unit": 1,
+      "cn": "我六点半吃早餐。",
+      "en": "I have breakfast at half past six.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "breakfast",
+          "cn": "早餐",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "half",
+          "cn": "半",
+          "pos": "名词"
+        },
+        {
+          "en": "past",
+          "cn": "过去的",
+          "pos": "形容词"
+        },
+        {
+          "en": "six.",
+          "cn": "六",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u1-s04",
+      "unit": 1,
+      "cn": "我七点四十五去上学。",
+      "en": "I go to school at a quarter to eight.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "school",
+          "cn": "学校",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "quarter",
+          "cn": "15分钟",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "eight.",
+          "cn": "八",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u1-s05",
+      "unit": 1,
+      "cn": "我们上午有四节课。",
+      "en": "We have four lessons in the morning.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "four",
+          "cn": "四",
+          "pos": "数词"
+        },
+        {
+          "en": "lessons",
+          "cn": "课",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "morning.",
+          "cn": "早晨",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u1-s06",
+      "unit": 1,
+      "cn": "我十二点吃午餐。",
+      "en": "I have lunch at twelve o'clock.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "lunch",
+          "cn": "午餐",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "twelve",
+          "cn": "十二",
+          "pos": "数词"
+        },
+        {
+          "en": "o'clock.",
+          "cn": "……点钟",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u1-s07",
+      "unit": 1,
+      "cn": "我四点半回家。",
+      "en": "I go home at half past four.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "home",
+          "cn": "回家",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "half",
+          "cn": "半",
+          "pos": "名词"
+        },
+        {
+          "en": "past",
+          "cn": "过去的",
+          "pos": "形容词"
+        },
+        {
+          "en": "four.",
+          "cn": "四",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u1-s08",
+      "unit": 1,
+      "cn": "我六点吃晚餐，九点睡觉。",
+      "en": "I have dinner at six and go to bed at nine.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "dinner",
+          "cn": "晚餐",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "six",
+          "cn": "六",
+          "pos": "数词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "go",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "bed",
+          "cn": "床",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "nine.",
+          "cn": "九",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u1-s09",
+      "unit": 1,
+      "cn": "这是我的日程安排。",
+      "en": "This is my daily schedule.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "daily",
+          "cn": "每日的",
+          "pos": "形容词"
+        },
+        {
+          "en": "schedule.",
+          "cn": "日程安排",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u1-s10",
+      "unit": 1,
+      "cn": "这个小男孩现在会喝牛奶了。",
+      "en": "The little boy can drink milk now.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "little",
+          "cn": "小的",
+          "pos": "形容词"
+        },
+        {
+          "en": "boy",
+          "cn": "男孩",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "drink",
+          "cn": "饮料",
+          "pos": "名词"
+        },
+        {
+          "en": "milk",
+          "cn": "牛奶",
+          "pos": "名词"
+        },
+        {
+          "en": "now.",
+          "cn": "现在",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u1-s11",
+      "unit": 1,
+      "cn": "我在美术课上画了一幅画。",
+      "en": "I draw a picture in the art lesson.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "draw",
+          "cn": "画",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "picture",
+          "cn": "照片",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "art",
+          "cn": "艺术",
+          "pos": "名词"
+        },
+        {
+          "en": "lesson.",
+          "cn": "课",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u1-s12",
+      "unit": 1,
+      "cn": "晚安，孩子们。",
+      "en": "Good night, kids.",
+      "tokens": [
+        {
+          "en": "Good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "night,",
+          "cn": "夜晚",
+          "pos": "名词"
+        },
+        {
+          "en": "kids.",
+          "cn": "小孩",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u1-s13",
+      "unit": 1,
+      "cn": "李小姐是我的英语老师。",
+      "en": "Miss Li is my English teacher.",
+      "tokens": [
+        {
+          "en": "Miss",
+          "cn": "小姐",
+          "pos": "名词"
+        },
+        {
+          "en": "Li",
+          "cn": "李",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "English",
+          "cn": "英文的",
+          "pos": "形容词"
+        },
+        {
+          "en": "teacher.",
+          "cn": "教师",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u2-s01",
+      "unit": 2,
+      "cn": "我们星期一有语文、数学、英语和体育。",
+      "en": "We have Chinese, Maths, English and PE on Monday.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "Chinese,",
+          "cn": "中国的",
+          "pos": "形容词"
+        },
+        {
+          "en": "Maths,",
+          "cn": "数学",
+          "pos": "名词"
+        },
+        {
+          "en": "English",
+          "cn": "英文的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "PE",
+          "cn": "体育课",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "Monday.",
+          "cn": "星期一",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u2-s02",
+      "unit": 2,
+      "cn": "音乐、美术、信息技术和科学是我最喜欢的科目。",
+      "en": "Music, Art, IT and Science are my favourite subjects.",
+      "tokens": [
+        {
+          "en": "Music,",
+          "cn": "音乐",
+          "pos": "名词"
+        },
+        {
+          "en": "Art,",
+          "cn": "艺术",
+          "pos": "名词"
+        },
+        {
+          "en": "IT",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "Science",
+          "cn": "科学",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "favourite",
+          "cn": "最喜爱的",
+          "pos": "形容词"
+        },
+        {
+          "en": "subjects.",
+          "cn": "学科",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u2-s03",
+      "unit": 2,
+      "cn": "每个学生都有不同的时间表。",
+      "en": "Every student has a different timetable.",
+      "tokens": [
+        {
+          "en": "Every",
+          "cn": "每一个",
+          "pos": "名词"
+        },
+        {
+          "en": "student",
+          "cn": "学生",
+          "pos": "名词"
+        },
+        {
+          "en": "has",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "different",
+          "cn": "不同的",
+          "pos": "形容词"
+        },
+        {
+          "en": "timetable.",
+          "cn": "时间表",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u2-s04",
+      "unit": 2,
+      "cn": "放学后我参加英语俱乐部。",
+      "en": "I am in the English club after school.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "English",
+          "cn": "英文的",
+          "pos": "形容词"
+        },
+        {
+          "en": "club",
+          "cn": "俱乐部",
+          "pos": "名词"
+        },
+        {
+          "en": "after",
+          "cn": "在……之后",
+          "pos": "介词"
+        },
+        {
+          "en": "school.",
+          "cn": "学校",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u2-s05",
+      "unit": 2,
+      "cn": "这是我们的课程表。",
+      "en": "This is our class timetable.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "our",
+          "cn": "我们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "class",
+          "cn": "课",
+          "pos": "名词"
+        },
+        {
+          "en": "timetable.",
+          "cn": "时间表",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u2-s06",
+      "unit": 2,
+      "cn": "我们星期一早上升国旗。",
+      "en": "We raise the national flag on Monday morning.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "raise",
+          "cn": "饲养",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "national",
+          "cn": "全国的",
+          "pos": "形容词"
+        },
+        {
+          "en": "flag",
+          "cn": "旗",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "Monday",
+          "cn": "星期一",
+          "pos": "名词"
+        },
+        {
+          "en": "morning.",
+          "cn": "早晨",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u2-s07",
+      "unit": 2,
+      "cn": "你能算出这道数学题吗？",
+      "en": "Can you work out this maths problem?",
+      "tokens": [
+        {
+          "en": "Can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "work",
+          "cn": "工作",
+          "pos": "名词"
+        },
+        {
+          "en": "out",
+          "cn": "向外",
+          "pos": "副词"
+        },
+        {
+          "en": "this",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "maths",
+          "cn": "数学",
+          "pos": "名词"
+        },
+        {
+          "en": "problem?",
+          "cn": "问题",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u2-s08",
+      "unit": 2,
+      "cn": "我们为学生演出一场戏剧。",
+      "en": "We put on a play for the students.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "put",
+          "cn": "放",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "students.",
+          "cn": "学生",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u2-s09",
+      "unit": 2,
+      "cn": "他在家做飞机模型。",
+      "en": "He makes a model plane at home.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "makes",
+          "cn": "制作（过去式 made）",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "model",
+          "cn": "模型",
+          "pos": "名词"
+        },
+        {
+          "en": "plane",
+          "cn": "飞机",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "home.",
+          "cn": "回家",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u2-s10",
+      "unit": 2,
+      "cn": "太棒了！我喜欢这个科目。",
+      "en": "Great! I like this subject.",
+      "tokens": [
+        {
+          "en": "Great!",
+          "cn": "很好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "like",
+          "cn": "喜欢",
+          "pos": "名词"
+        },
+        {
+          "en": "this",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "subject.",
+          "cn": "学科",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u2-s11",
+      "unit": 2,
+      "cn": "那头猪在农场里。",
+      "en": "The pig is on the farm.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "pig",
+          "cn": "猪",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "farm.",
+          "cn": "农场",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u3-s01",
+      "unit": 3,
+      "cn": "消防员能灭火。",
+      "en": "A firefighter can put out fires.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "firefighter",
+          "cn": "消防员",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "put",
+          "cn": "放",
+          "pos": "名词"
+        },
+        {
+          "en": "out",
+          "cn": "向外",
+          "pos": "副词"
+        },
+        {
+          "en": "fires.",
+          "cn": "火",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u3-s02",
+      "unit": 3,
+      "cn": "警察帮助人们。",
+      "en": "A police officer helps people.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "police",
+          "cn": "警察",
+          "pos": "名词"
+        },
+        {
+          "en": "officer",
+          "cn": "办公室",
+          "pos": "名词"
+        },
+        {
+          "en": "helps",
+          "cn": "帮助",
+          "pos": "动词"
+        },
+        {
+          "en": "people.",
+          "cn": "人们",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u3-s03",
+      "unit": 3,
+      "cn": "农夫在农场干活。",
+      "en": "The farmer works on the farm.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "farmer",
+          "cn": "农民",
+          "pos": "名词"
+        },
+        {
+          "en": "works",
+          "cn": "工作",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "farm.",
+          "cn": "农场",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u3-s04",
+      "unit": 3,
+      "cn": "我们的老师对我们很友善。",
+      "en": "Our teacher is kind to us.",
+      "tokens": [
+        {
+          "en": "Our",
+          "cn": "我们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "teacher",
+          "cn": "教师",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "kind",
+          "cn": "种类",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "us.",
+          "cn": "我们",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u3-s05",
+      "unit": 3,
+      "cn": "医生和护士在医院工作。",
+      "en": "The doctor and the nurse work in the hospital.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "doctor",
+          "cn": "医生",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "nurse",
+          "cn": "护士",
+          "pos": "名词"
+        },
+        {
+          "en": "work",
+          "cn": "工作",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "hospital.",
+          "cn": "医院",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u3-s06",
+      "unit": 3,
+      "cn": "我爸爸是一名公交车司机。",
+      "en": "My father is a bus driver.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "father",
+          "cn": "父亲",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "bus",
+          "cn": "公共汽车",
+          "pos": "名词"
+        },
+        {
+          "en": "driver.",
+          "cn": "司机",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u3-s07",
+      "unit": 3,
+      "cn": "那个生病的孩子想喝点汤。",
+      "en": "The sick boy wants some soup.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sick",
+          "cn": "不适的",
+          "pos": "形容词"
+        },
+        {
+          "en": "boy",
+          "cn": "男孩",
+          "pos": "名词"
+        },
+        {
+          "en": "wants",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "soup.",
+          "cn": "汤",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u3-s08",
+      "unit": 3,
+      "cn": "李夫人认识班上的每个孩子。",
+      "en": "Mrs Li knows every child in the class.",
+      "tokens": [
+        {
+          "en": "Mrs",
+          "cn": "夫人",
+          "pos": "名词"
+        },
+        {
+          "en": "Li",
+          "cn": "李",
+          "pos": "名词"
+        },
+        {
+          "en": "knows",
+          "cn": "知道",
+          "pos": "名词"
+        },
+        {
+          "en": "every",
+          "cn": "每一个",
+          "pos": "名词"
+        },
+        {
+          "en": "child",
+          "cn": "孩子（复数 children）",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "class.",
+          "cn": "课",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u3-s09",
+      "unit": 3,
+      "cn": "你的工作是什么？",
+      "en": "What is your job?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "job?",
+          "cn": "工作",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u3-s10",
+      "unit": 3,
+      "cn": "你妈妈是牙医还是老师？",
+      "en": "Is your mother a dentist or a teacher?",
+      "tokens": [
+        {
+          "en": "Is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "mother",
+          "cn": "母亲",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "dentist",
+          "cn": "牙医",
+          "pos": "名词"
+        },
+        {
+          "en": "or",
+          "cn": "或者",
+          "pos": "连词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "teacher?",
+          "cn": "教师",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u3-s11",
+      "unit": 3,
+      "cn": "这块蛋糕很甜。",
+      "en": "This cake is very sweet.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "cake",
+          "cn": "蛋糕",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "very",
+          "cn": "很",
+          "pos": "副词"
+        },
+        {
+          "en": "sweet.",
+          "cn": "甜的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u3-s12",
+      "unit": 3,
+      "cn": "牙医会检查你的牙齿。",
+      "en": "The dentist will check your teeth.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "dentist",
+          "cn": "牙医",
+          "pos": "名词"
+        },
+        {
+          "en": "will",
+          "cn": "将会",
+          "pos": "情态动词"
+        },
+        {
+          "en": "check",
+          "cn": "核查",
+          "pos": "名词"
+        },
+        {
+          "en": "your",
+          "cn": "你的",
+          "pos": "限定词"
+        },
+        {
+          "en": "teeth.",
+          "cn": "牙齿(tooth的复数)",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u3-s13",
+      "unit": 3,
+      "cn": "牙医能补牙。",
+      "en": "A dentist can fill holes in teeth.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "dentist",
+          "cn": "牙医",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "fill",
+          "cn": "充满",
+          "pos": "动词"
+        },
+        {
+          "en": "holes",
+          "cn": "洞",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "teeth.",
+          "cn": "牙齿(tooth的复数)",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u3-s14",
+      "unit": 3,
+      "cn": "牙医可能会拔掉蛀牙。",
+      "en": "A dentist may pull bad teeth out.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "dentist",
+          "cn": "牙医",
+          "pos": "名词"
+        },
+        {
+          "en": "may",
+          "cn": "可以",
+          "pos": "情态动词"
+        },
+        {
+          "en": "pull",
+          "cn": "拔出",
+          "pos": "名词"
+        },
+        {
+          "en": "bad",
+          "cn": "坏的",
+          "pos": "形容词"
+        },
+        {
+          "en": "teeth",
+          "cn": "牙齿(tooth的复数)",
+          "pos": "名词"
+        },
+        {
+          "en": "out.",
+          "cn": "向外",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u3-s15",
+      "unit": 3,
+      "cn": "护士照顾病人。",
+      "en": "A nurse looks after sick people.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "nurse",
+          "cn": "护士",
+          "pos": "名词"
+        },
+        {
+          "en": "looks",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "after",
+          "cn": "在……之后",
+          "pos": "介词"
+        },
+        {
+          "en": "sick",
+          "cn": "不适的",
+          "pos": "形容词"
+        },
+        {
+          "en": "people.",
+          "cn": "人们",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u3-s16",
+      "unit": 3,
+      "cn": "我一天刷两次或三次牙。",
+      "en": "I brush my teeth twice or three times a day.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "brush",
+          "cn": "刷牙",
+          "pos": "名词"
+        },
+        {
+          "en": "my",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "teeth",
+          "cn": "牙齿(tooth的复数)",
+          "pos": "名词"
+        },
+        {
+          "en": "twice",
+          "cn": "两次",
+          "pos": "名词"
+        },
+        {
+          "en": "or",
+          "cn": "或者",
+          "pos": "连词"
+        },
+        {
+          "en": "three",
+          "cn": "三",
+          "pos": "数词"
+        },
+        {
+          "en": "times",
+          "cn": "蒂姆",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u4-s01",
+      "unit": 4,
+      "cn": "我会敲三角铁、打鼓、拉小提琴。",
+      "en": "I can play the triangle, the drum and the violin.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "triangle,",
+          "cn": "三角形",
+          "pos": "数词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "drum",
+          "cn": "鼓",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "violin.",
+          "cn": "小提琴",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u4-s02",
+      "unit": 4,
+      "cn": "我姐姐会弹钢琴、弹吉他。",
+      "en": "My sister can play the piano and the guitar.",
+      "tokens": [
+        {
+          "en": "My",
+          "cn": "我的",
+          "pos": "限定词"
+        },
+        {
+          "en": "sister",
+          "cn": "姐姐",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "piano",
+          "cn": "钢琴",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "guitar.",
+          "cn": "吉他",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u4-s03",
+      "unit": 4,
+      "cn": "他会拉二胡、弹琵琶、吹长笛。",
+      "en": "He can play the erhu, the pipa and the flute.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "play",
+          "cn": "玩",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "erhu,",
+          "cn": "二胡",
+          "pos": "数词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "pipa",
+          "cn": "琵琶",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "flute.",
+          "cn": "笛子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u4-s04",
+      "unit": 4,
+      "cn": "那位女士是音乐老师。",
+      "en": "That woman is a music teacher.",
+      "tokens": [
+        {
+          "en": "That",
+          "cn": "那个",
+          "pos": "代词"
+        },
+        {
+          "en": "woman",
+          "cn": "成年女子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "music",
+          "cn": "音乐",
+          "pos": "名词"
+        },
+        {
+          "en": "teacher.",
+          "cn": "教师",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u4-s05",
+      "unit": 4,
+      "cn": "我们今天有一场音乐会。",
+      "en": "We have a concert today.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "concert",
+          "cn": "音乐会",
+          "pos": "名词"
+        },
+        {
+          "en": "today.",
+          "cn": "今天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u4-s06",
+      "unit": 4,
+      "cn": "我认为这是个好主意。",
+      "en": "I think this is a good idea.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "think",
+          "cn": "认为",
+          "pos": "名词"
+        },
+        {
+          "en": "this",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "idea.",
+          "cn": "主意",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u4-s07",
+      "unit": 4,
+      "cn": "他是个聪明的男孩。",
+      "en": "He is a clever boy.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "clever",
+          "cn": "聪明的",
+          "pos": "形容词"
+        },
+        {
+          "en": "boy.",
+          "cn": "男孩",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u4-s08",
+      "unit": 4,
+      "cn": "这些广口瓶在桌子上。",
+      "en": "These jars are on the table.",
+      "tokens": [
+        {
+          "en": "These",
+          "cn": "这些",
+          "pos": "代词"
+        },
+        {
+          "en": "jars",
+          "cn": "广口瓶",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "table.",
+          "cn": "桌子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u4-s09",
+      "unit": 4,
+      "cn": "我能在瓶子里看见它们。",
+      "en": "I can see them in the jar.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "them",
+          "cn": "他们",
+          "pos": "代词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "jar.",
+          "cn": "广口瓶",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u4-s10",
+      "unit": 4,
+      "cn": "桶和锅在厨房里。",
+      "en": "The bucket and the pot are in the kitchen.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bucket",
+          "cn": "桶",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "pot",
+          "cn": "锅",
+          "pos": "名词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "kitchen.",
+          "cn": "厨房",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u4-s11",
+      "unit": 4,
+      "cn": "别太用力打鼓。",
+      "en": "Don't hit the drum too hard.",
+      "tokens": [
+        {
+          "en": "Don't",
+          "cn": "不",
+          "pos": "助动词"
+        },
+        {
+          "en": "hit",
+          "cn": "击",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "drum",
+          "cn": "鼓",
+          "pos": "名词"
+        },
+        {
+          "en": "too",
+          "cn": "也",
+          "pos": "副词"
+        },
+        {
+          "en": "hard.",
+          "cn": "困难的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u4-s12",
+      "unit": 4,
+      "cn": "这音乐很美妙。",
+      "en": "The music is beautiful.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "music",
+          "cn": "音乐",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "beautiful.",
+          "cn": "美丽的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u4-s13",
+      "unit": 4,
+      "cn": "我们为歌手鼓掌吧。",
+      "en": "Let's clap for the singer.",
+      "tokens": [
+        {
+          "en": "Let's",
+          "cn": "让我们",
+          "pos": "缩略"
+        },
+        {
+          "en": "clap",
+          "cn": "鼓掌",
+          "pos": "名词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "singer.",
+          "cn": "歌手",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u4-s14",
+      "unit": 4,
+      "cn": "小提琴是一种乐器。",
+      "en": "A violin is a musical instrument.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "violin",
+          "cn": "小提琴",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "musical",
+          "cn": "音乐的",
+          "pos": "形容词"
+        },
+        {
+          "en": "instrument.",
+          "cn": "乐器",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u5-s01",
+      "unit": 5,
+      "cn": "这是一张老虎剪纸。",
+      "en": "This is a paper-cut of a tiger.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "paper-cut",
+          "cn": "纸-剪",
+          "pos": "名词"
+        },
+        {
+          "en": "of",
+          "cn": "的",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "tiger.",
+          "cn": "老虎",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u5-s02",
+      "unit": 5,
+      "cn": "墙上的画很美。",
+      "en": "The painting on the wall is beautiful.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "painting",
+          "cn": "绘画",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "wall",
+          "cn": "墙",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "beautiful.",
+          "cn": "美丽的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u5-s03",
+      "unit": 5,
+      "cn": "画一个圆形和一个正方形。",
+      "en": "Draw a circle and a square.",
+      "tokens": [
+        {
+          "en": "Draw",
+          "cn": "画",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "circle",
+          "cn": "圆",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "square.",
+          "cn": "正方形",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u5-s04",
+      "unit": 5,
+      "cn": "我看见旗上有一颗星星。",
+      "en": "I can see a star on the flag.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "star",
+          "cn": "星",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "flag.",
+          "cn": "旗",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u5-s05",
+      "unit": 5,
+      "cn": "这个盒子是矩形的。",
+      "en": "This box is a rectangle.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "box",
+          "cn": "盒子",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "rectangle.",
+          "cn": "长方形",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u5-s06",
+      "unit": 5,
+      "cn": "看墙上的钟。",
+      "en": "Look at the clock on the wall.",
+      "tokens": [
+        {
+          "en": "Look",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "clock",
+          "cn": "钟",
+          "pos": "名词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "wall.",
+          "cn": "墙",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u5-s07",
+      "unit": 5,
+      "cn": "它是什么形状？",
+      "en": "What shape is it?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "shape",
+          "cn": "形状",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "it?",
+          "cn": "它",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u5-s08",
+      "unit": 5,
+      "cn": "正方形有四条边和四个角。",
+      "en": "A square has four sides and four corners.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "square",
+          "cn": "正方形",
+          "pos": "名词"
+        },
+        {
+          "en": "has",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "four",
+          "cn": "四",
+          "pos": "数词"
+        },
+        {
+          "en": "sides",
+          "cn": "边",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "four",
+          "cn": "四",
+          "pos": "数词"
+        },
+        {
+          "en": "corners.",
+          "cn": "角",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u5-s09",
+      "unit": 5,
+      "cn": "我可以问你一个问题吗？",
+      "en": "May I ask you a question?",
+      "tokens": [
+        {
+          "en": "May",
+          "cn": "可以",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "ask",
+          "cn": "问",
+          "pos": "名词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "question?",
+          "cn": "问题",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u5-s10",
+      "unit": 5,
+      "cn": "他说了什么？",
+      "en": "What did he say?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "did",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "he",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "say?",
+          "cn": "说",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u6-s01",
+      "unit": 6,
+      "cn": "一天有二十四小时，夜晚有十二小时。",
+      "en": "A day has twenty-four hours, and a night has twelve.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "day",
+          "cn": "天",
+          "pos": "名词"
+        },
+        {
+          "en": "has",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "twenty-four",
+          "cn": "二十-四",
+          "pos": "数词"
+        },
+        {
+          "en": "hours,",
+          "cn": "小时",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "night",
+          "cn": "夜晚",
+          "pos": "名词"
+        },
+        {
+          "en": "has",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "twelve.",
+          "cn": "十二",
+          "pos": "数词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u6-s02",
+      "unit": 6,
+      "cn": "一小时有六十分钟。",
+      "en": "There are sixty minutes in an hour.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "sixty",
+          "cn": "六十",
+          "pos": "数词"
+        },
+        {
+          "en": "minutes",
+          "cn": "分钟",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "an",
+          "cn": "一个",
+          "pos": "冠词"
+        },
+        {
+          "en": "hour.",
+          "cn": "小时",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u6-s03",
+      "unit": 6,
+      "cn": "一分钟有六十秒。",
+      "en": "There are sixty seconds in a minute.",
+      "tokens": [
+        {
+          "en": "There",
+          "cn": "那里",
+          "pos": "副词"
+        },
+        {
+          "en": "are",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "sixty",
+          "cn": "六十",
+          "pos": "数词"
+        },
+        {
+          "en": "seconds",
+          "cn": "第二",
+          "pos": "数词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "minute.",
+          "cn": "分钟",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u6-s04",
+      "unit": 6,
+      "cn": "一年有十二个月。",
+      "en": "A year has twelve months.",
+      "tokens": [
+        {
+          "en": "A",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "year",
+          "cn": "年",
+          "pos": "名词"
+        },
+        {
+          "en": "has",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "twelve",
+          "cn": "十二",
+          "pos": "数词"
+        },
+        {
+          "en": "months.",
+          "cn": "月",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u6-s05",
+      "unit": 6,
+      "cn": "我们可以用钟来测量时间。",
+      "en": "We can measure time with a clock.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "measure",
+          "cn": "测量",
+          "pos": "名词"
+        },
+        {
+          "en": "time",
+          "cn": "时间",
+          "pos": "名词"
+        },
+        {
+          "en": "with",
+          "cn": "和……一起",
+          "pos": "介词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "clock.",
+          "cn": "钟",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u6-s06",
+      "unit": 6,
+      "cn": "我可以问一个问题吗？",
+      "en": "May I ask a question?",
+      "tokens": [
+        {
+          "en": "May",
+          "cn": "可以",
+          "pos": "情态动词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "ask",
+          "cn": "问",
+          "pos": "名词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "question?",
+          "cn": "问题",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u6-s07",
+      "unit": 6,
+      "cn": "地球围绕太阳转。",
+      "en": "The earth goes around the sun.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "earth",
+          "cn": "地球",
+          "pos": "名词"
+        },
+        {
+          "en": "goes",
+          "cn": "走",
+          "pos": "名词"
+        },
+        {
+          "en": "around",
+          "cn": "在……周围",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sun.",
+          "cn": "孙",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u6-s08",
+      "unit": 6,
+      "cn": "我们每天做早操。",
+      "en": "We do morning exercise every day.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "do",
+          "cn": "做",
+          "pos": "助动词"
+        },
+        {
+          "en": "morning",
+          "cn": "早晨",
+          "pos": "名词"
+        },
+        {
+          "en": "exercise",
+          "cn": "锻炼",
+          "pos": "名词"
+        },
+        {
+          "en": "every",
+          "cn": "每一个",
+          "pos": "名词"
+        },
+        {
+          "en": "day.",
+          "cn": "天",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u6-s09",
+      "unit": 6,
+      "cn": "现在准备好上学。",
+      "en": "Get ready for school now.",
+      "tokens": [
+        {
+          "en": "Get",
+          "cn": "准备",
+          "pos": "名词"
+        },
+        {
+          "en": "ready",
+          "cn": "准备好",
+          "pos": "名词"
+        },
+        {
+          "en": "for",
+          "cn": "为",
+          "pos": "介词"
+        },
+        {
+          "en": "school",
+          "cn": "学校",
+          "pos": "名词"
+        },
+        {
+          "en": "now.",
+          "cn": "现在",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u6-s10",
+      "unit": 6,
+      "cn": "两个男孩同时说话。",
+      "en": "The two boys speak at the same time.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "two",
+          "cn": "二",
+          "pos": "数词"
+        },
+        {
+          "en": "boys",
+          "cn": "男孩们",
+          "pos": "名词"
+        },
+        {
+          "en": "speak",
+          "cn": "说",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "same",
+          "cn": "同一的",
+          "pos": "形容词"
+        },
+        {
+          "en": "time.",
+          "cn": "时间",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u6-s11",
+      "unit": 6,
+      "cn": "现在几点了？",
+      "en": "What time is it now?",
+      "tokens": [
+        {
+          "en": "What",
+          "cn": "什么",
+          "pos": "疑问词"
+        },
+        {
+          "en": "time",
+          "cn": "时间",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "it",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "now?",
+          "cn": "现在",
+          "pos": "副词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u7-s01",
+      "unit": 7,
+      "cn": "水是液体，冰是固体。",
+      "en": "Water is a liquid, and ice is a solid.",
+      "tokens": [
+        {
+          "en": "Water",
+          "cn": "水",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "liquid,",
+          "cn": "液体",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "ice",
+          "cn": "冰",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "solid.",
+          "cn": "固体",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u7-s02",
+      "unit": 7,
+      "cn": "空气是气体。",
+      "en": "Air is a gas.",
+      "tokens": [
+        {
+          "en": "Air",
+          "cn": "空气",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "gas.",
+          "cn": "气体",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u7-s03",
+      "unit": 7,
+      "cn": "往水里放一些糖和盐。",
+      "en": "Put some sugar and salt in the water.",
+      "tokens": [
+        {
+          "en": "Put",
+          "cn": "放",
+          "pos": "名词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "sugar",
+          "cn": "食糖",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "salt",
+          "cn": "盐",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "water.",
+          "cn": "水",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u7-s04",
+      "unit": 7,
+      "cn": "奶油在冰柜里。",
+      "en": "The cream is in the freezer.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "cream",
+          "cn": "奶油",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "freezer.",
+          "cn": "冰柜",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u7-s05",
+      "unit": 7,
+      "cn": "我们加热时冰会融化。",
+      "en": "The ice will melt when we heat it.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "ice",
+          "cn": "冰",
+          "pos": "名词"
+        },
+        {
+          "en": "will",
+          "cn": "将会",
+          "pos": "情态动词"
+        },
+        {
+          "en": "melt",
+          "cn": "（使）熔化",
+          "pos": "名词"
+        },
+        {
+          "en": "when",
+          "cn": "当……时",
+          "pos": "连词"
+        },
+        {
+          "en": "we",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "heat",
+          "cn": "加热",
+          "pos": "名词"
+        },
+        {
+          "en": "it.",
+          "cn": "它",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u7-s06",
+      "unit": 7,
+      "cn": "我们能看到热水冒出的水蒸气。",
+      "en": "We can see steam from the hot water.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "see",
+          "cn": "看",
+          "pos": "名词"
+        },
+        {
+          "en": "steam",
+          "cn": "水蒸气",
+          "pos": "名词"
+        },
+        {
+          "en": "from",
+          "cn": "从",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "hot",
+          "cn": "热的",
+          "pos": "形容词"
+        },
+        {
+          "en": "water.",
+          "cn": "水",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u7-s07",
+      "unit": 7,
+      "cn": "我饿了，所以想吃冰淇淋。",
+      "en": "I am hungry, so I want some ice cream.",
+      "tokens": [
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "am",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "hungry,",
+          "cn": "饥饿的",
+          "pos": "形容词"
+        },
+        {
+          "en": "so",
+          "cn": "所以",
+          "pos": "连词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "want",
+          "cn": "想要",
+          "pos": "名词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "ice",
+          "cn": "冰",
+          "pos": "名词"
+        },
+        {
+          "en": "cream.",
+          "cn": "奶油",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u7-s08",
+      "unit": 7,
+      "cn": "我们在家开聚会。",
+      "en": "We have a party at home.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "have",
+          "cn": "有",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "party",
+          "cn": "聚会",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "home.",
+          "cn": "回家",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u7-s09",
+      "unit": 7,
+      "cn": "请把门打开。",
+      "en": "Please open the door.",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "open",
+          "cn": "开放",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "door.",
+          "cn": "门",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u7-s10",
+      "unit": 7,
+      "cn": "这是一个塑料瓶。",
+      "en": "This is a plastic bottle.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "plastic",
+          "cn": "塑料",
+          "pos": "名词"
+        },
+        {
+          "en": "bottle.",
+          "cn": "瓶子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u7-s11",
+      "unit": 7,
+      "cn": "把糖和牛奶混合。",
+      "en": "Mix the sugar and the milk.",
+      "tokens": [
+        {
+          "en": "Mix",
+          "cn": "（使）混合",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "sugar",
+          "cn": "食糖",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "milk.",
+          "cn": "牛奶",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u7-s12",
+      "unit": 7,
+      "cn": "现在混合物做好了。",
+      "en": "Now the mixture is ready.",
+      "tokens": [
+        {
+          "en": "Now",
+          "cn": "现在",
+          "pos": "副词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "mixture",
+          "cn": "混合物",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "ready.",
+          "cn": "准备好",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u7-s13",
+      "unit": 7,
+      "cn": "加一些巧克力，摇一摇瓶子。",
+      "en": "Add some chocolate and shake the bottle.",
+      "tokens": [
+        {
+          "en": "Add",
+          "cn": "添加",
+          "pos": "动词"
+        },
+        {
+          "en": "some",
+          "cn": "一些",
+          "pos": "限定词"
+        },
+        {
+          "en": "chocolate",
+          "cn": "巧克力",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "shake",
+          "cn": "摇动",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "bottle.",
+          "cn": "瓶子",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u7-s14",
+      "unit": 7,
+      "cn": "把水放进冰柜，它就会结冰。",
+      "en": "Put the water in the freezer and it will freeze.",
+      "tokens": [
+        {
+          "en": "Put",
+          "cn": "放",
+          "pos": "名词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "water",
+          "cn": "水",
+          "pos": "名词"
+        },
+        {
+          "en": "in",
+          "cn": "在……里",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "freezer",
+          "cn": "冰柜",
+          "pos": "名词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "it",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "will",
+          "cn": "将会",
+          "pos": "情态动词"
+        },
+        {
+          "en": "freeze.",
+          "cn": "结冰",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u7-s15",
+      "unit": 7,
+      "cn": "当然！我可以帮你。",
+      "en": "Sure! I can help you.",
+      "tokens": [
+        {
+          "en": "Sure!",
+          "cn": "当然",
+          "pos": "名词"
+        },
+        {
+          "en": "I",
+          "cn": "I",
+          "pos": "名词"
+        },
+        {
+          "en": "can",
+          "cn": "能",
+          "pos": "情态动词"
+        },
+        {
+          "en": "help",
+          "cn": "帮助",
+          "pos": "动词"
+        },
+        {
+          "en": "you.",
+          "cn": "你",
+          "pos": "代词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u7-s16",
+      "unit": 7,
+      "cn": "别担心，很容易。",
+      "en": "Don't worry. It is easy.",
+      "tokens": [
+        {
+          "en": "Don't",
+          "cn": "不",
+          "pos": "助动词"
+        },
+        {
+          "en": "worry.",
+          "cn": "担心（复数 worries）",
+          "pos": "名词"
+        },
+        {
+          "en": "It",
+          "cn": "它",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "easy.",
+          "cn": "容易的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u7-s17",
+      "unit": 7,
+      "cn": "做好了！冰淇淋好了。",
+      "en": "Done! The ice cream is ready.",
+      "tokens": [
+        {
+          "en": "Done!",
+          "cn": "做好了！",
+          "pos": "名词"
+        },
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "ice",
+          "cn": "冰",
+          "pos": "名词"
+        },
+        {
+          "en": "cream",
+          "cn": "奶油",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "ready.",
+          "cn": "准备好",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u8-s01",
+      "unit": 8,
+      "cn": "要有礼貌，轮流来。",
+      "en": "Be polite and take turns.",
+      "tokens": [
+        {
+          "en": "Be",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "polite",
+          "cn": "有礼貌的",
+          "pos": "形容词"
+        },
+        {
+          "en": "and",
+          "cn": "和",
+          "pos": "连词"
+        },
+        {
+          "en": "take",
+          "cn": "拿",
+          "pos": "名词"
+        },
+        {
+          "en": "turns.",
+          "cn": "转弯",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u8-s02",
+      "unit": 8,
+      "cn": "请敲门。",
+      "en": "Please knock at the door.",
+      "tokens": [
+        {
+          "en": "Please",
+          "cn": "请",
+          "pos": "名词"
+        },
+        {
+          "en": "knock",
+          "cn": "敲击",
+          "pos": "名词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "door.",
+          "cn": "门",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u8-s03",
+      "unit": 8,
+      "cn": "公牛在农场里。",
+      "en": "The ox is on the farm.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "ox",
+          "cn": "公牛",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "on",
+          "cn": "在……上",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "farm.",
+          "cn": "农场",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u8-s04",
+      "unit": 8,
+      "cn": "我们等到六点。",
+      "en": "We wait until six o'clock.",
+      "tokens": [
+        {
+          "en": "We",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "wait",
+          "cn": "等待",
+          "pos": "名词"
+        },
+        {
+          "en": "until",
+          "cn": "直到……为止",
+          "pos": "名词"
+        },
+        {
+          "en": "six",
+          "cn": "六",
+          "pos": "数词"
+        },
+        {
+          "en": "o'clock.",
+          "cn": "……点钟",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u8-s05",
+      "unit": 8,
+      "cn": "有人在门口。",
+      "en": "Someone is at the door.",
+      "tokens": [
+        {
+          "en": "Someone",
+          "cn": "某人",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "door.",
+          "cn": "门",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u8-s06",
+      "unit": 8,
+      "cn": "我们邀请朋友来参加聚会吧。",
+      "en": "Let's invite our friends to the party.",
+      "tokens": [
+        {
+          "en": "Let's",
+          "cn": "让我们",
+          "pos": "缩略"
+        },
+        {
+          "en": "invite",
+          "cn": "邀请",
+          "pos": "名词"
+        },
+        {
+          "en": "our",
+          "cn": "我们的",
+          "pos": "限定词"
+        },
+        {
+          "en": "friends",
+          "cn": "朋友",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "party.",
+          "cn": "聚会",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u8-s07",
+      "unit": 8,
+      "cn": "猫在门后。",
+      "en": "The cat is behind the door.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "cat",
+          "cn": "猫",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "behind",
+          "cn": "在……之后",
+          "pos": "介词"
+        },
+        {
+          "en": "the",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "door.",
+          "cn": "门",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u8-s08",
+      "unit": 8,
+      "cn": "也许他在家。",
+      "en": "Maybe he is at home.",
+      "tokens": [
+        {
+          "en": "Maybe",
+          "cn": "也许",
+          "pos": "名词"
+        },
+        {
+          "en": "he",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "home.",
+          "cn": "回家",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u8-s09",
+      "unit": 8,
+      "cn": "婴儿开始哭了。",
+      "en": "The baby begins to cry.",
+      "tokens": [
+        {
+          "en": "The",
+          "cn": "这",
+          "pos": "冠词"
+        },
+        {
+          "en": "baby",
+          "cn": "婴儿",
+          "pos": "名词"
+        },
+        {
+          "en": "begins",
+          "cn": "开始",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "cry.",
+          "cn": "哭",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u8-s10",
+      "unit": 8,
+      "cn": "她对每个人都很友善。",
+      "en": "She is kind to everyone.",
+      "tokens": [
+        {
+          "en": "She",
+          "cn": "她",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "kind",
+          "cn": "种类",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "everyone.",
+          "cn": "每个人",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u8-s11",
+      "unit": 8,
+      "cn": "蜂蜜是甜的。",
+      "en": "Honey is sweet.",
+      "tokens": [
+        {
+          "en": "Honey",
+          "cn": "蜂蜜",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "sweet.",
+          "cn": "甜的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u8-s12",
+      "unit": 8,
+      "cn": "他给我们讲了一个有趣的笑话。",
+      "en": "He tells us a funny joke.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "tells",
+          "cn": "告诉",
+          "pos": "名词"
+        },
+        {
+          "en": "us",
+          "cn": "我们",
+          "pos": "代词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "funny",
+          "cn": "滑稽的",
+          "pos": "形容词"
+        },
+        {
+          "en": "joke.",
+          "cn": "笑话",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u8-s13",
+      "unit": 8,
+      "cn": "你说什么都行。",
+      "en": "Whatever you say is fine.",
+      "tokens": [
+        {
+          "en": "Whatever",
+          "cn": "无论什么",
+          "pos": "名词"
+        },
+        {
+          "en": "you",
+          "cn": "你",
+          "pos": "代词"
+        },
+        {
+          "en": "say",
+          "cn": "说",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "fine.",
+          "cn": "健康的",
+          "pos": "形容词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u8-s14",
+      "unit": 8,
+      "cn": "请再给我一个杯子。",
+      "en": "Give me another cup, please.",
+      "tokens": [
+        {
+          "en": "Give",
+          "cn": "给",
+          "pos": "名词"
+        },
+        {
+          "en": "me",
+          "cn": "我",
+          "pos": "代词"
+        },
+        {
+          "en": "another",
+          "cn": "另一",
+          "pos": "名词"
+        },
+        {
+          "en": "cup,",
+          "cn": "杯子",
+          "pos": "名词"
+        },
+        {
+          "en": "please.",
+          "cn": "请",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u8-s15",
+      "unit": 8,
+      "cn": "他在家里愿意帮忙。",
+      "en": "He is helpful at home.",
+      "tokens": [
+        {
+          "en": "He",
+          "cn": "和",
+          "pos": "名词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "helpful",
+          "cn": "有帮助的",
+          "pos": "形容词"
+        },
+        {
+          "en": "at",
+          "cn": "在",
+          "pos": "介词"
+        },
+        {
+          "en": "home.",
+          "cn": "回家",
+          "pos": "名词"
+        }
+      ]
+    },
+    {
+      "id": "hj-4b-u8-s16",
+      "unit": 8,
+      "cn": "这是学英语的好方法。",
+      "en": "This is a good way to learn English.",
+      "tokens": [
+        {
+          "en": "This",
+          "cn": "这个",
+          "pos": "代词"
+        },
+        {
+          "en": "is",
+          "cn": "是",
+          "pos": "动词"
+        },
+        {
+          "en": "a",
+          "cn": "A",
+          "pos": "名词"
+        },
+        {
+          "en": "good",
+          "cn": "好的",
+          "pos": "形容词"
+        },
+        {
+          "en": "way",
+          "cn": "路",
+          "pos": "名词"
+        },
+        {
+          "en": "to",
+          "cn": "到",
+          "pos": "介词"
+        },
+        {
+          "en": "learn",
+          "cn": "学习",
+          "pos": "名词"
+        },
+        {
+          "en": "English.",
+          "cn": "英文的",
+          "pos": "形容词"
+        }
+      ]
+    }
+  ]
 }
