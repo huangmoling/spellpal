@@ -36,7 +36,7 @@ const buckets = {
   articleIssue: [],
 }
 
-const CN_PUNCT = /[，。！？；：“”‘’（）]/
+const CN_PUNCT = /[，。！？；：（）]/ // 真中文/全角标点（打字跳过集之外的才危险；英文弯撇号 ’ 不算）
 const wordOf = (en) => en.replace(/[.,!?;:'"()]/g, ' ').split(/\s+/).filter(Boolean)
 
 for (const r of rows) {
